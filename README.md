@@ -8,13 +8,38 @@ A bilingual (Chinese and English) benchmark for narrative understanding over mov
 
 STAGE contains structured annotations for understanding complex narratives in both Chinese and English films. The dataset includes:
 
-- **Chinese**: Chinese movie scripts with annotations (42 movies)
-- **English**: English movie scripts with annotations (109 movies)
+- **Chinese**: 42 Chinese movie scripts with full annotations
+- **English**: 109 English movie scripts with full annotations
+- **Metadata**: `chinese_movie_info.csv` and `english_movie_info.csv` with movie-level information (title, word count, number of scenes, genres)
 
-Each movie contains:
-- `script.json`: Scene-by-scene segmented movie scripts
-- `question_pairs_final.csv`: Multi-hop question-answer pairs
-- `event_summarization_refined.json`: Event-level narrative summaries
+## Directory Structure
+
+Each movie directory contains:
+
+| File / Directory | Description |
+|---|---|
+| `script.json` | Scene-by-scene segmented movie script |
+| `episodes.json` | Episode-level narrative units with descriptions and related events |
+| `episde_relations.json` | Pairwise temporal/causal relations between episodes with confidence scores |
+| `episde_causality_graph.json` | Weighted causality graph over episodes |
+| `extraction_results.json` | Per-scene entity and event extraction results |
+| `doc2chunks.json` | Document-to-chunk mapping with full text and metadata |
+| `rename_map.json` | Entity name normalization/alias map |
+| `question_pairs.csv` | Multi-hop question-answer pairs with evidence and QA type annotations |
+| `ICRP/` | In-Character Role-Playing data (per-character subdirectories) |
+
+### ICRP (In-Character Role-Playing)
+
+Each movie's `ICRP/` directory contains one subfolder per character (typically 3 characters per movie), with:
+
+| File | Description |
+|---|---|
+| `persona_card.json` | Character traits, speaking style, behavioral constraints, and dialogue exemplars |
+| `key_relations.json` | Key relationships with other characters |
+| `icrp_qa.json` | Role-playing QA pairs with supporting/contradicting facts |
+| `actions.csv` | Character's physical actions per scene |
+| `dialogues.csv` | Character's dialogue lines per scene |
+| `facts.csv` | Factual statements about the character per scene |
 
 ## Data Format
 
@@ -30,29 +55,67 @@ Each movie contains:
 ]
 ```
 
-### question_pairs_final.csv
-Contains question-answer pairs designed to test multi-hop reasoning over the narrative.
+### episodes.json
+```json
+[
+  {
+    "id": "ep_4f8f0b6d18e73a34",
+    "name": "Episode Title",
+    "description": "Narrative description of the episode",
+    "source_documents": ["scene_7_part_1"],
+    "related_events": ["event description 1"],
+    "related_occasions": ["occasion description"]
+  }
+]
+```
 
-### event_summarization_refined.json
-Event-level summaries capturing key narrative elements and their relationships.
+### episde_relations.json
+```json
+[
+  {
+    "id": "rel_ep_ep_8f935bc28619",
+    "subject_id": "ep_...",
+    "object_id": "ep_...",
+    "relation_type": "precedes",
+    "reason": "Natural language justification",
+    "source_documents": ["scene_11_part_1"],
+    "confidence": 0.95
+  }
+]
+```
+
+### episde_causality_graph.json
+```json
+[
+  {
+    "subject_id": "ep_...",
+    "object_id": "ep_...",
+    "relation_type": "CAUSAL_LINK",
+    "original_relation_type": "precedes",
+    "weight": 0.7,
+    "effective_weight": 0.595
+  }
+]
+```
+
+### question_pairs.csv
+
+| Column | Description |
+|---|---|
+| `id` | Question ID |
+| `scene` | Related scene |
+| `question` | Question text |
+| `answer` | Answer text |
+| `evidence` | Supporting evidence from the script |
+| `qa_type` | QA type (e.g., `character states`, `causal/relational queries`, `dialogue/beliefs`, `detailed description`, `temporal references`) |
 
 ## Publication Status
 
-**🚧 Currently Under Review at ACL 2025**
-
-This is a partial release containing the core annotations. The full dataset, including additional annotations and evaluation benchmarks, will be released upon paper acceptance.
-
-## Access to Full Dataset
-
-If you need access to the complete dataset before publication, please fill out our data request form:
-
-**[Request Full Dataset Access](https://forms.gle/4ByHYYwe5MHuVZtG8)**
-
-We will review requests and grant access for research purposes on a case-by-case basis.
+**Published as arXiv preprint**
 
 ## Citation
 
-If you use this dataset in your research, please cite our paper (citation will be updated upon publication):
+If you use this dataset in your research, please cite our paper:
 
 ```bibtex
 @article{tian2026stage,
@@ -65,10 +128,4 @@ If you use this dataset in your research, please cite our paper (citation will b
 
 ## Contact
 
-For questions or issues regarding the dataset, please:
-- Open an issue in this repository
-- Fill out the [data request form](https://forms.gle/4ByHYYwe5MHuVZtG8) for access inquiries
-
----
-
-**Note**: This is a preliminary release for research preview. More comprehensive documentation and analysis tools will be provided with the full release.
+For questions or issues regarding the dataset, please open an issue in this repository.
