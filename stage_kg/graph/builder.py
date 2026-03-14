@@ -52,22 +52,32 @@ class KnowledgeGraph:
             existing = self.nodes[canonical_id]
             _merge_into(existing, node)
         else:
-            canonical_id = node.get("id") or f"n_{uuid.uuid4().hex[:12]}"
-            # Ensure uniqueness
-            while canonical_id in self.nodes:
-                canonical_id = f"n_{uuid.uuid4().hex[:12]}"
+            proposed_id = node.get("id") or ""
+            if proposed_id and proposed_id in self.nodes:
+                # ID already exists under a different name (e.g. name changed during
+                # normalization).  Merge into the existing node instead of creating
+                # a duplicate with an auto-generated n_ ID.
+                canonical_id = proposed_id
+                _merge_into(self.nodes[canonical_id], node)
+                # Index the new name as well so future lookups by this name work.
+                self._name_to_id[lookup_key] = canonical_id
+            else:
+                canonical_id = proposed_id or f"n_{uuid.uuid4().hex[:12]}"
+                # If even the generated ID collides (extremely unlikely), re-generate.
+                while canonical_id in self.nodes:
+                    canonical_id = f"n_{uuid.uuid4().hex[:12]}"
 
-            new_node = {
-                "id": canonical_id,
-                "type": node_type,
-                "name": canonical_name,
-                "aliases": list(set(node.get("surface_forms", [canonical_name]))),
-                "description": node.get("description", ""),
-                "scene_refs": _as_list(node.get("scene_refs") or node.get("scene_id")),
-                "evidence": node.get("evidence", []),
-            }
-            self.nodes[canonical_id] = new_node
-            self._name_to_id[lookup_key] = canonical_id
+                new_node = {
+                    "id": canonical_id,
+                    "type": node_type,
+                    "name": canonical_name,
+                    "aliases": list(set(node.get("surface_forms", [canonical_name]))),
+                    "description": node.get("description", ""),
+                    "scene_refs": _as_list(node.get("scene_refs") or node.get("scene_id")),
+                    "evidence": node.get("evidence", []),
+                }
+                self.nodes[canonical_id] = new_node
+                self._name_to_id[lookup_key] = canonical_id
 
         # Map raw temp/extraction id to canonical_id
         for raw_id in [node.get("id"), node.get("temp_id")]:

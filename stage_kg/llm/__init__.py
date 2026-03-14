@@ -1,6 +1,5 @@
 """LLM backend factory."""
 
-from typing import Optional
 from .base import BaseLLM
 
 
@@ -14,7 +13,7 @@ def get_llm(
     Factory function to instantiate the correct LLM backend.
 
     Args:
-        provider: One of 'openai', 'anthropic', 'vllm'.
+        provider: One of 'openai', 'anthropic', 'gemini', 'vllm'.
         model: Model name/ID (provider-specific default if None).
         api_key: API key (reads from env if None).
         base_url: Override endpoint URL (mainly for vllm).
@@ -29,6 +28,10 @@ def get_llm(
         from .anthropic_client import AnthropicLLM
         return AnthropicLLM(model=model or "claude-sonnet-4-6", api_key=api_key)
 
+    elif provider == "gemini":
+        from .gemini_client import GeminiLLM
+        return GeminiLLM(model=model or "gemini-2.5-flash", api_key=api_key)
+
     elif provider == "vllm":
         from .vllm_client import VLLMLLm
         return VLLMLLm(
@@ -38,5 +41,5 @@ def get_llm(
 
     else:
         raise ValueError(
-            f"Unknown provider '{provider}'. Choose from: openai, anthropic, vllm"
+            f"Unknown provider '{provider}'. Choose from: openai, anthropic, gemini, vllm"
         )

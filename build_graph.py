@@ -58,8 +58,8 @@ def parse_args() -> argparse.Namespace:
     p.add_argument(
         "--model",
         type=str,
-        default="anthropic",
-        choices=["openai", "anthropic", "vllm"],
+        default="gemini",
+        choices=["openai", "anthropic", "gemini", "vllm"],
         help="LLM provider.",
     )
     p.add_argument(
@@ -72,7 +72,13 @@ def parse_args() -> argparse.Namespace:
         "--api_key",
         type=str,
         default=None,
-        help="API key (falls back to ANTHROPIC_API_KEY / OPENAI_API_KEY env var).",
+        help="API key string (overrides --api_key_file and env vars).",
+    )
+    p.add_argument(
+        "--api_key_file",
+        type=Path,
+        default=None,
+        help="Path to a file containing the API key (e.g. gemini.txt).",
     )
     p.add_argument(
         "--base_url",
@@ -126,12 +132,17 @@ def main() -> None:
         logger.error("Input directory not found: %s", args.input_dir)
         sys.exit(1)
 
+    # Resolve API key: explicit string > key file > env var (handled inside each client)
+    api_key = args.api_key
+    if not api_key and args.api_key_file:
+        api_key = Path(args.api_key_file).read_text().strip()
+
     # Build LLM backend
     logger.info("Initializing LLM backend: provider=%s model=%s", args.model, args.model_name)
     llm = get_llm(
         provider=args.model,
         model=args.model_name,
-        api_key=args.api_key,
+        api_key=api_key,
         base_url=args.base_url,
     )
     logger.info("LLM ready: %s", llm.model_id)

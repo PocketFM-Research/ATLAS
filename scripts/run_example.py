@@ -32,8 +32,9 @@ DATASET_DIR = Path(__file__).parent.parent
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--provider", default="anthropic", choices=["openai", "anthropic", "vllm"])
+    p.add_argument("--provider", default="gemini", choices=["openai", "anthropic", "gemini", "vllm"])
     p.add_argument("--model_name", default=None)
+    p.add_argument("--api_key_file", type=Path, default=DATASET_DIR / "gemini.txt", help="Path to API key file")
     p.add_argument("--max_scenes", type=int, default=3)
     p.add_argument("--output_dir", type=Path, default=DATASET_DIR / "output")
     p.add_argument("--skip_normalization", action="store_true")
@@ -52,8 +53,12 @@ def main():
     movie.scenes = movie.scenes[: args.max_scenes]
     logger.info("Loaded %d scenes (limited to %d)", len(movie.scenes), args.max_scenes)
 
+    api_key = None
+    if args.api_key_file and Path(args.api_key_file).exists():
+        api_key = Path(args.api_key_file).read_text().strip()
+
     logger.info("Initializing LLM: %s", args.provider)
-    llm = get_llm(provider=args.provider, model=args.model_name)
+    llm = get_llm(provider=args.provider, model=args.model_name, api_key=api_key)
 
     graph = run_pipeline(
         movie=movie,
