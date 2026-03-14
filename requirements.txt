@@ -1,0 +1,9 @@
+# Core
+anthropic>=0.40.0
+openai>=1.50.0
+
+# Optional (for vLLM — install separately if using local inference)
+# openai is already compatible with vLLM's OpenAI-compatible endpoint
+
+# Utilities
+tqdm>=4.66.0
