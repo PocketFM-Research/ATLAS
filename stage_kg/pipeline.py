@@ -37,6 +37,7 @@ def run_pipeline(
     llm: BaseLLM,
     output_dir: Path,
     skip_normalization: bool = False,
+    api_key: Optional[str] = None,
 ) -> KnowledgeGraph:
     """
     Run the full KG extraction pipeline for one movie.
@@ -129,6 +130,7 @@ def run_pipeline(
             movie_title=movie.title,
             cache=cache,
             prompt_logger=prompt_logger,
+            api_key=api_key,
         )
         merge_log_all.extend(ev_log)
 
@@ -148,6 +150,7 @@ def run_pipeline(
                 movie_title=movie.title,
                 cache=cache,
                 prompt_logger=prompt_logger,
+                api_key=api_key,
             )
             normalized_entities[etype] = norm_ents
             merge_log_all.extend(ent_log)

@@ -1,7 +1,5 @@
 """
-Relation extraction (Pass 3).
-
-Extracts typed edges between entities and events using schema constraints.
+Relation extraction (Pass 3) with reflection-based QC (Appendix C.3).
 """
 
 import logging
@@ -11,10 +9,12 @@ from typing import List, Dict, Optional
 from ..llm.base import BaseLLM
 from ..ingest.loader import SceneRecord
 from ..prompts import relation_extraction as rp
+from ..prompts.reflection import build_relation_reflection_prompt
 from ..schema import is_valid_triple, NodeType, RelationType
-from ..utils.json_repair import parse_llm_json, validate_relation_list
+from ..utils.json_repair import parse_llm_json
 from ..utils.cache import Cache
 from ..utils.logging_utils import PromptLogger
+from .reflection import reflection_loop
 
 logger = logging.getLogger(__name__)
 
@@ -31,39 +31,19 @@ def extract_relations_for_movie(
     cache: Cache,
     prompt_logger: Optional[PromptLogger] = None,
 ) -> Dict[str, List[Dict]]:
-    """
-    Run relation extraction over all scenes.
-
-    Returns:
-        Dict mapping scene_id -> list of raw relation dicts.
-    """
     all_relations: Dict[str, List[Dict]] = {}
-
     for scene in scenes:
         events = scene_events.get(scene.scene_id, [])
         entities = scene_entities.get(scene.scene_id, [])
-
         if not events and not entities:
             all_relations[scene.scene_id] = []
             continue
-
-        scene_rels = extract_relations_for_scene(
-            scene=scene,
-            events=events,
-            entities=entities,
-            llm=llm,
-            movie_id=movie_id,
-            movie_title=movie_title,
-            cache=cache,
-            prompt_logger=prompt_logger,
+        all_relations[scene.scene_id] = extract_relations_for_scene(
+            scene, events, entities, llm, movie_id, movie_title, cache, prompt_logger
         )
-        all_relations[scene.scene_id] = scene_rels
-
     total = sum(len(v) for v in all_relations.values())
-    logger.info(
-        "[%s] Relation extraction complete: %d relations across %d scenes",
-        movie_id, total, len(scenes),
-    )
+    logger.info("[%s] Relation extraction complete: %d relations across %d scenes",
+                movie_id, total, len(scenes))
     return all_relations
 
 
@@ -77,7 +57,6 @@ def extract_relations_for_scene(
     cache: Cache,
     prompt_logger: Optional[PromptLogger] = None,
 ) -> List[Dict]:
-    """Extract relations from a single scene."""
     scene_rels: List[Dict] = []
 
     for chunk in scene.chunks:
@@ -96,69 +75,119 @@ def extract_relations_for_scene(
         if len(chunk_text) > MAX_CHUNK_CHARS:
             chunk_text = chunk_text[:MAX_CHUNK_CHARS]
 
-        # Subset to chunk-relevant events and entities
         chunk_events = [e for e in events if e.get("chunk_id") == chunk_id] or events
         chunk_entities = [e for e in entities if e.get("chunk_id") == chunk_id] or entities
 
-        prompt = rp.build_prompt(
-            scene_id=scene.scene_id,
-            scene_title=scene.title,
-            scene_text=chunk_text,
-            events=_slim_events(chunk_events),
-            entities=_slim_entities(chunk_entities),
-            chunk_id=chunk_id,
-            movie_title=movie_title,
+        def extract_fn(feedback: Optional[str]):
+            feedback_block = (
+                f"\n\nPREVIOUS ATTEMPT FEEDBACK (fix these issues): {feedback}\n"
+                if feedback else ""
+            )
+            p = rp.build_prompt(
+                scene_id=scene.scene_id,
+                scene_title=scene.title,
+                scene_text=chunk_text,
+                events=_slim_events(chunk_events),
+                entities=_slim_entities(chunk_entities),
+                chunk_id=chunk_id,
+                movie_title=movie_title,
+            ) + feedback_block
+            raw = llm.complete(p, system=rp.SYSTEM_PROMPT, temperature=0.0, max_tokens=8192)
+            if prompt_logger:
+                prompt_logger.log("relation_extraction", scene.scene_id, p, raw, llm.model_id)
+            result = parse_llm_json(raw, schema_hint="relation_list")
+            if result is not None and not isinstance(result, list):
+                result = [result]
+            # Schema filter — reject invalid triples immediately
+            if result:
+                result = [r for r in result
+                          if isinstance(r, dict) and _validate_schema(r)]
+                if len(result) < len(result or []):
+                    logger.debug("Schema filter removed %d invalid relations", 0)
+            return result, p
+
+        def reflect_fn(relations):
+            return build_relation_reflection_prompt(
+                chunk_text, relations or [], chunk_events, chunk_entities
+            )
+
+        relations = reflection_loop(
+            extract_fn=extract_fn,
+            reflect_fn=reflect_fn,
+            llm=llm,
+            scene_id=f"{scene.scene_id}/{chunk_id}",
+            prompt_logger=prompt_logger,
         )
 
-        raw = llm.complete(prompt, system=rp.SYSTEM_PROMPT, temperature=0.0)
-
-        if prompt_logger:
-            prompt_logger.log("relation_extraction", scene.scene_id, prompt, raw, llm.model_id)
-
-        relations = parse_llm_json(raw, schema_hint="relation_list")
-        if relations is None:
-            logger.warning(
-                "Relation extraction returned unparseable JSON for %s/%s", scene.scene_id, chunk_id
-            )
+        if not relations:
+            logger.warning("Relation extraction yielded nothing for %s/%s — check prompt logs",
+                           scene.scene_id, chunk_id)
             cache.set(cache_key, [])
             continue
 
-        if not isinstance(relations, list):
-            relations = [relations]
+        # Schema repair: if endpoint types uniquely determine a valid relation, rewrite it
+        relations = [_repair_relation(r) for r in relations]
+        relations = [r for r in relations if r is not None]
 
-        # Validate schema and enrich
-        valid_rels = []
         for rel in relations:
-            if not isinstance(rel, dict):
-                continue
-            if not _validate_schema(rel):
-                logger.debug(
-                    "Schema violation: (%s, %s, %s) — skipping",
-                    rel.get("source_type"), rel.get("relation"), rel.get("target_type"),
-                )
-                continue
             _enrich_relation(rel, scene, chunk_id, movie_id)
-            valid_rels.append(rel)
 
-        cache.set(cache_key, valid_rels)
-        scene_rels.extend(valid_rels)
-        logger.debug(
-            "Extracted %d valid relations from scene=%s chunk=%s",
-            len(valid_rels), scene.scene_id, chunk_id,
-        )
+        cache.set(cache_key, relations)
+        scene_rels.extend(relations)
+        logger.debug("Extracted %d valid relations from scene=%s chunk=%s",
+                     len(relations), scene.scene_id, chunk_id)
 
     return scene_rels
 
 
+# ------------------------------------------------------------------ schema helpers
+
 def _validate_schema(rel: Dict) -> bool:
-    """Check that (source_type, relation, target_type) is schema-valid."""
     try:
-        src_type = NodeType(rel.get("source_type", ""))
-        relation = RelationType(rel.get("relation", ""))
-        tgt_type = NodeType(rel.get("target_type", ""))
-        return is_valid_triple(src_type, relation, tgt_type)
+        st = NodeType(rel.get("source_type", ""))
+        rt = RelationType(rel.get("relation", ""))
+        tt = NodeType(rel.get("target_type", ""))
+        return is_valid_triple(st, rt, tt)
     except ValueError:
         return False
+
+
+def _repair_relation(rel: Dict) -> Optional[Dict]:
+    """
+    Schema-constrained type repair (Appendix C.3, Table 12).
+
+    If a relation violates the schema but the endpoint types uniquely
+    determine a valid relation type, rewrite it.  If multiple candidates
+    exist or none is valid, discard the relation.
+    """
+    if _validate_schema(rel):
+        return rel  # already valid
+
+    try:
+        src_type = NodeType(rel.get("source_type", ""))
+        tgt_type = NodeType(rel.get("target_type", ""))
+    except ValueError:
+        return None  # unknown node type — discard
+
+    from ..schema import get_valid_relations_for
+    candidates = get_valid_relations_for(src_type, tgt_type)
+
+    if len(candidates) == 1:
+        repaired = candidates.pop()
+        logger.debug(
+            "Schema repair: (%s, %s, %s) -> %s",
+            src_type, rel.get("relation"), tgt_type, repaired,
+        )
+        rel = dict(rel)
+        rel["relation"] = repaired.value
+        return rel
+
+    # Multiple candidates or none — discard
+    logger.debug(
+        "Schema violation discarded: (%s, %s, %s) — %d candidates",
+        src_type, rel.get("relation"), tgt_type, len(candidates),
+    )
+    return None
 
 
 def _slim_events(events: List[Dict]) -> List[Dict]:
@@ -180,7 +209,6 @@ def _slim_entities(entities: List[Dict]) -> List[Dict]:
 
 
 def _enrich_relation(rel: Dict, scene: SceneRecord, chunk_id: str, movie_id: str) -> None:
-    """Add stable IDs and provenance fields in place."""
     temp = rel.get("temp_id", "")
     rel["id"] = f"rel_{movie_id[:8]}_{scene.scene_id}_{temp or uuid.uuid4().hex[:6]}"
     rel.setdefault("scene_id", scene.scene_id)

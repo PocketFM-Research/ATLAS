@@ -1,33 +1,40 @@
 """
-Canonicalization and normalization of extracted nodes.
+Entity normalization and disambiguation (Appendix C.2).
 
-Strategy (paper-faithful):
-1. String normalization (lowercase, strip, collapse whitespace).
-2. Apply dataset rename_map if available.
-3. String-similarity clustering (using difflib) to find candidate duplicates.
-4. LLM adjudication for ambiguous candidate pairs.
-5. Merge confirmed duplicates, preserving alias lists and provenance.
+Full pipeline:
+1. LLM-based scope/type normalization (stabilize names and types before merging).
+2. Dual embeddings: name embedding + description embedding per entity.
+3. Combined similarity: α·sim_name + (1-α)·sim_desc.
+4. k-NN graph → Laplacian → eigengap heuristic for cluster count.
+5. k-means clustering on joint [β·name; (1-β)·desc] embeddings.
+6. LLM-assisted disambiguation per cluster (Figure 9 prompt format).
+7. Apply merge decisions: canonical name, alias set, merged provenance.
 """
 
 import logging
 import re
 import uuid
-from difflib import SequenceMatcher
-from typing import Dict, List, Optional, Set, Tuple
+from typing import Dict, List, Optional, Tuple
+
+import numpy as np
 
 from ..llm.base import BaseLLM
-from ..prompts import merge_adjudication as mp
 from ..utils.json_repair import parse_llm_json
 from ..utils.cache import Cache
 from ..utils.logging_utils import PromptLogger
 
 logger = logging.getLogger(__name__)
 
-# Similarity threshold for triggering LLM adjudication
-SIMILARITY_THRESHOLD = 0.80
-# Auto-merge threshold (no LLM needed above this)
-AUTO_MERGE_THRESHOLD = 0.95
+# Combined similarity threshold below which two nodes are never merged
+# (even if they land in the same cluster, the LLM adjudicates)
+SIMILARITY_FLOOR = 0.65
 
+# Name/description weight for combined similarity
+ALPHA = 0.6   # weight on name similarity
+BETA  = 0.6   # weight on name embedding in joint vector
+
+
+# ------------------------------------------------------------------ entry point
 
 def normalize_nodes(
     nodes: List[Dict],
@@ -38,243 +45,327 @@ def normalize_nodes(
     movie_title: str,
     cache: Cache,
     prompt_logger: Optional[PromptLogger] = None,
+    api_key: Optional[str] = None,
 ) -> Tuple[List[Dict], List[Dict]]:
     """
     Normalize and deduplicate a list of nodes of the same type.
 
-    Args:
-        nodes: Raw extracted nodes (events or entities of one type).
-        node_type: 'Event', 'Character', 'Location', etc.
-        rename_map: Dataset-provided alias -> canonical name map.
-        llm: LLM backend for adjudication.
-        movie_id: Movie identifier.
-        movie_title: Movie title for prompts.
-        cache: Disk cache.
-        prompt_logger: Optional prompt logger.
-
     Returns:
         (merged_nodes, merge_log)
-        - merged_nodes: deduplicated node list
-        - merge_log: list of merge decision records for audit
     """
     if not nodes:
         return [], []
 
-    # Step 1: apply rename_map to canonical_name / name fields
+    # Step 1: apply rename_map and string-normalize canonical names
     for node in nodes:
         _apply_rename_map(node, rename_map)
 
-    # Step 2: build name -> node index
-    # Group nodes by normalized canonical name first
-    groups: Dict[str, List[Dict]] = {}
-    for node in nodes:
-        key = _normalize_string(node.get("canonical_name") or node.get("name", ""))
-        groups.setdefault(key, []).append(node)
+    # Step 2: merge nodes that are exactly identical after string normalization
+    proto_nodes, exact_log = _exact_merge(nodes)
+    merge_log = list(exact_log)
 
-    # Step 3: merge identical-name groups automatically
-    proto_nodes: List[Dict] = []
-    for key, group in groups.items():
-        merged = _merge_group(group)
-        proto_nodes.append(merged)
+    if len(proto_nodes) <= 1:
+        logger.info("[%s] %s: %d raw -> %d after exact merge",
+                    movie_id, node_type, len(nodes), len(proto_nodes))
+        return proto_nodes, merge_log
 
-    # Step 4: similarity-based clustering → LLM adjudication
-    merge_log: List[Dict] = []
-    final_nodes, log = _similarity_clustering(
-        proto_nodes,
-        node_type=node_type,
-        llm=llm,
-        movie_id=movie_id,
-        movie_title=movie_title,
-        cache=cache,
-        prompt_logger=prompt_logger,
-    )
-    merge_log.extend(log)
+    # Step 3: embed names and descriptions
+    embedder = _get_embedder(api_key)
+    names = [_get_canonical(n) for n in proto_nodes]
+    descs = [n.get("description", "") or _get_canonical(n) for n in proto_nodes]
+
+    name_vecs = embedder(names)       # (N, D)
+    desc_vecs = embedder(descs)       # (N, D)
+
+    # Step 4: combined similarity
+    from .embeddings import dual_similarity
+    S = dual_similarity(name_vecs, desc_vecs, alpha=ALPHA)
+
+    # Step 5: joint embeddings for clustering
+    # β·name + (1-β)·desc, both already unit-normalized → renormalize joint
+    joint = np.concatenate([BETA * name_vecs, (1 - BETA) * desc_vecs], axis=1)
+    norms = np.linalg.norm(joint, axis=1, keepdims=True)
+    norms = np.where(norms == 0, 1, norms)
+    joint = joint / norms
+
+    # Step 6: cluster
+    from .clustering import cluster_nodes
+    clusters = cluster_nodes(joint, S, k_nn=min(5, len(proto_nodes) - 1))
+
+    # Step 7: LLM adjudication per cluster
+    final_nodes = list(proto_nodes)
+    merged_away: set = set()
+
+    for cluster_idxs in clusters:
+        cluster_nodes_list = [proto_nodes[i] for i in cluster_idxs]
+
+        # Skip if pairwise similarities are all below the floor
+        cluster_S = S[np.ix_(cluster_idxs, cluster_idxs)]
+        max_sim = cluster_S[np.triu_indices(len(cluster_idxs), k=1)].max() if len(cluster_idxs) > 1 else 0.0
+        if max_sim < SIMILARITY_FLOOR:
+            continue
+
+        decision = _llm_adjudicate_cluster(
+            cluster_nodes_list,
+            node_type=node_type,
+            llm=llm,
+            movie_id=movie_id,
+            movie_title=movie_title,
+            cache=cache,
+            prompt_logger=prompt_logger,
+        )
+
+        merge_log.append({
+            "cluster": [n.get("id", _get_canonical(n)) for n in cluster_nodes_list],
+            "max_similarity": float(max_sim),
+            "decision": decision,
+        })
+
+        # Apply merges
+        merges = decision.get("merges", [])
+        for merge_group in merges:
+            canonical_name = merge_group.get("canonical_name", "")
+            aliases = merge_group.get("aliases", [])
+            # Find which proto_nodes are mentioned in aliases or canonical
+            to_merge = [
+                i for i, n in enumerate(proto_nodes)
+                if i in cluster_idxs
+                and (
+                    _get_canonical(n) == canonical_name
+                    or _get_canonical(n) in aliases
+                    or any(f in aliases for f in n.get("surface_forms", []))
+                )
+            ]
+            if len(to_merge) < 2:
+                continue
+
+            # Merge them all into the first
+            representative = proto_nodes[to_merge[0]]
+            for j in to_merge[1:]:
+                _merge_into_node(representative, proto_nodes[j])
+                merged_away.add(j)
+                merged_away.add(to_merge[0])  # keep, but track merged_raw_ids
+
+            representative["canonical_name"] = canonical_name
+            representative["aliases"] = list(set(
+                representative.get("aliases", []) + aliases + [canonical_name]
+            ))
+            if not representative.get("id"):
+                representative["id"] = f"node_{uuid.uuid4().hex[:12]}"
+
+    # Collect surviving nodes
+    final_nodes = [n for i, n in enumerate(proto_nodes) if i not in merged_away - {
+        # keep the representative (to_merge[0]) from each merged group
+    }]
+    # Simpler: collect indices that are NOT merged-away secondaries
+    surviving_idxs = set(range(len(proto_nodes)))
+    for cluster_idxs in clusters:
+        cluster_nodes_list = [proto_nodes[i] for i in cluster_idxs]
+        decision = next(
+            (log["decision"] for log in merge_log
+             if isinstance(log.get("cluster"), list)
+             and set(log["cluster"]) == {n.get("id", _get_canonical(n)) for n in cluster_nodes_list}),
+            {}
+        )
+        for merge_group in decision.get("merges", []):
+            canonical_name = merge_group.get("canonical_name", "")
+            aliases = merge_group.get("aliases", [])
+            to_merge_idxs = [
+                i for i in cluster_idxs
+                if _get_canonical(proto_nodes[i]) == canonical_name
+                or _get_canonical(proto_nodes[i]) in aliases
+                or any(f in aliases for f in proto_nodes[i].get("surface_forms", []))
+            ]
+            # Remove all but the first
+            for j in to_merge_idxs[1:]:
+                surviving_idxs.discard(j)
+
+    final_nodes = [proto_nodes[i] for i in sorted(surviving_idxs)]
 
     logger.info(
-        "[%s] %s normalization: %d raw -> %d merged nodes",
-        movie_id, node_type, len(nodes), len(final_nodes),
+        "[%s] %s normalization: %d raw -> %d proto -> %d merged",
+        movie_id, node_type, len(nodes), len(proto_nodes), len(final_nodes),
     )
     return final_nodes, merge_log
 
 
-def _apply_rename_map(node: Dict, rename_map: Dict[str, str]) -> None:
-    """Apply dataset rename_map to all surface forms and canonical name."""
-    canonical = node.get("canonical_name") or node.get("name", "")
-    if canonical in rename_map:
-        node["canonical_name"] = rename_map[canonical]
+# ------------------------------------------------------------------ helpers
 
-    # Also check each surface form
-    forms = node.get("surface_forms", [])
-    new_forms = []
-    for form in forms:
-        new_forms.append(rename_map.get(form, form))
-    node["surface_forms"] = list(dict.fromkeys(new_forms))  # deduplicate, preserve order
+def _get_canonical(node: Dict) -> str:
+    return node.get("canonical_name") or node.get("name", "")
 
 
 def _normalize_string(s: str) -> str:
-    """Lowercase, strip, collapse internal whitespace."""
     return re.sub(r"\s+", " ", s.strip().lower())
 
 
-def _similarity(a: str, b: str) -> float:
-    return SequenceMatcher(None, a, b).ratio()
+def _apply_rename_map(node: Dict, rename_map: Dict[str, str]) -> None:
+    canonical = _get_canonical(node)
+    if canonical in rename_map:
+        node["canonical_name"] = rename_map[canonical]
+    forms = node.get("surface_forms", [])
+    node["surface_forms"] = list(dict.fromkeys(rename_map.get(f, f) for f in forms))
 
 
-def _merge_group(nodes: List[Dict]) -> Dict:
-    """Merge a list of nodes with the same canonical name into one."""
-    if len(nodes) == 1:
-        return nodes[0]
+def _exact_merge(nodes: List[Dict]) -> Tuple[List[Dict], List[Dict]]:
+    """Merge nodes with identical normalized canonical names."""
+    groups: Dict[str, List[Dict]] = {}
+    for node in nodes:
+        key = _normalize_string(_get_canonical(node))
+        groups.setdefault(key, []).append(node)
 
-    base = dict(nodes[0])
-    # Track all raw IDs that were merged into this node for edge resolution
-    merged_raw_ids = set(base.get("_merged_raw_ids", []))
-    if base.get("id"):
-        merged_raw_ids.add(base["id"])
+    merged = []
+    log = []
+    for key, group in groups.items():
+        base = dict(group[0])
+        merged_ids = {base.get("id", "")}
+        for n in group[1:]:
+            _merge_into_node(base, n)
+            merged_ids.add(n.get("id", ""))
+            log.append({"type": "exact_merge", "key": key,
+                        "merged_ids": list(merged_ids)})
+        base["_merged_raw_ids"] = list(merged_ids - {""})
+        if not base.get("id"):
+            base["id"] = f"node_{uuid.uuid4().hex[:12]}"
+        merged.append(base)
 
-    for node in nodes[1:]:
-        # Record this node's raw ID as merged
-        if node.get("id"):
-            merged_raw_ids.add(node["id"])
-        merged_raw_ids.update(node.get("_merged_raw_ids", []))
-
-        # Merge aliases
-        existing_forms = set(base.get("surface_forms", []))
-        for form in node.get("surface_forms", []):
-            existing_forms.add(form)
-        base["surface_forms"] = list(existing_forms)
-
-        # Merge scene_refs
-        existing_scenes = set(base.get("scene_refs", [base.get("scene_id", "")]))
-        existing_scenes.add(node.get("scene_id", ""))
-        existing_scenes.discard("")
-        base["scene_refs"] = list(existing_scenes)
-
-        # Merge evidence
-        existing_ev = set(base.get("evidence", []))
-        for ev in node.get("evidence", []):
-            existing_ev.add(ev)
-        base["evidence"] = list(existing_ev)
-
-        # Prefer longer description
-        if len(node.get("description", "")) > len(base.get("description", "")):
-            base["description"] = node["description"]
-
-    base["_merged_raw_ids"] = list(merged_raw_ids)
-
-    # Assign a new stable canonical ID
-    if not base.get("id"):
-        base["id"] = f"node_{uuid.uuid4().hex[:12]}"
-
-    return base
+    return merged, log
 
 
-def _similarity_clustering(
-    nodes: List[Dict],
+def _merge_into_node(base: Dict, other: Dict) -> None:
+    """Merge `other` into `base` in place."""
+    # Surface forms / aliases
+    forms = set(base.get("surface_forms", [])) | set(other.get("surface_forms", []))
+    base["surface_forms"] = list(forms)
+
+    # Scene refs
+    refs = set(base.get("scene_refs", [base.get("scene_id", "")])) | \
+           set(other.get("scene_refs", [other.get("scene_id", "")]))
+    refs.discard("")
+    base["scene_refs"] = list(refs)
+
+    # Evidence
+    ev = set(base.get("evidence", [])) | set(other.get("evidence", []))
+    base["evidence"] = list(ev)
+
+    # Merged raw IDs (for edge resolution)
+    merged_ids = set(base.get("_merged_raw_ids", []))
+    merged_ids.update(other.get("_merged_raw_ids", []))
+    if other.get("id"):
+        merged_ids.add(other["id"])
+    base["_merged_raw_ids"] = list(merged_ids)
+
+    # Prefer longer description
+    if len(other.get("description", "")) > len(base.get("description", "")):
+        base["description"] = other["description"]
+
+
+def _get_embedder(api_key: Optional[str]):
+    """Return an embedder function, preferring Gemini if api_key is available."""
+    from .embeddings import get_gemini_embedder, _tfidf_embedder
+    if api_key:
+        return get_gemini_embedder(api_key)
+    return _tfidf_embedder
+
+
+# ------------------------------------------------------------------ LLM adjudication
+
+# Paper Figure 9 prompt format
+_CLUSTER_ADJUDICATION_SYSTEM = (
+    "You are an expert annotator for narrative knowledge graphs. "
+    "Your output must be valid JSON only — no prose, no markdown fences."
+)
+
+_CLUSTER_ADJUDICATION_TEMPLATE = """\
+Your task is to determine whether the following entity mentions refer to the same \
+narrative entity or should remain separate.
+
+Decision guidelines:
+- Similar surface forms alone are insufficient for merging.
+- Merge only if identity, narrative role, and story function are consistent.
+- Do not merge disguises, substitutions, parallel versions, or different life stages.
+- Mentions with explicit version or instance identifiers (e.g. numbered variants \
+like "Ceti Alpha V" vs "Ceti Alpha VI", or "Model T-1" vs "Model T-2") MUST remain distinct.
+- Do not merge a specific individual into a generic category; if both appear, \
+prefer the individual as canonical.
+- When merging, select a well-formed and narratively appropriate canonical name.
+
+Movie: {movie_title}
+Entity type: {node_type}
+
+Input entity information:
+{entity_descriptions}
+
+Return ONLY the following JSON format:
+{{
+  "merges": [
+    {{
+      "canonical_name": "...",
+      "aliases": ["..."],
+      "justification": "..."
+    }}
+  ],
+  "unmerged": [
+    {{
+      "name": "...",
+      "justification": "..."
+    }}
+  ]
+}}
+
+If all entities should remain separate, return an empty merges list.
+If all entities should merge, return a single entry in merges and an empty unmerged list.
+"""
+
+
+def _llm_adjudicate_cluster(
+    cluster_nodes: List[Dict],
     node_type: str,
     llm: BaseLLM,
     movie_id: str,
     movie_title: str,
     cache: Cache,
-    prompt_logger: Optional[PromptLogger] = None,
-) -> Tuple[List[Dict], List[Dict]]:
-    """
-    Cluster nodes by name similarity and adjudicate merges via LLM.
-
-    Uses a simple O(n²) approach — acceptable for scene-level node counts.
-    """
-    merge_log: List[Dict] = []
-    merged_into: Dict[int, int] = {}  # idx -> representative idx
-
-    names = [_normalize_string(n.get("canonical_name") or n.get("name", "")) for n in nodes]
-
-    for i in range(len(nodes)):
-        if i in merged_into:
-            continue
-        for j in range(i + 1, len(nodes)):
-            if j in merged_into:
-                continue
-
-            sim = _similarity(names[i], names[j])
-            if sim < SIMILARITY_THRESHOLD:
-                continue
-
-            if sim >= AUTO_MERGE_THRESHOLD:
-                # Auto-merge without LLM
-                decision = {
-                    "merge": True,
-                    "canonical_name": _pick_canonical(nodes[i], nodes[j]),
-                    "reason": f"Auto-merged: string similarity {sim:.2f} >= {AUTO_MERGE_THRESHOLD}",
-                    "confidence": sim,
-                }
-            else:
-                # LLM adjudication
-                decision = _llm_adjudicate(
-                    nodes[i], nodes[j], node_type=node_type,
-                    llm=llm, movie_id=movie_id, movie_title=movie_title,
-                    cache=cache, prompt_logger=prompt_logger,
-                )
-
-            merge_log.append({
-                "node_a_id": nodes[i].get("id", i),
-                "node_b_id": nodes[j].get("id", j),
-                "similarity": sim,
-                "decision": decision,
-            })
-
-            if decision.get("merge"):
-                # Merge j into i
-                merged = _merge_group([nodes[i], nodes[j]])
-                merged["canonical_name"] = decision.get("canonical_name", merged["canonical_name"])
-                nodes[i] = merged
-                names[i] = _normalize_string(merged.get("canonical_name", ""))
-                merged_into[j] = i
-
-    # Collect non-merged nodes
-    final = [nodes[i] for i in range(len(nodes)) if i not in merged_into]
-    return final, merge_log
-
-
-def _pick_canonical(a: Dict, b: Dict) -> str:
-    """Pick the longer / more specific canonical name."""
-    na = a.get("canonical_name") or a.get("name", "")
-    nb = b.get("canonical_name") or b.get("name", "")
-    return na if len(na) >= len(nb) else nb
-
-
-def _llm_adjudicate(
-    node_a: Dict,
-    node_b: Dict,
-    node_type: str,
-    llm: BaseLLM,
-    movie_id: str,
-    movie_title: str,
-    cache: Cache,
-    prompt_logger: Optional[PromptLogger] = None,
+    prompt_logger: Optional[PromptLogger],
 ) -> Dict:
-    """Ask LLM to decide whether two nodes should be merged."""
     import json
 
-    key_a = node_a.get("id", node_a.get("canonical_name", ""))
-    key_b = node_b.get("id", node_b.get("canonical_name", ""))
-    cache_key = Cache.make_key(movie_id, "merge", node_type, key_a, key_b)
-
+    # Cache key based on sorted canonical names
+    names_key = "|".join(sorted(_get_canonical(n) for n in cluster_nodes))
+    cache_key = Cache.make_key(movie_id, "cluster_merge", node_type, names_key)
     cached = cache.get(cache_key)
     if cached is not None:
         return cached
 
-    if node_type == "Event":
-        prompt = mp.build_event_merge_prompt(node_a, node_b, movie_title)
-    else:
-        prompt = mp.build_entity_merge_prompt(node_a, node_b, movie_title)
+    # Build entity description block
+    ent_descs = []
+    for node in cluster_nodes:
+        ent_descs.append({
+            "name": _get_canonical(node),
+            "aliases": node.get("surface_forms", []),
+            "description": node.get("description", ""),
+            "scene_refs": node.get("scene_refs", [node.get("scene_id", "")]),
+            "evidence_sample": node.get("evidence", [])[:2],
+        })
 
-    raw = llm.complete(prompt, system=mp.SYSTEM_PROMPT, temperature=0.0, max_tokens=512)
+    prompt = _CLUSTER_ADJUDICATION_TEMPLATE.format(
+        movie_title=movie_title,
+        node_type=node_type,
+        entity_descriptions=json.dumps(ent_descs, ensure_ascii=False, indent=2),
+    )
+
+    raw = llm.complete(
+        prompt,
+        system=_CLUSTER_ADJUDICATION_SYSTEM,
+        temperature=0.0,
+        max_tokens=1024,
+    )
 
     if prompt_logger:
-        prompt_logger.log("merge_adjudication", f"{key_a}|{key_b}", prompt, raw, llm.model_id)
+        prompt_logger.log("cluster_adjudication", names_key, prompt, raw, llm.model_id)
 
-    decision = parse_llm_json(raw, schema_hint="merge_decision")
+    decision = parse_llm_json(raw, schema_hint="cluster_adjudication")
     if not isinstance(decision, dict):
-        decision = {"merge": False, "reason": "parse failure", "confidence": 0.0}
+        decision = {"merges": [], "unmerged": [{"name": _get_canonical(n)} for n in cluster_nodes]}
 
     cache.set(cache_key, decision)
     return decision

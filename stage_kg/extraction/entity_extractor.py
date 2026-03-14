@@ -1,8 +1,5 @@
 """
-Entity extraction (Pass 2).
-
-Extracts entities anchored to the event inventory from Pass 1.
-Node types: Character, Location, TimePoint, Object, Concept.
+Entity extraction (Pass 2) with reflection-based QC (Appendix C.3).
 """
 
 import logging
@@ -12,9 +9,11 @@ from typing import List, Dict, Optional
 from ..llm.base import BaseLLM
 from ..ingest.loader import SceneRecord
 from ..prompts import entity_extraction as eep
+from ..prompts.reflection import build_entity_reflection_prompt
 from ..utils.json_repair import parse_llm_json, validate_entity_list
 from ..utils.cache import Cache
 from ..utils.logging_utils import PromptLogger
+from .reflection import reflection_loop
 
 logger = logging.getLogger(__name__)
 
@@ -31,35 +30,15 @@ def extract_entities_for_movie(
     cache: Cache,
     prompt_logger: Optional[PromptLogger] = None,
 ) -> Dict[str, List[Dict]]:
-    """
-    Run entity extraction over all scenes.
-
-    Args:
-        scene_events: Output from event extraction {scene_id -> [events]}.
-
-    Returns:
-        Dict mapping scene_id -> list of raw entity dicts.
-    """
     all_entities: Dict[str, List[Dict]] = {}
-
     for scene in scenes:
-        events = scene_events.get(scene.scene_id, [])
-        scene_ents = extract_entities_for_scene(
-            scene=scene,
-            events=events,
-            llm=llm,
-            movie_id=movie_id,
-            movie_title=movie_title,
-            cache=cache,
-            prompt_logger=prompt_logger,
+        all_entities[scene.scene_id] = extract_entities_for_scene(
+            scene, scene_events.get(scene.scene_id, []),
+            llm, movie_id, movie_title, cache, prompt_logger,
         )
-        all_entities[scene.scene_id] = scene_ents
-
     total = sum(len(v) for v in all_entities.values())
-    logger.info(
-        "[%s] Entity extraction complete: %d entities across %d scenes",
-        movie_id, total, len(scenes),
-    )
+    logger.info("[%s] Entity extraction complete: %d entities across %d scenes",
+                movie_id, total, len(scenes))
     return all_entities
 
 
@@ -72,7 +51,6 @@ def extract_entities_for_scene(
     cache: Cache,
     prompt_logger: Optional[PromptLogger] = None,
 ) -> List[Dict]:
-    """Extract entities from a single scene."""
     scene_ents: List[Dict] = []
 
     for chunk in scene.chunks:
@@ -91,57 +69,61 @@ def extract_entities_for_scene(
         if len(chunk_text) > MAX_CHUNK_CHARS:
             chunk_text = chunk_text[:MAX_CHUNK_CHARS]
 
-        # Filter events to those from this chunk
         chunk_events = [e for e in events if e.get("chunk_id") == chunk_id] or events
 
-        prompt = eep.build_prompt(
-            scene_id=scene.scene_id,
-            scene_title=scene.title,
-            scene_text=chunk_text,
-            events=_summarize_events(chunk_events),
-            chunk_id=chunk_id,
-            movie_title=movie_title,
+        def extract_fn(feedback: Optional[str]):
+            feedback_block = (
+                f"\n\nPREVIOUS ATTEMPT FEEDBACK (fix these issues): {feedback}\n"
+                if feedback else ""
+            )
+            p = eep.build_prompt(
+                scene_id=scene.scene_id,
+                scene_title=scene.title,
+                scene_text=chunk_text,
+                events=_summarize_events(chunk_events),
+                chunk_id=chunk_id,
+                movie_title=movie_title,
+            ) + feedback_block
+            raw = llm.complete(p, system=eep.SYSTEM_PROMPT, temperature=0.0, max_tokens=8192)
+            if prompt_logger:
+                prompt_logger.log("entity_extraction", scene.scene_id, p, raw, llm.model_id)
+            result = parse_llm_json(raw, schema_hint="entity_list")
+            if result is not None and not isinstance(result, list):
+                result = [result]
+            if result:
+                result = [e for e in result
+                          if isinstance(e, dict) and e.get("type") in VALID_TYPES]
+            return result, p
+
+        def reflect_fn(entities):
+            return build_entity_reflection_prompt(chunk_text, entities or [])
+
+        entities = reflection_loop(
+            extract_fn=extract_fn,
+            reflect_fn=reflect_fn,
+            llm=llm,
+            scene_id=f"{scene.scene_id}/{chunk_id}",
+            prompt_logger=prompt_logger,
         )
 
-        raw = llm.complete(prompt, system=eep.SYSTEM_PROMPT, temperature=0.0)
-
-        if prompt_logger:
-            prompt_logger.log("entity_extraction", scene.scene_id, prompt, raw, llm.model_id)
-
-        entities = parse_llm_json(raw, schema_hint="entity_list")
-        if entities is None:
-            logger.warning(
-                "Entity extraction returned unparseable JSON for %s/%s", scene.scene_id, chunk_id
-            )
+        if not entities:
+            logger.warning("Entity extraction yielded nothing for %s/%s",
+                           scene.scene_id, chunk_id)
             cache.set(cache_key, [])
             continue
 
-        if not isinstance(entities, list):
-            entities = [entities]
-
-        # Validate and enrich
-        valid_ents = []
         for ent in entities:
-            if not isinstance(ent, dict):
-                continue
-            if ent.get("type") not in VALID_TYPES:
-                logger.debug("Skipping entity with invalid type: %s", ent.get("type"))
-                continue
             _enrich_entity(ent, scene, chunk_id, movie_id)
-            valid_ents.append(ent)
 
-        cache.set(cache_key, valid_ents)
-        scene_ents.extend(valid_ents)
-        logger.debug(
-            "Extracted %d entities from scene=%s chunk=%s",
-            len(valid_ents), scene.scene_id, chunk_id,
-        )
+        cache.set(cache_key, entities)
+        scene_ents.extend(entities)
+        logger.debug("Extracted %d entities from scene=%s chunk=%s",
+                     len(entities), scene.scene_id, chunk_id)
 
     return scene_ents
 
 
 def _summarize_events(events: List[Dict]) -> List[Dict]:
-    """Return slim event dicts safe to embed in entity extraction prompt."""
     return [
         {
             "temp_id": e.get("id", e.get("temp_id", "")),
@@ -149,12 +131,11 @@ def _summarize_events(events: List[Dict]) -> List[Dict]:
             "description": e.get("description", ""),
             "participants": e.get("participants", []),
         }
-        for e in events[:20]  # cap to avoid prompt overload
+        for e in events[:20]
     ]
 
 
 def _enrich_entity(ent: Dict, scene: SceneRecord, chunk_id: str, movie_id: str) -> None:
-    """Add stable IDs and provenance fields in place."""
     temp = ent.get("temp_id", "")
     ent["id"] = f"ent_{movie_id[:8]}_{scene.scene_id}_{temp or uuid.uuid4().hex[:6]}"
     ent.setdefault("scene_id", scene.scene_id)

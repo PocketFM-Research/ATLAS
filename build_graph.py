@@ -199,6 +199,7 @@ def main() -> None:
                 llm=llm,
                 output_dir=args.output_dir,
                 skip_normalization=args.skip_normalization,
+                api_key=api_key,
             )
         except Exception as e:
             logger.error("Pipeline failed for %s: %s", movie.movie_id, e, exc_info=True)
