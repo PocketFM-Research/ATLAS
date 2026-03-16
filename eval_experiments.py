@@ -3,20 +3,14 @@
 
 import argparse
 import logging
-import sys
 from pathlib import Path
 import json
 
-# Configure logging BEFORE imports
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(levelname)s: %(message)s',
-    stream=sys.stdout
-)
-logger = logging.getLogger(__name__)
-
 from stage_kg.evaluation.experiment_runner import EvaluationExperiment
 from stage_kg.evaluation.config import EvaluationConfig
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 
 def dummy_text_generator(graph_data: dict, scene_id: str, character_id: str) -> str:
@@ -53,10 +47,6 @@ def dummy_text_generator(graph_data: dict, scene_id: str, character_id: str) -> 
 
 
 def main():
-    print("\n" + "="*60)
-    print("GRAPH-TO-TEXT EVALUATION EXPERIMENT")
-    print("="*60 + "\n", flush=True)
-    
     parser = argparse.ArgumentParser(
         description="Run graph-to-text evaluation experiments"
     )
@@ -91,76 +81,43 @@ def main():
     
     args = parser.parse_args()
     
-    print(f"Configuration:", flush=True)
-    print(f"  Movies: {', '.join(args.movie_ids)}", flush=True)
-    print(f"  Graph dir: {args.graph_dir}", flush=True)
-    print(f"  Output dir: {args.output_dir}", flush=True)
-    print(f"  Max hop depth: {args.max_hop_depth}", flush=True)
-    print(f"  Similarity threshold: {args.similarity_threshold}\n", flush=True)
-    
     # Create config
     config = EvaluationConfig()
     config.max_hop_depth = args.max_hop_depth
     config.similarity_threshold = args.similarity_threshold
     
-    try:
-        # Run experiment
-        print("Initializing experiment...", flush=True)
-        experiment = EvaluationExperiment(
-            movie_ids=args.movie_ids,
-            graph_dir=args.graph_dir,
-            output_dir=args.output_dir,
-            config=config,
-            text_generator=dummy_text_generator
-        )
-        
-        print("Starting evaluation experiment...\n", flush=True)
-        results = experiment.run()
-        
-        # Print summary
-        print("\n" + "="*60)
-        print("EVALUATION RESULTS SUMMARY")
-        print("="*60 + "\n", flush=True)
-        
-        global_metrics = results["global_metrics"]
-        
-        if global_metrics.get("hallucination"):
-            hal = global_metrics["hallucination"]
-            print(f"HALLUCINATION METRICS:", flush=True)
-            print(f"  Total claims: {hal.get('total_claims', 'N/A')}", flush=True)
-            print(f"  Hallucination rate: {hal.get('hallucination_rate', 0):.2%}", flush=True)
-            print(f"  Grounding rate: {hal.get('grounding_rate', 0):.2%}", flush=True)
-        
-        if global_metrics.get("consistency"):
-            cons = global_metrics["consistency"]
-            print(f"\nCONSISTENCY METRICS:", flush=True)
-            print(f"  Total contradictions: {cons.get('total_violations', 0)}", flush=True)
-            print(f"  Contradiction rate: {cons.get('contradiction_rate', 0):.2%}", flush=True)
-        
-        if global_metrics.get("repetition"):
-            rep = global_metrics["repetition"]
-            print(f"\nREPETITION METRICS:", flush=True)
-            print(f"  Total scene pairs: {rep.get('total_pairs', 0)}", flush=True)
-            print(f"  Repetition rate: {rep.get('repetition_rate', 0):.2%}", flush=True)
-            if rep.get('avg_semantic_similarity'):
-                print(f"  Avg semantic similarity: {rep.get('avg_semantic_similarity', 0):.3f}", flush=True)
-        
-        print(f"\n{'='*60}")
-        print(f"✓ Results saved to: {args.output_dir}", flush=True)
-        print(f"  - summary.json (aggregated metrics)", flush=True)
-        print(f"  - hallucination_details.csv (per-claim verification)", flush=True)
-        print(f"  - consistency_violations.csv (contradictions)", flush=True)
-        print(f"  - repetition_instances.csv (semantic duplicates)", flush=True)
-        print(f"{'='*60}\n", flush=True)
-        
-        return 0
+    # Run experiment
+    experiment = EvaluationExperiment(
+        movie_ids=args.movie_ids,
+        graph_dir=args.graph_dir,
+        output_dir=args.output_dir,
+        config=config,
+        text_generator=dummy_text_generator
+    )
     
-    except Exception as e:
-        print(f"\nERROR: {type(e).__name__}: {e}\n", flush=True)
-        import traceback
-        traceback.print_exc()
-        return 1
+    logger.info("Starting evaluation experiment...")
+    results = experiment.run()
+    
+    # Print summary
+    logger.info("=" * 60)
+    logger.info("EVALUATION RESULTS SUMMARY")
+    logger.info("=" * 60)
+    
+    global_metrics = results["global_metrics"]
+    
+    if global_metrics["hallucination"]:
+        logger.info(f"\nHallucination Rate: {global_metrics['hallucination'].get('hallucination_rate', 'N/A'):.2%}")
+        logger.info(f"Grounding Rate: {global_metrics['hallucination'].get('grounding_rate', 'N/A'):.2%}")
+    
+    if global_metrics["consistency"]:
+        logger.info(f"\nTotal Contradictions: {global_metrics['consistency'].get('total_violations', 0)}")
+    
+    if global_metrics["repetition"]:
+        logger.info(f"\nRepetition Rate: {global_metrics['repetition'].get('repetition_rate', 'N/A'):.2%}")
+        logger.info(f"Avg Semantic Similarity: {global_metrics['repetition'].get('avg_semantic_similarity', 'N/A'):.3f}")
+    
+    logger.info(f"\n✓ Results saved to {args.output_dir}")
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
