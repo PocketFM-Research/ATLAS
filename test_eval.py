@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 # Load the generated graph
-graph_path = Path("/Users/muhammadh./Stage/output/en04052c0f20834cf1bac19927d8f758e0/final_graph.json")
+graph_path = Path("path/to/your/graph.json")
 
 with open(graph_path) as f:
     graph_data = json.load(f)
