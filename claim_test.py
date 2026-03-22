@@ -9,7 +9,7 @@ from stage_kg.evaluation.config import EvaluationConfig
 
 
 DEFAULT_MOVIE_ID = "en04052c0f20834cf1bac19927d8f758e0"
-DEFAULT_INPUT_DIR = Path("/Users/mobiletest4/Downloads/Github/STAGE-Evaluation-Pipeline")
+DEFAULT_INPUT_DIR = Path("path to your/input/directory")  # e.g., Path("/path/to/your/input/directory")
 DEFAULT_SCENE_ID = "1"
 DEFAULT_OUTPUT_DIR = DEFAULT_INPUT_DIR / "test_claim_extractor"
 
