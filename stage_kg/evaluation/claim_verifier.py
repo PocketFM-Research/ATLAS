@@ -1,28 +1,52 @@
-"""Multi-hop graph verification for claims."""
+"""Schema-aware graph verification for claims."""
 
 import json
-from typing import List, Tuple, Optional, Dict, Set
-from dataclasses import dataclass, field
+import re
 from collections import deque
+from dataclasses import dataclass, field
 from pathlib import Path
+from typing import Dict, List, Optional, Set, Tuple
 
-from stage_kg.schema import VALID_TRIPLES, NodeType, RelationType
+from stage_kg.schema import NodeType, RelationType, VALID_TRIPLES
 from stage_kg.evaluation.config import EvaluationConfig
 from stage_kg.evaluation.claim_extractor import Claim
+
+
+GROUND_STATUSES = {"grounded", "grounded_multihop"}
+EVENT_ROLE_RELATIONS = {"performs", "undergoes", "experiences"}
+SCHEMA_SYNONYMS = {
+    "is": "is_a",
+    "has": "possesses",
+    "owns": "possesses",
+    "holding": "possesses",
+    "holds": "possesses",
+    "appears": "located_at",
+    "stands": "located_at",
+    "sits": "located_at",
+    "waits": "located_at",
+    "meets": "affinity_with",
+    "knows": "affiliated_with",
+    "likes": "affinity_with",
+    "dislikes": "hostility_with",
+    "related": "kinship_with",
+    "happens": "occurs_on",
+}
+NAME_TITLE_TOKENS = {"the", "captain", "commander", "lt", "lt.", "mr", "mr.", "mister", "dr", "dr.", "doctor"}
 
 
 @dataclass
 class VerificationResult:
     """Result of verifying a claim against the graph."""
+
     claim: Claim
-    status: str  # "grounded", "grounded_multihop", "partial", "hallucinated", "contradiction"
-    depth: int  # Number of hops to ground the claim
-    path: List[str] = field(default_factory=list)  # Node IDs in the path
-    intermediate_types: List[str] = field(default_factory=list)  # Types of intermediate nodes
-    relation_subset: List[str] = field(default_factory=list)  # Relations used in path
-    supported_node_types: List[str] = field(default_factory=list)  # Which node types support the claim
-    confidence: float = 0.0  # Confidence in the grounding
-    
+    status: str
+    depth: int
+    path: List[str] = field(default_factory=list)
+    intermediate_types: List[str] = field(default_factory=list)
+    relation_subset: List[str] = field(default_factory=list)
+    supported_node_types: List[str] = field(default_factory=list)
+    confidence: float = 0.0
+
     def to_dict(self):
         return {
             "claim": self.claim.to_dict(),
@@ -37,209 +61,338 @@ class VerificationResult:
 
 
 class KnowledgeGraphVerifier:
-    """Verify claims against a knowledge graph using multi-hop reasoning."""
-    
+    """Verify claims against a knowledge graph using schema-aware grounding."""
+
     def __init__(self, graph_path: str, config: EvaluationConfig = None):
-        """
-        Initialize verifier with a graph.
-        
-        Args:
-            graph_path: Path to final_graph.json
-            config: Evaluation configuration
-        """
         self.config = config or EvaluationConfig()
         self.graph_path = Path(graph_path)
-        
-        # Load graph
-        with open(graph_path, 'r') as f:
+
+        with open(graph_path, "r", encoding="utf-8") as f:
             self.graph_data = json.load(f)
-        
-        # Build efficient lookup structures
-        self.nodes_by_id = {n["id"]: n for n in self.graph_data["nodes"]}
-        self.nodes_by_name = {}  # name -> [node_ids] (many-to-one due to aliases)
+
+        self.nodes_by_id = {node["id"]: node for node in self.graph_data["nodes"]}
+        self.nodes_by_name: Dict[str, List[str]] = {}
         self.edges = self.graph_data.get("edges", [])
-        
-        # Build adjacency: source -> [(target, relation), ...]
-        self.adjacency = {}
+        self.adjacency: Dict[str, List[Dict]] = {node_id: [] for node_id in self.nodes_by_id}
+        self.node_text_index: Dict[str, str] = {}
+
         for node in self.graph_data["nodes"]:
-            self.adjacency[node["id"]] = []
-        
+            self._index_node_names(node)
+            self.node_text_index[node["id"]] = self._node_text(node)
+
         for edge in self.edges:
-            src, tgt = edge["source"], edge["target"]
-            self.adjacency.setdefault(src, []).append({
-                "target": tgt,
-                "relation": edge["relation"],
-                "confidence": edge.get("confidence", 1.0),
-                "edge_id": f"{src}-{edge['relation']}-{tgt}",
-            })
-        
-        # Build name index
-        for node in self.graph_data["nodes"]:
-            # Index canonical name
-            self.nodes_by_name.setdefault(node["name"].lower(), []).append(node["id"])
-            # Index aliases
-            for alias in node.get("aliases", []):
-                self.nodes_by_name.setdefault(alias.lower(), []).append(node["id"])
-    
+            src = edge["source"]
+            tgt = edge["target"]
+            self.adjacency.setdefault(src, []).append(
+                {
+                    "target": tgt,
+                    "relation": edge["relation"],
+                    "confidence": edge.get("confidence", 1.0),
+                    "edge_id": edge.get("id", f"{src}-{edge['relation']}-{tgt}"),
+                    "scene_refs": [str(scene_id) for scene_id in edge.get("scene_refs", [])],
+                    "evidence": edge.get("evidence", []) or [],
+                }
+            )
+
     def verify_claim(self, claim: Claim) -> VerificationResult:
-        """
-        Verify a single claim against the graph.
-        
-        Returns: VerificationResult with status, path, and metadata
-        """
-        # Canonicalize subject and object to node IDs
+        """Verify a single claim against the graph."""
         subject_ids = self._resolve_entity(claim.subject)
-        object_ids = self._resolve_entity(claim.object)
-        
+        if not subject_ids and claim.character_id in self.nodes_by_id:
+            subject_ids = [claim.character_id]
+
         if not subject_ids:
             return VerificationResult(
                 claim=claim,
                 status="hallucinated",
                 depth=0,
-                confidence=0.0
+                confidence=0.0,
             )
-        
-        if claim.object and not object_ids:
+
+        if not claim.object:
             return VerificationResult(
                 claim=claim,
-                status="hallucinated",
+                status="partial",
                 depth=0,
-                confidence=0.0
+                path=subject_ids[:1],
+                confidence=0.25,
             )
-        
-        # Try to find grounding via BFS
-        if claim.object:
-            # SVO claim: try to find path from subject to object
-            best_result = None
-            for subj_id in subject_ids:
-                for obj_id in object_ids:
-                    result = self._bfs_verify(
-                        subj_id, obj_id, claim.predicate, claim
-                    )
-                    if best_result is None or result.depth < best_result.depth:
-                        best_result = result
-            return best_result or VerificationResult(
-                claim=claim, status="hallucinated", depth=0
-            )
-        else:
-            # SV claim: verify subject has the property/type
-            result = VerificationResult(
-                claim=claim,
-                status="grounded" if subject_ids else "hallucinated",
-                depth=1 if subject_ids else 0,
-                path=subject_ids,
-                confidence=0.9 if subject_ids else 0.0
-            )
-            return result
-    
+
+        best_result = VerificationResult(
+            claim=claim,
+            status="hallucinated",
+            depth=0,
+            confidence=0.0,
+        )
+
+        object_ids = self._resolve_entity(claim.object)
+        for subject_id in subject_ids:
+            if object_ids:
+                for object_id in object_ids:
+                    candidate = self._bfs_verify(subject_id, object_id, claim.predicate, claim)
+                    best_result = self._choose_better_result(best_result, candidate)
+
+            semantic_candidate = self._verify_semantic_edge(subject_id, claim)
+            best_result = self._choose_better_result(best_result, semantic_candidate)
+
+        return best_result
+
+    def _index_node_names(self, node: Dict):
+        for name in [node.get("name", "")] + (node.get("aliases", []) or []):
+            normalized = self._normalize_text(name)
+            if normalized:
+                self.nodes_by_name.setdefault(normalized, []).append(node["id"])
+                tokens = [token for token in normalized.split() if token and token not in NAME_TITLE_TOKENS]
+                if tokens:
+                    surname = tokens[-1]
+                    if surname != normalized:
+                        self.nodes_by_name.setdefault(surname, []).append(node["id"])
+
     def _resolve_entity(self, entity_name: str) -> List[str]:
-        """
-        Resolve an entity name to node IDs.
-        
-        Returns list of node IDs (may be multiple due to aliases)
-        """
         if not entity_name:
             return []
-        
-        name_key = entity_name.lower().strip()
-        return self.nodes_by_name.get(name_key, [])
-    
+
+        if entity_name in self.nodes_by_id:
+            return [entity_name]
+
+        normalized = self._normalize_text(entity_name)
+        if not normalized:
+            return []
+
+        direct = self.nodes_by_name.get(normalized, [])
+        if direct:
+            return list(dict.fromkeys(direct))
+
+        candidates: List[Tuple[float, str]] = []
+        for indexed_name, node_ids in self.nodes_by_name.items():
+            score = self._entity_match_score(normalized, indexed_name)
+            if score >= 0.75:
+                for node_id in node_ids:
+                    candidates.append((score, node_id))
+
+        candidates.sort(reverse=True)
+        resolved = []
+        seen = set()
+        for _, node_id in candidates:
+            if node_id not in seen:
+                seen.add(node_id)
+                resolved.append(node_id)
+        return resolved
+
     def _bfs_verify(
         self,
         source_id: str,
         target_id: str,
         predicate: str,
         claim: Claim,
-        max_depth: int = None
+        max_depth: Optional[int] = None,
     ) -> VerificationResult:
-        """
-        BFS to find a path from source to target that supports the predicate.
-        
-        Returns VerificationResult with the shortest path found.
-        """
         max_depth = max_depth or self.config.max_hop_depth
-        
-        # Check direct edge first
-        direct = self._check_direct_edge(source_id, target_id, predicate)
+
+        direct = self._check_direct_edge(source_id, target_id, predicate, claim.scene_id)
         if direct:
+            target_node = self.nodes_by_id.get(target_id, {})
             return VerificationResult(
                 claim=claim,
                 status="grounded",
                 depth=1,
                 path=[source_id, target_id],
-                relation_subset=[predicate],
-                confidence=direct.get("confidence", 0.8)
+                relation_subset=[direct["relation"]],
+                supported_node_types=[target_node.get("type", "")],
+                confidence=direct.get("confidence", 0.8),
             )
-        
-        # BFS for indirect paths
-        queue = deque([(source_id, [source_id], [], 0)])
-        visited = {source_id}
-        
+
+        queue = deque([(source_id, [source_id], [], [], 0)])
+        visited = {(source_id, 0)}
+
         while queue:
-            node_id, path, relations, depth = queue.popleft()
-            
-            if depth > max_depth:
+            node_id, path, relations, intermediate_types, depth = queue.popleft()
+            if depth >= max_depth:
                 continue
-            
-            # Check neighbors
+
             for edge_info in self.adjacency.get(node_id, []):
+                if not self._scene_matches(edge_info, claim.scene_id):
+                    continue
+
                 neighbor = edge_info["target"]
-                
-                if neighbor == target_id:
-                    # Found path to target
+                next_relations = relations + [edge_info["relation"]]
+                next_types = intermediate_types + [self.nodes_by_id.get(neighbor, {}).get("type", "")]
+                next_depth = depth + 1
+
+                if neighbor == target_id and self._path_supports_predicate(predicate, next_relations):
                     return VerificationResult(
                         claim=claim,
-                        status="grounded_multihop" if depth > 0 else "grounded",
-                        depth=depth + 1,
+                        status="grounded_multihop",
+                        depth=next_depth,
                         path=path + [neighbor],
-                        relation_subset=relations + [edge_info["relation"]],
-                        confidence=edge_info.get("confidence", 0.8) * (1.0 / (depth + 1))
+                        relation_subset=next_relations,
+                        intermediate_types=next_types[:-1],
+                        supported_node_types=[self.nodes_by_id.get(target_id, {}).get("type", "")],
+                        confidence=edge_info.get("confidence", 0.8) * (1.0 / next_depth),
                     )
-                
-                if neighbor not in visited and depth < max_depth:
-                    visited.add(neighbor)
-                    queue.append((
-                        neighbor,
-                        path + [neighbor],
-                        relations + [edge_info["relation"]],
-                        depth + 1
-                    ))
-        
-        return VerificationResult(
-            claim=claim,
-            status="hallucinated",
-            depth=0,
-            confidence=0.0
-        )
-    
+
+                state = (neighbor, next_depth)
+                if state not in visited:
+                    visited.add(state)
+                    queue.append((neighbor, path + [neighbor], next_relations, next_types, next_depth))
+
+        return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
     def _check_direct_edge(
         self,
         source_id: str,
         target_id: str,
-        predicate: str
+        predicate: str,
+        scene_id: str,
     ) -> Optional[Dict]:
-        """Check if a direct edge exists matching the predicate."""
         for edge_info in self.adjacency.get(source_id, []):
-            if edge_info["target"] == target_id:
-                # Exact match or semantic similarity
-                if edge_info["relation"] == predicate or self._predicate_match(
-                    predicate, edge_info["relation"]
-                ):
-                    return edge_info
+            if edge_info["target"] != target_id:
+                continue
+            if not self._scene_matches(edge_info, scene_id):
+                continue
+            if edge_info["relation"] == predicate or self._predicate_match(predicate, edge_info["relation"]):
+                return edge_info
         return None
-    
+
+    def _verify_semantic_edge(self, subject_id: str, claim: Claim) -> VerificationResult:
+        best_score = 0.0
+        best_edge = None
+        best_target = None
+
+        for edge_info in self.adjacency.get(subject_id, []):
+            if not self._scene_matches(edge_info, claim.scene_id):
+                continue
+            if not self._predicate_match(claim.predicate, edge_info["relation"]):
+                continue
+
+            target_node = self.nodes_by_id.get(edge_info["target"], {})
+            score = self._claim_edge_similarity(claim, edge_info, target_node)
+            if score > best_score:
+                best_score = score
+                best_edge = edge_info
+                best_target = target_node
+
+        if not best_edge or not best_target:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        threshold = 0.18 if claim.predicate in EVENT_ROLE_RELATIONS else 0.28
+        if best_score < threshold:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        confidence = min(0.99, best_edge.get("confidence", 0.8) * (0.5 + best_score / 2.0))
+        return VerificationResult(
+            claim=claim,
+            status="grounded",
+            depth=1,
+            path=[subject_id, best_edge["target"]],
+            relation_subset=[best_edge["relation"]],
+            supported_node_types=[best_target.get("type", "")],
+            confidence=confidence,
+        )
+
+    def _claim_edge_similarity(self, claim: Claim, edge_info: Dict, target_node: Dict) -> float:
+        claim_object = self._normalize_text(claim.object)
+        claim_text = self._normalize_text(claim.claim_text)
+        target_text = self.node_text_index.get(target_node.get("id", ""), "")
+
+        scores = []
+        if claim_object:
+            scores.append(self._text_similarity(claim_object, target_text))
+        if claim_text:
+            scores.append(self._text_similarity(claim_text, target_text))
+
+        for evidence in edge_info.get("evidence", []):
+            evidence_text = self._normalize_text(evidence)
+            if claim_object:
+                scores.append(self._text_similarity(claim_object, evidence_text))
+            if claim_text:
+                scores.append(self._text_similarity(claim_text, evidence_text))
+
+        return max(scores) if scores else 0.0
+
+    def _scene_matches(self, edge_info: Dict, scene_id: str) -> bool:
+        scene_refs = edge_info.get("scene_refs", [])
+        return not scene_refs or str(scene_id) in scene_refs
+
+    def _path_supports_predicate(self, claim_pred: str, relations: List[str]) -> bool:
+        if any(self._predicate_match(claim_pred, relation) for relation in relations):
+            return True
+
+        relation_set = set(relations)
+        if claim_pred == "located_at" and "occurs_at" in relation_set and relation_set & EVENT_ROLE_RELATIONS:
+            return True
+
+        return False
+
     def _predicate_match(self, claim_pred: str, graph_pred: str) -> bool:
-        """Check if a claim predicate matches a graph predicate semantically."""
-        # Simple heuristics: "is with" -> "located_at" or "affinity_with"
-        synonyms = {
-            "is": "is_a",
-            "has": "possesses",
-            "meets": "occurs_at",
-            "knows": "affiliated_with",
-            "likes": "affinity_with",
-            "dislikes": "hostility_with",
-            "related": "kinship_with",
-            "happens": "occurs_on",
+        normalized_claim = SCHEMA_SYNONYMS.get(claim_pred, claim_pred)
+        normalized_graph = SCHEMA_SYNONYMS.get(graph_pred, graph_pred)
+        return normalized_claim == normalized_graph
+
+    def _choose_better_result(
+        self,
+        current: VerificationResult,
+        candidate: VerificationResult,
+    ) -> VerificationResult:
+        ranking = {
+            "grounded": 4,
+            "grounded_multihop": 3,
+            "partial": 2,
+            "hallucinated": 1,
+            "contradiction": 0,
         }
-        
-        return claim_pred in synonyms and synonyms[claim_pred] == graph_pred
+        current_rank = ranking.get(current.status, -1)
+        candidate_rank = ranking.get(candidate.status, -1)
+        if candidate_rank > current_rank:
+            return candidate
+        if candidate_rank < current_rank:
+            return current
+        if candidate.confidence > current.confidence:
+            return candidate
+        if candidate.confidence == current.confidence and candidate.depth and (
+            current.depth == 0 or candidate.depth < current.depth
+        ):
+            return candidate
+        return current
+
+    def _entity_match_score(self, query: str, indexed_name: str) -> float:
+        query_tokens = self._tokenize(query)
+        indexed_tokens = self._tokenize(indexed_name)
+        if not query_tokens or not indexed_tokens:
+            return 0.0
+        if indexed_tokens.issubset(query_tokens):
+            return len(indexed_tokens) / len(query_tokens)
+        overlap = len(query_tokens & indexed_tokens)
+        union = len(query_tokens | indexed_tokens)
+        return overlap / union if union else 0.0
+
+    def _node_text(self, node: Dict) -> str:
+        text_parts = [node.get("name", "")]
+        text_parts.extend(node.get("aliases", []) or [])
+        text_parts.append(node.get("description", ""))
+        text_parts.extend(node.get("evidence", []) or [])
+        return self._normalize_text(" ".join(part for part in text_parts if part))
+
+    def _text_similarity(self, left: str, right: str) -> float:
+        if not left or not right:
+            return 0.0
+        if left in right or right in left:
+            shorter = min(len(left.split()), len(right.split()))
+            longer = max(len(left.split()), len(right.split()))
+            if longer:
+                return max(0.7, shorter / longer)
+
+        left_tokens = self._tokenize(left)
+        right_tokens = self._tokenize(right)
+        if not left_tokens or not right_tokens:
+            return 0.0
+
+        overlap = len(left_tokens & right_tokens)
+        union = len(left_tokens | right_tokens)
+        return overlap / union if union else 0.0
+
+    def _tokenize(self, text: str) -> Set[str]:
+        return {token for token in self._normalize_text(text).split() if token}
+
+    def _normalize_text(self, text: str) -> str:
+        normalized = re.sub(r"[^a-z0-9]+", " ", text.lower())
+        return re.sub(r"\s+", " ", normalized).strip()

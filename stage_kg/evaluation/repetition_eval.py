@@ -119,22 +119,15 @@ class RepetitionEvaluator:
                     if is_rep:
                         char_instances.append(instance)
             
+            total_pairs_for_character = max(0, len(scenes_with_char) * (len(scenes_with_char) - 1) // 2)
             by_character[char_id] = {
                 "repetitions": len(char_instances),
                 "avg_similarity": (
                     sum(inst.semantic_similarity for inst in char_instances) / len(char_instances)
                     if char_instances else 0.0
                 ),
-                "pairs_compared": len(char_instances),
+                "pairs_compared": total_pairs_for_character,
             }
-        
-        # Compute metrics
-        total_pairs = sum(len([
-            (s_i, s_j)
-            for s_i in sorted(scene_descriptions.keys())
-            for s_j in sorted(scene_descriptions.keys())
-            if s_i < s_j
-        ]) for _ in characters)
         
         repetitive_pairs = sum(1 for inst in instances if inst.is_repetitive)
         

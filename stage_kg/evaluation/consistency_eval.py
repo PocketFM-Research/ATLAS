@@ -12,7 +12,9 @@ from stage_kg.evaluation.config import EvaluationConfig
 @dataclass
 class ConsistencyMetrics:
     """Self-consistency metrics."""
+    total_scene_pairs: int
     total_character_pairs: int
+    total_possible_comparisons: int
     contradictions: int
     state_changes_without_events: int
     contradiction_rate: float
@@ -21,7 +23,9 @@ class ConsistencyMetrics:
     
     def to_dict(self):
         return {
+            "total_scene_pairs": self.total_scene_pairs,
             "total_character_pairs": self.total_character_pairs,
+            "total_possible_comparisons": self.total_possible_comparisons,
             "contradictions": self.contradictions,
             "state_changes_without_events": self.state_changes_without_events,
             "contradiction_rate": self.contradiction_rate,
@@ -105,10 +109,12 @@ class ConsistencyEvaluator:
             }
         
         # Compute metrics
-        total_pairs = len(scene_ids) * (len(scene_ids) - 1) // 2 if scene_ids else 0
-        total_possible = total_pairs * len(by_character) if total_pairs > 0 else 0
+        total_scene_pairs = len(scene_ids) * (len(scene_ids) - 1) // 2 if scene_ids else 0
+        total_possible = total_scene_pairs * len(by_character) if total_scene_pairs > 0 else 0
         metrics = ConsistencyMetrics(
-            total_character_pairs=total_pairs,
+            total_scene_pairs=total_scene_pairs,
+            total_character_pairs=total_possible,
+            total_possible_comparisons=total_possible,
             contradictions=len(violations),
             state_changes_without_events=sum(
                 1 for v in violations if v.violation_type == "state_change_without_event"

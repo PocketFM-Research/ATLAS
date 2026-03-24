@@ -38,12 +38,10 @@ def dummy_text_generator(graph_data: dict, scene_id: str, character_id: str) -> 
                 if node["id"] == edge["target"] and node["type"] == "Event":
                     if scene_id in node.get("scene_refs", []):
                         events.append(node.get("name", "an event"))
-            break
     
     if events:
         return f"{char_name} {', '.join(events)} in scene {scene_id}."
-    else:
-        return f"{char_name} appears in scene {scene_id}."
+    return ""
 
 
 def main():
@@ -62,9 +60,36 @@ def main():
         help="Directory containing final_graph.json files (default: output)"
     )
     parser.add_argument(
+        "--dataset_dir",
+        default=".",
+        help="Dataset root containing English/ and Chinese/ directories (default: current directory)"
+    )
+    parser.add_argument(
         "--output_dir",
         default="eval_results",
         help="Output directory for results (default: eval_results)"
+    )
+    parser.add_argument(
+        "--language",
+        choices=["en", "zh"],
+        default=None,
+        help="Optional dataset language override. If omitted, inferred from movie id."
+    )
+    parser.add_argument(
+        "--text_source",
+        choices=["scene_script", "generator"],
+        default="scene_script",
+        help="Where evaluation text should come from (default: scene_script)"
+    )
+    parser.add_argument(
+        "--scene_descriptions_json",
+        default=None,
+        help="Optional JSON file containing precomputed `{scene_id: {character_id: text}}` descriptions"
+    )
+    parser.add_argument(
+        "--refresh_descriptions",
+        action="store_true",
+        help="Rebuild scene description caches instead of reusing previous outputs"
     )
     parser.add_argument(
         "--max_hop_depth",
@@ -87,12 +112,18 @@ def main():
     config.similarity_threshold = args.similarity_threshold
     
     # Run experiment
+    text_generator = dummy_text_generator if args.text_source == "generator" else None
     experiment = EvaluationExperiment(
         movie_ids=args.movie_ids,
         graph_dir=args.graph_dir,
         output_dir=args.output_dir,
         config=config,
-        text_generator=dummy_text_generator
+        text_generator=text_generator,
+        dataset_dir=args.dataset_dir,
+        language=args.language,
+        text_source=args.text_source,
+        force_rebuild_descriptions=args.refresh_descriptions,
+        scene_descriptions_path=args.scene_descriptions_json,
     )
     
     logger.info("Starting evaluation experiment...")
