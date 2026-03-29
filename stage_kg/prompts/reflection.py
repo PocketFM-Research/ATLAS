@@ -146,6 +146,7 @@ SCORING CRITERIA — rate 0–10, then overall:
    - Is every relation grounded in the screenplay text?
    - Are relation types correct and schema-valid?
    - Do source and target IDs refer to real nodes in the index?
+   - Are event-role relations attached to the correct participant rather than a nearby speaker or bystander?
 
 2. Consistency (0–10):
    - No contradictory relations (e.g. A precedes B and B precedes A)?
@@ -158,6 +159,7 @@ CRITICAL FAILURES (force overall score to 0):
    - Relation type not in the valid list above
    - Self-referential relation (source == target)
    - Source or target ID that does not exist in the node index
+   - A performs/undergoes/experiences edge where the evidence clearly belongs to a different character
 
 Return ONLY a JSON object:
 {{

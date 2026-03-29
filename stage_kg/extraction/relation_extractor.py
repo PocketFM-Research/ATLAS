@@ -3,6 +3,7 @@ Relation extraction (Pass 3) with reflection-based QC (Appendix C.3).
 """
 
 import logging
+import re
 import uuid
 from typing import List, Dict, Optional
 
@@ -98,12 +99,8 @@ def extract_relations_for_scene(
             result = parse_llm_json(raw, schema_hint="relation_list")
             if result is not None and not isinstance(result, list):
                 result = [result]
-            # Schema filter — reject invalid triples immediately
             if result:
-                result = [r for r in result
-                          if isinstance(r, dict) and _validate_schema(r)]
-                if len(result) < len(result or []):
-                    logger.debug("Schema filter removed %d invalid relations", 0)
+                result = [r for r in result if isinstance(r, dict)]
             return result, p
 
         def reflect_fn(relations):
@@ -125,9 +122,7 @@ def extract_relations_for_scene(
             cache.set(cache_key, [])
             continue
 
-        # Schema repair: if endpoint types uniquely determine a valid relation, rewrite it
-        relations = [_repair_relation(r) for r in relations]
-        relations = [r for r in relations if r is not None]
+        relations = _postprocess_relations(relations, chunk_events, chunk_entities)
 
         for rel in relations:
             _enrich_relation(rel, scene, chunk_id, movie_id)
@@ -160,6 +155,19 @@ def _repair_relation(rel: Dict) -> Optional[Dict]:
     determine a valid relation type, rewrite it.  If multiple candidates
     exist or none is valid, discard the relation.
     """
+    rel = dict(rel)
+    raw_relation = str(rel.get("relation", "")).strip().lower()
+    if raw_relation == "before":
+        rel["relation"] = RelationType.PRECEDES.value
+    elif raw_relation == "after":
+        rel["relation"] = RelationType.PRECEDES.value
+        rel["source_id"], rel["target_id"] = rel.get("target_id"), rel.get("source_id")
+        rel["source_type"], rel["target_type"] = rel.get("target_type"), rel.get("source_type")
+    elif raw_relation == "caused_by":
+        rel["relation"] = RelationType.CAUSES.value
+        rel["source_id"], rel["target_id"] = rel.get("target_id"), rel.get("source_id")
+        rel["source_type"], rel["target_type"] = rel.get("target_type"), rel.get("source_type")
+
     if _validate_schema(rel):
         return rel  # already valid
 
@@ -190,6 +198,127 @@ def _repair_relation(rel: Dict) -> Optional[Dict]:
     return None
 
 
+def _postprocess_relations(
+    relations: List[Dict],
+    events: List[Dict],
+    entities: List[Dict],
+) -> List[Dict]:
+    """Repair, validate, and lightly sanity-check extracted relations."""
+    event_index = _build_node_index(events)
+    entity_index = _build_node_index(entities)
+
+    cleaned: List[Dict] = []
+    seen = set()
+    for relation in relations:
+        repaired = _repair_relation(relation)
+        if repaired is None or not _validate_schema(repaired):
+            continue
+
+        repaired["evidence"] = _normalize_evidence_list(repaired.get("evidence", []))
+        if not repaired["evidence"]:
+            continue
+
+        if not _passes_basic_relation_checks(repaired, event_index, entity_index):
+            continue
+
+        key = (repaired.get("source_id"), repaired.get("relation"), repaired.get("target_id"))
+        if key in seen:
+            continue
+        seen.add(key)
+        cleaned.append(repaired)
+
+    return cleaned
+
+
+def _build_node_index(nodes: List[Dict]) -> Dict[str, Dict]:
+    index: Dict[str, Dict] = {}
+    for node in nodes:
+        for key in (node.get("id"), node.get("temp_id")):
+            if key:
+                index[key] = node
+    return index
+
+
+def _normalize_evidence_list(value) -> List[str]:
+    if value is None:
+        return []
+    if isinstance(value, list):
+        items = value
+    else:
+        items = [value]
+
+    cleaned = []
+    seen = set()
+    for item in items:
+        if item is None:
+            continue
+        text = str(item).strip()
+        if not text:
+            continue
+        text = re.sub(r"\s+", " ", text)
+        if text in seen:
+            continue
+        seen.add(text)
+        cleaned.append(text)
+    return cleaned
+
+
+def _passes_basic_relation_checks(
+    relation: Dict,
+    event_index: Dict[str, Dict],
+    entity_index: Dict[str, Dict],
+) -> bool:
+    rel_type = relation.get("relation")
+    if rel_type not in {
+        RelationType.PERFORMS.value,
+        RelationType.UNDERGOES.value,
+        RelationType.EXPERIENCES.value,
+    }:
+        return True
+
+    event = event_index.get(relation.get("target_id"))
+    entity = entity_index.get(relation.get("source_id"))
+    if not event or not entity:
+        return True
+
+    linked_ids = {str(value) for value in entity.get("linked_event_ids", []) if value}
+    direct_link = event.get("id") in linked_ids or event.get("temp_id") in linked_ids
+
+    participants = {
+        _normalize_name(participant)
+        for participant in event.get("participants", [])
+        if _normalize_name(participant)
+    }
+    entity_forms = {
+        _normalize_name(entity.get("canonical_name", "") or entity.get("name", ""))
+    }
+    entity_forms.update(
+        _normalize_name(form) for form in entity.get("surface_forms", []) if _normalize_name(form)
+    )
+    participant_match = any(_participant_matches_entity(participant, entity_forms) for participant in participants)
+
+    if linked_ids or participants:
+        return direct_link or participant_match
+    return True
+
+
+def _participant_matches_entity(participant: str, entity_forms: set) -> bool:
+    participant_tokens = set(participant.split())
+    if not participant_tokens:
+        return False
+    for entity_form in entity_forms:
+        if participant == entity_form:
+            return True
+        entity_tokens = set(entity_form.split())
+        if participant_tokens <= entity_tokens or entity_tokens <= participant_tokens:
+            return True
+    return False
+
+
+def _normalize_name(text: str) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9]+", " ", str(text or "").lower())).strip()
+
+
 def _slim_events(events: List[Dict]) -> List[Dict]:
     return [
         {"temp_id": e.get("id", e.get("temp_id", "")), "name": e.get("name", "")}
@@ -210,9 +339,16 @@ def _slim_entities(entities: List[Dict]) -> List[Dict]:
 
 def _enrich_relation(rel: Dict, scene: SceneRecord, chunk_id: str, movie_id: str) -> None:
     temp = rel.get("temp_id", "")
-    rel["id"] = f"rel_{movie_id[:8]}_{scene.scene_id}_{temp or uuid.uuid4().hex[:6]}"
+    chunk_slug = _chunk_slug(chunk_id)
+    rel["id"] = f"rel_{movie_id[:8]}_{scene.scene_id}_{chunk_slug}_{temp or uuid.uuid4().hex[:6]}"
     rel.setdefault("scene_id", scene.scene_id)
     rel.setdefault("chunk_id", chunk_id)
     rel.setdefault("evidence", [])
     rel.setdefault("confidence", 0.8)
     rel["movie_id"] = movie_id
+
+
+def _chunk_slug(chunk_id: str) -> str:
+    """Create a stable, ID-safe chunk slug."""
+    slug = re.sub(r"[^A-Za-z0-9]+", "_", str(chunk_id or "chunk")).strip("_")
+    return slug or "chunk"

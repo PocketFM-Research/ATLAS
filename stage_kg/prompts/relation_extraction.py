@@ -71,10 +71,10 @@ Scene ID: {scene_id}
 Scene heading: {scene_title}
 Chunk: {chunk_id or scene_id}
 
-EVENTS (use temp_id to reference):
+EVENTS (use the ids exactly as provided):
 {events_json}
 
-ENTITIES (use temp_id to reference):
+ENTITIES (use the ids exactly as provided):
 {entities_json}
 
 SCREENPLAY TEXT:
@@ -90,18 +90,22 @@ INSTRUCTIONS:
 2. Check schema validity: every (source_type, relation, target_type) triple must be listed in the schema.
 3. For each relation provide:
    - "temp_id": a short unique slug (e.g. "rel_001")
-   - "source_id": temp_id of the source node
+   - "source_id": exact id of the source node from the lists above
    - "source_type": type of the source node (Character, Event, etc.)
    - "relation": the relation label (exactly as listed in schema)
-   - "target_id": temp_id of the target node
+   - "target_id": exact id of the target node from the lists above
    - "target_type": type of the target node
    - "scene_id": "{scene_id}"
    - "chunk_id": "{chunk_id or scene_id}"
    - "evidence": list of text spans supporting this relation
    - "confidence": float 0.0–1.0 (your confidence this relation is correct)
-4. REJECT any triple not valid under the schema — do not include it.
-5. Include at minimum: one occurs_at per event with a location, one performs/undergoes per major event.
-6. Do NOT hallucinate relations not grounded in the text.
+4. Use only ids from this chunk. Do not invent ids and do not reuse ids from a different chunk.
+5. For performs/undergoes/experiences, only link an entity to an event when that entity is clearly the participant in the quoted evidence.
+6. Do not assign an event to the wrong speaker or nearby character just because they appear in the same chunk.
+7. Camera/stage directions may support occurs_at/located_at, but should not be the sole evidence for an event-role relation.
+8. REJECT any triple not valid under the schema — do not include it.
+9. Include at minimum: one occurs_at per event with a location, one performs/undergoes per major event.
+10. Do NOT hallucinate relations not grounded in the text.
 
 Return ONLY a JSON array of relation objects. No other text.
 

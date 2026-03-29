@@ -3,6 +3,7 @@ Entity extraction (Pass 2) with reflection-based QC (Appendix C.3).
 """
 
 import logging
+import re
 import uuid
 from typing import List, Dict, Optional
 
@@ -137,7 +138,8 @@ def _summarize_events(events: List[Dict]) -> List[Dict]:
 
 def _enrich_entity(ent: Dict, scene: SceneRecord, chunk_id: str, movie_id: str) -> None:
     temp = ent.get("temp_id", "")
-    ent["id"] = f"ent_{movie_id[:8]}_{scene.scene_id}_{temp or uuid.uuid4().hex[:6]}"
+    chunk_slug = _chunk_slug(chunk_id)
+    ent["id"] = f"ent_{movie_id[:8]}_{scene.scene_id}_{chunk_slug}_{temp or uuid.uuid4().hex[:6]}"
     ent.setdefault("scene_id", scene.scene_id)
     ent.setdefault("chunk_id", chunk_id)
     ent.setdefault("surface_forms", [ent.get("canonical_name", ent.get("name", ""))])
@@ -146,3 +148,9 @@ def _enrich_entity(ent: Dict, scene: SceneRecord, chunk_id: str, movie_id: str) 
     ent.setdefault("evidence", [])
     ent.setdefault("linked_event_ids", [])
     ent["movie_id"] = movie_id
+
+
+def _chunk_slug(chunk_id: str) -> str:
+    """Create a stable, ID-safe chunk slug."""
+    slug = re.sub(r"[^A-Za-z0-9]+", "_", str(chunk_id or "chunk")).strip("_")
+    return slug or "chunk"

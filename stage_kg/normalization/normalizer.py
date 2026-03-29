@@ -11,8 +11,10 @@ Full pipeline:
 7. Apply merge decisions: canonical name, alias set, merged provenance.
 """
 
+import json
 import logging
 import re
+import unicodedata
 import uuid
 from typing import Dict, List, Optional, Tuple
 
@@ -32,6 +34,26 @@ SIMILARITY_FLOOR = 0.65
 # Name/description weight for combined similarity
 ALPHA = 0.6   # weight on name similarity
 BETA  = 0.6   # weight on name embedding in joint vector
+
+CHARACTER_TITLE_TOKENS = {
+    "dr",
+    "doctor",
+    "mr",
+    "mister",
+    "mrs",
+    "ms",
+    "miss",
+    "lt",
+    "lieutenant",
+    "capt",
+    "captain",
+    "cmdr",
+    "commander",
+    "adm",
+    "admiral",
+    "ens",
+    "ensign",
+}
 
 
 # ------------------------------------------------------------------ entry point
@@ -61,7 +83,7 @@ def normalize_nodes(
         _apply_rename_map(node, rename_map)
 
     # Step 2: merge nodes that are exactly identical after string normalization
-    proto_nodes, exact_log = _exact_merge(nodes)
+    proto_nodes, exact_log = _exact_merge(nodes, node_type)
     merge_log = list(exact_log)
 
     if len(proto_nodes) <= 1:
@@ -195,23 +217,44 @@ def _get_canonical(node: Dict) -> str:
     return node.get("canonical_name") or node.get("name", "")
 
 
-def _normalize_string(s: str) -> str:
-    return re.sub(r"\s+", " ", s.strip().lower())
+def _normalize_string(s: str, node_type: str = "") -> str:
+    text = unicodedata.normalize("NFKD", str(s or "")).encode("ascii", "ignore").decode("ascii")
+    text = text.strip().lower()
+    if not text:
+        return ""
+
+    tokens = re.findall(r"[a-z0-9]+", text)
+    if node_type == "Character":
+        stripped = [token for token in tokens if token not in CHARACTER_TITLE_TOKENS]
+        if stripped:
+            tokens = stripped
+
+    return " ".join(tokens)
 
 
 def _apply_rename_map(node: Dict, rename_map: Dict[str, str]) -> None:
     canonical = _get_canonical(node)
     if canonical in rename_map:
         node["canonical_name"] = rename_map[canonical]
-    forms = node.get("surface_forms", [])
-    node["surface_forms"] = list(dict.fromkeys(rename_map.get(f, f) for f in forms))
+    else:
+        normalized_rename_map = {
+            _normalize_string(src, node.get("type", "")): dst
+            for src, dst in rename_map.items()
+        }
+        normalized_canonical = _normalize_string(canonical, node.get("type", ""))
+        if normalized_canonical in normalized_rename_map:
+            node["canonical_name"] = normalized_rename_map[normalized_canonical]
+    forms = _coerce_str_list(node.get("surface_forms", []))
+    node["surface_forms"] = list(
+        dict.fromkeys(rename_map.get(form, form) for form in forms)
+    )
 
 
-def _exact_merge(nodes: List[Dict]) -> Tuple[List[Dict], List[Dict]]:
+def _exact_merge(nodes: List[Dict], node_type: str) -> Tuple[List[Dict], List[Dict]]:
     """Merge nodes with identical normalized canonical names."""
     groups: Dict[str, List[Dict]] = {}
     for node in nodes:
-        key = _normalize_string(_get_canonical(node))
+        key = _normalize_string(_get_canonical(node), node_type)
         groups.setdefault(key, []).append(node)
 
     merged = []
@@ -235,22 +278,27 @@ def _exact_merge(nodes: List[Dict]) -> Tuple[List[Dict], List[Dict]]:
 def _merge_into_node(base: Dict, other: Dict) -> None:
     """Merge `other` into `base` in place."""
     # Surface forms / aliases
-    forms = set(base.get("surface_forms", [])) | set(other.get("surface_forms", []))
+    forms = set(_coerce_str_list(base.get("surface_forms", []))) | set(
+        _coerce_str_list(other.get("surface_forms", []))
+    )
     base["surface_forms"] = list(forms)
 
     # Scene refs
-    refs = set(base.get("scene_refs", [base.get("scene_id", "")])) | \
-           set(other.get("scene_refs", [other.get("scene_id", "")]))
+    refs = set(_coerce_str_list(base.get("scene_refs", [base.get("scene_id", "")]))) | set(
+        _coerce_str_list(other.get("scene_refs", [other.get("scene_id", "")]))
+    )
     refs.discard("")
     base["scene_refs"] = list(refs)
 
     # Evidence
-    ev = set(base.get("evidence", [])) | set(other.get("evidence", []))
+    ev = set(_coerce_str_list(base.get("evidence", []))) | set(
+        _coerce_str_list(other.get("evidence", []))
+    )
     base["evidence"] = list(ev)
 
     # Merged raw IDs (for edge resolution)
-    merged_ids = set(base.get("_merged_raw_ids", []))
-    merged_ids.update(other.get("_merged_raw_ids", []))
+    merged_ids = set(_coerce_str_list(base.get("_merged_raw_ids", [])))
+    merged_ids.update(_coerce_str_list(other.get("_merged_raw_ids", [])))
     if other.get("id"):
         merged_ids.add(other["id"])
     base["_merged_raw_ids"] = list(merged_ids)
@@ -258,6 +306,35 @@ def _merge_into_node(base: Dict, other: Dict) -> None:
     # Prefer longer description
     if len(other.get("description", "")) > len(base.get("description", "")):
         base["description"] = other["description"]
+
+
+def _coerce_str_list(value) -> List[str]:
+    """Convert mixed scalars/lists/dicts into a flat list of strings."""
+    if value is None:
+        return []
+
+    if isinstance(value, (list, tuple, set)):
+        items = list(value)
+    else:
+        items = [value]
+
+    results: List[str] = []
+    for item in items:
+        if item is None:
+            continue
+        if isinstance(item, dict):
+            extracted = None
+            for key in ("text", "name", "canonical_name", "id", "scene_id"):
+                candidate = item.get(key)
+                if candidate:
+                    extracted = candidate
+                    break
+            item = extracted if extracted is not None else json.dumps(item, sort_keys=True, ensure_ascii=False)
+        text = str(item).strip()
+        if text:
+            results.append(text)
+
+    return results
 
 
 def _get_embedder(api_key: Optional[str]):

@@ -8,6 +8,7 @@ Results are cached by (movie_id, scene_id, chunk_id).
 """
 
 import logging
+import re
 import uuid
 from typing import List, Dict, Optional
 
@@ -124,7 +125,8 @@ def extract_events_for_scene(
 
 def _enrich_event(ev: Dict, scene: SceneRecord, chunk_id: str, movie_id: str) -> None:
     temp = ev.get("temp_id", "")
-    ev["id"] = f"ev_{movie_id[:8]}_{scene.scene_id}_{temp or uuid.uuid4().hex[:6]}"
+    chunk_slug = _chunk_slug(chunk_id)
+    ev["id"] = f"ev_{movie_id[:8]}_{scene.scene_id}_{chunk_slug}_{temp or uuid.uuid4().hex[:6]}"
     ev.setdefault("scene_id", scene.scene_id)
     ev.setdefault("chunk_id", chunk_id)
     ev.setdefault("evidence", [])
@@ -134,3 +136,9 @@ def _enrich_event(ev: Dict, scene: SceneRecord, chunk_id: str, movie_id: str) ->
     ev.setdefault("scope", "local")
     ev["type"] = "Event"
     ev["movie_id"] = movie_id
+
+
+def _chunk_slug(chunk_id: str) -> str:
+    """Create a stable, ID-safe chunk slug."""
+    slug = re.sub(r"[^A-Za-z0-9]+", "_", str(chunk_id or "chunk")).strip("_")
+    return slug or "chunk"
