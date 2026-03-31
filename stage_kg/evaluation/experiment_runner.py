@@ -2,6 +2,7 @@
 
 import csv
 import json
+import os
 from typing import Dict, List, Optional, Tuple
 from pathlib import Path
 from dataclasses import asdict
@@ -11,6 +12,7 @@ from stage_kg.ingest.loader import load_movie
 from stage_kg.evaluation.config import EvaluationConfig
 from stage_kg.evaluation.claim_verifier import KnowledgeGraphVerifier
 from stage_kg.evaluation.hallucination_eval import HallucinationEvaluator, HallucinationMetrics
+from stage_kg.evaluation.new_claim_extractor import ClaimExtractor
 from stage_kg.evaluation.consistency_eval import ConsistencyEvaluator, ConsistencyMetrics
 from stage_kg.evaluation.repetition_eval import RepetitionEvaluator, RepetitionMetrics
 from stage_kg.evaluation.scene_text import (
@@ -37,6 +39,7 @@ class EvaluationExperiment:
         text_source: str = "scene_script",
         force_rebuild_descriptions: bool = False,
         scene_descriptions_path: Optional[str] = None,
+        hallucination_claim_extractor: Optional[ClaimExtractor] = None,
     ):
         """
         Initialize experiment.
@@ -68,9 +71,20 @@ class EvaluationExperiment:
         self.scene_text_builder = ScreenplaySceneTextBuilder()
         
         self.output_dir.mkdir(parents=True, exist_ok=True)
+
+        if hallucination_claim_extractor is not None:
+            self.hallucination_claim_extractor = hallucination_claim_extractor
+        else:
+            api_key = os.environ.get("GEMINI_API_KEY")
+            self.hallucination_claim_extractor = (
+                ClaimExtractor.for_gemini(api_key=api_key) if api_key else None
+            )
         
         # Initialize evaluators
-        self.hallucination_eval = HallucinationEvaluator(config)
+        self.hallucination_eval = HallucinationEvaluator(
+            claim_extractor=self.hallucination_claim_extractor,
+            config=config,
+        )
         self.consistency_eval = ConsistencyEvaluator(config)
         self.repetition_eval = RepetitionEvaluator(config)
     
@@ -322,7 +336,7 @@ class EvaluationExperiment:
         for scene_id, characters in scene_descriptions.items():
             for char_id, text in characters.items():
                 _, results, abstentions, low_confidence_claims = self.hallucination_eval.evaluate_scene(
-                    text, scene_id, char_id, verifier
+                    text, scene_id, verifier
                 )
                 all_results.extend(results)
                 all_abstentions.extend(abstentions)

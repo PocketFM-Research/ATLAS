@@ -9,11 +9,12 @@ from typing import Dict, List, Optional, Set, Tuple
 
 from stage_kg.schema import NodeType, RelationType, VALID_TRIPLES
 from stage_kg.evaluation.config import EvaluationConfig
-from stage_kg.evaluation.claim_extractor import Claim
+from stage_kg.evaluation.new_claim_extractor import Claim
 
 
 GROUND_STATUSES = {"grounded", "grounded_multihop"}
 EVENT_ROLE_RELATIONS = {"performs", "undergoes", "experiences"}
+TEXT_BACKED_RELATIONS = {"located_at", "is_a", "possesses", "undergoes", "performs"}
 SCHEMA_SYNONYMS = {
     "is": "is_a",
     "has": "possesses",
@@ -97,8 +98,8 @@ class KnowledgeGraphVerifier:
     def verify_claim(self, claim: Claim) -> VerificationResult:
         """Verify a single claim against the graph."""
         subject_ids = self._resolve_entity(claim.subject)
-        if not subject_ids and claim.character_id in self.nodes_by_id:
-            subject_ids = [claim.character_id]
+        if not subject_ids:
+            subject_ids = self._resolve_subject_from_claim_text(claim)
 
         if not subject_ids:
             return VerificationResult(
@@ -130,9 +131,15 @@ class KnowledgeGraphVerifier:
                 for object_id in object_ids:
                     candidate = self._bfs_verify(subject_id, object_id, claim.predicate, claim)
                     best_result = self._choose_better_result(best_result, candidate)
+                    candidate = self._verify_composed_scene_support(subject_id, object_id, claim)
+                    best_result = self._choose_better_result(best_result, candidate)
 
             semantic_candidate = self._verify_semantic_edge(subject_id, claim)
             best_result = self._choose_better_result(best_result, semantic_candidate)
+            subject_text_candidate = self._verify_subject_text_support(subject_id, claim)
+            best_result = self._choose_better_result(best_result, subject_text_candidate)
+            scene_text_candidate = self._verify_scene_text_support(subject_id, claim)
+            best_result = self._choose_better_result(best_result, scene_text_candidate)
 
         return best_result
 
@@ -289,6 +296,100 @@ class KnowledgeGraphVerifier:
             confidence=confidence,
         )
 
+    def _verify_subject_text_support(self, subject_id: str, claim: Claim) -> VerificationResult:
+        if claim.predicate not in TEXT_BACKED_RELATIONS:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        subject_node = self.nodes_by_id.get(subject_id, {})
+        scene_blob = self._subject_scene_text(subject_id, claim.scene_id)
+        object_score = self._text_similarity(self._normalize_object_for_matching(claim.object), scene_blob)
+        claim_score = self._text_similarity(self._normalize_text(claim.claim_text), scene_blob)
+        score = max(object_score, claim_score)
+
+        threshold = 0.24 if claim.predicate in {"is_a", "possesses", "located_at"} else 0.2
+        if score < threshold:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        return VerificationResult(
+            claim=claim,
+            status="grounded",
+            depth=1,
+            path=[subject_id],
+            supported_node_types=[subject_node.get("type", "")],
+            confidence=min(0.95, 0.45 + score / 2.0),
+        )
+
+    def _verify_composed_scene_support(
+        self,
+        subject_id: str,
+        object_id: str,
+        claim: Claim,
+    ) -> VerificationResult:
+        if claim.predicate not in TEXT_BACKED_RELATIONS:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        subject_node = self.nodes_by_id.get(subject_id, {})
+        object_node = self.nodes_by_id.get(object_id, {})
+        if not subject_node or not object_node:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        if not self._node_in_scene(subject_node, claim.scene_id) or not self._node_in_scene(object_node, claim.scene_id):
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        combined = " ".join(
+            part for part in [
+                self._subject_scene_text(subject_id, claim.scene_id),
+                self._node_text(object_node),
+            ]
+            if part
+        )
+        object_score = self._text_similarity(self._normalize_object_for_matching(claim.object), combined)
+        claim_score = self._text_similarity(self._normalize_text(claim.claim_text), combined)
+        score = max(object_score, claim_score)
+        if score < 0.22:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        return VerificationResult(
+            claim=claim,
+            status="grounded_multihop",
+            depth=2,
+            path=[subject_id, object_id],
+            supported_node_types=[object_node.get("type", "")],
+            confidence=min(0.9, 0.4 + score / 2.0),
+        )
+
+    def _verify_scene_text_support(self, subject_id: str, claim: Claim) -> VerificationResult:
+        scene_nodes = [
+            node for node in self.graph_data["nodes"]
+            if self._node_in_scene(node, claim.scene_id)
+        ]
+        best_score = 0.0
+        best_target = None
+        query_object = self._normalize_object_for_matching(claim.object)
+        query_claim = self._normalize_text(claim.claim_text)
+
+        for node in scene_nodes:
+            target_text = self._node_text(node)
+            score = max(
+                self._text_similarity(query_object, target_text),
+                self._text_similarity(query_claim, target_text),
+            )
+            if score > best_score:
+                best_score = score
+                best_target = node
+
+        if not best_target or best_score < 0.34:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        return VerificationResult(
+            claim=claim,
+            status="grounded",
+            depth=1,
+            path=[subject_id, best_target["id"]],
+            supported_node_types=[best_target.get("type", "")],
+            confidence=min(0.85, 0.35 + best_score / 2.0),
+        )
+
     def _claim_edge_similarity(self, claim: Claim, edge_info: Dict, target_node: Dict) -> float:
         claim_object = self._normalize_text(claim.object)
         claim_text = self._normalize_text(claim.claim_text)
@@ -365,12 +466,62 @@ class KnowledgeGraphVerifier:
         union = len(query_tokens | indexed_tokens)
         return overlap / union if union else 0.0
 
+    def _resolve_subject_from_claim_text(self, claim: Claim) -> List[str]:
+        normalized_subject = self._normalize_text(claim.subject)
+        normalized_claim = self._normalize_text(claim.claim_text)
+        candidates: List[Tuple[float, str]] = []
+
+        for node in self.graph_data["nodes"]:
+            if not self._node_in_scene(node, claim.scene_id):
+                continue
+            node_text = self.node_text_index.get(node["id"], "")
+            score = max(
+                self._text_similarity(normalized_subject, node_text),
+                self._text_similarity(normalized_claim, node_text),
+            )
+            if score >= 0.22:
+                candidates.append((score, node["id"]))
+
+        candidates.sort(reverse=True)
+        resolved = []
+        seen = set()
+        for _, node_id in candidates:
+            if node_id in seen:
+                continue
+            seen.add(node_id)
+            resolved.append(node_id)
+        return resolved[:5]
+
     def _node_text(self, node: Dict) -> str:
         text_parts = [node.get("name", "")]
         text_parts.extend(node.get("aliases", []) or [])
         text_parts.append(node.get("description", ""))
         text_parts.extend(node.get("evidence", []) or [])
         return self._normalize_text(" ".join(part for part in text_parts if part))
+
+    def _subject_scene_text(self, subject_id: str, scene_id: str) -> str:
+        node = self.nodes_by_id.get(subject_id, {})
+        parts = [self._node_text(node)]
+        for edge_info in self.adjacency.get(subject_id, []):
+            if not self._scene_matches(edge_info, scene_id):
+                continue
+            target_node = self.nodes_by_id.get(edge_info["target"], {})
+            parts.append(edge_info.get("relation", ""))
+            parts.extend(edge_info.get("evidence", []) or [])
+            parts.append(self._node_text(target_node))
+        return self._normalize_text(" ".join(part for part in parts if part))
+
+    def _node_in_scene(self, node: Dict, scene_id: str) -> bool:
+        refs = [str(ref) for ref in node.get("scene_refs", [])]
+        return not refs or str(scene_id) in refs
+
+    def _normalize_object_for_matching(self, text: str) -> str:
+        normalized = self._normalize_text(text)
+        tokens = [
+            token for token in normalized.split()
+            if token not in {"the", "a", "an", "half", "class"}
+        ]
+        return " ".join(tokens)
 
     def _text_similarity(self, left: str, right: str) -> float:
         if not left or not right:

@@ -1,16 +1,11 @@
 """Hallucination evaluation (Metric 1)."""
 
 import csv
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Optional, Any
 from pathlib import Path
 from dataclasses import dataclass
 
-from stage_kg.evaluation.claim_extractor import (
-    Claim,
-    ClaimExtractor,
-    ExtractionAbstention,
-    LowConfidenceClaim,
-)
+from stage_kg.evaluation.new_claim_extractor import Claim, ClaimExtractor
 from stage_kg.evaluation.claim_verifier import KnowledgeGraphVerifier, VerificationResult
 from stage_kg.evaluation.config import EvaluationConfig
 
@@ -51,32 +46,29 @@ class HallucinationMetrics:
 
 
 class HallucinationEvaluator:
-    """Evaluate hallucination rate per scene/character."""
+    """Evaluate hallucination rate for generated scene text."""
     
-    def __init__(self, config: EvaluationConfig = None):
+    def __init__(self, claim_extractor: Optional[ClaimExtractor] = None, config: EvaluationConfig = None):
         self.config = config or EvaluationConfig()
-        self.claim_extractor = ClaimExtractor()
+        self.claim_extractor = claim_extractor
     
     def evaluate_scene(
         self,
         generated_text: str,
         scene_id: str,
-        character_id: str,
         verifier: KnowledgeGraphVerifier
-    ) -> 'Tuple[HallucinationMetrics, List[VerificationResult], List[ExtractionAbstention], List[LowConfidenceClaim]]':
+    ) -> 'Tuple[HallucinationMetrics, List[VerificationResult], List[Any], List[Any]]':
         """
         Evaluate hallucination for generated text of a scene.
         
         Returns: (HallucinationMetrics, list of verification results)
         """
-        # Extract claims
-        claims, abstentions, low_confidence_claims = self.claim_extractor.extract_claims_with_quality(
-            generated_text, scene_id, character_id
-        )
-        claims = self._filter_claims_for_character(claims, character_id, verifier)
-        low_confidence_claims = self._filter_low_confidence_for_character(
-            low_confidence_claims, character_id, verifier
-        )
+        if self.claim_extractor is None:
+            raise ValueError("HallucinationEvaluator requires a claim-centric ClaimExtractor instance.")
+
+        claims = self.claim_extractor.extract_claims(generated_text, scene_id)
+        abstentions: List[Any] = []
+        low_confidence_claims: List[Any] = []
         
         # Verify each claim
         results = []
@@ -92,8 +84,8 @@ class HallucinationEvaluator:
     def _compute_metrics(
         self,
         results: List[VerificationResult],
-        abstentions: List[ExtractionAbstention] = None,
-        low_confidence_claims: List[LowConfidenceClaim] = None,
+        abstentions: List[Any] = None,
+        low_confidence_claims: List[Any] = None,
     ) -> HallucinationMetrics:
         """Compute aggregated hallucination metrics from verification results."""
         abstentions = abstentions or []
@@ -162,104 +154,19 @@ class HallucinationEvaluator:
         
         return metrics
 
-    def _filter_claims_for_character(
-        self,
-        claims: List[Claim],
-        character_id: str,
-        verifier: KnowledgeGraphVerifier,
-    ) -> List[Claim]:
-        """Keep only claims that are plausibly centered on the requested character."""
-        if character_id not in verifier.nodes_by_id:
-            return claims
-
-        character_node = verifier.nodes_by_id[character_id]
-        character_names = [character_node.get("name", "")]
-        character_names.extend(character_node.get("aliases", []) or [])
-        character_names = [
-            verifier._normalize_text(name) for name in character_names if verifier._normalize_text(name)
-        ]
-
-        filtered = []
-        for claim in claims:
-            if claim.subject == character_id:
-                filtered.append(claim)
-                continue
-
-            subject_ids = verifier._resolve_entity(claim.subject)
-            if character_id in subject_ids:
-                filtered.append(claim)
-                continue
-
-            if subject_ids:
-                if any(
-                    verifier.nodes_by_id.get(subject_id, {}).get("type") == "Character"
-                    for subject_id in subject_ids
-                ):
-                    continue
-                filtered.append(claim)
-                continue
-
-            normalized_subject = verifier._normalize_text(claim.subject)
-            if any(verifier._entity_match_score(normalized_subject, name) >= 0.75 for name in character_names):
-                filtered.append(claim)
-                continue
-
-            if normalized_subject:
-                filtered.append(claim)
-
-        return filtered
-
-    def _filter_low_confidence_for_character(
-        self,
-        claims: List[LowConfidenceClaim],
-        character_id: str,
-        verifier: KnowledgeGraphVerifier,
-    ) -> List[LowConfidenceClaim]:
-        """Apply the same character-centric filtering to low-confidence claims."""
-        pseudo_claims = [
-            Claim(
-                subject=claim.subject,
-                predicate=claim.predicate,
-                object=claim.object,
-                claim_text=claim.claim_text,
-                scene_id=claim.scene_id,
-                character_id=claim.character_id,
-                sentence_idx=claim.sentence_idx,
-            )
-            for claim in claims
-        ]
-        kept_claims = self._filter_claims_for_character(pseudo_claims, character_id, verifier)
-        kept_keys = {
-            (claim.subject, claim.predicate, claim.object, claim.sentence_idx)
-            for claim in kept_claims
-        }
-        filtered = [
-            claim for claim in claims
-            if (claim.subject, claim.predicate, claim.object, claim.sentence_idx) in kept_keys
-        ]
-        deduped = []
-        seen = set()
-        for claim in filtered:
-            key = (claim.scene_id, claim.character_id, claim.subject, claim.predicate, claim.object)
-            if key in seen:
-                continue
-            seen.add(key)
-            deduped.append(claim)
-        return deduped
-    
     def save_results(
         self,
         results: List[VerificationResult],
         output_path: str,
-        abstentions: List[ExtractionAbstention] = None,
+        abstentions: List[Any] = None,
         abstentions_output_path: str = None,
-        low_confidence_claims: List[LowConfidenceClaim] = None,
+        low_confidence_claims: List[Any] = None,
         low_confidence_output_path: str = None,
     ):
         """Save detailed verification results to CSV."""
         with open(output_path, 'w', newline='') as f:
             writer = csv.DictWriter(f, fieldnames=[
-                "scene_id", "character_id", "claim_text", "subject", "predicate", "object",
+                "scene_id", "claim_text", "subject", "predicate", "object",
                 "status", "depth", "confidence", "relation_type", "path", "supported_types"
             ])
             writer.writeheader()
@@ -267,7 +174,6 @@ class HallucinationEvaluator:
             for result in results:
                 writer.writerow({
                     "scene_id": result.claim.scene_id,
-                    "character_id": result.claim.character_id,
                     "claim_text": result.claim.claim_text,
                     "subject": result.claim.subject,
                     "predicate": result.claim.predicate,
@@ -286,7 +192,6 @@ class HallucinationEvaluator:
                     f,
                     fieldnames=[
                         "scene_id",
-                        "character_id",
                         "sentence_idx",
                         "text",
                         "reason",
@@ -296,7 +201,16 @@ class HallucinationEvaluator:
                 )
                 writer.writeheader()
                 for abstention in abstentions:
-                    writer.writerow(abstention.to_dict())
+                    writer.writerow(
+                        {
+                            "scene_id": abstention.scene_id,
+                            "sentence_idx": abstention.sentence_idx,
+                            "text": abstention.text,
+                            "reason": abstention.reason,
+                            "speaker": abstention.speaker,
+                            "context_subject": abstention.context_subject,
+                        }
+                    )
 
         if low_confidence_claims is not None and low_confidence_output_path:
             with open(low_confidence_output_path, "w", newline="") as f:
@@ -304,7 +218,6 @@ class HallucinationEvaluator:
                     f,
                     fieldnames=[
                         "scene_id",
-                        "character_id",
                         "sentence_idx",
                         "claim_text",
                         "subject",
@@ -316,4 +229,15 @@ class HallucinationEvaluator:
                 )
                 writer.writeheader()
                 for claim in low_confidence_claims:
-                    writer.writerow(claim.to_dict())
+                    writer.writerow(
+                        {
+                            "scene_id": claim.scene_id,
+                            "sentence_idx": claim.sentence_idx,
+                            "claim_text": claim.claim_text,
+                            "subject": claim.subject,
+                            "predicate": claim.predicate,
+                            "object": claim.object,
+                            "score": claim.score,
+                            "reasons": ";".join(claim.reasons),
+                        }
+                    )

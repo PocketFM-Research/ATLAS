@@ -226,3 +226,10 @@ def validate_relation_list(data: Any) -> bool:
         return False
     required = {"source_id", "relation", "target_id"}
     return all(isinstance(i, dict) and required.issubset(i) for i in data)
+
+
+def validate_claim_list(data: Any) -> bool:
+    if not isinstance(data, list):
+        return False
+    required = {"subject", "predicate", "object", "claim_text"}
+    return all(isinstance(i, dict) and required.issubset(i) for i in data)
