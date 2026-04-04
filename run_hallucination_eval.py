@@ -157,7 +157,16 @@ def main() -> None:
                 movie_title=movie.title,
             )
             all_claims.extend(claims)
-            metrics, results, _, _ = evaluator.evaluate_scene(scene.content, scene.scene_id, verifier)
+            metrics, results, _, _ = evaluator.evaluate_scene(
+                generated_text=scene.content,
+                scene_id=scene.scene_id,
+                verifier=verifier,
+                scene_title=scene.title,
+                scene_summary=scene.summary,
+                movie_id=movie_id,
+                movie_title=movie.title,
+                claims=claims,
+            )
             print(
                 f"  claims={len(claims)} grounded={metrics.grounded_claims} "
                 f"multihop={metrics.grounded_multihop_claims} hallucinated={metrics.hallucinated_claims}"

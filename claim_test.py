@@ -2,7 +2,6 @@
 
 import csv
 import json
-import os
 from pathlib import Path
 
 from stage_kg.evaluation.config import EvaluationConfig
@@ -13,7 +12,7 @@ DEFAULT_MOVIE_ID = "en04052c0f20834cf1bac19927d8f758e0"
 DEFAULT_INPUT_DIR = Path("/Users/mobiletest4/Downloads/Github/STAGE-Evaluation-Pipeline")
 DEFAULT_SCENE_ID = "1"
 DEFAULT_OUTPUT_DIR = DEFAULT_INPUT_DIR / "test_claim_extractor"
-GEMINI_API_KEY = 
+DEFAULT_GEMINI_KEY_PATH = DEFAULT_INPUT_DIR / "gemini.txt"
 
 
 def load_scene(script_path: Path, scene_id: str) -> dict:
@@ -28,9 +27,11 @@ def load_scene(script_path: Path, scene_id: str) -> dict:
 
 
 def main():
-    api_key = GEMINI_API_KEY or os.environ.get("GEMINI_API_KEY")
+    api_key = DEFAULT_GEMINI_KEY_PATH.read_text(encoding="utf-8").strip() if DEFAULT_GEMINI_KEY_PATH.exists() else ""
     if not api_key:
-        raise EnvironmentError("Set GEMINI_API_KEY in claim_test.py or export GEMINI_API_KEY before running claim_test.py")
+        raise EnvironmentError(
+            f"Put your Gemini API key into {DEFAULT_GEMINI_KEY_PATH} with no quotes or extra text."
+        )
 
     script_path = DEFAULT_INPUT_DIR / "English" / DEFAULT_MOVIE_ID / "script.json"
     if not script_path.exists():

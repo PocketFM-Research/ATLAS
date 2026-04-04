@@ -56,17 +56,30 @@ class HallucinationEvaluator:
         self,
         generated_text: str,
         scene_id: str,
-        verifier: KnowledgeGraphVerifier
+        verifier: KnowledgeGraphVerifier,
+        scene_title: str = "",
+        scene_summary: str = "",
+        movie_id: str = "",
+        movie_title: str = "",
+        claims: Optional[List[Claim]] = None,
     ) -> 'Tuple[HallucinationMetrics, List[VerificationResult], List[Any], List[Any]]':
         """
         Evaluate hallucination for generated text of a scene.
         
         Returns: (HallucinationMetrics, list of verification results)
         """
-        if self.claim_extractor is None:
-            raise ValueError("HallucinationEvaluator requires a claim-centric ClaimExtractor instance.")
+        if claims is None:
+            if self.claim_extractor is None:
+                raise ValueError("HallucinationEvaluator requires a claim-centric ClaimExtractor instance.")
 
-        claims = self.claim_extractor.extract_claims(generated_text, scene_id)
+            claims = self.claim_extractor.extract_claims(
+                text=generated_text,
+                scene_id=scene_id,
+                scene_title=scene_title,
+                scene_summary=scene_summary,
+                movie_id=movie_id,
+                movie_title=movie_title,
+            )
         abstentions: List[Any] = []
         low_confidence_claims: List[Any] = []
         

@@ -125,7 +125,15 @@ class KnowledgeGraphVerifier:
             confidence=0.0,
         )
 
-        object_ids = self._resolve_entity(claim.object)
+        object_queries = self._object_resolution_candidates(claim)
+        object_ids: List[str] = []
+        seen_object_ids: Set[str] = set()
+        for object_query in object_queries:
+            for object_id in self._resolve_entity(object_query):
+                if object_id in seen_object_ids:
+                    continue
+                seen_object_ids.add(object_id)
+                object_ids.append(object_id)
         for subject_id in subject_ids:
             if object_ids:
                 for object_id in object_ids:
@@ -492,6 +500,39 @@ class KnowledgeGraphVerifier:
             resolved.append(node_id)
         return resolved[:5]
 
+    def _object_resolution_candidates(self, claim: Claim) -> List[str]:
+        candidates: List[str] = []
+        seen: Set[str] = set()
+
+        def add(candidate: str):
+            cleaned = candidate.strip()
+            if not cleaned:
+                return
+            normalized = self._normalize_text(cleaned)
+            if not normalized or normalized in seen:
+                return
+            seen.add(normalized)
+            candidates.append(cleaned)
+
+        add(claim.object)
+        normalized_object = self._normalize_text(claim.object)
+        simplified_object = self._normalize_object_for_matching(claim.object)
+        if simplified_object != normalized_object:
+            add(simplified_object)
+
+        if claim.predicate == "is_a":
+            stripped = re.sub(r"\bin appearance\b", "", normalized_object).strip()
+            add(stripped)
+            for part in re.split(r"\band\b|/", stripped):
+                part = part.strip()
+                if not part:
+                    continue
+                add(part)
+                part = re.sub(r"\bhalf\b", "", part).strip()
+                add(part)
+
+        return candidates
+
     def _node_text(self, node: Dict) -> str:
         text_parts = [node.get("name", "")]
         text_parts.extend(node.get("aliases", []) or [])
@@ -519,7 +560,7 @@ class KnowledgeGraphVerifier:
         normalized = self._normalize_text(text)
         tokens = [
             token for token in normalized.split()
-            if token not in {"the", "a", "an", "half", "class"}
+            if token not in {"the", "a", "an", "half", "class", "in", "appearance"}
         ]
         return " ".join(tokens)
 
