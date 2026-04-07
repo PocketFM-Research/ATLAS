@@ -5,12 +5,36 @@ import argparse
 import logging
 from pathlib import Path
 import json
+from datetime import datetime
 
 from stage_kg.evaluation.experiment_runner import EvaluationExperiment
 from stage_kg.evaluation.config import EvaluationConfig
 
-logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+
+def setup_eval_logging(output_dir: Path) -> Path:
+    """Log eval runs both to console and to an output-local log file."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+    log_path = output_dir / f"eval_run_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+
+    root = logging.getLogger()
+    root.setLevel(logging.INFO)
+
+    # Avoid duplicate handlers when rerun in the same interpreter.
+    if not any(isinstance(h, logging.StreamHandler) and not isinstance(h, logging.FileHandler) for h in root.handlers):
+        stream_handler = logging.StreamHandler()
+        stream_handler.setLevel(logging.INFO)
+        stream_handler.setFormatter(logging.Formatter("%(levelname)s:%(name)s:%(message)s"))
+        root.addHandler(stream_handler)
+
+    file_handler = logging.FileHandler(log_path, encoding="utf-8")
+    file_handler.setLevel(logging.INFO)
+    file_handler.setFormatter(
+        logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s", "%H:%M:%S")
+    )
+    root.addHandler(file_handler)
+    return log_path
 
 
 def dummy_text_generator(graph_data: dict, scene_id: str, character_id: str) -> str:
@@ -105,6 +129,8 @@ def main():
     )
     
     args = parser.parse_args()
+    log_path = setup_eval_logging(Path(args.output_dir))
+    logger.info("Eval log: %s", log_path)
     
     # Create config
     config = EvaluationConfig()

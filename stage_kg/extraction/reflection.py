@@ -7,6 +7,7 @@ up to MAX_RETRIES times. Keep the highest-scoring result across all attempts.
 """
 
 import logging
+import re
 from typing import Any, Callable, List, Optional, Tuple
 
 from ..llm.base import BaseLLM
@@ -22,6 +23,34 @@ from ..utils.json_repair import parse_llm_json
 from ..utils.logging_utils import PromptLogger
 
 logger = logging.getLogger(__name__)
+
+
+def _salvage_partial_score(raw: str) -> Optional[dict]:
+    """Best-effort recovery for truncated reflection JSON."""
+    values = {}
+    for key in ("accuracy", "consistency", "redundancy", "overall"):
+        match = re.search(rf'"{key}"\s*:\s*(\d+)', raw)
+        if match:
+            try:
+                values[key] = int(match.group(1))
+            except ValueError:
+                continue
+
+    if not values:
+        return None
+
+    if "overall" not in values:
+        component_scores = [
+            values[key]
+            for key in ("accuracy", "consistency", "redundancy")
+            if key in values
+        ]
+        if component_scores:
+            values["overall"] = round(sum(component_scores) / len(component_scores))
+
+    feedback_match = re.search(r'"feedback"\s*:\s*"([^"]*)', raw, re.S)
+    values["feedback"] = feedback_match.group(1).strip() if feedback_match else ""
+    return values
 
 
 def score_extraction(
@@ -46,8 +75,16 @@ def score_extraction(
 
     result = parse_llm_json(raw, schema_hint="reflection_score")
     if not isinstance(result, dict):
+        result = _salvage_partial_score(raw)
+
+    if not isinstance(result, dict):
         logger.warning("Reflection scoring returned unparseable JSON for scene=%s", scene_id)
         return 5, "Could not parse reflection score; proceeding."  # assume mediocre
+
+    if "overall" not in result:
+        recovered = _salvage_partial_score(raw)
+        if recovered and "overall" in recovered:
+            result = {**recovered, **result}
 
     score = int(result.get("overall", 5))
     feedback = result.get("feedback", "")

@@ -21,6 +21,58 @@ logger = logging.getLogger(__name__)
 
 ALLOWED_PREDICATES = set(RELATION_TYPES)
 CLAIM_MAX_CHUNK_CHARS = min(900, MAX_CHUNK_CHARS)
+REPORTING_VERB_RE = re.compile(
+    r"\b(says?|said|asks?|asked|states?|stated|tells?|told|exclaims?|shouts?|yells?|compares?|calls?|references?)\b"
+)
+GENERIC_SUBJECTS = {
+    "she",
+    "he",
+    "they",
+    "you",
+    "someone",
+    "somebody",
+    "it",
+    "speaker",
+    "the speaker",
+    "person addressed",
+    "the person addressed",
+    "guys",
+    "cops",
+    "officers",
+    "all eyes",
+    "our fighters",
+    "their plan",
+    "the town",
+}
+GENERIC_SUBJECT_PREFIXES = (
+    "scene ",
+    "the scene ",
+    "speaker ",
+    "the speaker ",
+    "person addressed",
+    "the person addressed",
+)
+GENERIC_OBJECT_TOKENS = {"something", "someone", "somebody", "thing"}
+SOUND_CLAIM_HINTS = ("siren", "barking", "audible sound", "bwoop")
+META_REFERENCE_HINTS = ("green draft", "8 28 09", "48a")
+INTERPRETIVE_STATE_HINTS = (
+    "better days",
+    "need to ",
+    "about to ",
+    "looks scared",
+    "agitated",
+    "depressed",
+    "tries not to cry",
+    "being awake",
+    " is wild",
+)
+WEAK_ACTION_HINTS = (
+    "double take",
+    "clawing",
+    "studying ",
+    "leaping backwards",
+    "handling something",
+)
 
 
 @dataclass
@@ -51,6 +103,32 @@ class Claim:
             "evidence": self.evidence or [],
             "confidence": self.confidence,
         }
+
+
+@dataclass
+class ExtractionAbstention:
+    """Claim candidate held out from scoring because it is not graph-faithfulness-worthy."""
+
+    text: str
+    scene_id: str
+    sentence_idx: int
+    reason: str
+    speaker: str = ""
+    context_subject: str = ""
+
+
+@dataclass
+class LowConfidenceClaim:
+    """Borderline claim candidate held out from scoring."""
+
+    subject: str
+    predicate: str
+    object: str
+    claim_text: str
+    scene_id: str
+    sentence_idx: int
+    score: float
+    reasons: List[str]
 
 
 def extract_claims_for_scene(
@@ -437,3 +515,60 @@ def _claim_from_dict(data: Dict) -> Claim:
         confidence=float(data.get("confidence", 0.8)),
         claim_id=data.get("id", ""),
     )
+
+
+def assess_claim_quality(claim: Claim) -> Tuple[str, float, List[str]]:
+    """
+    Classify a claim as keep / low_confidence / abstain.
+
+    We abstain on dialogue acts, scene metadata, generic placeholders, and
+    sound/document artifacts because they are poor graph-faithfulness units.
+    """
+    reasons: List[str] = []
+    subject = _normalize_text(claim.subject)
+    obj = _normalize_text(claim.object)
+    claim_text = _normalize_text(claim.claim_text)
+    predicate = _normalize_predicate(claim.predicate)
+
+    if (
+        subject in GENERIC_SUBJECTS
+        or any(subject.startswith(prefix) for prefix in GENERIC_SUBJECT_PREFIXES)
+        or claim_text.startswith("scene ")
+    ):
+        reasons.append("generic_or_scene_subject")
+
+    if predicate in {"performs", "references", "causes", "precedes"}:
+        if REPORTING_VERB_RE.search(claim_text) or any(hint in claim_text for hint in META_REFERENCE_HINTS):
+            reasons.append("speech_or_reference_act")
+        if _has_quoted_span(claim.claim_text):
+            reasons.append("quoted_dialogue")
+
+    if any(token in GENERIC_OBJECT_TOKENS for token in obj.split()):
+        reasons.append("generic_object")
+
+    if any(hint in claim_text for hint in SOUND_CLAIM_HINTS):
+        reasons.append("sound_effect_claim")
+
+    if reasons:
+        return "abstain", 0.0, reasons
+
+    low_confidence_reasons: List[str] = []
+    if predicate in {"experiences", "undergoes"} and any(hint in claim_text for hint in INTERPRETIVE_STATE_HINTS):
+        low_confidence_reasons.append("interpretive_state")
+
+    if predicate == "performs" and any(hint in claim_text for hint in WEAK_ACTION_HINTS):
+        low_confidence_reasons.append("weak_action_paraphrase")
+
+    if "about to " in claim_text:
+        low_confidence_reasons.append("irrealis_future_action")
+
+    if low_confidence_reasons:
+        return "low_confidence", 0.4, low_confidence_reasons
+
+    return "keep", 0.8, []
+
+
+def _has_quoted_span(text: str) -> bool:
+    if '"' in text:
+        return True
+    return bool(re.search(r"(^|[\s(])'[^']{2,}'(?=[$\s).,!?:;])", text))

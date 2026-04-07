@@ -76,6 +76,10 @@ class EvaluationExperiment:
             self.hallucination_claim_extractor = hallucination_claim_extractor
         else:
             api_key = os.environ.get("GEMINI_API_KEY")
+            if not api_key:
+                default_key_file = Path("gemini.txt")
+                if default_key_file.exists():
+                    api_key = default_key_file.read_text(encoding="utf-8").strip() or None
             self.hallucination_claim_extractor = (
                 ClaimExtractor.for_gemini(api_key=api_key) if api_key else None
             )
@@ -332,11 +336,26 @@ class EvaluationExperiment:
         all_results = []
         all_abstentions = []
         all_low_confidence_claims = []
+        seen_scene_texts = set()
         
         for scene_id, characters in scene_descriptions.items():
             for char_id, text in characters.items():
+                normalized_text = text.strip()
+                if not normalized_text:
+                    continue
+
+                dedupe_key = (scene_id, normalized_text)
+                if dedupe_key in seen_scene_texts:
+                    logger.debug(
+                        "Skipping duplicate hallucination text for scene=%s character=%s",
+                        scene_id,
+                        char_id,
+                    )
+                    continue
+                seen_scene_texts.add(dedupe_key)
+
                 _, results, abstentions, low_confidence_claims = self.hallucination_eval.evaluate_scene(
-                    text, scene_id, verifier
+                    normalized_text, scene_id, verifier
                 )
                 all_results.extend(results)
                 all_abstentions.extend(abstentions)

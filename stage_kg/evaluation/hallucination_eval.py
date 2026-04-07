@@ -5,7 +5,13 @@ from typing import List, Dict, Tuple, Optional, Any
 from pathlib import Path
 from dataclasses import dataclass
 
-from stage_kg.evaluation.new_claim_extractor import Claim, ClaimExtractor
+from stage_kg.evaluation.new_claim_extractor import (
+    Claim,
+    ClaimExtractor,
+    ExtractionAbstention,
+    LowConfidenceClaim,
+    assess_claim_quality,
+)
 from stage_kg.evaluation.claim_verifier import KnowledgeGraphVerifier, VerificationResult
 from stage_kg.evaluation.config import EvaluationConfig
 
@@ -51,6 +57,7 @@ class HallucinationEvaluator:
     def __init__(self, claim_extractor: Optional[ClaimExtractor] = None, config: EvaluationConfig = None):
         self.config = config or EvaluationConfig()
         self.claim_extractor = claim_extractor
+        self._claim_cache: Dict[Tuple[str, str], List[Claim]] = {}
     
     def evaluate_scene(
         self,
@@ -66,9 +73,12 @@ class HallucinationEvaluator:
         if self.claim_extractor is None:
             raise ValueError("HallucinationEvaluator requires a claim-centric ClaimExtractor instance.")
 
-        claims = self.claim_extractor.extract_claims(generated_text, scene_id)
-        abstentions: List[Any] = []
-        low_confidence_claims: List[Any] = []
+        cache_key = (scene_id, generated_text.strip())
+        claims = self._claim_cache.get(cache_key)
+        if claims is None:
+            claims = self.claim_extractor.extract_claims(generated_text, scene_id)
+            self._claim_cache[cache_key] = claims
+        claims, abstentions, low_confidence_claims = self._partition_claims(claims)
         
         # Verify each claim
         results = []
@@ -80,6 +90,58 @@ class HallucinationEvaluator:
         metrics = self._compute_metrics(results, abstentions, low_confidence_claims)
         
         return metrics, results, abstentions, low_confidence_claims
+
+    def evaluate_claims(
+        self,
+        claims: List[Claim],
+        verifier: KnowledgeGraphVerifier,
+    ) -> 'Tuple[HallucinationMetrics, List[VerificationResult], List[Any], List[Any]]':
+        """Evaluate a precomputed list of claims without re-running extraction."""
+        claims, abstentions, low_confidence_claims = self._partition_claims(claims)
+
+        results = [verifier.verify_claim(claim) for claim in claims]
+        metrics = self._compute_metrics(results, abstentions, low_confidence_claims)
+        return metrics, results, abstentions, low_confidence_claims
+
+    def _partition_claims(
+        self,
+        claims: List[Claim],
+    ) -> Tuple[List[Claim], List[ExtractionAbstention], List[LowConfidenceClaim]]:
+        """Split claims into scorable, abstained, and low-confidence buckets."""
+        scorable: List[Claim] = []
+        abstentions: List[ExtractionAbstention] = []
+        low_confidence_claims: List[LowConfidenceClaim] = []
+
+        for claim in claims:
+            decision, score, reasons = assess_claim_quality(claim)
+            if decision == "keep":
+                scorable.append(claim)
+                continue
+            if decision == "low_confidence":
+                low_confidence_claims.append(
+                    LowConfidenceClaim(
+                        subject=claim.subject,
+                        predicate=claim.predicate,
+                        object=claim.object,
+                        claim_text=claim.claim_text,
+                        scene_id=claim.scene_id,
+                        sentence_idx=claim.sentence_idx,
+                        score=score,
+                        reasons=reasons,
+                    )
+                )
+                continue
+            abstentions.append(
+                ExtractionAbstention(
+                    text=claim.claim_text,
+                    scene_id=claim.scene_id,
+                    sentence_idx=claim.sentence_idx,
+                    reason=";".join(reasons) if reasons else "low_quality_claim",
+                    context_subject=claim.subject,
+                )
+            )
+
+        return scorable, abstentions, low_confidence_claims
     
     def _compute_metrics(
         self,

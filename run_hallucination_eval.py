@@ -3,6 +3,7 @@
 import argparse
 import csv
 import json
+import re
 from dataclasses import asdict
 from pathlib import Path
 from typing import List, Tuple
@@ -31,6 +32,12 @@ def read_gemini_api_key(path: Path) -> str:
 
 def infer_language_and_movie_dir(graph_path: Path) -> Tuple[str, Path, str]:
     movie_id = graph_path.parent.name
+    if not re.match(r"^(en|ch)[a-z0-9]+$", movie_id.lower()):
+        for parent in graph_path.parents:
+            candidate = parent.name
+            if re.match(r"^(en|ch)[a-z0-9]+$", candidate.lower()):
+                movie_id = candidate
+                break
     language = "zh" if movie_id.lower().startswith("ch") else "en"
     language_dir = "Chinese" if language == "zh" else "English"
     movie_dir = ROOT / language_dir / movie_id
@@ -113,8 +120,6 @@ def main() -> None:
         raise FileNotFoundError(f"Graph not found: {graph_path}")
 
     movie_id, movie_dir, language = infer_language_and_movie_dir(graph_path)
-    if not movie_dir.exists():
-        raise FileNotFoundError(f"Movie directory not found for graph {graph_path}: {movie_dir}")
 
     config = EvaluationConfig()
     verifier = KnowledgeGraphVerifier(str(graph_path), EvaluationConfig())
@@ -127,10 +132,11 @@ def main() -> None:
         if not all_claims:
             raise ValueError(f"No claims loaded from {claims_csv}")
         evaluator = HallucinationEvaluator(claim_extractor=None, config=config)
-        all_results = [verifier.verify_claim(claim) for claim in all_claims]
-        summary_metrics = evaluator._compute_metrics(all_results, [], [])
+        summary_metrics, all_results, _, _ = evaluator.evaluate_claims(all_claims, verifier)
         scene_ids = sorted({claim.scene_id for claim in all_claims})
     else:
+        if not movie_dir.exists():
+            raise FileNotFoundError(f"Movie directory not found for graph {graph_path}: {movie_dir}")
         api_key = read_gemini_api_key(key_path)
         movie = load_movie(movie_dir=movie_dir, movie_id=movie_id, language=language)
         scenes = movie.scenes[: max(0, args.max_scenes)]
@@ -157,7 +163,7 @@ def main() -> None:
                 movie_title=movie.title,
             )
             all_claims.extend(claims)
-            metrics, results, _, _ = evaluator.evaluate_scene(scene.content, scene.scene_id, verifier)
+            metrics, results, _, _ = evaluator.evaluate_claims(claims, verifier)
             print(
                 f"  claims={len(claims)} grounded={metrics.grounded_claims} "
                 f"multihop={metrics.grounded_multihop_claims} hallucinated={metrics.hallucinated_claims}"

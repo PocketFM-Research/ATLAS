@@ -175,11 +175,9 @@ def normalize_nodes(
             if not representative.get("id"):
                 representative["id"] = f"node_{uuid.uuid4().hex[:12]}"
 
-    # Collect surviving nodes
-    final_nodes = [n for i, n in enumerate(proto_nodes) if i not in merged_away - {
-        # keep the representative (to_merge[0]) from each merged group
-    }]
-    # Simpler: collect indices that are NOT merged-away secondaries
+    # Collect surviving nodes by removing only merged-away secondary nodes.
+    # The previous implementation attempted `merged_away - {...}` with a
+    # placeholder dict expression, which crashes with `set - dict`.
     surviving_idxs = set(range(len(proto_nodes)))
     for cluster_idxs in clusters:
         cluster_nodes_list = [proto_nodes[i] for i in cluster_idxs]
