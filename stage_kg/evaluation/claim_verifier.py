@@ -15,6 +15,34 @@ from stage_kg.evaluation.new_claim_extractor import Claim
 GROUND_STATUSES = {"grounded", "grounded_multihop"}
 EVENT_ROLE_RELATIONS = {"performs", "undergoes", "experiences"}
 TEXT_BACKED_RELATIONS = {"located_at", "is_a", "possesses", "undergoes", "performs"}
+KINSHIP_CUES = {
+    "daughter",
+    "son",
+    "father",
+    "mother",
+    "husband",
+    "wife",
+    "brother",
+    "sister",
+    "parent",
+    "child",
+    "uncle",
+    "aunt",
+}
+SCENE_SUPPORT_NODE_TYPES = {
+    "performs": {"Event"},
+    "undergoes": {"Event"},
+    "experiences": {"Event"},
+    "uses": {"Object"},
+    "possesses": {"Object"},
+    "located_at": {"Location"},
+    "is_a": {"Concept"},
+}
+ALLOWED_SOURCE_TYPES = {}
+ALLOWED_TARGET_TYPES = {}
+for src_type, relation, tgt_type in VALID_TRIPLES:
+    ALLOWED_SOURCE_TYPES.setdefault(relation.value, set()).add(src_type.value)
+    ALLOWED_TARGET_TYPES.setdefault(relation.value, set()).add(tgt_type.value)
 GENERIC_OBJECT_TOKENS = {"person", "vehicle", "thing", "appearance", "entity", "figure"}
 ENTITY_TYPE_PRIORITY = {
     "Character": 0,
@@ -107,8 +135,10 @@ class KnowledgeGraphVerifier:
     def verify_claim(self, claim: Claim) -> VerificationResult:
         """Verify a single claim against the graph."""
         subject_ids = self._resolve_entity(claim.subject)
+        subject_ids = self._filter_ids_by_allowed_types(subject_ids, ALLOWED_SOURCE_TYPES.get(claim.predicate))
         if not subject_ids:
             subject_ids = self._resolve_subject_from_claim_text(claim)
+            subject_ids = self._filter_ids_by_allowed_types(subject_ids, ALLOWED_SOURCE_TYPES.get(claim.predicate))
 
         if not subject_ids:
             return VerificationResult(
@@ -135,6 +165,7 @@ class KnowledgeGraphVerifier:
         )
 
         object_ids = self._resolve_object_entities(claim)
+        object_ids = self._filter_ids_by_allowed_types(object_ids, ALLOWED_TARGET_TYPES.get(claim.predicate))
         for subject_id in subject_ids:
             if object_ids:
                 for object_id in object_ids:
@@ -145,6 +176,8 @@ class KnowledgeGraphVerifier:
 
             semantic_candidate = self._verify_semantic_edge(subject_id, claim)
             best_result = self._choose_better_result(best_result, semantic_candidate)
+            kinship_candidate = self._verify_kinship_text_support(subject_id, claim)
+            best_result = self._choose_better_result(best_result, kinship_candidate)
             subject_text_candidate = self._verify_subject_text_support(subject_id, claim)
             best_result = self._choose_better_result(best_result, subject_text_candidate)
             scene_text_candidate = self._verify_scene_text_support(subject_id, claim)
@@ -301,7 +334,9 @@ class KnowledgeGraphVerifier:
         if not best_edge or not best_target:
             return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
 
-        threshold = 0.15 if claim.predicate in EVENT_ROLE_RELATIONS else 0.28
+        # Event-role claims are especially prone to false positives from nearby
+        # but semantically different scene actions, so require stronger overlap.
+        threshold = 0.3 if claim.predicate in EVENT_ROLE_RELATIONS else 0.28
         if best_score < threshold:
             return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
 
@@ -326,11 +361,7 @@ class KnowledgeGraphVerifier:
             (self._text_similarity(variant, scene_blob) for variant in self._object_text_variants(claim.object)),
             default=0.0,
         )
-        claim_score = max(
-            (self._text_similarity(variant, scene_blob) for variant in self._claim_text_variants(claim)),
-            default=0.0,
-        )
-        score = max(object_score, claim_score)
+        score = object_score
 
         threshold = 0.18 if claim.predicate in {"is_a", "possesses", "kinship_with", "located_at"} else 0.2
         if score < threshold:
@@ -343,6 +374,33 @@ class KnowledgeGraphVerifier:
             path=[subject_id],
             supported_node_types=[subject_node.get("type", "")],
             confidence=min(0.95, 0.45 + score / 2.0),
+        )
+
+    def _verify_kinship_text_support(self, subject_id: str, claim: Claim) -> VerificationResult:
+        if claim.predicate != "kinship_with":
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        scene_blob = self._subject_scene_text(subject_id, claim.scene_id)
+        claim_evidence_blob = self._normalize_text(" ".join(claim.evidence or []))
+        combined_blob = self._normalize_text(" ".join(part for part in [scene_blob, claim_evidence_blob] if part))
+        if not combined_blob:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        cue_hits = [cue for cue in KINSHIP_CUES if cue in combined_blob and cue in self._normalize_text(claim.claim_text)]
+        object_variants = self._object_text_variants(claim.object)
+        object_score = max((self._text_similarity(variant, combined_blob) for variant in object_variants), default=0.0)
+
+        if not cue_hits or object_score < 0.28:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        subject_node = self.nodes_by_id.get(subject_id, {})
+        return VerificationResult(
+            claim=claim,
+            status="grounded",
+            depth=1,
+            path=[subject_id],
+            supported_node_types=[subject_node.get("type", "")],
+            confidence=min(0.9, 0.5 + object_score / 2.0),
         )
 
     def _verify_composed_scene_support(
@@ -391,9 +449,16 @@ class KnowledgeGraphVerifier:
         )
 
     def _verify_scene_text_support(self, subject_id: str, claim: Claim) -> VerificationResult:
+        if claim.predicate not in TEXT_BACKED_RELATIONS:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        allowed_types = SCENE_SUPPORT_NODE_TYPES.get(claim.predicate)
+        if not allowed_types:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
         scene_nodes = [
             node for node in self.graph_data["nodes"]
-            if self._node_in_scene(node, claim.scene_id)
+            if self._node_in_scene(node, claim.scene_id) and node.get("type") in allowed_types
         ]
         best_score = 0.0
         best_target = None
@@ -516,6 +581,18 @@ class KnowledgeGraphVerifier:
         scored.sort()
         return [node_id for _, node_id in scored]
 
+    def _filter_ids_by_allowed_types(
+        self,
+        node_ids: List[str],
+        allowed_types: Optional[Set[str]],
+    ) -> List[str]:
+        if not allowed_types:
+            return node_ids
+        return [
+            node_id for node_id in node_ids
+            if self.nodes_by_id.get(node_id, {}).get("type") in allowed_types
+        ]
+
     def _resolve_subject_from_claim_text(self, claim: Claim) -> List[str]:
         normalized_subject = self._normalize_text(claim.subject)
         normalized_claim = self._normalize_text(claim.claim_text)
@@ -551,7 +628,9 @@ class KnowledgeGraphVerifier:
 
     def _subject_scene_text(self, subject_id: str, scene_id: str) -> str:
         node = self.nodes_by_id.get(subject_id, {})
-        parts = [self._node_text(node)]
+        # Keep this scene-aware to avoid cross-scene leakage from global evidence.
+        parts = [node.get("name", "")]
+        parts.extend(node.get("aliases", []) or [])
         for edge_info in self.adjacency.get(subject_id, []):
             if not self._scene_matches(edge_info, scene_id):
                 continue

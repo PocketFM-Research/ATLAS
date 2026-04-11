@@ -119,7 +119,7 @@ Example element shape:
   "target_type": "Event",
   "scene_id": "{scene_id}",
   "chunk_id": "{chunk_id or scene_id}",
-  "evidence": ["SAAVIK: Plot an intercept course for the Kobayashi Maru."],
+  "evidence": ["CAPTAIN: Everyone out, now!"],
   "confidence": 0.95
 }}
 """

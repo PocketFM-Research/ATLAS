@@ -65,12 +65,12 @@ Example element shape:
 {{
   "temp_id": "ent_001",
   "type": "Character",
-  "surface_forms": ["Saavik", "Captain Saavik", "Lieutenant Saavik"],
-  "canonical_name": "Saavik",
-  "description": "A young half-Vulcan, half-Romulan officer commanding the Enterprise bridge.",
+  "surface_forms": ["Captain Reyes", "Reyes", "Captain"],
+  "canonical_name": "Captain Reyes",
+  "description": "The ship's commanding officer directing the evacuation.",
   "scene_id": "{scene_id}",
   "chunk_id": "{chunk_id or scene_id}",
-  "evidence": ["SAAVIK: Plot an intercept course", "Lieutenant Saavik, commanding..."],
+  "evidence": ["CAPTAIN REYES: Everyone out, now!", "Captain Reyes grabs the radio."],
   "linked_event_ids": ["ev_001", "ev_002"]
 }}
 """

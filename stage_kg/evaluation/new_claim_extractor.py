@@ -521,33 +521,14 @@ def assess_claim_quality(claim: Claim) -> Tuple[str, float, List[str]]:
     """
     Classify a claim as keep / low_confidence / abstain.
 
-    We abstain on dialogue acts, scene metadata, generic placeholders, and
-    sound/document artifacts because they are poor graph-faithfulness units.
+    We abstain only on explicit quoted dialogue-style subclaims that should not
+    be scored as atomic factual claims.
     """
     reasons: List[str] = []
-    subject = _normalize_text(claim.subject)
-    obj = _normalize_text(claim.object)
     claim_text = _normalize_text(claim.claim_text)
     predicate = _normalize_predicate(claim.predicate)
-
-    if (
-        subject in GENERIC_SUBJECTS
-        or any(subject.startswith(prefix) for prefix in GENERIC_SUBJECT_PREFIXES)
-        or claim_text.startswith("scene ")
-    ):
-        reasons.append("generic_or_scene_subject")
-
-    if predicate in {"performs", "references", "causes", "precedes"}:
-        if REPORTING_VERB_RE.search(claim_text) or any(hint in claim_text for hint in META_REFERENCE_HINTS):
-            reasons.append("speech_or_reference_act")
-        if _has_quoted_span(claim.claim_text):
-            reasons.append("quoted_dialogue")
-
-    if any(token in GENERIC_OBJECT_TOKENS for token in obj.split()):
-        reasons.append("generic_object")
-
-    if any(hint in claim_text for hint in SOUND_CLAIM_HINTS):
-        reasons.append("sound_effect_claim")
+    if predicate in {"performs", "references", "causes", "precedes"} and _has_quoted_span(claim.claim_text):
+        reasons.append("quoted_dialogue")
 
     if reasons:
         return "abstain", 0.0, reasons

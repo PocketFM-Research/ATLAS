@@ -34,13 +34,29 @@ SCREENPLAY TEXT:
 \"\"\"
 
 INSTRUCTIONS:
-1. Extract every grounded atomic claim supported by the text.
-2. Each claim must contain exactly one subject, one predicate, and one object.
-3. Prefer STAGE schema predicates when possible: {', '.join(RELATION_TYPES)}.
-4. Keep subject and object short, canonical, and text-grounded.
-5. Do not invent hidden motivations, unsupported implications, or off-screen facts.
-6. Skip weak filler dialogue, greetings, or claims that are too vague to verify.
-7. For each claim provide:
+1. Extract grounded atomic claims only.
+2. A claim is atomic if it states one smallest verifiable fact. If a claim can be split into two facts, split it.
+3. Each claim must have exactly one subject, one predicate, and one object.
+4. Prefer STAGE schema predicates when possible: {', '.join(RELATION_TYPES)}.
+5. Keep subjects and objects short, canonical, and text-grounded.
+6. Do not invent hidden motives, implications, or off-screen facts.
+7. Extract underlying scene facts, not transcript-style speech wrappers.
+8. You may combine nearby sentences only when they jointly support one single atomic fact.
+9. You must split one sentence into multiple claims if it contains multiple separable facts.
+10. Convert dialogue into the simplest verifiable fact unless the speech act itself is the salient event.
+11. Prefer graph-aligned minimal claims:
+    - actions -> Character/Event
+    - social relations -> Character/Character
+    - object, location, concept claims only when explicitly supported
+12. Keep event objects short and action-centered.
+13. Exclude explicit quoted subclaims when they are only dialogue wording.
+14. Skip filler greetings, weak banter, and vague claims.
+15. General examples:
+    - GOOD split: "A enters the room and hugs B" -> "A enters the room." + "A hugs B."
+    - GOOD rewrite: "A says B should leave" -> "A orders B to leave." if that is the stable event.
+    - BAD: "A says 'you should leave now.'"
+    - BAD: "A has a complicated conversation with B about the problem."
+16. For each claim provide:
    - "temp_id": a short unique slug (e.g. "cl_001")
    - "subject": canonical subject string
    - "predicate": relation label
@@ -50,21 +66,23 @@ INSTRUCTIONS:
    - "chunk_id": "{chunk_id or scene_id}"
    - "evidence": list of exact supporting text spans
    - "confidence": float 0.0–1.0
-8. Return 0-8 claims depending on how much grounded content exists.
-9. Keep evidence compact: include 1-2 short supporting spans per claim, not long passages.
+17. `claim_text` should be clean plain English and semantically equivalent to the atomic fact.
+18. Keep evidence compact: include 1-2 short supporting spans per claim.
+19. Return 0-8 claims depending on how much grounded content exists.
+20. If a candidate depends mainly on quote wording rather than a stable fact, omit it.
 
 Return ONLY a JSON array of claim objects. No other text.
 
 Example element shape:
 {{
   "temp_id": "cl_001",
-  "subject": "saavik",
+  "subject": "captain",
   "predicate": "performs",
-  "object": "orders intercept course to kobayashi maru",
-  "claim_text": "Saavik orders an intercept course to the Kobayashi Maru.",
+  "object": "orders the crew to evacuate",
+  "claim_text": "The captain orders the crew to evacuate.",
   "scene_id": "{scene_id}",
   "chunk_id": "{chunk_id or scene_id}",
-  "evidence": ["SAAVIK: Plot an intercept course for the Kobayashi Maru."],
+  "evidence": ["CAPTAIN: Everyone out, now!"],
   "confidence": 0.95
 }}
 """
