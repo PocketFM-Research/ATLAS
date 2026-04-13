@@ -204,11 +204,19 @@ class KnowledgeGraph:
         src_id = self.resolve_id(src_raw, rel.get("chunk_id")) if src_raw else None
         tgt_id = self.resolve_id(tgt_raw, rel.get("chunk_id")) if tgt_raw else None
 
+        # Name-based fallback when ID resolution fails
+        if (not src_id or src_id not in self.nodes) and rel.get("source_name") and rel.get("source_type"):
+            lookup = f"{rel['source_type']}::{_norm(rel['source_name'], rel['source_type'])}"
+            src_id = self._name_to_id.get(lookup)
+        if (not tgt_id or tgt_id not in self.nodes) and rel.get("target_name") and rel.get("target_type"):
+            lookup = f"{rel['target_type']}::{_norm(rel['target_name'], rel['target_type'])}"
+            tgt_id = self._name_to_id.get(lookup)
+
         if not src_id or src_id not in self.nodes:
-            logger.debug("Edge skipped: unresolved source %s", src_raw)
+            logger.warning("Edge skipped: unresolved source %s (name=%s)", src_raw, rel.get("source_name", ""))
             return
         if not tgt_id or tgt_id not in self.nodes:
-            logger.debug("Edge skipped: unresolved target %s", tgt_raw)
+            logger.warning("Edge skipped: unresolved target %s (name=%s)", tgt_raw, rel.get("target_name", ""))
             return
 
         # Schema check
@@ -345,6 +353,11 @@ def _norm(s: str, node_type: str = "") -> str:
     text = text.strip().lower()
     if not text:
         return ""
+
+    # Strip possessive apostrophes so "Alice's House" and "Alice House" normalize identically.
+    # Also removes lone apostrophes (e.g. in Irish names or contractions in entity names).
+    text = re.sub(r"'s\b", "", text)  # possessives: alice's -> alice
+    text = re.sub(r"'", "", text)     # remaining apostrophes
 
     tokens = re.findall(r"[a-z0-9]+", text)
     if node_type == "Character":

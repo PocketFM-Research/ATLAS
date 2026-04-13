@@ -8,7 +8,7 @@ Node types: Character, Location, TimePoint, Object, Concept.
 SYSTEM_PROMPT = """You are a precise named-entity annotator for movie screenplays.
 Your output must be valid JSON only — no prose, no markdown fences, no explanation."""
 
-NODE_TYPES = ["Character", "Location", "TimePoint", "Object", "Concept"]
+NODE_TYPES = ["Character", "Location", "TimePoint", "Object", "Vehicle", "Concept"]
 
 
 def build_prompt(
@@ -56,8 +56,9 @@ INSTRUCTIONS:
 5. Characters: include named crew, named civilians, named antagonists. Exclude unnamed extras.
 6. Locations: include named places, ships, rooms, planets, regions.
 7. TimePoints: include specific dates, times, or named time periods explicitly mentioned.
-8. Objects: include named props, weapons, vehicles, technology that are plot-relevant.
-9. Concepts: include named organizations, groups, ideologies, or abstract constructs explicitly named.
+8. Objects: include named props, weapons, technology that are plot-relevant. Do NOT put vehicles here.
+9. Vehicles: include named ships, spacecraft, cars, vans, trucks, transports that characters travel in or operate. Do NOT also list these as Locations or Objects.
+10. Concepts: include named organizations, groups, ideologies, or abstract constructs explicitly named.
 
 Return ONLY a JSON array of entity objects. No other text.
 

@@ -19,7 +19,7 @@ from .reflection import reflection_loop
 logger = logging.getLogger(__name__)
 
 MAX_CHUNK_CHARS = 3000
-VALID_TYPES = {"Character", "Location", "TimePoint", "Object", "Concept"}
+VALID_TYPES = {"Character", "Location", "TimePoint", "Object", "Vehicle", "Concept"}
 
 
 def extract_entities_for_movie(

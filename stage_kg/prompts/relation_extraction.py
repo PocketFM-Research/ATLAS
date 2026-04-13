@@ -12,8 +12,8 @@ RELATION_SCHEMA = """
 Allowed relations by category (exactly as defined in the STAGE paper schema):
 
 EVENT-ROLE:
-  performs    : Character|Object|Concept -performs-> Event   (actively executes/initiates)
-  undergoes   : Character|Object -undergoes-> Event          (acted upon or targeted)
+  performs    : Character|Object|Concept|Vehicle -performs-> Event   (actively executes/initiates)
+  undergoes   : Character|Object|Vehicle -undergoes-> Event          (acted upon or targeted)
   experiences : Character -experiences-> Event               (internal mental/emotional event)
 
 SOCIAL:
@@ -29,18 +29,18 @@ INTER-EVENT:
   references    : Event -references-> Event    (refers to, recalls, describes another event)
 
 SPATIOTEMPORAL:
-  occurs_at  : Event -occurs_at-> Location          (event occurs at a location)
-  occurs_on  : Event -occurs_on-> TimePoint         (event occurs at a time point)
-  located_at : Character|Object|Concept -located_at-> Location
-  present_on : Character|Object|Concept -present_on-> TimePoint
+  occurs_at  : Event -occurs_at-> Location|Vehicle      (event occurs at a location or aboard a vehicle)
+  occurs_on  : Event -occurs_on-> TimePoint              (event occurs at a time point)
+  located_at : Character|Object|Concept|Vehicle -located_at-> Location|Vehicle
+  present_on : Character|Object|Concept|Vehicle -present_on-> TimePoint
 
 OBJECT-RELATED:
-  possesses : Character|Concept -possesses-> Object   (owns or holds)
-  uses      : Character|Object -uses-> Object         (operates another object)
+  possesses : Character|Concept -possesses-> Object|Vehicle   (owns or holds)
+  uses      : Character|Object -uses-> Object|Vehicle         (operates another object or vehicle)
 
 SEMANTIC:
-  is_a    : Character|Object|Concept -is_a-> Concept     (type-instance or subclass)
-  part_of : Object|Location|Character|Concept -part_of-> Object|Location|Concept  (part-whole)
+  is_a    : Character|Object|Concept|Vehicle -is_a-> Concept     (type-instance or subclass)
+  part_of : Object|Location|Character|Concept|Vehicle -part_of-> Object|Location|Concept|Vehicle  (part-whole)
 """
 
 
@@ -104,8 +104,10 @@ INSTRUCTIONS:
 6. Do not assign an event to the wrong speaker or nearby character just because they appear in the same chunk.
 7. Camera/stage directions may support occurs_at/located_at, but should not be the sole evidence for an event-role relation.
 8. REJECT any triple not valid under the schema — do not include it.
-9. Include at minimum: one occurs_at per event with a location, one performs/undergoes per major event.
-10. Do NOT hallucinate relations not grounded in the text.
+9. MANDATORY EVENT-ROLE EDGES: For EVERY event listed above, produce at least one performs, undergoes, or experiences relation linking a Character (or Object/Vehicle) to that event. Use the character who performed or was affected. If unclear, use the most prominent character in the scene.
+10. COVERAGE REQUIREMENT: Every entity listed above MUST appear as source or target in at least one relation. If no meaningful relation exists, use located_at, is_a, or present_on as a fallback.
+11. Every event MUST also have at least one occurs_at relation linking it to a Location or Vehicle when a location is mentioned. This includes fight/match events occurring in a ring, gym, or arena — always connect them to the venue Location node.
+12. Do NOT hallucinate relations not grounded in the text.
 
 Return ONLY a JSON array of relation objects. No other text.
 

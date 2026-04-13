@@ -68,7 +68,7 @@ def score_extraction(
         reflection_prompt,
         system=SYSTEM_PROMPT,
         temperature=0.0,
-        max_tokens=512,
+        max_tokens=1024,
     )
     if prompt_logger:
         prompt_logger.log("reflection", scene_id, reflection_prompt, raw, llm.model_id)

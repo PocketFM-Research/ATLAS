@@ -29,7 +29,7 @@ from .utils.logging_utils import PromptLogger
 
 logger = logging.getLogger(__name__)
 
-ENTITY_TYPES = ["Character", "Location", "TimePoint", "Object", "Concept"]
+ENTITY_TYPES = ["Character", "Location", "TimePoint", "Object", "Vehicle", "Concept"]
 
 
 def run_pipeline(

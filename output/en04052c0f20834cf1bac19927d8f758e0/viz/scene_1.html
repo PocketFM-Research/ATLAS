@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Star Trek II: The Wrath of Khan — Scene 1</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: #1a1a2e; color: #eee; overflow: hidden; }
+  svg { width: 100vw; height: 100vh; display: block; }
+  .link { stroke-opacity: 0.5; }
+  .link:hover { stroke-opacity: 1; }
+  .node circle { stroke: #fff; stroke-width: 1.5px; cursor: pointer; }
+  .node text { font-size: 11px; fill: #ccc; pointer-events: none; }
+  .tooltip { position: absolute; background: rgba(20,20,40,0.95); border: 1px solid #555;
+              border-radius: 6px; padding: 10px 14px; font-size: 13px; pointer-events: none;
+              max-width: 360px; line-height: 1.4; display: none; z-index: 100; }
+  .tooltip b { color: #fff; }
+  .tooltip .type-badge { display: inline-block; padding: 1px 6px; border-radius: 3px;
+                          font-size: 11px; margin-left: 6px; color: #fff; }
+  #legend { position: fixed; top: 12px; right: 12px; background: rgba(20,20,40,0.9);
+             border: 1px solid #444; border-radius: 8px; padding: 12px 16px; font-size: 13px; }
+  #legend div { margin: 4px 0; }
+  #legend span { display: inline-block; width: 12px; height: 12px; border-radius: 50%;
+                  margin-right: 6px; vertical-align: middle; }
+  #title-bar { position: fixed; top: 12px; left: 12px; font-size: 18px; font-weight: 600;
+                background: rgba(20,20,40,0.9); border: 1px solid #444; border-radius: 8px;
+                padding: 8px 16px; }
+</style>
+</head>
+<body>
+<div id="title-bar">Star Trek II: The Wrath of Khan — Scene 1</div>
+<div id="legend"></div>
+<div class="tooltip" id="tooltip"></div>
+<svg></svg>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+const nodes = [{"id": "ev_en04052c_1_ev_001", "type": "Event", "name": "Saavik introduced as unexpected new captain", "aliases": ["Saavik introduced as unexpected new captain", "Kobayashi Maru transmits emergency distress call"], "description": "The Kobayashi Maru, a neutronic fuel carrier, broadcasts a distress signal reporting it has struck a gravitic mine, lost all power, and suffered many casualties.", "scene_refs": ["1"], "evidence": ["It's an emergency distress call!", "Imperative! Imperative! This is the Kobayashi Maru -- nineteen periods out of Altair Six. We have struck a gravitic mine and have lost all power... Our hull is... and many casualties.", "The Captain is new -- and unexpected. LT. SAAVIK is young and beautiful. She is half Vulcan and half Romulan."]}, {"id": "ev_en04052c_1_ev_002", "type": "Event", "name": "Sulu reports leaving Section Fourteen for Section Fifteen", "aliases": ["Sulu reports leaving Section Fourteen for Section Fifteen", "Saavik orders distress call put on speakers"], "description": "Commander Sulu announces the ship's navigation progress, moving from Section Fourteen into Section Fifteen.", "scene_refs": ["1"], "evidence": ["SAAVIK On speakers!", "SULU: Leaving Section Fourteen for Section Fifteen."]}, {"id": "ev_en04052c_1_ev_003", "type": "Event", "name": "Saavik orders parabolic course to avoid Neutral Zone", "aliases": ["Kobayashi Maru's position identified as Neutral Zone", "Saavik orders parabolic course to avoid Neutral Zone"], "description": "The stricken vessel gives its coordinates as Gamma Hydra, Section Ten, which Saavik immediately recognizes as being inside the Neutral Zone.", "scene_refs": ["1"], "evidence": ["SAAVIK: Project parabolic course to avoid entering Neutral Zone.", "Enterprise, our position is Gamma Hydra, Section Ten...", "SAAVIK In the neutral zone."]}, {"id": "ev_en04052c_1_ev_004", "type": "Event", "name": "Uhura detects faint signal on distress channel", "aliases": ["Computer reveals Kobayashi Maru carries 381 souls", "Uhura detects faint signal on distress channel"], "description": "The ship's computer provides tactical data confirming the Kobayashi Maru is a third-class neutronic fuel carrier with a crew of eighty-one and three hundred passengers.", "scene_refs": ["1"], "evidence": ["COMPUTER VOICE Subject vessel is third class neutronic fuel carrier, crew of eighty-one, three hundred passengers.", "UHURA (suddenly): Captain... I'm getting something on the distress channel. Minimal signal... But something..."]}, {"id": "ev_en04052c_1_ev_005", "type": "Event", "name": "Saavik orders Uhura to amplify distress signal", "aliases": ["Saavik curses upon learning scale of civilian casualties at risk", "Saavik orders Uhura to amplify distress signal"], "description": "Upon hearing that 381 lives are at stake, Saavik reacts with an uncharacteristic expletive, revealing the weight of the decision before her.", "scene_refs": ["1"], "evidence": ["SAAVIK: Can you amplify?", "SAAVIK Damn.", "UHURA: I'm trying..."]}, {"id": "ev_en04052c_1_ev_006", "type": "Event", "name": "Sulu confirms course change projected", "aliases": ["Saavik orders intercept course into the Neutral Zone", "Sulu confirms course change projected"], "description": "Despite the political and military risks of entering the Neutral Zone, Captain Saavik orders Sulu to plot an intercept course for the Kobayashi Maru.", "scene_refs": ["1"], "evidence": ["SAAVIK Mr. Sulu, plot an intercept course.", "SULU: Course change projected."]}, {"id": "ev_en04052c_1_ev_007", "type": "Event", "name": "Sulu warns Saavik of consequences of entering Neutral Zone", "aliases": ["Sulu warns Saavik of consequences of entering Neutral Zone"], "description": "Sulu reminds the captain that a Starship entering the Neutral Zone carries serious political and military consequences, implicitly urging reconsideration.", "scene_refs": ["1"], "evidence": ["SULU May I remind the Captain that if a Starship enters the zone --"]}, {"id": "ev_en04052c_1_ev_008", "type": "Event", "name": "Saavik asserts command authority and overrides Sulu's warning", "aliases": ["Saavik asserts command authority and overrides Sulu's warning"], "description": "Saavik cuts off Sulu's objection by firmly stating she is aware of her responsibilities, affirming her decision to proceed.", "scene_refs": ["1"], "evidence": ["SAAVIK I'm aware of my responsibilities, Mister."]}, {"id": "ev_en04052c_1_ev_009", "type": "Event", "name": "Enterprise enters the Neutral Zone", "aliases": ["Enterprise enters the Neutral Zone"], "description": "Sulu acknowledges the order and reports that the Enterprise is now crossing into the Neutral Zone, setting the stage for the confrontation ahead.", "scene_refs": ["2", "1"], "evidence": ["Warning. We have entered the Neutral Zone...", "SULU (with a nod) ... Now entering the Neutral Zone..."]}, {"id": "ent_en04052c_1_ent_001", "type": "Character", "name": "Saavik", "aliases": ["the Captain", "Captain Saavik", "Saavik", "Captain", "LT. SAAVIK", "your prot\u00e9g\u00e9"], "description": "The commanding officer on the Enterprise bridge during the Kobayashi Maru simulation, making critical tactical decisions under fire.", "scene_refs": ["3", "2", "1"], "evidence": ["LT. SAAVIK is young and beautiful. She is half Vulcan and half Romulan.", "SAAVIK Stand by transporter room", "SPOCK She's half Romulan, Jim. The admixture makes her more volatile than -- me", "The Captain is new -- and unexpected.", "SAAVIK Battle stations! Activate shields!", "SAAVIK In the neutral zone.", "SAAVIK Data on Kobayashi Maru!", "SAAVIK I'm aware of my responsibilities, Mister.", "SAAVIK Mr. Sulu, plot an intercept course.", "SAAVIK We're over our heads. Mr. Sulu, get us out of here.", "SAAVIK Project parabolic course to avoid entering Neutral Zone.", "SAAVIK On speakers!", "your prot\u00e9g\u00e9's first rare -- a trifle emotional --", "SAAVIK Damn.", "SAAVIK Activate escape pods. Send out the Log Buoy... All hands abandon ship.", "SAAVIK Can you amplify?"]}, {"id": "ent_en04052c_1_ent_002", "type": "Character", "name": "Sulu", "aliases": ["Mister", "COMMANDER SULU", "Sulu", "Mr. Sulu"], "description": "Helmsman aboard the Enterprise who receives the intercept course order and warns of the consequences of entering the Neutral Zone.", "scene_refs": ["2", "1"], "evidence": ["SULU I'll try, Captain.", "SULU Shields activated!", "SULU May I remind the Captain that if a Starship enters the zone --", "SAAVIK Mr. Sulu, plot an intercept course.", "Enterprise is hit; Sulu is hurled from his station", "SULU Estimating two minutes to intercept.", "SULU Aye, Captain.", "SULU Leaving Section Fourteen for Section Fifteen.", "COMMANDER SULU at the helm", "SULU Course change projected.", "SULU (with a nod) ... Now entering the Neutral Zone..."]}, {"id": "ent_en04052c_1_ent_003", "type": "Character", "name": "Commander Uhura", "aliases": ["COMMANDER UHURA", "Commander Uhura"], "description": "Commander Uhura, stationed at the Comm Console, who detects a faint signal on the distress channel and attempts to amplify it.", "scene_refs": ["2", "1"], "evidence": ["UHURA They're jamming all frequencies, Captain --", "UHURA (suddenly) Captain... I'm getting something on the distress channel. Minimal signal...", "Uhura falls from her station", "UHURA Captain, I've lost their signal!", "UHURA I'm trying...", "UHURA This is the Starship Enterprise. Your message is breaking up. Give your coordinates.", "COMMANDER UHURA at the Comm Console", "UHURA It's an emergency distress call!"]}, {"id": "ent_en04052c_1_ent_004", "type": "Character", "name": "Dr. McCoy", "aliases": ["VOICE", "Kobayashi Maru crew", "McCoy", "DR. BONES McCOY", "Dr. McCoy"], "description": "The distressed crew and passengers of the Kobayashi Maru who broadcast the emergency distress call.", "scene_refs": ["1"], "evidence": ["VOICE (filtered, breaking up) Imperative! Imperative! This is the Kobayashi Maru", "VOICE Hull penetrated, life support systems failing. Can you assist us, Enterprise?", "DR. BONES McCOY and SPOCK at his post", "VOICE Enterprise, our position is Gamma Hydra, Section Ten..."]}, {"id": "ent_en04052c_1_ent_005", "type": "Character", "name": "Spock", "aliases": ["subject vessel", "Spock", "third class neutronic fuel carrier", "Kobayashi Maru", "SPOCK"], "description": "A third-class neutronic fuel carrier that has struck a gravitic mine in the Neutral Zone and is sending a distress call.", "scene_refs": ["2", "3", "1"], "evidence": ["Spock almost smiles", "SPOCK I know of your fondness for antiques.", "Spock dies.", "SPOCK None of which I am consciously aware", "SPOCK The Kobayashi Maru scenario frequently wreaks havoc", "SPOCK The Enterprise. I must check in before your inspection.", "SPOCK Something oppresses you.", "SAAVIK Data on Kobayashi Maru!", "sees Spock, leaning against the wall", "SPOCK I am understandably curious", "as Spock watches", "SPOCK She's half Romulan, Jim", "SPOCK Yours was not a solution which would have occurred to a Vulcan mentality", "SPOCK No power to the weapons system, sir.", "Subject vessel is third class neutronic fuel carrier, crew of eighty-one, three hundred passengers.", "This is the Kobayashi Maru -- nineteen periods out of Altair Six", "DR. BONES McCOY and SPOCK at his post"]}, {"id": "ent_en04052c_1_ent_006", "type": "Location", "name": "Enterprise Bridge", "aliases": ["Enterprise Bridge", "Starship Enterprise"], "description": "The bridge of the starship Enterprise, where the crew is stationed and the scene takes place.", "scene_refs": ["1"], "evidence": ["COMMANDER UHURA at the Comm Console", "COMMANDER SULU at the helm", "we see the crew at stations"]}, {"id": "ent_en04052c_1_ent_007", "type": "Location", "name": "Sections Fourteen and Fifteen", "aliases": ["Gamma Hydra", "Section Fourteen", "Section Fifteen", "Sections Fourteen and Fifteen", "Gamma Hydra, Section Ten"], "description": "Navigational sections of space through which the Enterprise is traveling, with Sulu reporting the transition from Section Fourteen to Section Fifteen.", "scene_refs": ["1"], "evidence": ["Leaving Section Fourteen for Section Fifteen.", "VOICE Enterprise, our position is Gamma Hydra, Section Ten..."]}, {"id": "ent_en04052c_1_ent_008", "type": "Location", "name": "Neutral Zone", "aliases": ["the zone", "Neutral Zone", "the neutral zone", "Altair Six", "the Neutral Zone"], "description": "A politically sensitive boundary region that the Kobayashi Maru is stranded within and that the Enterprise must enter to attempt a rescue.", "scene_refs": ["2", "1"], "evidence": ["Project parabolic course to avoid entering Neutral Zone.", "Warning. We have entered the Neutral Zone...", "nineteen periods out of Altair Six", "SAAVIK In the neutral zone.", "Now entering the Neutral Zone...", "if a Starship enters the zone --"]}, {"id": "ent_en04052c_1_ent_009", "type": "Location", "name": "USS Enterprise", "aliases": ["Enterprise Bridge", "Parabolic Course", "USS Enterprise", "Starship Enterprise", "The Enterprise", "parabolic course"], "description": "The Starfleet starship whose bridge crew receives the distress call and must decide whether to enter the Neutral Zone.", "scene_refs": ["2", "3", "1"], "evidence": ["Project parabolic course to avoid entering Neutral Zone.", "Can you assist us, Enterprise?", "SPOCK The Enterprise. I must check in before your inspection.", "Enterprise approaches the stricken vessel", "Enterprise is hit", "We're dead in space", "Now entering the Neutral Zone...", "UHURA This is the Starship Enterprise.", "SULU Course change projected."]}, {"id": "ent_en04052c_1_ent_010", "type": "Object", "name": "Distress Channel Signal", "aliases": ["gravitic mine", "distress channel", "Distress Channel Signal", "distress signal"], "description": "A faint, minimal signal detected by Uhura on the distress channel, prompting Saavik to order amplification.", "scene_refs": ["1"], "evidence": ["I'm getting something on the distress channel. Minimal signal... But something...", "SAAVIK Can you amplify?", "We have struck a gravitic mine and have lost all power"]}, {"id": "ent_en04052c_1_ent_011", "type": "Object", "name": "Comm Console", "aliases": ["Comm Console", "distress call", "Emergency Distress Call", "emergency distress call"], "description": "The communications console on the Enterprise bridge where Uhura is stationed and detects the distress signal.", "scene_refs": ["1"], "evidence": ["SAAVIK On speakers!", "COMMANDER UHURA at the Comm Console", "It's an emergency distress call!"]}, {"id": "ent_en04052c_1_ent_012", "type": "Concept", "name": "Neutronic Fuel Carrier", "aliases": ["third class neutronic fuel carrier", "Neutronic Fuel Carrier", "neutronic fuel carrier"], "description": "The vessel classification of the Kobayashi Maru, a civilian cargo ship carrying fuel.", "scene_refs": ["1"], "evidence": ["Subject vessel is third class neutronic fuel carrier, crew of eighty-one, three hundred passengers."]}];
+const links = [{"id": "e_3f0a8fc8d578", "source": "ent_en04052c_1_ent_001", "relation": "undergoes", "target": "ev_en04052c_1_ev_001", "scene_refs": ["1"], "evidence": ["The Captain is new -- and unexpected. LT. SAAVIK is young and beautiful."], "confidence": 0.95}, {"id": "e_4c279bf3e29a", "source": "ent_en04052c_1_ent_003", "relation": "performs", "target": "ev_en04052c_1_ev_002", "scene_refs": ["1"], "evidence": ["SULU Leaving Section Fourteen for Section Fifteen."], "confidence": 0.98}, {"id": "e_dc1951a2b70b", "source": "ent_en04052c_1_ent_001", "relation": "performs", "target": "ev_en04052c_1_ev_003", "scene_refs": ["1"], "evidence": ["SAAVIK Project parabolic course to avoid entering Neutral Zone."], "confidence": 0.98}, {"id": "e_87367d742dd5", "source": "ent_en04052c_1_ent_002", "relation": "performs", "target": "ev_en04052c_1_ev_004", "scene_refs": ["1"], "evidence": ["UHURA (suddenly) Captain... I'm getting something on the distress channel. Minimal signal... But something..."], "confidence": 0.98}, {"id": "e_ab49faf58df1", "source": "ent_en04052c_1_ent_001", "relation": "performs", "target": "ev_en04052c_1_ev_005", "scene_refs": ["1"], "evidence": ["SAAVIK Can you amplify?"], "confidence": 0.97}, {"id": "e_512756a4c302", "source": "ent_en04052c_1_ent_003", "relation": "performs", "target": "ev_en04052c_1_ev_006", "scene_refs": ["1"], "evidence": ["SULU Course change projected."], "confidence": 0.98}, {"id": "e_5087d04fb7fd", "source": "ev_en04052c_1_ev_001", "relation": "occurs_at", "target": "ent_en04052c_1_ent_008", "scene_refs": ["1"], "evidence": ["As the ANGLE WIDENS, we see the crew at stations"], "confidence": 0.95}, {"id": "e_1e10ee3e7389", "source": "ev_en04052c_1_ev_002", "relation": "occurs_at", "target": "ent_en04052c_1_ent_008", "scene_refs": ["1"], "evidence": ["COMMANDER SULU at the helm", "SULU Leaving Section Fourteen for Section Fifteen."], "confidence": 0.95}, {"id": "e_4a00c6ddc575", "source": "ev_en04052c_1_ev_003", "relation": "occurs_at", "target": "ent_en04052c_1_ent_008", "scene_refs": ["1"], "evidence": ["SAAVIK Project parabolic course to avoid entering Neutral Zone."], "confidence": 0.95}, {"id": "e_f91694acb46a", "source": "ev_en04052c_1_ev_004", "relation": "occurs_at", "target": "ent_en04052c_1_ent_008", "scene_refs": ["1"], "evidence": ["COMMANDER UHURA at the Comm Console", "I'm getting something on the distress channel."], "confidence": 0.95}, {"id": "e_28db72bc14ca", "source": "ev_en04052c_1_ev_005", "relation": "occurs_at", "target": "ent_en04052c_1_ent_008", "scene_refs": ["1"], "evidence": ["SAAVIK Can you amplify?"], "confidence": 0.95}, {"id": "e_9b480bdf5576", "source": "ev_en04052c_1_ev_006", "relation": "occurs_at", "target": "ent_en04052c_1_ent_008", "scene_refs": ["1"], "evidence": ["SULU Course change projected."], "confidence": 0.95}, {"id": "e_1e7ca574c2e5", "source": "ent_en04052c_1_ent_003", "relation": "located_at", "target": "ent_en04052c_1_ent_008", "scene_refs": ["1"], "evidence": ["COMMANDER SULU at the helm"], "confidence": 0.98}, {"id": "e_cbcb1f4b61b8", "source": "ent_en04052c_1_ent_002", "relation": "located_at", "target": "ent_en04052c_1_ent_008", "scene_refs": ["1"], "evidence": ["COMMANDER UHURA at the Comm Console"], "confidence": 0.98}, {"id": "e_bcfe623a5afa", "source": "ent_en04052c_1_ent_004", "relation": "located_at", "target": "ent_en04052c_1_ent_008", "scene_refs": ["1"], "evidence": ["DR. BONES McCOY and SPOCK at his post"], "confidence": 0.97}, {"id": "e_639b6b0b63e8", "source": "ent_en04052c_1_ent_005", "relation": "located_at", "target": "ent_en04052c_1_ent_008", "scene_refs": ["1"], "evidence": ["DR. BONES McCOY and SPOCK at his post"], "confidence": 0.97}, {"id": "e_ef9471e8a070", "source": "ent_en04052c_1_ent_001", "relation": "located_at", "target": "ent_en04052c_1_ent_008", "scene_refs": ["1"], "evidence": ["LT. SAAVIK is young and beautiful.", "SAAVIK Project parabolic course to avoid entering Neutral Zone."], "confidence": 0.97}, {"id": "e_ea03ec860845", "source": "ent_en04052c_1_ent_002", "relation": "uses", "target": "ent_en04052c_1_ent_011", "scene_refs": ["1"], "evidence": ["COMMANDER UHURA at the Comm Console", "I'm getting something on the distress channel."], "confidence": 0.95}, {"id": "e_a80e4251501f", "source": "ent_en04052c_1_ent_011", "relation": "part_of", "target": "ent_en04052c_1_ent_008", "scene_refs": ["1"], "evidence": ["COMMANDER UHURA at the Comm Console"], "confidence": 0.9}, {"id": "e_bd853d879dcf", "source": "ev_en04052c_1_ev_004", "relation": "causes", "target": "ev_en04052c_1_ev_005", "scene_refs": ["1"], "evidence": ["I'm getting something on the distress channel. Minimal signal...", "SAAVIK Can you amplify?"], "confidence": 0.92}, {"id": "e_4cb348e943a0", "source": "ev_en04052c_1_ev_003", "relation": "causes", "target": "ev_en04052c_1_ev_006", "scene_refs": ["1"], "evidence": ["SAAVIK Project parabolic course to avoid entering Neutral Zone.", "SULU Course change projected."], "confidence": 0.9}, {"id": "e_4e4858f8f38b", "source": "ent_en04052c_1_ent_010", "relation": "part_of", "target": "ent_en04052c_1_ent_011", "scene_refs": ["1"], "evidence": ["COMMANDER UHURA at the Comm Console", "I'm getting something on the distress channel."], "confidence": 0.75}, {"id": "e_739edb3d6fe7", "source": "ent_en04052c_1_ent_002", "relation": "undergoes", "target": "ev_en04052c_1_ev_005", "scene_refs": ["1"], "evidence": ["SAAVIK Can you amplify? UHURA I'm trying..."], "confidence": 0.88}];
+const typeColors = {"Character": "#4A90D9", "Event": "#6ABF69", "Location": "#E8943A", "Vehicle": "#9B59B6", "Object": "#95A5A6", "TimePoint": "#E74C3C", "Concept": "#F1C40F"};
+const defaultColor = "#CCCCCC";
+
+// Build legend
+const types = [...new Set(nodes.map(n => n.type))].sort();
+const legend = d3.select("#legend");
+types.forEach(t => {
+  legend.append("div").html(`<span style="background:${typeColors[t]||defaultColor}"></span>${t} (${nodes.filter(n=>n.type===t).length})`);
+});
+
+const width = window.innerWidth, height = window.innerHeight;
+const svg = d3.select("svg").attr("viewBox", [0, 0, width, height]);
+
+// Zoom
+const g = svg.append("g");
+svg.call(d3.zoom().scaleExtent([0.1, 8]).on("zoom", (e) => g.attr("transform", e.transform)));
+
+// Build id lookup
+const nodeById = Object.fromEntries(nodes.map(n => [n.id, n]));
+
+// Force simulation
+const simulation = d3.forceSimulation(nodes)
+  .force("link", d3.forceLink(links).id(d => d.id).distance(120))
+  .force("charge", d3.forceManyBody().strength(-300))
+  .force("center", d3.forceCenter(width / 2, height / 2))
+  .force("collision", d3.forceCollide().radius(30));
+
+// Links
+const link = g.append("g")
+  .selectAll("line")
+  .data(links)
+  .join("line")
+  .attr("class", "link")
+  .attr("stroke", "#556")
+  .attr("stroke-width", 1.5);
+
+// Link labels
+const linkLabel = g.append("g")
+  .selectAll("text")
+  .data(links)
+  .join("text")
+  .attr("font-size", 9)
+  .attr("fill", "#888")
+  .attr("text-anchor", "middle")
+  .text(d => d.relation);
+
+// Nodes
+const node = g.append("g")
+  .selectAll("g")
+  .data(nodes)
+  .join("g")
+  .attr("class", "node")
+  .call(d3.drag()
+    .on("start", (e, d) => { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+    .on("drag", (e, d) => { d.fx = e.x; d.fy = e.y; })
+    .on("end", (e, d) => { if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; })
+  );
+
+node.append("circle")
+  .attr("r", d => d.type === "Event" ? 8 : 10)
+  .attr("fill", d => typeColors[d.type] || defaultColor);
+
+node.append("text")
+  .attr("dx", 14)
+  .attr("dy", 4)
+  .text(d => d.name.length > 30 ? d.name.slice(0, 28) + "..." : d.name);
+
+// Tooltip
+const tooltip = d3.select("#tooltip");
+node.on("mouseover", (e, d) => {
+  const color = typeColors[d.type] || defaultColor;
+  let h = `<b>${d.name}</b><span class="type-badge" style="background:${color}">${d.type}</span><br>`;
+  if (d.description) h += `<br>${d.description}`;
+  if (d.aliases && d.aliases.length > 1) h += `<br><i>Aliases:</i> ${d.aliases.join(", ")}`;
+  if (d.scene_refs && d.scene_refs.length) h += `<br><i>Scenes:</i> ${d.scene_refs.join(", ")}`;
+  tooltip.html(h).style("display", "block");
+}).on("mousemove", (e) => {
+  tooltip.style("left", (e.pageX + 14) + "px").style("top", (e.pageY - 14) + "px");
+}).on("mouseout", () => tooltip.style("display", "none"));
+
+link.on("mouseover", (e, d) => {
+  const src = typeof d.source === "object" ? d.source.name : d.source;
+  const tgt = typeof d.target === "object" ? d.target.name : d.target;
+  tooltip.html(`<b>${src}</b> &rarr; <i>${d.relation}</i> &rarr; <b>${tgt}</b>`).style("display", "block");
+}).on("mousemove", (e) => {
+  tooltip.style("left", (e.pageX + 14) + "px").style("top", (e.pageY - 14) + "px");
+}).on("mouseout", () => tooltip.style("display", "none"));
+
+simulation.on("tick", () => {
+  link.attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+      .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+  linkLabel.attr("x", d => (d.source.x + d.target.x) / 2)
+           .attr("y", d => (d.source.y + d.target.y) / 2);
+  node.attr("transform", d => `translate(${d.x},${d.y})`);
+});
+</script>
+</body>
+</html>

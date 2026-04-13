@@ -77,7 +77,7 @@ SCORING CRITERIA — rate 0–10 on each axis, then give an overall score:
 
 1. Accuracy (0–10):
    - Are all entities actually present in the text?
-   - Are entity types correct (Character/Location/TimePoint/Object/Concept)?
+   - Are entity types correct (Character/Location/TimePoint/Object/Vehicle/Concept)?
    - Are canonical names accurate?
 
 2. Consistency (0–10):
@@ -160,6 +160,7 @@ CRITICAL FAILURES (force overall score to 0):
    - Self-referential relation (source == target)
    - Source or target ID that does not exist in the node index
    - A performs/undergoes/experiences edge where the evidence clearly belongs to a different character
+   - An event in the node index has no performs/undergoes/experiences edge connecting any entity to it
 
 Return ONLY a JSON object:
 {{

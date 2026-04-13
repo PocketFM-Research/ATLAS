@@ -93,7 +93,7 @@ def extract_relations_for_scene(
                 chunk_id=chunk_id,
                 movie_title=movie_title,
             ) + feedback_block
-            raw = llm.complete(p, system=rp.SYSTEM_PROMPT, temperature=0.0, max_tokens=8192)
+            raw = llm.complete(p, system=rp.SYSTEM_PROMPT, temperature=0.0, max_tokens=12288)
             if prompt_logger:
                 prompt_logger.log("relation_extraction", scene.scene_id, p, raw, llm.model_id)
             result = parse_llm_json(raw, schema_hint="relation_list")
@@ -123,6 +123,7 @@ def extract_relations_for_scene(
             continue
 
         relations = _postprocess_relations(relations, chunk_events, chunk_entities)
+        relations = _ensure_event_coverage(relations, chunk_events, chunk_entities)
 
         for rel in relations:
             _enrich_relation(rel, scene, chunk_id, movie_id)
@@ -225,9 +226,85 @@ def _postprocess_relations(
         if key in seen:
             continue
         seen.add(key)
+
+        # Stamp source/target names for fallback ID resolution in graph builder
+        combined_index = {**event_index, **entity_index}
+        src_node = combined_index.get(repaired.get("source_id"), {})
+        tgt_node = combined_index.get(repaired.get("target_id"), {})
+        repaired["source_name"] = src_node.get("canonical_name") or src_node.get("name", "")
+        repaired["target_name"] = tgt_node.get("canonical_name") or tgt_node.get("name", "")
+
         cleaned.append(repaired)
 
     return cleaned
+
+
+def _ensure_event_coverage(
+    relations: List[Dict],
+    events: List[Dict],
+    entities: List[Dict],
+) -> List[Dict]:
+    """Synthesize performs edges for events that have no event-role relation."""
+    event_role_types = {
+        RelationType.PERFORMS.value,
+        RelationType.UNDERGOES.value,
+        RelationType.EXPERIENCES.value,
+    }
+    covered_event_ids = set()
+    for rel in relations:
+        if rel.get("relation") in event_role_types:
+            covered_event_ids.add(rel.get("target_id"))
+
+    entity_index = _build_node_index(entities)
+    new_relations = list(relations)
+
+    for ev in events:
+        ev_id = ev.get("id") or ev.get("temp_id")
+        if not ev_id or ev_id in covered_event_ids:
+            continue
+
+        # Try to match a participant to an entity
+        participants = ev.get("participants", [])
+        matched_entity = None
+        for participant in participants:
+            norm_p = _normalize_name(participant)
+            for ent in entities:
+                if ent.get("type") not in ("Character", "Object", "Vehicle"):
+                    continue
+                ent_name = _normalize_name(
+                    ent.get("canonical_name", "") or ent.get("name", "")
+                )
+                if not ent_name:
+                    continue
+                # Check token overlap
+                p_tokens = set(norm_p.split())
+                e_tokens = set(ent_name.split())
+                if p_tokens and e_tokens and (p_tokens <= e_tokens or e_tokens <= p_tokens):
+                    matched_entity = ent
+                    break
+            if matched_entity:
+                break
+
+        if not matched_entity:
+            continue
+
+        ent_id = matched_entity.get("id") or matched_entity.get("temp_id")
+        evidence = ev.get("evidence", []) or [ev.get("description", "")]
+        new_relations.append({
+            "temp_id": f"synth_{ev_id}_{ent_id}",
+            "source_id": ent_id,
+            "source_type": matched_entity.get("type", "Character"),
+            "relation": RelationType.PERFORMS.value,
+            "target_id": ev_id,
+            "target_type": "Event",
+            "evidence": evidence[:1] if evidence else [],
+            "confidence": 0.6,
+            "source_name": matched_entity.get("canonical_name") or matched_entity.get("name", ""),
+            "target_name": ev.get("name", ""),
+        })
+        logger.debug("Synthesized performs edge: %s -> %s", ent_id, ev_id)
+
+    return new_relations
 
 
 def _build_node_index(nodes: List[Dict]) -> Dict[str, Dict]:
@@ -297,8 +374,10 @@ def _passes_basic_relation_checks(
     )
     participant_match = any(_participant_matches_entity(participant, entity_forms) for participant in participants)
 
-    if linked_ids or participants:
+    if linked_ids:
         return direct_link or participant_match
+    # If only participants exist (no linked_event_ids), allow relation through —
+    # participant lists from event extraction are often incomplete.
     return True
 
 
@@ -322,7 +401,7 @@ def _normalize_name(text: str) -> str:
 def _slim_events(events: List[Dict]) -> List[Dict]:
     return [
         {"temp_id": e.get("id", e.get("temp_id", "")), "name": e.get("name", "")}
-        for e in events[:20]
+        for e in events[:40]
     ]
 
 
@@ -333,7 +412,7 @@ def _slim_entities(entities: List[Dict]) -> List[Dict]:
             "canonical_name": e.get("canonical_name", e.get("name", "")),
             "type": e.get("type", ""),
         }
-        for e in entities[:30]
+        for e in entities[:60]
     ]
 
 
