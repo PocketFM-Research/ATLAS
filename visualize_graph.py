@@ -39,7 +39,7 @@ def _html_page(title: str, nodes_json: str, edges_json: str, type_colors_json: s
   * {{ margin: 0; padding: 0; box-sizing: border-box; }}
   body {{ font-family: 'Segoe UI', system-ui, sans-serif; background: #1a1a2e; color: #eee; overflow: hidden; }}
   svg {{ width: 100vw; height: 100vh; display: block; }}
-  .link {{ stroke-opacity: 0.5; }}
+  .link {{ stroke-opacity: 0.9; }}
   .link:hover {{ stroke-opacity: 1; }}
   .node circle {{ stroke: #fff; stroke-width: 1.5px; cursor: pointer; }}
   .node text {{ font-size: 11px; fill: #ccc; pointer-events: none; }}
@@ -79,6 +79,13 @@ types.forEach(t => {{
   legend.append("div").html(`<span style="background:${{typeColors[t]||defaultColor}}"></span>${{t}} (${{nodes.filter(n=>n.type===t).length}})`);
 }});
 
+// Degree lookup from the rendered link set.
+const degreeById = Object.fromEntries(nodes.map(n => [n.id, 0]));
+for (const link of links) {{
+  if (degreeById[link.source] != null) degreeById[link.source] += 1;
+  if (degreeById[link.target] != null) degreeById[link.target] += 1;
+}}
+
 const width = window.innerWidth, height = window.innerHeight;
 const svg = d3.select("svg").attr("viewBox", [0, 0, width, height]);
 
@@ -102,8 +109,13 @@ const link = g.append("g")
   .data(links)
   .join("line")
   .attr("class", "link")
-  .attr("stroke", "#556")
-  .attr("stroke-width", 1.5);
+  .attr("stroke", "#8fa4ff")
+  .attr("stroke-width", d => {{
+    const rel = String(d.relation || "").toLowerCase();
+    if (rel === "performs" || rel === "undergoes" || rel === "experiences") return 2.8;
+    if (rel === "occurs_at" || rel === "located_at" || rel === "present_on") return 2.2;
+    return 1.8;
+  }});
 
 // Link labels
 const linkLabel = g.append("g")
@@ -128,7 +140,7 @@ const node = g.append("g")
   );
 
 node.append("circle")
-  .attr("r", d => d.type === "Event" ? 8 : 10)
+  .attr("r", d => Math.max(7, Math.min(16, 6 + Math.sqrt((degreeById[d.id] || 0) + 1) * 3)))
   .attr("fill", d => typeColors[d.type] || defaultColor);
 
 node.append("text")
@@ -141,6 +153,7 @@ const tooltip = d3.select("#tooltip");
 node.on("mouseover", (e, d) => {{
   const color = typeColors[d.type] || defaultColor;
   let h = `<b>${{d.name}}</b><span class="type-badge" style="background:${{color}}">${{d.type}}</span><br>`;
+  h += `<br><i>Degree:</i> ${{degreeById[d.id] || 0}}`;
   if (d.description) h += `<br>${{d.description}}`;
   if (d.aliases && d.aliases.length > 1) h += `<br><i>Aliases:</i> ${{d.aliases.join(", ")}}`;
   if (d.scene_refs && d.scene_refs.length) h += `<br><i>Scenes:</i> ${{d.scene_refs.join(", ")}}`;
@@ -212,22 +225,23 @@ def generate_visualizations(graph_path: str) -> None:
     for scene_id in sorted(scene_ids):
         scene_nodes = [n for n in nodes if scene_id in [str(s) for s in n.get("scene_refs", [])]]
         scene_node_ids = {n["id"] for n in scene_nodes}
+        scene_edges = []
+        scene_context_ids = set(scene_node_ids)
 
-        scene_edges = [
-            e for e in edges
-            if e["source"] in scene_node_ids and e["target"] in scene_node_ids
-        ]
-
-        # Also include edges whose scene_refs match even if node filtering is broader
         for e in edges:
-            if scene_id in [str(s) for s in e.get("scene_refs", [])] and e not in scene_edges:
-                # Ensure both endpoints are in scene_nodes
-                if e["source"] in scene_node_ids and e["target"] in scene_node_ids:
-                    scene_edges.append(e)
+            if scene_id not in [str(s) for s in e.get("scene_refs", [])]:
+                continue
+            scene_edges.append(e)
+            if e["source"] not in scene_context_ids:
+                scene_context_ids.add(e["source"])
+            if e["target"] not in scene_context_ids:
+                scene_context_ids.add(e["target"])
+
+        scene_context_nodes = [n for n in nodes if n["id"] in scene_context_ids]
 
         scene_html = _html_page(
             title=f"{movie_title} — Scene {scene_id}",
-            nodes_json=json.dumps(scene_nodes),
+            nodes_json=json.dumps(scene_context_nodes),
             edges_json=json.dumps(scene_edges),
             type_colors_json=type_colors_json,
         )
