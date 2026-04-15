@@ -6,7 +6,7 @@ After each extraction attempt, an LLM scores the result 0–10 on three axes:
   - Consistency: stable naming/typing, no referential ambiguity
   - Redundancy:  no low-value or repetitive entities/relations
 
-Score < 7 → re-extract using the reflection feedback as guidance.
+Score < 7 → log the issue but keep the single-pass extraction result.
 Critical errors (schema violations, self-referential relations) force score to 0.
 """
 
@@ -14,7 +14,6 @@ SYSTEM_PROMPT = """You are a quality-control annotator for narrative knowledge g
 Your output must be valid JSON only — no prose, no markdown fences, no explanation."""
 
 ACCEPTANCE_THRESHOLD = 7
-MAX_RETRIES = 3
 
 
 def build_event_reflection_prompt(scene_text: str, extracted_events: list) -> str:
@@ -55,7 +54,7 @@ Return ONLY a JSON object:
   "consistency": <0-10>,
   "redundancy": <0-10>,
   "overall": <0-10>,
-  "feedback": "<one sentence describing the most important issue to fix on retry>"
+  "feedback": "<one sentence describing the most important issue to fix next>"
 }}
 """
 
@@ -99,7 +98,7 @@ Return ONLY a JSON object:
   "consistency": <0-10>,
   "redundancy": <0-10>,
   "overall": <0-10>,
-  "feedback": "<one sentence describing the most important issue to fix on retry>"
+  "feedback": "<one sentence describing the most important issue to fix next>"
 }}
 """
 
@@ -168,6 +167,6 @@ Return ONLY a JSON object:
   "consistency": <0-10>,
   "redundancy": <0-10>,
   "overall": <0-10>,
-  "feedback": "<one sentence describing the most important issue to fix on retry>"
+  "feedback": "<one sentence describing the most important issue to fix next>"
 }}
 """

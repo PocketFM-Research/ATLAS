@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Fighter — Scene 1</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: #1a1a2e; color: #eee; overflow: hidden; }
+  svg { width: 100vw; height: 100vh; display: block; }
+  .link { stroke-opacity: 0.9; }
+  .link:hover { stroke-opacity: 1; }
+  .node circle { stroke: #fff; stroke-width: 1.5px; cursor: pointer; }
+  .node text { font-size: 11px; fill: #ccc; pointer-events: none; }
+  .tooltip { position: absolute; background: rgba(20,20,40,0.95); border: 1px solid #555;
+              border-radius: 6px; padding: 10px 14px; font-size: 13px; pointer-events: none;
+              max-width: 360px; line-height: 1.4; display: none; z-index: 100; }
+  .tooltip b { color: #fff; }
+  .tooltip .type-badge { display: inline-block; padding: 1px 6px; border-radius: 3px;
+                          font-size: 11px; margin-left: 6px; color: #fff; }
+  #legend { position: fixed; top: 12px; right: 12px; background: rgba(20,20,40,0.9);
+             border: 1px solid #444; border-radius: 8px; padding: 12px 16px; font-size: 13px; }
+  #legend div { margin: 4px 0; }
+  #legend span { display: inline-block; width: 12px; height: 12px; border-radius: 50%;
+                  margin-right: 6px; vertical-align: middle; }
+  #title-bar { position: fixed; top: 12px; left: 12px; font-size: 18px; font-weight: 600;
+                background: rgba(20,20,40,0.9); border: 1px solid #444; border-radius: 8px;
+                padding: 8px 16px; }
+</style>
+</head>
+<body>
+<div id="title-bar">The Fighter — Scene 1</div>
+<div id="legend"></div>
+<div class="tooltip" id="tooltip"></div>
+<svg></svg>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+const nodes = [{"id": "ev_en627701_1_doc_0_chunk_0_ev_001", "type": "Event", "name": "Micky arrives unannounced", "aliases": ["Micky arrives unannounced"], "description": "Micky comes to the house and knocks on the door without warning.", "scene_refs": ["1"], "evidence": ["Micky knocking on the door."]}, {"id": "ev_en627701_1_doc_0_chunk_0_ev_002", "type": "Event", "name": "Jimmy answers the door", "aliases": ["Jimmy answers the door"], "description": "Jimmy opens the door and greets Micky cautiously.", "scene_refs": ["1"], "evidence": ["LAURIE'S HUSBAND (WHISPERS) Micky, how's it goin'? Ya know I don't think Laurie's expecting --", "His ex-girlfriend's husband, JIMMY, 45, well off, answers the door."]}, {"id": "ev_en627701_1_doc_0_chunk_0_ev_003", "type": "Event", "name": "Laurie confronts Micky at the door", "aliases": ["Laurie confronts Micky at the door"], "description": "Laurie comes up and challenges Micky's unexpected visit.", "scene_refs": ["1"], "evidence": ["LAURIE What's he doing here? This isn't your visitation day, Micky.", "LAURIE CARROLL, 32, dirty blonde, thin walks up."]}, {"id": "ev_en627701_1_doc_0_chunk_0_ev_004", "type": "Event", "name": "Micky asks to see Kasie", "aliases": ["Micky asks to see Kasie"], "description": "Micky says he only wants to say hello to Kasie.", "scene_refs": ["1"], "evidence": ["MICKY I just wanna say hi to Kasie."]}, {"id": "ev_en627701_1_doc_0_chunk_0_ev_005", "type": "Event", "name": "Laurie denies Micky access", "aliases": ["Laurie denies Micky access"], "description": "Laurie tells Micky it is not his day and orders him to leave.", "scene_refs": ["1"], "evidence": ["LAURIE It's not your day, goodbye."]}, {"id": "ev_en627701_1_doc_0_chunk_0_ev_006", "type": "Event", "name": "Micky explains he will miss next weekend", "aliases": ["Micky explains he will miss next weekend"], "description": "Micky says he will not be around next weekend, trying to justify the visit.", "scene_refs": ["1"], "evidence": ["MICKY I'm not around next weekend --"]}, {"id": "ev_en627701_1_doc_0_chunk_0_ev_007", "type": "Event", "name": "Laurie accuses Micky of skipping his days", "aliases": ["Laurie accuses Micky of skipping his days"], "description": "Laurie pushes back, accusing Micky of abandoning the visitation time he does have.", "scene_refs": ["1"], "evidence": ["LAURIE Now you're ditchin' the days you DO have?"]}, {"id": "ev_en627701_1_doc_0_chunk_0_ev_008", "type": "Event", "name": "Micky cites his upcoming fight", "aliases": ["Micky cites his upcoming fight"], "description": "Micky says he has a fight and reminds Laurie that he told her about it.", "scene_refs": ["1"], "evidence": ["MICKY I have a fight I told you that."]}, {"id": "ev_en627701_1_doc_0_chunk_0_ev_009", "type": "Event", "name": "Micky appeals to Jimmy", "aliases": ["Micky appeals to Jimmy"], "description": "Micky turns to Jimmy for help as the exchange remains tense.", "scene_refs": ["1"], "evidence": ["(To Jimmy) Jimmy --"]}, {"id": "ev_en627701_1_doc_0_chunk_1_ev_001", "type": "Event", "name": "Micky asks Jimmy to reach Laurie", "aliases": ["Micky asks Jimmy to reach Laurie"], "description": "Micky tells Jimmy he cannot speak to Laurie himself and asks him to intervene on his behalf.", "scene_refs": ["1"], "evidence": ["MICKY I'm asking YOU, Jimmy. I can't talk to her, so I'm asking YOU."]}, {"id": "ev_en627701_1_doc_0_chunk_1_ev_002", "type": "Event", "name": "Kasie greets her father at the door", "aliases": ["Kasie greets her father at the door"], "description": "Kasie comes to the doorway and hugs Micky hello when Jimmy calls her over.", "scene_refs": ["1"], "evidence": ["Micky's daughter, KASIE WARD, 10, curly hair, cute, comes up to the door, hugs her father hello.", "JIMMY Kasie, talk to your father."]}, {"id": "ev_en627701_1_doc_0_chunk_1_ev_003", "type": "Event", "name": "Laurie objects to Jimmy's involvement", "aliases": ["Laurie objects to Jimmy's involvement"], "description": "Laurie angrily tells Jimmy not to get involved in the family dispute.", "scene_refs": ["1"], "evidence": ["JIMMY Don't put me in the middle-a this.", "LAURIE Goddamnit, Jimmy!"]}, {"id": "ev_en627701_1_doc_0_chunk_1_ev_004", "type": "Event", "name": "Kasie mentions Micky's upcoming fight", "aliases": ["Kasie mentions Micky's upcoming fight"], "description": "Through the doorway, Kasie tells Micky that he has to fight Saoul Mamby.", "scene_refs": ["1"], "evidence": ["KASIE (through the doorway) Daddy's gotta fight Saoul Mamby-"]}, {"id": "ev_en627701_1_doc_0_chunk_1_ev_005", "type": "Event", "name": "Micky promises a better future after the fight", "aliases": ["Micky promises a better future after the fight"], "description": "Micky tells Kasie that if he wins, he will start making good money and move to a bigger apartment so she can stay with him more often.", "scene_refs": ["1"], "evidence": ["MICKY I'll move to a biggah apahtment so you can live with me more days like we talked about.", "MICKY I'm gonna staht makin' good money.", "MICKY That's right, and I wanna tell ya that after I win --"]}, {"id": "ev_en627701_1_doc_0_chunk_1_ev_006", "type": "Event", "name": "Laurie dismisses Micky's promises", "aliases": ["Laurie dismisses Micky's promises"], "description": "Laurie mocks Micky's claims and warns Kasie not to believe him, accusing him of misleading their child.", "scene_refs": ["1"], "evidence": ["LAURIE Don't hold ya breath, Kasie. It's cruel to mislead ya child, Micky.", "LAURIE Talk to her on your days!", "LAURIE Hah! That's a good one!"]}, {"id": "ev_en627701_1_doc_0_chunk_1_ev_007", "type": "Event", "name": "Laurie shuts the door on Micky", "aliases": ["Laurie shuts the door on Micky"], "description": "Laurie closes the door, ending the exchange while continuing to argue inside with Jimmy.", "scene_refs": ["1"], "evidence": ["She closes the door, arguing inside with Jimmy."]}, {"id": "ev_en627701_1_doc_0_chunk_1_ev_008", "type": "Event", "name": "Kasie wishes Micky luck", "aliases": ["Kasie wishes Micky luck"], "description": "After the door closes, Kasie shouts through it to wish her father good luck.", "scene_refs": ["1"], "evidence": ["KASIE (shouts through door) Good luck, Daddy!"]}, {"id": "ev_en627701_1_doc_0_chunk_1_ev_009", "type": "Event", "name": "Micky thanks Kasie through the door", "aliases": ["Micky thanks Kasie through the door"], "description": "Micky responds from outside, thanking Kasie after the door has been shut.", "scene_refs": ["1"], "evidence": ["MICKY (shouts to door) Thanks, Kasie."]}, {"id": "ent_en627701_1_doc_0_chunk_0_ent_002", "type": "Character", "name": "Jimmy", "aliases": ["Jimmy", "JIMMY"], "description": "Jimmy is the intermediary Micky asks to speak to Laurie and who is caught in the family argument at the door.", "scene_refs": ["1"], "evidence": ["JIMMY Don't put me in the middle-a this.", "His ex-girlfriend's husband, JIMMY, 45, well off, answers the door.", "JIMMY I can't get in the middle.", "JIMMY Kasie, talk to your father.", "MICKY I'm asking YOU, Jimmy.", "(To Jimmy) Jimmy --"]}, {"id": "ent_en627701_1_doc_0_chunk_0_ent_003", "type": "Character", "name": "Laurie Carroll", "aliases": ["Laurie Carroll", "LAURIE", "LAURIE CARROLL", "Laurie"], "description": "Laurie is the person inside the house who angrily objects to Jimmy's involvement and dismisses Micky's promises.", "scene_refs": ["1"], "evidence": ["LAURIE Now you're ditchin' the days you DO have?", "LAURIE Don't hold ya breath, Kasie. It's cruel to mislead ya child, Micky.", "LAURIE Talk to her on your days!", "LAURIE'S HUSBAND (WHISPERS) Micky, how's it goin'?", "This isn't your visitation day, Micky.", "LAURIE Goddamnit, Jimmy!", "LAURIE Hah! That's a good one!", "LAURIE It's not your day, goodbye.", "LAURIE CARROLL, 32, dirty blonde, thin walks up.", "LAURIE What's he doing here?"]}, {"id": "ent_en627701_1_doc_0_chunk_1_ent_001", "type": "Character", "name": "Micky Ward", "aliases": ["Micky Ward", "Daddy", "Micky"], "description": "Micky is the father speaking at the front door and trying to get Jimmy to help him reach Laurie.", "scene_refs": ["1"], "evidence": ["Micky's daughter, KASIE WARD, 10, curly hair, cute, comes up to the door, hugs her father hello.", "MICKY I'm not around next weekend --", "MICKY I just wanna say hi to Kasie.", "MICKY I'm asking YOU, Jimmy.", "MICKY I have a fight I told you that.", "Micky knocking on the door.", "MICKY That's right, and I wanna tell ya that after I win --", "MICKY (shouts to door) Thanks, Kasie."]}, {"id": "ent_en627701_1_doc_0_chunk_1_ent_003", "type": "Character", "name": "Kasie Ward", "aliases": ["Kasie Ward", "Kasie", "KASIE WARD"], "description": "Kasie is Micky and Laurie's daughter, who greets her father, talks about his fight, and wishes him luck through the door.", "scene_refs": ["1"], "evidence": ["Micky's daughter, KASIE WARD, 10, curly hair, cute, comes up to the door, hugs her father hello.", "KASIE (through the doorway) Daddy's gotta fight Saoul Mamby-", "KASIE (shouts through door) Good luck, Daddy!", "I just wanna say hi to Kasie.", "MICKY (shouts to door) Thanks, Kasie."]}, {"id": "ent_en627701_1_doc_0_chunk_1_ent_005", "type": "Character", "name": "Saoul Mamby", "aliases": ["Saoul Mamby"], "description": "Saoul Mamby is the boxer Micky is said to have to fight.", "scene_refs": ["1"], "evidence": ["Daddy's gotta fight Saoul Mamby-"]}, {"id": "ent_en627701_1_doc_0_chunk_0_ent_005", "type": "Concept", "name": "Visitation Day", "aliases": ["Visitation Day", "visitation day", "days"], "description": "The custody/visitation schedule being argued over by Laurie and Micky.", "scene_refs": ["1"], "evidence": ["Now you're ditchin' the days you DO have?", "This isn't your visitation day, Micky.", "It's not your day, goodbye."]}, {"id": "ent_en627701_1_doc_0_chunk_0_ent_006", "type": "Concept", "name": "Fight", "aliases": ["Fight", "fight"], "description": "Micky's upcoming fight that he uses to explain why he will be unavailable next weekend.", "scene_refs": ["1"], "evidence": ["I have a fight I told you that."]}];
+const links = [{"id": "e_cea8d8b549d8", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "performs", "target": "ev_en627701_1_doc_0_chunk_0_ev_001", "scene_refs": ["1"], "evidence": ["Micky knocking on the door."], "confidence": 0.99}, {"id": "e_c9d675dc558d", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "undergoes", "target": "ev_en627701_1_doc_0_chunk_0_ev_002", "scene_refs": ["1"], "evidence": ["His ex-girlfriend's husband, JIMMY, 45, well off, answers the door."], "confidence": 0.88}, {"id": "e_2794d9a68da2", "source": "ent_en627701_1_doc_0_chunk_0_ent_003", "relation": "performs", "target": "ev_en627701_1_doc_0_chunk_0_ev_003", "scene_refs": ["1"], "evidence": ["LAURIE What's he doing here? This isn't your visitation day, Micky."], "confidence": 0.98}, {"id": "e_639f6be6a6d2", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "undergoes", "target": "ev_en627701_1_doc_0_chunk_0_ev_003", "scene_refs": ["1"], "evidence": ["LAURIE What's he doing here? This isn't your visitation day, Micky."], "confidence": 0.95}, {"id": "e_7a8ecfae40ed", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "performs", "target": "ev_en627701_1_doc_0_chunk_0_ev_004", "scene_refs": ["1"], "evidence": ["MICKY I just wanna say hi to Kasie."], "confidence": 0.99}, {"id": "e_a6f5414de229", "source": "ent_en627701_1_doc_0_chunk_1_ent_003", "relation": "undergoes", "target": "ev_en627701_1_doc_0_chunk_0_ev_004", "scene_refs": ["1"], "evidence": ["MICKY I just wanna say hi to Kasie."], "confidence": 0.9}, {"id": "e_27951775316c", "source": "ent_en627701_1_doc_0_chunk_0_ent_003", "relation": "performs", "target": "ev_en627701_1_doc_0_chunk_0_ev_005", "scene_refs": ["1"], "evidence": ["LAURIE It's not your day, goodbye."], "confidence": 0.99}, {"id": "e_a634b039180f", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "undergoes", "target": "ev_en627701_1_doc_0_chunk_0_ev_005", "scene_refs": ["1"], "evidence": ["LAURIE It's not your day, goodbye."], "confidence": 0.96}, {"id": "e_7151f71059ad", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "performs", "target": "ev_en627701_1_doc_0_chunk_0_ev_006", "scene_refs": ["1"], "evidence": ["MICKY I'm not around next weekend --"], "confidence": 0.98}, {"id": "e_a51bd51a4319", "source": "ent_en627701_1_doc_0_chunk_0_ent_003", "relation": "undergoes", "target": "ev_en627701_1_doc_0_chunk_0_ev_007", "scene_refs": ["1"], "evidence": ["LAURIE Now you're ditchin' the days you DO have?"], "confidence": 0.98}, {"id": "e_a430fc8fc2bb", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "performs", "target": "ev_en627701_1_doc_0_chunk_0_ev_008", "scene_refs": ["1"], "evidence": ["MICKY I have a fight I told you that."], "confidence": 0.99}, {"id": "e_949f3457d18a", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "performs", "target": "ev_en627701_1_doc_0_chunk_0_ev_009", "scene_refs": ["1"], "evidence": ["(To Jimmy) Jimmy --"], "confidence": 0.86}, {"id": "e_bbd24af3f0ba", "source": "ent_en627701_1_doc_0_chunk_0_ent_002", "relation": "kinship_with", "target": "ent_en627701_1_doc_0_chunk_0_ent_003", "scene_refs": ["1"], "evidence": ["His ex-girlfriend's husband, JIMMY", "LAURIE'S HUSBAND"], "confidence": 0.93}, {"id": "e_1bd94d2cf533", "source": "ent_en627701_1_doc_0_chunk_0_ent_003", "relation": "kinship_with", "target": "ent_en627701_1_doc_0_chunk_0_ent_002", "scene_refs": ["1"], "evidence": ["His ex-girlfriend's husband, JIMMY", "LAURIE'S HUSBAND"], "confidence": 0.93}, {"id": "e_a1e99c8ac381", "source": "ent_en627701_1_doc_0_chunk_1_ent_003", "relation": "affinity_with", "target": "ent_en627701_1_doc_0_chunk_1_ent_001", "scene_refs": ["1"], "evidence": ["I just wanna say hi to Kasie."], "confidence": 0.72}, {"id": "e_2991f16880eb", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "performs", "target": "ev_en627701_1_doc_0_chunk_1_ev_001", "scene_refs": ["1"], "evidence": ["MICKY I'm asking YOU, Jimmy. I can't talk to her, so I'm asking YOU."], "confidence": 0.98}, {"id": "e_1e1f3909e313", "source": "ent_en627701_1_doc_0_chunk_0_ent_002", "relation": "undergoes", "target": "ev_en627701_1_doc_0_chunk_1_ev_001", "scene_refs": ["1"], "evidence": ["MICKY I'm asking YOU, Jimmy. I can't talk to her, so I'm asking YOU.", "JIMMY I can't get in the middle."], "confidence": 0.95}, {"id": "e_3c0bba954a24", "source": "ent_en627701_1_doc_0_chunk_1_ent_003", "relation": "performs", "target": "ev_en627701_1_doc_0_chunk_1_ev_002", "scene_refs": ["1"], "evidence": ["Micky's daughter, KASIE WARD, 10, curly hair, cute, comes up to the door, hugs her father hello."], "confidence": 0.99}, {"id": "e_c4a875fb0919", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "undergoes", "target": "ev_en627701_1_doc_0_chunk_1_ev_002", "scene_refs": ["1"], "evidence": ["Micky's daughter, KASIE WARD, 10, curly hair, cute, comes up to the door, hugs her father hello."], "confidence": 0.96}, {"id": "e_e70b94868dc4", "source": "ent_en627701_1_doc_0_chunk_0_ent_003", "relation": "performs", "target": "ev_en627701_1_doc_0_chunk_1_ev_003", "scene_refs": ["1"], "evidence": ["LAURIE Talk to her on your days!", "LAURIE Don't hold ya breath, Kasie. It's cruel to mislead ya child, Micky."], "confidence": 0.97}, {"id": "e_0b4035c1eb88", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "undergoes", "target": "ev_en627701_1_doc_0_chunk_1_ev_004", "scene_refs": ["1"], "evidence": ["KASIE (through the doorway) Daddy's gotta fight Saoul Mamby-"], "confidence": 0.95}, {"id": "e_9e8dcae6c6b2", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "performs", "target": "ev_en627701_1_doc_0_chunk_1_ev_005", "scene_refs": ["1"], "evidence": ["MICKY That's right, and I wanna tell ya that after I win --", "MICKY I'm gonna staht makin' good money.", "MICKY I'll move to a biggah apahtment so you can live with me more days like we talked about."], "confidence": 0.99}, {"id": "e_2a181b58c505", "source": "ent_en627701_1_doc_0_chunk_1_ent_003", "relation": "undergoes", "target": "ev_en627701_1_doc_0_chunk_1_ev_005", "scene_refs": ["1"], "evidence": ["MICKY I'll move to a biggah apahtment so you can live with me more days like we talked about."], "confidence": 0.9}, {"id": "e_56b0712382ac", "source": "ent_en627701_1_doc_0_chunk_0_ent_003", "relation": "performs", "target": "ev_en627701_1_doc_0_chunk_1_ev_006", "scene_refs": ["1"], "evidence": ["LAURIE Hah! That's a good one!", "LAURIE Don't hold ya breath, Kasie. It's cruel to mislead ya child, Micky."], "confidence": 0.98}, {"id": "e_cec4af904aae", "source": "ent_en627701_1_doc_0_chunk_0_ent_003", "relation": "performs", "target": "ev_en627701_1_doc_0_chunk_1_ev_007", "scene_refs": ["1"], "evidence": ["She closes the door, arguing inside with Jimmy."], "confidence": 0.99}, {"id": "e_9a61c717359c", "source": "ent_en627701_1_doc_0_chunk_1_ent_003", "relation": "performs", "target": "ev_en627701_1_doc_0_chunk_1_ev_008", "scene_refs": ["1"], "evidence": ["KASIE (shouts through door) Good luck, Daddy!"], "confidence": 0.99}, {"id": "e_fb88c0add09e", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "undergoes", "target": "ev_en627701_1_doc_0_chunk_1_ev_008", "scene_refs": ["1"], "evidence": ["KASIE (shouts through door) Good luck, Daddy!"], "confidence": 0.96}, {"id": "e_523b3d060283", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "performs", "target": "ev_en627701_1_doc_0_chunk_1_ev_009", "scene_refs": ["1"], "evidence": ["MICKY (shouts to door) Thanks, Kasie."], "confidence": 0.99}, {"id": "e_b30013f574f9", "source": "ent_en627701_1_doc_0_chunk_1_ent_003", "relation": "undergoes", "target": "ev_en627701_1_doc_0_chunk_1_ev_009", "scene_refs": ["1"], "evidence": ["MICKY (shouts to door) Thanks, Kasie."], "confidence": 0.95}, {"id": "e_fc356830b85c", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "kinship_with", "target": "ent_en627701_1_doc_0_chunk_1_ent_003", "scene_refs": ["1"], "evidence": ["Micky's daughter, KASIE WARD, 10, curly hair, cute, comes up to the door, hugs her father hello.", "Daddy's gotta fight Saoul Mamby-"], "confidence": 0.99}, {"id": "e_cbd0d063a700", "source": "ent_en627701_1_doc_0_chunk_0_ent_003", "relation": "kinship_with", "target": "ent_en627701_1_doc_0_chunk_1_ent_003", "scene_refs": ["1"], "evidence": ["Micky's daughter, KASIE WARD, 10, curly hair, cute, comes up to the door, hugs her father hello."], "confidence": 0.88}, {"id": "e_31eda001b0b4", "source": "ev_en627701_1_doc_0_chunk_1_ev_001", "relation": "precedes", "target": "ev_en627701_1_doc_0_chunk_1_ev_002", "scene_refs": ["1"], "evidence": ["MICKY I'm asking YOU, Jimmy. I can't talk to her, so I'm asking YOU.", "Micky's daughter, KASIE WARD, 10, curly hair, cute, comes up to the door, hugs her father hello."], "confidence": 0.84}, {"id": "e_fa65777314b2", "source": "ev_en627701_1_doc_0_chunk_1_ev_002", "relation": "precedes", "target": "ev_en627701_1_doc_0_chunk_1_ev_003", "scene_refs": ["1"], "evidence": ["Micky's daughter, KASIE WARD, 10, curly hair, cute, comes up to the door, hugs her father hello.", "LAURIE Goddamnit, Jimmy!"], "confidence": 0.8}, {"id": "e_e2fd7194b7c4", "source": "ev_en627701_1_doc_0_chunk_1_ev_003", "relation": "precedes", "target": "ev_en627701_1_doc_0_chunk_1_ev_007", "scene_refs": ["1"], "evidence": ["LAURIE Talk to her on your days!", "She closes the door, arguing inside with Jimmy."], "confidence": 0.86}, {"id": "e_a1dd6d824dad", "source": "ev_en627701_1_doc_0_chunk_1_ev_004", "relation": "precedes", "target": "ev_en627701_1_doc_0_chunk_1_ev_005", "scene_refs": ["1"], "evidence": ["KASIE (through the doorway) Daddy's gotta fight Saoul Mamby-", "MICKY That's right, and I wanna tell ya that after I win --"], "confidence": 0.9}, {"id": "e_4fec5daca148", "source": "ev_en627701_1_doc_0_chunk_1_ev_005", "relation": "precedes", "target": "ev_en627701_1_doc_0_chunk_1_ev_006", "scene_refs": ["1"], "evidence": ["MICKY I'm gonna staht makin' good money.", "LAURIE Hah! That's a good one!"], "confidence": 0.88}, {"id": "e_510bce9cea9f", "source": "ev_en627701_1_doc_0_chunk_1_ev_006", "relation": "precedes", "target": "ev_en627701_1_doc_0_chunk_1_ev_007", "scene_refs": ["1"], "evidence": ["LAURIE Don't hold ya breath, Kasie. It's cruel to mislead ya child, Micky.", "She closes the door, arguing inside with Jimmy."], "confidence": 0.9}, {"id": "e_0c0f6bcab565", "source": "ev_en627701_1_doc_0_chunk_1_ev_007", "relation": "precedes", "target": "ev_en627701_1_doc_0_chunk_1_ev_008", "scene_refs": ["1"], "evidence": ["She closes the door, arguing inside with Jimmy.", "KASIE (shouts through door) Good luck, Daddy!"], "confidence": 0.87}, {"id": "e_4e3e7c7037c5", "source": "ev_en627701_1_doc_0_chunk_1_ev_008", "relation": "precedes", "target": "ev_en627701_1_doc_0_chunk_1_ev_009", "scene_refs": ["1"], "evidence": ["KASIE (shouts through door) Good luck, Daddy!", "MICKY (shouts to door) Thanks, Kasie."], "confidence": 0.95}, {"id": "e_8c4e80e7e4f5", "source": "ev_en627701_1_doc_0_chunk_1_ev_004", "relation": "references", "target": "ev_en627701_1_doc_0_chunk_1_ev_005", "scene_refs": ["1"], "evidence": ["KASIE (through the doorway) Daddy's gotta fight Saoul Mamby-", "MICKY That's right, and I wanna tell ya that after I win --"], "confidence": 0.92}];
+const typeColors = {"Character": "#4A90D9", "Event": "#6ABF69", "Location": "#E8943A", "Vehicle": "#9B59B6", "Object": "#95A5A6", "TimePoint": "#E74C3C", "Concept": "#F1C40F"};
+const defaultColor = "#CCCCCC";
+
+// Build legend
+const types = [...new Set(nodes.map(n => n.type))].sort();
+const legend = d3.select("#legend");
+types.forEach(t => {
+  legend.append("div").html(`<span style="background:${typeColors[t]||defaultColor}"></span>${t} (${nodes.filter(n=>n.type===t).length})`);
+});
+
+// Degree lookup from the rendered link set.
+const degreeById = Object.fromEntries(nodes.map(n => [n.id, 0]));
+for (const link of links) {
+  if (degreeById[link.source] != null) degreeById[link.source] += 1;
+  if (degreeById[link.target] != null) degreeById[link.target] += 1;
+}
+
+const width = window.innerWidth, height = window.innerHeight;
+const svg = d3.select("svg").attr("viewBox", [0, 0, width, height]);
+
+// Zoom
+const g = svg.append("g");
+svg.call(d3.zoom().scaleExtent([0.1, 8]).on("zoom", (e) => g.attr("transform", e.transform)));
+
+// Build id lookup
+const nodeById = Object.fromEntries(nodes.map(n => [n.id, n]));
+
+// Force simulation
+const simulation = d3.forceSimulation(nodes)
+  .force("link", d3.forceLink(links).id(d => d.id).distance(120))
+  .force("charge", d3.forceManyBody().strength(-300))
+  .force("center", d3.forceCenter(width / 2, height / 2))
+  .force("collision", d3.forceCollide().radius(30));
+
+// Links
+const link = g.append("g")
+  .selectAll("line")
+  .data(links)
+  .join("line")
+  .attr("class", "link")
+  .attr("stroke", "#8fa4ff")
+  .attr("stroke-width", d => {
+    const rel = String(d.relation || "").toLowerCase();
+    if (rel === "performs" || rel === "undergoes" || rel === "experiences") return 2.8;
+    if (rel === "occurs_at" || rel === "located_at" || rel === "present_on") return 2.2;
+    return 1.8;
+  });
+
+// Link labels
+const linkLabel = g.append("g")
+  .selectAll("text")
+  .data(links)
+  .join("text")
+  .attr("font-size", 9)
+  .attr("fill", "#888")
+  .attr("text-anchor", "middle")
+  .text(d => d.relation);
+
+// Nodes
+const node = g.append("g")
+  .selectAll("g")
+  .data(nodes)
+  .join("g")
+  .attr("class", "node")
+  .call(d3.drag()
+    .on("start", (e, d) => { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+    .on("drag", (e, d) => { d.fx = e.x; d.fy = e.y; })
+    .on("end", (e, d) => { if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; })
+  );
+
+node.append("circle")
+  .attr("r", d => Math.max(7, Math.min(16, 6 + Math.sqrt((degreeById[d.id] || 0) + 1) * 3)))
+  .attr("fill", d => typeColors[d.type] || defaultColor);
+
+node.append("text")
+  .attr("dx", 14)
+  .attr("dy", 4)
+  .text(d => d.name.length > 30 ? d.name.slice(0, 28) + "..." : d.name);
+
+// Tooltip
+const tooltip = d3.select("#tooltip");
+node.on("mouseover", (e, d) => {
+  const color = typeColors[d.type] || defaultColor;
+  let h = `<b>${d.name}</b><span class="type-badge" style="background:${color}">${d.type}</span><br>`;
+  h += `<br><i>Degree:</i> ${degreeById[d.id] || 0}`;
+  if (d.description) h += `<br>${d.description}`;
+  if (d.aliases && d.aliases.length > 1) h += `<br><i>Aliases:</i> ${d.aliases.join(", ")}`;
+  if (d.scene_refs && d.scene_refs.length) h += `<br><i>Scenes:</i> ${d.scene_refs.join(", ")}`;
+  tooltip.html(h).style("display", "block");
+}).on("mousemove", (e) => {
+  tooltip.style("left", (e.pageX + 14) + "px").style("top", (e.pageY - 14) + "px");
+}).on("mouseout", () => tooltip.style("display", "none"));
+
+link.on("mouseover", (e, d) => {
+  const src = typeof d.source === "object" ? d.source.name : d.source;
+  const tgt = typeof d.target === "object" ? d.target.name : d.target;
+  tooltip.html(`<b>${src}</b> &rarr; <i>${d.relation}</i> &rarr; <b>${tgt}</b>`).style("display", "block");
+}).on("mousemove", (e) => {
+  tooltip.style("left", (e.pageX + 14) + "px").style("top", (e.pageY - 14) + "px");
+}).on("mouseout", () => tooltip.style("display", "none"));
+
+simulation.on("tick", () => {
+  link.attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+      .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+  linkLabel.attr("x", d => (d.source.x + d.target.x) / 2)
+           .attr("y", d => (d.source.y + d.target.y) / 2);
+  node.attr("transform", d => `translate(${d.x},${d.y})`);
+});
+</script>
+</body>
+</html>

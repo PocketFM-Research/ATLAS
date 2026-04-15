@@ -2,9 +2,7 @@
 Event extraction (Pass 1) with reflection-based QC (Appendix C.3).
 
 Processes scenes/chunks and extracts narratively salient events via LLM.
-Each extraction is scored 0-10; results below threshold are re-extracted
-with feedback, up to MAX_RETRIES times. Best-scoring result is kept.
-Results are cached by (movie_id, scene_id, chunk_id).
+Each extraction is scored once, then cached by (movie_id, scene_id, chunk_id).
 """
 
 import logging

@@ -24,6 +24,13 @@ from stage_kg.evaluation.scene_text import (
 logger = logging.getLogger(__name__)
 
 
+def _relpath(path: Path, root: Path) -> str:
+    try:
+        return str(path.resolve().relative_to(root.resolve()))
+    except Exception:
+        return path.name
+
+
 class EvaluationExperiment:
     """Run complete evaluation experiment on graph-to-text generation."""
     
@@ -97,10 +104,10 @@ class EvaluationExperiment:
         results = {
             "metadata": {
                 "text_source": self.text_source,
-                "dataset_dir": str(self.dataset_dir),
+                "dataset_dir": _relpath(self.dataset_dir, Path.cwd()),
                 "language": self.language,
                 "scene_descriptions_path": (
-                    str(self.scene_descriptions_path) if self.scene_descriptions_path else None
+                    _relpath(self.scene_descriptions_path, Path.cwd()) if self.scene_descriptions_path else None
                 ),
             },
             "movies": {},
@@ -157,6 +164,7 @@ class EvaluationExperiment:
             all_repetition_instances.extend(rep_instances)
             
             results["movies"][movie_id] = {
+                "graph_path": _relpath(graph_path, self.graph_dir),
                 "scene_text_stats": scene_text_stats.to_dict(),
                 "low_evidence_count": len(low_evidence_entries),
                 "low_evidence_entries": [entry.to_dict() for entry in low_evidence_entries],

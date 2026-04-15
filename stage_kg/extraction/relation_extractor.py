@@ -1,5 +1,6 @@
 """
 Relation extraction (Pass 3) with reflection-based QC (Appendix C.3).
+Each extraction is scored once and cached by (movie_id, scene_id, chunk_id).
 """
 
 import logging
@@ -124,7 +125,6 @@ def extract_relations_for_scene(
 
         relations = _postprocess_relations(relations, chunk_events, chunk_entities)
         relations = _ensure_event_coverage(relations, chunk_events, chunk_entities)
-
         for rel in relations:
             _enrich_relation(rel, scene, chunk_id, movie_id)
 

@@ -1,9 +1,7 @@
 """
-Reflection-based acceptance loop (Appendix C.3).
+Reflection-based acceptance check (Appendix C.3).
 
-After each LLM extraction, score the result 0-10.
-If score < ACCEPTANCE_THRESHOLD, re-extract using feedback as guidance,
-up to MAX_RETRIES times. Keep the highest-scoring result across all attempts.
+After each LLM extraction, score the result 0-10 once and keep the result.
 """
 
 import logging
@@ -11,14 +9,7 @@ import re
 from typing import Any, Callable, List, Optional, Tuple
 
 from ..llm.base import BaseLLM
-from ..prompts.reflection import (
-    ACCEPTANCE_THRESHOLD,
-    MAX_RETRIES,
-    SYSTEM_PROMPT,
-    build_event_reflection_prompt,
-    build_entity_reflection_prompt,
-    build_relation_reflection_prompt,
-)
+from ..prompts.reflection import SYSTEM_PROMPT, build_event_reflection_prompt, build_entity_reflection_prompt, build_relation_reflection_prompt
 from ..utils.json_repair import parse_llm_json
 from ..utils.logging_utils import PromptLogger
 
@@ -108,62 +99,34 @@ def reflection_loop(
     prompt_logger: Optional[PromptLogger],
 ) -> Any:
     """
-    Run extraction with bounded reflection retries.
+    Run extraction with a single reflection score.
 
     Args:
         extract_fn: Callable(feedback) -> (result, raw_prompt).
-                    On first call, feedback is None.
-                    On retries, feedback is the previous reflection's feedback string.
+                    Feedback is always None because retries are disabled.
         reflect_fn: Callable(result) -> reflection_prompt_string.
         llm: LLM backend.
         scene_id: For logging.
         prompt_logger: Optional prompt logger.
 
     Returns:
-        The highest-scoring result across all attempts (or the last one if all fail).
+        The extracted result from the single attempt.
     """
-    best_result = None
-    best_score = -1
+    result, _ = extract_fn(None)
 
-    feedback: Optional[str] = None
+    if result is None:
+        logger.warning("Extraction returned None for scene=%s", scene_id)
+        return None
 
-    for attempt in range(1, MAX_RETRIES + 1):
-        result, _ = extract_fn(feedback)
+    reflection_prompt = reflect_fn(result)
+    score, feedback = score_extraction(llm, reflection_prompt, scene_id, prompt_logger)
 
-        if result is None:
-            logger.warning(
-                "Extraction returned None on attempt %d/%d for scene=%s",
-                attempt, MAX_RETRIES, scene_id,
-            )
-            continue
-
-        reflection_prompt = reflect_fn(result)
-        score, feedback = score_extraction(llm, reflection_prompt, scene_id, prompt_logger)
-
-        if score > best_score:
-            best_score = score
-            best_result = result
-            logger.debug(
-                "New best result (score=%d) on attempt %d for scene=%s",
-                score, attempt, scene_id,
-            )
-
-        if score >= ACCEPTANCE_THRESHOLD:
-            logger.debug(
-                "Accepted on attempt %d (score=%d >= %d) for scene=%s",
-                attempt, score, ACCEPTANCE_THRESHOLD, scene_id,
-            )
-            break
-        else:
-            logger.info(
-                "Score %d < %d on attempt %d for scene=%s — retrying with feedback: %s",
-                score, ACCEPTANCE_THRESHOLD, attempt, scene_id, feedback,
-            )
-
-    if best_score < ACCEPTANCE_THRESHOLD:
+    if score < 7:
         logger.warning(
-            "All %d attempts scored below %d for scene=%s; using best (score=%d)",
-            MAX_RETRIES, ACCEPTANCE_THRESHOLD, scene_id, best_score,
+            "Reflection score below threshold for scene=%s (score=%d); keeping single-pass result. Feedback: %s",
+            scene_id,
+            score,
+            feedback,
         )
 
-    return best_result
+    return result

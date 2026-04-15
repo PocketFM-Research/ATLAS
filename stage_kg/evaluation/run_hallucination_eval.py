@@ -13,20 +13,21 @@ from stage_kg.evaluation.config import EvaluationConfig
 from stage_kg.evaluation.hallucination_eval import HallucinationEvaluator
 from stage_kg.evaluation.new_claim_extractor import Claim, ClaimExtractor
 from stage_kg.ingest.loader import load_movie
+from stage_kg.llm import get_llm
 
 
-ROOT = Path("/Users/mobiletest4/Downloads/Github/STAGE-Evaluation-Pipeline")
-DEFAULT_GRAPH_PATH = ROOT / "output_stage_fixed_gemini_small" / "en04052c0f20834cf1bac19927d8f758e0" / "final_graph.json"
+ROOT = Path(__file__).resolve().parents[2]
+DEFAULT_GRAPH_PATH = ROOT / "output" / "en04052c0f20834cf1bac19927d8f758e0" / "final_graph.json"
 DEFAULT_OUTPUT_DIR = ROOT / "hallucination_eval_output"
-DEFAULT_GEMINI_KEY_PATH = ROOT / "gemini.txt"
+DEFAULT_API_KEY_PATH = ROOT / "gemini.txt"
 
 
-def read_gemini_api_key(path: Path) -> str:
+def read_api_key(path: Path) -> str:
     if not path.exists():
-        raise FileNotFoundError(f"Gemini key file not found: {path}")
+        raise FileNotFoundError(f"API key file not found: {path}")
     key = path.read_text(encoding="utf-8").strip()
     if not key or key == "PASTE_GEMINI_API_KEY_HERE":
-        raise ValueError(f"Put your Gemini API key into {path} with no quotes or extra text.")
+        raise ValueError(f"Put your API key into {path} with no quotes or extra text.")
     return key
 
 
@@ -107,14 +108,17 @@ def main() -> None:
     parser.add_argument("--graph-path", default=str(DEFAULT_GRAPH_PATH), help="Path to final_graph.json")
     parser.add_argument("--max-scenes", type=int, default=1, help="How many scenes to evaluate")
     parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR), help="Directory to save outputs")
-    parser.add_argument("--gemini-key-file", default=str(DEFAULT_GEMINI_KEY_PATH), help="Path to gemini.txt")
-    parser.add_argument("--model", default="gemini-2.5-flash", help="Gemini model name")
+    parser.add_argument("--provider", default="openai", choices=["openai", "gemini"], help="LLM provider for claim extraction")
+    parser.add_argument("--api-key-file", default=str(DEFAULT_API_KEY_PATH), help="Path to API key file")
+    parser.add_argument("--api-key", default="", help="API key string (overrides --api-key-file)")
+    parser.add_argument("--base-url", default="", help="OpenAI-compatible endpoint URL")
+    parser.add_argument("--model", default="gpt-5.4-mini", help="Model or deployment name")
     parser.add_argument("--claims-csv", default="", help="Optional existing claims CSV to verify instead of extracting new claims")
     args = parser.parse_args()
 
     graph_path = Path(args.graph_path)
     output_dir = Path(args.output_dir)
-    key_path = Path(args.gemini_key_file)
+    key_path = Path(args.api_key_file)
 
     if not graph_path.exists():
         raise FileNotFoundError(f"Graph not found: {graph_path}")
@@ -137,13 +141,21 @@ def main() -> None:
     else:
         if not movie_dir.exists():
             raise FileNotFoundError(f"Movie directory not found for graph {graph_path}: {movie_dir}")
-        api_key = read_gemini_api_key(key_path)
+        api_key = args.api_key
+        if not api_key and key_path.exists():
+            api_key = read_api_key(key_path)
         movie = load_movie(movie_dir=movie_dir, movie_id=movie_id, language=language)
         scenes = movie.scenes[: max(0, args.max_scenes)]
         if not scenes:
             raise ValueError("No scenes selected for evaluation.")
 
-        claim_extractor = ClaimExtractor.for_gemini(api_key=api_key, model=args.model)
+        llm = get_llm(
+            provider=args.provider,
+            model=args.model,
+            api_key=api_key,
+            base_url=args.base_url or None,
+        )
+        claim_extractor = ClaimExtractor(llm=llm)
         evaluator = HallucinationEvaluator(
             claim_extractor=claim_extractor,
             config=config,

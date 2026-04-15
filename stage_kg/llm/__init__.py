@@ -22,7 +22,7 @@ def get_llm(
 
     if provider == "openai":
         from .openai_client import OpenAILLM
-        return OpenAILLM(model=model or "gpt-4o", api_key=api_key)
+        return OpenAILLM(model=model or "gpt-4o", api_key=api_key, base_url=base_url)
 
     elif provider == "anthropic":
         from .anthropic_client import AnthropicLLM

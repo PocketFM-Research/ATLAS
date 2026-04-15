@@ -218,6 +218,14 @@ class KnowledgeGraph:
         if not tgt_id or tgt_id not in self.nodes:
             logger.warning("Edge skipped: unresolved target %s (name=%s)", tgt_raw, rel.get("target_name", ""))
             return
+        if src_id == tgt_id:
+            logger.debug(
+                "Edge skipped: self-reference (%s, %s, %s)",
+                src_id,
+                rel.get("relation", ""),
+                tgt_id,
+            )
+            return
 
         # Schema check
         try:

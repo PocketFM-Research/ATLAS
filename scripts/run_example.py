@@ -5,7 +5,6 @@ Example end-to-end run on the Star Trek II movie (first 3 scenes).
 Requires ANTHROPIC_API_KEY or OPENAI_API_KEY environment variable.
 
 Usage:
-    cd /home/ubuntu/STAGE
     ANTHROPIC_API_KEY=sk-... python scripts/run_example.py
     # or
     OPENAI_API_KEY=sk-... python scripts/run_example.py --provider openai

@@ -9,7 +9,7 @@ from stage_kg.evaluation.new_claim_extractor import ClaimExtractor
 
 
 DEFAULT_MOVIE_ID = "en04052c0f20834cf1bac19927d8f758e0"
-DEFAULT_INPUT_DIR = Path("/Users/mobiletest4/Downloads/Github/STAGE-Evaluation-Pipeline")
+DEFAULT_INPUT_DIR = Path(__file__).resolve().parent
 DEFAULT_SCENE_ID = "1"
 DEFAULT_OUTPUT_DIR = DEFAULT_INPUT_DIR / "test_claim_extractor"
 DEFAULT_GEMINI_KEY_PATH = DEFAULT_INPUT_DIR / "gemini.txt"

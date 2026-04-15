@@ -86,6 +86,12 @@ def normalize_nodes(
     proto_nodes, exact_log = _exact_merge(nodes, node_type)
     merge_log = list(exact_log)
 
+    # Step 2b: for characters, merge obvious short-form/full-name variants before clustering.
+    # This catches cases like "Kasie" vs "Kasie Ward" that often split across chunks.
+    if node_type == "Character" and len(proto_nodes) > 1:
+        proto_nodes, prefix_log = _merge_character_prefix_variants(proto_nodes)
+        merge_log.extend(prefix_log)
+
     if len(proto_nodes) <= 1:
         logger.info("[%s] %s: %d raw -> %d after exact merge",
                     movie_id, node_type, len(nodes), len(proto_nodes))
@@ -273,6 +279,90 @@ def _exact_merge(nodes: List[Dict], node_type: str) -> Tuple[List[Dict], List[Di
     return merged, log
 
 
+def _merge_character_prefix_variants(nodes: List[Dict]) -> Tuple[List[Dict], List[Dict]]:
+    """
+    Merge obvious short-name/full-name character variants.
+
+    Example: "Kasie" should merge into "Kasie Ward" when both refer to the same
+    character and the shorter name is a clean prefix of the longer one.
+    """
+    if len(nodes) <= 1:
+        return nodes, []
+
+    ordered = list(nodes)
+    merged_into: Dict[int, int] = {}
+    log: List[Dict] = []
+
+    def norm(name: str) -> str:
+        return _normalize_string(name, "Character")
+
+    def tokens(name: str) -> List[str]:
+        return norm(name).split()
+
+    for i, base in enumerate(ordered):
+        if i in merged_into:
+            continue
+        base_name = _get_canonical(base)
+        base_tokens = tokens(base_name)
+        if not base_tokens:
+            continue
+
+        for j in range(i + 1, len(ordered)):
+            if j in merged_into:
+                continue
+            other = ordered[j]
+            other_name = _get_canonical(other)
+            other_tokens = tokens(other_name)
+            if not other_tokens:
+                continue
+
+            short, long = (base, other)
+            short_tokens, long_tokens = base_tokens, other_tokens
+            short_idx, long_idx = i, j
+
+            if len(other_tokens) < len(base_tokens):
+                short, long = other, base
+                short_tokens, long_tokens = other_tokens, base_tokens
+                short_idx, long_idx = j, i
+
+            if len(short_tokens) == 1 and len(long_tokens) >= 2:
+                if long_tokens[0] != short_tokens[0]:
+                    continue
+                # A single-token alias is allowed to merge into a fuller name
+                # when the first token matches.
+                pass
+            elif len(short_tokens) >= 2 and len(long_tokens) >= 2:
+                # Two fuller names should only merge when the surname matches.
+                if short_tokens[-1] != long_tokens[-1]:
+                    continue
+                if short_tokens[0] != long_tokens[0]:
+                    continue
+            else:
+                continue
+            _merge_into_node(long, short)
+            merged_into[short_idx] = long_idx
+            log.append({
+                "type": "prefix_merge",
+                "canonical_name": _get_canonical(long),
+                "merged_name": _get_canonical(short),
+                "merged_ids": sorted(list({
+                    long.get("id", ""),
+                    short.get("id", ""),
+                    *_coerce_str_list(long.get("_merged_raw_ids", [])),
+                    *_coerce_str_list(short.get("_merged_raw_ids", [])),
+                } - {""})),
+            })
+
+    survivors = []
+    for idx, node in enumerate(ordered):
+        if idx not in merged_into:
+            if not node.get("id"):
+                node["id"] = f"node_{uuid.uuid4().hex[:12]}"
+            survivors.append(node)
+
+    return survivors, log
+
+
 def _merge_into_node(base: Dict, other: Dict) -> None:
     """Merge `other` into `base` in place."""
     # Surface forms / aliases
@@ -358,6 +448,15 @@ narrative entity or should remain separate.
 Decision guidelines:
 - Similar surface forms alone are insufficient for merging.
 - Merge only if identity, narrative role, and story function are consistent.
+- For Character nodes, a short name and a fuller name should usually merge when \
+they clearly refer to the same person, especially when one form is a prefix or \
+nickname of the other (for example, "Kasie" and "Kasie Ward", or "Micky" and \
+"Micky Ward").
+- Do not merge character mentions when their surnames conflict or clearly point \
+to different people.
+- If two character mentions are the same person but one is abbreviated, informal, \
+or missing a surname, merge them and choose the fuller, more specific form as the \
+canonical_name.
 - Do not merge disguises, substitutions, parallel versions, or different life stages.
 - Mentions with explicit version or instance identifiers (e.g. numbered variants \
 like "Ceti Alpha V" vs "Ceti Alpha VI", or "Model T-1" vs "Model T-2") MUST remain distinct.
@@ -416,6 +515,7 @@ def _llm_adjudicate_cluster(
     for node in cluster_nodes:
         ent_descs.append({
             "name": _get_canonical(node),
+            "normalized_name": _normalize_string(_get_canonical(node), node_type),
             "aliases": node.get("surface_forms", []),
             "description": node.get("description", ""),
             "scene_refs": node.get("scene_refs", [node.get("scene_id", "")]),

@@ -56,6 +56,7 @@ def run_pipeline(
 
     cache = Cache(movie_out / ".cache")
     prompt_logger = PromptLogger(movie_out / "logs", movie.movie_id)
+    embedding_api_key = api_key if llm.model_id.startswith("gemini/") else None
 
     logger.info(
         "=" * 60 + f"\nStarting pipeline for: {movie.title or movie.movie_id}\n"
@@ -130,7 +131,7 @@ def run_pipeline(
             movie_title=movie.title,
             cache=cache,
             prompt_logger=prompt_logger,
-            api_key=api_key,
+            api_key=embedding_api_key,
         )
         merge_log_all.extend(ev_log)
 
@@ -150,7 +151,7 @@ def run_pipeline(
                 movie_title=movie.title,
                 cache=cache,
                 prompt_logger=prompt_logger,
-                api_key=api_key,
+                api_key=embedding_api_key,
             )
             normalized_entities[etype] = norm_ents
             merge_log_all.extend(ent_log)

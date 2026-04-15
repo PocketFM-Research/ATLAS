@@ -1,5 +1,6 @@
 """
 Entity extraction (Pass 2) with reflection-based QC (Appendix C.3).
+Each extraction is scored once and cached by (movie_id, scene_id, chunk_id).
 """
 
 import logging
