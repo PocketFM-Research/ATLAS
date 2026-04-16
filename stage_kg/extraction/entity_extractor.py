@@ -1,6 +1,6 @@
 """
-Entity extraction (Pass 2) with reflection-based QC (Appendix C.3).
-Each extraction is scored once and cached by (movie_id, scene_id, chunk_id).
+Entity extraction (Pass 2).
+Each extraction is cached by (movie_id, scene_id, chunk_id).
 """
 
 import logging
@@ -11,11 +11,9 @@ from typing import List, Dict, Optional
 from ..llm.base import BaseLLM
 from ..ingest.loader import SceneRecord
 from ..prompts import entity_extraction as eep
-from ..prompts.reflection import build_entity_reflection_prompt
 from ..utils.json_repair import parse_llm_json, validate_entity_list
 from ..utils.cache import Cache
 from ..utils.logging_utils import PromptLogger
-from .reflection import reflection_loop
 
 logger = logging.getLogger(__name__)
 
@@ -97,16 +95,7 @@ def extract_entities_for_scene(
                           if isinstance(e, dict) and e.get("type") in VALID_TYPES]
             return result, p
 
-        def reflect_fn(entities):
-            return build_entity_reflection_prompt(chunk_text, entities or [])
-
-        entities = reflection_loop(
-            extract_fn=extract_fn,
-            reflect_fn=reflect_fn,
-            llm=llm,
-            scene_id=f"{scene.scene_id}/{chunk_id}",
-            prompt_logger=prompt_logger,
-        )
+        entities, _ = extract_fn(None)
 
         if not entities:
             logger.warning("Entity extraction yielded nothing for %s/%s",

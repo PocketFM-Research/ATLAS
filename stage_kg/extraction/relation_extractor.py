@@ -1,6 +1,6 @@
 """
-Relation extraction (Pass 3) with reflection-based QC (Appendix C.3).
-Each extraction is scored once and cached by (movie_id, scene_id, chunk_id).
+Relation extraction (Pass 3).
+Each extraction is cached by (movie_id, scene_id, chunk_id).
 """
 
 import logging
@@ -11,12 +11,10 @@ from typing import List, Dict, Optional
 from ..llm.base import BaseLLM
 from ..ingest.loader import SceneRecord
 from ..prompts import relation_extraction as rp
-from ..prompts.reflection import build_relation_reflection_prompt
 from ..schema import is_valid_triple, NodeType, RelationType
 from ..utils.json_repair import parse_llm_json
 from ..utils.cache import Cache
 from ..utils.logging_utils import PromptLogger
-from .reflection import reflection_loop
 
 logger = logging.getLogger(__name__)
 
@@ -104,18 +102,7 @@ def extract_relations_for_scene(
                 result = [r for r in result if isinstance(r, dict)]
             return result, p
 
-        def reflect_fn(relations):
-            return build_relation_reflection_prompt(
-                chunk_text, relations or [], chunk_events, chunk_entities
-            )
-
-        relations = reflection_loop(
-            extract_fn=extract_fn,
-            reflect_fn=reflect_fn,
-            llm=llm,
-            scene_id=f"{scene.scene_id}/{chunk_id}",
-            prompt_logger=prompt_logger,
-        )
+        relations, _ = extract_fn(None)
 
         if not relations:
             logger.warning("Relation extraction yielded nothing for %s/%s — check prompt logs",

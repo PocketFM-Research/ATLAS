@@ -1,8 +1,8 @@
 """
-Event extraction (Pass 1) with reflection-based QC (Appendix C.3).
+Event extraction (Pass 1).
 
 Processes scenes/chunks and extracts narratively salient events via LLM.
-Each extraction is scored once, then cached by (movie_id, scene_id, chunk_id).
+Each extraction is cached by (movie_id, scene_id, chunk_id).
 """
 
 import logging
@@ -13,11 +13,9 @@ from typing import List, Dict, Optional
 from ..llm.base import BaseLLM
 from ..ingest.loader import SceneRecord
 from ..prompts import event_extraction as ep
-from ..prompts.reflection import build_event_reflection_prompt
 from ..utils.json_repair import parse_llm_json, validate_event_list
 from ..utils.cache import Cache
 from ..utils.logging_utils import PromptLogger
-from .reflection import reflection_loop
 
 logger = logging.getLogger(__name__)
 
@@ -90,16 +88,7 @@ def extract_events_for_scene(
                 result = [result]
             return result, p
 
-        def reflect_fn(events):
-            return build_event_reflection_prompt(chunk_text, events or [])
-
-        events = reflection_loop(
-            extract_fn=extract_fn,
-            reflect_fn=reflect_fn,
-            llm=llm,
-            scene_id=f"{scene.scene_id}/{chunk_id}",
-            prompt_logger=prompt_logger,
-        )
+        events, _ = extract_fn(None)
 
         if not events:
             logger.warning("Event extraction yielded nothing for %s/%s", scene.scene_id, chunk_id)
