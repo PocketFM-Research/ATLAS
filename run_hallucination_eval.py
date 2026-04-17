@@ -15,8 +15,8 @@ from stage_kg.evaluation.new_claim_extractor import Claim, ClaimExtractor
 from stage_kg.ingest.loader import load_movie
 from stage_kg.llm import get_llm
 
+ROOT = Path(__file__).resolve().parent
 
-ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_GRAPH_PATH = ROOT / "output" / "en04052c0f20834cf1bac19927d8f758e0" / "final_graph.json"
 DEFAULT_OUTPUT_DIR = ROOT / "hallucination_eval_output"
 DEFAULT_API_KEY_PATH = ROOT / "gemini.txt"

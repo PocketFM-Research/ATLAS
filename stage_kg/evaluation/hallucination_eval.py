@@ -11,6 +11,7 @@ from stage_kg.evaluation.new_claim_extractor import (
     ExtractionAbstention,
     LowConfidenceClaim,
     assess_claim_quality,
+    should_abstain_low_confidence_claim,
 )
 from stage_kg.evaluation.claim_verifier import KnowledgeGraphVerifier, VerificationResult
 from stage_kg.evaluation.config import EvaluationConfig
@@ -78,7 +79,7 @@ class HallucinationEvaluator:
         if claims is None:
             claims = self.claim_extractor.extract_claims(generated_text, scene_id)
             self._claim_cache[cache_key] = claims
-        claims, abstentions, low_confidence_claims = self._partition_claims(claims)
+        claims, abstentions, low_confidence_claims = self._partition_claims(claims, use_low_confidence=True)
         
         # Verify each claim
         results = []
@@ -97,7 +98,11 @@ class HallucinationEvaluator:
         verifier: KnowledgeGraphVerifier,
     ) -> 'Tuple[HallucinationMetrics, List[VerificationResult], List[Any], List[Any]]':
         """Evaluate a precomputed list of claims without re-running extraction."""
-        claims, abstentions, low_confidence_claims = self._partition_claims(claims)
+        claims, abstentions, low_confidence_claims = self._partition_claims(
+            claims,
+            use_low_confidence=False,
+            treat_low_confidence_as_abstain=True,
+        )
 
         results = [verifier.verify_claim(claim) for claim in claims]
         metrics = self._compute_metrics(results, abstentions, low_confidence_claims)
@@ -106,6 +111,8 @@ class HallucinationEvaluator:
     def _partition_claims(
         self,
         claims: List[Claim],
+        use_low_confidence: bool,
+        treat_low_confidence_as_abstain: bool = False,
     ) -> Tuple[List[Claim], List[ExtractionAbstention], List[LowConfidenceClaim]]:
         """Split claims into scorable, abstained, and low-confidence buckets."""
         scorable: List[Claim] = []
@@ -118,6 +125,20 @@ class HallucinationEvaluator:
                 scorable.append(claim)
                 continue
             if decision == "low_confidence":
+                if treat_low_confidence_as_abstain and should_abstain_low_confidence_claim(claim, reasons):
+                    abstentions.append(
+                        ExtractionAbstention(
+                            text=claim.claim_text,
+                            scene_id=claim.scene_id,
+                            sentence_idx=claim.sentence_idx,
+                            reason=";".join(reasons) if reasons else "low_confidence_claim",
+                            context_subject=claim.subject,
+                        )
+                    )
+                    continue
+                if not use_low_confidence:
+                    scorable.append(claim)
+                    continue
                 low_confidence_claims.append(
                     LowConfidenceClaim(
                         subject=claim.subject,

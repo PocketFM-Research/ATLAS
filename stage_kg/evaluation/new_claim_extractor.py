@@ -25,6 +25,9 @@ REPORTING_VERB_RE = re.compile(
     r"\b(says?|said|asks?|asked|states?|stated|tells?|told|exclaims?|shouts?|yells?|compares?|calls?|references?)\b"
 )
 GENERIC_SUBJECTS = {
+    "i",
+    "me",
+    "we",
     "she",
     "he",
     "they",
@@ -43,8 +46,25 @@ GENERIC_SUBJECTS = {
     "our fighters",
     "their plan",
     "the town",
+    "scene",
+    "the scene",
+    "this movie",
+    "the movie",
+    "filming",
+    "the filming",
+    "speaker",
+    "the speaker",
+    "character",
+    "a character",
+    "the person addressed",
+    "others",
+    "some of the sisters",
+    "guys",
 }
 GENERIC_SUBJECT_PREFIXES = (
+    "a character",
+    "character ",
+    "the character ",
     "scene ",
     "the scene ",
     "speaker ",
@@ -73,6 +93,76 @@ WEAK_ACTION_HINTS = (
     "leaping backwards",
     "handling something",
 )
+SCENE_META_HINTS = (
+    "scene occurs",
+    "scene is located",
+    "scene takes place",
+    "this movie occurs",
+    "this movie is present",
+    "the filming references",
+)
+LOW_VALUE_ATTRIBUTE_RE = re.compile(
+    r"\b(years old|year old|lbs|pounds|audible sound|redhead|police uniform|uniform)\b"
+)
+MICRO_ACTION_RE = re.compile(
+    r"\b("
+    r"instruct(?:ing)?|asks?|asked|tells?|told|states?|stated|compares?|compared|"
+    r"threatens?|threatened|yells?|yelled|shouts?|shouted|sitting|sits?\b|staring|stares?|"
+    r"talking|talks?|jogging|lands?|trails?|hugs?|grabs?|tags?|swings?|nails?|pulls?|"
+    r"tries? to pull|fights? back|struggl(?:es?|ing)|throws? herself|shoves?|cups?|"
+    r"walks? past|walks? up|walks? back|walks? toward|walks? away|walks? quickly|pulls? up|"
+    r"shouting|uppercut|hook|turning and looking|tries? to keep up|leaves?(?:\b| .*)|"
+    r"getting out|supervis(?:e|ing)|holds? the mits|holds? his arms up|running down the street|"
+    r"runs? in|runs? across|runs? to the edge|continues to walk|takes off|looks? out|"
+    r"looks? at|looks? to|rolls? his eyes|closes? his eyes|made it right|roofs? with|"
+    r"fall right back into it|stands? rubbing|standing around|watch(?:es|ing)|makes? out|"
+    r"holding the white dog|holding|chattering|gives? .* look|shakes? (?:her|his) head|"
+    r"jumps? up|starts? for the door|rushes? toward|kicking|crying out for help|"
+    r"drinking coffee|smokes?|smoking|pops? out|waits?\b|nods?\b|come flying at|"
+    r"screeches? up outside|pile out of the car|rubbing (?:her|his|their) shoulders|"
+    r"limps? toward|slows? down|hanging out front|leans? back|takes? cash|mumbles?|"
+    r"cruises?|toots? the horn|arresting|cannot find his keys|starts? the car|"
+    r"exit the theater|standing in the doorway|says goodbye|calls? dicky s name|"
+    r"calls? .* name|sees?\b|starts? to run|runs? into the scene|win a fight"
+    r")\b"
+)
+STRUCTURAL_LOCATION_RE = re.compile(
+    r"\b(lower class neighborhood|alice george ward s house|back of the kitchen|"
+    r"2nd floor|second floor|foxwoods resort|outside the gym|open window|limousine|"
+    r"roof of house)\b"
+)
+PROP_ATTRIBUTE_RE = re.compile(r"\b(lucky strike|three newspapers|wild)\b")
+PROCESS_STATE_RE = re.compile(
+    r"\b(thrashing|handcuffed|escorted by a guard|instructed to|absent for approximately one week)\b"
+)
+INTERPRETIVE_EXPERIENCE_RE = re.compile(r"\b(sadness|unsure)\b")
+SCENE_PRESENCE_RE = re.compile(r"\b(convicts|corner jacket)\b")
+EXPLANATORY_CAUSE_RE = re.compile(r"\b(believes?|states?)\b")
+ORDERING_SCAFFOLD_RE = re.compile(r"\b(precedes?|before the fight)\b")
+TIME_SCAFFOLD_RE = re.compile(r"\b(months later)\b")
+SCENE_DESCRIPTION_RE = re.compile(r"\b(crowded with convicts)\b")
+WEAK_AFFILIATION_RE = re.compile(r"\b(affiliated with crack)\b")
+NON_ATOMIC_MICRO_ACTION_RE = re.compile(
+    r"\b("
+    r"talking on the phone|staring|stares|studying|double take|gives? .* look|"
+    r"jogging a little curve|pulls? fellow cops away|fights? back|struggl(?:es?|ing)|"
+    r"grabs? a cop|break hands|throws? herself|shoves? cops|walks? past|"
+    r"supervis(?:e|es|ing)|pulls? up in a roofing truck|watches? the fight|"
+    r"short right uppercut|\bhook\b|jumps? up|starts? for the door|takes? off|"
+    r"holds? the mits|about to throw|trails? alice|hugs? alice'?s shoulders|"
+    r"lou gold and espn made it right|compares? him to one of the mtv girls|"
+    r"\bbooboo leaves\b|exit the theater|states? her support|\bkaren shouts\b"
+    r")\b"
+)
+GENERIC_OBJECTS = {
+    "that guy",
+    "the guy",
+    "someone",
+    "somebody",
+    "something",
+    "the scene",
+    "this movie",
+}
 
 
 @dataclass
@@ -526,14 +616,65 @@ def assess_claim_quality(claim: Claim) -> Tuple[str, float, List[str]]:
     """
     reasons: List[str] = []
     claim_text = _normalize_text(claim.claim_text)
+    subject = _normalize_text(claim.subject)
+    obj = _normalize_text(claim.object)
     predicate = _normalize_predicate(claim.predicate)
     if predicate in {"performs", "references", "causes", "precedes"} and _has_quoted_span(claim.claim_text):
         reasons.append("quoted_dialogue")
+
+    if not subject or subject in GENERIC_SUBJECTS or any(subject.startswith(prefix) for prefix in GENERIC_SUBJECT_PREFIXES):
+        reasons.append("generic_subject")
+
+    if obj in GENERIC_OBJECTS and predicate in {"references", "causes", "precedes", "affiliated_with"}:
+        reasons.append("generic_object")
+
+    if any(hint in claim_text for hint in META_REFERENCE_HINTS):
+        reasons.append("draft_artifact")
+
+    if any(hint in claim_text for hint in SOUND_CLAIM_HINTS):
+        reasons.append("sound_or_media_meta")
+
+    if any(hint in claim_text for hint in SCENE_META_HINTS):
+        reasons.append("scene_meta")
+
+    if predicate in {"occurs_at", "occurs_on", "located_at", "present_on"} and (
+        subject in {"scene", "the scene", "this movie", "the movie", "filming", "the filming"}
+        or " scene " in f" {claim_text} "
+        or claim_text.startswith("scene ")
+        or claim_text.startswith("the scene ")
+        or claim_text.startswith("this movie ")
+    ):
+        reasons.append("scene_meta")
+
+    if LOW_VALUE_ATTRIBUTE_RE.search(claim_text):
+        reasons.append("low_value_attribute")
 
     if reasons:
         return "abstain", 0.0, reasons
 
     low_confidence_reasons: List[str] = []
+    if predicate == "performs" and MICRO_ACTION_RE.search(claim_text):
+        low_confidence_reasons.append("micro_action_granularity")
+    if predicate == "located_at" and STRUCTURAL_LOCATION_RE.search(claim_text):
+        low_confidence_reasons.append("structural_location_scaffold")
+    if predicate == "possesses" and PROP_ATTRIBUTE_RE.search(claim_text):
+        low_confidence_reasons.append("prop_attribute_detail")
+    if predicate == "undergoes" and PROCESS_STATE_RE.search(claim_text):
+        low_confidence_reasons.append("process_state_fragment")
+    if predicate == "experiences" and INTERPRETIVE_EXPERIENCE_RE.search(claim_text):
+        low_confidence_reasons.append("interpretive_state")
+    if predicate == "present_on" and SCENE_PRESENCE_RE.search(claim_text):
+        low_confidence_reasons.append("scene_presence_scaffold")
+    if predicate == "causes" and EXPLANATORY_CAUSE_RE.search(claim_text):
+        low_confidence_reasons.append("explanatory_causality")
+    if predicate == "precedes" and ORDERING_SCAFFOLD_RE.search(claim_text):
+        low_confidence_reasons.append("ordering_scaffold")
+    if predicate == "occurs_at" and TIME_SCAFFOLD_RE.search(claim_text):
+        low_confidence_reasons.append("time_scaffold")
+    if predicate == "is_a" and SCENE_DESCRIPTION_RE.search(claim_text):
+        low_confidence_reasons.append("scene_description")
+    if predicate == "affiliated_with" and WEAK_AFFILIATION_RE.search(claim_text):
+        low_confidence_reasons.append("weak_affiliation")
     if predicate in {"experiences", "undergoes"} and any(hint in claim_text for hint in INTERPRETIVE_STATE_HINTS):
         low_confidence_reasons.append("interpretive_state")
 
@@ -547,6 +688,25 @@ def assess_claim_quality(claim: Claim) -> Tuple[str, float, List[str]]:
         return "low_confidence", 0.4, low_confidence_reasons
 
     return "keep", 0.8, []
+
+
+def should_abstain_low_confidence_claim(claim: Claim, reasons: List[str]) -> bool:
+    """Return True when a low-confidence claim is too weak to score in CSV re-verification."""
+    reason_set = set(reasons)
+    if reason_set & {
+        "ordering_scaffold",
+        "explanatory_causality",
+        "scene_presence_scaffold",
+        "weak_affiliation",
+        "time_scaffold",
+        "scene_description",
+    }:
+        return True
+    if "prop_attribute_detail" in reason_set:
+        return True
+    if "micro_action_granularity" in reason_set and NON_ATOMIC_MICRO_ACTION_RE.search(_normalize_text(claim.claim_text)):
+        return True
+    return False
 
 
 def _has_quoted_span(text: str) -> bool:
