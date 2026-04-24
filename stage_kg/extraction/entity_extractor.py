@@ -6,6 +6,7 @@ Each extraction is cached by (movie_id, scene_id, chunk_id).
 import logging
 import re
 import uuid
+import unicodedata
 from typing import List, Dict, Optional
 
 from ..llm.base import BaseLLM
@@ -137,6 +138,7 @@ def _enrich_entity(ent: Dict, scene: SceneRecord, chunk_id: str, movie_id: str) 
     ent.setdefault("description", "")
     ent.setdefault("evidence", [])
     ent.setdefault("linked_event_ids", [])
+    ent["surface_forms"] = _sanitize_surface_forms(ent)
     ent["movie_id"] = movie_id
 
 
@@ -144,3 +146,64 @@ def _chunk_slug(chunk_id: str) -> str:
     """Create a stable, ID-safe chunk slug."""
     slug = re.sub(r"[^A-Za-z0-9]+", "_", str(chunk_id or "chunk")).strip("_")
     return slug or "chunk"
+
+
+def _sanitize_surface_forms(ent: Dict) -> List[str]:
+    canonical = str(ent.get("canonical_name", ent.get("name", "")) or "").strip()
+    forms = _coerce_str_list(ent.get("surface_forms", [])) or ([canonical] if canonical else [])
+    forms = list(dict.fromkeys([canonical, *forms] if canonical else forms))
+
+    if ent.get("type") not in {"Location", "Object", "Concept", "Vehicle"}:
+        return forms
+
+    evidence = _coerce_str_list(ent.get("evidence", []))
+    filtered = []
+    canonical_norm = _normalize_text(canonical)
+    for form in forms:
+        form_norm = _normalize_text(form)
+        if not form_norm:
+            continue
+        if canonical_norm and (form_norm == canonical_norm or form_norm in canonical_norm or canonical_norm in form_norm):
+            filtered.append(form)
+            continue
+        if any(_supports_surface_form(form_norm, snippet) for snippet in evidence):
+            filtered.append(form)
+
+    return list(dict.fromkeys(filtered or ([canonical] if canonical else forms)))
+
+
+def _supports_surface_form(form_norm: str, snippet: str) -> bool:
+    snippet_norm = _normalize_text(snippet)
+    if not snippet_norm:
+        return False
+    if form_norm in snippet_norm:
+        return True
+
+    form_tokens = set(form_norm.split())
+    snippet_tokens = set(snippet_norm.split())
+    if not form_tokens or not snippet_tokens:
+        return False
+    return form_tokens <= snippet_tokens
+
+
+def _normalize_text(text: str) -> str:
+    ascii_text = unicodedata.normalize("NFKD", str(text or "")).encode("ascii", "ignore").decode("ascii")
+    return " ".join(re.findall(r"[a-z0-9]+", ascii_text.lower()))
+
+
+def _coerce_str_list(value) -> List[str]:
+    if value is None:
+        return []
+    if isinstance(value, (list, tuple, set)):
+        items = list(value)
+    else:
+        items = [value]
+
+    cleaned = []
+    for item in items:
+        if item is None:
+            continue
+        text = str(item).strip()
+        if text:
+            cleaned.append(text)
+    return cleaned

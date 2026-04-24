@@ -41,13 +41,15 @@ CHARACTER_TITLE_TOKENS = {
 }
 GENERIC_CHARACTER_ALIASES = {
     "voice",
-    "the captain",
     "captain",
     "mister",
     "sir",
     "crew",
-    "subject vessel",
-    "your protege",
+    "guy",
+    "he",
+    "she",
+    "they",
+    "person"
 }
 
 
@@ -350,6 +352,8 @@ def build_graph_from_extractions(
         for rel in relations:
             g.add_edge(rel)
 
+    _repair_graph(g)
+
     logger.info(
         "Built graph for '%s': %d nodes, %d edges", title or movie_id, len(g.nodes), len(g.edges)
     )
@@ -361,11 +365,8 @@ def _norm(s: str, node_type: str = "") -> str:
     text = text.strip().lower()
     if not text:
         return ""
-
-    # Strip possessive apostrophes so "Alice's House" and "Alice House" normalize identically.
-    # Also removes lone apostrophes (e.g. in Irish names or contractions in entity names).
-    text = re.sub(r"'s\b", "", text)  # possessives: alice's -> alice
-    text = re.sub(r"'", "", text)     # remaining apostrophes
+    text = re.sub(r"'s\b", "", text)  
+    text = re.sub(r"'", "", text)     
 
     tokens = re.findall(r"[a-z0-9]+", text)
     if node_type == "Character":
@@ -488,3 +489,51 @@ def _looks_like_generic_character_alias(alias: str) -> bool:
     if all(token in CHARACTER_TITLE_TOKENS or token in generic_tokens for token in raw_tokens):
         return True
     return False
+
+
+def _repair_graph(graph: KnowledgeGraph) -> None:
+    """Apply post-build graph repairs required by downstream consumers."""
+    _coerce_performs_sources_to_characters(graph)
+    _dedupe_and_repair_edges(graph)
+
+
+def _coerce_performs_sources_to_characters(graph: KnowledgeGraph) -> None:
+    for edge in graph.edges:
+        if edge.get("relation") != RelationType.PERFORMS.value:
+            continue
+        source = graph.nodes.get(edge.get("source"))
+        if source and source.get("type") != NodeType.CHARACTER.value:
+            source["type"] = NodeType.CHARACTER.value
+
+
+def _dedupe_and_repair_edges(graph: KnowledgeGraph) -> None:
+    existing = {
+        (edge.get("source"), edge.get("relation"), edge.get("target"))
+        for edge in graph.edges
+    }
+    reverse_edges: List[Dict] = []
+    for edge in graph.edges:
+        relation = edge.get("relation")
+        if relation == RelationType.KINSHIP_WITH.value:
+            reverse_relation = relation
+        elif relation == RelationType.PRECEDES.value:
+            reverse_relation = RelationType.OCCURS_AFTER.value
+        else:
+            continue
+
+        reverse_key = (edge.get("target"), reverse_relation, edge.get("source"))
+        if reverse_key in existing:
+            continue
+
+        existing.add(reverse_key)
+        reverse_edges.append({
+            "id": f"e_{uuid.uuid4().hex[:12]}",
+            "source": edge.get("target"),
+            "relation": reverse_relation,
+            "target": edge.get("source"),
+            "scene_refs": list(edge.get("scene_refs", [])),
+            "evidence": list(edge.get("evidence", [])),
+            "confidence": edge.get("confidence", 0.8),
+        })
+
+    graph.edges.extend(reverse_edges)

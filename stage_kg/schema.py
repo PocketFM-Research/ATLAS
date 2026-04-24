@@ -32,6 +32,7 @@ class RelationType(str, Enum):
 
     # Inter-Event relations
     PRECEDES = "precedes"           # one event occurs earlier than another
+    OCCURS_AFTER = "occurs_after"   # one event occurs after another (reverse traversal edge)
     CAUSES = "causes"               # one event directly causes another
     CONTRASTS_WITH = "contrasts_with"  # two events form a contrast or parallel
     REFERENCES = "references"       # one event refers to/recalls/describes another
@@ -73,6 +74,7 @@ VALID_TRIPLES: Set[Tuple[NodeType, RelationType, NodeType]] = {
 
     # Inter-Event
     (NodeType.EVENT, RelationType.PRECEDES, NodeType.EVENT),
+    (NodeType.EVENT, RelationType.OCCURS_AFTER, NodeType.EVENT),
     (NodeType.EVENT, RelationType.CAUSES, NodeType.EVENT),
     (NodeType.EVENT, RelationType.CONTRASTS_WITH, NodeType.EVENT),
     (NodeType.EVENT, RelationType.REFERENCES, NodeType.EVENT),

@@ -46,6 +46,9 @@ INSTRUCTIONS:
    - "temp_id": a short unique slug (e.g. "ent_001")
    - "type": one of {NODE_TYPES}
    - "surface_forms": list of all surface name variants found in this scene
+     Only include direct textual variants of the same entity mention. Do not include nearby headings,
+     neighboring places, inferred equivalents, or associated sublocations unless the text explicitly
+     uses them as alternate names for the same entity.
    - "canonical_name": the best single canonical name for this entity
    - "description": one sentence describing the entity in context
    - "scene_id": "{scene_id}"
@@ -54,11 +57,13 @@ INSTRUCTIONS:
    - "linked_event_ids": list of temp_ids of events this entity is involved in
 4. Do NOT invent entities not present in the text.
 5. Characters: include named crew, named civilians, named antagonists. Exclude unnamed extras.
+   A named person is a Character. Do not label companies, TV networks, studios, crews, groups, teams, or institutions as Character.
 6. Locations: include named places, ships, rooms, planets, regions.
 7. TimePoints: include specific dates, times, or named time periods explicitly mentioned.
 8. Objects: include named props, weapons, technology that are plot-relevant. Do NOT put vehicles here.
 9. Vehicles: include named ships, spacecraft, cars, vans, trucks, transports that characters travel in or operate. Do NOT also list these as Locations or Objects.
-10. Concepts: include named organizations, groups, ideologies, or abstract constructs explicitly named.
+10. Concepts: include named organizations, groups, ideologies, abstract constructs, and media/institutional entities explicitly named.
+    Examples: TV networks like CNN, ESPN, and Fox should be Concepts, not Character.
 
 Return ONLY a JSON array of entity objects. No other text.
 

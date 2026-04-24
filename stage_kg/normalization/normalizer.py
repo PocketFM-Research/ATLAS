@@ -154,16 +154,7 @@ def normalize_nodes(
         for merge_group in merges:
             canonical_name = merge_group.get("canonical_name", "")
             aliases = merge_group.get("aliases", [])
-            # Find which proto_nodes are mentioned in aliases or canonical
-            to_merge = [
-                i for i, n in enumerate(proto_nodes)
-                if i in cluster_idxs
-                and (
-                    _get_canonical(n) == canonical_name
-                    or _get_canonical(n) in aliases
-                    or any(f in aliases for f in n.get("surface_forms", []))
-                )
-            ]
+            to_merge = _resolve_merge_members(proto_nodes, cluster_idxs, merge_group, node_type)
             if len(to_merge) < 2:
                 continue
 
@@ -194,14 +185,7 @@ def normalize_nodes(
             {}
         )
         for merge_group in decision.get("merges", []):
-            canonical_name = merge_group.get("canonical_name", "")
-            aliases = merge_group.get("aliases", [])
-            to_merge_idxs = [
-                i for i in cluster_idxs
-                if _get_canonical(proto_nodes[i]) == canonical_name
-                or _get_canonical(proto_nodes[i]) in aliases
-                or any(f in aliases for f in proto_nodes[i].get("surface_forms", []))
-            ]
+            to_merge_idxs = _resolve_merge_members(proto_nodes, cluster_idxs, merge_group, node_type)
             # Remove all but the first
             for j in to_merge_idxs[1:]:
                 surviving_idxs.discard(j)
@@ -448,6 +432,12 @@ narrative entity or should remain separate.
 Decision guidelines:
 - Similar surface forms alone are insufficient for merging.
 - Merge only if identity, narrative role, and story function are consistent.
+- Use grounded identity judgment, not just string overlap. Base merge decisions on the
+  provided names, descriptions, scene refs, and evidence taken together.
+- Do not rely on outside-world knowledge or loose plausibility; only merge when the provided
+  cluster context supports identity.
+- Do not merge merely because two nodes are nearby, associated, or part of the same broader
+  setting. Distinguish co-located or related places from identical places.
 - For Character nodes, a short name and a fuller name should usually merge when \
 they clearly refer to the same person, especially when one form is a prefix or \
 nickname of the other (for example, "Kasie" and "Kasie Ward", or "Micky" and \
@@ -463,6 +453,8 @@ like "Ceti Alpha V" vs "Ceti Alpha VI", or "Model T-1" vs "Model T-2") MUST rema
 - Do not merge a specific individual into a generic category; if both appear, \
 prefer the individual as canonical.
 - When merging, select a well-formed and narratively appropriate canonical name.
+- For every merge group, list the exact cluster_index values of the input nodes \
+that belong in that group.
 
 Movie: {movie_title}
 Entity type: {node_type}
@@ -474,6 +466,7 @@ Return ONLY the following JSON format:
 {{
   "merges": [
     {{
+      "member_indices": [0, 1],
       "canonical_name": "...",
       "aliases": ["..."],
       "justification": "..."
@@ -504,7 +497,7 @@ def _llm_adjudicate_cluster(
     import json
 
     # Cache key based on sorted canonical names
-    names_key = "|".join(sorted(_get_canonical(n) for n in cluster_nodes))
+    names_key = "v2|" + "|".join(sorted(_get_canonical(n) for n in cluster_nodes))
     cache_key = Cache.make_key(movie_id, "cluster_merge", node_type, names_key)
     cached = cache.get(cache_key)
     if cached is not None:
@@ -514,6 +507,7 @@ def _llm_adjudicate_cluster(
     ent_descs = []
     for node in cluster_nodes:
         ent_descs.append({
+            "cluster_index": len(ent_descs),
             "name": _get_canonical(node),
             "normalized_name": _normalize_string(_get_canonical(node), node_type),
             "aliases": node.get("surface_forms", []),
@@ -544,3 +538,41 @@ def _llm_adjudicate_cluster(
 
     cache.set(cache_key, decision)
     return decision
+
+
+def _resolve_merge_members(
+    proto_nodes: List[Dict],
+    cluster_idxs: List[int],
+    merge_group: Dict,
+    node_type: str,
+) -> List[int]:
+    canonical_name = merge_group.get("canonical_name", "")
+    aliases = merge_group.get("aliases", [])
+
+    if node_type == "Character":
+        return [
+            i for i in cluster_idxs
+            if (
+                _get_canonical(proto_nodes[i]) == canonical_name
+                or _get_canonical(proto_nodes[i]) in aliases
+                or any(f in aliases for f in proto_nodes[i].get("surface_forms", []))
+            )
+        ]
+
+    member_indices = merge_group.get("member_indices", [])
+    resolved_members = []
+    for idx in member_indices:
+        if isinstance(idx, int) and 0 <= idx < len(cluster_idxs):
+            resolved_members.append(cluster_idxs[idx])
+
+    if resolved_members:
+        return sorted(set(resolved_members))
+
+    canonical_norm = _normalize_string(canonical_name, node_type)
+    if not canonical_norm:
+        return []
+
+    return [
+        i for i in cluster_idxs
+        if _normalize_string(_get_canonical(proto_nodes[i]), node_type) == canonical_norm
+    ]
