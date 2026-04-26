@@ -1,16 +1,10 @@
-# Core
+
 anthropic>=0.40.0
 openai>=1.50.0
 google-genai>=1.0.0
-
-# Optional (for vLLM — install separately if using local inference)
-# openai is already compatible with vLLM's OpenAI-compatible endpoint
-
-# Numerics (normalization clustering)
 numpy>=1.24.0
 scipy>=1.11.0
-
-# Utilities
+sentence-transformers>=2.7.0
 tqdm>=4.66.0
 
 spacy

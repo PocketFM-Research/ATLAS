@@ -1,0 +1,676 @@
+scene_i_id,scene_j_id,semantic_similarity,ngram_overlap,sentence_overlap,event_overlap,state_overlap,structure_similarity,novelty_score,motif_overlap,beat_overlap,internal_repetition_score,repetition_types,is_repetitive,llm_used,llm_reason,text_i_sample,text_j_sample
+scene_1_the_road_out_of_town,scene_2_a_different_start_same_road,0.841,0.054,0.125,0.200,0.059,0.470,0.858,0.179,0.053,0.100,narrative_repetition;repeated_story_beat,True,False,,"Scene 1: The Road Out of Town
+
+Evan left his town early in the morning, though it didn’t feel very early. The sky was pale and undecided, like it hadn’t made up","Scene 2: A Different Start, Same Road
+
+By the time Evan reached the edge of town, he realized he hadn’t actually left yet.
+
+The same houses stood behind him.
+
+T"
+scene_1_the_road_out_of_town,scene_3_the_traveler_who_pauses,0.772,0.028,0.000,0.267,0.000,0.460,0.871,0.126,0.000,0.092,,False,False,,"Scene 1: The Road Out of Town
+
+Evan left his town early in the morning, though it didn’t feel very early. The sky was pale and undecided, like it hadn’t made up","Scene 3: The Traveler Who Pauses
+
+Evan walked for what felt like a long time, though nothing really changed.
+
+A tree appeared on the side of the road. He didn’t"
+scene_1_the_road_out_of_town,scene_4_the_same_thought_slightly_different,0.845,0.055,0.000,0.333,0.056,0.438,0.851,0.147,0.013,0.000,narrative_repetition;repeated_story_beat,True,False,,"Scene 1: The Road Out of Town
+
+Evan left his town early in the morning, though it didn’t feel very early. The sky was pale and undecided, like it hadn’t made up","Scene 4: The Same Thought, Slightly Different
+
+The road bent slightly, or maybe it always had.
+
+Evan slowed down. His bag slipped a little on his shoulder, heav"
+scene_1_the_road_out_of_town,scene_5_a_conversation_that_feels_reused,0.645,0.037,0.000,0.200,0.000,0.348,0.889,0.067,0.000,0.000,,False,False,,"Scene 1: The Road Out of Town
+
+Evan left his town early in the morning, though it didn’t feel very early. The sky was pale and undecided, like it hadn’t made up","Scene 5: A Conversation That Feels Reused
+
+There was someone standing by the road.
+
+Evan hadn’t noticed when they appeared.
+
+“Leaving?” the stranger asked.
+
+“Ye"
+scene_1_the_road_out_of_town,scene_6_progress_that_isnt_progress,0.699,0.019,0.000,0.067,0.000,0.349,0.799,0.085,0.000,0.000,,False,False,,"Scene 1: The Road Out of Town
+
+Evan left his town early in the morning, though it didn’t feel very early. The sky was pale and undecided, like it hadn’t made up","Scene 6: Progress That Isn’t Progress
+
+Evan walked faster now.
+
+The tree appeared again.
+
+This time, he recognized it immediately.
+
+“That’s the same tree,” he s"
+scene_1_the_road_out_of_town,scene_7_the_attempt_to_change_things,0.727,0.047,0.000,0.267,0.000,0.353,0.777,0.107,0.065,0.000,,False,False,,"Scene 1: The Road Out of Town
+
+Evan left his town early in the morning, though it didn’t feel very early. The sky was pale and undecided, like it hadn’t made up","Scene 7: The Attempt to Change Things
+
+Evan stopped walking.
+
+“This is stupid,” he said.
+
+So he sat down instead.
+
+For a while, nothing happened.
+
+Then he stood"
+scene_1_the_road_out_of_town,scene_8_the_almost-ending,0.753,0.027,0.000,0.133,0.000,0.421,0.843,0.110,0.000,0.000,,False,False,,"Scene 1: The Road Out of Town
+
+Evan left his town early in the morning, though it didn’t feel very early. The sky was pale and undecided, like it hadn’t made up","Scene 8: The Almost-Ending
+
+The road finally changed.
+
+There was something ahead—a gate, or an arch, or something that looked like an exit.
+
+Evan smiled.
+
+“I kn"
+scene_1_the_road_out_of_town,scene_9_the_reset_that_isnt_quite_the_same,0.676,0.065,0.500,0.200,0.000,0.396,0.660,0.167,0.088,0.000,cross_scene_sentence_reuse,True,False,,"Scene 1: The Road Out of Town
+
+Evan left his town early in the morning, though it didn’t feel very early. The sky was pale and undecided, like it hadn’t made up","Scene 9: The Reset That Isn’t Quite the Same
+
+Evan stood at the edge of town.
+
+He blinked.
+
+The gate was gone.
+
+The road was behind him again.
+
+The houses stood"
+scene_1_the_road_out_of_town,scene_10_the_ending_that_repeats_poorly,0.762,0.067,0.000,0.267,0.143,0.383,0.779,0.163,0.034,0.463,repeated_story_beat,True,False,,"Scene 1: The Road Out of Town
+
+Evan left his town early in the morning, though it didn’t feel very early. The sky was pale and undecided, like it hadn’t made up","Scene 10: The Ending That Repeats Poorly
+
+Evan walked down the road.
+
+The sky was pale.
+
+The road was quiet.
+
+He thought about leaving.
+
+He thought about not co"
+scene_2_a_different_start_same_road,scene_3_the_traveler_who_pauses,0.773,0.024,0.000,0.200,0.091,0.499,0.871,0.103,0.000,0.100,,False,False,,"Scene 2: A Different Start, Same Road
+
+By the time Evan reached the edge of town, he realized he hadn’t actually left yet.
+
+The same houses stood behind him.
+
+T","Scene 3: The Traveler Who Pauses
+
+Evan walked for what felt like a long time, though nothing really changed.
+
+A tree appeared on the side of the road. He didn’t"
+scene_2_a_different_start_same_road,scene_4_the_same_thought_slightly_different,0.849,0.059,0.000,0.200,0.133,0.486,0.851,0.147,0.013,0.100,narrative_repetition,True,False,,"Scene 2: A Different Start, Same Road
+
+By the time Evan reached the edge of town, he realized he hadn’t actually left yet.
+
+The same houses stood behind him.
+
+T","Scene 4: The Same Thought, Slightly Different
+
+The road bent slightly, or maybe it always had.
+
+Evan slowed down. His bag slipped a little on his shoulder, heav"
+scene_2_a_different_start_same_road,scene_5_a_conversation_that_feels_reused,0.627,0.054,0.000,0.200,0.100,0.429,0.889,0.078,0.000,0.100,,False,False,,"Scene 2: A Different Start, Same Road
+
+By the time Evan reached the edge of town, he realized he hadn’t actually left yet.
+
+The same houses stood behind him.
+
+T","Scene 5: A Conversation That Feels Reused
+
+There was someone standing by the road.
+
+Evan hadn’t noticed when they appeared.
+
+“Leaving?” the stranger asked.
+
+“Ye"
+scene_2_a_different_start_same_road,scene_6_progress_that_isnt_progress,0.721,0.021,0.000,0.133,0.077,0.427,0.799,0.085,0.000,0.100,,False,False,,"Scene 2: A Different Start, Same Road
+
+By the time Evan reached the edge of town, he realized he hadn’t actually left yet.
+
+The same houses stood behind him.
+
+T","Scene 6: Progress That Isn’t Progress
+
+Evan walked faster now.
+
+The tree appeared again.
+
+This time, he recognized it immediately.
+
+“That’s the same tree,” he s"
+scene_2_a_different_start_same_road,scene_7_the_attempt_to_change_things,0.798,0.044,0.000,0.333,0.100,0.420,0.777,0.160,0.043,0.100,repeated_story_beat,True,False,,"Scene 2: A Different Start, Same Road
+
+By the time Evan reached the edge of town, he realized he hadn’t actually left yet.
+
+The same houses stood behind him.
+
+T","Scene 7: The Attempt to Change Things
+
+Evan stopped walking.
+
+“This is stupid,” he said.
+
+So he sat down instead.
+
+For a while, nothing happened.
+
+Then he stood"
+scene_2_a_different_start_same_road,scene_8_the_almost-ending,0.769,0.007,0.000,0.200,0.071,0.480,0.843,0.134,0.000,0.100,,False,False,,"Scene 2: A Different Start, Same Road
+
+By the time Evan reached the edge of town, he realized he hadn’t actually left yet.
+
+The same houses stood behind him.
+
+T","Scene 8: The Almost-Ending
+
+The road finally changed.
+
+There was something ahead—a gate, or an arch, or something that looked like an exit.
+
+Evan smiled.
+
+“I kn"
+scene_2_a_different_start_same_road,scene_9_the_reset_that_isnt_quite_the_same,0.753,0.128,0.333,0.400,0.100,0.463,0.660,0.250,0.123,0.100,cross_scene_sentence_reuse;repeated_story_beat;motif_repetition,True,False,,"Scene 2: A Different Start, Same Road
+
+By the time Evan reached the edge of town, he realized he hadn’t actually left yet.
+
+The same houses stood behind him.
+
+T","Scene 9: The Reset That Isn’t Quite the Same
+
+Evan stood at the edge of town.
+
+He blinked.
+
+The gate was gone.
+
+The road was behind him again.
+
+The houses stood"
+scene_2_a_different_start_same_road,scene_10_the_ending_that_repeats_poorly,0.787,0.013,0.000,0.133,0.167,0.461,0.779,0.109,0.000,0.463,,False,False,,"Scene 2: A Different Start, Same Road
+
+By the time Evan reached the edge of town, he realized he hadn’t actually left yet.
+
+The same houses stood behind him.
+
+T","Scene 10: The Ending That Repeats Poorly
+
+Evan walked down the road.
+
+The sky was pale.
+
+The road was quiet.
+
+He thought about leaving.
+
+He thought about not co"
+scene_3_the_traveler_who_pauses,scene_4_the_same_thought_slightly_different,0.749,0.024,0.000,0.125,0.083,0.491,0.851,0.092,0.000,0.092,,False,False,,"Scene 3: The Traveler Who Pauses
+
+Evan walked for what felt like a long time, though nothing really changed.
+
+A tree appeared on the side of the road. He didn’t","Scene 4: The Same Thought, Slightly Different
+
+The road bent slightly, or maybe it always had.
+
+Evan slowed down. His bag slipped a little on his shoulder, heav"
+scene_3_the_traveler_who_pauses,scene_5_a_conversation_that_feels_reused,0.662,0.045,0.000,0.125,0.167,0.467,0.889,0.103,0.000,0.092,,False,False,,"Scene 3: The Traveler Who Pauses
+
+Evan walked for what felt like a long time, though nothing really changed.
+
+A tree appeared on the side of the road. He didn’t","Scene 5: A Conversation That Feels Reused
+
+There was someone standing by the road.
+
+Evan hadn’t noticed when they appeared.
+
+“Leaving?” the stranger asked.
+
+“Ye"
+scene_3_the_traveler_who_pauses,scene_6_progress_that_isnt_progress,0.710,0.034,0.000,0.188,0.111,0.441,0.799,0.134,0.039,0.092,repeated_story_beat,True,False,,"Scene 3: The Traveler Who Pauses
+
+Evan walked for what felt like a long time, though nothing really changed.
+
+A tree appeared on the side of the road. He didn’t","Scene 6: Progress That Isn’t Progress
+
+Evan walked faster now.
+
+The tree appeared again.
+
+This time, he recognized it immediately.
+
+“That’s the same tree,” he s"
+scene_3_the_traveler_who_pauses,scene_7_the_attempt_to_change_things,0.687,0.007,0.000,0.125,0.167,0.434,0.777,0.133,0.000,0.092,,False,False,,"Scene 3: The Traveler Who Pauses
+
+Evan walked for what felt like a long time, though nothing really changed.
+
+A tree appeared on the side of the road. He didn’t","Scene 7: The Attempt to Change Things
+
+Evan stopped walking.
+
+“This is stupid,” he said.
+
+So he sat down instead.
+
+For a while, nothing happened.
+
+Then he stood"
+scene_3_the_traveler_who_pauses,scene_8_the_almost-ending,0.716,0.035,0.000,0.125,0.100,0.487,0.843,0.110,0.000,0.092,,False,False,,"Scene 3: The Traveler Who Pauses
+
+Evan walked for what felt like a long time, though nothing really changed.
+
+A tree appeared on the side of the road. He didn’t","Scene 8: The Almost-Ending
+
+The road finally changed.
+
+There was something ahead—a gate, or an arch, or something that looked like an exit.
+
+Evan smiled.
+
+“I kn"
+scene_3_the_traveler_who_pauses,scene_9_the_reset_that_isnt_quite_the_same,0.664,0.013,0.000,0.125,0.167,0.501,0.660,0.125,0.000,0.092,,False,False,,"Scene 3: The Traveler Who Pauses
+
+Evan walked for what felt like a long time, though nothing really changed.
+
+A tree appeared on the side of the road. He didn’t","Scene 9: The Reset That Isn’t Quite the Same
+
+Evan stood at the edge of town.
+
+He blinked.
+
+The gate was gone.
+
+The road was behind him again.
+
+The houses stood"
+scene_3_the_traveler_who_pauses,scene_10_the_ending_that_repeats_poorly,0.732,0.097,0.000,0.250,0.250,0.472,0.779,0.149,0.034,0.463,repeated_story_beat,True,False,,"Scene 3: The Traveler Who Pauses
+
+Evan walked for what felt like a long time, though nothing really changed.
+
+A tree appeared on the side of the road. He didn’t","Scene 10: The Ending That Repeats Poorly
+
+Evan walked down the road.
+
+The sky was pale.
+
+The road was quiet.
+
+He thought about leaving.
+
+He thought about not co"
+scene_4_the_same_thought_slightly_different,scene_5_a_conversation_that_feels_reused,0.691,0.020,0.000,0.235,0.091,0.476,0.889,0.067,0.000,0.000,,False,False,,"Scene 4: The Same Thought, Slightly Different
+
+The road bent slightly, or maybe it always had.
+
+Evan slowed down. His bag slipped a little on his shoulder, heav","Scene 5: A Conversation That Feels Reused
+
+There was someone standing by the road.
+
+Evan hadn’t noticed when they appeared.
+
+“Leaving?” the stranger asked.
+
+“Ye"
+scene_4_the_same_thought_slightly_different,scene_6_progress_that_isnt_progress,0.685,0.035,0.000,0.176,0.154,0.475,0.799,0.098,0.020,0.000,,False,False,,"Scene 4: The Same Thought, Slightly Different
+
+The road bent slightly, or maybe it always had.
+
+Evan slowed down. His bag slipped a little on his shoulder, heav","Scene 6: Progress That Isn’t Progress
+
+Evan walked faster now.
+
+The tree appeared again.
+
+This time, he recognized it immediately.
+
+“That’s the same tree,” he s"
+scene_4_the_same_thought_slightly_different,scene_7_the_attempt_to_change_things,0.736,0.052,0.000,0.176,0.091,0.472,0.777,0.080,0.000,0.000,,False,False,,"Scene 4: The Same Thought, Slightly Different
+
+The road bent slightly, or maybe it always had.
+
+Evan slowed down. His bag slipped a little on his shoulder, heav","Scene 7: The Attempt to Change Things
+
+Evan stopped walking.
+
+“This is stupid,” he said.
+
+So he sat down instead.
+
+For a while, nothing happened.
+
+Then he stood"
+scene_4_the_same_thought_slightly_different,scene_8_the_almost-ending,0.741,0.030,0.000,0.118,0.067,0.499,0.843,0.110,0.000,0.000,,False,False,,"Scene 4: The Same Thought, Slightly Different
+
+The road bent slightly, or maybe it always had.
+
+Evan slowed down. His bag slipped a little on his shoulder, heav","Scene 8: The Almost-Ending
+
+The road finally changed.
+
+There was something ahead—a gate, or an arch, or something that looked like an exit.
+
+Evan smiled.
+
+“I kn"
+scene_4_the_same_thought_slightly_different,scene_9_the_reset_that_isnt_quite_the_same,0.745,0.080,0.000,0.176,0.091,0.493,0.660,0.111,0.000,0.000,,False,False,,"Scene 4: The Same Thought, Slightly Different
+
+The road bent slightly, or maybe it always had.
+
+Evan slowed down. His bag slipped a little on his shoulder, heav","Scene 9: The Reset That Isn’t Quite the Same
+
+Evan stood at the edge of town.
+
+He blinked.
+
+The gate was gone.
+
+The road was behind him again.
+
+The houses stood"
+scene_4_the_same_thought_slightly_different,scene_10_the_ending_that_repeats_poorly,0.708,0.066,0.000,0.176,0.154,0.490,0.779,0.098,0.000,0.463,,False,False,,"Scene 4: The Same Thought, Slightly Different
+
+The road bent slightly, or maybe it always had.
+
+Evan slowed down. His bag slipped a little on his shoulder, heav","Scene 10: The Ending That Repeats Poorly
+
+Evan walked down the road.
+
+The sky was pale.
+
+The road was quiet.
+
+He thought about leaving.
+
+He thought about not co"
+scene_5_a_conversation_that_feels_reused,scene_6_progress_that_isnt_progress,0.638,0.044,0.000,0.250,0.125,0.519,0.799,0.085,0.020,0.000,,False,False,,"Scene 5: A Conversation That Feels Reused
+
+There was someone standing by the road.
+
+Evan hadn’t noticed when they appeared.
+
+“Leaving?” the stranger asked.
+
+“Ye","Scene 6: Progress That Isn’t Progress
+
+Evan walked faster now.
+
+The tree appeared again.
+
+This time, he recognized it immediately.
+
+“That’s the same tree,” he s"
+scene_5_a_conversation_that_feels_reused,scene_7_the_attempt_to_change_things,0.575,0.015,0.000,0.200,0.200,0.497,0.777,0.080,0.022,0.000,,False,False,,"Scene 5: A Conversation That Feels Reused
+
+There was someone standing by the road.
+
+Evan hadn’t noticed when they appeared.
+
+“Leaving?” the stranger asked.
+
+“Ye","Scene 7: The Attempt to Change Things
+
+Evan stopped walking.
+
+“This is stupid,” he said.
+
+So he sat down instead.
+
+For a while, nothing happened.
+
+Then he stood"
+scene_5_a_conversation_that_feels_reused,scene_8_the_almost-ending,0.608,0.023,0.000,0.300,0.111,0.507,0.843,0.061,0.000,0.000,,False,False,,"Scene 5: A Conversation That Feels Reused
+
+There was someone standing by the road.
+
+Evan hadn’t noticed when they appeared.
+
+“Leaving?” the stranger asked.
+
+“Ye","Scene 8: The Almost-Ending
+
+The road finally changed.
+
+There was something ahead—a gate, or an arch, or something that looked like an exit.
+
+Evan smiled.
+
+“I kn"
+scene_5_a_conversation_that_feels_reused,scene_9_the_reset_that_isnt_quite_the_same,0.536,0.014,0.000,0.200,0.200,0.494,0.660,0.083,0.000,0.000,,False,False,,"Scene 5: A Conversation That Feels Reused
+
+There was someone standing by the road.
+
+Evan hadn’t noticed when they appeared.
+
+“Leaving?” the stranger asked.
+
+“Ye","Scene 9: The Reset That Isn’t Quite the Same
+
+Evan stood at the edge of town.
+
+He blinked.
+
+The gate was gone.
+
+The road was behind him again.
+
+The houses stood"
+scene_5_a_conversation_that_feels_reused,scene_10_the_ending_that_repeats_poorly,0.599,0.019,0.000,0.100,0.125,0.493,0.779,0.056,0.000,0.463,,False,False,,"Scene 5: A Conversation That Feels Reused
+
+There was someone standing by the road.
+
+Evan hadn’t noticed when they appeared.
+
+“Leaving?” the stranger asked.
+
+“Ye","Scene 10: The Ending That Repeats Poorly
+
+Evan walked down the road.
+
+The sky was pale.
+
+The road was quiet.
+
+He thought about leaving.
+
+He thought about not co"
+scene_6_progress_that_isnt_progress,scene_7_the_attempt_to_change_things,0.615,0.008,0.000,0.167,0.125,0.498,0.777,0.053,0.000,0.000,,False,False,,"Scene 6: Progress That Isn’t Progress
+
+Evan walked faster now.
+
+The tree appeared again.
+
+This time, he recognized it immediately.
+
+“That’s the same tree,” he s","Scene 7: The Attempt to Change Things
+
+Evan stopped walking.
+
+“This is stupid,” he said.
+
+So he sat down instead.
+
+For a while, nothing happened.
+
+Then he stood"
+scene_6_progress_that_isnt_progress,scene_8_the_almost-ending,0.679,0.033,0.000,0.167,0.083,0.507,0.843,0.110,0.020,0.000,,False,False,,"Scene 6: Progress That Isn’t Progress
+
+Evan walked faster now.
+
+The tree appeared again.
+
+This time, he recognized it immediately.
+
+“That’s the same tree,” he s","Scene 8: The Almost-Ending
+
+The road finally changed.
+
+There was something ahead—a gate, or an arch, or something that looked like an exit.
+
+Evan smiled.
+
+“I kn"
+scene_6_progress_that_isnt_progress,scene_9_the_reset_that_isnt_quite_the_same,0.582,0.055,0.000,0.083,0.125,0.516,0.660,0.097,0.000,0.000,,False,False,,"Scene 6: Progress That Isn’t Progress
+
+Evan walked faster now.
+
+The tree appeared again.
+
+This time, he recognized it immediately.
+
+“That’s the same tree,” he s","Scene 9: The Reset That Isn’t Quite the Same
+
+Evan stood at the edge of town.
+
+He blinked.
+
+The gate was gone.
+
+The road was behind him again.
+
+The houses stood"
+scene_6_progress_that_isnt_progress,scene_10_the_ending_that_repeats_poorly,0.652,0.035,0.000,0.250,0.091,0.491,0.779,0.073,0.020,0.463,,False,False,,"Scene 6: Progress That Isn’t Progress
+
+Evan walked faster now.
+
+The tree appeared again.
+
+This time, he recognized it immediately.
+
+“That’s the same tree,” he s","Scene 10: The Ending That Repeats Poorly
+
+Evan walked down the road.
+
+The sky was pale.
+
+The road was quiet.
+
+He thought about leaving.
+
+He thought about not co"
+scene_7_the_attempt_to_change_things,scene_8_the_almost-ending,0.658,0.026,0.000,0.143,0.111,0.478,0.843,0.080,0.000,0.000,,False,False,,"Scene 7: The Attempt to Change Things
+
+Evan stopped walking.
+
+“This is stupid,” he said.
+
+So he sat down instead.
+
+For a while, nothing happened.
+
+Then he stood","Scene 8: The Almost-Ending
+
+The road finally changed.
+
+There was something ahead—a gate, or an arch, or something that looked like an exit.
+
+Evan smiled.
+
+“I kn"
+scene_7_the_attempt_to_change_things,scene_9_the_reset_that_isnt_quite_the_same,0.763,0.092,0.100,0.357,0.200,0.489,0.660,0.181,0.152,0.000,repeated_story_beat,True,False,,"Scene 7: The Attempt to Change Things
+
+Evan stopped walking.
+
+“This is stupid,” he said.
+
+So he sat down instead.
+
+For a while, nothing happened.
+
+Then he stood","Scene 9: The Reset That Isn’t Quite the Same
+
+Evan stood at the edge of town.
+
+He blinked.
+
+The gate was gone.
+
+The road was behind him again.
+
+The houses stood"
+scene_7_the_attempt_to_change_things,scene_10_the_ending_that_repeats_poorly,0.757,0.022,0.000,0.214,0.125,0.508,0.779,0.080,0.000,0.463,,False,False,,"Scene 7: The Attempt to Change Things
+
+Evan stopped walking.
+
+“This is stupid,” he said.
+
+So he sat down instead.
+
+For a while, nothing happened.
+
+Then he stood","Scene 10: The Ending That Repeats Poorly
+
+Evan walked down the road.
+
+The sky was pale.
+
+The road was quiet.
+
+He thought about leaving.
+
+He thought about not co"
+scene_8_the_almost-ending,scene_9_the_reset_that_isnt_quite_the_same,0.658,0.024,0.000,0.167,0.111,0.497,0.660,0.111,0.000,0.000,,False,False,,"Scene 8: The Almost-Ending
+
+The road finally changed.
+
+There was something ahead—a gate, or an arch, or something that looked like an exit.
+
+Evan smiled.
+
+“I kn","Scene 9: The Reset That Isn’t Quite the Same
+
+Evan stood at the edge of town.
+
+He blinked.
+
+The gate was gone.
+
+The road was behind him again.
+
+The houses stood"
+scene_8_the_almost-ending,scene_10_the_ending_that_repeats_poorly,0.760,0.022,0.000,0.083,0.083,0.496,0.779,0.098,0.000,0.463,,False,False,,"Scene 8: The Almost-Ending
+
+The road finally changed.
+
+There was something ahead—a gate, or an arch, or something that looked like an exit.
+
+Evan smiled.
+
+“I kn","Scene 10: The Ending That Repeats Poorly
+
+Evan walked down the road.
+
+The sky was pale.
+
+The road was quiet.
+
+He thought about leaving.
+
+He thought about not co"
+scene_9_the_reset_that_isnt_quite_the_same,scene_10_the_ending_that_repeats_poorly,0.696,0.042,0.000,0.154,0.125,0.499,0.779,0.069,0.000,0.463,,False,False,,"Scene 9: The Reset That Isn’t Quite the Same
+
+Evan stood at the edge of town.
+
+He blinked.
+
+The gate was gone.
+
+The road was behind him again.
+
+The houses stood","Scene 10: The Ending That Repeats Poorly
+
+Evan walked down the road.
+
+The sky was pale.
+
+The road was quiet.
+
+He thought about leaving.
+
+He thought about not co"

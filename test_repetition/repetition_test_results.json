@@ -1,0 +1,251 @@
+{
+  "thresholds": {
+    "semantic_similarity": 0.85,
+    "ngram_overlap": 0.3
+  },
+  "metrics": {
+    "total_scene_pairs": 45,
+    "repetitive_pairs": 10,
+    "avg_semantic_similarity": 0.7066758125615774,
+    "avg_ngram_overlap": 0.039145386515419794,
+    "repetition_rate": 0.2222222222222222,
+    "avg_sentence_overlap": 0.02351851851851852,
+    "avg_event_overlap": 0.19309900883430295,
+    "avg_state_overlap": 0.10508748332277745,
+    "avg_structure_similarity": 0.46603423355361057,
+    "avg_novelty_score": 0.7903341419089904,
+    "avg_motif_overlap": 0.10989087650821099,
+    "avg_beat_overlap": 0.016859887909502422,
+    "avg_internal_repetition_score": 0.12468678131328735
+  },
+  "repetition_type_counts": {
+    "narrative_repetition": 3,
+    "repeated_story_beat": 8,
+    "cross_scene_sentence_reuse": 2,
+    "motif_repetition": 1
+  },
+  "smoke_checks": {
+    "list_input_pairs": 3,
+    "dict_input_pairs": 1,
+    "nested_input_rejected": true
+  },
+  "internal_repetition_summary": {
+    "scene_count": 1,
+    "repeated_sentence_count": 1,
+    "repeated_phrase_count": 4
+  },
+  "internal_scene_repetitions": [
+    {
+      "scene_id": "scene_10_the_ending_that_repeats_poorly",
+      "internal_repetition_score": 0.463,
+      "internal_sentence_repetition": 0.1538,
+      "internal_ngram_repetition": 0.463,
+      "repeated_sentences": [
+        "He kept walking."
+      ],
+      "repeated_phrases": [
+        "he thought about",
+        "he kept walking",
+        "kept walking he",
+        "walking he kept"
+      ],
+      "text_sample": "Scene 10: The Ending That Repeats Poorly\n\nEvan walked down the road.\n\nThe sky was pale.\n\nThe road was quiet.\n\nHe thought about leaving.\n\nHe thought about not coming back.\n\nHe thought about how this time it would be diffe"
+    }
+  ],
+  "detected_repetitions": [
+    {
+      "scene_i_id": "scene_1_the_road_out_of_town",
+      "scene_j_id": "scene_2_a_different_start_same_road",
+      "semantic_similarity": 0.8413,
+      "ngram_overlap": 0.0542,
+      "sentence_overlap": 0.125,
+      "event_overlap": 0.2,
+      "state_overlap": 0.0588,
+      "structure_similarity": 0.4704,
+      "novelty_score": 0.8585,
+      "motif_overlap": 0.1789,
+      "beat_overlap": 0.0526,
+      "internal_repetition_score": 0.1004,
+      "repetition_types": [
+        "narrative_repetition",
+        "repeated_story_beat"
+      ],
+      "text_i_sample": "Scene 1: The Road Out of Town\n\nEvan left his town early in the morning, though it didn\u2019t feel very early. The sky was pale and undecided, like it hadn\u2019t made up",
+      "text_j_sample": "Scene 2: A Different Start, Same Road\n\nBy the time Evan reached the edge of town, he realized he hadn\u2019t actually left yet.\n\nThe same houses stood behind him.\n\nT"
+    },
+    {
+      "scene_i_id": "scene_1_the_road_out_of_town",
+      "scene_j_id": "scene_4_the_same_thought_slightly_different",
+      "semantic_similarity": 0.845,
+      "ngram_overlap": 0.0545,
+      "sentence_overlap": 0.0,
+      "event_overlap": 0.3333,
+      "state_overlap": 0.0556,
+      "structure_similarity": 0.4383,
+      "novelty_score": 0.8507,
+      "motif_overlap": 0.1474,
+      "beat_overlap": 0.0132,
+      "internal_repetition_score": 0.0,
+      "repetition_types": [
+        "narrative_repetition",
+        "repeated_story_beat"
+      ],
+      "text_i_sample": "Scene 1: The Road Out of Town\n\nEvan left his town early in the morning, though it didn\u2019t feel very early. The sky was pale and undecided, like it hadn\u2019t made up",
+      "text_j_sample": "Scene 4: The Same Thought, Slightly Different\n\nThe road bent slightly, or maybe it always had.\n\nEvan slowed down. His bag slipped a little on his shoulder, heav"
+    },
+    {
+      "scene_i_id": "scene_1_the_road_out_of_town",
+      "scene_j_id": "scene_9_the_reset_that_isnt_quite_the_same",
+      "semantic_similarity": 0.676,
+      "ngram_overlap": 0.0654,
+      "sentence_overlap": 0.5,
+      "event_overlap": 0.2,
+      "state_overlap": 0.0,
+      "structure_similarity": 0.3958,
+      "novelty_score": 0.6605,
+      "motif_overlap": 0.1667,
+      "beat_overlap": 0.0877,
+      "internal_repetition_score": 0.0,
+      "repetition_types": [
+        "cross_scene_sentence_reuse"
+      ],
+      "text_i_sample": "Scene 1: The Road Out of Town\n\nEvan left his town early in the morning, though it didn\u2019t feel very early. The sky was pale and undecided, like it hadn\u2019t made up",
+      "text_j_sample": "Scene 9: The Reset That Isn\u2019t Quite the Same\n\nEvan stood at the edge of town.\n\nHe blinked.\n\nThe gate was gone.\n\nThe road was behind him again.\n\nThe houses stood"
+    },
+    {
+      "scene_i_id": "scene_1_the_road_out_of_town",
+      "scene_j_id": "scene_10_the_ending_that_repeats_poorly",
+      "semantic_similarity": 0.7624,
+      "ngram_overlap": 0.0671,
+      "sentence_overlap": 0.0,
+      "event_overlap": 0.2667,
+      "state_overlap": 0.1429,
+      "structure_similarity": 0.3831,
+      "novelty_score": 0.779,
+      "motif_overlap": 0.163,
+      "beat_overlap": 0.0345,
+      "internal_repetition_score": 0.463,
+      "repetition_types": [
+        "repeated_story_beat"
+      ],
+      "text_i_sample": "Scene 1: The Road Out of Town\n\nEvan left his town early in the morning, though it didn\u2019t feel very early. The sky was pale and undecided, like it hadn\u2019t made up",
+      "text_j_sample": "Scene 10: The Ending That Repeats Poorly\n\nEvan walked down the road.\n\nThe sky was pale.\n\nThe road was quiet.\n\nHe thought about leaving.\n\nHe thought about not co"
+    },
+    {
+      "scene_i_id": "scene_2_a_different_start_same_road",
+      "scene_j_id": "scene_4_the_same_thought_slightly_different",
+      "semantic_similarity": 0.849,
+      "ngram_overlap": 0.0592,
+      "sentence_overlap": 0.0,
+      "event_overlap": 0.2,
+      "state_overlap": 0.1333,
+      "structure_similarity": 0.4862,
+      "novelty_score": 0.8507,
+      "motif_overlap": 0.1474,
+      "beat_overlap": 0.0132,
+      "internal_repetition_score": 0.1004,
+      "repetition_types": [
+        "narrative_repetition"
+      ],
+      "text_i_sample": "Scene 2: A Different Start, Same Road\n\nBy the time Evan reached the edge of town, he realized he hadn\u2019t actually left yet.\n\nThe same houses stood behind him.\n\nT",
+      "text_j_sample": "Scene 4: The Same Thought, Slightly Different\n\nThe road bent slightly, or maybe it always had.\n\nEvan slowed down. His bag slipped a little on his shoulder, heav"
+    },
+    {
+      "scene_i_id": "scene_2_a_different_start_same_road",
+      "scene_j_id": "scene_7_the_attempt_to_change_things",
+      "semantic_similarity": 0.7977,
+      "ngram_overlap": 0.0441,
+      "sentence_overlap": 0.0,
+      "event_overlap": 0.3333,
+      "state_overlap": 0.1,
+      "structure_similarity": 0.4204,
+      "novelty_score": 0.777,
+      "motif_overlap": 0.16,
+      "beat_overlap": 0.0435,
+      "internal_repetition_score": 0.1004,
+      "repetition_types": [
+        "repeated_story_beat"
+      ],
+      "text_i_sample": "Scene 2: A Different Start, Same Road\n\nBy the time Evan reached the edge of town, he realized he hadn\u2019t actually left yet.\n\nThe same houses stood behind him.\n\nT",
+      "text_j_sample": "Scene 7: The Attempt to Change Things\n\nEvan stopped walking.\n\n\u201cThis is stupid,\u201d he said.\n\nSo he sat down instead.\n\nFor a while, nothing happened.\n\nThen he stood"
+    },
+    {
+      "scene_i_id": "scene_2_a_different_start_same_road",
+      "scene_j_id": "scene_9_the_reset_that_isnt_quite_the_same",
+      "semantic_similarity": 0.7527,
+      "ngram_overlap": 0.1278,
+      "sentence_overlap": 0.3333,
+      "event_overlap": 0.4,
+      "state_overlap": 0.1,
+      "structure_similarity": 0.4632,
+      "novelty_score": 0.6605,
+      "motif_overlap": 0.25,
+      "beat_overlap": 0.1228,
+      "internal_repetition_score": 0.1004,
+      "repetition_types": [
+        "cross_scene_sentence_reuse",
+        "repeated_story_beat",
+        "motif_repetition"
+      ],
+      "text_i_sample": "Scene 2: A Different Start, Same Road\n\nBy the time Evan reached the edge of town, he realized he hadn\u2019t actually left yet.\n\nThe same houses stood behind him.\n\nT",
+      "text_j_sample": "Scene 9: The Reset That Isn\u2019t Quite the Same\n\nEvan stood at the edge of town.\n\nHe blinked.\n\nThe gate was gone.\n\nThe road was behind him again.\n\nThe houses stood"
+    },
+    {
+      "scene_i_id": "scene_3_the_traveler_who_pauses",
+      "scene_j_id": "scene_6_progress_that_isnt_progress",
+      "semantic_similarity": 0.7101,
+      "ngram_overlap": 0.0336,
+      "sentence_overlap": 0.0,
+      "event_overlap": 0.1875,
+      "state_overlap": 0.1111,
+      "structure_similarity": 0.4411,
+      "novelty_score": 0.7988,
+      "motif_overlap": 0.1341,
+      "beat_overlap": 0.0392,
+      "internal_repetition_score": 0.0916,
+      "repetition_types": [
+        "repeated_story_beat"
+      ],
+      "text_i_sample": "Scene 3: The Traveler Who Pauses\n\nEvan walked for what felt like a long time, though nothing really changed.\n\nA tree appeared on the side of the road. He didn\u2019t",
+      "text_j_sample": "Scene 6: Progress That Isn\u2019t Progress\n\nEvan walked faster now.\n\nThe tree appeared again.\n\nThis time, he recognized it immediately.\n\n\u201cThat\u2019s the same tree,\u201d he s"
+    },
+    {
+      "scene_i_id": "scene_3_the_traveler_who_pauses",
+      "scene_j_id": "scene_10_the_ending_that_repeats_poorly",
+      "semantic_similarity": 0.7324,
+      "ngram_overlap": 0.0974,
+      "sentence_overlap": 0.0,
+      "event_overlap": 0.25,
+      "state_overlap": 0.25,
+      "structure_similarity": 0.4724,
+      "novelty_score": 0.779,
+      "motif_overlap": 0.1494,
+      "beat_overlap": 0.0345,
+      "internal_repetition_score": 0.463,
+      "repetition_types": [
+        "repeated_story_beat"
+      ],
+      "text_i_sample": "Scene 3: The Traveler Who Pauses\n\nEvan walked for what felt like a long time, though nothing really changed.\n\nA tree appeared on the side of the road. He didn\u2019t",
+      "text_j_sample": "Scene 10: The Ending That Repeats Poorly\n\nEvan walked down the road.\n\nThe sky was pale.\n\nThe road was quiet.\n\nHe thought about leaving.\n\nHe thought about not co"
+    },
+    {
+      "scene_i_id": "scene_7_the_attempt_to_change_things",
+      "scene_j_id": "scene_9_the_reset_that_isnt_quite_the_same",
+      "semantic_similarity": 0.763,
+      "ngram_overlap": 0.0924,
+      "sentence_overlap": 0.1,
+      "event_overlap": 0.3571,
+      "state_overlap": 0.2,
+      "structure_similarity": 0.4892,
+      "novelty_score": 0.6605,
+      "motif_overlap": 0.1806,
+      "beat_overlap": 0.1522,
+      "internal_repetition_score": 0.0,
+      "repetition_types": [
+        "repeated_story_beat"
+      ],
+      "text_i_sample": "Scene 7: The Attempt to Change Things\n\nEvan stopped walking.\n\n\u201cThis is stupid,\u201d he said.\n\nSo he sat down instead.\n\nFor a while, nothing happened.\n\nThen he stood",
+      "text_j_sample": "Scene 9: The Reset That Isn\u2019t Quite the Same\n\nEvan stood at the edge of town.\n\nHe blinked.\n\nThe gate was gone.\n\nThe road was behind him again.\n\nThe houses stood"
+    }
+  ]
+}
