@@ -92,7 +92,7 @@ def extract_relations_for_scene(
                 chunk_id=chunk_id,
                 movie_title=movie_title,
             ) + feedback_block
-            raw = llm.complete(p, system=rp.SYSTEM_PROMPT, temperature=0.0, max_tokens=12288)
+            raw = llm.complete(p, system=rp.SYSTEM_PROMPT, temperature=0.0, max_tokens=16384)
             if prompt_logger:
                 prompt_logger.log("relation_extraction", scene.scene_id, p, raw, llm.model_id)
             result = parse_llm_json(raw, schema_hint="relation_list")

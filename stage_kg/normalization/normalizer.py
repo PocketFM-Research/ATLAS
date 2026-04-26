@@ -436,8 +436,12 @@ Decision guidelines:
   provided names, descriptions, scene refs, and evidence taken together.
 - Do not rely on outside-world knowledge or loose plausibility; only merge when the provided
   cluster context supports identity.
-- Do not merge merely because two nodes are nearby, associated, or part of the same broader
-  setting. Distinguish co-located or related places from identical places.
+- For Location nodes, do not merge merely because two places are nearby, associated, or part of
+  the same broader setting. However, do merge when the provided names, aliases, descriptions,
+  scene headings, or evidence indicate alternate labels or subareas of the same physical place
+  (for example a named apartment and its bedroom/kitchen/stairs, or a place name with/without
+  a descriptive modifier). Keep distinct named venues separate when evidence describes different
+  narrative places.
 - For Character nodes, a short name and a fuller name should usually merge when \
 they clearly refer to the same person, especially when one form is a prefix or \
 nickname of the other (for example, "Kasie" and "Kasie Ward", or "Micky" and \

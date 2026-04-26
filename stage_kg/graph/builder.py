@@ -502,7 +502,7 @@ def _coerce_performs_sources_to_characters(graph: KnowledgeGraph) -> None:
         if edge.get("relation") != RelationType.PERFORMS.value:
             continue
         source = graph.nodes.get(edge.get("source"))
-        if source and source.get("type") != NodeType.CHARACTER.value:
+        if source and source.get("type") not in {NodeType.CHARACTER.value, NodeType.VEHICLE.value}:
             source["type"] = NodeType.CHARACTER.value
 
 
@@ -514,7 +514,11 @@ def _dedupe_and_repair_edges(graph: KnowledgeGraph) -> None:
     reverse_edges: List[Dict] = []
     for edge in graph.edges:
         relation = edge.get("relation")
-        if relation == RelationType.KINSHIP_WITH.value:
+        if relation in {
+            RelationType.KINSHIP_WITH.value,
+            RelationType.AFFINITY_WITH.value,
+            RelationType.HOSTILITY_WITH.value,
+        }:
             reverse_relation = relation
         elif relation == RelationType.PRECEDES.value:
             reverse_relation = RelationType.OCCURS_AFTER.value

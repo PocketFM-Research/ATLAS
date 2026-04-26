@@ -80,7 +80,7 @@ def extract_events_for_scene(
                 chunk_id=chunk_id,
                 movie_title=movie_title,
             ) + feedback_block
-            raw = llm.complete(p, system=ep.SYSTEM_PROMPT, temperature=0.0, max_tokens=8192)
+            raw = llm.complete(p, system=ep.SYSTEM_PROMPT, temperature=0.0, max_tokens=12288)
             if prompt_logger:
                 prompt_logger.log("event_extraction", scene.scene_id, p, raw, llm.model_id)
             result = parse_llm_json(raw, schema_hint="event_list")
