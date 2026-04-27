@@ -1,0 +1,4 @@
+character_id,scene_t,scene_tk,claim_t,claim_tk,violation_type,severity,explanation
+scene,scene_1_the_market,scene_2_the_alley,Marcus was alive and walking through the market early in the morning.,Marcus was dead in the alley behind the bakery.,contradiction,0.8,Contradicting predicates: 'experiences' vs 'experiences'
+scene,scene_2_the_alley,scene_4_the_station,Marcus was dead in the alley behind the bakery.,Marcus was alive and carrying a small traveling case.,contradiction,0.8,Contradicting predicates: 'experiences' vs 'experiences'
+scene,scene_2_the_alley,scene_5_the_journey,Marcus was dead in the alley behind the bakery.,Marcus was alive and looking out the window.,contradiction,0.8,Contradicting predicates: 'experiences' vs 'experiences'
