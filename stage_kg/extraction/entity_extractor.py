@@ -15,10 +15,10 @@ from ..prompts import entity_extraction as eep
 from ..utils.json_repair import parse_llm_json, validate_entity_list
 from ..utils.cache import Cache
 from ..utils.logging_utils import PromptLogger
+from .chunk_utils import MAX_CHUNK_CHARS, iter_extraction_chunks
 
 logger = logging.getLogger(__name__)
 
-MAX_CHUNK_CHARS = 3000
 VALID_TYPES = {"Character", "Location", "TimePoint", "Object", "Vehicle", "Concept"}
 
 
@@ -55,62 +55,62 @@ def extract_entities_for_scene(
     scene_ents: List[Dict] = []
 
     for chunk in scene.chunks:
-        chunk_id = chunk.get("id", f"{scene.scene_id}_chunk_0")
-        cache_key = Cache.make_key(movie_id, "entities", scene.scene_id, chunk_id)
+        source_chunk_id = chunk.get("id", f"{scene.scene_id}_chunk_0")
+        for extraction_chunk in iter_extraction_chunks({**chunk, "id": source_chunk_id}):
+            chunk_id = extraction_chunk["id"]
+            cache_key = Cache.make_key(movie_id, "entities", scene.scene_id, chunk_id)
 
-        cached = cache.get(cache_key)
-        if cached is not None:
-            logger.debug("Cache hit: entities for %s/%s", scene.scene_id, chunk_id)
-            scene_ents.extend(cached)
-            continue
+            cached = cache.get(cache_key)
+            if cached is not None:
+                logger.debug("Cache hit: entities for %s/%s", scene.scene_id, chunk_id)
+                scene_ents.extend(cached)
+                continue
 
-        chunk_text = chunk.get("content", "")
-        if not chunk_text.strip():
-            continue
-        if len(chunk_text) > MAX_CHUNK_CHARS:
-            chunk_text = chunk_text[:MAX_CHUNK_CHARS]
+            chunk_text = extraction_chunk.get("content", "")
+            if not chunk_text.strip():
+                continue
 
-        chunk_events = [e for e in events if e.get("chunk_id") == chunk_id] or events
+            chunk_events = [e for e in events if e.get("chunk_id") == chunk_id] or events
 
-        def extract_fn(feedback: Optional[str]):
-            feedback_block = (
-                f"\n\nPREVIOUS ATTEMPT FEEDBACK (fix these issues): {feedback}\n"
-                if feedback else ""
-            )
-            p = eep.build_prompt(
-                scene_id=scene.scene_id,
-                scene_title=scene.title,
-                scene_text=chunk_text,
-                events=_summarize_events(chunk_events),
-                chunk_id=chunk_id,
-                movie_title=movie_title,
-            ) + feedback_block
-            raw = llm.complete(p, system=eep.SYSTEM_PROMPT, temperature=0.0, max_tokens=12288)
-            if prompt_logger:
-                prompt_logger.log("entity_extraction", scene.scene_id, p, raw, llm.model_id)
-            result = parse_llm_json(raw, schema_hint="entity_list")
-            if result is not None and not isinstance(result, list):
-                result = [result]
-            if result:
-                result = [e for e in result
-                          if isinstance(e, dict) and e.get("type") in VALID_TYPES]
-            return result, p
+            def extract_fn(feedback: Optional[str]):
+                feedback_block = (
+                    f"\n\nPREVIOUS ATTEMPT FEEDBACK (fix these issues): {feedback}\n"
+                    if feedback else ""
+                )
+                p = eep.build_prompt(
+                    scene_id=scene.scene_id,
+                    scene_title=scene.title,
+                    scene_text=chunk_text,
+                    events=_summarize_events(chunk_events),
+                    chunk_id=chunk_id,
+                    movie_title=movie_title,
+                ) + feedback_block
+                raw = llm.complete(p, system=eep.SYSTEM_PROMPT, temperature=0.0, max_tokens=12288)
+                if prompt_logger:
+                    prompt_logger.log("entity_extraction", scene.scene_id, p, raw, llm.model_id)
+                result = parse_llm_json(raw, schema_hint="entity_list")
+                if result is not None and not isinstance(result, list):
+                    result = [result]
+                if result:
+                    result = [e for e in result
+                              if isinstance(e, dict) and e.get("type") in VALID_TYPES]
+                return result, p
 
-        entities, _ = extract_fn(None)
+            entities, _ = extract_fn(None)
 
-        if not entities:
-            logger.warning("Entity extraction yielded nothing for %s/%s",
-                           scene.scene_id, chunk_id)
-            cache.set(cache_key, [])
-            continue
+            if not entities:
+                logger.warning("Entity extraction yielded nothing for %s/%s",
+                               scene.scene_id, chunk_id)
+                cache.set(cache_key, [])
+                continue
 
-        for ent in entities:
-            _enrich_entity(ent, scene, chunk_id, movie_id)
+            for ent in entities:
+                _enrich_entity(ent, scene, chunk_id, movie_id)
 
-        cache.set(cache_key, entities)
-        scene_ents.extend(entities)
-        logger.debug("Extracted %d entities from scene=%s chunk=%s",
-                     len(entities), scene.scene_id, chunk_id)
+            cache.set(cache_key, entities)
+            scene_ents.extend(entities)
+            logger.debug("Extracted %d entities from scene=%s chunk=%s",
+                         len(entities), scene.scene_id, chunk_id)
 
     return scene_ents
 

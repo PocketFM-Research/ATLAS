@@ -15,11 +15,9 @@ from ..schema import is_valid_triple, NodeType, RelationType
 from ..utils.json_repair import parse_llm_json
 from ..utils.cache import Cache
 from ..utils.logging_utils import PromptLogger
+from .chunk_utils import MAX_CHUNK_CHARS, iter_extraction_chunks
 
 logger = logging.getLogger(__name__)
-
-MAX_CHUNK_CHARS = 3000
-
 
 def extract_relations_for_movie(
     scenes: List[SceneRecord],
@@ -60,65 +58,65 @@ def extract_relations_for_scene(
     scene_rels: List[Dict] = []
 
     for chunk in scene.chunks:
-        chunk_id = chunk.get("id", f"{scene.scene_id}_chunk_0")
-        cache_key = Cache.make_key(movie_id, "relations", scene.scene_id, chunk_id)
+        source_chunk_id = chunk.get("id", f"{scene.scene_id}_chunk_0")
+        for extraction_chunk in iter_extraction_chunks({**chunk, "id": source_chunk_id}):
+            chunk_id = extraction_chunk["id"]
+            cache_key = Cache.make_key(movie_id, "relations", scene.scene_id, chunk_id)
 
-        cached = cache.get(cache_key)
-        if cached is not None:
-            logger.debug("Cache hit: relations for %s/%s", scene.scene_id, chunk_id)
-            scene_rels.extend(cached)
-            continue
+            cached = cache.get(cache_key)
+            if cached is not None:
+                logger.debug("Cache hit: relations for %s/%s", scene.scene_id, chunk_id)
+                scene_rels.extend(cached)
+                continue
 
-        chunk_text = chunk.get("content", "")
-        if not chunk_text.strip():
-            continue
-        if len(chunk_text) > MAX_CHUNK_CHARS:
-            chunk_text = chunk_text[:MAX_CHUNK_CHARS]
+            chunk_text = extraction_chunk.get("content", "")
+            if not chunk_text.strip():
+                continue
 
-        chunk_events = [e for e in events if e.get("chunk_id") == chunk_id] or events
-        chunk_entities = [e for e in entities if e.get("chunk_id") == chunk_id] or entities
+            chunk_events = [e for e in events if e.get("chunk_id") == chunk_id] or events
+            chunk_entities = [e for e in entities if e.get("chunk_id") == chunk_id] or entities
 
-        def extract_fn(feedback: Optional[str]):
-            feedback_block = (
-                f"\n\nPREVIOUS ATTEMPT FEEDBACK (fix these issues): {feedback}\n"
-                if feedback else ""
-            )
-            p = rp.build_prompt(
-                scene_id=scene.scene_id,
-                scene_title=scene.title,
-                scene_text=chunk_text,
-                events=_slim_events(chunk_events),
-                entities=_slim_entities(chunk_entities),
-                chunk_id=chunk_id,
-                movie_title=movie_title,
-            ) + feedback_block
-            raw = llm.complete(p, system=rp.SYSTEM_PROMPT, temperature=0.0, max_tokens=16384)
-            if prompt_logger:
-                prompt_logger.log("relation_extraction", scene.scene_id, p, raw, llm.model_id)
-            result = parse_llm_json(raw, schema_hint="relation_list")
-            if result is not None and not isinstance(result, list):
-                result = [result]
-            if result:
-                result = [r for r in result if isinstance(r, dict)]
-            return result, p
+            def extract_fn(feedback: Optional[str]):
+                feedback_block = (
+                    f"\n\nPREVIOUS ATTEMPT FEEDBACK (fix these issues): {feedback}\n"
+                    if feedback else ""
+                )
+                p = rp.build_prompt(
+                    scene_id=scene.scene_id,
+                    scene_title=scene.title,
+                    scene_text=chunk_text,
+                    events=_slim_events(chunk_events),
+                    entities=_slim_entities(chunk_entities),
+                    chunk_id=chunk_id,
+                    movie_title=movie_title,
+                ) + feedback_block
+                raw = llm.complete(p, system=rp.SYSTEM_PROMPT, temperature=0.0, max_tokens=16384)
+                if prompt_logger:
+                    prompt_logger.log("relation_extraction", scene.scene_id, p, raw, llm.model_id)
+                result = parse_llm_json(raw, schema_hint="relation_list")
+                if result is not None and not isinstance(result, list):
+                    result = [result]
+                if result:
+                    result = [r for r in result if isinstance(r, dict)]
+                return result, p
 
-        relations, _ = extract_fn(None)
+            relations, _ = extract_fn(None)
 
-        if not relations:
-            logger.warning("Relation extraction yielded nothing for %s/%s — check prompt logs",
-                           scene.scene_id, chunk_id)
-            cache.set(cache_key, [])
-            continue
+            if not relations:
+                logger.warning("Relation extraction yielded nothing for %s/%s — check prompt logs",
+                               scene.scene_id, chunk_id)
+                cache.set(cache_key, [])
+                continue
 
-        relations = _postprocess_relations(relations, chunk_events, chunk_entities)
-        relations = _ensure_event_coverage(relations, chunk_events, chunk_entities)
-        for rel in relations:
-            _enrich_relation(rel, scene, chunk_id, movie_id)
+            relations = _postprocess_relations(relations, chunk_events, chunk_entities)
+            relations = _ensure_event_coverage(relations, chunk_events, chunk_entities)
+            for rel in relations:
+                _enrich_relation(rel, scene, chunk_id, movie_id)
 
-        cache.set(cache_key, relations)
-        scene_rels.extend(relations)
-        logger.debug("Extracted %d valid relations from scene=%s chunk=%s",
-                     len(relations), scene.scene_id, chunk_id)
+            cache.set(cache_key, relations)
+            scene_rels.extend(relations)
+            logger.debug("Extracted %d valid relations from scene=%s chunk=%s",
+                         len(relations), scene.scene_id, chunk_id)
 
     return scene_rels
 

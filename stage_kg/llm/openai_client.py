@@ -61,6 +61,11 @@ class OpenAILLM(BaseLLM):
                 )
                 return resp.choices[0].message.content or ""
             except Exception as e:
+                if _is_content_filter_error(e):
+                    logger.warning(
+                        "OpenAI request blocked by content filter; returning empty response so pipeline can continue"
+                    )
+                    return ""
                 logger.warning(
                     "OpenAI attempt %d/%d failed: %s", attempt, self._max_retries, e
                 )
@@ -69,3 +74,18 @@ class OpenAILLM(BaseLLM):
                 else:
                     raise
         return ""
+
+
+def _is_content_filter_error(error: Exception) -> bool:
+    """Return True for Azure/OpenAI content-filter BadRequest errors."""
+    code = getattr(error, "code", None)
+    if code == "content_filter":
+        return True
+
+    body = getattr(error, "body", None)
+    if isinstance(body, dict):
+        err = body.get("error", body)
+        if isinstance(err, dict) and err.get("code") == "content_filter":
+            return True
+
+    return "content_filter" in str(error)

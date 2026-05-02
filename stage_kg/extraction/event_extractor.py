@@ -16,11 +16,9 @@ from ..prompts import event_extraction as ep
 from ..utils.json_repair import parse_llm_json, validate_event_list
 from ..utils.cache import Cache
 from ..utils.logging_utils import PromptLogger
+from .chunk_utils import MAX_CHUNK_CHARS, iter_extraction_chunks
 
 logger = logging.getLogger(__name__)
-
-MAX_CHUNK_CHARS = 3000
-
 
 def extract_events_for_movie(
     scenes: List[SceneRecord],
@@ -52,60 +50,60 @@ def extract_events_for_scene(
     scene_events: List[Dict] = []
 
     for chunk in scene.chunks:
-        chunk_id = chunk.get("id", f"{scene.scene_id}_chunk_0")
-        cache_key = Cache.make_key(movie_id, "events", scene.scene_id, chunk_id)
+        source_chunk_id = chunk.get("id", f"{scene.scene_id}_chunk_0")
+        for extraction_chunk in iter_extraction_chunks({**chunk, "id": source_chunk_id}):
+            chunk_id = extraction_chunk["id"]
+            cache_key = Cache.make_key(movie_id, "events", scene.scene_id, chunk_id)
 
-        cached = cache.get(cache_key)
-        if cached is not None:
-            logger.debug("Cache hit: events for %s/%s", scene.scene_id, chunk_id)
-            scene_events.extend(cached)
-            continue
+            cached = cache.get(cache_key)
+            if cached is not None:
+                logger.debug("Cache hit: events for %s/%s", scene.scene_id, chunk_id)
+                scene_events.extend(cached)
+                continue
 
-        chunk_text = chunk.get("content", "")
-        if not chunk_text.strip():
-            continue
-        if len(chunk_text) > MAX_CHUNK_CHARS:
-            chunk_text = chunk_text[:MAX_CHUNK_CHARS]
+            chunk_text = extraction_chunk.get("content", "")
+            if not chunk_text.strip():
+                continue
 
-        def extract_fn(feedback: Optional[str]):
-            feedback_block = (
-                f"\n\nPREVIOUS ATTEMPT FEEDBACK (fix these issues): {feedback}\n"
-                if feedback else ""
-            )
-            p = ep.build_prompt(
-                scene_id=scene.scene_id,
-                scene_title=scene.title,
-                scene_text=chunk_text,
-                scene_summary=scene.summary,
-                chunk_id=chunk_id,
-                movie_title=movie_title,
-            ) + feedback_block
-            raw = llm.complete(p, system=ep.SYSTEM_PROMPT, temperature=0.0, max_tokens=12288)
-            if prompt_logger:
-                prompt_logger.log("event_extraction", scene.scene_id, p, raw, llm.model_id)
-            result = parse_llm_json(raw, schema_hint="event_list")
-            if result is not None and not isinstance(result, list):
-                result = [result]
-            return result, p
+            def extract_fn(feedback: Optional[str]):
+                feedback_block = (
+                    f"\n\nPREVIOUS ATTEMPT FEEDBACK (fix these issues): {feedback}\n"
+                    if feedback else ""
+                )
+                p = ep.build_prompt(
+                    scene_id=scene.scene_id,
+                    scene_title=scene.title,
+                    scene_text=chunk_text,
+                    scene_summary=scene.summary,
+                    chunk_id=chunk_id,
+                    movie_title=movie_title,
+                ) + feedback_block
+                raw = llm.complete(p, system=ep.SYSTEM_PROMPT, temperature=0.0, max_tokens=12288)
+                if prompt_logger:
+                    prompt_logger.log("event_extraction", scene.scene_id, p, raw, llm.model_id)
+                result = parse_llm_json(raw, schema_hint="event_list")
+                if result is not None and not isinstance(result, list):
+                    result = [result]
+                return result, p
 
-        events, _ = extract_fn(None)
+            events, _ = extract_fn(None)
 
-        if not events:
-            logger.warning("Event extraction yielded nothing for %s/%s", scene.scene_id, chunk_id)
-            cache.set(cache_key, [])
-            continue
+            if not events:
+                logger.warning("Event extraction yielded nothing for %s/%s", scene.scene_id, chunk_id)
+                cache.set(cache_key, [])
+                continue
 
-        for ev in events:
-            _enrich_event(ev, scene, chunk_id, movie_id)
+            for ev in events:
+                _enrich_event(ev, scene, chunk_id, movie_id)
 
-        if not validate_event_list(events):
-            logger.warning("Event list failed validation for %s/%s — keeping anyway",
-                           scene.scene_id, chunk_id)
+            if not validate_event_list(events):
+                logger.warning("Event list failed validation for %s/%s — keeping anyway",
+                               scene.scene_id, chunk_id)
 
-        cache.set(cache_key, events)
-        scene_events.extend(events)
-        logger.debug("Extracted %d events from scene=%s chunk=%s",
-                     len(events), scene.scene_id, chunk_id)
+            cache.set(cache_key, events)
+            scene_events.extend(events)
+            logger.debug("Extracted %d events from scene=%s chunk=%s",
+                         len(events), scene.scene_id, chunk_id)
 
     return scene_events
 

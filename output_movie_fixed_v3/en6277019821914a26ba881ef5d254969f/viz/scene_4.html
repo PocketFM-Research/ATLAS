@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Fighter — Scene 4</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: #1a1a2e; color: #eee; overflow: hidden; }
+  svg { width: 100vw; height: 100vh; display: block; }
+  .link { stroke-opacity: 0.9; }
+  .link:hover { stroke-opacity: 1; }
+  .node circle { stroke: #fff; stroke-width: 1.5px; cursor: pointer; }
+  .node text { font-size: 11px; fill: #ccc; pointer-events: none; }
+  .tooltip { position: absolute; background: rgba(20,20,40,0.95); border: 1px solid #555;
+              border-radius: 6px; padding: 10px 14px; font-size: 13px; pointer-events: none;
+              max-width: 360px; line-height: 1.4; display: none; z-index: 100; }
+  .tooltip b { color: #fff; }
+  .tooltip .type-badge { display: inline-block; padding: 1px 6px; border-radius: 3px;
+                          font-size: 11px; margin-left: 6px; color: #fff; }
+  #legend { position: fixed; top: 12px; right: 12px; background: rgba(20,20,40,0.9);
+             border: 1px solid #444; border-radius: 8px; padding: 12px 16px; font-size: 13px; }
+  #legend div { margin: 4px 0; }
+  #legend span { display: inline-block; width: 12px; height: 12px; border-radius: 50%;
+                  margin-right: 6px; vertical-align: middle; }
+  #title-bar { position: fixed; top: 12px; left: 12px; font-size: 18px; font-weight: 600;
+                background: rgba(20,20,40,0.9); border: 1px solid #444; border-radius: 8px;
+                padding: 8px 16px; }
+</style>
+</head>
+<body>
+<div id="title-bar">The Fighter — Scene 4</div>
+<div id="legend"></div>
+<div class="tooltip" id="tooltip"></div>
+<svg></svg>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+const nodes = [{"id": "ev_en627701_4_doc_3_chunk_0_ev_001", "type": "Event", "name": "movie plays in theater", "aliases": ["movie plays in theater"], "description": "A movie is already in progress in the theater with four people present.", "scene_refs": ["4"], "evidence": ["Four people there - movie in progress."]}, {"id": "ev_en627701_4_doc_3_chunk_0_ev_002", "type": "Event", "name": "Charlene watches the movie", "aliases": ["Charlene watches the movie"], "description": "Charlene sits and watches the film playing in the theater.", "scene_refs": ["4"], "evidence": ["Charlene sit watches"]}, {"id": "ev_en627701_4_doc_3_chunk_0_ev_003", "type": "Event", "name": "Charlene notices Micky asleep", "aliases": ["Charlene notices Micky asleep"], "description": "Charlene looks over and sees Micky asleep with his head back and mouth open.", "scene_refs": ["4"], "evidence": ["looks at Micky asleep with his head back, mouth open"]}, {"id": "ent_en627701_1_doc_0_chunk_1_ent_001", "type": "Character", "name": "Micky Ward", "aliases": ["Micky Ward", "Micky", "Micky's father", "father", "Micky's", "him", "MICKY", "Micky's daughter, KASIE WARD", "your brothah", "MICKEY", "Micky's brother", "My boy", "Mick"], "description": "Dicky's brother, mentioned as the person Charlene should not walk away from and as having a chance to do something Dicky never did.", "scene_refs": ["16", "13", "2", "5", "12", "7", "18", "1", "14", "8", "17", "3", "15", "4"], "evidence": ["Micky's STILL SLEEPING IN HIS CLOTHES ON THE COUCH", "Micky's daughter, KASIE WARD, 10, curly hair, cute, comes up to the door, hugs her father hello.", "Micky on the phone, upset", "Micky lies sleeping in his clothes on the couch", "Dicky comin'?", "Dicky pats him on the back as Micky gets into his car.", "Micky slams the door of his car, walks to see: Dicky leaving.", "MICKY C'mon, c'mon, this is 'sposed to be about the fight, let's just talk about the fight --", "Micky parks in front of his parents' house; a limo out front.", "Micky's got a chance to do somethin' I nevah did", "Nobody seen him for like a week.", "Micky's t-shirt", "Micky arrives with Charlene", "It's very sad, ma, I gotta call ya back.", "MICKY I'll move to a biggah apahtment so you can live with me more days like we talked about.", "This is it, the day before the big fight.", "MICKY insists, 'I don't have a girlfriend.'", "MICKEY I wouldn'ta won Sanchez without Dicky.", "Micky's back appears from under the porch, walking away", "MICKY JUMPS ROPE; MICKY DOES ABS WORK", "MICKY (pauses on stairs)", "Micky's hands grab dingy white boxing wraps", "We gotta a great opportunity, we gotta find Micky.", "MICKY I'm asking YOU, Jimmy.", "MICKY I just wanna say hi to Kasie.", "I think Micky's with that girl from the bah.", "Micky just nods okay.", "Micky knocking on the door.", "my bruthah loves ya", "Micky is about to work out with O'Keefe.", "MICKY (kisses his mother hello, SITS DOWN)", "MICKY I'm gonna staht makin' good money.", "Micky stands at the top of the stairs, old blue gym bag slung over his shoulder, early morning.", "MICKY It's good, gettin' there.", "Micky watches Dicky get geared up", "Micky, Alice, George, Pork, Sherry, and Red Rog standing around the limousine.", "He suddenly leans in and kisses her.", "MICKY I want Dicky back. And I want you, Charlene, and I want O'Keefe, and my family.", "MICKY (shouts to door) Thanks, Kasie.", "Micky runs into a crowded Dunkin' Donuts", "Micky stands there waiting in the back yard", "I can't do it without 'im.", "Finally, Micky looks at her.", "Maybe, the part without Micky sucks.", "MICKY I'm the one fighting, not you, not you, and not YOU. I know what I need.", "This rankles Micky as he and Dicky square off.", "PAN REVEALS: MICKY, IN RUNNING CLOTHES", "CHARLENE (GETS SHRILL) And you need Dicky?", "MICKY", "Micky, I know ya dad wants this guy to manage ya", "Micky tells Kasie they need to go home", "Micky and Charlene exit the theater.", "You don't need this shit, Micky.", "ALICE (TO MICKY) We'll get you anothah fight, Micky.", "All eyes watch Micky messed up now", "CHARLENE You got the focus and confidence from O'Keefe and Sal and your father and me!", "MICKY Can we talk business?", "Micky disappears down the stairs", "Micky pauses on stairs", "MICKY snaps, 'What's the difference, I'm alone in the ring anyway.'", "Micky asleep with his head back, mouth open", "make me and Micky's comeback more dramatic", "Micky walks -- silently -- camera tracks with him", "Micky and Kasie hold a bamboo stick", "Micky thinks, goes to the door, opens it", "If I had Micky's discipline", "MICKY You sound like them now.", "Micky looks up and sees Charlene standing in the door.", "Micky heading for his shitty car parked on the street", "MICKY (SURPRISED) - What the hell are you doin' here?", "I love Micky and I want him to have his chance.", "Now I gotta worry about this movie tonight on HBO", "My boy coulda got killed last time.", "Micky walks quickly ahead to the car, can't find his keys.", "MICKY (OS)", "DICKY (calls out to Micky) Take care, Mick, we'll talk tommorrah.", "He looks out at morning...", "You can't say that about my family.", "MICKY (looks down at his feet)", "Micky shakes Sal LoNano's hand.", "MICKY I'm not around next weekend --", "Kisses Charlene hello.", "MICKY That's right, and I wanna tell ya that after I win --", "Micky doesn't move", "Micky walks down the driveway of the crack house", "Micky, can you believe what they're doin' to us?", "Micky gives Dicky a boost onto a fence to climb over", "Micky starts banging him with body shots", "h and your brothah wanted ya to do it.'", "Micky fixes himself in the mirror"]}, {"id": "ent_en627701_3_doc_2_chunk_1_ent_002", "type": "Character", "name": "Charlene", "aliases": ["Charlene", "her", "Chalene", "CHARLENE"], "description": "Micky's companion who teases him about the movie, confronts him about a girlfriend, and challenges his view of his family.", "scene_refs": ["16", "5", "12", "18", "14", "8", "17", "3", "15", "4"], "evidence": ["CHARLENE IS THERE.", "CHARLENE (GETS SHRILL) And you need Dicky?", "CHARLENE She did. But she's wants to quit to go for teachah certification.", "CHARLENE It's OK, I know you been tryin' to live offa Micky for years.", "they fall to the bed, kissing.", "CHARLENE Whoa.", "Charlene nods", "Micky and Charlene exit the theater.", "Charlene stands alone on the lawn with her arms crossed.", "She looks at him. Nods grudgingly.", "Sit down. serious? Sit down. Sit down.", "CHARLENE We saved him!", "CHARLENE asks, 'That's what you wanted to see?'", "She grabs the back of his pants.. .he drags her a little, pushes her hand off", "She watches him go", "Pan reveals: Charlene, George, and SAL LONANO", "Charlene, O'Keefe, George, Alice, Little Dicky, others.", "Charlene opening her door", "CHARLENE challenges, 'You think your family's lookin' out for ya?'", "Micky looks up and sees Charlene standing in the door. She nods.", "Charlene sits up in bed, groggy, gets up in Micky's t-shirt, goes out.", "CHARLENE You can't do that to us.", "CHARLENE No crazy-time nonsense.", "CHARLENE They have to go, Micky.", "CHARLENE You got the focus and confidence from O'Keefe and Sal and your father and me!", "Charlene sit watches, looks at Micky asleep", "GEORGE (nods, kisses Charlene HELLO)", "AND SEES CHARLENE STANDING ON HIS DOORSTEP", "Charlene pulls him back down.", "CHARLENE MICKEY O'KEEFE Are you kiddin' me?", "CHARLENE (OS) Why don't you open the door", "Charlene, it's Dicky.", "I don't want ya gettin' hurt before the fight!", "CHARLENE Maybe, the part without Micky sucks.", "He suddenly leans in and kisses her.", "Look at your face, look at you.", "CHARLENE You're full a shit.", "Micky arrives with Charlene", "CHARLENE (MOCKING)", "MICKY I want Dicky back. And I want you, Charlene, and I want O'Keefe, and my family.", "CHARLENE We saved him! Dickya junkbag!", "DICKY (PAUSES) I was in the fuckin' ring with 'im, Chalene, don't you think I know what happened?", "she runs to the edge of the balcony", "CHARLENE'S NUMBER", "CHARLENE", "CHARLENE Maybe you're just like them and that's where you belong.", "Kisses Charlene hello.", "Charlene gives Alice a look.", "CHARLENE I'm sure you'll need somethin' for your back now that you're out.", "Charlene jogs a little curve to the bar and LEAPS backwards", "Charlene pulls him back down", "Charlene runs out", "He hasn't seen her in a while.", "They hug.", "CHARLENE Get off my porch", "Charlene sit watches", "CHARLENE presses, 'What's going on? You afraid to run into your girlfriend?'", "Charlene just shakes her head", "She holds his gaze.", "She looks at him, turns and walks out of the gym"]}, {"id": "ent_en627701_4_doc_3_chunk_0_ent_003", "type": "Location", "name": "Lexington Art-House Movie Theater", "aliases": ["Lexington Art-House Movie Theater", "theater"], "description": "The movie theater where the scene takes place and the movie is playing.", "scene_refs": ["4"], "evidence": ["Four people there - movie in progress", "Charlene sit watches"]}, {"id": "ent_en627701_4_doc_3_chunk_0_ent_004", "type": "Character", "name": "Movie", "aliases": ["Movie", "movie"], "description": "The film that is already in progress in the theater.", "scene_refs": ["4"], "evidence": ["Charlene sit watches", "movie in progress"]}];
+const links = [{"id": "e_d403e7b643fa", "source": "ent_en627701_4_doc_3_chunk_0_ent_004", "relation": "performs", "target": "ev_en627701_4_doc_3_chunk_0_ev_001", "scene_refs": ["4"], "evidence": ["movie in progress"], "confidence": 0.72}, {"id": "e_e262e43d15a8", "source": "ev_en627701_4_doc_3_chunk_0_ev_001", "relation": "occurs_at", "target": "ent_en627701_4_doc_3_chunk_0_ent_003", "scene_refs": ["4"], "evidence": ["INT. LEXINGTON ART-HOUSE MOVIE THEATER - NIGHT", "movie in progress"], "confidence": 0.99}, {"id": "e_b022feb14be8", "source": "ent_en627701_3_doc_2_chunk_1_ent_002", "relation": "performs", "target": "ev_en627701_4_doc_3_chunk_0_ev_002", "scene_refs": ["4"], "evidence": ["Charlene sit watches"], "confidence": 0.98}, {"id": "e_8ca47e427373", "source": "ev_en627701_4_doc_3_chunk_0_ev_002", "relation": "occurs_at", "target": "ent_en627701_4_doc_3_chunk_0_ent_003", "scene_refs": ["4"], "evidence": ["INT. LEXINGTON ART-HOUSE MOVIE THEATER - NIGHT", "Charlene sit watches"], "confidence": 0.99}, {"id": "e_a13b2db0e7af", "source": "ent_en627701_3_doc_2_chunk_1_ent_002", "relation": "performs", "target": "ev_en627701_4_doc_3_chunk_0_ev_003", "scene_refs": ["4"], "evidence": ["Charlene sit watches, looks at Micky asleep"], "confidence": 0.93}, {"id": "e_1bf869b5e443", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "undergoes", "target": "ev_en627701_4_doc_3_chunk_0_ev_003", "scene_refs": ["4"], "evidence": ["looks at Micky asleep", "Micky asleep with his head back, mouth open"], "confidence": 0.96}, {"id": "e_1d5de2b47f4f", "source": "ev_en627701_4_doc_3_chunk_0_ev_003", "relation": "occurs_at", "target": "ent_en627701_4_doc_3_chunk_0_ent_003", "scene_refs": ["4"], "evidence": ["INT. LEXINGTON ART-HOUSE MOVIE THEATER - NIGHT", "Charlene sit watches, looks at Micky asleep"], "confidence": 0.99}, {"id": "e_4c901fe2cce1", "source": "ent_en627701_3_doc_2_chunk_1_ent_002", "relation": "located_at", "target": "ent_en627701_4_doc_3_chunk_0_ent_003", "scene_refs": ["4"], "evidence": ["Four people there - movie in progress. Charlene sit watches"], "confidence": 0.95}, {"id": "e_40264df70e64", "source": "ent_en627701_1_doc_0_chunk_1_ent_001", "relation": "located_at", "target": "ent_en627701_4_doc_3_chunk_0_ent_003", "scene_refs": ["4"], "evidence": ["Four people there - movie in progress.", "Micky asleep"], "confidence": 0.95}];
+const typeColors = {"Character": "#4A90D9", "Event": "#6ABF69", "Location": "#E8943A", "Vehicle": "#9B59B6", "Object": "#95A5A6", "TimePoint": "#E74C3C", "Concept": "#F1C40F"};
+const defaultColor = "#CCCCCC";
+
+// Build legend
+const types = [...new Set(nodes.map(n => n.type))].sort();
+const legend = d3.select("#legend");
+types.forEach(t => {
+  legend.append("div").html(`<span style="background:${typeColors[t]||defaultColor}"></span>${t} (${nodes.filter(n=>n.type===t).length})`);
+});
+
+// Degree lookup from the rendered link set.
+const degreeById = Object.fromEntries(nodes.map(n => [n.id, 0]));
+for (const link of links) {
+  if (degreeById[link.source] != null) degreeById[link.source] += 1;
+  if (degreeById[link.target] != null) degreeById[link.target] += 1;
+}
+
+const width = window.innerWidth, height = window.innerHeight;
+const svg = d3.select("svg").attr("viewBox", [0, 0, width, height]);
+
+// Zoom
+const g = svg.append("g");
+svg.call(d3.zoom().scaleExtent([0.1, 8]).on("zoom", (e) => g.attr("transform", e.transform)));
+
+// Build id lookup
+const nodeById = Object.fromEntries(nodes.map(n => [n.id, n]));
+
+// Force simulation
+const simulation = d3.forceSimulation(nodes)
+  .force("link", d3.forceLink(links).id(d => d.id).distance(120))
+  .force("charge", d3.forceManyBody().strength(-300))
+  .force("center", d3.forceCenter(width / 2, height / 2))
+  .force("collision", d3.forceCollide().radius(30));
+
+// Links
+const link = g.append("g")
+  .selectAll("line")
+  .data(links)
+  .join("line")
+  .attr("class", "link")
+  .attr("stroke", "#8fa4ff")
+  .attr("stroke-width", d => {
+    const rel = String(d.relation || "").toLowerCase();
+    if (rel === "performs" || rel === "undergoes" || rel === "experiences") return 2.8;
+    if (rel === "occurs_at" || rel === "located_at" || rel === "present_on") return 2.2;
+    return 1.8;
+  });
+
+// Link labels
+const linkLabel = g.append("g")
+  .selectAll("text")
+  .data(links)
+  .join("text")
+  .attr("font-size", 9)
+  .attr("fill", "#888")
+  .attr("text-anchor", "middle")
+  .text(d => d.relation);
+
+// Nodes
+const node = g.append("g")
+  .selectAll("g")
+  .data(nodes)
+  .join("g")
+  .attr("class", "node")
+  .call(d3.drag()
+    .on("start", (e, d) => { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+    .on("drag", (e, d) => { d.fx = e.x; d.fy = e.y; })
+    .on("end", (e, d) => { if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; })
+  );
+
+node.append("circle")
+  .attr("r", d => Math.max(7, Math.min(16, 6 + Math.sqrt((degreeById[d.id] || 0) + 1) * 3)))
+  .attr("fill", d => typeColors[d.type] || defaultColor);
+
+node.append("text")
+  .attr("dx", 14)
+  .attr("dy", 4)
+  .text(d => d.name.length > 30 ? d.name.slice(0, 28) + "..." : d.name);
+
+// Tooltip
+const tooltip = d3.select("#tooltip");
+node.on("mouseover", (e, d) => {
+  const color = typeColors[d.type] || defaultColor;
+  let h = `<b>${d.name}</b><span class="type-badge" style="background:${color}">${d.type}</span><br>`;
+  h += `<br><i>Degree:</i> ${degreeById[d.id] || 0}`;
+  if (d.description) h += `<br>${d.description}`;
+  if (d.aliases && d.aliases.length > 1) h += `<br><i>Aliases:</i> ${d.aliases.join(", ")}`;
+  if (d.scene_refs && d.scene_refs.length) h += `<br><i>Scenes:</i> ${d.scene_refs.join(", ")}`;
+  tooltip.html(h).style("display", "block");
+}).on("mousemove", (e) => {
+  tooltip.style("left", (e.pageX + 14) + "px").style("top", (e.pageY - 14) + "px");
+}).on("mouseout", () => tooltip.style("display", "none"));
+
+link.on("mouseover", (e, d) => {
+  const src = typeof d.source === "object" ? d.source.name : d.source;
+  const tgt = typeof d.target === "object" ? d.target.name : d.target;
+  tooltip.html(`<b>${src}</b> &rarr; <i>${d.relation}</i> &rarr; <b>${tgt}</b>`).style("display", "block");
+}).on("mousemove", (e) => {
+  tooltip.style("left", (e.pageX + 14) + "px").style("top", (e.pageY - 14) + "px");
+}).on("mouseout", () => tooltip.style("display", "none"));
+
+simulation.on("tick", () => {
+  link.attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+      .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+  linkLabel.attr("x", d => (d.source.x + d.target.x) / 2)
+           .attr("y", d => (d.source.y + d.target.y) / 2);
+  node.attr("transform", d => `translate(${d.x},${d.y})`);
+});
+</script>
+</body>
+</html>
