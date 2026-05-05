@@ -553,6 +553,15 @@ def _resolve_merge_members(
     canonical_name = merge_group.get("canonical_name", "")
     aliases = merge_group.get("aliases", [])
 
+    member_indices = merge_group.get("member_indices", [])
+    resolved_members = []
+    for idx in member_indices:
+        if isinstance(idx, int) and 0 <= idx < len(cluster_idxs):
+            resolved_members.append(cluster_idxs[idx])
+
+    if resolved_members:
+        return sorted(set(resolved_members))
+
     if node_type == "Character":
         return [
             i for i in cluster_idxs
@@ -562,15 +571,6 @@ def _resolve_merge_members(
                 or any(f in aliases for f in proto_nodes[i].get("surface_forms", []))
             )
         ]
-
-    member_indices = merge_group.get("member_indices", [])
-    resolved_members = []
-    for idx in member_indices:
-        if isinstance(idx, int) and 0 <= idx < len(cluster_idxs):
-            resolved_members.append(cluster_idxs[idx])
-
-    if resolved_members:
-        return sorted(set(resolved_members))
 
     canonical_norm = _normalize_string(canonical_name, node_type)
     if not canonical_norm:

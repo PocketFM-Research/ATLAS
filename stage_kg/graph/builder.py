@@ -493,18 +493,7 @@ def _looks_like_generic_character_alias(alias: str) -> bool:
 
 def _repair_graph(graph: KnowledgeGraph) -> None:
     """Apply post-build graph repairs required by downstream consumers."""
-    _coerce_performs_sources_to_characters(graph)
     _dedupe_and_repair_edges(graph)
-
-
-def _coerce_performs_sources_to_characters(graph: KnowledgeGraph) -> None:
-    for edge in graph.edges:
-        if edge.get("relation") != RelationType.PERFORMS.value:
-            continue
-        source = graph.nodes.get(edge.get("source"))
-        if source and source.get("type") not in {NodeType.CHARACTER.value, NodeType.VEHICLE.value}:
-            source["type"] = NodeType.CHARACTER.value
-
 
 def _dedupe_and_repair_edges(graph: KnowledgeGraph) -> None:
     existing = {

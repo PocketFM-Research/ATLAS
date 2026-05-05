@@ -52,11 +52,13 @@ class PromptLogger:
         prompt: str,
         response: str,
         model: str = "",
+        chunk_id: Optional[str] = None,
     ) -> None:
         entry = {
             "ts": datetime.utcnow().isoformat(),
             "stage": stage,
             "scene_id": scene_id,
+            "chunk_id": chunk_id,
             "model": model,
             "prompt": prompt,
             "response": response,

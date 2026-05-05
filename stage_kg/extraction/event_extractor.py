@@ -80,7 +80,7 @@ def extract_events_for_scene(
                 ) + feedback_block
                 raw = llm.complete(p, system=ep.SYSTEM_PROMPT, temperature=0.0, max_tokens=12288)
                 if prompt_logger:
-                    prompt_logger.log("event_extraction", scene.scene_id, p, raw, llm.model_id)
+                    prompt_logger.log("event_extraction", scene.scene_id, p, raw, llm.model_id, chunk_id=chunk_id)
                 result = parse_llm_json(raw, schema_hint="event_list")
                 if result is not None and not isinstance(result, list):
                     result = [result]

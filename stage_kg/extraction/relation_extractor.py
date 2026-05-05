@@ -92,7 +92,7 @@ def extract_relations_for_scene(
                 ) + feedback_block
                 raw = llm.complete(p, system=rp.SYSTEM_PROMPT, temperature=0.0, max_tokens=16384)
                 if prompt_logger:
-                    prompt_logger.log("relation_extraction", scene.scene_id, p, raw, llm.model_id)
+                    prompt_logger.log("relation_extraction", scene.scene_id, p, raw, llm.model_id, chunk_id=chunk_id)
                 result = parse_llm_json(raw, schema_hint="relation_list")
                 if result is not None and not isinstance(result, list):
                     result = [result]

@@ -97,6 +97,12 @@ def load_movie(movie_dir: Path, movie_id: str, title: str = "", language: str = 
         scene_id = str(raw["_id"] + 1)  # 1-based string id matching "scene_1_part_1"
         doc_key = f"scene_{scene_id}_part_1"
         d2c = doc2chunks.get(doc_key, {})
+        part_index = 2
+        while f"scene_{scene_id}_part_{part_index}" in doc2chunks:
+            d2c.setdefault("chunks", []).extend(
+                doc2chunks[f"scene_{scene_id}_part_{part_index}"].get("chunks", [])
+            )
+            part_index += 1
         meta = d2c.get("document_metadata", {})
 
         scene = SceneRecord(
