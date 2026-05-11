@@ -9,7 +9,7 @@ from typing import Dict, List, Optional, Set, Tuple
 
 from stage_kg.schema import NodeType, RelationType, VALID_TRIPLES
 from stage_kg.evaluation.config import EvaluationConfig
-from stage_kg.evaluation.new_claim_extractor import Claim
+from stage_kg.evaluation.llm_claim_extractor import Claim
 
 
 GROUND_STATUSES = {"grounded", "grounded_multihop"}
@@ -164,8 +164,6 @@ LIGHT_STOPWORDS = {
     "was",
     "with",
 }
-
-
 @dataclass
 class VerificationResult:
     """Result of verifying a claim against the graph."""
@@ -260,6 +258,9 @@ class KnowledgeGraphVerifier:
             subject_ids = self._prefer_explicit_scene_matches(subject_ids, claim.scene_id)
 
         if not subject_ids:
+            scene_text_candidate = self._verify_scene_evidence_text_support(None, claim)
+            if scene_text_candidate.status in GROUND_STATUSES:
+                return scene_text_candidate
             return VerificationResult(
                 claim=claim,
                 status="hallucinated",
@@ -270,7 +271,7 @@ class KnowledgeGraphVerifier:
         if not claim.object:
             return VerificationResult(
                 claim=claim,
-                status="partial",
+                status="unscorable",
                 depth=0,
                 path=subject_ids[:1],
                 confidence=0.25,
@@ -305,6 +306,8 @@ class KnowledgeGraphVerifier:
             best_result = self._choose_better_result(best_result, scene_text_candidate)
             scene_blob_candidate = self._verify_scene_blob_support(subject_id, claim)
             best_result = self._choose_better_result(best_result, scene_blob_candidate)
+            scene_evidence_candidate = self._verify_scene_evidence_text_support(subject_id, claim)
+            best_result = self._choose_better_result(best_result, scene_evidence_candidate)
 
         return best_result
 
@@ -743,6 +746,68 @@ class KnowledgeGraphVerifier:
             confidence=confidence,
         )
 
+    def _verify_scene_evidence_text_support(
+        self,
+        subject_id: Optional[str],
+        claim: Claim,
+    ) -> VerificationResult:
+        if claim.predicate not in TEXT_BACKED_RELATIONS | {"causes", "precedes"}:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        scene_blob = self._scene_blob(claim.scene_id)
+        if not scene_blob:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        subject_node = self.nodes_by_id.get(subject_id, {}) if subject_id else {}
+        support_blobs = [scene_blob]
+        if subject_id:
+            subject_blob = self._subject_scene_text(subject_id, claim.scene_id)
+            if subject_blob:
+                support_blobs.append(subject_blob)
+        support_text = self._normalize_text(" ".join(support_blobs))
+        support_tokens = self._tokenize(support_text)
+        if not support_tokens:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        claim_tokens = self._content_tokens_for_grounding(claim.claim_text)
+        object_tokens = self._content_tokens_for_grounding(claim.object)
+        subject_tokens = self._content_tokens_for_grounding(claim.subject)
+        if not claim_tokens and not object_tokens:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        claim_coverage = self._token_coverage(claim_tokens, support_tokens)
+        object_coverage = self._token_coverage(object_tokens, support_tokens)
+        subject_coverage = self._token_coverage(subject_tokens, support_tokens)
+
+        # Very short claims need exact textual support; longer claims can allow
+        # light paraphrase/stemming while still requiring the object detail.
+        short_claim = len(claim_tokens) <= 3 or len(object_tokens) <= 2
+        if short_claim:
+            passed = (
+                claim_coverage >= 0.95
+                and (not object_tokens or object_coverage >= 0.95)
+                and (not subject_tokens or subject_coverage >= 0.5)
+            )
+        else:
+            passed = (
+                claim_coverage >= 0.72
+                and (not object_tokens or object_coverage >= 0.67)
+                and (not subject_tokens or subject_coverage >= 0.4)
+            )
+
+        if not passed:
+            return VerificationResult(claim=claim, status="hallucinated", depth=0, confidence=0.0)
+
+        confidence = min(0.88, 0.42 + max(claim_coverage, object_coverage) / 2.0)
+        return VerificationResult(
+            claim=claim,
+            status="grounded",
+            depth=1,
+            path=[subject_id] if subject_id else [],
+            supported_node_types=[subject_node.get("type", "")] if subject_node else [],
+            confidence=confidence,
+        )
+
     def _claim_edge_similarity(self, claim: Claim, edge_info: Dict, target_node: Dict) -> float:
         target_text = self.node_text_index.get(target_node.get("id", ""), "")
         object_variants = self._object_text_variants(claim.object)
@@ -792,7 +857,8 @@ class KnowledgeGraphVerifier:
 
     def _scene_matches(self, edge_info: Dict, scene_id: str) -> bool:
         scene_refs = edge_info.get("scene_refs", [])
-        return not scene_refs or str(scene_id) in scene_refs
+        scene_keys = self._scene_lookup_keys(scene_id)
+        return not scene_refs or any(str(ref) in scene_keys for ref in scene_refs)
 
     def _path_supports_predicate(self, claim_pred: str, relations: List[str]) -> bool:
         if any(self._predicate_match(claim_pred, relation) for relation in relations):
@@ -890,7 +956,8 @@ class KnowledgeGraphVerifier:
 
     def _scene_rank(self, node: Dict, scene_id: str) -> int:
         refs = [str(ref) for ref in node.get("scene_refs", []) if str(ref)]
-        if refs and str(scene_id) in refs:
+        scene_keys = self._scene_lookup_keys(scene_id)
+        if refs and any(ref in scene_keys for ref in refs):
             return 0
         if not refs:
             return 1
@@ -993,7 +1060,11 @@ class KnowledgeGraphVerifier:
         return self._normalize_text(" ".join(part for part in text_parts if part))
 
     def _scene_blob(self, scene_id: str) -> str:
-        return self.scene_text_index.get(str(scene_id), "")
+        for key in self._scene_lookup_keys(scene_id):
+            blob = self.scene_text_index.get(key)
+            if blob:
+                return blob
+        return ""
 
     def _subject_text_variants(self, node: Dict, subject_text: str) -> List[str]:
         variants: List[str] = []
@@ -1062,7 +1133,16 @@ class KnowledgeGraphVerifier:
 
     def _node_in_scene(self, node: Dict, scene_id: str) -> bool:
         refs = [str(ref) for ref in node.get("scene_refs", [])]
-        return not refs or str(scene_id) in refs
+        scene_keys = self._scene_lookup_keys(scene_id)
+        return not refs or any(ref in scene_keys for ref in refs)
+
+    def _scene_lookup_keys(self, scene_id: str) -> Set[str]:
+        normalized = str(scene_id or "").strip()
+        keys = {normalized} if normalized else set()
+        match = re.match(r"^(\d+)", normalized)
+        if match:
+            keys.add(match.group(1))
+        return keys
 
     def _normalize_object_for_matching(self, text: str) -> str:
         normalized = self._normalize_text(text)
@@ -1129,99 +1209,6 @@ class KnowledgeGraphVerifier:
             if normalized.endswith(suffix):
                 add(normalized[: -len(suffix)])
 
-        synonym_variants = {
-            "wealth": ["well off", "wealthy", "rich"],
-            "parked": ["parked"],
-            "parked vehicle": ["parked", "limo out front", "limousine parked"],
-            "long lucky strike cigarette": ["lucky strike", "cigarette", "long lucky strike"],
-            "lucky strike cigarette": ["lucky strike", "cigarette"],
-            "bandaged hand": ["bandaged", "bandaged face"],
-            "bandaged face": ["bandaged"],
-            "is parked": ["parked"],
-            "parked": ["is parked"],
-            "redhead": ["red hair", "red headed"],
-            "denying micky access": [
-                "denies access",
-                "deny access",
-                "denies visitation",
-                "not your day",
-                "not his visitation day",
-                "goodbye",
-            ],
-            "denies access": [
-                "denying micky access",
-                "denies visitation",
-                "not your day",
-                "goodbye",
-            ],
-            "refusing to get involved": [
-                "refuses to get involved",
-                "cant get in the middle",
-                "cannot get in the middle",
-                "dont put me in the middle",
-                "get in the middle",
-            ],
-            "refuses to get involved": [
-                "refusing to get involved",
-                "cant get in the middle",
-                "dont put me in the middle",
-            ],
-            "visits kasie": [
-                "see kasie",
-                "say hi to kasie",
-                "asks to see kasie",
-                "wants to say hi to kasie",
-            ],
-            "promises better future": [
-                "start making good money",
-                "making good money",
-                "move to a bigger apartment",
-                "move to a biggah apartment",
-                "live with me more days",
-                "better future",
-            ],
-            "plans to make good money": [
-                "promises better future",
-                "promises future success",
-                "start making good money",
-                "making good money",
-                "good money",
-            ],
-            "plans to move to a bigger apartment": [
-                "promises better future",
-                "offers to move closer",
-                "move to a bigger apartment",
-                "move to a biggah apartment",
-                "bigger apartment",
-            ],
-            "plans for kasie to live with him more days": [
-                "promises better future",
-                "offers to move closer",
-                "live with him more days",
-                "live with me more days",
-                "kasie can live with him more often",
-            ],
-            "upcoming fight": [
-                "fight coming up",
-                "cites upcoming fight",
-                "mentions a fight",
-                "has a fight",
-            ],
-            "crying out for help": ["cries for help", "calls for help"],
-            "looking a bit strung out": ["strung out", "looks strung out"],
-            "embarrassment": ["embarrassed"],
-            "is embarrassed": ["embarrassed"],
-            "wildness": ["wild"],
-        }
-        normalized_synonyms = {
-            self._normalize_object_for_matching(source): mapped
-            for source, mapped in synonym_variants.items()
-        }
-        for source, mapped in normalized_synonyms.items():
-            if normalized == source:
-                for value in mapped:
-                    add(value)
-
         return variants or [normalized]
 
     def _claim_text_variants(self, claim: Claim) -> List[str]:
@@ -1242,14 +1229,6 @@ class KnowledgeGraphVerifier:
             if combined and combined not in variants:
                 variants.append(combined)
         normalized_claim = self._normalize_text(claim.claim_text)
-        if "limousine" in normalized_claim:
-            limo_variant = normalized_claim.replace("limousine", "limo")
-            if limo_variant not in variants:
-                variants.append(limo_variant)
-        if "parked" in normalized_claim and "limo" in normalized_claim:
-            parked_variant = self._normalize_text(f"{claim.subject} limo out front")
-            if parked_variant not in variants:
-                variants.append(parked_variant)
         return variants
 
     def _claim_text_variants_without_subject(self, claim: Claim) -> List[str]:
@@ -1321,6 +1300,19 @@ class KnowledgeGraphVerifier:
             token for token in self._normalize_text(text).split()
             if token and token not in LIGHT_STOPWORDS
         }
+
+    def _content_tokens_for_grounding(self, text: str) -> Set[str]:
+        return {
+            self._stem_token(token)
+            for token in self._tokenize(text)
+            if len(token) > 2 or token.isdigit()
+        }
+
+    def _token_coverage(self, query_tokens: Set[str], support_tokens: Set[str]) -> float:
+        if not query_tokens:
+            return 1.0
+        support_stems = {self._stem_token(token) for token in support_tokens}
+        return len(query_tokens & support_stems) / len(query_tokens)
 
     def _stem_token(self, token: str) -> str:
         if token in FAMILY_TITLE_ALIASES:

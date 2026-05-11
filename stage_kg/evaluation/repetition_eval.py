@@ -23,7 +23,7 @@ SCENE_HEADING_RE = re.compile(
     r"^\s*(?:"
     r"(?:scene|sc)\s*[\w.-]+(?:\s*[-:]\s*.+)?"
     r"|(?:int|ext|int/ext|i/e)\.\s+.+"
-    r"|\d+\s*[\).:-]\s+.+"
+    r"|\d+\s*[\).:：、-]\s*.+"
     r")\s*$",
     re.IGNORECASE,
 )
@@ -155,6 +155,8 @@ class InternalRepetitionInstance:
     repeated_sentences: List[str]
     repeated_phrases: List[str]
     sample_text: str
+    repeated_sentence_instances: List[Dict[str, object]] = field(default_factory=list)
+    repeated_phrase_instances: List[Dict[str, object]] = field(default_factory=list)
 
     @property
     def internal_repetition_score(self) -> float:
@@ -181,6 +183,8 @@ class SceneProfile:
     internal_ngram_repetition: float = 0.0
     repeated_sentences: List[str] = field(default_factory=list)
     repeated_phrases: List[str] = field(default_factory=list)
+    repeated_sentence_instances: List[Dict[str, object]] = field(default_factory=list)
+    repeated_phrase_instances: List[Dict[str, object]] = field(default_factory=list)
 
 
 class RepetitionEvaluator:
@@ -196,10 +200,9 @@ class RepetitionEvaluator:
         self.llm_adjudicator = llm_adjudicator
         self.max_llm_pairs = max_llm_pairs
         self.llm_calls = 0
-        self.embedding_model = SentenceTransformer(
-            getattr(self.config, "EMBEDDING_MODEL", "all-MiniLM-L6-v2")
-        )
+        self.embedding_model = None
         self._embedding_cache: Dict[str, np.ndarray] = {}
+        self._semantic_chunk_cache: Dict[str, List[str]] = {}
         self.nlp = self._load_spacy()
 
     def evaluate_repetition(
@@ -209,11 +212,14 @@ class RepetitionEvaluator:
         """Evaluate repetition across full scene texts."""
         profiles = self._profile_scenes(scenes)
         prior_info = self._previous_info_signatures(profiles)
-        instances = [
-            self._build_instance(scene_i, scene_j, prior_info[scene_j.scene_id])
-            for index, scene_i in enumerate(profiles)
-            for scene_j in profiles[index + 1:]
-        ]
+        instances = []
+        for index, scene_i in enumerate(profiles):
+            for scene_j in profiles[index + 1:]:
+                instances.append(self._build_instance(
+                    scene_i,
+                    scene_j,
+                    prior_info[scene_j.scene_id],
+                ))
         return RepetitionMetrics.from_instances(instances), instances
 
     def evaluate_internal_repetition(
@@ -226,11 +232,16 @@ class RepetitionEvaluator:
         results = []
         for profile in profiles:
             score = max(profile.internal_sentence_repetition, profile.internal_ngram_repetition)
+            explicit_instances = (
+                profile.repeated_sentence_instances
+                + profile.repeated_phrase_instances
+            )
             if (
-                score < threshold
-                and not profile.repeated_sentences
-                and not profile.repeated_phrases
+                not explicit_instances
+                and score < threshold
             ):
+                continue
+            if not explicit_instances:
                 continue
             results.append(InternalRepetitionInstance(
                 scene_id=profile.scene_id,
@@ -239,6 +250,8 @@ class RepetitionEvaluator:
                 repeated_sentences=profile.repeated_sentences or [],
                 repeated_phrases=profile.repeated_phrases or [],
                 sample_text=profile.text[:220],
+                repeated_sentence_instances=profile.repeated_sentence_instances or [],
+                repeated_phrase_instances=profile.repeated_phrase_instances or [],
             ))
         return results
 
@@ -284,7 +297,7 @@ class RepetitionEvaluator:
                 raise TypeError("Scene dictionaries must be {scene_id: full_scene_text}.")
             return [
                 (str(scene_id), text.strip())
-                for scene_id, text in sorted(scenes.items())
+                for scene_id, text in scenes.items()
                 if text.strip()
             ]
 
@@ -379,8 +392,12 @@ class RepetitionEvaluator:
         scene_j: SceneProfile,
         prior_info_for_j: Set[str],
     ) -> Dict[str, float]:
+        whole_scene_similarity = self._semantic_similarity(scene_i.text, scene_j.text)
+        local_scene_similarity = self._max_chunk_similarity(scene_i, scene_j)
         return {
-            "semantic_similarity": self._semantic_similarity(scene_i.text, scene_j.text),
+            "semantic_similarity": max(whole_scene_similarity, local_scene_similarity),
+            "whole_scene_similarity": whole_scene_similarity,
+            "local_scene_similarity": local_scene_similarity,
             "ngram_overlap": self._ngram_overlap(scene_i.text, scene_j.text),
             "sentence_overlap": self._sentence_overlap(scene_i, scene_j),
             "event_overlap": self._signature_overlap(
@@ -405,9 +422,47 @@ class RepetitionEvaluator:
             ),
         }
 
+    def _max_chunk_similarity(self, scene_i: SceneProfile, scene_j: SceneProfile) -> float:
+        chunks_i = self._semantic_chunks(scene_i)
+        chunks_j = self._semantic_chunks(scene_j)
+        if not chunks_i or not chunks_j:
+            return 0.0
+        return max(
+            self._semantic_similarity(chunk_i, chunk_j)
+            for chunk_i in chunks_i
+            for chunk_j in chunks_j
+        )
+
+    def _semantic_chunks(self, scene: SceneProfile) -> List[str]:
+        cached = self._semantic_chunk_cache.get(scene.scene_id)
+        if cached is not None:
+            return cached
+
+        sentences = [
+            sentence
+            for sentence in self._line_sentences(scene.text)
+            if len(self._words(sentence)) >= 4
+        ]
+        if len(sentences) <= 4:
+            chunks = [" ".join(sentences)] if sentences else [scene.text]
+        else:
+            chunks = []
+            for window_size in (4, 6):
+                step = max(1, window_size // 2)
+                for index in range(0, len(sentences), step):
+                    window = sentences[index:index + window_size]
+                    if len(window) >= 3:
+                        chunks.append(" ".join(window))
+            chunks.append(" ".join(sentences))
+
+        self._semantic_chunk_cache[scene.scene_id] = chunks
+        return chunks
+
     def _repetition_types(self, scores: Dict[str, float]) -> List[str]:
         repetition_types = []
         semantic_similarity = scores["semantic_similarity"]
+        whole_scene_similarity = scores.get("whole_scene_similarity", semantic_similarity)
+        local_scene_similarity = scores.get("local_scene_similarity", semantic_similarity)
         ngram_overlap = scores["ngram_overlap"]
         sentence_overlap = scores["sentence_overlap"]
         event_overlap = scores["event_overlap"]
@@ -417,28 +472,56 @@ class RepetitionEvaluator:
         motif_overlap = scores["motif_overlap"]
         beat_overlap = scores["beat_overlap"]
 
-        if semantic_similarity >= 0.92 or (
+        strong_scene_reuse = (
+            semantic_similarity >= 0.90
+            and motif_overlap >= 0.70
+            and (sentence_overlap >= 0.12 or ngram_overlap >= 0.12)
+            and novelty_score <= 0.30
+        )
+        moderate_scene_reuse = (
+            semantic_similarity >= 0.82
+            and motif_overlap >= 0.78
+            and beat_overlap >= 0.70
+            and (sentence_overlap >= 0.10 or ngram_overlap >= 0.10)
+            and novelty_score <= 0.35
+        )
+
+        if strong_scene_reuse or (
             semantic_similarity >= self.config.similarity_threshold
-            and ngram_overlap >= self.config.ngram_threshold
+            and ngram_overlap >= 0.20
+            and sentence_overlap >= 0.18
+            and motif_overlap >= 0.50
         ):
             repetition_types.append("scene_semantic_repetition")
-        if semantic_similarity >= 0.82 and (
-            novelty_score <= 0.65 or motif_overlap >= 0.2 or beat_overlap >= 0.18
-        ):
+        if moderate_scene_reuse:
             repetition_types.append("semantic_low_novelty")
+        if whole_scene_similarity >= 0.82 and motif_overlap >= 0.70 and novelty_score <= 0.35:
+            repetition_types.append("whole_scene_pattern_repetition")
+        if local_scene_similarity >= 0.72 and (
+            whole_scene_similarity >= 0.70
+            and motif_overlap >= 0.70
+            and (sentence_overlap >= 0.10 or ngram_overlap >= 0.10)
+        ) and novelty_score <= 0.86:
+            repetition_types.append("local_scene_pattern_repetition")
+        if semantic_similarity >= getattr(self.config, "cross_scene_embedding_threshold", 0.78) and (
+            sentence_overlap >= 0.12
+            and motif_overlap >= 0.70
+            and novelty_score <= 0.35
+        ):
+            repetition_types.append("embedding_scene_pattern_repetition")
         if sentence_overlap >= 0.5 or (
-            sentence_overlap >= 0.3 and (event_overlap >= 0.25 or motif_overlap >= 0.12)
+            sentence_overlap >= 0.25 and (event_overlap >= 0.25 or motif_overlap >= 0.50)
         ):
             repetition_types.append("cross_scene_sentence_reuse")
-        if semantic_similarity >= 0.8 and motif_overlap >= 0.14 and (
-            event_overlap >= 0.18 or sentence_overlap >= 0.1 or ngram_overlap >= 0.04
+        if semantic_similarity >= 0.82 and motif_overlap >= 0.70 and (
+            event_overlap >= 0.18 or sentence_overlap >= 0.12 or ngram_overlap >= 0.12
         ):
             repetition_types.append("narrative_repetition")
         if (
-            semantic_similarity >= 0.7
-            and motif_overlap >= 0.13
+            semantic_similarity >= 0.82
+            and motif_overlap >= 0.70
             and event_overlap >= 0.18
-            and (novelty_score <= 0.82 or event_overlap >= 0.24 or motif_overlap >= 0.15)
+            and novelty_score <= 0.35
         ):
             repetition_types.append("repeated_story_beat")
         if event_overlap >= 0.65 and novelty_score <= 0.35:
@@ -447,9 +530,9 @@ class RepetitionEvaluator:
             repetition_types.append("repeated_character_state")
         if structure_similarity >= 0.9 and novelty_score <= 0.35:
             repetition_types.append("low_creativity_structure")
-        if motif_overlap >= 0.22 and semantic_similarity >= 0.68:
+        if motif_overlap >= 0.70 and semantic_similarity >= 0.82 and novelty_score <= 0.35:
             repetition_types.append("motif_repetition")
-        if beat_overlap >= 0.18 and semantic_similarity >= 0.65 and novelty_score <= 0.75:
+        if beat_overlap >= 0.70 and semantic_similarity >= 0.82 and novelty_score <= 0.35:
             repetition_types.append("loop_repetition")
         return repetition_types
 
@@ -485,6 +568,8 @@ class RepetitionEvaluator:
         beat_signatures = self._beat_signatures(sentences, doc)
         repeated_sentences = self._repeated_sentences(sentences)
         repeated_phrases = self._repeated_phrases(text)
+        repeated_sentence_instances = self._repeated_sentence_instances(sentences)
+        repeated_phrase_instances = self._repeated_phrase_instances(text)
 
         return SceneProfile(
             scene_id=scene_id,
@@ -509,6 +594,8 @@ class RepetitionEvaluator:
             internal_ngram_repetition=self._internal_ngram_repetition(text),
             repeated_sentences=repeated_sentences,
             repeated_phrases=repeated_phrases,
+            repeated_sentence_instances=repeated_sentence_instances,
+            repeated_phrase_instances=repeated_phrase_instances,
         )
 
     def _load_spacy(self):
@@ -520,11 +607,42 @@ class RepetitionEvaluator:
             return None
 
     def _sentences(self, text: str, doc) -> List[str]:
+        line_sentences = self._line_sentences(text)
         if doc is not None:
             sentences = [sent.text.strip() for sent in doc.sents if sent.text.strip()]
             if sentences:
-                return sentences
-        return [match.group(0).strip() for match in SENTENCE_RE.finditer(text) if match.group(0).strip()]
+                return self._merge_sentence_candidates(sentences, line_sentences)
+        return line_sentences or [
+            match.group(0).strip()
+            for match in SENTENCE_RE.finditer(text)
+            if match.group(0).strip()
+        ]
+
+    def _line_sentences(self, text: str) -> List[str]:
+        sentences = []
+        for raw_line in text.splitlines():
+            line = raw_line.strip()
+            if not line:
+                continue
+            parts = [
+                match.group(0).strip()
+                for match in SENTENCE_RE.finditer(line)
+                if match.group(0).strip()
+            ]
+            sentences.extend(parts or [line])
+        return sentences
+
+    def _merge_sentence_candidates(self, *groups: Sequence[str]) -> List[str]:
+        merged = []
+        seen = set()
+        for group in groups:
+            for sentence in group:
+                normalized = self._normalize_text(sentence)
+                if not normalized or normalized in seen:
+                    continue
+                seen.add(normalized)
+                merged.append(sentence)
+        return merged
 
     def _quotes(self, text: str) -> Set[str]:
         return {
@@ -692,25 +810,16 @@ class RepetitionEvaluator:
         return vector_similarity
 
     def _internal_sentence_repetition(self, sentences: List[str]) -> float:
-        normalized = [
-            self._normalize_text(sentence)
+        filtered = [
+            sentence.strip()
             for sentence in sentences
-            if len(self._words(sentence)) >= 3
+            if len(self._words(sentence)) >= 2
+            and not self._is_screenplay_boilerplate(sentence)
         ]
-        normalized = [sentence for sentence in normalized if sentence]
-        if len(normalized) < 2:
+        if len(filtered) < 2:
             return 0.0
-
-        duplicate_ratio = (len(normalized) - len(set(normalized))) / len(normalized)
-        near_match_ratio = sum(
-            1
-            for index, sentence_i in enumerate(normalized)
-            if any(
-                self._set_overlap(set(sentence_i.split()), set(sentence_j.split())) >= 0.75
-                for sentence_j in normalized[index + 1:]
-            )
-        ) / len(normalized)
-        return min(1.0, duplicate_ratio + near_match_ratio)
+        instance_count = len(self._repeated_sentence_instances(filtered))
+        return min(1.0, instance_count / max(1, len(filtered) * 0.2))
 
     def _internal_ngram_repetition(self, text: str, n: int = 3) -> float:
         words = self._words(text)
@@ -723,33 +832,162 @@ class RepetitionEvaluator:
         return min(1.0, repeated / max(1, len(ngrams) * 0.12))
 
     def _repeated_sentences(self, sentences: List[str]) -> List[str]:
-        normalized_to_original = {}
-        counts = {}
-        for sentence in sentences:
-            if len(self._words(sentence)) < 3:
-                continue
-            normalized = self._normalize_text(sentence)
-            if not normalized:
-                continue
-            normalized_to_original.setdefault(normalized, sentence.strip())
-            counts[normalized] = counts.get(normalized, 0) + 1
-        return [
-            normalized_to_original[normalized]
-            for normalized, count in counts.items()
-            if count > 1
-        ]
+        return [item["text"] for item in self._repeated_sentence_instances(sentences)]
 
     def _repeated_phrases(self, text: str, n: int = 3) -> List[str]:
-        words = self._words(text)
-        counts = {}
-        for window in self._windows(words, n):
-            phrase = " ".join(window)
-            counts[phrase] = counts.get(phrase, 0) + 1
-        return [
-            phrase
-            for phrase, count in counts.items()
-            if count > 1 and any(word not in STOPWORDS for word in phrase.split())
+        return [item["text"] for item in self._repeated_phrase_instances(text, n=n)]
+
+    def _repeated_sentence_instances(self, sentences: List[str]) -> List[Dict[str, object]]:
+        filtered: List[Tuple[int, str]] = []
+        for index, sentence in enumerate(sentences, start=1):
+            stripped = sentence.strip()
+            if len(self._words(stripped)) < 2:
+                continue
+            if self._is_screenplay_boilerplate(stripped):
+                continue
+            if self._is_non_content_sentence(stripped):
+                continue
+            filtered.append((index, stripped))
+        if len(filtered) < 2:
+            return []
+
+        instances: List[Dict[str, object]] = []
+        consumed: Set[int] = set()
+        local_window = int(getattr(self.config, "internal_repetition_sentence_window", 4))
+        exact_groups: Dict[str, List[Tuple[int, str]]] = {}
+        for position, sentence in filtered:
+            exact_groups.setdefault(self._normalize_text(sentence), []).append((position, sentence))
+        for normalized, group in exact_groups.items():
+            if len(group) < 2 or not normalized:
+                continue
+            for cluster in self._local_clusters(group, local_window):
+                if len(cluster) < 2:
+                    continue
+                consumed.update(position for position, _ in cluster)
+                instances.append({
+                    "text": cluster[0][1],
+                    "count": len(cluster),
+                    "positions": [position for position, _ in cluster],
+                    "source": "exact_sentence_duplicate",
+                    "matched_texts": [text for _, text in cluster],
+                })
+
+        threshold = float(getattr(self.config, "internal_sentence_similarity_threshold", 0.98))
+        for local_i, (position_i, sentence_i) in enumerate(filtered):
+            if position_i in consumed:
+                continue
+            group = [(position_i, sentence_i)]
+            for position_j, sentence_j in filtered[local_i + 1:]:
+                if position_j in consumed:
+                    continue
+                if position_j - position_i > local_window:
+                    break
+                if self._semantic_similarity(sentence_i, sentence_j) >= threshold:
+                    group.append((position_j, sentence_j))
+            if len(group) < 2:
+                continue
+            consumed.update(position for position, _ in group)
+            instances.append({
+                "text": group[0][1],
+                "count": len(group),
+                "positions": [position for position, _ in group],
+                "source": "sentence_embedding_similarity",
+                "matched_texts": [text for _, text in group],
+            })
+        return instances
+
+    def _local_clusters(
+        self,
+        group: Sequence[Tuple[int, str]],
+        local_window: int,
+    ) -> List[List[Tuple[int, str]]]:
+        clusters: List[List[Tuple[int, str]]] = []
+        current: List[Tuple[int, str]] = []
+        for item in sorted(group, key=lambda value: value[0]):
+            if not current or item[0] - current[-1][0] <= local_window:
+                current.append(item)
+                continue
+            clusters.append(current)
+            current = [item]
+        if current:
+            clusters.append(current)
+        return clusters
+
+    def _is_non_content_sentence(self, sentence: str) -> bool:
+        stripped = sentence.strip()
+        words = self._words(stripped)
+        if not words:
+            return True
+        letters = [char for char in stripped if char.isalpha()]
+        if letters and stripped.upper() == stripped and len(words) <= 4:
+            return True
+        if stripped.startswith("(") and stripped.endswith(")"):
+            return True
+        if stripped.endswith("-"):
+            return True
+        content_words = [
+            word
+            for word in words
+            if word not in STOPWORDS and len(word) > 2
         ]
+        if len(content_words) < 2:
+            return True
+        if len(words) <= 2 and any(word in STOPWORDS for word in words):
+            return True
+        return False
+
+    def _repeated_phrase_instances(self, text: str, n: int = 4) -> List[Dict[str, object]]:
+        words = self._words(text)
+        if len(words) < n * 2:
+            return []
+
+        phrase_positions: Dict[Tuple[str, ...], List[int]] = {}
+        for index, window in enumerate(self._windows(words, n), start=1):
+            if not any(word not in STOPWORDS for word in window):
+                continue
+            phrase_positions.setdefault(window, []).append(index)
+
+        local_window = int(getattr(self.config, "internal_repetition_phrase_window", 20))
+        instances: List[Dict[str, object]] = []
+        for phrase, positions in phrase_positions.items():
+            if len(positions) < 2:
+                continue
+            clusters = self._local_position_clusters(positions, local_window)
+            for cluster in clusters:
+                if len(cluster) < 2:
+                    continue
+                instances.append({
+                    "text": " ".join(phrase),
+                    "count": len(cluster),
+                    "positions": cluster,
+                    "source": f"{n}_gram_duplicate",
+                    "matched_texts": [" ".join(phrase)] * len(cluster),
+                })
+        return instances
+
+    def _local_position_clusters(
+        self,
+        positions: Sequence[int],
+        local_window: int,
+    ) -> List[List[int]]:
+        clusters: List[List[int]] = []
+        current: List[int] = []
+        for position in sorted(positions):
+            if not current or position - current[-1] <= local_window:
+                current.append(position)
+                continue
+            clusters.append(current)
+            current = [position]
+        if current:
+            clusters.append(current)
+        return clusters
+
+    def _is_screenplay_boilerplate(self, text: str) -> bool:
+        return bool(re.search(
+            r"\b(?:continued|cont'd|green draft|page|fade in|fade out|cut to|title|scene)\b",
+            text,
+            re.IGNORECASE,
+        ))
 
     def _previous_info_signatures(self, profiles: List[SceneProfile]) -> Dict[str, Set[str]]:
         prior: Set[str] = set()
@@ -782,6 +1020,10 @@ class RepetitionEvaluator:
     def _embedding(self, text: str):
         key = text.strip()
         if key not in self._embedding_cache:
+            if self.embedding_model is None:
+                self.embedding_model = SentenceTransformer(
+                    getattr(self.config, "EMBEDDING_MODEL", "all-MiniLM-L6-v2")
+                )
             self._embedding_cache[key] = self.embedding_model.encode(
                 key,
                 convert_to_tensor=False,

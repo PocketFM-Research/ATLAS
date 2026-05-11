@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "movie_id": "the_fighter",
+    "scene_count": 28,
+    "lexical_similarity": false
+  },
+  "metrics": {
+    "cross_scene": {
+      "total_scene_pairs": 378,
+      "repetitive_pairs": 10,
+      "avg_semantic_similarity": 0.6032976406614119,
+      "avg_ngram_overlap": 0.025445566608489824,
+      "repetition_rate": 0.026455026455026454,
+      "avg_sentence_overlap": 0.026354791277924734,
+      "avg_event_overlap": 0.09276180299594111,
+      "avg_state_overlap": 0.04211472100360657,
+      "avg_structure_similarity": 0.4859456017184144,
+      "avg_novelty_score": 0.41185293342596574,
+      "avg_motif_overlap": 0.12622472170775903,
+      "avg_beat_overlap": 0.05505983016002595,
+      "avg_internal_repetition_score": 0.3028815449446931
+    },
+    "ground_truth_pairs": 10,
+    "matched_ground_truth_pairs": 10,
+    "detected_repetitive_pairs": 10,
+    "precision_against_gt": 1.0,
+    "recall_against_gt": 1.0,
+    "matched_ids": [
+      "XR001",
+      "XR002",
+      "XR003",
+      "XR004",
+      "XR005",
+      "XR006",
+      "XR007",
+      "XR008",
+      "XR009",
+      "XR010"
+    ]
+  }
+}

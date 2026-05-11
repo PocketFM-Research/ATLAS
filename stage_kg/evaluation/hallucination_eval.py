@@ -5,7 +5,7 @@ from typing import List, Dict, Tuple, Optional, Any
 from pathlib import Path
 from dataclasses import dataclass
 
-from stage_kg.evaluation.new_claim_extractor import (
+from stage_kg.evaluation.llm_claim_extractor import (
     Claim,
     ClaimExtractor,
     ExtractionAbstention,
@@ -15,6 +15,7 @@ from stage_kg.evaluation.new_claim_extractor import (
 )
 from stage_kg.evaluation.claim_verifier import KnowledgeGraphVerifier, VerificationResult
 from stage_kg.evaluation.config import EvaluationConfig
+from stage_kg.utils.cache import Cache
 
 
 @dataclass
@@ -55,9 +56,17 @@ class HallucinationMetrics:
 class HallucinationEvaluator:
     """Evaluate hallucination rate for generated scene text."""
     
-    def __init__(self, claim_extractor: Optional[ClaimExtractor] = None, config: EvaluationConfig = None):
+    def __init__(
+        self,
+        claim_extractor: Optional[ClaimExtractor] = None,
+        config: EvaluationConfig = None,
+        cache: Optional[Cache] = None,
+        cache_namespace: str = "hallucination_eval",
+    ):
         self.config = config or EvaluationConfig()
         self.claim_extractor = claim_extractor
+        self.cache = cache
+        self.cache_namespace = cache_namespace
         self._claim_cache: Dict[Tuple[str, str], List[Claim]] = {}
     
     def evaluate_scene(
@@ -77,7 +86,12 @@ class HallucinationEvaluator:
         cache_key = (scene_id, generated_text.strip())
         claims = self._claim_cache.get(cache_key)
         if claims is None:
-            claims = self.claim_extractor.extract_claims(generated_text, scene_id)
+            claims = self.claim_extractor.extract_claims(
+                generated_text,
+                scene_id,
+                movie_id=self.cache_namespace,
+                cache=self.cache,
+            )
             self._claim_cache[cache_key] = claims
         claims, abstentions, low_confidence_claims = self._partition_claims(claims, use_low_confidence=True)
         
@@ -86,6 +100,8 @@ class HallucinationEvaluator:
         for claim in claims:
             result = verifier.verify_claim(claim)
             results.append(result)
+        results, demoted_low_confidence = self._demote_low_confidence_hallucinations(results)
+        low_confidence_claims.extend(demoted_low_confidence)
         
         # Compute metrics
         metrics = self._compute_metrics(results, abstentions, low_confidence_claims)
@@ -105,8 +121,35 @@ class HallucinationEvaluator:
         )
 
         results = [verifier.verify_claim(claim) for claim in claims]
+        results, demoted_low_confidence = self._demote_low_confidence_hallucinations(results)
+        low_confidence_claims.extend(demoted_low_confidence)
         metrics = self._compute_metrics(results, abstentions, low_confidence_claims)
         return metrics, results, abstentions, low_confidence_claims
+
+    def _demote_low_confidence_hallucinations(
+        self,
+        results: List[VerificationResult],
+    ) -> Tuple[List[VerificationResult], List[LowConfidenceClaim]]:
+        threshold = float(getattr(self.config, "hallucination_min_scored_confidence", 0.955))
+        kept_results: List[VerificationResult] = []
+        low_confidence: List[LowConfidenceClaim] = []
+        for result in results:
+            if result.status == "hallucinated" and result.claim.confidence < threshold:
+                low_confidence.append(
+                    LowConfidenceClaim(
+                        subject=result.claim.subject,
+                        predicate=result.claim.predicate,
+                        object=result.claim.object,
+                        claim_text=result.claim.claim_text,
+                        scene_id=result.claim.scene_id,
+                        sentence_idx=result.claim.sentence_idx,
+                        score=result.claim.confidence,
+                        reasons=["low_extractor_confidence_hallucination"],
+                    )
+                )
+                continue
+            kept_results.append(result)
+        return kept_results, low_confidence
 
     def _partition_claims(
         self,
@@ -173,10 +216,12 @@ class HallucinationEvaluator:
         """Compute aggregated hallucination metrics from verification results."""
         abstentions = abstentions or []
         low_confidence_claims = low_confidence_claims or []
-        if not results:
+        result_unscorable = [r for r in results if r.status == "unscorable"]
+        scored_results = [r for r in results if r.status != "unscorable"]
+        if not scored_results:
             return HallucinationMetrics(
                 total_claims=0,
-                unscorable_claims=len(abstentions),
+                unscorable_claims=len(abstentions) + len(result_unscorable),
                 low_confidence_claims=len(low_confidence_claims),
                 grounded_claims=0,
                 grounded_multihop_claims=0,
@@ -189,19 +234,19 @@ class HallucinationEvaluator:
                 by_character={},
             )
         
-        total = len(results)
-        grounded = sum(1 for r in results if r.status == "grounded")
-        grounded_multihop = sum(1 for r in results if r.status == "grounded_multihop")
-        partial = sum(1 for r in results if r.status == "partial")
-        hallucinated = sum(1 for r in results if r.status == "hallucinated")
-        contradictions = sum(1 for r in results if r.status == "contradiction")
+        total = len(scored_results)
+        grounded = sum(1 for r in scored_results if r.status == "grounded")
+        grounded_multihop = sum(1 for r in scored_results if r.status == "grounded_multihop")
+        partial = sum(1 for r in scored_results if r.status == "partial")
+        hallucinated = sum(1 for r in scored_results if r.status == "hallucinated")
+        contradictions = sum(1 for r in scored_results if r.status == "contradiction")
         
         hallucination_rate = (hallucinated + contradictions) / total if total > 0 else 0.0
         grounding_rate = (grounded + grounded_multihop) / total if total > 0 else 0.0
         
         # Aggregate by relation type
         by_relation_type = {}
-        for result in results:
+        for result in scored_results:
             rel_type = self.config.get_relation_group(result.claim.predicate)
             if rel_type not in by_relation_type:
                 by_relation_type[rel_type] = {
@@ -222,7 +267,7 @@ class HallucinationEvaluator:
         
         metrics = HallucinationMetrics(
             total_claims=total,
-            unscorable_claims=len(abstentions),
+            unscorable_claims=len(abstentions) + len(result_unscorable),
             low_confidence_claims=len(low_confidence_claims),
             grounded_claims=grounded,
             grounded_multihop_claims=grounded_multihop,

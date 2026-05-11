@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "movie_id": "intolerable_cruelty",
+    "scene_count": 57,
+    "lexical_similarity": false
+  },
+  "metrics": {
+    "cross_scene": {
+      "total_scene_pairs": 1596,
+      "repetitive_pairs": 10,
+      "avg_semantic_similarity": 0.47655638285590607,
+      "avg_ngram_overlap": 0.014675146794473772,
+      "repetition_rate": 0.006265664160401002,
+      "avg_sentence_overlap": 0.01750726664601226,
+      "avg_event_overlap": 0.05328227165168355,
+      "avg_state_overlap": 0.033460103421425115,
+      "avg_structure_similarity": 0.5040578338403666,
+      "avg_novelty_score": 0.5751715070776671,
+      "avg_motif_overlap": 0.05720280161123964,
+      "avg_beat_overlap": 0.027268585903671802,
+      "avg_internal_repetition_score": 0.21980262992153332
+    },
+    "ground_truth_pairs": 10,
+    "matched_ground_truth_pairs": 10,
+    "detected_repetitive_pairs": 10,
+    "precision_against_gt": 1.0,
+    "recall_against_gt": 1.0,
+    "matched_ids": [
+      "XR001",
+      "XR002",
+      "XR003",
+      "XR004",
+      "XR005",
+      "XR006",
+      "XR007",
+      "XR008",
+      "XR009",
+      "XR010"
+    ]
+  }
+}

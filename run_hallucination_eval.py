@@ -11,7 +11,7 @@ from typing import List, Tuple
 from stage_kg.evaluation.claim_verifier import KnowledgeGraphVerifier
 from stage_kg.evaluation.config import EvaluationConfig
 from stage_kg.evaluation.hallucination_eval import HallucinationEvaluator
-from stage_kg.evaluation.new_claim_extractor import Claim, ClaimExtractor
+from stage_kg.evaluation.llm_claim_extractor import Claim, ClaimExtractor
 from stage_kg.ingest.loader import load_movie
 from stage_kg.llm import get_llm
 
