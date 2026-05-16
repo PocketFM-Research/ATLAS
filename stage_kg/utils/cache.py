@@ -20,7 +20,7 @@ from typing import Any, Optional
 logger = logging.getLogger(__name__)
 
 # Bump this whenever schema or prompts change.
-SCHEMA_VERSION = "v3"   # v1=initial, v2=schema fix (owns->possesses etc), v3=reflection+embedding
+SCHEMA_VERSION = "v4"   # v1=initial, v2=schema fix (owns->possesses etc), v3=reflection+embedding, v4=vehicle type+coverage fixes
 
 
 class Cache:

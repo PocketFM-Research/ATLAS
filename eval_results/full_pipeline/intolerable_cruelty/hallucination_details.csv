@@ -1,0 +1,1092 @@
+scene_id,claim_text,subject,predicate,object,status,depth,confidence,relation_type,path,supported_types
+1ext._beverly_hills_manse,Rex tries his key in the front door of his house.,rex,performs,tries his key in the front door,grounded,1,0.9192857142857143,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001>ev_en8dc9b5_1_doc_0_chunk_0_ev_001,Event
+1ext._beverly_hills_manse,Rex rattles the front door knob.,rex,performs,rattles the knob,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+1ext._beverly_hills_manse,Rex leans on the doorbell.,rex,performs,leans on the doorbell,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+1ext._beverly_hills_manse,Marylin speaks through the intercom.,marylin,performs,speaks through the intercom,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+1ext._beverly_hills_manse,"The name MASSEY, MEYERSON, SLOAN & GURALNICK is on an interior wall.","massey, meyerson, sloan & guralnick",present_on,interior wall,grounded,1,0.84,spatiotemporal,ent_en8dc9b5_1_doc_0_chunk_0_ent_011,Concept
+1ext._beverly_hills_manse,The receptionist leans over her partition.,receptionist,performs,leans over her partition,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_003,Character
+1ext._beverly_hills_manse,The receptionist chirps at Rex Rexroth.,receptionist,performs,chirps at rex rexroth,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_003,Character
+1ext._beverly_hills_manse,Mr. Massey will be right with you.,mr. massey,performs,will be right with you,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+2int._massey_meyerson_conference_room_-_day,Miles addresses a group of young attorneys.,miles,performs,addresses a group of young attorneys,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+2int._massey_meyerson_conference_room_-_day,Marriage is an institution based on compromise.,marriage,is_a,institution based on compromise,grounded,1,0.88,object,ent_en8dc9b5_2_doc_1_chunk_0_part_0_ent_010,Concept
+2int._massey_meyerson_conference_room_-_day,Marriage undergoes dissolution.,marriage,undergoes,dissolution,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+2int._massey_meyerson_conference_room_-_day,One attorney tries to score points.,one attorney,performs,tries to score points,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+2int._massey_meyerson_conference_room_-_day,The opposition tries to impeach.,the opposition,performs,tries to impeach,grounded,1,0.88,event_role,,
+2int._massey_meyerson_conference_room_-_day,The process finds an equilibrium point.,the process,causes,equilibrium point,grounded,1,0.88,inter_event,ev_en8dc9b5_2_doc_1_chunk_0_part_0_ev_001,Event
+2int._massey_meyerson_conference_room_-_day,Massey Myerson believes life is struggle.,massey myerson,affiliated_with,belief that life is struggle,grounded,1,0.88,social,ent_en8dc9b5_2_doc_1_chunk_0_part_0_ent_011,Concept
+2int._massey_meyerson_conference_room_-_day,Massey Myerson believes in the ultimate destruction of your opponent.,massey myerson,affiliated_with,belief in the ultimate destruction of your opponent,grounded,1,0.88,social,ent_en8dc9b5_2_doc_1_chunk_0_part_0_ent_011,Concept
+2int._massey_meyerson_conference_room_-_day,The Receptionist pokes her head into the conference room.,receptionist,performs,pokes her head into the conference room,grounded,1,0.9075000000000001,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_003>ev_en8dc9b5_2_doc_1_chunk_0_part_0_ev_003,Event
+2int._massey_meyerson_conference_room_-_day,The Receptionist announces that the eleven o'clock is here.,receptionist,performs,announces that the eleven o'clock is here,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_003,Character
+2int._massey_meyerson_conference_room_-_day,A uniformed police officer enters the conference room and arrests Rex during the meeting.,blue police helicopter,performs,hovers inside the room,hallucinated,0,0.0,event_role,,
+2int._massey_meyerson_conference_room_-_day,Rex has never owned or operated any business.,rex,is_a,person who has never owned or operated any business,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+2int._massey_meyerson_conference_room_-_day,The meeting occurs next Friday.,meeting,occurs_on,next friday,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_2_doc_1_chunk_0_part_0_ev_003,Event
+2int._massey_meyerson_conference_room_-_day,The office has a Rothko on the wall.,office,possesses,rothko on the wall,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+2int._massey_meyerson_conference_room_-_day,The office has an Elle Bleu humidor on the desk.,office,possesses,elle bleu humidor on the desk,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+2int._massey_meyerson_conference_room_-_day,The office has peonies in the vase.,office,possesses,peonies in the vase,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+2int._massey_meyerson_conference_room_-_day,The diploma is from Yale.,diploma,is_a,yale diploma,grounded,1,0.88,object,ent_en8dc9b5_2_doc_1_chunk_0_part_0_ent_015,Object
+2int._massey_meyerson_conference_room_-_day,Miles Massey addresses Rexroth as Mr. Rexroth.,miles massey,performs,addresses rexroth as mr. rexroth,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+2int._massey_meyerson_conference_room_-_day,Miles Massey introduces himself as Miles Massey.,miles massey,performs,introduces himself as miles massey,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+2int._massey_meyerson_conference_room_-_day,Miles Massey says the office is for the duration of the campaign.,miles massey,performs,tells rex the office is for the duration of the campaign,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+2int._massey_meyerson_conference_room_-_day,Rex thanks Miles Massey.,rex,performs,thanks miles massey,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+2int._massey_meyerson_conference_room_-_day,Miles Massey makes a steeple of his fingers.,miles massey,performs,makes a steeple of his fingers,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+2int._massey_meyerson_conference_room_-_day,Rex is nervous.,rex,experiences,nervousness,grounded,1,0.39999999999999997,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001>ev_en8dc9b5_2_doc_1_chunk_0_part_2_ev_004,Event
+2int._massey_meyerson_conference_room_-_day,Rex's wife has him between a rock and a hard place.,rex,experiences,being between a rock and a hard place,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+2int._massey_meyerson_conference_room_-_day,Rex and Marylin were crazy about each other.,rex and marylin,affinity_with,each other,grounded,1,0.88,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+2int._massey_meyerson_conference_room_-_day,Rex and Marylin could not keep their hands off each other.,rex and marylin,possesses,hands off each other,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+2int._massey_meyerson_conference_room_-_day,Marylin produces a signed confession from Rex and places it in front of Miles.,rex,possesses,a lunar condominium deed,hallucinated,0,0.0,object,,
+2int._massey_meyerson_conference_room_-_day,The rabbi says Miles requested the ceremony language that Marylin actually prompted.,rex,uses,a holographic deed,hallucinated,0,0.0,object,,
+2int._massey_meyerson_conference_room_-_day,Marylin is a knock-out.,marylin,is_a,knock-out,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+2int._massey_meyerson_conference_room_-_day,Rex has video.,rex,possesses,video,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Marylin power walks along the San Vicente Bike Path.,marylin,performs,power walks along the san vicente bike path,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Marylin is a power walker.,marylin,is_a,power walker,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Sarah Sorkin is Marylin's friend.,sarah sorkin,is_a,marylin's friend,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_002,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Ramona Barcelona is Marylin's friend.,ramona barcelona,is_a,marylin's friend,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Ramona Barcelona pushes her infant in a baby jogger.,ramona barcelona,performs,pushes her infant in a baby jogger,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Barry has a beach house.,barry,possesses,a beach house,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_004,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Barry had the beach house in the dog's name.,barry,possesses,the beach house in the dog's name,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_004,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Ruth Rabino is a legend.,ruth rabino,is_a,legend,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_005,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Marylin says they are going to nail his ass.,marylin,references,nailing his ass,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,George is very careful.,george,is_a,careful person,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_007,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Ramona thinks she is pregnant.,ramona,experiences,pregnancy,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Joe says Rex’s chest pain started before the argument in the room.,firm oracle,located_at,under the conference table,hallucinated,0,0.0,spatiotemporal,,
+3ext._running_path_-_san_vicente_blvd._-_morning,The receptionist announces the arrival.,receptionist,performs,announces the arrival,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Three is not Farrow.,three,contrasts_with,farrow,grounded,1,0.45,inter_event,ev_en8dc9b5_3_doc_2_chunk_0_part_0_ev_005,Event
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles Massey got Ann Rumsey a cute little island of George's.,miles massey,causes,ann rumsey gets a cute little island of george's,grounded,1,0.88,inter_event,ev_en8dc9b5_3_doc_2_chunk_0_part_0_ev_006,Event
+3ext._running_path_-_san_vicente_blvd._-_morning,George was impressed by Miles Massey.,george,affinity_with,miles massey,grounded,1,0.88,social,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_007,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,George hired Miles Massey.,george,performs,hired miles massey,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_007,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,George divorced his second wife.,george,undergoes,divorce from his second wife,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_007,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Muriel Rumsey is a night manager at McDonalds.,muriel rumsey,is_a,night manager at mcdonalds,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_011,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Marylin cannot have a baby with a man she does not love.,marylin,experiences,inability to have a baby with a man she does not love,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Marylin cannot submit a child to divorce.,marylin,experiences,inability to submit a child to divorce,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Sarah says kids are not so bad these days.,sarah,references,kids,grounded,1,0.88,inter_event,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_002,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,The witness was a hostess.,witness,is_a,hostess,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_1_ent_001,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,The witness was affiliated with Trans-World Airlines.,witness,affiliated_with,trans-world airlines,grounded,1,0.88,social,ent_en8dc9b5_3_doc_2_chunk_1_ent_001,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,The witness has a husband.,witness,kinship_with,husband,grounded,1,0.88,social,ent_en8dc9b5_3_doc_2_chunk_1_ent_001,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,The witness's husband manufactures staples.,husband,performs,manufactures staples,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,The witness's husband manufactures industrial brad-tacks.,husband,performs,manufactures industrial brad-tacks,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles chats with Wrigley.,miles,performs,chats with wrigley,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles is at the counsel's table.,miles,located_at,counsel's table,grounded,1,0.88,spatiotemporal,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Wrigley is a junior associate.,wrigley,is_a,junior associate,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,The witness has video.,witness,possesses,video,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_1_ent_001,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles has serious doubts about Wrigley.,miles,experiences,serious doubts about wrigley,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Kramer clerked for Scalia.,kramer,performs,clerked for scalia,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_005,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles says the courtroom is not a challenge.,miles,contrasts_with,the courtroom,grounded,1,0.45,inter_event,ev_en8dc9b5_17_doc_16_chunk_0_ev_006,Event
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles is an accountant.,miles,is_a,accountant,grounded,1,0.45,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles says they would like to offer the photographs into evidence.,miles,performs,offers photographs into evidence,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Marylin is in the waiting room.,marylin,occurs_at,waiting room,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_10_doc_9_chunk_0_part_0_ev_007,Event
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles claims the courtroom ruling happened before the deposition evidence was introduced.,conference table,possesses,large fruit and pastry plate,hallucinated,0,0.0,object,,
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles greets Ruth Rabinow.,miles,performs,greets ruth rabinow,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles introduces Rex Rexroth to Ruth Rabinow.,miles,performs,introduces rex rexroth to ruth rabinow,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles identifies Marylin as Mrs. Rexroth.,miles,performs,identifies marylin as mrs. rexroth,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Marylin identifies Miles as Mr. Massey.,marylin,performs,identifies miles as mr. massey,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Marylin is impressed.,marylin,experiences,impression,grounded,1,0.71,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Rex is impressed.,rex,experiences,impression,grounded,1,0.71,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Marylin greets Rex.,marylin,performs,greets rex,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Rex greets Marylin.,rex,performs,greets marylin,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,"Marylin says the purse contains Rex's papers, not her own documents.",ruth,uses,notarized martian marriage license,hallucinated,0,0.0,object,,
+3ext._running_path_-_san_vicente_blvd._-_morning,Sam is Sam.,sam,is_a,sam,grounded,1,0.88,object,ent_en8dc9b5_37_doc_36_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Sam is taking up fly fishing.,sam,uses,fly fishing,grounded,1,0.84,object,ent_en8dc9b5_37_doc_36_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles repeats the word 'yert.',miles,references,a yert,grounded,1,0.45,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles says Ruth is a living legend.,ruth,is_a,living legend,grounded,1,0.84,object,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_005,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles tells Wrigley he received the warning call from Marylin instead of from the firm.,the jury,performs,votes by telepathy,hallucinated,0,0.0,event_role,,
+3ext._running_path_-_san_vicente_blvd._-_morning,Ruth says that proposal is delusional.,ruth,experiences,delusionality,grounded,1,0.45,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_005,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles concedes the point.,miles,performs,concedes the point,grounded,1,0.45,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles already watched the tape.,miles,performs,watched the tape,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Rex winces.,rex,undergoes,winces,grounded,1,0.45,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Marylin leans forward.,marylin,performs,leans forward,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Marylin whispers to Rex.,marylin,performs,whispers to rex,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Rex has some Tagamet.,rex,possesses,tagamet,grounded,1,0.45,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Rex is contrite.,rex,experiences,contrition,grounded,1,0.45,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,A second Rex is introduced as the king of Indiana.,rex,is_a,king of indiana,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Ruth closes her attach case.,ruth,performs,closes her attach case,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_005,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Ruth goes through the door.,ruth,performs,goes through the door,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_005,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Ruth does not react.,ruth,experiences,doesn't react,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_005,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Marylin follows Ruth.,marylin,performs,follows ruth,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Marylin glances back.,marylin,performs,glances back,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Marylin is bemused.,marylin,experiences,bemusement,grounded,1,0.45,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Miles is sad.,miles,experiences,sadness,grounded,1,0.45,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,Rex was underestimated.,rex,experiences,underestimation,grounded,1,0.45,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,"Rex says, 'You're right.'",rex,performs,says you're right,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+3ext._running_path_-_san_vicente_blvd._-_morning,"Rex says, 'Screw her.'",rex,performs,says screw her,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+4int._gym_-_close_on,Sarah says he has a reputation for being tough.,sarah,references,a reputation for being tough,grounded,1,0.88,inter_event,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_002,Character
+4int._gym_-_close_on,Marylin says Lilly is up.,marylin,references,lilly's turn,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Howard says he has never been married before.,howard,references,never being married before,grounded,1,0.84,inter_event,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+4int._gym_-_close_on,The victim glances over her shoulder.,the victim,performs,glances over her shoulder,grounded,1,0.88,event_role,ent_en8dc9b5_4_doc_3_chunk_0_part_0_ent_001,Character
+4int._gym_-_close_on,The victim sees the monster bearing down on her and screams.,the victim,experiences,fear at the monster,grounded,1,0.84,event_role,ent_en8dc9b5_4_doc_3_chunk_0_part_0_ent_001,Character
+4int._gym_-_close_on,The victim runs to the exit.,the victim,performs,runs to the exit,grounded,1,0.88,event_role,ent_en8dc9b5_4_doc_3_chunk_0_part_0_ent_001,Character
+4int._gym_-_close_on,Marylin giggles.,marylin,experiences,amusement,grounded,1,0.81,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Sarah giggles.,sarah,experiences,amusement,grounded,1,0.7,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_002>ev_en8dc9b5_4_doc_3_chunk_1_part_1_ev_003,Event
+4int._gym_-_close_on,Sarah says she is dying.,sarah,references,dying,grounded,1,0.88,inter_event,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_002,Character
+4int._gym_-_close_on,The two instructors try to coax the sobbing woman back into the room.,the two instructors,performs,try to coax the sobbing woman back into the room,grounded,1,0.88,event_role,ent_en8dc9b5_4_doc_3_chunk_0_part_0_ent_007,Character
+4int._gym_-_close_on,The mugger tries to coax the sobbing woman back into the room.,the mugger,performs,tries to coax the sobbing woman back into the room,grounded,1,0.88,event_role,ent_en8dc9b5_4_doc_3_chunk_0_part_0_ent_002,Character
+4int._gym_-_close_on,Marylin says even Rex seemed perplexed.,marylin,references,rex being perplexed,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Kenneth moves the chess piece.,kenneth,performs,moves the chess piece,grounded,1,0.84,event_role,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+4int._gym_-_close_on,Marylin enters the restaurant.,marylin,performs,enters,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Miles thanks Marylin for coming.,miles,performs,thanks marylin for coming,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,The Maitre d' offers something to start.,maitre d',performs,offers something to start,grounded,1,0.84,event_role,ent_en8dc9b5_4_doc_3_chunk_1_part_0_ent_007,Character
+4int._gym_-_close_on,The Maitre d' offers wine.,maitre d',performs,offers wine,grounded,1,0.88,event_role,ent_en8dc9b5_4_doc_3_chunk_1_part_0_ent_007,Character
+4int._gym_-_close_on,Miles glances at the wine list.,miles,performs,glances at the wine list,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Miles suggests Bordeaux.,miles,performs,suggests bordeaux,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Miles suggests Chateau Margaux '57.,miles,performs,suggests chateau margaux '57,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,The maitre d' withdraws.,maitre d',performs,withdraws,grounded,1,0.81,event_role,ent_en8dc9b5_4_doc_3_chunk_1_part_0_ent_007,Character
+4int._gym_-_close_on,Miles regards Marylin.,miles,performs,regards marylin,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Miles props his chin on one fist.,miles,performs,props his chin on one fist,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Miles considers Marylin.,miles,performs,considers marylin,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,A waiter appears.,waiter,performs,appears,grounded,1,0.84,event_role,ent_en8dc9b5_16_doc_15_chunk_0_ent_003,Character
+4int._gym_-_close_on,The waiter pours two glasses.,waiter,performs,pours two glasses,grounded,1,0.84,event_role,ent_en8dc9b5_16_doc_15_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin is assumed to be a carnivore.,marylin,affinity_with,carnivore,grounded,1,0.45,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,"Rex says the den meeting was scheduled by Miles, not by Marylin.",invisible twin,performs,negotiated yesterday's deal,hallucinated,0,0.0,event_role,,
+4int._gym_-_close_on,The rabbi begins the food metaphor.,rabbi,performs,begins the food metaphor,grounded,1,0.84,event_role,ent_en8dc9b5_12_doc_11_chunk_0_ent_001,Character
+4int._gym_-_close_on,Marylin warns Miles that he could get in trouble.,marylin,performs,warns miles about trouble,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Miles says he and Marylin married with a signed pre-nup.,miles,performs,states he and marylin married with a signed pre-nup,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Miles says Marylin is not his client.,miles,performs,states marylin is not his client,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Marylin says Miles does not believe in marriage.,marylin,performs,states miles does not believe in marriage,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Miles says he is a huge fan of marriage.,miles,affinity_with,marriage,grounded,1,0.84,social,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Marylin says Miles has not met the right person.,marylin,performs,states miles has not met the right person,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Miles says he has not met the right person.,miles,performs,states he has not met the right person,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Marylin regards Miles for a moment.,marylin,performs,regards miles for a moment,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin was married to Rex.,marylin,kinship_with,rex,grounded,1,0.84,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin was a partner of Rex.,marylin,affiliated_with,rex,grounded,1,0.84,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin got five years older during the five years she and Rex were together.,marylin,experiences,getting five years older,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Rex wants a reconciliation.,rex,performs,wants a reconciliation,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+4int._gym_-_close_on,Marylin says they can discuss reconciliation after seeing the tape.,marylin,performs,discuss reconciliation,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Rex screwed up.,rex,performs,screwed up,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+4int._gym_-_close_on,Marylin nailed Rex's ass.,marylin,performs,nailed his ass,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin is going to have it mounted.,marylin,performs,have it mounted,grounded,1,0.45,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin is going to have her girlfriends over.,marylin,performs,have girlfriends over,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin is going to get on with her life.,marylin,performs,get on with her life,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Miles is a lot like Marylin.,miles,affinity_with,marylin,grounded,1,0.84,social,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Marylin tells Miles not to look at her ass.,marylin,hostility_with,miles,grounded,1,0.84,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Kenneth identifies Wrigley as Marylin's husband during the negotiation.,courier,performs,delivers a deed to atlantis,hallucinated,0,0.0,event_role,,
+4int._gym_-_close_on,Wrigley starts crying.,wrigley,experiences,crying,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+4int._gym_-_close_on,Rex whispers to Wrigley.,rex,performs,whispers to wrigley,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+4int._gym_-_close_on,Wrigley considers.,wrigley,performs,considers,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+4int._gym_-_close_on,Marilyn says she never used Miles's credit card.,marilyn,performs,denies using miles's credit card,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin wears headphones.,marylin,uses,headphones,grounded,1,0.45,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin Rexroth struggles to maintain her composure.,marylin rexroth,experiences,struggles to maintain her composure,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+4int._gym_-_close_on,"Marylin Rexroth's attitude is one of shocked, wounded innocence.",marylin rexroth,experiences,"shocked, wounded innocence",grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+4int._gym_-_close_on,Marylin says she was devastated.,marylin,performs,says she was devastated,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin was devastated.,marylin,experiences,devastation,grounded,1,0.39545454545454545,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003>ev_en8dc9b5_4_doc_3_chunk_1_part_1_ev_003,Event
+4int._gym_-_close_on,Ruth thanks Mrs. Rexroth.,ruth,performs,thanks mrs. rexroth,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_005,Character
+4int._gym_-_close_on,Miles is sober.,miles,experiences,sobriety,grounded,1,0.39545454545454545,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_4_doc_3_chunk_1_part_1_ev_003,Event
+4int._gym_-_close_on,Miles paces.,miles,performs,paces,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Miles has his hands clasped behind his back.,miles,possesses,hands clasped behind his back,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Miles affects to be lost in thought.,miles,performs,affects to be lost in thought,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Marylin experiences startled irritation.,marylin,experiences,startled irritation,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Miles stops pacing.,miles,performs,stops pacing,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Miles turns to face Marylin.,miles,performs,turns to face marylin,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Miles says the antique bowl was part of Rex's evidence rather than the Quatrain purchase.,elevator,occurs_at,casino in monaco,hallucinated,0,0.0,spatiotemporal,,
+4int._gym_-_close_on,Miles dials the number.,miles,performs,dials the number,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Ruth tries to cut it off.,ruth,performs,tries to cut it off,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_005,Character
+4int._gym_-_close_on,Ruth objects.,ruth,performs,objects,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_005,Character
+4int._gym_-_close_on,Miles asks whether Marylin knows those lines.,miles,references,lines,grounded,1,0.84,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Miles asks how high the wall around Marylin's heart is.,miles,references,wall around heart,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Marylin hesitates.,marylin,experiences,hesitation,grounded,1,0.39545454545454545,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003>ev_en8dc9b5_4_doc_3_chunk_1_part_1_ev_003,Event
+4int._gym_-_close_on,Marylin loved her husband Rex.,marylin,affinity_with,husband rex,grounded,1,0.84,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Rex is Marylin's husband.,marylin,kinship_with,husband rex,grounded,1,0.85,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,No one made bail for Marylin.,no one,performs,made bail for marylin,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+4int._gym_-_close_on,Marylin has always loved Rex.,marylin,affinity_with,rex,grounded,1,0.84,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin hoped to spend the rest of her life with Rex.,marylin,experiences,hope to spend the rest of her life with rex,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin finds it difficult to understand Miles.,marylin,experiences,difficulty understanding miles,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin tried her best.,marylin,experiences,trying her best,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Miles thanks the Judge.,miles,performs,thanks the judge,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Herb is described as Marylin's attorney during the hospital exchange.,howard's oil company,is_a,chain of moon mines,hallucinated,0,0.0,object,,
+4int._gym_-_close_on,Marylin knocks on the door.,marylin,performs,knocks on the door,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin knocks on the door again.,marylin,performs,knocks on the door again,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin knocks on the door a third time.,marylin,performs,knocks on the door a third time,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Ruth leans in.,ruth,performs,leans in,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_005,Character
+4int._gym_-_close_on,The woman is in her mid-fifties.,woman,is_a,woman in her mid fifties,grounded,1,0.84,object,ent_en8dc9b5_4_doc_3_chunk_0_part_0_ent_001,Character
+4int._gym_-_close_on,The woman is tense.,woman,experiences,tense,grounded,1,0.84,event_role,ent_en8dc9b5_4_doc_3_chunk_0_part_0_ent_001,Character
+4int._gym_-_close_on,Rex is alive.,rex,is_a,alive,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+4int._gym_-_close_on,Rex is waiting in the next room.,rex,located_at,the next room,grounded,1,0.84,spatiotemporal,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+4int._gym_-_close_on,Marylin is Patricia's mother.,marylin,kinship_with,patricia,grounded,1,0.85,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Marylin and Patricia were quite close.,marylin,affinity_with,patricia,grounded,1,0.84,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+4int._gym_-_close_on,Miles asks whether Patricia is Mrs. Rexroth's mother.,miles,references,patricia as mrs. rexroth's mother,grounded,1,0.84,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Patricia gives Marylin a silly little wave.,patricia,performs,waves at marylin,grounded,1,0.81,event_role,ent_en8dc9b5_19_doc_18_chunk_1_ent_003,Character
+4int._gym_-_close_on,Miles asks whether Patricia has ever met Mr. Rexroth.,miles,references,mr. rexroth,grounded,1,0.84,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Patricia is Mrs. Rexroth.,patricia,is_a,mrs. rexroth,grounded,1,0.88,object,ent_en8dc9b5_19_doc_18_chunk_1_ent_003,Character
+4int._gym_-_close_on,Patricia was married.,patricia,is_a,married woman,grounded,1,0.84,object,ent_en8dc9b5_19_doc_18_chunk_1_ent_003,Character
+4int._gym_-_close_on,Joe has never practiced law.,joe,is_a,lawyer,grounded,1,0.84,object,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+4int._gym_-_close_on,Miles asks whether divorce was her childhood aspiration.,miles,references,childhood aspiration,grounded,1,0.84,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+4int._gym_-_close_on,Patricia says divorce was not her only childhood aspiration.,patricia,references,divorce,grounded,1,0.84,inter_event,ent_en8dc9b5_19_doc_18_chunk_1_ent_003,Character
+4int._gym_-_close_on,Patricia says she is happy for Marylin.,patricia,experiences,happiness for marylin,grounded,1,0.84,event_role,ent_en8dc9b5_19_doc_18_chunk_1_ent_003,Character
+5int._sarah_sorkins_beach_house_-_night,The pasta is being cooked.,pasta,undergoes,being cooked,grounded,1,0.88,event_role,ent_en8dc9b5_23_doc_22_chunk_1_ent_008,Object
+5int._sarah_sorkins_beach_house_-_night,The salad is being tossed.,salad,undergoes,being tossed,grounded,1,0.88,event_role,,
+5int._sarah_sorkins_beach_house_-_night,The wine glasses are being filled.,wine glasses,undergoes,being filled,grounded,1,0.88,event_role,,
+5int._sarah_sorkins_beach_house_-_night,Girl's Night is at the beach house.,girl's night,occurs_at,the beach house,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_5_doc_4_chunk_0_ev_001,Event
+5int._sarah_sorkins_beach_house_-_night,Frankie Pentangeli sees his brother in court.,frankie pentangeli,experiences,seeing his brother in court,grounded,1,0.88,event_role,ent_en8dc9b5_5_doc_4_chunk_0_ent_011,Character
+5int._sarah_sorkins_beach_house_-_night,Massey is seductive.,massey,is_a,seductive,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+5int._sarah_sorkins_beach_house_-_night,Sarah finds that disgusting.,sarah,is_a,disgusted,grounded,1,0.84,object,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_002,Character
+5int._sarah_sorkins_beach_house_-_night,Sarah is only in it for Rex's money.,sarah,affiliated_with,rex's money,grounded,1,0.88,social,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_002,Character
+5int._sarah_sorkins_beach_house_-_night,Ramona has no plans.,ramona,possesses,no plans,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_003,Character
+5int._sarah_sorkins_beach_house_-_night,Ramona will have her own place soon.,ramona,possesses,own place soon,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_003,Character
+5int._sarah_sorkins_beach_house_-_night,The room follows the drawing.,the room,performs,follows the drawing,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+5int._sarah_sorkins_beach_house_-_night,Every woman in Marylin's life was divorced at least twice.,marylin,experiences,divorced women in her life,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+5int._sarah_sorkins_beach_house_-_night,Ramona begged Marylin to have a baby.,ramona,performs,begged marylin to have a baby,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_003,Character
+5int._sarah_sorkins_beach_house_-_night,The Godfather contains a courtroom scene.,the godfather,references,courtroom scene,grounded,1,0.84,inter_event,ent_en8dc9b5_5_doc_4_chunk_0_ent_010,Character
+5int._sarah_sorkins_beach_house_-_night,Frankie Pentangeli opens his veins in the bathtub.,frankie pentangeli,performs,opens his veins in the bathtub,grounded,1,0.88,event_role,ent_en8dc9b5_5_doc_4_chunk_0_ent_011,Character
+6int._giant_mock_tudor_-_beverly_hills,Miles is at his weekly chess game.,miles,occurs_at,weekly chess game,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_17_doc_16_chunk_0_ev_006,Event
+6int._giant_mock_tudor_-_beverly_hills,Dr. Kenneth Beck is Miles's college friend.,dr. kenneth beck,kinship_with,miles,grounded,1,0.88,social,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+6int._giant_mock_tudor_-_beverly_hills,Dr. Kenneth Beck is a disaffected plastic surgeon.,dr. kenneth beck,is_a,disaffected plastic surgeon,grounded,1,0.88,object,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+6int._giant_mock_tudor_-_beverly_hills,Miles has a Cohiba.,miles,possesses,cohiba,grounded,1,0.98,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ent_en8dc9b5_6_doc_5_chunk_0_ent_003,Object
+6int._giant_mock_tudor_-_beverly_hills,Dr. Kenneth Beck sips Merlot.,dr. kenneth beck,performs,sips merlot,grounded,1,0.88,event_role,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+6int._giant_mock_tudor_-_beverly_hills,Dr. Kenneth Beck moves a piece.,dr. kenneth beck,performs,moves a piece,grounded,1,0.88,event_role,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+6int._giant_mock_tudor_-_beverly_hills,Miles says she got absolutely nothing.,miles,references,she got absolutely nothing,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+6int._giant_mock_tudor_-_beverly_hills,Miles says her HMO does not cover plastic surgery.,miles,references,her hmo does not cover plastic surgery,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+6int._giant_mock_tudor_-_beverly_hills,Miles says she does not need plastic surgery.,miles,references,she does not need plastic surgery,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+6int._giant_mock_tudor_-_beverly_hills,Dr. Kenneth Beck says everyone needs plastic surgery.,dr. kenneth beck,references,everyone needs plastic surgery,grounded,1,0.88,inter_event,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+6int._giant_mock_tudor_-_beverly_hills,Dr. Kenneth Beck says Miles needs plastic surgery.,dr. kenneth beck,references,miles needs plastic surgery,grounded,1,0.88,inter_event,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+6int._giant_mock_tudor_-_beverly_hills,Miles says he does not need it.,miles,references,i don't need it,grounded,1,0.84,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+6int._giant_mock_tudor_-_beverly_hills,Dr. Kenneth Beck asks whether Miles wants Botox.,dr. kenneth beck,references,botox,grounded,1,0.98,inter_event,ent_en8dc9b5_6_doc_5_chunk_0_ent_002>ev_en8dc9b5_6_doc_5_chunk_0_ev_006,Event
+6int._giant_mock_tudor_-_beverly_hills,Dr. Kenneth Beck says Botox is a form of botulism.,dr. kenneth beck,references,botox is a form of botulism,grounded,1,0.88,inter_event,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+6int._giant_mock_tudor_-_beverly_hills,Dr. Kenneth Beck injects Botox into your forehead.,dr. kenneth beck,performs,injects botox into your forehead,grounded,1,0.88,event_role,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+6int._giant_mock_tudor_-_beverly_hills,Botox paralyzes your eyebrows.,botox,causes,paralyzes your eyebrows,grounded,1,0.88,inter_event,ev_en8dc9b5_6_doc_5_chunk_0_ev_006,Event
+6int._giant_mock_tudor_-_beverly_hills,Botox prevents frown lines.,botox,causes,no frown lines,grounded,1,0.84,inter_event,ev_en8dc9b5_6_doc_5_chunk_0_ev_006,Event
+6int._giant_mock_tudor_-_beverly_hills,Miles has a new watch.,miles,possesses,new watch,grounded,1,0.97,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ent_en8dc9b5_6_doc_5_chunk_0_ent_009,Object
+6int._giant_mock_tudor_-_beverly_hills,The officers say Wrigley signed the warrant request.,marylin,performs,removes a full-size cello from her purse,hallucinated,0,0.0,event_role,,
+6int._giant_mock_tudor_-_beverly_hills,The construction worker apologizes.,construction worker,performs,apologizes,grounded,1,0.84,event_role,ent_en8dc9b5_47_doc_46_chunk_0_ent_002,Character
+6int._giant_mock_tudor_-_beverly_hills,The LeCoultre Revers is a watch.,lecoultre revers,is_a,watch,grounded,1,0.88,object,ent_en8dc9b5_6_doc_5_chunk_0_ent_009,Object
+6int._giant_mock_tudor_-_beverly_hills,The LeCoultre Revers has a flip face.,lecoultre revers,possesses,flip face,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+6int._giant_mock_tudor_-_beverly_hills,The LeCoultre Revers can be set for two time zones.,lecoultre revers,possesses,two time zones,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+6int._giant_mock_tudor_-_beverly_hills,Miles says the watch was a gift from a client.,miles,references,gift from a client,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+6int._giant_mock_tudor_-_beverly_hills,Kenneth says Miles never leaves Beverly Hills.,kenneth,references,beverly hills,grounded,1,0.88,inter_event,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+6int._giant_mock_tudor_-_beverly_hills,Kenneth suggests setting one side for Bel Air.,kenneth,references,bel air,grounded,1,0.88,inter_event,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+6int._giant_mock_tudor_-_beverly_hills,Miles says they were in college.,miles,references,college,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+6int._giant_mock_tudor_-_beverly_hills,Miles says Kenneth was going to be a cardiac surgeon.,miles,references,cardiac surgeon,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+6int._giant_mock_tudor_-_beverly_hills,Miles says he was going to clerk for the Supreme Court.,miles,references,clerk for the supreme court,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+6int._giant_mock_tudor_-_beverly_hills,Kenneth says he was going to play golf.,kenneth,references,golf,grounded,1,0.88,inter_event,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+6int._giant_mock_tudor_-_beverly_hills,Kenneth says Miles was going to have Asian girlfriends.,kenneth,references,asian girlfriends,grounded,1,0.88,inter_event,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+6int._giant_mock_tudor_-_beverly_hills,Miles says denial is not a river in Egypt.,miles,references,denial is not a river in egypt,grounded,1,0.99,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_6_doc_5_chunk_1_ev_008,Event
+6int._giant_mock_tudor_-_beverly_hills,Kenneth moves a chess piece.,kenneth,performs,moves a chess piece,grounded,1,0.88,event_role,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+6int._giant_mock_tudor_-_beverly_hills,Kenneth says Miles is in check.,kenneth,references,check,grounded,1,0.95,inter_event,ent_en8dc9b5_6_doc_5_chunk_0_ent_002>ev_en8dc9b5_6_doc_5_chunk_1_ev_009,Event
+6int._giant_mock_tudor_-_beverly_hills,Miles says he should be in therapy.,miles,references,therapy,grounded,1,0.99,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_6_doc_5_chunk_1_ev_010,Event
+7int._miles_masseys_office,Miles stares contemplatively at the ceiling.,miles,experiences,contemplation,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+7int._miles_masseys_office,Miles responds to the silence.,miles,performs,speaks to silence,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+7int._miles_masseys_office,The voice is female.,voice,is_a,female voice,grounded,1,0.88,object,ent_en8dc9b5_7_doc_6_chunk_1_ent_002,Character
+7int._miles_masseys_office,Miles is surprised.,miles,experiences,surprise,grounded,1,0.99,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_7_doc_6_chunk_1_ev_003,Event
+7int._miles_masseys_office,Rex is poor.,rex,is_a,poor,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+7int._miles_masseys_office,Rex has no assets.,rex,possesses,no assets,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+8int._office,The office is dim and gloomy.,office,is_a,"dim, gloomy place",grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+8int._office,The ancient man is small and hunched.,ancient man,is_a,"small, hunched man",grounded,1,0.88,object,ent_en8dc9b5_7_doc_6_chunk_1_ent_002,Character
+8int._office,The ancient man is seated behind an enormous desk.,ancient man,is_a,man seated behind an enormous desk,grounded,1,0.88,object,ent_en8dc9b5_7_doc_6_chunk_1_ent_002,Character
+8int._office,The gallows shape is tall and rail thin.,gallows shape,is_a,"tall, rail thin shape",grounded,1,0.88,object,ent_en8dc9b5_8_doc_7_chunk_0_ent_005,Object
+8int._office,"The gallows shape has a swinging, glinting appendage.",gallows shape,possesses,"swinging, glinting appendage",grounded,1,0.88,object,,
+8int._office,"The voice is old, dry, and rasping.",voice,is_a,"old, dry, rasping voice",grounded,1,0.88,object,ent_en8dc9b5_7_doc_6_chunk_1_ent_002,Character
+8int._office,The voice is lightly accented.,voice,is_a,lightly accented voice,grounded,1,0.88,object,ent_en8dc9b5_7_doc_6_chunk_1_ent_002,Character
+8int._office,The voice seems to come from a long-gone Brooklyn boyhood.,voice,references,a long-gone brooklyn boyhood,grounded,1,0.88,inter_event,ent_en8dc9b5_7_doc_6_chunk_1_ent_002,Character
+8int._office,The voice seems like the voice of the gloom itself.,voice,contrasts_with,the gloom itself,grounded,1,0.45,inter_event,ev_en8dc9b5_8_doc_7_chunk_0_ev_004,Event
+8int._office,The glinting appendage is an IV.,glinting appendage,is_a,iv,grounded,1,0.88,object,ent_en8dc9b5_8_doc_7_chunk_0_ent_006,Object
+8int._office,Billable hours are associate counsel and consultative.,billable hours,is_a,associate counsel and consultative,grounded,1,0.88,object,ent_en8dc9b5_8_doc_7_chunk_0_ent_009,Character
+8int._office,Billable hours are at the full attorney rate.,billable hours,is_a,full attorney rate,grounded,1,0.88,object,ent_en8dc9b5_8_doc_7_chunk_0_ent_009,Character
+8int._office,Billable hours include lunches charged.,billable hours,is_a,lunches charged,grounded,1,0.84,object,ent_en8dc9b5_8_doc_7_chunk_0_ent_009,Character
+8int._office,The man's hand is withered and roped with veins.,the man's hand,is_a,withered and roped with veins,grounded,1,0.88,object,ent_en8dc9b5_7_doc_6_chunk_1_ent_002,Character
+8int._office,Miles accepts a clammy shake.,miles,experiences,clammy shake,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+8int._office,The voice says someone is the engine.,voice,references,engine,grounded,1,0.84,inter_event,ent_en8dc9b5_7_doc_6_chunk_1_ent_002,Character
+8int._office,Miles says thank you to Herb.,miles,performs,says thank you to herb,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+9int._miles_office,Miles is in Miles office.,miles,occurs_at,miles office,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_9_doc_8_chunk_0_ev_002,Event
+9int._miles_office,Miles steeples his fingers.,miles,performs,steeples his fingers,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+9int._miles_office,The intercom squawks.,intercom,performs,squawks,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_002,Character
+9int._miles_office,Miles is Mr. Massey.,miles,is_a,mr. massey,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+9int._miles_office,Miles is feeling very fragile.,miles,experiences,feeling very fragile,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+9int._miles_office,The voice says Marylin Rexroth is here now.,voice,performs,says marylin rexroth is here now,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_004,Character
+9int._miles_office,Marylin Rexroth is at Miles office.,marylin rexroth,occurs_at,miles office,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_9_doc_8_chunk_0_ev_004,Event
+10int._private_bathroom,Miles runs his fingers through his hair.,miles,performs,runs his fingers through his hair,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Miles examines himself in the mirror.,miles,performs,examines himself in the mirror,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Kenneth is Miles.,kenneth,is_a,miles,grounded,1,0.88,object,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+10int._private_bathroom,Miles clears his throat.,miles,performs,clears his throat,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Miles speaks with a lower pitch.,miles,performs,speaks with a lower pitch,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Miles runs a finger across his teeth.,miles,performs,runs a finger across his teeth,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Miles's teeth squeak.,miles's teeth,performs,squeak,grounded,1,0.88,event_role,,
+10int._private_bathroom,Miles opens the door.,miles,performs,opens the door,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,"The man in the doorway is a large, roughly handsome middle-aged man.",man in the doorway,is_a,large roughly handsome middle aged man,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+10int._private_bathroom,Marylin Rexroth introduces Howard D. Doyle.,marylin rexroth,performs,introduces howard d. doyle,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+10int._private_bathroom,Howard D. Doyle is affiliated with Doyle Oil.,howard d. doyle,affiliated_with,doyle oil,grounded,1,0.88,social,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+10int._private_bathroom,Howard D. Doyle says he knows Miles.,howard d. doyle,references,miles,grounded,1,0.84,inter_event,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+10int._private_bathroom,Ruth says Marylin expected jail time before the warrant was served.,kenneth,performs,diagnoses miles with a legal allergy,hallucinated,0,0.0,event_role,,
+10int._private_bathroom,Marylin refuses.,marylin,performs,refuses,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+10int._private_bathroom,Mr. Massey represented Martin Reiser.,mr. massey,performs,represented martin reiser,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Martin Reiser is an ex-brother-in-law.,martin reiser,is_a,ex-brother-in-law,grounded,1,0.88,object,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_005,Character
+10int._private_bathroom,Miles offers a seat.,miles,performs,offers a seat,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Marylin glides into the office.,marylin,performs,glides into the office,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+10int._private_bathroom,Marylin seats herself on the couch.,marylin,performs,seats herself on the couch,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+10int._private_bathroom,Doyle uses one proprietary hand on Marylin's knee.,doyle,uses,one proprietary hand on marylin's knee,grounded,1,0.88,object,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+10int._private_bathroom,Mrs. Reiser has had a few suicide attempts.,mrs. reiser,experiences,few suicide attempts,grounded,1,0.88,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_004,Character
+10int._private_bathroom,Mrs. Reiser had a little inpatient stint.,mrs. reiser,experiences,little inpatient stint,grounded,1,0.88,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_004,Character
+10int._private_bathroom,Mrs. Reiser misses her kids.,mrs. reiser,experiences,missing her kids,grounded,1,0.88,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_004,Character
+10int._private_bathroom,Mrs. Reiser lives with a nurse.,mrs. reiser,affiliated_with,a nurse,grounded,1,0.88,social,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_004,Character
+10int._private_bathroom,Mrs. Reiser takes her meds.,mrs. reiser,uses,meds,grounded,1,0.88,object,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_004,Character
+10int._private_bathroom,Mrs. Reiser goes to occupational therapy.,mrs. reiser,performs,goes to occupational therapy,grounded,1,0.88,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_004,Character
+10int._private_bathroom,Occupational therapy occurs at a local sheltered workshop.,occupational therapy,occurs_at,a local sheltered workshop,grounded,1,0.98,spatiotemporal,ev_en8dc9b5_10_doc_9_chunk_0_part_1_ev_001>ent_en8dc9b5_10_doc_9_chunk_0_part_1_ent_004,Location
+10int._private_bathroom,Mrs. Reiser makes felt wallets.,mrs. reiser,performs,makes felt wallets,grounded,1,0.88,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_004,Character
+10int._private_bathroom,Doyle has a felt wallet.,doyle,possesses,a felt wallet,grounded,1,0.88,object,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+10int._private_bathroom,Doyle pulls out a deranged piece of felt stuffed with money.,doyle,uses,a deranged piece of felt stuffed with money,grounded,1,0.88,object,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+10int._private_bathroom,Most of the contents slip to the floor.,most of the contents,performs,slip to the floor,grounded,1,0.88,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_1_ent_007,Object
+10int._private_bathroom,Miles charges by the hour.,miles,is_a,someone who charges by the hour,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Marylin says Howard and she are planning to marry.,marylin,references,howard and marylin planning to marry,grounded,1,0.84,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+10int._private_bathroom,Miles is stunned.,miles,experiences,stunned,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Doyle's divorce has come through.,doyle,is_a,divorced person,grounded,1,0.84,object,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+10int._private_bathroom,Doyle says he should have called Miles.,doyle,references,calling miles,grounded,1,0.84,inter_event,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+10int._private_bathroom,Doyle's wife gets to see the children.,doyle's wife,experiences,seeing the children,grounded,1,0.84,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_1_ent_002,Character
+10int._private_bathroom,Amanda and Howard were together for sixteen years.,amanda,kinship_with,howard,grounded,1,0.71,social,ent_en8dc9b5_28_doc_27_chunk_0_ent_005>ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+10int._private_bathroom,Doyle gives Miles pictures.,doyle,performs,gives pictures to miles,grounded,1,0.84,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+10int._private_bathroom,Doyle removes a family photo from the felt wallet.,doyle,performs,removes a family photo from the felt wallet,grounded,1,0.84,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+10int._private_bathroom,Agent Wilson says Miles concealed Rex's tax records.,antique bowl,performs,translates the prenuptial agreement into dolphin sounds,hallucinated,0,0.0,event_role,,
+10int._private_bathroom,The receptionist announces the arrival.,receptionist,performs,announces the arrival,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_003,Character
+10int._private_bathroom,An ear is visible in the shot.,ear,part_of,shot,grounded,1,0.45,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Miles congratulates Doyle.,miles,performs,congratulates doyle,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Marylin and Rex broke up.,marylin and rex,performs,broke up,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+10int._private_bathroom,Marylin was very attracted to Doyle.,marylin,affinity_with,doyle,grounded,1,0.84,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+10int._private_bathroom,Doyle was very attracted to Marylin.,doyle,affinity_with,marylin,grounded,1,0.84,social,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+10int._private_bathroom,Marylin calls Doyle Howard.,marylin,performs,calls doyle howard,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+10int._private_bathroom,Marylin asks Miles whether his pre-nup is the best there is.,marylin,references,miles's pre-nup,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+10int._private_bathroom,Miles says Harvard Law devotes an entire semester to the pre-nup.,harvard law,references,an entire semester devoted to the pre-nup,grounded,1,0.84,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Doyle reacts to Harvard.,doyle,references,harvard,grounded,1,0.88,inter_event,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+10int._private_bathroom,Miles warns Marylin and Doyle to understand what they are asking for.,miles,performs,warns marylin and doyle,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Marylin is absolutely sure that is what she wants.,marylin,affinity_with,that,grounded,1,0.84,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+10int._private_bathroom,Ruth closes her attach case.,ruth,performs,closes her attach case,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Massey is called a bad bad little girl.,massey,references,bad bad little girl,grounded,1,0.84,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Miles says the IRS issue is about cash only.,miles,references,irs issue,grounded,1,0.45,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+10int._private_bathroom,Doyle has a fiancee.,doyle,possesses,fiancee,grounded,1,0.37941176470588234,object,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003>ent_en8dc9b5_10_doc_9_chunk_0_part_1_ent_007,Object
+10int._private_bathroom,Doyle asks what part.,doyle,references,part,grounded,1,0.88,inter_event,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+10int._private_bathroom,Miles moves to kiss her.,miles,performs,moves to kiss her,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+11int._howards_house_-_night,"Joe says the inhaler belongs to Miles, not Rex.",house,is_a,legally only rex's,hallucinated,0,0.0,object,,
+11int._howards_house_-_night,Miles experiences the inability to experience pleasure.,miles,experiences,the inability to experience pleasure,grounded,1,0.8983333333333334,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_11_doc_10_chunk_0_ev_001,Event
+11int._howards_house_-_night,Marylin Rexroth came into Miles's office.,marylin rexroth,performs,came into miles's office,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+11int._howards_house_-_night,Marylin Rexroth signed a pre-nup with Howard Doyle.,marylin rexroth,performs,signed a pre-nup with howard doyle,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+11int._howards_house_-_night,Howard Doyle is Doyle Oil.,howard doyle,is_a,doyle oil,grounded,1,0.88,object,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+11int._howards_house_-_night,The pre-nup is a Massey Pre-nup.,pre-nup,is_a,massey pre-nup,grounded,1,0.93,object,ent_en8dc9b5_2_doc_1_chunk_0_part_1_ent_005>ent_en8dc9b5_11_doc_10_chunk_0_ent_008,Concept
+11int._howards_house_-_night,Marylin Rexroth loves Howard Doyle.,marylin rexroth,affinity_with,howard doyle,grounded,1,0.88,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,Rabbi Bolensky emerges from behind the bower.,rabbi bolensky,performs,emerges from behind the bower,grounded,1,0.88,event_role,ent_en8dc9b5_12_doc_11_chunk_0_ent_001,Character
+12ext._a_wedding_bower_-_aka_chuppa,Rabbi Bolensky strums his guitar.,rabbi bolensky,performs,strums his guitar,grounded,1,0.88,event_role,ent_en8dc9b5_12_doc_11_chunk_0_ent_001,Character
+12ext._a_wedding_bower_-_aka_chuppa,Rabbi Bolensky sings.,rabbi bolensky,performs,sings,grounded,1,0.88,event_role,ent_en8dc9b5_12_doc_11_chunk_0_ent_001,Character
+12ext._a_wedding_bower_-_aka_chuppa,Howard D. Doyle is before the altar.,howard d. doyle,occurs_at,the altar,grounded,1,0.99,spatiotemporal,ev_en8dc9b5_12_doc_11_chunk_0_ev_002>ent_en8dc9b5_12_doc_11_chunk_0_ent_009,Location
+12ext._a_wedding_bower_-_aka_chuppa,Howard D. Doyle is with Marylin.,howard d. doyle,affiliated_with,marylin,grounded,1,0.88,social,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,Howard D. Doyle is in a tuxedo.,howard d. doyle,uses,a tuxedo,grounded,1,0.88,object,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,Howard D. Doyle is wearing a yarmulke.,howard d. doyle,uses,a yarmulke,grounded,1,0.88,object,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,Marylin is dressed in a simple Kennedy-type gown.,marylin,uses,a simple kennedy-type gown,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,Wrigley seats himself.,wrigley,performs,seats himself,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,Miles seats himself.,miles,performs,seats himself,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,Wrigley is sniffling.,wrigley,experiences,sniffling,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,Miles is irritated.,miles,experiences,irritation,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,Wrigley says he cannot help it.,wrigley,experiences,inability to help it,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,Wrigley says it gets him every time.,wrigley,experiences,being moved every time,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,Marriage is like a great feast.,marriage,is_a,great feast,grounded,1,0.88,object,ent_en8dc9b5_12_doc_11_chunk_0_ent_011,Concept
+12ext._a_wedding_bower_-_aka_chuppa,Courtship is the appetizer.,courtship,is_a,appetizer,grounded,1,0.88,object,ent_en8dc9b5_12_doc_11_chunk_0_ent_011,Concept
+12ext._a_wedding_bower_-_aka_chuppa,The early years are the first course.,the early years,is_a,the first course,grounded,1,0.88,object,ent_en8dc9b5_12_doc_11_chunk_0_ent_011,Concept
+12ext._a_wedding_bower_-_aka_chuppa,The early years are described as a carefully poached fish dish.,the early years,references,a carefully poached fish dish,grounded,1,0.88,inter_event,ev_en8dc9b5_12_doc_11_chunk_0_ev_008,Event
+12ext._a_wedding_bower_-_aka_chuppa,The early years are described as a light pasta.,the early years,references,a light pasta,grounded,1,0.88,inter_event,ev_en8dc9b5_12_doc_11_chunk_0_ev_008,Event
+12ext._a_wedding_bower_-_aka_chuppa,The light pasta is tortellini stuffed with cheese and hope.,the light pasta,is_a,tortellini stuffed with cheese and hope,grounded,1,0.88,object,,
+12ext._a_wedding_bower_-_aka_chuppa,Mature love is a hearty stew.,mature love,is_a,hearty stew,grounded,1,0.88,object,,
+12ext._a_wedding_bower_-_aka_chuppa,Dessert is the reward for years spent together.,dessert,is_a,reward for years spent together,grounded,1,0.88,object,,
+12ext._a_wedding_bower_-_aka_chuppa,Dessert is described as the sweetness of a life well lived.,dessert,references,the sweetness of a life well lived,grounded,1,0.88,inter_event,ev_en8dc9b5_12_doc_11_chunk_1_ev_001,Event
+12ext._a_wedding_bower_-_aka_chuppa,Dessert includes a sorbet of grandchildren.,dessert,references,a sorbet of grandchildren,grounded,1,0.84,inter_event,ev_en8dc9b5_12_doc_11_chunk_1_ev_001,Event
+12ext._a_wedding_bower_-_aka_chuppa,Dessert includes the decafe demitasse of retirement.,dessert,references,the decafe demitasse of retirement,grounded,1,0.88,inter_event,ev_en8dc9b5_12_doc_11_chunk_1_ev_001,Event
+12ext._a_wedding_bower_-_aka_chuppa,"Miles says Rex’s collapse is what caused Marylin to hire him, reversing the order of events.",joe's inhaler,performs,projects a tiny legal brief into the air,hallucinated,0,0.0,event_role,,
+12ext._a_wedding_bower_-_aka_chuppa,Heads turn toward Miles.,miles,experiences,head turns,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,Rabbi Bolensky pronounces Doyle and Marylin man and wife.,rabbi bolensky,performs,pronounces doyle and marylin man and wife,grounded,1,0.88,event_role,ent_en8dc9b5_12_doc_11_chunk_0_ent_001,Character
+12ext._a_wedding_bower_-_aka_chuppa,Doyle and Marylin are man and wife.,doyle and marylin,is_a,man and wife,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,A kiss is followed by cheers.,a kiss,precedes,cheers,grounded,1,0.88,inter_event,ev_en8dc9b5_25_doc_24_chunk_1_ev_006,Event
+12ext._a_wedding_bower_-_aka_chuppa,Cheers are followed by applause.,cheers,precedes,applause,grounded,1,0.88,inter_event,ev_en8dc9b5_12_doc_11_chunk_1_ev_002,Event
+12ext._a_wedding_bower_-_aka_chuppa,Rabbi Bolensky strolls through the crowd.,rabbi bolensky,performs,strolls through the crowd,grounded,1,0.88,event_role,ent_en8dc9b5_12_doc_11_chunk_0_ent_001,Character
+12ext._a_wedding_bower_-_aka_chuppa,Rabbi Bolensky has a heaping platter of smoked salmon.,rabbi bolensky,possesses,a heaping platter of smoked salmon,grounded,1,0.84,object,ent_en8dc9b5_12_doc_11_chunk_0_ent_001,Character
+12ext._a_wedding_bower_-_aka_chuppa,Miles is darkly brooding.,miles,experiences,dark brooding,grounded,1,0.86625,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_12_doc_11_chunk_1_ev_004,Event
+12ext._a_wedding_bower_-_aka_chuppa,Wrigley opens a Tiffany box.,wrigley,uses,tiffany box,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,Wrigley shows Miles the contents of the Tiffany box.,wrigley,performs,shows miles the contents of the tiffany box,grounded,1,0.99,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004>ev_en8dc9b5_12_doc_11_chunk_1_ev_005,Event
+12ext._a_wedding_bower_-_aka_chuppa,Marylin beams up at Howard D.,marylin,experiences,beaming up at howard d.,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,Laughter occurs in the gallery.,laughter,occurs_at,gallery,grounded,1,0.84,spatiotemporal,ev_en8dc9b5_23_doc_22_chunk_0_ev_005,Event
+12ext._a_wedding_bower_-_aka_chuppa,Doyle says he is going to start the marriage by eating his words.,doyle,performs,eats his words,grounded,1,0.84,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,Doyle uses a piece of paper.,doyle,uses,piece of paper,grounded,1,0.84,object,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,Doyle uses pesto.,doyle,uses,pesto,grounded,1,0.45,object,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,Marylin is surprised and bemused.,marylin,experiences,surprise and bemusement,hallucinated,0,0.0,event_role,,
+12ext._a_wedding_bower_-_aka_chuppa,Doyle tears strips off the paper.,doyle,performs,tears strips off the paper,hallucinated,0,0.0,event_role,,
+12ext._a_wedding_bower_-_aka_chuppa,Doyle dips paper strips into the sauce.,doyle,performs,dips paper strips into sauce,hallucinated,0,0.0,event_role,,
+12ext._a_wedding_bower_-_aka_chuppa,Doyle eats paper strips.,doyle,performs,eats paper strips,hallucinated,0,0.0,event_role,,
+12ext._a_wedding_bower_-_aka_chuppa,Doyle repeats that this is for Darling.,doyle,performs,repeats that this is for darling,grounded,1,0.84,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,The crowd murmurs.,crowd,experiences,murmuring,grounded,1,0.45,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,The crowd applauds.,crowd,experiences,applause,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,The crowd cheers.,crowd,experiences,cheers,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,Miles is puzzled.,miles,experiences,puzzlement,grounded,1,0.39999999999999997,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_12_doc_11_chunk_1_ev_004,Event
+12ext._a_wedding_bower_-_aka_chuppa,Miles says Doyle is eating the pre-nup.,miles,references,the pre-nup,grounded,1,0.84,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,Doyle is eating the paper.,doyle,performs,eating the paper,grounded,1,0.84,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,Doyle says the action is for Darling.,doyle,references,darling,grounded,1,0.84,inter_event,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,Wrigley bursts into tears.,wrigley,experiences,tears,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,Wrigley says it is the most romantic thing he has ever seen.,wrigley,references,the most romantic thing ever seen,grounded,1,0.84,inter_event,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,Marylin stands at the punch bowl.,marylin,located_at,the punch bowl,grounded,1,0.84,spatiotemporal,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,Marylin is accepting congratulations.,marylin,experiences,congratulations,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,Miles approaches Marylin.,miles,performs,approaching marylin,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,Miles draws Marylin aside.,miles,performs,drawing marylin aside,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+12ext._a_wedding_bower_-_aka_chuppa,Miles says Howard is a diamond in the rough.,howard,is_a,diamond in the rough,hallucinated,0,0.0,object,,
+12ext._a_wedding_bower_-_aka_chuppa,Marylin says she cannot have children.,marylin,references,not having children,grounded,1,0.84,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,Wrigley says the gun was brought by Marylin rather than by Rex.,gun,performs,fires confetti subpoenas,hallucinated,0,0.0,event_role,,
+12ext._a_wedding_bower_-_aka_chuppa,The gun returns to bullets.,gun,performs,returns to bullets,hallucinated,0,0.0,event_role,,
+12ext._a_wedding_bower_-_aka_chuppa,Kenneth moves the chess piece.,kenneth,performs,moves the chess piece,grounded,1,0.84,event_role,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+12ext._a_wedding_bower_-_aka_chuppa,Howard does it.,howard,performs,does it,grounded,1,0.84,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+12ext._a_wedding_bower_-_aka_chuppa,Howard thought it was his own idea.,howard,experiences,thought it was his own idea,grounded,1,0.84,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+13int._lear_jet_cockpit,The uniformed pilot is a pilot.,uniformed pilot,is_a,pilot,grounded,1,0.88,object,ent_en8dc9b5_13_doc_12_chunk_0_ent_001,Character
+13int._lear_jet_cockpit,The pilot is uniformed.,uniformed pilot,is_a,uniformed,grounded,1,0.88,object,ent_en8dc9b5_13_doc_12_chunk_0_ent_001,Character
+13int._lear_jet_cockpit,There is a copilot.,copilot,is_a,copilot,grounded,1,0.84,object,ent_en8dc9b5_13_doc_12_chunk_0_ent_002,Character
+13int._lear_jet_cockpit,The pilot and copilot are cruising the corporate jet.,uniformed pilot and copilot,performs,cruising the corporate jet,grounded,1,0.88,event_role,ent_en8dc9b5_13_doc_12_chunk_0_ent_001,Character
+13int._lear_jet_cockpit,The corporate jet is high above a vast ocean of clouds.,corporate jet,occurs_at,high above a vast ocean of clouds,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_13_doc_12_chunk_0_ev_001,Event
+13int._lear_jet_cockpit,The pilot is wearing a headset.,pilot,uses,headset,grounded,1,0.88,object,ent_en8dc9b5_13_doc_12_chunk_0_ent_001,Character
+13int._lear_jet_cockpit,The pilot listens for a long moment.,pilot,performs,listening,grounded,1,0.88,event_role,ent_en8dc9b5_13_doc_12_chunk_0_ent_001,Character
+13int._lear_jet_cockpit,The pilot throws a small toggle switch.,pilot,performs,throwing a small toggle switch,grounded,1,0.88,event_role,ent_en8dc9b5_13_doc_12_chunk_0_ent_001,Character
+13int._lear_jet_cockpit,The pilot reaches above his head.,pilot,performs,reaching above his head,grounded,1,0.88,event_role,ent_en8dc9b5_13_doc_12_chunk_0_ent_001,Character
+13int._lear_jet_cockpit,The cockpit becomes awash with sound.,cockpit,undergoes,being awash with sound,grounded,1,0.84,event_role,ent_en8dc9b5_13_doc_12_chunk_0_ent_005,Character
+13int._lear_jet_cockpit,A male voice sings.,male voice,performs,singing,grounded,1,0.88,event_role,ent_en8dc9b5_13_doc_12_chunk_0_ent_005,Character
+14int._cabin_of_lear_jet,Two naked damsels are screaming with laughter.,two naked damsels,performs,screaming with laughter,grounded,1,0.84,event_role,ent_en8dc9b5_14_doc_13_chunk_0_ent_002,Character
+14int._cabin_of_lear_jet,Two naked damsels are present in the cabin of the Lear jet.,two naked damsels,present_on,cabin of lear jet,grounded,1,0.88,spatiotemporal,ent_en8dc9b5_14_doc_13_chunk_0_ent_002,Character
+14int._cabin_of_lear_jet,Howard winks.,howard,performs,winks,grounded,1,0.575,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+14int._cabin_of_lear_jet,Caps are pushing Rex Rexroth around the cabin on a miniature locomotive.,caps,performs,pushes rex rexroth around the cabin on a miniature locomotive,grounded,1,0.88,event_role,ent_en8dc9b5_14_doc_13_chunk_0_ent_007,Object
+14int._cabin_of_lear_jet,Rex Rexroth is the mini-mall king.,rex rexroth,is_a,mini-mall king,grounded,1,0.95,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_001>ent_en8dc9b5_14_doc_13_chunk_0_ent_014,Concept
+14int._cabin_of_lear_jet,Rex Rexroth is getting to be the richest man on the West Coast.,rex rexroth,is_a,richest man on the west coast,grounded,1,0.9,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_001>ent_en8dc9b5_14_doc_13_chunk_0_ent_015,Concept
+14int._cabin_of_lear_jet,The copilot shakes his head.,the copilot,experiences,shaking his head,grounded,1,0.88,event_role,ent_en8dc9b5_14_doc_13_chunk_0_ent_003,Character
+14int._cabin_of_lear_jet,The plane roars away.,the plane,performs,roars away,grounded,1,0.88,event_role,ent_en8dc9b5_14_doc_13_chunk_0_ent_005,Vehicle
+15int._miles_office,Miles speaks about litigation.,miles,performs,speaks about litigation,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+15int._miles_office,A secretary seated by Miles's desk takes notes.,secretary,performs,takes notes,grounded,1,0.84,event_role,ent_en8dc9b5_15_doc_14_chunk_0_ent_005,Character
+15int._miles_office,The secretary is seated by Miles's desk.,secretary,located_at,by miles's desk,grounded,1,0.84,spatiotemporal,ent_en8dc9b5_15_doc_14_chunk_0_ent_005,Character
+15int._miles_office,Wrigley was having lunch with Ruth Rabinow's assistant.,wrigley,performs,has lunch with ruth rabinow's assistant,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+15int._miles_office,Marylin Rexroth is divorced.,marylin rexroth,is_a,divorced person,grounded,1,0.88,object,,
+15int._miles_office,Miles is delighted.,miles,experiences,delight,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+15int._miles_office,Marylin Rexroth is richer than Croesus.,marylin rexroth,possesses,great wealth,grounded,1,0.88,object,ent_en8dc9b5_22_doc_21_chunk_0_ent_002,Character
+15int._miles_office,Marylin Rexroth could buy and sell Wrigley ten times over.,marylin rexroth,possesses,wealth greater than wrigley's,grounded,1,0.88,object,,
+15int._miles_office,Miles says the settlement requires approval from Howard before Marylin can respond.,dinosaur egg,located_at,humidor wall,hallucinated,0,0.0,spatiotemporal,,
+15int._miles_office,Marylin Rexroth is an athlete.,marylin rexroth,is_a,athlete,grounded,1,0.88,object,,
+15int._miles_office,Marylin Rexroth is at the peak of her power.,marylin rexroth,possesses,peak of her power,grounded,1,0.88,object,,
+15int._miles_office,Miles hits the call button.,miles,uses,call button,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+16int._fancy_restaurant,Marylin is seated at a table in the fancy restaurant.,marylin,present_on,table at fancy restaurant,grounded,1,0.84,spatiotemporal,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+16int._fancy_restaurant,Miles is seated at a table in the fancy restaurant.,miles,present_on,table at fancy restaurant,grounded,1,0.84,spatiotemporal,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+16int._fancy_restaurant,The waiter pours champagne for Marylin and Miles.,waiter,performs,pours champagne for marylin and miles,grounded,1,0.88,event_role,ent_en8dc9b5_16_doc_15_chunk_0_ent_003,Character
+16int._fancy_restaurant,"The champagne is Le Veuve Clicquot Ponsardin, 1982.",champagne,is_a,"le veuve clicquot ponsardin, 1982",grounded,1,0.88,object,ent_en8dc9b5_16_doc_15_chunk_0_ent_004,Object
+16int._fancy_restaurant,Miles thanks the waiter.,miles,performs,thanks the waiter,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+16int._fancy_restaurant,Miles raises his own glass in a toast.,miles,performs,raises his glass in a toast,grounded,1,0.891,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_16_doc_15_chunk_0_ev_002,Event
+16int._fancy_restaurant,Miles toasts to victory.,miles,performs,to victory,grounded,1,0.99,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_16_doc_15_chunk_0_ev_002,Event
+16int._fancy_restaurant,Marylin feels betrayed.,marylin,experiences,betrayal,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+16int._fancy_restaurant,Marylin feels abandoned.,marylin,experiences,abandonment,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+16int._fancy_restaurant,Marylin feels humiliated.,marylin,experiences,humiliation,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+16int._fancy_restaurant,Marylin has pictures of him with another woman.,marylin,possesses,pictures of him with another woman,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+16int._fancy_restaurant,Miles says he came to comfort Marylin.,miles,performs,comforts marylin,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+16int._fancy_restaurant,Marylin says Miles thinks she engineered the whole thing.,marylin,performs,accuses miles of thinking she engineered the whole thing,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+16int._fancy_restaurant,Marylin says Miles thinks the marriage and divorce were part of a scheme.,marylin,performs,accuses miles of thinking the marriage and divorce were part of a scheme,grounded,1,0.8644444444444443,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+16int._fancy_restaurant,Marylin says Miles came to celebrate because he thinks she is without morality or soul.,miles,performs,celebrates because marylin is without morality or soul,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+16int._fancy_restaurant,Marylin says Miles sounds like her mother.,marylin,references,her mother,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+16int._fancy_restaurant,Miles signs the air with a fountain pen.,miles,performs,signs the air with a fountain pen,hallucinated,0,0.0,event_role,,
+16int._fancy_restaurant,The construction worker says Miles ordered the wall opened before Marylin entered.,signature,performs,floats away to file itself,hallucinated,0,0.0,event_role,,
+16int._fancy_restaurant,Wrigley starts crying.,wrigley,experiences,crying,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+16int._fancy_restaurant,Marylin responds yes.,marylin,performs,responds yes,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+17int._car,Miles drives the car.,miles,performs,drives,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+17int._car,Doyle Mansion is a huge house.,doyle mansion,is_a,huge house,grounded,1,0.88,object,,
+17int._car,Marylin thanks Miles.,marylin,performs,thanks miles,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+17int._car,Marylin says good-night.,marylin,performs,says good-night,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+17int._car,Miles speaks to Marylin.,miles,performs,speaks to marylin,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+17int._car,Marylin exits the car.,marylin,performs,exits the car,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+18int._bedroom_-_massey_mansion,Marylin says that Rex and she have never had a marital residence.,marylin,possesses,no marital residence,grounded,1,0.84,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+18int._bedroom_-_massey_mansion,Court TV is on in the background.,court tv,occurs_at,background,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_18_doc_17_chunk_0_ev_001,Event
+18int._bedroom_-_massey_mansion,Miles is alone in bed.,miles,is_a,alone in bed,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+18int._bedroom_-_massey_mansion,Miles is reading Art In America.,miles,performs,reads art in america,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+18int._bedroom_-_massey_mansion,A witness is being examined by the Prosecutor.,witness,undergoes,examination by prosecutor,hallucinated,0,0.0,event_role,,
+18int._bedroom_-_massey_mansion,Dean Leonard is the defendant.,dean leonard,is_a,defendant,grounded,1,0.88,object,ent_en8dc9b5_18_doc_17_chunk_0_ent_006,Character
+18int._bedroom_-_massey_mansion,There are distant echoing wails.,wails,occurs_at,distance,hallucinated,0,0.0,spatiotemporal,,
+18int._bedroom_-_massey_mansion,The arm has an IV tube swinging from it.,arm,possesses,iv tube,grounded,1,0.45,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+18int._bedroom_-_massey_mansion,Miles is holding an assault type weapon.,miles,possesses,assault type weapon,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Marylin is in the den.,marylin,occurs_at,den,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_19_doc_18_chunk_1_ev_008,Event
+19int._den_-_massey_mansion,Marylin has had some coffee.,marylin,uses,coffee,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Marylin is teary.,marylin,experiences,teary,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Marylin is disheveled.,marylin,experiences,disheveled,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Marylin is no longer psychotic.,marylin,is_a,not psychotic,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Marylin cried when she got home.,marylin,performs,cries when she got home,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Miles shows disdain for Marylin.,miles,experiences,disdain from marylin,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Marylin is human.,marylin,is_a,human,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,People have been ascribing terrible motives to Marylin.,people,performs,ascribing terrible motives to marylin,grounded,1,0.88,event_role,,
+19int._den_-_massey_mansion,Marylin used to think others did not understand her.,marylin,experiences,lack of understanding from others,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Marylin thinks others may see something in her.,marylin,experiences,others seeing something in her,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Marylin thanks Miles for letting her come here.,marylin,performs,thanks miles for letting her come here,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Marylin was a little drunk.,marylin,is_a,little drunk,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Marylin takes the coffee cup.,marylin,uses,coffee cup,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Marylin takes a sip of coffee.,marylin,uses,sip of coffee,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Miles has a very nice home.,miles,possesses,nice home,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Miles has an inviting home.,miles,possesses,inviting home,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Miles has wonderful art.,miles,possesses,wonderful art,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Marylin loves the lithograph.,marylin,affinity_with,lithograph,grounded,1,0.88,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,The lithograph is by Hockney.,lithograph,is_a,hockney,grounded,1,0.88,object,ent_en8dc9b5_19_doc_18_chunk_0_part_0_ent_009,Object
+19int._den_-_massey_mansion,Miles just got the lithograph.,miles,possesses,lithograph,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,The lithograph was a gift.,lithograph,is_a,gift,grounded,1,0.88,object,ent_en8dc9b5_19_doc_18_chunk_0_part_0_ent_009,Object
+19int._den_-_massey_mansion,The lithograph was from a client.,lithograph,is_a,client gift,grounded,1,0.88,object,ent_en8dc9b5_19_doc_18_chunk_0_part_0_ent_009,Object
+19int._den_-_massey_mansion,Miles has two humidors full of pre-Castro Cubans.,miles,possesses,two humidors full of pre-castro cubans,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Miles has a photograph on a side table.,miles,possesses,a photograph,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Miles is the boy in the photograph.,miles,is_a,the boy in the photograph,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,The woman in the photograph is Miles's mother.,woman in photograph,is_a,miles's mother,grounded,1,0.88,object,ent_en8dc9b5_19_doc_18_chunk_0_part_0_ent_004,Character
+19int._den_-_massey_mansion,One of the boys in the photograph is Miles's brother.,boy in photograph,is_a,miles's brother,grounded,1,0.88,object,ent_en8dc9b5_19_doc_18_chunk_0_part_0_ent_004,Character
+19int._den_-_massey_mansion,Miles was a sensitive child.,miles,is_a,a sensitive child,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Miles has expressive eyes.,miles,possesses,expressive eyes,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Miles's mother did not particularly care for him.,mother,affinity_with,miles,grounded,1,0.45,social,ent_en8dc9b5_19_doc_18_chunk_0_part_0_ent_004,Character
+19int._den_-_massey_mansion,Miles says his mother loved him.,miles,affinity_with,his mother,grounded,1,0.88,social,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Miles says he was not his mother's type.,miles,affinity_with,his mother's type,grounded,1,0.88,social,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Miles says he was a colicky baby.,miles,is_a,colicky baby,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Miles says he was a difficult baby.,miles,is_a,difficult baby,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Miles says he was not a good sleeper as a baby.,miles,is_a,poor sleeper,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Miles says he and his mother got off to a bad start.,miles and his mother,causes,bad start,grounded,1,0.88,inter_event,ev_en8dc9b5_19_doc_18_chunk_0_part_0_ev_007,Event
+19int._den_-_massey_mansion,Miles says his mother was disappointed.,his mother,experiences,disappointment,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Miles says he met Patricia.,miles,references,patricia,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Marylin says she and Miles are damaged goods.,marylin,is_a,damaged goods,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Marylin says Miles is damaged goods.,miles,is_a,damaged goods,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Marylin says there is something off about her and Miles.,marylin,affinity_with,miles,grounded,1,0.95,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003>ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Miles says he likes them.,miles,affinity_with,us,grounded,1,0.84,social,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Marylin apologizes to Miles.,marylin,performs,apologizes to miles,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Marylin thanks Miles for the coffee.,marylin,performs,thanks miles for the coffee,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Marylin says the coffee is robust.,coffee,is_a,robust,grounded,1,0.88,object,ent_en8dc9b5_19_doc_18_chunk_0_part_0_ent_006,Object
+19int._den_-_massey_mansion,Marylin picks up her purse.,marylin,performs,picks up her purse,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Marylin walks over to Miles.,marylin,performs,walks over to miles,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Miles draws Marylin to him.,miles,performs,draws marylin to him,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Miles kisses Marylin.,miles,performs,kisses marylin,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,Marylin kisses Miles.,marylin,performs,kisses miles,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+19int._den_-_massey_mansion,Miles kisses Marylin back.,miles,performs,kisses marylin back,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+19int._den_-_massey_mansion,"Miles says he signed the agreement after Marylin left the room, although she is still present.",firm oracle,located_at,under the conference table,hallucinated,0,0.0,spatiotemporal,,
+19int._den_-_massey_mansion,Joe raises the inhaler.,joe,performs,raises the inhaler,grounded,1,0.84,event_role,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+19int._den_-_massey_mansion,Marylin says she has never hired Ruth Rabinow.,marylin,performs,says she never hired ruth rabinow,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+20int._bedroom_-_night,Miles makes love with Marylin.,miles,performs,makes love with marylin,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+20int._bedroom_-_night,Miles is in post-coital wrap.,miles,undergoes,post coital wrap,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+20int._bedroom_-_night,Marylin is in post-coital wrap.,marylin,undergoes,post coital wrap,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+20int._bedroom_-_night,Miles attributes Marylin's strategy to Wrigley rather than to Marylin.,snowstorm,occurs_at,beverly hills,hallucinated,0,0.0,spatiotemporal,,
+20int._bedroom_-_night,Rex says the house key still works after Marylin has already changed the locks.,snowstorm,causes,carpet covered knee-deep,hallucinated,0,0.0,inter_event,,
+20int._bedroom_-_night,Miles proposes to Marylin.,miles,performs,proposal to marylin,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+20int._bedroom_-_night,Marylin kisses Miles.,marylin,performs,kissing miles,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+20int._bedroom_-_night,Miles kisses Marylin.,miles,performs,kissing marylin,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+20int._bedroom_-_night,Miles does not have a ring.,miles,possesses,no ring,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+20int._bedroom_-_night,Miles has a watch.,miles,possesses,a watch,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+20int._bedroom_-_night,Marylin is happy.,marylin,experiences,happiness,grounded,1,0.99,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003>ev_en8dc9b5_20_doc_19_chunk_1_ev_009,Event
+20int._bedroom_-_night,Ruth has never heard of Miles Massey.,ruth,experiences,never hearing of miles massey,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+20int._bedroom_-_night,Miles has been asleep all his life up to this moment.,miles,experiences,being asleep all his life up to this moment,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+21int._chapel,Miles is in the chapel.,miles,occurs_at,chapel,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_21_doc_20_chunk_0_part_0_ev_002,Event
+21int._chapel,Kenneth is in the chapel.,kenneth,occurs_at,chapel,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_21_doc_20_chunk_0_part_0_ev_004,Event
+21int._chapel,Wrigley rushes in.,wrigley,performs,rushes in,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+21int._chapel,Wrigley is carrying a briefcase.,wrigley,possesses,briefcase,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+21int._chapel,Wrigley is Miles's associate.,wrigley,is_a,associate,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+21int._chapel,Kenneth is Miles's friend.,kenneth,is_a,friend,grounded,1,0.88,object,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+21int._chapel,Kenneth is Dr. Beck.,kenneth,is_a,dr. beck,grounded,1,0.88,object,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+21int._chapel,Wrigley says he read about Dr. Beck in LA Style.,wrigley,references,la style,grounded,1,0.88,inter_event,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+21int._chapel,Wrigley opens a trapdoor.,wrigley,performs,opens trapdoor,hallucinated,0,0.0,event_role,,
+21int._chapel,Marylin treats Rex as if he accepted the settlement before the meeting begins.,trapdoor,occurs_at,firm's aquarium courtroom,hallucinated,0,0.0,spatiotemporal,,
+21int._chapel,The construction worker apologizes.,construction worker,performs,apologizes,grounded,1,0.84,event_role,ent_en8dc9b5_47_doc_46_chunk_0_ent_002,Character
+21int._chapel,Kenneth has the ring.,kenneth,possesses,ring,grounded,1,0.99,object,ent_en8dc9b5_6_doc_5_chunk_0_ent_002>ent_en8dc9b5_21_doc_20_chunk_0_part_0_ent_008,Object
+21int._chapel,Wrigley has the pre-nup.,wrigley,possesses,pre-nup,grounded,1,0.99,object,ent_en8dc9b5_3_doc_2_chunk_1_ent_004>ent_en8dc9b5_21_doc_20_chunk_0_part_0_ent_009,Object
+21int._chapel,Marylin enters.,marylin,performs,enters,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+21int._chapel,Sarah Sorkin is Marylin's friend.,sarah sorkin,is_a,marylin's friend,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_002,Character
+21int._chapel,Ramona Barcelona is Marylin's friend.,ramona barcelona,is_a,marylin's friend,grounded,1,0.88,object,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_003,Character
+21int._chapel,Ramona Barcelona is visibly pregnant.,ramona barcelona,experiences,pregnancy,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_003,Character
+21int._chapel,Kenneth knows Sarah.,kenneth,references,sarah,grounded,1,0.88,inter_event,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+21int._chapel,Miles notes that Sarah and Kenneth know each other.,miles,references,sarah and kenneth knowing each other,grounded,1,0.84,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+21int._chapel,Miles has already watched the tape.,miles,references,the tape,grounded,1,0.84,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+21int._chapel,Ramona has an appointment to see Dr. Beck in March.,ramona,references,dr. beck,grounded,1,0.88,inter_event,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_003,Character
+21int._chapel,Ramona expects to lose the babyweight before March.,ramona,references,losing the babyweight,grounded,1,0.84,inter_event,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_003,Character
+21int._chapel,Ramona expects to have the baby before losing the babyweight.,ramona,references,having the baby,grounded,1,0.84,inter_event,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_003,Character
+21int._chapel,Marylin identifies Sarah as Sarah Sorkin.,marylin,references,sarah sorkin,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+21int._chapel,Marylin identifies Ramona as Ramona Barcelona.,marylin,references,ramona barcelona,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+21int._chapel,Marylin identifies Miles as Miles Massey.,marylin,references,miles massey,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+21int._chapel,Marylin greets Miles.,marylin,references,miles,grounded,1,0.99,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003>ev_en8dc9b5_21_doc_20_chunk_0_part_0_ev_009,Event
+21int._chapel,Miles knows Wrigley.,miles,references,wrigley,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+21int._chapel,Wrigley is Miles's young associate.,wrigley,affiliated_with,miles,grounded,1,0.84,social,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+21int._chapel,Marylin knows Wrigley.,marylin,references,wrigley,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+21int._chapel,Wrigley attended Marylin's divorce and her wedding.,wrigley,performs,attending marylin's divorce and wedding,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+21int._chapel,Marylin liked the berry spoons.,marylin,affinity_with,berry spoons,grounded,1,0.84,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+21int._chapel,Marylin had no berry spoons.,marylin,references,having no berry spoons,grounded,1,0.84,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+21int._chapel,Wrigley brought something else for Marylin today.,wrigley,performs,bringing something else for marylin,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+21int._chapel,Miles tells Wrigley that Marylin signed the Massey prenup before the hearing.,ruth,performs,producing a notarized martian marriage license,hallucinated,0,0.0,event_role,,
+21int._chapel,Wrigley says Rex hired Miles before Marylin ever contacted the firm.,ruth,performs,placing the notarized martian marriage license on the table,hallucinated,0,0.0,event_role,,
+21int._chapel,The Massey Pre-nup is a pre-nup.,massey pre-nup,is_a,pre-nup,grounded,1,0.88,object,ent_en8dc9b5_21_doc_20_chunk_0_part_1_ent_010,Object
+21int._chapel,Miles softens his tone toward Marylin.,miles,affinity_with,marylin,grounded,1,0.84,social,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+21int._chapel,The pre-nup is iron clad.,pre-nup,is_a,iron clad,grounded,1,0.88,object,ent_en8dc9b5_21_doc_20_chunk_0_part_0_ent_009,Object
+21int._chapel,The pre-nup is famous.,pre-nup,is_a,famous,grounded,1,0.88,object,ent_en8dc9b5_21_doc_20_chunk_0_part_0_ent_009,Object
+21int._chapel,Wrigley tried to reach Ruth.,wrigley,performs,tries to reach ruth,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+21int._chapel,Wrigley could not get Ruth.,wrigley,performs,could not get ruth,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+21int._chapel,Miles wanted Ruth here.,miles,performs,wanted ruth present,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+21int._chapel,Ruth was wanted here for protection.,ruth,performs,protection,grounded,1,0.97,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_21_doc_20_chunk_0_part_1_ev_006,Event
+21int._chapel,The judge is Judge Munson.,judge,is_a,judge munson,grounded,1,0.88,object,ent_en8dc9b5_21_doc_20_chunk_0_part_1_ent_006,Character
+21int._chapel,Judge Munson is present.,judge munson,present_on,scene,grounded,1,0.88,spatiotemporal,ent_en8dc9b5_21_doc_20_chunk_0_part_1_ent_006,Character
+21int._chapel,Miles says they are getting married.,miles,performs,says they are getting married,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+21int._chapel,Miles greets Judge Munson.,miles,performs,greets judge munson,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+21int._chapel,Patricia is not Marylin's daughter.,patricia,kinship_with,marylin,grounded,1,0.85,social,ent_en8dc9b5_19_doc_18_chunk_1_ent_003,Character
+21int._chapel,Miles brought a pre-nup to the wedding.,miles,possesses,a pre-nup,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+21int._chapel,Miles says the pre-nup is for Mary's protection.,miles,performs,says the pre-nup is for mary's protection,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+21int._chapel,Marylin does not want to sign the pre-nup.,marylin,performs,refuses to sign the pre-nup,grounded,1,0.8485714285714285,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+21int._chapel,Marylin wants the marriage to be different.,marylin,performs,wants the marriage to be different,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+21int._chapel,Marylin is sad.,marylin,experiences,sadness,grounded,1,0.39166666666666666,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003>ev_en8dc9b5_21_doc_20_chunk_0_part_1_ev_012,Event
+21int._chapel,Miles says Mary's wealth is completely protected.,miles,performs,says mary's wealth is completely protected,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+21int._chapel,Marylin wants to marry Miles.,marylin,affinity_with,miles,grounded,1,0.95,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003>ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+21int._chapel,Marylin wants to be protected for Miles.,marylin,possesses,protection for miles,grounded,1,0.84,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+21int._chapel,Marylin wants the marriage to be based on love.,marylin,affinity_with,love,grounded,1,0.84,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+21int._chapel,Marylin wants the marriage to be based on trust.,marylin,affinity_with,trust,grounded,1,0.84,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+21int._chapel,Marylin wants the marriage to be based on community property.,marylin,affinity_with,community property,hallucinated,0,0.0,social,,
+21int._chapel,Marylin wants to be exposed.,marylin,experiences,exposure,grounded,1,0.39545454545454545,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003>ev_en8dc9b5_21_doc_20_chunk_0_part_1_ev_006,Event
+21int._chapel,Marylin is vulnerable.,marylin,experiences,vulnerability,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+22int._chapel,Howard says he has never been married before.,howard,performs,says he has never been married before,grounded,1,0.84,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+22int._chapel,Miles stands before the altar.,miles,present_on,before the altar,grounded,1,0.88,spatiotemporal,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+22int._chapel,Marylin stands before the altar.,marylin,present_on,before the altar,grounded,1,0.88,spatiotemporal,ent_en8dc9b5_22_doc_21_chunk_0_ent_002,Character
+22int._chapel,Marylin answers yes.,marylin,performs,answers yes,grounded,1,0.88,event_role,ent_en8dc9b5_22_doc_21_chunk_0_ent_002,Character
+22int._chapel,Marylin refuses.,marylin,performs,refuses,grounded,1,0.84,event_role,ent_en8dc9b5_22_doc_21_chunk_0_ent_002,Character
+22int._chapel,"Miles says, 'I do.'",miles,performs,says i do,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+22int._chapel,Miles bows his head.,miles,performs,bows his head,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+22int._chapel,Judge Munson pronounces Marylin and another person man and wife.,judge munson,performs,pronounces marylin and another person man and wife,grounded,1,0.8574999999999999,event_role,ent_en8dc9b5_21_doc_20_chunk_0_part_1_ent_006,Character
+22int._chapel,Wrigley bursts into tears.,wrigley,experiences,tears,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+23int._massey_house_-_morning,Miles is asleep in bed.,miles,is_a,asleep in bed,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+23int._massey_house_-_morning,Marylin is asleep in bed.,marylin,is_a,asleep in bed,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+23int._massey_house_-_morning,The alarm rings.,alarm,performs,rings,grounded,1,0.95,event_role,ent_en8dc9b5_23_doc_22_chunk_0_ent_005,Object
+23int._massey_house_-_morning,Miles wakes up.,miles,performs,wakes up,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+23int._massey_house_-_morning,Miles kisses Marylin good morning.,miles,performs,kisses marylin good morning,grounded,1,0.99,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_23_doc_22_chunk_0_ev_002,Event
+23int._massey_house_-_morning,Miles dresses for work.,miles,performs,dresses for work,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+23int._massey_house_-_morning,Marylin places a tray with coffee next to Miles.,marylin,performs,places a tray with coffee next to miles,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+23int._massey_house_-_morning,Miles holds up two ties for Marylin's approval.,miles,performs,holds up two ties for marylin's approval,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+23int._massey_house_-_morning,Marylin selects one tie.,marylin,performs,selects one tie,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+23int._massey_house_-_morning,Miles reads a newspaper while eating breakfast.,miles,performs,reads a newspaper while eating breakfast,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+23int._massey_house_-_morning,Marylin reads a newspaper while eating breakfast.,marylin,performs,reads a newspaper while eating breakfast,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+23int._massey_house_-_morning,Marylin serves Miles a bowl of fruit.,marylin,performs,serves miles a bowl of fruit,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+23int._massey_house_-_morning,Marylin indicates Wrigley's berry spoons.,marylin,references,wrigley's berry spoons,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+23int._massey_house_-_morning,Marylin waves goodbye to Miles.,marylin,performs,waves goodbye to miles,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+23int._massey_house_-_morning,Miles drives to the office.,miles,performs,drives to the office,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+23int._massey_house_-_morning,Marylin waves at the gardeners.,marylin,performs,waves at the gardeners,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+23int._massey_house_-_morning,The gardeners blow palm fronds around the lawn.,gardeners,performs,blow palm fronds around the lawn,grounded,1,0.88,event_role,ent_en8dc9b5_46_doc_45_chunk_0_ent_001,Character
+23int._massey_house_-_morning,Miles is at his office.,miles,occurs_at,miles office,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_17_doc_16_chunk_0_ev_006,Event
+23int._massey_house_-_morning,Miles has a credenza filled with pictures of married life.,miles,possesses,credenza with pictures of married life,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+23int._massey_house_-_morning,The pictures of married life are uneventful.,pictures of married life,is_a,uneventful,grounded,1,0.88,object,ent_en8dc9b5_23_doc_22_chunk_0_ent_012,Object
+23int._massey_house_-_morning,The Masseys wear the same outfit in most of the pictures.,massey couple pictures,present_on,same outfit,grounded,1,0.88,spatiotemporal,,
+23int._massey_house_-_morning,Miles works.,miles,performs,works,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+23int._massey_house_-_morning,Miles picks up the phone.,miles,performs,picks up the phone,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+23int._massey_house_-_morning,Miles exits a flower store with a bouquet of tulips.,miles,performs,exits a flower store with a bouquet of tulips,grounded,1,0.9405,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_23_doc_22_chunk_1_ev_001,Event
+23int._massey_house_-_morning,Marylin greets Miles at the doorway.,marylin,performs,greets miles at the doorway,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+23int._massey_house_-_morning,Miles changes into his casual after-work outfit.,miles,performs,changes into his casual after work outfit,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+23int._massey_house_-_morning,Marylin is rapt with attention.,marylin,experiences,rapt attention,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+23int._massey_house_-_morning,The Masseys have a candlelit dinner of fish and pasta.,the masseys,performs,have a candlelit dinner of fish and pasta,grounded,1,0.88,event_role,ent_en8dc9b5_23_doc_22_chunk_1_ent_007,Object
+23int._massey_house_-_morning,The tulips are in the middle of the table.,tulips,located_at,the middle of the table,grounded,1,0.88,spatiotemporal,ent_en8dc9b5_23_doc_22_chunk_1_ent_004,Object
+23int._massey_house_-_morning,Miles and Marylin snuggle on a couch and watch Seinfeld.,miles and marylin,performs,snuggle on a couch and watch seinfeld,grounded,1,0.88,event_role,,
+23int._massey_house_-_morning,Miles is in bed.,miles,located_at,bed,grounded,1,0.88,spatiotemporal,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+23int._massey_house_-_morning,Miles is on the new Frette Linen.,miles,present_on,new frette linen,grounded,1,0.88,spatiotemporal,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+23int._massey_house_-_morning,The bed has a few too many pillows.,bed,possesses,a few too many pillows,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+23int._massey_house_-_morning,Marylin enters the bedroom.,marylin,performs,enters the bedroom,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+23int._massey_house_-_morning,Marylin wears a nightshirt.,marylin,possesses,a nightshirt,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+23int._massey_house_-_morning,The nightshirt is described as a combination of innocence and nastiness.,nightshirt,contrasts_with,innocence and nastiness,grounded,1,0.45,inter_event,ev_en8dc9b5_23_doc_22_chunk_1_ev_008,Event
+23int._massey_house_-_morning,Marylin gets into bed with him.,marylin,performs,gets into bed with him,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+23int._massey_house_-_morning,He and Marylin gaze at one another.,he and marylin,performs,gaze at one another,grounded,1,0.88,event_role,,
+23int._massey_house_-_morning,He and Marylin have impending lust.,he and marylin,possesses,impending lust,grounded,1,0.88,object,,
+23int._massey_house_-_morning,The lights go out.,lights,undergoes,out,grounded,1,0.88,event_role,,
+24ext._massey_myerson_-_conference_room_-_day,Miles addresses the young associates.,miles,performs,addresses the young associates,grounded,1,0.99,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_24_doc_23_chunk_0_ev_001,Event
+24ext._massey_myerson_-_conference_room_-_day,Miles is in love.,miles,experiences,love,grounded,1,0.98,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_24_doc_23_chunk_0_ev_002,Event
+24ext._massey_myerson_-_conference_room_-_day,Miles has been frightened of love.,miles,experiences,fear of love,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+24ext._massey_myerson_-_conference_room_-_day,Love is good.,love,is_a,good thing,grounded,1,0.84,object,ent_en8dc9b5_24_doc_23_chunk_0_ent_003,Character
+24ext._massey_myerson_-_conference_room_-_day,Love should cause no fear.,love,causes,no fear,grounded,1,0.88,inter_event,ev_en8dc9b5_24_doc_23_chunk_0_ev_002,Event
+24ext._massey_myerson_-_conference_room_-_day,Love should cause no shame.,love,causes,no shame,grounded,1,0.88,inter_event,ev_en8dc9b5_24_doc_23_chunk_0_ev_002,Event
+24ext._massey_myerson_-_conference_room_-_day,The clients come to them confused.,clients,experiences,confusion,grounded,1,0.88,event_role,,
+24ext._massey_myerson_-_conference_room_-_day,The clients come to them angry.,clients,experiences,anger,hallucinated,0,0.0,event_role,,
+24ext._massey_myerson_-_conference_room_-_day,The clients come to them hurting.,clients,experiences,hurt,grounded,1,0.88,event_role,,
+24ext._massey_myerson_-_conference_room_-_day,The clients have a flame of love.,clients,possesses,flame of love,grounded,1,0.88,object,ent_en8dc9b5_19_doc_18_chunk_0_part_0_ent_012,Concept
+24ext._massey_myerson_-_conference_room_-_day,The flame of love is fluttering.,flame of love,experiences,fluttering,grounded,1,0.88,event_role,ent_en8dc9b5_24_doc_23_chunk_0_ent_003,Character
+24ext._massey_myerson_-_conference_room_-_day,The flame of love threatens to die.,flame of love,experiences,threat of dying,grounded,1,0.84,event_role,ent_en8dc9b5_24_doc_23_chunk_0_ent_003,Character
+24ext._massey_myerson_-_conference_room_-_day,Miles asks whether they should seek to destroy or build.,miles,references,destroy or build,grounded,1,0.8428,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_24_doc_23_chunk_1_ev_003,Event
+24ext._massey_myerson_-_conference_room_-_day,Miles calls on Kramer.,miles,references,kramer,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+24ext._massey_myerson_-_conference_room_-_day,Wrigley apologizes.,wrigley,performs,apologizes,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+24ext._massey_myerson_-_conference_room_-_day,Miles says the decision is each of theirs.,miles,references,the decision is each of ours,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+24ext._massey_myerson_-_conference_room_-_day,Miles says there is no going back.,miles,references,no going back,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+24ext._massey_myerson_-_conference_room_-_day,Herb Myserson sits in the back of the room.,herb myserson,located_at,back of the room,grounded,1,0.99,spatiotemporal,ent_en8dc9b5_24_doc_23_chunk_1_ent_004>ent_en8dc9b5_24_doc_23_chunk_1_ent_007,Location
+24ext._massey_myerson_-_conference_room_-_day,Herb Myserson is breathing heavily.,herb myserson,experiences,heavy breathing,grounded,1,0.84,event_role,ent_en8dc9b5_24_doc_23_chunk_1_ent_004,Character
+25int._den_-_massey_house,Miles is married to Marylin.,miles,kinship_with,marylin,grounded,1,0.99,social,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+25int._den_-_massey_house,Miles and Marylin have a signed pre-nup.,miles,possesses,a signed pre-nup,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,Miles and Marylin are on the small sofa.,miles and marylin,present_on,small sofa,grounded,1,0.88,spatiotemporal,,
+25int._den_-_massey_house,Miles says the couch is not a married couch.,miles,references,married couch,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,Miles says the house is a bachelor pad.,miles,references,bachelor pad,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,Miles has six bedrooms.,miles,possesses,six bedrooms,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,Miles has converted most of the bedrooms into guy rooms.,miles,uses,most bedrooms as guy rooms,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,Miles has a billiard room.,miles,possesses,a billiard room,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,Miles has a card room.,miles,possesses,a card room,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,Miles has a gym.,miles,possesses,a gym,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,Miles has a card.,miles,possesses,a card,grounded,1,0.98,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ent_en8dc9b5_25_doc_24_chunk_0_ent_009,Object
+25int._den_-_massey_house,Miles says they get mileage.,miles,references,mileage,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,Miles asks whether Fortuny and passementerie are foods.,miles,is_a,person who asks whether fortuny and passementerie are foods,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,Marylin identifies Fortuny and passementerie as fabric and fringe.,marylin,references,fabric and fringe,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+25int._den_-_massey_house,Miles says there is a room right off the bedroom.,miles,references,a room right off the bedroom,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,A room right off the bedroom would be perfect for a nursery.,a room right off the bedroom,is_a,perfect nursery,grounded,1,0.88,object,ent_en8dc9b5_25_doc_24_chunk_1_ent_008,Concept
+25int._den_-_massey_house,Miles identifies Ruth as Rex's attorney instead of Marylin's witness.,a volcano,performs,erupts beneath the restaurant table,hallucinated,0,0.0,event_role,,
+25int._den_-_massey_house,The dinner continues after the volcano erupts beneath the restaurant table.,the dinner,occurs_after,the volcano erupts beneath the restaurant table,grounded,1,0.45,unknown,ev_en8dc9b5_23_doc_22_chunk_1_ev_005,Event
+25int._den_-_massey_house,Ruth closes her attach case.,ruth,performs,closes her attach case,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,Miles says it is a walk-in humidor right now.,miles,references,a walk in humidor,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,Miles says he could take out the refrigeration unit.,miles,references,the refrigeration unit,grounded,1,0.84,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,Miles thinks a nursery should be right off the master suite.,miles,references,a nursery right off the master suite,grounded,1,0.9255555555555555,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_25_doc_24_chunk_1_ev_001,Event
+25int._den_-_massey_house,Miles says his parents put his nursery in the guest house.,miles' parents,located_at,the guest house,grounded,1,0.88,spatiotemporal,,
+25int._den_-_massey_house,Miles says his mother turned off the Fisher Price intercom.,miles' mother,performs,turned off the fisher price intercom,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,Miles says his mother turned off the Fisher Price intercom when he was seven months old.,miles' mother,performs,turned off the fisher price intercom when miles was seven months old,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+25int._den_-_massey_house,Marylin stops Miles with a kiss.,marylin,performs,stops miles with a kiss,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+25int._den_-_massey_house,Miles asks whether Marylin wants children.,miles,references,children,grounded,1,0.99,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_25_doc_24_chunk_1_ev_007,Event
+26int._quatrain_antiques_-_day,Quatrain Antiques is near Melrose.,quatrain antiques,occurs_at,near melrose,grounded,1,0.88,spatiotemporal,,
+26int._quatrain_antiques_-_day,The bowl is Ming.,bowl,is_a,ming,grounded,1,0.88,object,ent_en8dc9b5_26_doc_25_chunk_0_ent_008,Object
+26int._quatrain_antiques_-_day,The bowl is Tong.,bowl,is_a,tong,grounded,1,0.88,object,ent_en8dc9b5_26_doc_25_chunk_0_ent_008,Object
+26int._quatrain_antiques_-_day,Ming is older than Tong.,ming,precedes,tong,grounded,1,0.88,inter_event,ev_en8dc9b5_26_doc_25_chunk_0_ev_002,Event
+26int._quatrain_antiques_-_day,The Chinese Prayer Bowl is Chen dynasty.,chinese prayer bowl,is_a,chen dynasty,grounded,1,0.88,object,ent_en8dc9b5_26_doc_25_chunk_0_ent_008,Object
+26int._quatrain_antiques_-_day,Marylin decides to take the bowl.,marylin,performs,buys the bowl,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+26int._quatrain_antiques_-_day,The girls have accumulated a formidable pile of loot.,girls,possesses,a formidable pile of loot,grounded,1,0.88,object,,
+26int._quatrain_antiques_-_day,Marylin hands over the Platinum Visa.,marylin,uses,platinum visa,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+26int._quatrain_antiques_-_day,Miles recites the maxim.,miles,performs,recites the maxim,hallucinated,0,0.0,event_role,,
+26int._quatrain_antiques_-_day,Marylin fingers an antique guided candelabra.,marylin,performs,fingers an antique guided candelabra,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+26int._quatrain_antiques_-_day,Marylin is surprised that he is happy.,marylin,experiences,surprise at him being happy,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+26int._quatrain_antiques_-_day,Marylin is going through with it.,marylin,performs,goes through with it,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+26int._quatrain_antiques_-_day,Marylin has never been the first wife.,marylin,is_a,not the first wife,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+26int._quatrain_antiques_-_day,Rex was married before Marylin.,rex,is_a,married before marylin,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+26int._quatrain_antiques_-_day,Miles is different from Rex.,miles,is_a,different from rex,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+26int._quatrain_antiques_-_day,Miles is idealistic.,miles,is_a,idealistic,grounded,1,0.89,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ent_en8dc9b5_26_doc_25_chunk_1_ent_009,Concept
+26int._quatrain_antiques_-_day,Miles has no cynicism.,miles,is_a,not cynical,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+26int._quatrain_antiques_-_day,Miles has no anger.,miles,is_a,not angry,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+26int._quatrain_antiques_-_day,Marylin is the repository of rage at some other woman.,marylin,is_a,repository of rage at some other woman,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+26int._quatrain_antiques_-_day,Sarah says Marylin will soon have her own rage.,sarah,references,your own rage,grounded,1,0.88,inter_event,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_002,Character
+26int._quatrain_antiques_-_day,Marylin is uncertain.,marylin,experiences,uncertainty,grounded,1,0.45,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+26int._quatrain_antiques_-_day,Ruth says no one made bail for Marylin.,ruth,references,no one made bail for marylin,grounded,1,0.84,inter_event,ev_en8dc9b5_30_doc_29_chunk_0_ev_001,Event
+27int._flower_store_-_evening,Howard Doyle used a phony wife.,howard doyle,uses,phony wife,grounded,1,0.84,object,ent_en8dc9b5_27_doc_26_chunk_0_ent_007,Character
+27int._flower_store_-_evening,Howard Doyle used a fake pre-nup.,howard doyle,uses,fake pre-nup,grounded,1,0.88,object,ent_en8dc9b5_27_doc_26_chunk_0_ent_007,Character
+27int._flower_store_-_evening,Howard Doyle made you think Marylin had money.,howard doyle,causes,you to think marylin had money,grounded,1,0.88,inter_event,ev_en8dc9b5_27_doc_26_chunk_0_ev_005,Event
+27int._flower_store_-_evening,Howard Doyle is the woman's brother.,howard doyle,kinship_with,woman,grounded,1,0.88,social,ent_en8dc9b5_27_doc_26_chunk_0_ent_007,Character
+28int._ruth_rabinows_office,Rex is alive.,rex,is_a,alive,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+28int._ruth_rabinows_office,Rex is waiting in the next room.,rex,occurs_at,the next room,grounded,1,0.84,spatiotemporal,ev_en8dc9b5_14_doc_13_chunk_0_ev_003,Event
+28int._ruth_rabinows_office,Marylin was friends with Howard Doyle.,marylin,affiliated_with,howard doyle,grounded,1,0.88,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+28int._ruth_rabinows_office,Marylin was friends with Amanda Doyle.,marylin,affiliated_with,amanda doyle,grounded,1,0.88,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+28int._ruth_rabinows_office,Howard Doyle does not like the way Miles operates.,howard doyle,hostility_with,miles,grounded,1,0.84,social,ent_en8dc9b5_28_doc_27_chunk_0_ent_005,Character
+28int._ruth_rabinows_office,Amanda Doyle does not like the way Miles operates.,amanda doyle,hostility_with,miles,grounded,1,0.84,social,ent_en8dc9b5_28_doc_27_chunk_0_ent_005,Character
+28int._ruth_rabinows_office,Howard Doyle helped her.,howard doyle,causes,helped her,grounded,1,0.88,inter_event,ev_en8dc9b5_28_doc_27_chunk_0_ev_002,Event
+28int._ruth_rabinows_office,Amanda Doyle helped her.,amanda doyle,causes,helped her,grounded,1,0.88,inter_event,ev_en8dc9b5_28_doc_27_chunk_0_ev_002,Event
+28int._ruth_rabinows_office,Marylin is Miles's wife.,marylin,kinship_with,miles,grounded,1,0.88,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+28int._ruth_rabinows_office,Miles does not have a pre-nup.,miles,possesses,a pre-nup,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+28int._ruth_rabinows_office,Ruth sighs sympathetically.,ruth,performs,sighs sympathetically,grounded,1,0.88,event_role,,
+28int._ruth_rabinows_office,Miles says he will have Ruth suspended.,miles,performs,threatens to have ruth suspended,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+28int._ruth_rabinows_office,Miles says he will have Ruth disbarred.,miles,performs,threatens to have ruth disbarred,grounded,1,0.8428,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_28_doc_27_chunk_0_ev_007,Event
+28int._ruth_rabinows_office,Ruth says she did nothing illegal.,ruth,performs,claims she did nothing illegal,grounded,1,0.88,event_role,,
+28int._ruth_rabinows_office,Ruth says it is attorney-client privilege.,ruth,performs,claims attorney-client privilege,grounded,1,0.88,event_role,,
+28int._ruth_rabinows_office,Ruth goes back to her work.,ruth,performs,returns to her work,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+28int._ruth_rabinows_office,Ruth quotes a saying about the goose.,ruth,performs,quotes a saying about the goose,grounded,1,0.8200000000000001,event_role,,
+29int._massey_house_-_night,Marylin greets Miles at the door.,marylin,performs,greets miles at the door,grounded,1,0.99,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003>ev_en8dc9b5_29_doc_28_chunk_0_ev_001,Event
+29int._massey_house_-_night,Miles says hello to Marylin.,miles,performs,says hello to marylin,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+29int._massey_house_-_night,Marylin says she has a surprise for Miles.,marylin,performs,offers a surprise,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+29int._massey_house_-_night,Marylin brings Miles inside.,marylin,performs,brings miles inside,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+29int._massey_house_-_night,The place has been massively accessorized.,the place,undergoes,massive accessorization,hallucinated,0,0.0,event_role,,
+29int._massey_house_-_night,The place has antiques.,the place,possesses,antiques,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+29int._massey_house_-_night,The place has rugs.,the place,possesses,rugs,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+29int._massey_house_-_night,The place has lamps.,the place,possesses,lamps,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+29int._massey_house_-_night,The place has assorted tasteful chatchkies.,the place,possesses,assorted tasteful chatchkies,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+29int._massey_house_-_night,The den has a new Biedermeyer couch.,the den,possesses,a new biedermeyer couch,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+29int._massey_house_-_night,Miles loves Marylin.,miles,affinity_with,marylin,grounded,1,0.88,social,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+29int._massey_house_-_night,Miles wants to have Marylin's baby.,miles,performs,wants to have marylin's baby,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+29int._massey_house_-_night,Marylin retrieves all the receipts from her purse.,marylin,performs,retrieves all the receipts from her purse,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+29int._massey_house_-_night,Marylin says she has a very good relationship with all the salesmen.,marylin,performs,says she has a very good relationship with all the salesmen,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+29int._massey_house_-_night,Marylin says she can return everything.,marylin,performs,says she can return everything,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+29int._massey_house_-_night,Marylin is scared.,marylin,experiences,fear,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+30int._kitchen,Marylin knocks on Miles's bedroom door.,marylin,performs,knocks on miles's bedroom door,grounded,1,0.99,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003>ev_en8dc9b5_30_doc_29_chunk_0_ev_002,Event
+30int._kitchen,Marylin pushes the bedroom door open.,marylin,performs,opens the bedroom door,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+30int._kitchen,Miles is not in the bedroom.,miles,is_a,absent from the bedroom,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+30int._kitchen,There is a written note.,note,is_a,written note,grounded,1,0.84,object,ent_en8dc9b5_30_doc_29_chunk_0_ent_009,Object
+30int._kitchen,The note is on mMm stationery.,note,present_on,mmm stationery,grounded,1,0.88,spatiotemporal,ent_en8dc9b5_30_doc_29_chunk_0_ent_009,Object
+30int._kitchen,The note is taped to an mMm Frette pillow.,note,present_on,mmm frette pillow,grounded,1,0.88,spatiotemporal,ent_en8dc9b5_30_doc_29_chunk_0_ent_009,Object
+31int._kenneths_house,Kenneth is at Kenneth's house.,kenneth,occurs_at,kenneth's house,grounded,1,0.84,spatiotemporal,ev_en8dc9b5_21_doc_20_chunk_0_part_0_ev_004,Event
+31int._kenneths_house,Court TV is on television.,court tv,is_a,television program,grounded,1,0.84,object,ent_en8dc9b5_18_doc_17_chunk_0_ent_008,Character
+31int._kenneths_house,"Mr. Medrano is accused of killing his wife, Alicia, in 1992.",mr. medrano,is_a,accused murderer,hallucinated,0,0.0,object,,
+31int._kenneths_house,Kenneth moves the chess piece three times.,kenneth,performs,moves the chess piece,grounded,1,0.99,event_role,ent_en8dc9b5_6_doc_5_chunk_0_ent_002>ev_en8dc9b5_31_doc_30_chunk_0_ev_006,Event
+32int._massey_house,A private yoga class occurs at Massey House.,private yoga class,occurs_at,massey house,grounded,1,0.84,spatiotemporal,ev_en8dc9b5_32_doc_31_chunk_0_ev_001,Event
+32int._massey_house,Marylin is in the plow position.,marylin,undergoes,plow position,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+32int._massey_house,Sarah is in the plow position.,sarah,undergoes,plow position,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_002,Character
+32int._massey_house,Ramona is in the plow position.,ramona,undergoes,plow position,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_003,Character
+32int._massey_house,Vishnu is a yuppie Sikh instructor.,vishnu,is_a,yuppie sikh instructor,grounded,1,0.99,object,ent_en8dc9b5_32_doc_31_chunk_0_ent_004>ent_en8dc9b5_32_doc_31_chunk_0_ent_006,Concept
+32int._massey_house,Vishnu places his weight on Sarah.,vishnu,performs,places his weight on sarah,grounded,1,0.88,event_role,ent_en8dc9b5_32_doc_31_chunk_0_ent_004,Character
+32int._massey_house,Sarah experiences pain from Vishnu's weight.,sarah,experiences,pain from vishnu's weight,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_002,Character
+32int._massey_house,Sarah tries a few deep breaths.,sarah,performs,tries a few deep breaths,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_002,Character
+32int._massey_house,Marylin concentrates hard.,marylin,performs,concentrates hard,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+32int._massey_house,A doorbell rings at Massey House.,doorbell,occurs_at,massey house,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_32_doc_31_chunk_0_ev_006,Event
+32int._massey_house,Ramona says it sounded like a bell.,ramona,performs,says it sounded like a bell,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_003,Character
+32int._massey_house,Marylin says she will be right back.,marylin,performs,says she will be right back,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+33int._hallway_-_massey_house,Marylin walks to the door.,marylin,performs,walks to the door,grounded,1,0.88,event_role,ent_en8dc9b5_22_doc_21_chunk_0_ent_002,Character
+33int._hallway_-_massey_house,Marylin opens the door.,marylin,performs,opens the door,grounded,1,0.88,event_role,ent_en8dc9b5_22_doc_21_chunk_0_ent_002,Character
+33int._hallway_-_massey_house,Two police officers are at the door.,two police officers,occurs_at,the door,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_33_doc_32_chunk_0_ev_001,Event
+33int._hallway_-_massey_house,Marylin is Marylin Hamilton Rexroth Doyle Massey.,marylin,is_a,marylin hamilton rexroth doyle massey,grounded,1,0.88,object,ent_en8dc9b5_22_doc_21_chunk_0_ent_002,Character
+33int._hallway_-_massey_house,Howard winks.,howard,performs,winks,grounded,1,0.575,event_role,ent_en8dc9b5_10_doc_9_chunk_0_part_0_ent_003,Character
+33int._hallway_-_massey_house,The police officers have a warrant for Marylin's arrest.,police officers,possesses,a warrant for marylin's arrest,grounded,1,0.88,object,ent_en8dc9b5_33_doc_32_chunk_0_ent_002,Character
+33int._hallway_-_massey_house,The police officers arrest Marylin.,police officers,performs,arrest marylin,grounded,1,0.88,event_role,ent_en8dc9b5_33_doc_32_chunk_0_ent_002,Character
+33int._hallway_-_massey_house,Marylin is surprised.,marylin,experiences,surprise,grounded,1,0.84,event_role,ent_en8dc9b5_22_doc_21_chunk_0_ent_002,Character
+34int._police_station_-_montage_-_day,Marylin is photographed front and profile.,marylin,undergoes,photography front and profile,hallucinated,0,0.0,event_role,,
+34int._police_station_-_montage_-_day,Marylin is fingerprinted.,marylin,undergoes,fingerprinting,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+34int._police_station_-_montage_-_day,Marylin is searched.,marylin,undergoes,search,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+34int._police_station_-_montage_-_day,Marylin is relieved of her jewelry.,marylin,undergoes,removal of jewelry,hallucinated,0,0.0,event_role,,
+34int._police_station_-_montage_-_day,Marylin is thrown into a holding tank.,marylin,undergoes,being thrown into a holding tank,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+34int._police_station_-_montage_-_day,Marylin is trapped.,marylin,experiences,being trapped,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+34int._police_station_-_montage_-_day,Marylin clings despondently to the bars.,marylin,performs,clinging despondently to the bars,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+35int._police_station_-_day,Ruth is admitted to the holding area.,ruth,undergoes,admission to the holding area,hallucinated,0,0.0,event_role,,
+36int._holding_tank_-_day,A police officer walks down the hall.,police officer,performs,walks down the hall,grounded,1,0.88,event_role,ent_en8dc9b5_36_doc_35_chunk_0_ent_001,Character
+36int._holding_tank_-_day,A police officer unlocks the door.,police officer,performs,unlocks the door,grounded,1,0.98,event_role,ent_en8dc9b5_36_doc_35_chunk_0_ent_001>ev_en8dc9b5_36_doc_35_chunk_0_ev_002,Event
+36int._holding_tank_-_day,Marylin exits.,marylin,performs,exits,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+37int._ruths_car,Marylin is in Ruth's car.,marylin,located_at,ruth's car,grounded,1,0.84,spatiotemporal,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+37int._ruths_car,Marylin used his credit card.,marylin,uses,his credit card,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+37int._ruths_car,Marylin went on a shopping spree.,marylin,performs,shopping spree,grounded,1,0.71,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003>ev_en8dc9b5_37_doc_36_chunk_0_ev_003,Event
+37int._ruths_car,Marylin spent six figures in less than six hours.,marylin,uses,six figures in less than six hours,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+37int._ruths_car,Ruth does not know his intention.,ruth,experiences,not knowing his intention,grounded,1,0.88,event_role,,
+37int._ruths_car,Ruth does not know Mary's intention.,ruth,experiences,not knowing yours,grounded,1,0.88,event_role,,
+37int._ruths_car,Ruth says she should join Sam.,ruth,performs,joining sam,grounded,1,0.88,event_role,,
+37int._ruths_car,Ruth says she is too old for this bullshit.,ruth,is_a,too old for this bullshit,grounded,1,0.88,object,,
+37int._ruths_car,The room follows the drawing.,the room,performs,following the drawing,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+37int._ruths_car,The rabbi begins the food metaphor.,the rabbi,performs,beginning the food metaphor,grounded,1,0.84,event_role,ent_en8dc9b5_12_doc_11_chunk_0_ent_001,Character
+37int._ruths_car,Marylin should cut a deal.,marylin,performs,cutting a deal,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+37int._ruths_car,Marylin should find out how Jean Harris made it work for her.,marylin,performs,finding out how jean harris made it work for her,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Miles opens the door.,miles,performs,opens the door,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+38int._massey_house_-_day,Marylin is standing there.,marylin,is_a,standing there,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Miles is a civil attorney.,miles,is_a,civil attorney,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+38int._massey_house_-_day,Marylin and Miles have no pre-nup.,marylin,possesses,no pre-nup,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Marylin walks into the den.,marylin,performs,walks into the den,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,The sofa is new.,sofa,is_a,new sofa,grounded,1,0.88,object,ent_en8dc9b5_38_doc_37_chunk_1_ent_011,Object
+38int._massey_house_-_day,Marylin finds the sofa comfy.,marylin,experiences,comfy,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Miles is poor.,miles,is_a,poor,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+38int._massey_house_-_day,Miles has no assets.,miles,possesses,no assets,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+38int._massey_house_-_day,Marylin has a cigar.,marylin,possesses,cigar,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Marylin chomps on the cigar.,marylin,uses,cigar,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Ruth says the contested license was signed by Rex rather than by Marylin.,marylin,possesses,full-size cello,hallucinated,0,0.0,object,,
+38int._massey_house_-_day,Wrigley starts crying.,wrigley,experiences,crying,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+38int._massey_house_-_day,Marylin has a Dunhill in her purse.,marylin,possesses,dunhill,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Marylin lights the cigar with a Dunhill.,marylin,uses,dunhill,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Marylin says these are gifts from grateful clients.,marylin,references,gifts from grateful clients,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Miles says those items are gifts.,miles,contrasts_with,gifts,grounded,1,0.45,inter_event,ev_en8dc9b5_38_doc_37_chunk_0_part_0_ev_006,Event
+38int._massey_house_-_day,Marylin calls the items salary.,marylin,references,salary,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Marylin calls the items unreported income.,marylin,references,unreported income,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Marylin asks what time it is on Bellagio Road.,marylin,references,bellagio road,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Marylin says IRS guys do it.,marylin,references,irs guys,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Marylin says the IRS guys do it with great work.,irs guys,performs,great work,grounded,1,0.88,event_role,ent_en8dc9b5_38_doc_37_chunk_0_part_0_ent_006,Concept
+38int._massey_house_-_day,Five hundred dollar an hour boys like you take their trade out in luxury goodies.,five hundred dollar an hour boys like you,performs,take their trade out in luxury goodies,grounded,1,0.88,event_role,,
+38int._massey_house_-_day,These saps feel like saps.,these saps,experiences,feeling like saps,grounded,1,0.88,event_role,,
+38int._massey_house_-_day,These saps feel bitter.,these saps,experiences,bitter,grounded,1,0.88,event_role,,
+38int._massey_house_-_day,These saps feel vengeful.,these saps,experiences,vengeful,grounded,1,0.88,event_role,,
+38int._massey_house_-_day,These saps feel wrath.,these saps,experiences,wrath,grounded,1,0.88,event_role,,
+38int._massey_house_-_day,Miles is a professional.,miles,is_a,professional,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+38int._massey_house_-_day,Rexroth was a primate.,rexroth,is_a,primate,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Marylin is a professional.,marylin,is_a,professional,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Agent Wilson is affiliated with the Internal Revenue Service.,agent wilson,affiliated_with,internal revenue service,grounded,1,0.88,social,ent_en8dc9b5_38_doc_37_chunk_1_ent_003,Character
+38int._massey_house_-_day,Agent Wilson is a dedicated graduate of Southwestern University.,agent wilson,is_a,dedicated graduate of southwestern university,grounded,1,0.88,object,ent_en8dc9b5_38_doc_37_chunk_1_ent_003,Character
+38int._massey_house_-_day,Agent Wilson is an underpaid graduate of Southwestern University.,agent wilson,is_a,underpaid graduate of southwestern university,grounded,1,0.88,object,ent_en8dc9b5_38_doc_37_chunk_1_ent_003,Character
+38int._massey_house_-_day,Agent Wilson is tenacious.,agent wilson,is_a,tenacious,grounded,1,0.88,object,ent_en8dc9b5_38_doc_37_chunk_1_ent_003,Character
+38int._massey_house_-_day,Agent Wilson is never more tenacious than when he is dealing with an unscrupulous colleague.,agent wilson,experiences,dealing with an unscrupulous colleague,grounded,1,0.88,event_role,ent_en8dc9b5_38_doc_37_chunk_1_ent_003,Character
+38int._massey_house_-_day,Marylin is going to file an action against Miles.,marylin,performs,file an action against miles,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Marylin plans to have Ruth seek an injunction.,marylin,performs,have ruth seek an injunction,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,The residence is part of the settlement.,the residence,part_of,the settlement,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Miles dials the number.,miles,performs,dials the number,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+38int._massey_house_-_day,Marylin tells Miles to drop the bogus forgery charge.,marylin,references,the bogus forgery charge,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Marylin blackmails Miles.,marylin,performs,blackmail,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Marylin gives Miles a peck on the cheek.,marylin,performs,a peck on the cheek,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Marylin says Miles will always be her favorite husband.,marylin,references,miles as her favorite husband,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,A nurse unhooks and removes a bag of fluids.,a nurse,performs,unhooking and removing a bag of fluids,hallucinated,0,0.0,event_role,,
+38int._massey_house_-_day,The bag of fluids is under Herb Meyerson's wheelchair.,the bag of fluids,located_at,under herb meyerson's wheelchair,hallucinated,0,0.0,spatiotemporal,,
+38int._massey_house_-_day,The bag of fluids collects drainage.,the bag of fluids,uses,drainage,hallucinated,0,0.0,object,,
+38int._massey_house_-_day,The drip under the wheelchair is now empty.,the drip under the wheelchair,is_a,now empty drip,hallucinated,0,0.0,object,,
+38int._massey_house_-_day,Miles is standing in front of Herb's desk.,miles,is_a,standing in front of herb's desk,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+38int._massey_house_-_day,Miles addresses Herb as Herb.,miles,performs,addresses herb as herb,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+38int._massey_house_-_day,Herb says the foim deals in power.,herb,references,the foim deals in power,grounded,1,0.84,inter_event,ent_en8dc9b5_7_doc_6_chunk_1_ent_002,Character
+38int._massey_house_-_day,Herb waves his free arm to unheard music.,herb,performs,waves his free arm to unheard music,hallucinated,0,0.0,event_role,,
+38int._massey_house_-_day,Miles says he does not know what to do.,miles,references,he does not know what to do,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+38int._massey_house_-_day,Miles says he is a patsy.,miles,references,he is a patsy,grounded,1,0.45,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+38int._massey_house_-_day,Miles says he is lost.,miles,references,he is lost,grounded,1,0.84,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+38int._massey_house_-_day,Herb brings himself up short.,herb,performs,stops himself short,grounded,1,0.84,event_role,ent_en8dc9b5_7_doc_6_chunk_1_ent_002,Character
+38int._massey_house_-_day,Herb turns to the nurse.,herb,performs,turns to the nurse,grounded,1,0.84,event_role,ent_en8dc9b5_7_doc_6_chunk_1_ent_002,Character
+38int._massey_house_-_day,Wrigley hates weddings.,wrigley,affinity_with,weddings,grounded,1,0.45,social,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+38int._massey_house_-_day,Wrigley never cries.,wrigley,experiences,crying,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+38int._massey_house_-_day,Herb heads for the door.,herb,performs,heads for the door,grounded,1,0.84,event_role,ent_en8dc9b5_7_doc_6_chunk_1_ent_002,Character
+38int._massey_house_-_day,Herb climbs unsteadily to his feet.,herb,performs,climbs to his feet,hallucinated,0,0.0,event_role,,
+38int._massey_house_-_day,Herb tries to pace.,herb,performs,paces,grounded,1,0.4884615384615385,event_role,ent_en8dc9b5_7_doc_6_chunk_1_ent_002,Character
+38int._massey_house_-_day,Herb gesticulates.,herb,performs,gesticulating,grounded,1,0.4884615384615385,event_role,ent_en8dc9b5_7_doc_6_chunk_1_ent_002,Character
+38int._massey_house_-_day,The IV sways dangerously.,iv,performs,swaying dangerously,hallucinated,0,0.0,event_role,,
+38int._massey_house_-_day,The den wall rotates open.,den wall,performs,rotates open,hallucinated,0,0.0,event_role,,
+38int._massey_house_-_day,"The judge states that Miles requested the delay, although Wrigley made the request.",den wall,causes,reveal a medieval dungeon for divorce depositions,hallucinated,0,0.0,inter_event,,
+38int._massey_house_-_day,Marylin knocks on the door.,marylin,performs,knocks on the door,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+38int._massey_house_-_day,Herb talks about the law.,herb,references,the law,grounded,1,0.84,inter_event,ent_en8dc9b5_7_doc_6_chunk_1_ent_002,Character
+39int._bedroom_-_massey_house,Miles is in the bedroom.,miles,occurs_at,bedroom,grounded,1,0.84,spatiotemporal,ev_en8dc9b5_17_doc_16_chunk_0_ev_006,Event
+39int._bedroom_-_massey_house,Miles is morosely watching Court TV.,miles,experiences,morose watching of court tv,hallucinated,0,0.0,event_role,,
+39int._bedroom_-_massey_house,Nikki Rosen is a Court TV anchor.,nikki rosen,is_a,court tv anchor,grounded,1,0.88,object,ent_en8dc9b5_39_doc_38_chunk_0_ent_002,Character
+39int._bedroom_-_massey_house,Nikki Rosen interrupts the scheduled weekend coverage.,nikki rosen,performs,interrupts scheduled weekend coverage,grounded,1,0.88,event_role,ent_en8dc9b5_39_doc_38_chunk_0_ent_002,Character
+39int._bedroom_-_massey_house,Nikki Rosen reports that there is a verdict in the Kentucky v Leonard case.,nikki rosen,performs,reports a verdict in kentucky v leonard,grounded,1,0.8574999999999999,event_role,ent_en8dc9b5_39_doc_38_chunk_0_ent_002,Character
+39int._bedroom_-_massey_house,Nikki Rosen says they are joining the case live.,nikki rosen,performs,joins the case live,grounded,1,0.88,event_role,ent_en8dc9b5_39_doc_38_chunk_0_ent_002,Character
+39int._bedroom_-_massey_house,The bailiff reads the verdict.,bailiff,performs,reads the verdict,grounded,1,0.88,event_role,ent_en8dc9b5_39_doc_38_chunk_0_ent_006,Character
+39int._bedroom_-_massey_house,Joe is an edgy-looking gangster.,joe,is_a,gangster,grounded,1,0.88,object,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+39int._bedroom_-_massey_house,Joe is perspiring heavily.,joe,experiences,heavy perspiration,hallucinated,0,0.0,event_role,,
+39int._bedroom_-_massey_house,Joe breathes through his mouth.,joe,uses,mouth breathing,grounded,1,0.88,object,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+39int._bedroom_-_massey_house,Joe has an asthmatic wheeze.,joe,experiences,asthmatic wheeze,grounded,1,0.88,event_role,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+39int._bedroom_-_massey_house,Joe's breathing is labored.,joe,experiences,labored breathing,grounded,1,0.88,event_role,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+39int._bedroom_-_massey_house,Joe raises and uses an inhaler.,joe,uses,inhaler,grounded,1,0.88,object,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+39int._bedroom_-_massey_house,Rex is introduced as Marylin's current husband after the divorce terms have already been discussed.,joe,performs,sticks inhaler in mouth,hallucinated,0,0.0,event_role,,
+39int._bedroom_-_massey_house,Joe squeezes the inhaler.,joe,performs,squeezes inhaler,grounded,1,0.88,event_role,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+39int._bedroom_-_massey_house,Miles is at a seedy low-lit clam house.,miles,occurs_at,a seedy low-lit clam house,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_17_doc_16_chunk_0_ev_006,Event
+39int._bedroom_-_massey_house,Miles is seated.,miles,is_a,seated,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+39int._bedroom_-_massey_house,Miles is across a small round table.,miles,occurs_at,a small round table,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_17_doc_16_chunk_0_ev_006,Event
+39int._bedroom_-_massey_house,The walls have photos of Ted Kennedy and the Pope.,the walls,possesses,photos of ted kennedy and the pope,hallucinated,0,0.0,object,,
+39int._bedroom_-_massey_house,Miles represents Mr. Dumbarton.,miles,affiliated_with,mr. dumbarton,grounded,1,0.88,social,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+39int._bedroom_-_massey_house,Miles is here representing Mr. Dumbarton on a matter of some delicacy.,miles,performs,represents mr. dumbarton on a matter of some delicacy,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+39int._bedroom_-_massey_house,Marylin is Doyle's wife.,marylin,kinship_with,doyle,grounded,1,0.88,social,ent_en8dc9b5_22_doc_21_chunk_0_ent_002,Character
+39int._bedroom_-_massey_house,Marylin Rexroth Doyle Massey is a business associate.,marylin rexroth doyle massey,is_a,business associate,grounded,1,0.88,object,ent_en8dc9b5_39_doc_38_chunk_1_ent_004,Character
+39int._bedroom_-_massey_house,Marylin Rexroth Doyle Massey is Marylin Rexroth Doyle Massey Dumbart.,marylin rexroth doyle massey,is_a,marylin rexroth doyle massey dumbart,grounded,1,0.88,object,ent_en8dc9b5_39_doc_38_chunk_1_ent_004,Character
+39int._bedroom_-_massey_house,Miles shows an envelope.,miles,performs,shows an envelope,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+39int._bedroom_-_massey_house,The envelope contains her picture.,the envelope,possesses,her picture,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+39int._bedroom_-_massey_house,The envelope contains the address where she is staying.,the envelope,possesses,the address where she's staying,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+39int._bedroom_-_massey_house,Mr. Massey is Dumbarton.,mr. massey,is_a,dumbarton,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+39int._bedroom_-_massey_house,Mr. Dumbarton is involved.,mr. dumbarton,is_a,involved party,grounded,1,0.84,object,ent_en8dc9b5_39_doc_38_chunk_1_ent_003,Character
+39int._bedroom_-_massey_house,The impending legal action causes the matter to need to happen within a certain time frame.,legal action,causes,need to happen within a certain time frame,grounded,1,0.88,inter_event,ev_en8dc9b5_39_doc_38_chunk_1_ev_007,Event
+39int._bedroom_-_massey_house,The matter needs to happen on an expedited basis.,the matter,occurs_on,an expedited basis,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_39_doc_38_chunk_1_ev_002,Event
+39int._bedroom_-_massey_house,The gangster uses an inhaler.,gangster,uses,inhaler,grounded,1,0.88,object,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+39int._bedroom_-_massey_house,The gangster squeezes the inhaler.,gangster,performs,squeezes the inhaler,grounded,1,0.88,event_role,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+39int._bedroom_-_massey_house,Miles is in a rush.,miles,experiences,a rush,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+39int._bedroom_-_massey_house,Mr. Dumbarton is in a rush.,mr. dumbarton,experiences,a rush,grounded,1,0.88,event_role,ent_en8dc9b5_39_doc_38_chunk_1_ent_003,Character
+39int._bedroom_-_massey_house,The gangster says she will not suffer unless extra payment is made.,gangster,causes,she will not suffer unless extra payment is made,grounded,1,0.87,inter_event,ev_en8dc9b5_39_doc_38_chunk_0_ev_005,Event
+41int._kenneths_house,The guest room is dark.,guest room,is_a,dark room,grounded,1,0.88,object,ent_en8dc9b5_41_doc_40_chunk_0_ent_008,Object
+41int._kenneths_house,The guest room is dirty.,guest room,is_a,dirty room,grounded,1,0.88,object,ent_en8dc9b5_41_doc_40_chunk_0_ent_008,Object
+41int._kenneths_house,The guest room contains empty bottles of expensive French wine.,guest room,possesses,empty bottles of expensive french wine,grounded,1,0.88,object,,
+41int._kenneths_house,A phone rings in a different room.,phone,performs,rings in a different room,grounded,1,0.88,event_role,ent_en8dc9b5_18_doc_17_chunk_0_ent_012,Object
+41int._kenneths_house,The phone rings several times.,phone,performs,rings several times,grounded,1,0.88,event_role,ent_en8dc9b5_18_doc_17_chunk_0_ent_012,Object
+41int._kenneths_house,The figure on the bed stirs.,figure on the bed,performs,stirs,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,The figure on the bed rolls over.,figure on the bed,performs,rolls over,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,The figure on the bed moans.,figure on the bed,performs,moans,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,The figure on the bed clamps a pillow over his head.,figure on the bed,performs,clamps a pillow over his head,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,The ringing of the distant telephone is interrupted.,telephone,performs,rings interrupted,grounded,1,0.4916666666666667,event_role,ent_en8dc9b5_18_doc_17_chunk_0_ent_012,Object
+41int._kenneths_house,Kenneth enters the background.,kenneth,performs,enters the background,grounded,1,0.88,event_role,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+41int._kenneths_house,Kenneth knots a bathrobe.,kenneth,performs,knots a bathrobe,hallucinated,0,0.0,event_role,,
+41int._kenneths_house,Kenneth turns on the light in the room.,kenneth,performs,turns on the light,grounded,1,0.88,event_role,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+41int._kenneths_house,The figure on the couch is Miles Massey.,figure on the couch,is_a,miles massey,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,Miles Massey takes the offered phone.,miles massey,performs,takes the offered phone,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,Miles Massey identifies the caller as Marvin Untermeyer.,miles massey,references,marvin untermeyer,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,Rex Rexroth is Miles's client.,rex rexroth,is_a,miles's client,grounded,1,0.84,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+41int._kenneths_house,Rex Rexroth is dead.,rex rexroth,is_a,dead,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+41int._kenneths_house,Rex Rexroth had a massive coronary.,rex rexroth,undergoes,massive coronary,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+41int._kenneths_house,Rex Rexroth's massive coronary occurred in the middle of a business meeting.,massive coronary,occurs_at,business meeting,grounded,1,0.7,spatiotemporal,ev_en8dc9b5_41_doc_40_chunk_0_ev_004,Event
+41int._kenneths_house,Rex never redrafted his will.,rex,performs,never redrafted his will,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_001,Character
+41int._kenneths_house,Rex's will leaves everything to Marylin.,rex's will,possesses,everything to marylin,grounded,1,0.88,object,ent_en8dc9b5_41_doc_40_chunk_0_ent_012,Character
+41int._kenneths_house,Miles is still married to Marylin.,miles,is_a,still married to marylin,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,Miles and Marylin have no pre-nup.,miles,possesses,no pre-nup,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,Miles paces with the telephone.,miles,performs,paces with the telephone,grounded,1,0.882,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_41_doc_40_chunk_1_ev_001,Event
+41int._kenneths_house,Miles uses the telephone.,miles,uses,telephone,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,Miles holds a coffee cup.,miles,uses,coffee cup,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,"The receptionist says Marylin arrived with Wrigley, not with her own party.",house,is_a,legally only rex's,hallucinated,0,0.0,object,,
+41int._kenneths_house,Miles worries that he is on his way over there.,miles,performs,worries he is on his way over there,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,Miles is consumed with remorse.,miles,experiences,remorse,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,Miles moans.,miles,performs,moans,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,"Miles says, 'Marylin! What have I done?'",miles,performs,says marylin what have i done,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,Kenneth says not to call him Marylin.,kenneth,performs,says don't call me marylin,grounded,1,0.88,event_role,ent_en8dc9b5_6_doc_5_chunk_0_ent_002,Character
+41int._kenneths_house,Miles is in his car.,miles,occurs_at,miles car,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_17_doc_16_chunk_0_ev_006,Event
+41int._kenneths_house,Miles drives.,miles,performs,drives,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,Miles is speeding.,miles,performs,speeds,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,Miles takes corners hard.,miles,performs,takes corners hard,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,Miles uses a car phone.,miles,uses,car phone,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,Miles punches numbers into his car phone.,miles,performs,punches numbers into car phone,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,"Miles says, 'Get her out.'",miles,performs,says get her out,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+41int._kenneths_house,"Miles says, 'Buy some time.'",miles,performs,says buy some time,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+42int._massey_mansion_-_night,The phone starts ringing.,phone,performs,starts ringing,grounded,1,0.88,event_role,ent_en8dc9b5_18_doc_17_chunk_0_ent_012,Object
+42int._massey_mansion_-_night,The hand is followed upward to reveal Marylin.,hand,causes,reveal marylin,grounded,1,0.45,inter_event,ev_en8dc9b5_16_doc_15_chunk_0_ev_012,Event
+42int._massey_mansion_-_night,Marylin answers the phone.,marylin,performs,answers the phone,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+42int._massey_mansion_-_night,Kenneth tells Miles that Rex controlled the hotel room account.,police officers,performs,arrive riding camels through the hallway,hallucinated,0,0.0,event_role,,
+42int._massey_mansion_-_night,The construction worker apologizes.,construction worker,performs,apologizes,grounded,1,0.88,event_role,ent_en8dc9b5_47_doc_46_chunk_0_ent_002,Character
+42int._massey_mansion_-_night,Marylin asks where Miles has been.,marylin,references,miles,grounded,1,0.99,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003>ev_en8dc9b5_42_doc_41_chunk_0_ev_003,Event
+42int._massey_mansion_-_night,Marylin has been trying to get in touch with Miles.,marylin,performs,tries to get in touch with miles,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+42int._massey_mansion_-_night,Miles says there are no buts.,miles,performs,rejects objections,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+42int._massey_mansion_-_night,Marylin apologizes to Miles.,marylin,performs,apologizes to miles,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+42int._massey_mansion_-_night,Miles says he also loves Marylin.,miles,affinity_with,marylin,grounded,1,0.84,social,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+42int._massey_mansion_-_night,Marylin hangs up the phone.,marylin,performs,hangs up the phone,grounded,1,0.891,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003>ev_en8dc9b5_42_doc_41_chunk_0_ev_005,Event
+42int._massey_mansion_-_night,Marylin walks slowly around the room.,marylin,performs,walks slowly around the room,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+42int._massey_mansion_-_night,Joe is standing with his back pressed to the wall.,joe,located_at,wall,grounded,1,0.88,spatiotemporal,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+42int._massey_mansion_-_night,Marylin offers to pay double.,marylin,performs,offers to pay double,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+42int._massey_mansion_-_night,Joe names Mr. Dumbarton as the sender.,joe,references,mr. dumbarton,grounded,1,0.8,inter_event,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+42int._massey_mansion_-_night,Marylin shows Joe the picture of Miles.,marylin,performs,shows picture of miles to joe,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+42int._massey_mansion_-_night,Marylin asks whether the picture is Mr. Dumbarton.,marylin,references,mr. dumbarton,grounded,1,0.8513999999999999,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003>ev_en8dc9b5_42_doc_41_chunk_0_ev_008,Event
+42int._massey_mansion_-_night,Joe says Judge Munson is the lawyer.,joe,references,judge munson,grounded,1,0.84,inter_event,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+42int._massey_mansion_-_night,Judge Munson is a lawyer.,judge munson,is_a,lawyer,grounded,1,0.88,object,ent_en8dc9b5_21_doc_20_chunk_0_part_1_ent_006,Character
+42int._massey_mansion_-_night,Judge Munson says he has never presided over a divorce.,judge munson,performs,says he has never presided over a divorce,grounded,1,0.84,event_role,ent_en8dc9b5_21_doc_20_chunk_0_part_1_ent_006,Character
+42int._massey_mansion_-_night,Judge Munson has never presided over a divorce.,judge munson,experiences,never presiding over a divorce,grounded,1,0.84,event_role,ent_en8dc9b5_21_doc_20_chunk_0_part_1_ent_006,Character
+42int._massey_mansion_-_night,Marylin offers to pay triple.,marylin,performs,offers to pay triple,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+42int._massey_mansion_-_night,Joe asks who the pigeon is.,joe,references,pigeon,grounded,1,0.84,inter_event,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+42int._massey_mansion_-_night,A car screeches to a halt.,car,performs,screeching to a halt,grounded,1,0.88,event_role,ent_en8dc9b5_41_doc_40_chunk_1_ent_007,Vehicle
+43ext._massey_mansion,Massey exits the car.,massey,performs,exits the car,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+43ext._massey_mansion,Massey clutches a can of mace.,massey,possesses,a can of mace,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+44int._mansion,A key scrapes in the lock.,key,performs,scrapes in the lock,hallucinated,0,0.0,event_role,,
+44int._mansion,"Howard says Marylin proposed the dinner meeting, though Miles arranged it.",ruth,references,county jail located on a private satellite orbiting malibu,hallucinated,0,0.0,inter_event,,
+44int._mansion,Miles tiptoes in.,miles,performs,tiptoes in,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+44int._mansion,Miles tiptoes through the dining room.,miles,performs,tiptoes through the dining room,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+44int._mansion,Miles backs through the swinging doors.,miles,performs,backs through the swinging doors,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+44int._mansion,The swinging doors connect to the kitchen.,swinging doors,located_at,kitchen,grounded,1,0.88,spatiotemporal,,
+44int._mansion,Miles calls for Marylin.,miles,references,marylin,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+44int._mansion,Miles finds himself face to face with Joe.,miles,performs,finds himself face to face with joe,grounded,1,0.95,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_44_doc_43_chunk_0_part_0_ev_002,Event
+44int._mansion,Miles says it is a no-go.,miles,references,no go,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+44int._mansion,Miles says no one is any the wiser.,miles,references,no one any the wiser,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+44int._mansion,Miles tells Joe he can go home now.,miles,references,joe can go home now,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+44int._mansion,Joe takes out his gun.,joe,uses,gun,grounded,1,0.88,object,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+44int._mansion,Miles says there is no contract.,miles,references,no contract,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+44int._mansion,Miles says it is all over.,miles,references,it is all over,grounded,1,0.88,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+44int._mansion,Joe unscrews his silencer.,joe,performs,unscrews his silencer,grounded,1,0.88,event_role,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+44int._mansion,Miles is exasperated.,miles,experiences,exasperation,grounded,1,0.40555555555555556,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_44_doc_43_chunk_1_ev_002,Event
+44int._mansion,Marylin appears.,marylin,performs,appears,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+44int._mansion,Joe calls Marylin a whore.,marylin,is_a,whore,grounded,1,0.88,object,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+44int._mansion,Joe says Marylin worships the dollar.,marylin,affinity_with,the dollar,grounded,1,0.88,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+44int._mansion,Marylin says all whores worship the dollar.,whores,affinity_with,the dollar,grounded,1,0.88,social,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+44int._mansion,Joe says he was a lawyer.,joe,is_a,lawyer,grounded,1,0.88,object,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+44int._mansion,Joe was affiliated with Kaplan.,joe,affiliated_with,kaplan,grounded,1,0.84,social,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+44int._mansion,Miles identifies Joe as Joe Gittelson.,joe,is_a,joe gittelson,grounded,1,0.88,object,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+44int._mansion,Joe says he was a lawyer.,joe,is_a,former lawyer,grounded,1,0.88,object,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+44int._mansion,Joe says twenty years in matrimonial law made him sick.,joe,experiences,sickness from matrimonial law,hallucinated,0,0.0,event_role,,
+44int._mansion,Joe wheezes.,joe,performs,wheezing,grounded,1,0.45,event_role,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+44int._mansion,Joe says he broke up homes and families.,joe,performs,breaking up homes and families,grounded,1,0.88,event_role,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+44int._mansion,Joe says he never gave it a second thought.,joe,performs,not giving it a second thought,grounded,1,0.88,event_role,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+44int._mansion,Joe says he had an epiphany.,joe,experiences,an epiphany,grounded,1,0.88,event_role,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+44int._mansion,Joe uses his gun hand to keep the inhaler from falling.,joe,uses,gun hand,grounded,1,0.8428,object,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001>ent_en8dc9b5_44_doc_43_chunk_0_part_0_ent_007,Object
+44int._mansion,Joe momentarily bobbles both the gun and the inhaler.,joe,experiences,bobbles both gun and inhaler,grounded,1,0.84,event_role,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+44int._mansion,Miles pops up in front of Joe.,miles,performs,pops up in front of joe,hallucinated,0,0.0,event_role,,
+44int._mansion,Miles says he will distract Joe.,miles,performs,says he will distract joe,hallucinated,0,0.0,event_role,,
+44int._mansion,Marylin says she is not leaving Miles.,marylin,performs,refuses to leave miles,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+44int._mansion,Marylin says she took self defense.,marylin,references,self defense,grounded,1,0.84,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+44int._mansion,Joe points the inhaler at Miles.,joe,uses,inhaler,grounded,1,0.84,object,ent_en8dc9b5_44_doc_43_chunk_0_part_1_ent_001,Character
+44int._mansion,Miles squints against the asthma mist.,miles,experiences,squints against asthma mist,hallucinated,0,0.0,event_role,,
+44int._mansion,"Miles says, 'Joe!'",miles,performs,says joe,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+44int._mansion,Marylin runs over to Miles.,marylin,performs,runs over to miles,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+45int._massey_myerson_conference_room_-_day,The receptionist announces the arrival.,receptionist,performs,announces the arrival,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_003,Character
+45int._massey_myerson_conference_room_-_day,Wrigley agrees with Ruth.,wrigley,affinity_with,ruth,grounded,1,0.84,social,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+45int._massey_myerson_conference_room_-_day,The burglar became despondent over his lifestyle.,burglar,performs,became despondent over his lifestyle,grounded,1,0.88,event_role,ent_en8dc9b5_45_doc_44_chunk_0_part_0_ent_011,Concept
+45int._massey_myerson_conference_room_-_day,The burglar shot himself.,burglar,performs,shot himself,grounded,1,0.88,event_role,ent_en8dc9b5_45_doc_44_chunk_0_part_0_ent_011,Concept
+45int._massey_myerson_conference_room_-_day,Ruth says they have outlined a settlement.,ruth,performs,says they have outlined a settlement,grounded,1,0.88,event_role,,
+45int._massey_myerson_conference_room_-_day,Ruth pushes a piece of paper across the table.,ruth,performs,pushes a piece of paper across the table,grounded,1,0.88,event_role,ent_en8dc9b5_45_doc_44_chunk_0_part_0_ent_007,Object
+45int._massey_myerson_conference_room_-_day,Ruth says the settlement is more than generous.,ruth,performs,says the settlement is more than generous,grounded,1,0.88,event_role,,
+45int._massey_myerson_conference_room_-_day,Miles ignores the paper.,miles,performs,ignores the paper,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+45int._massey_myerson_conference_room_-_day,The paper lies unclaimed in the middle of the table.,paper,located_at,middle of the table,grounded,1,0.88,spatiotemporal,ent_en8dc9b5_21_doc_20_chunk_0_part_1_ent_010,Object
+45int._massey_myerson_conference_room_-_day,Marylin says she cannot trust Miles.,marylin,experiences,distrust of miles,hallucinated,0,0.0,event_role,,
+45int._massey_myerson_conference_room_-_day,Miles says Marylin wounded him first.,miles,experiences,wounding by marylin,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+45int._massey_myerson_conference_room_-_day,Miles takes out a piece of paper.,miles,uses,piece of paper,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+45int._massey_myerson_conference_room_-_day,Miles clicks the button on a ballpoint pen.,miles,uses,ballpoint pen,grounded,1,0.88,object,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+45int._massey_myerson_conference_room_-_day,Miles signs the paper.,miles,performs,signing the paper,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+45int._massey_myerson_conference_room_-_day,The Massey pre-nup has no clause saying it cannot be executed after the parties wed.,massey pre-nup,possesses,post-wedding execution clause,hallucinated,0,0.0,object,,
+45int._massey_myerson_conference_room_-_day,Marylin claims Miles drafted the first prenup before they met.,gun,causes,confetti subpoenas,hallucinated,0,0.0,inter_event,,
+45int._massey_myerson_conference_room_-_day,Wrigley apologizes.,wrigley,performs,apology,grounded,1,0.45,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+45int._massey_myerson_conference_room_-_day,Marylin picks up the paper.,marylin,performs,picks up the paper,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+45int._massey_myerson_conference_room_-_day,Marylin rips the paper in half.,marylin,performs,rips the paper in half,grounded,1,0.9075000000000001,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003>ev_en8dc9b5_45_doc_44_chunk_1_ev_004,Event
+45int._massey_myerson_conference_room_-_day,Ruth is going back to the office.,ruth,performs,goes back to the office,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_005,Character
+45int._massey_myerson_conference_room_-_day,Wrigley sobs openly.,wrigley,experiences,open sobbing,grounded,1,0.84,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+45int._massey_myerson_conference_room_-_day,Ruth offers Wrigley a drink.,ruth,performs,offers wrigley a drink,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_0_part_0_ent_005,Character
+45int._massey_myerson_conference_room_-_day,Ruth offers Wrigley an antidepressant.,ruth,performs,offers wrigley an antidepressant,hallucinated,0,0.0,event_role,,
+45int._massey_myerson_conference_room_-_day,Wrigley says that no one will ever love him that way.,wrigley,experiences,belief that no one will ever love him that way,grounded,1,0.88,event_role,ent_en8dc9b5_3_doc_2_chunk_1_ent_004,Character
+45int._massey_myerson_conference_room_-_day,"Ruth says, 'Not if you're lucky.'",ruth,performs,says not if you're lucky,grounded,1,0.88,event_role,,
+45int._massey_myerson_conference_room_-_day,Miles leans forward.,miles,performs,leans forward,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+45int._massey_myerson_conference_room_-_day,Miles kisses Marylin.,miles,performs,kisses marylin,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+45int._massey_myerson_conference_room_-_day,"Miles says, 'Let's go home.'",miles,performs,says let's go home,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+46ext._massey_house_-_day,Smashing occurs at Massey House.,smashing,occurs_at,massey house,grounded,1,0.84,spatiotemporal,ev_en8dc9b5_46_doc_45_chunk_0_ev_001,Event
+46ext._massey_house_-_day,Breaking occurs at Massey House.,breaking,occurs_at,massey house,grounded,1,0.84,spatiotemporal,ev_en8dc9b5_46_doc_45_chunk_0_ev_001,Event
+46ext._massey_house_-_day,Gardeners are present in the yard of Massey House.,gardeners,present_on,massey house yard,grounded,1,0.84,spatiotemporal,ent_en8dc9b5_46_doc_45_chunk_0_ent_001,Character
+46ext._massey_house_-_day,The gardeners are leaf blowing.,gardeners,performs,leaf blowing,grounded,1,0.88,event_role,ent_en8dc9b5_46_doc_45_chunk_0_ent_001,Character
+46ext._massey_house_-_day,The gardeners continue leaf blowing.,gardeners,performs,continuing leaf blowing,grounded,1,0.84,event_role,ent_en8dc9b5_46_doc_45_chunk_0_ent_001,Character
+46ext._massey_house_-_day,The gardeners use leaf blowers.,gardeners,uses,leaf blower,grounded,1,0.84,object,ent_en8dc9b5_46_doc_45_chunk_0_ent_001,Character
+46ext._massey_house_-_day,The gardeners use sycamore leaves as the material being blasted.,gardeners,uses,sycamore leaves,grounded,1,0.84,object,ent_en8dc9b5_46_doc_45_chunk_0_ent_001,Character
+46ext._massey_house_-_day,Sycamore leaves are blasted from one end of the yard to the other.,sycamore leaves,located_at,one end of the yard,grounded,1,0.88,spatiotemporal,ent_en8dc9b5_46_doc_45_chunk_0_ent_003,Object
+46ext._massey_house_-_day,The camera tracks through the house.,camera,performs,tracking through house,grounded,1,0.88,event_role,,
+47int._massey_bedroom,The smashing is becoming louder.,smashing,experiences,increasing loudness,hallucinated,0,0.0,event_role,,
+47int._massey_bedroom,The wood panelling is in the room next to the master suite.,wood panelling,occurs_at,room next to the master suite,grounded,1,0.88,spatiotemporal,ev_en8dc9b5_47_doc_46_chunk_0_ev_001,Event
+47int._massey_bedroom,Miles calls someone crazy.,miles,performs,calls someone crazy,grounded,1,0.84,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+47int._massey_bedroom,The construction worker is wielding the axe.,construction worker,uses,axe,grounded,1,0.88,object,ent_en8dc9b5_47_doc_46_chunk_0_ent_002,Character
+47int._massey_bedroom,Miles removes one box of Cohiba Especials from under the rubble.,miles,performs,removes one box of cohiba especials,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+47int._massey_bedroom,Cohiba Especials are cigars.,cohiba especials,is_a,cigars,grounded,1,0.88,object,ent_en8dc9b5_47_doc_46_chunk_0_ent_007,Object
+47int._massey_bedroom,The construction worker apologizes to Mr. Massey.,construction worker,performs,apologizes to mr. massey,grounded,1,0.88,event_role,ent_en8dc9b5_47_doc_46_chunk_0_ent_002,Character
+47int._massey_bedroom,Those things are illegal.,those things,is_a,illegal,grounded,1,0.88,object,ent_en8dc9b5_47_doc_46_chunk_0_ent_002,Character
+47int._massey_bedroom,Those things are tobacco.,those things,is_a,tobacco,grounded,1,0.88,object,ent_en8dc9b5_47_doc_46_chunk_0_ent_002,Character
+47int._massey_bedroom,Marylin is mightily pregnant.,marylin,undergoes,pregnancy,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+47int._massey_bedroom,Marylin says he is right.,marylin,performs,agrees that he is right,grounded,1,0.84,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+47int._massey_bedroom,Miles says the cigars are pre-Castro.,miles,references,pre-castro,grounded,1,0.99,inter_event,ent_en8dc9b5_1_doc_0_chunk_0_ent_004>ev_en8dc9b5_47_doc_46_chunk_1_ev_002,Event
+47int._massey_bedroom,Marylin says they were created during a dictatorship.,marylin,references,a dictatorship,grounded,1,0.88,inter_event,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+47int._massey_bedroom,Miles tosses the box to the construction worker.,miles,performs,tosses the box to the construction worker,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+47int._massey_bedroom,Miles gives the construction worker the box.,miles,performs,gives the construction worker the box,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character
+47int._massey_bedroom,Harvard devoted a whole semester to your Dad.,harvard,performs,devoted a whole semester to your dad,grounded,1,0.88,event_role,ent_en8dc9b5_47_doc_46_chunk_1_ent_006,Concept
+47int._massey_bedroom,Mom nailed his ass.,mom,performs,nailed his ass,grounded,1,0.88,event_role,ent_en8dc9b5_19_doc_18_chunk_0_part_0_ent_004,Character
+47int._massey_bedroom,"Marylin says, 'Sweet.'",marylin,performs,says sweet,grounded,1,0.88,event_role,ent_en8dc9b5_9_doc_8_chunk_0_ent_003,Character
+47int._massey_bedroom,"Miles says, 'I thought so.'",miles,performs,says i thought so,grounded,1,0.88,event_role,ent_en8dc9b5_1_doc_0_chunk_0_ent_004,Character

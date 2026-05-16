@@ -1,0 +1,63 @@
+{
+  "claims_input": 1430,
+  "claims_scored": 1091,
+  "low_confidence_claims": 88,
+  "abstentions": 251,
+  "metrics": {
+    "total_claims": 1091,
+    "unscorable_claims": 251,
+    "low_confidence_claims": 88,
+    "grounded_claims": 1019,
+    "grounded_multihop_claims": 0,
+    "partial_claims": 0,
+    "hallucinated_claims": 72,
+    "contradictions": 0,
+    "hallucination_rate": 0.06599450045829514,
+    "grounding_rate": 0.9340054995417049,
+    "by_relation_type": {
+      "event_role": {
+        "grounded": 516,
+        "hallucinated": 45,
+        "count": 561,
+        "weight": 1.5,
+        "rate": 0.08021390374331551
+      },
+      "spatiotemporal": {
+        "grounded": 56,
+        "hallucinated": 8,
+        "count": 64,
+        "weight": 1.0,
+        "rate": 0.125
+      },
+      "object": {
+        "grounded": 255,
+        "hallucinated": 14,
+        "count": 269,
+        "weight": 1.0,
+        "rate": 0.05204460966542751
+      },
+      "inter_event": {
+        "grounded": 134,
+        "hallucinated": 4,
+        "count": 138,
+        "weight": 1.5,
+        "rate": 0.028985507246376812
+      },
+      "social": {
+        "grounded": 57,
+        "hallucinated": 1,
+        "count": 58,
+        "weight": 2.0,
+        "rate": 0.017241379310344827
+      },
+      "unknown": {
+        "grounded": 1,
+        "hallucinated": 0,
+        "count": 1,
+        "weight": 1.0,
+        "rate": 0.0
+      }
+    },
+    "by_character": {}
+  }
+}

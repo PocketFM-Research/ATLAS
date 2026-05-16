@@ -1,13 +1,15 @@
 """
 Embedding utilities for entity normalization (Appendix C.2).
 
-Uses the Gemini text-embedding-004 model to produce name and description
-embeddings.  Falls back to a TF-IDF-style bag-of-words vector if the
-embedding API is unavailable, so the pipeline degrades gracefully.
+Uses a Gemini embedding model when available. Falls back to a TF-IDF-style
+bag-of-words vector if the embedding API is unavailable, unsupported for the
+current SDK/API version, or errors at runtime, so the pipeline degrades
+gracefully instead of failing normalization outright.
 """
 
 import logging
 import math
+import os
 import re
 from typing import List, Optional, Tuple
 
@@ -23,27 +25,49 @@ def get_gemini_embedder(api_key: str):
     try:
         from google import genai
         client = genai.Client(api_key=api_key)
+        model_candidates = [
+            os.getenv("GEMINI_EMBED_MODEL", "").strip(),
+            "gemini-embedding-001",
+            "text-embedding-004",
+        ]
+        model_candidates = [m for m in model_candidates if m]
 
         def embed(texts: List[str]) -> np.ndarray:
             if not texts:
                 return np.zeros((0, 768))
-            # Batch in groups of 100 (API limit)
-            all_vecs = []
-            for i in range(0, len(texts), 100):
-                batch = texts[i : i + 100]
-                resp = client.models.embed_content(
-                    model="text-embedding-004",
-                    contents=batch,
-                )
-                vecs = [e.values for e in resp.embeddings]
-                all_vecs.extend(vecs)
-            arr = np.array(all_vecs, dtype=np.float32)
-            # L2-normalize
-            norms = np.linalg.norm(arr, axis=1, keepdims=True)
-            norms = np.where(norms == 0, 1, norms)
-            return arr / norms
+            last_error = None
+            for model_name in model_candidates:
+                try:
+                    # Batch in groups of 100 (API limit)
+                    all_vecs = []
+                    for i in range(0, len(texts), 100):
+                        batch = texts[i : i + 100]
+                        resp = client.models.embed_content(
+                            model=model_name,
+                            contents=batch,
+                        )
+                        vecs = [e.values for e in resp.embeddings]
+                        all_vecs.extend(vecs)
+                    arr = np.array(all_vecs, dtype=np.float32)
+                    norms = np.linalg.norm(arr, axis=1, keepdims=True)
+                    norms = np.where(norms == 0, 1, norms)
+                    logger.debug("Using Gemini embedding model %s for normalization", model_name)
+                    return arr / norms
+                except Exception as e:
+                    last_error = e
+                    logger.warning(
+                        "Gemini embedding model %s failed at runtime (%s); trying fallback model/TF-IDF",
+                        model_name,
+                        e,
+                    )
 
-        logger.debug("Using Gemini text-embedding-004 for normalization")
+            logger.warning(
+                "All Gemini embedding models failed; falling back to TF-IDF for this normalization batch (%s)",
+                last_error,
+            )
+            return _tfidf_embedder(texts)
+
+        logger.debug("Using Gemini embedder with model fallbacks for normalization")
         return embed
 
     except Exception as e:

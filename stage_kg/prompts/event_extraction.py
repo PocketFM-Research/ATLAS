@@ -54,13 +54,13 @@ Return ONLY a JSON array of event objects. No other text.
 Example element shape:
 {{
   "temp_id": "ev_001",
-  "name": "Saavik orders intercept course to Kobayashi Maru",
-  "description": "Captain Saavik commands the helmsman to plot an intercept course for the crippled freighter despite the risk of entering the Neutral Zone.",
+  "name": "captain orders evacuation",
+  "description": "The captain orders everyone to evacuate the building immediately.",
   "scene_id": "{scene_id}",
   "chunk_id": "{chunk_id or scene_id}",
-  "evidence": ["SAAVIK: Plot an intercept course for the Kobayashi Maru."],
-  "participants": ["Saavik", "Sulu"],
-  "location_hint": "Enterprise Bridge",
+  "evidence": ["CAPTAIN: Everyone out, now!"],
+  "participants": ["Captain Reyes", "crew"],
+  "location_hint": "control room",
   "time_hint": null,
   "scope": "global"
 }}

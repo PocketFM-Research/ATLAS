@@ -155,6 +155,66 @@ def _close_open_structures(text: str) -> str:
     return text + "".join(reversed(stack))
 
 
+def _salvage_partial_object_list(text: str) -> Optional[list]:
+    """
+    Recover complete objects from a truncated top-level JSON array.
+
+    This is useful when the model emits a valid prefix like:
+      [{"a": 1}, {"b": 2}, {"c":
+    where standard bracket-closing repair still fails because the final object
+    is cut off mid-string or mid-key. In that case we return the complete
+    objects seen before the broken tail.
+    """
+    extracted = extract_json_block(text)
+    start = extracted.find("[")
+    if start == -1:
+        return None
+
+    items = []
+    obj_start = None
+    stack = []
+    in_string = False
+    escape_next = False
+
+    for idx, ch in enumerate(extracted[start:], start):
+        if escape_next:
+            escape_next = False
+            continue
+        if ch == "\\" and in_string:
+            escape_next = True
+            continue
+        if ch == '"':
+            in_string = not in_string
+            continue
+        if in_string:
+            continue
+
+        if obj_start is None:
+            if ch == "{":
+                obj_start = idx
+                stack = ["}"]
+            continue
+
+        if ch == "{":
+            stack.append("}")
+        elif ch == "[":
+            stack.append("]")
+        elif stack and ch == stack[-1]:
+            stack.pop()
+            if not stack:
+                candidate = extracted[obj_start : idx + 1]
+                try:
+                    items.append(json.loads(candidate))
+                except json.JSONDecodeError:
+                    pass
+                obj_start = None
+        elif ch in "}]":
+            # Mismatched close inside a malformed tail. Stop trusting the rest.
+            break
+
+    return items or None
+
+
 # ------------------------------------------------------------------ parse
 
 def parse_llm_json(raw: str, schema_hint: str = "") -> Optional[Any]:
@@ -202,6 +262,16 @@ def parse_llm_json(raw: str, schema_hint: str = "") -> Optional[Any]:
                 schema_hint, e, raw[-200:],
             )
 
+    if schema_hint in {"event_list", "entity_list", "relation_list"}:
+        salvaged = _salvage_partial_object_list(raw)
+        if salvaged:
+            logger.warning(
+                "Recovered %d complete JSON objects from truncated %s response",
+                len(salvaged),
+                schema_hint,
+            )
+            return salvaged
+
     return None
 
 
@@ -225,4 +295,11 @@ def validate_relation_list(data: Any) -> bool:
     if not isinstance(data, list):
         return False
     required = {"source_id", "relation", "target_id"}
+    return all(isinstance(i, dict) and required.issubset(i) for i in data)
+
+
+def validate_claim_list(data: Any) -> bool:
+    if not isinstance(data, list):
+        return False
+    required = {"subject", "predicate", "object", "claim_text"}
     return all(isinstance(i, dict) and required.issubset(i) for i in data)

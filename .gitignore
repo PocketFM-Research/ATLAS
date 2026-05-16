@@ -1,6 +1,8 @@
 # macOS
 .DS_Store
 
+.claude/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -17,8 +19,13 @@ venv/
 *.swp
 *.swo
 
+
 # Misc
 .env
 *.log
 
 gemini.txt
+openai.txt
+base_url.txt
+base_url_kimi.txt
+api_key_kimi.txt

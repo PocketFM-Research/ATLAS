@@ -14,6 +14,7 @@ class NodeType(str, Enum):
     LOCATION = "Location"
     TIME_POINT = "TimePoint"
     OBJECT = "Object"
+    VEHICLE = "Vehicle"
     CONCEPT = "Concept"
 
 
@@ -31,6 +32,7 @@ class RelationType(str, Enum):
 
     # Inter-Event relations
     PRECEDES = "precedes"           # one event occurs earlier than another
+    OCCURS_AFTER = "occurs_after"   # one event occurs after another (reverse traversal edge)
     CAUSES = "causes"               # one event directly causes another
     CONTRASTS_WITH = "contrasts_with"  # two events form a contrast or parallel
     REFERENCES = "references"       # one event refers to/recalls/describes another
@@ -60,6 +62,8 @@ VALID_TRIPLES: Set[Tuple[NodeType, RelationType, NodeType]] = {
     (NodeType.OBJECT, RelationType.PERFORMS, NodeType.EVENT),
     (NodeType.OBJECT, RelationType.UNDERGOES, NodeType.EVENT),
     (NodeType.CONCEPT, RelationType.PERFORMS, NodeType.EVENT),    # org initiates event
+    (NodeType.VEHICLE, RelationType.PERFORMS, NodeType.EVENT),    # vehicle performs event
+    (NodeType.VEHICLE, RelationType.UNDERGOES, NodeType.EVENT),  # vehicle acted upon
 
     # Social
     (NodeType.CHARACTER, RelationType.KINSHIP_WITH, NodeType.CHARACTER),
@@ -70,32 +74,43 @@ VALID_TRIPLES: Set[Tuple[NodeType, RelationType, NodeType]] = {
 
     # Inter-Event
     (NodeType.EVENT, RelationType.PRECEDES, NodeType.EVENT),
+    (NodeType.EVENT, RelationType.OCCURS_AFTER, NodeType.EVENT),
     (NodeType.EVENT, RelationType.CAUSES, NodeType.EVENT),
     (NodeType.EVENT, RelationType.CONTRASTS_WITH, NodeType.EVENT),
     (NodeType.EVENT, RelationType.REFERENCES, NodeType.EVENT),
 
     # Spatiotemporal — occurs_at is Event->Location; occurs_on is Event->TimePoint (Table 12)
     (NodeType.EVENT, RelationType.OCCURS_AT, NodeType.LOCATION),
+    (NodeType.EVENT, RelationType.OCCURS_AT, NodeType.VEHICLE),           # event occurs aboard a vehicle
     (NodeType.EVENT, RelationType.OCCURS_ON, NodeType.TIME_POINT),         # Table 12: Event->TimePoint
     (NodeType.CHARACTER, RelationType.LOCATED_AT, NodeType.LOCATION),     # Table 12: Character->Location
+    (NodeType.CHARACTER, RelationType.LOCATED_AT, NodeType.VEHICLE),      # character aboard vehicle
     (NodeType.OBJECT, RelationType.LOCATED_AT, NodeType.LOCATION),
     (NodeType.CONCEPT, RelationType.LOCATED_AT, NodeType.LOCATION),
+    (NodeType.VEHICLE, RelationType.LOCATED_AT, NodeType.LOCATION),       # vehicle at a location
     (NodeType.CHARACTER, RelationType.PRESENT_ON, NodeType.TIME_POINT),
     (NodeType.OBJECT, RelationType.PRESENT_ON, NodeType.TIME_POINT),
     (NodeType.CONCEPT, RelationType.PRESENT_ON, NodeType.TIME_POINT),
+    (NodeType.VEHICLE, RelationType.PRESENT_ON, NodeType.TIME_POINT),
 
     # Object-related
     (NodeType.CHARACTER, RelationType.POSSESSES, NodeType.OBJECT),
+    (NodeType.CHARACTER, RelationType.POSSESSES, NodeType.VEHICLE),
     (NodeType.CONCEPT, RelationType.POSSESSES, NodeType.OBJECT),
     (NodeType.CHARACTER, RelationType.USES, NodeType.OBJECT),
+    (NodeType.CHARACTER, RelationType.USES, NodeType.VEHICLE),
     (NodeType.OBJECT, RelationType.USES, NodeType.OBJECT),
     (NodeType.OBJECT, RelationType.PART_OF, NodeType.OBJECT),
     (NodeType.OBJECT, RelationType.PART_OF, NodeType.LOCATION),
+    (NodeType.OBJECT, RelationType.PART_OF, NodeType.VEHICLE),
     (NodeType.LOCATION, RelationType.PART_OF, NodeType.LOCATION),
+    (NodeType.VEHICLE, RelationType.PART_OF, NodeType.VEHICLE),
+    (NodeType.VEHICLE, RelationType.PART_OF, NodeType.LOCATION),
 
     # Semantic
     (NodeType.CHARACTER, RelationType.IS_A, NodeType.CONCEPT),
     (NodeType.OBJECT, RelationType.IS_A, NodeType.CONCEPT),
+    (NodeType.VEHICLE, RelationType.IS_A, NodeType.CONCEPT),
     (NodeType.CONCEPT, RelationType.IS_A, NodeType.CONCEPT),
     (NodeType.CHARACTER, RelationType.PART_OF, NodeType.CONCEPT),   # member of group
     (NodeType.CONCEPT, RelationType.PART_OF, NodeType.CONCEPT),

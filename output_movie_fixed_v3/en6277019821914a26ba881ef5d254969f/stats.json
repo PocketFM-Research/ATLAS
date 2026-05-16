@@ -1,0 +1,43 @@
+{
+  "movie_id": "en6277019821914a26ba881ef5d254969f",
+  "title": "The Fighter",
+  "node_count_total": 438,
+  "node_count_by_type": {
+    "Event": 254,
+    "Character": 55,
+    "Location": 43,
+    "TimePoint": 11,
+    "Object": 37,
+    "Vehicle": 7,
+    "Concept": 31
+  },
+  "edge_count_total": 789,
+  "edge_count_by_relation": {
+    "performs": 268,
+    "precedes": 34,
+    "kinship_with": 26,
+    "undergoes": 72,
+    "affinity_with": 32,
+    "hostility_with": 12,
+    "occurs_at": 149,
+    "is_a": 16,
+    "occurs_on": 17,
+    "located_at": 75,
+    "references": 5,
+    "contrasts_with": 2,
+    "experiences": 20,
+    "part_of": 9,
+    "possesses": 8,
+    "uses": 6,
+    "causes": 3,
+    "affiliated_with": 1,
+    "occurs_after": 34
+  },
+  "nodes_with_evidence_pct": 100.0,
+  "edges_with_evidence_pct": 100.0,
+  "schema_violation_count": 2,
+  "avg_degree": 3.6,
+  "disconnected_component_count": 62,
+  "avg_aliases_per_node": 1.64,
+  "avg_edge_confidence": 0.911
+}

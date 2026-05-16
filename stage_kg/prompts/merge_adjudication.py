@@ -40,7 +40,7 @@ INSTRUCTIONS:
 Return ONLY the JSON object. No other text.
 
 Example:
-{{"merge": true, "canonical_name": "Khan Noonian Singh", "reason": "Both nodes refer to the same antagonist, with 'Khan' being the informal surface form and 'Khan Noonian Singh' the full name.", "confidence": 0.97}}
+{{"merge": true, "canonical_name": "Captain Reyes", "reason": "Both nodes refer to the same character, with one node using a shortened surface form and the other the full name.", "confidence": 0.97}}
 """
 
 

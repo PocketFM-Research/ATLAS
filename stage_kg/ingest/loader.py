@@ -18,6 +18,8 @@ from typing import Dict, List, Optional, Any
 
 logger = logging.getLogger(__name__)
 
+MIN_SCENE_CHUNK_MERGE_CHARS = 1200
+
 
 @dataclass
 class SceneRecord:
@@ -95,6 +97,12 @@ def load_movie(movie_dir: Path, movie_id: str, title: str = "", language: str = 
         scene_id = str(raw["_id"] + 1)  # 1-based string id matching "scene_1_part_1"
         doc_key = f"scene_{scene_id}_part_1"
         d2c = doc2chunks.get(doc_key, {})
+        part_index = 2
+        while f"scene_{scene_id}_part_{part_index}" in doc2chunks:
+            d2c.setdefault("chunks", []).extend(
+                doc2chunks[f"scene_{scene_id}_part_{part_index}"].get("chunks", [])
+            )
+            part_index += 1
         meta = d2c.get("document_metadata", {})
 
         scene = SceneRecord(
@@ -112,17 +120,12 @@ def load_movie(movie_dir: Path, movie_id: str, title: str = "", language: str = 
             source_doc_id=meta.get("source_doc_id", f"doc_{raw['_id']}"),
         )
 
-        # If no pre-computed chunks, create a single chunk from the full content
-        if not scene.chunks:
-            scene.chunks = [
-                {
-                    "id": f"doc_{raw['_id']}_chunk_0",
-                    "content": raw.get("content", ""),
-                    "source_doc_id": scene.source_doc_id,
-                    "start_pos": 0,
-                    "end_pos": len(raw.get("content", "")),
-                }
-            ]
+        scene.chunks = _prepare_scene_chunks(
+            raw_scene_text=raw.get("content", ""),
+            raw_scene_id=raw["_id"],
+            source_doc_id=scene.source_doc_id,
+            chunks=scene.chunks,
+        )
 
         movie.scenes.append(scene)
 
@@ -223,3 +226,33 @@ def _infer_category(title: str) -> str:
     if "EXT." in upper:
         return "EXT"
     return "UNKNOWN"
+
+
+def _prepare_scene_chunks(
+    raw_scene_text: str,
+    raw_scene_id: int,
+    source_doc_id: str,
+    chunks: List[Dict],
+) -> List[Dict]:
+    """Collapse very short scenes into a single chunk to avoid over-segmentation."""
+    if not chunks:
+        return [_single_chunk(raw_scene_text, raw_scene_id, source_doc_id)]
+
+    scene_text = (raw_scene_text or "").strip()
+    if not scene_text:
+        return chunks
+
+    if len(scene_text) <= MIN_SCENE_CHUNK_MERGE_CHARS and len(chunks) > 1:
+        return [_single_chunk(raw_scene_text, raw_scene_id, source_doc_id)]
+
+    return chunks
+
+
+def _single_chunk(raw_scene_text: str, raw_scene_id: int, source_doc_id: str) -> Dict[str, Any]:
+    return {
+        "id": f"doc_{raw_scene_id}_chunk_0",
+        "content": raw_scene_text,
+        "source_doc_id": source_doc_id,
+        "start_pos": 0,
+        "end_pos": len(raw_scene_text),
+    }

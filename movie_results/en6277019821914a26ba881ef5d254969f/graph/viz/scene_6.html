@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Fighter — Scene 6</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: #1a1a2e; color: #eee; overflow: hidden; }
+  svg { width: 100vw; height: 100vh; display: block; }
+  .link { stroke-opacity: 0.5; }
+  .link:hover { stroke-opacity: 1; }
+  .node circle { stroke: #fff; stroke-width: 1.5px; cursor: pointer; }
+  .node text { font-size: 11px; fill: #ccc; pointer-events: none; }
+  .tooltip { position: absolute; background: rgba(20,20,40,0.95); border: 1px solid #555;
+              border-radius: 6px; padding: 10px 14px; font-size: 13px; pointer-events: none;
+              max-width: 360px; line-height: 1.4; display: none; z-index: 100; }
+  .tooltip b { color: #fff; }
+  .tooltip .type-badge { display: inline-block; padding: 1px 6px; border-radius: 3px;
+                          font-size: 11px; margin-left: 6px; color: #fff; }
+  #legend { position: fixed; top: 12px; right: 12px; background: rgba(20,20,40,0.9);
+             border: 1px solid #444; border-radius: 8px; padding: 12px 16px; font-size: 13px; }
+  #legend div { margin: 4px 0; }
+  #legend span { display: inline-block; width: 12px; height: 12px; border-radius: 50%;
+                  margin-right: 6px; vertical-align: middle; }
+  #title-bar { position: fixed; top: 12px; left: 12px; font-size: 18px; font-weight: 600;
+                background: rgba(20,20,40,0.9); border: 1px solid #444; border-radius: 8px;
+                padding: 8px 16px; }
+</style>
+</head>
+<body>
+<div id="title-bar">The Fighter — Scene 6</div>
+<div id="legend"></div>
+<div class="tooltip" id="tooltip"></div>
+<svg></svg>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+const nodes = [{"id": "ev_en627701_6_doc_5_chunk_0_ev_001", "type": "Event", "name": "Cambodian Guy speaks off-screen", "aliases": ["Cambodian Guy speaks off-screen"], "description": "A Cambodian man speaks off-screen in Cambodian, establishing his presence and interaction within the scene.", "scene_refs": ["6"], "evidence": ["CAMBODIAN GUY (OS, TALKS IN CAMBODIAN)"]}, {"id": "ev_en627701_6_doc_5_chunk_0_ev_002", "type": "Event", "name": "Dicky proposes an investment scheme", "aliases": ["Dicky proposes an investment scheme"], "description": "Dicky, speaking off-screen, outlines a financial scheme involving a $200 investment and recruiting ten other people.", "scene_refs": ["6"], "evidence": ["DICKY (OS) You put in $200, then you get ten OTHER people --"]}, {"id": "ent_en627701_2_doc_1_chunk_0_ent_dicky", "type": "Character", "name": "Dicky", "aliases": ["Dicky", "Dicky Eklund", "DICKY", "I", "Dicky's son", "daddy", "him", "me", "bruthah", "He", "his father", "Daddy", "'im"], "description": "A former boxer and current crack addict being filmed for an HBO documentary, who rambles about his past career and future comeback.", "scene_refs": ["17", "8", "13", "7", "2", "6", "14", "16", "12", "11", "18", "3"], "evidence": ["KAREN (DICKY'S CAMBODIAN CRACK GIRLFRIEND)", "DICKY Not this time, Dicky", "Dicky pushes the buzzer", "Micky gives Dicky a boost", "DICKY -- to give YOU $200 each", "DICKY Walk to the sidewalk", "Dicky pops out his fake teeth.", "DICKY No no no no.", "Dicky moving around the ring...", "DICKY Excuse me, BooBoo, it's still my movie", "Dicky taught me everything", "Dicky leaving", "Little Dicky hits Dicky in the mouth again.", "Dicky Stumbles up to his feet", "Dicky walks down the street", "CHARLENE Dicky?", "DICKY - He don't gotta cry no more", "DICKY You get that from TEN OTHAH PEOPLE", "DICKY I know you can't fuckin' stand me.", "DICKY (calls out to Micky)", "My teef, my teef, Dicky, you knocked out my teef!", "Dicky nods, walks off the porch", "Dicky and BooBoo sit", "He snaps Micky's head with a combination.", "Dicky, it sounds.", "Dicky's son", "DICKY Micky nods", "DICKY Understand?", "DICKY I got no use for you eithah", "DICKY (OS)", "Dicky pushes Micky away, ducks, jabs.. .Micky traps Dicky's left under his elbow/arm, pulling it. . .Turning Dicky so his back", "five minutes Dicky, wrap it up.", "What kids, Dicky?", "No sign of fucking Dicky", "Dicky standing in the doorway", "Dicky's handlin' it.", "Dicky sinks to his knees", "Dicky open mouth makes out with Karen", "DICKY (CONT'D)", "Dicky running down the street", "Little Dicky runs out of the house into Dicky's arms", "He steps into the Trap", "Listen to your bruthah, honey", "DICKY ESPN screwed us", "yell in Cambodian at Dicky", "Dicky approaches the crack house", "Dicky's silhouette", "Dicky climbs out the window", "He looks at Dicky", "DICKY Fuck you, Charlene. I came here to make things right -", "Dicky pats him on the back", "Dicky tries to make Micky miss.", "Dicky comin'?", "Is Micky gonna watch it? You ask 'im why he don't come to see me? All I do in here is think about comin' back and workin' with Micky, that's what keeps me goin'. I want a second chance to do it right for him and win a title. Will ya tell him that for me?", "DICKY Sweah to God, I'll quit", "DICKY (real fear in his eyes)", "Dicky flying, falling...", "DICKY (PAUSES) I was in the fuckin' ring with 'im, Chalene", "DICKY (regretful, wary)", "Dicky playing with Little Dicky", "DICKY (mumbling fast to camera, high out of his mind)", "DICKY Then leave me alone", "DICKY (looks up as Little Dicky tags him in the nose)", "DICKY (swaying, wasted drunk)", "Dicky's comeback fight", "Dicky running down streets...", "The two brothers spar", "Dicky playing with his 4-year-old son", "HBO crew filming Dicky smoking crack", "DICKY I was trainin' in jail, so I'm ready.", "DICKY (WHISPERS)", "DICKY I gotta go home", "Dicky rolls over", "RAY RAMALHO Dicky Ecklund, the pride a Lowell!", "DICKY Hey, champ! Daddy's home!", "DICKY Empty ya pockets", "DICKY Your eyes are red", "DICKY (through cheap megaphone SLURRING)", "Dicky struggles to climbing over", "Alice would be better than Dicky.", "This rankles Micky as he and Dicky square off.", "Dicky looks at Corrections Officer 2", "Dicky rushes for an open window", "ya daddy can help ya Uncle Micky win a fight", "Dicky walking to Alice's house", "his father's nose", "Dicky grabs his brother by the shoulders", "C'mon, hit daddy with a kunckle sandwich.", "Dicky takes off running away...", "Dicky limps toward them", "Dicky presses the buzzer", "Dicky walking down the dimly lit hall", "DICKY We worked it out fah you", "POINTS AT Dicky", "Micky watches Dicky get geared up", "No Dicky", "DICKY Not everyone", "You're already doin' it without him", "Dicky!?", "Dicky, YOUR MUTHUAH'S OUTSIDE!", "DICKY (INTO INTERCOM) Charlene, it's Dicky.", "DICKY (puts an arm around Karen)", "Let's just go without 'im", "puts a hand on DICKY'S SHOULDER", "BOOBOO is behind Dicky"]}, {"id": "ent_en627701_6_doc_5_chunk_0_ent_001", "type": "Character", "name": "Cambodian Guy", "aliases": ["Cambodian Guy", "CAMBODIAN GUY"], "description": "A character who speaks off-screen in Cambodian.", "scene_refs": ["6"], "evidence": ["CAMBODIAN GUY (OS, TALKS IN CAMBODIAN)"]}, {"id": "ent_en627701_6_doc_5_chunk_0_ent_003", "type": "Object", "name": "$200", "aliases": ["$200"], "description": "The specific amount of money proposed for investment in Dicky's scheme.", "scene_refs": ["6"], "evidence": ["$200"]}];
+const links = [{"id": "e_2f71d532ae77", "source": "ent_en627701_6_doc_5_chunk_0_ent_001", "relation": "performs", "target": "ev_en627701_6_doc_5_chunk_0_ev_001", "scene_refs": ["6"], "evidence": ["CAMBODIAN GUY (OS, TALKS IN CAMBODIAN)"], "confidence": 1.0}, {"id": "e_7b8e5b511e85", "source": "ent_en627701_2_doc_1_chunk_0_ent_dicky", "relation": "performs", "target": "ev_en627701_6_doc_5_chunk_0_ev_002", "scene_refs": ["6"], "evidence": ["DICKY (OS) You put in $200, then you get ten OTHER people --"], "confidence": 1.0}];
+const typeColors = {"Character": "#4A90D9", "Event": "#6ABF69", "Location": "#E8943A", "Vehicle": "#9B59B6", "Object": "#95A5A6", "TimePoint": "#E74C3C", "Concept": "#F1C40F"};
+const defaultColor = "#CCCCCC";
+
+// Build legend
+const types = [...new Set(nodes.map(n => n.type))].sort();
+const legend = d3.select("#legend");
+types.forEach(t => {
+  legend.append("div").html(`<span style="background:${typeColors[t]||defaultColor}"></span>${t} (${nodes.filter(n=>n.type===t).length})`);
+});
+
+const width = window.innerWidth, height = window.innerHeight;
+const svg = d3.select("svg").attr("viewBox", [0, 0, width, height]);
+
+// Zoom
+const g = svg.append("g");
+svg.call(d3.zoom().scaleExtent([0.1, 8]).on("zoom", (e) => g.attr("transform", e.transform)));
+
+// Build id lookup
+const nodeById = Object.fromEntries(nodes.map(n => [n.id, n]));
+
+// Force simulation
+const simulation = d3.forceSimulation(nodes)
+  .force("link", d3.forceLink(links).id(d => d.id).distance(120))
+  .force("charge", d3.forceManyBody().strength(-300))
+  .force("center", d3.forceCenter(width / 2, height / 2))
+  .force("collision", d3.forceCollide().radius(30));
+
+// Links
+const link = g.append("g")
+  .selectAll("line")
+  .data(links)
+  .join("line")
+  .attr("class", "link")
+  .attr("stroke", "#556")
+  .attr("stroke-width", 1.5);
+
+// Link labels
+const linkLabel = g.append("g")
+  .selectAll("text")
+  .data(links)
+  .join("text")
+  .attr("font-size", 9)
+  .attr("fill", "#888")
+  .attr("text-anchor", "middle")
+  .text(d => d.relation);
+
+// Nodes
+const node = g.append("g")
+  .selectAll("g")
+  .data(nodes)
+  .join("g")
+  .attr("class", "node")
+  .call(d3.drag()
+    .on("start", (e, d) => { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+    .on("drag", (e, d) => { d.fx = e.x; d.fy = e.y; })
+    .on("end", (e, d) => { if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; })
+  );
+
+node.append("circle")
+  .attr("r", d => d.type === "Event" ? 8 : 10)
+  .attr("fill", d => typeColors[d.type] || defaultColor);
+
+node.append("text")
+  .attr("dx", 14)
+  .attr("dy", 4)
+  .text(d => d.name.length > 30 ? d.name.slice(0, 28) + "..." : d.name);
+
+// Tooltip
+const tooltip = d3.select("#tooltip");
+node.on("mouseover", (e, d) => {
+  const color = typeColors[d.type] || defaultColor;
+  let h = `<b>${d.name}</b><span class="type-badge" style="background:${color}">${d.type}</span><br>`;
+  if (d.description) h += `<br>${d.description}`;
+  if (d.aliases && d.aliases.length > 1) h += `<br><i>Aliases:</i> ${d.aliases.join(", ")}`;
+  if (d.scene_refs && d.scene_refs.length) h += `<br><i>Scenes:</i> ${d.scene_refs.join(", ")}`;
+  tooltip.html(h).style("display", "block");
+}).on("mousemove", (e) => {
+  tooltip.style("left", (e.pageX + 14) + "px").style("top", (e.pageY - 14) + "px");
+}).on("mouseout", () => tooltip.style("display", "none"));
+
+link.on("mouseover", (e, d) => {
+  const src = typeof d.source === "object" ? d.source.name : d.source;
+  const tgt = typeof d.target === "object" ? d.target.name : d.target;
+  tooltip.html(`<b>${src}</b> &rarr; <i>${d.relation}</i> &rarr; <b>${tgt}</b>`).style("display", "block");
+}).on("mousemove", (e) => {
+  tooltip.style("left", (e.pageX + 14) + "px").style("top", (e.pageY - 14) + "px");
+}).on("mouseout", () => tooltip.style("display", "none"));
+
+simulation.on("tick", () => {
+  link.attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+      .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+  linkLabel.attr("x", d => (d.source.x + d.target.x) / 2)
+           .attr("y", d => (d.source.y + d.target.y) / 2);
+  node.attr("transform", d => `translate(${d.x},${d.y})`);
+});
+</script>
+</body>
+</html>
