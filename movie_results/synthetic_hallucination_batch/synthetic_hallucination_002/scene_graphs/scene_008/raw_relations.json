@@ -1,0 +1,1046 @@
+{
+  "8": [
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "PRIYA approaches the prop cabinet and unlocks it with a SMALL KEY from her lanyard."
+      ],
+      "confidence": 0.99,
+      "source_name": "Priya",
+      "target_name": "priya unlocks prop cabinet",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_001",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)",
+        "PRIYA approaches the prop cabinet and unlocks it"
+      ],
+      "confidence": 0.97,
+      "source_name": "priya unlocks prop cabinet",
+      "target_name": "Ravenswood Theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_002",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)"
+      ],
+      "confidence": 0.96,
+      "source_name": "priya unlocks prop cabinet",
+      "target_name": "Night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_003",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_006",
+      "target_type": "Object",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "unlocks it with a SMALL KEY from her lanyard"
+      ],
+      "confidence": 0.99,
+      "source_name": "Priya",
+      "target_name": "small key",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_004",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)",
+        "PRIYA approaches the prop cabinet"
+      ],
+      "confidence": 0.93,
+      "source_name": "prop cabinet",
+      "target_name": "Ravenswood Theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_005",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "She removes a GOLD-PAINTED PROP PISTOL and brings it to Leon in the wings."
+      ],
+      "confidence": 0.99,
+      "source_name": "Priya",
+      "target_name": "priya retrieves prop pistol",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_006",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)",
+        "She removes a GOLD-PAINTED PROP PISTOL"
+      ],
+      "confidence": 0.97,
+      "source_name": "priya retrieves prop pistol",
+      "target_name": "Ravenswood Theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_007",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)"
+      ],
+      "confidence": 0.96,
+      "source_name": "priya retrieves prop pistol",
+      "target_name": "Night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_008",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "target_type": "Object",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "She removes a GOLD-PAINTED PROP PISTOL and brings it to Leon"
+      ],
+      "confidence": 0.92,
+      "source_name": "Priya",
+      "target_name": "gold-painted prop pistol",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_009",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "LEON",
+        "(checking the weight)",
+        "Feels the same."
+      ],
+      "confidence": 0.98,
+      "source_name": "Leon",
+      "target_name": "leon compares pistol weight",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_010",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)",
+        "She removes a GOLD-PAINTED PROP PISTOL and brings it to Leon in the wings.",
+        "LEON (checking the weight)"
+      ],
+      "confidence": 0.96,
+      "source_name": "leon compares pistol weight",
+      "target_name": "Ravenswood Theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_011",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)"
+      ],
+      "confidence": 0.96,
+      "source_name": "leon compares pistol weight",
+      "target_name": "Night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_012",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "target_type": "Object",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "LEON",
+        "(checking the weight)"
+      ],
+      "confidence": 0.9,
+      "source_name": "Leon",
+      "target_name": "gold-painted prop pistol",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_013",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "PRIYA",
+        "Properties said the silver was too reflective under stage lights. Gold reads better at distance."
+      ],
+      "confidence": 0.99,
+      "source_name": "Priya",
+      "target_name": "priya explains pistol replacement",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_014",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)",
+        "PRIYA",
+        "Properties said the silver was too reflective under stage lights."
+      ],
+      "confidence": 0.96,
+      "source_name": "priya explains pistol replacement",
+      "target_name": "Ravenswood Theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_015",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)"
+      ],
+      "confidence": 0.96,
+      "source_name": "priya explains pistol replacement",
+      "target_name": "Night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_016",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "source_type": "Character",
+      "relation": "affiliated_with",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_009",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "PRIYA",
+        "Properties said the silver was too reflective under stage lights."
+      ],
+      "confidence": 0.72,
+      "source_name": "Priya",
+      "target_name": "Properties",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_017",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_010",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Properties said the silver was too reflective under stage lights."
+      ],
+      "confidence": 0.58,
+      "source_name": "silver pistol",
+      "target_name": "Ravenswood Theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_018",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Leon pockets the gold-painted pistol."
+      ],
+      "confidence": 0.99,
+      "source_name": "Leon",
+      "target_name": "leon pockets prop pistol",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_019",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)",
+        "Leon pockets the gold-painted pistol."
+      ],
+      "confidence": 0.97,
+      "source_name": "leon pockets prop pistol",
+      "target_name": "Ravenswood Theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_020",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)"
+      ],
+      "confidence": 0.96,
+      "source_name": "leon pockets prop pistol",
+      "target_name": "Night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_021",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "target_type": "Object",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Leon pockets the gold-painted pistol."
+      ],
+      "confidence": 0.99,
+      "source_name": "Leon",
+      "target_name": "gold-painted prop pistol",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_022",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_011",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "In the house, Oscar settles into a front-row seat beside Diana."
+      ],
+      "confidence": 0.98,
+      "source_name": "Oscar",
+      "target_name": "oscar joins diana in front row",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_023",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)",
+        "In the house, Oscar settles into a front-row seat beside Diana."
+      ],
+      "confidence": 0.97,
+      "source_name": "oscar joins diana in front row",
+      "target_name": "Ravenswood Theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_024",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)"
+      ],
+      "confidence": 0.96,
+      "source_name": "oscar joins diana in front row",
+      "target_name": "Night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_025",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_011",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_012",
+      "target_type": "Character",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Oscar settles into a front-row seat beside Diana."
+      ],
+      "confidence": 0.74,
+      "source_name": "Oscar",
+      "target_name": "Diana",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_026",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_011",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "OSCAR",
+        "(low)",
+        "Six hundred seats and every one of them empty tonight."
+      ],
+      "confidence": 0.99,
+      "source_name": "Oscar",
+      "target_name": "oscar worries about empty theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_027",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "In the house, Oscar settles into a front-row seat beside Diana.",
+        "Six hundred seats and every one of them empty tonight."
+      ],
+      "confidence": 0.95,
+      "source_name": "oscar worries about empty theater",
+      "target_name": "Ravenswood Theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_028",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_013",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Six hundred seats and every one of them empty tonight."
+      ],
+      "confidence": 0.99,
+      "source_name": "oscar worries about empty theater",
+      "target_name": "tonight",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_029",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_030",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_012",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "DIANA",
+        "They will not be empty Saturday."
+      ],
+      "confidence": 0.99,
+      "source_name": "Diana",
+      "target_name": "diana expresses confidence for saturday",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_030",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_031",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "In the house, Oscar settles into a front-row seat beside Diana.",
+        "DIANA",
+        "They will not be empty Saturday."
+      ],
+      "confidence": 0.95,
+      "source_name": "diana expresses confidence for saturday",
+      "target_name": "Ravenswood Theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_031",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_032",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)"
+      ],
+      "confidence": 0.9,
+      "source_name": "diana expresses confidence for saturday",
+      "target_name": "Night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_032",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_033",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_012",
+      "source_type": "Character",
+      "relation": "present_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_014",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "They will not be empty Saturday."
+      ],
+      "confidence": 0.51,
+      "source_name": "Diana",
+      "target_name": "Saturday",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_033",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_034",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_011",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "OSCAR",
+        "Let us hope so."
+      ],
+      "confidence": 0.99,
+      "source_name": "Oscar",
+      "target_name": "oscar voices hope for turnout",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_034",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_035",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "In the house, Oscar settles into a front-row seat beside Diana.",
+        "OSCAR",
+        "Let us hope so."
+      ],
+      "confidence": 0.95,
+      "source_name": "oscar voices hope for turnout",
+      "target_name": "Ravenswood Theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_035",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_036",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)"
+      ],
+      "confidence": 0.9,
+      "source_name": "oscar voices hope for turnout",
+      "target_name": "Night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_036",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_037",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_012",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_010",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "DIANA",
+        "(calling to the stage)",
+        "End of Act Four! Take five, everyone!"
+      ],
+      "confidence": 0.99,
+      "source_name": "Diana",
+      "target_name": "diana ends act four rehearsal",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_037",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_038",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_010",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)",
+        "DIANA (calling to the stage) End of Act Four! Take five, everyone!"
+      ],
+      "confidence": 0.97,
+      "source_name": "diana ends act four rehearsal",
+      "target_name": "Ravenswood Theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_038",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_039",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_010",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)"
+      ],
+      "confidence": 0.96,
+      "source_name": "diana ends act four rehearsal",
+      "target_name": "Night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_039",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_040",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_003",
+      "source_type": "Concept",
+      "relation": "present_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "NIGHT (DRESS REHEARSAL)"
+      ],
+      "confidence": 0.88,
+      "source_name": "dress rehearsal",
+      "target_name": "Night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_040",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_041",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_012",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_011",
+      "target_type": "Character",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Oscar settles into a front-row seat beside Diana."
+      ],
+      "confidence": 0.74,
+      "source_name": "Diana",
+      "target_name": "Oscar",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_041",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_042",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_016",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_011",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "The cast relaxes on stage. Leon sets the gold-painted pistol on the nearest prop table."
+      ],
+      "confidence": 0.76,
+      "source_name": "cast",
+      "target_name": "cast breaks and leon sets down pistol",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_042",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_043",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_011",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "The cast relaxes on stage. Leon sets the gold-painted pistol on the nearest prop table."
+      ],
+      "confidence": 0.97,
+      "source_name": "cast breaks and leon sets down pistol",
+      "target_name": "Ravenswood Theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_043",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_044",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_011",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)"
+      ],
+      "confidence": 0.95,
+      "source_name": "cast breaks and leon sets down pistol",
+      "target_name": "Night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_044",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_046",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_017",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "The cast relaxes on stage. Leon sets the gold-painted pistol on the nearest prop table."
+      ],
+      "confidence": 0.94,
+      "source_name": "prop table",
+      "target_name": "Ravenswood Theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_046",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_047",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_015",
+      "source_type": "Concept",
+      "relation": "present_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "End of Act Four!"
+      ],
+      "confidence": 0.79,
+      "source_name": "Act Four",
+      "target_name": "Night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_047",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_048",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "PRIYA approaches the prop cabinet and unlocks it with a SMALL KEY from her lanyard. She removes a GOLD-PAINTED PROP PISTOL"
+      ],
+      "confidence": 0.99,
+      "source_name": "priya unlocks prop cabinet",
+      "target_name": "priya retrieves prop pistol",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_048",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_049",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "She removes a GOLD-PAINTED PROP PISTOL and brings it to Leon in the wings.",
+        "LEON (checking the weight)"
+      ],
+      "confidence": 0.98,
+      "source_name": "priya retrieves prop pistol",
+      "target_name": "leon compares pistol weight",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_049",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_050",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "LEON (checking the weight) Feels the same.",
+        "PRIYA Properties said the silver was too reflective"
+      ],
+      "confidence": 0.96,
+      "source_name": "leon compares pistol weight",
+      "target_name": "priya explains pistol replacement",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_050",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_051",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "source_type": "Event",
+      "relation": "references",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Properties said the silver was too reflective under stage lights. Gold reads better at distance."
+      ],
+      "confidence": 0.84,
+      "source_name": "priya explains pistol replacement",
+      "target_name": "priya retrieves prop pistol",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_051",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_052",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "source_type": "Event",
+      "relation": "causes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Properties said the silver was too reflective under stage lights. Gold reads better at distance.",
+        "Leon pockets the gold-painted pistol."
+      ],
+      "confidence": 0.72,
+      "source_name": "priya explains pistol replacement",
+      "target_name": "leon pockets prop pistol",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_052",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_053",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Oscar settles into a front-row seat beside Diana.",
+        "OSCAR (low) Six hundred seats and every one of them empty tonight."
+      ],
+      "confidence": 0.97,
+      "source_name": "oscar joins diana in front row",
+      "target_name": "oscar worries about empty theater",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_053",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_054",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "OSCAR ... empty tonight.",
+        "DIANA They will not be empty Saturday."
+      ],
+      "confidence": 0.98,
+      "source_name": "oscar worries about empty theater",
+      "target_name": "diana expresses confidence for saturday",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_054",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_055",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "source_type": "Event",
+      "relation": "contrasts_with",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Six hundred seats and every one of them empty tonight.",
+        "They will not be empty Saturday."
+      ],
+      "confidence": 0.97,
+      "source_name": "oscar worries about empty theater",
+      "target_name": "diana expresses confidence for saturday",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_055",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_056",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "DIANA They will not be empty Saturday.",
+        "OSCAR Let us hope so."
+      ],
+      "confidence": 0.98,
+      "source_name": "diana expresses confidence for saturday",
+      "target_name": "oscar voices hope for turnout",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_056",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "rel_057",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_010",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_011",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "End of Act Four! Take five, everyone!",
+        "The cast relaxes on stage. Leon sets the gold-painted pistol on the nearest prop table."
+      ],
+      "confidence": 0.99,
+      "source_name": "diana ends act four rehearsal",
+      "target_name": "cast breaks and leon sets down pistol",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_057",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    }
+  ]
+}

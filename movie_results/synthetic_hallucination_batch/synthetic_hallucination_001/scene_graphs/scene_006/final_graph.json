@@ -1,0 +1,1386 @@
+{
+  "movie_id": "synthetic_hallucination_001__scene_6",
+  "title": "synthetic_hallucination_001",
+  "nodes": [
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "type": "Event",
+      "name": "elena returns to quarters",
+      "aliases": [
+        "elena returns to quarters"
+      ],
+      "description": "Elena comes back to the lighthouse keeper's quarters and finds Marcus seated at the kitchen table with papers spread out.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena returns to find Marcus at the kitchen table, papers spread before him."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "type": "Event",
+      "name": "marcus calms barking dog",
+      "aliases": [
+        "marcus calms barking dog"
+      ],
+      "description": "Marcus calls out through the door to calm the barking dog, and the barking stops.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "The barking stops.",
+        "From outside, a dog barks.",
+        "MARCUS\n(calling through the door)\nCaptain! Easy!"
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "type": "Event",
+      "name": "marcus explains dog's behavior",
+      "aliases": [
+        "marcus explains dog's behavior"
+      ],
+      "description": "Marcus tells Elena that the dog gets agitated when the pressure drops, revealing his familiarity with the animal and conditions.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "MARCUS (CONT'D)\nHe gets wound up when the pressure drops."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "type": "Event",
+      "name": "elena questions marcus's leg",
+      "aliases": [
+        "elena questions marcus's leg"
+      ],
+      "description": "Elena asks Marcus whether his leg problem comes from an old injury.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA\nYour leg. Is it an old injury?"
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "type": "Event",
+      "name": "marcus recounts trawler injury",
+      "aliases": [
+        "marcus recounts trawler injury"
+      ],
+      "description": "Marcus explains that he injured his left leg on a fishing trawler in 1991 when a cable snapped and says he was lucky to keep it.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "MARCUS\nLeft leg. Fishing trawler, 1991. A cable snapped. Lucky I kept it."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "type": "Event",
+      "name": "elena reports suspicious vehicle",
+      "aliases": [
+        "elena reports suspicious vehicle"
+      ],
+      "description": "Elena says she returned by a different route and noticed a vehicle near the outbuilding when she arrived.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA\nI came back a different route this evening. There was a vehicle near the outbuilding when I pulled in."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "type": "Event",
+      "name": "marcus identifies borrowed vehicle",
+      "aliases": [
+        "marcus identifies borrowed vehicle"
+      ],
+      "description": "Marcus claims the vehicle belongs to Tom Briggs and says he borrowed it because his own vehicle is being serviced.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "MARCUS\nThat's Tom Briggs's. Borrowed it -- my own vehicle is in for service."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_008",
+      "type": "Event",
+      "name": "elena tests marcus's account",
+      "aliases": [
+        "elena tests marcus's account"
+      ],
+      "description": "Elena asks Marcus whether he saw her arrive in the blue vehicle, probing the consistency of his explanation.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA\nSo you saw me drive in with the blue one?"
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_009",
+      "type": "Event",
+      "name": "marcus confirms only arrival",
+      "aliases": [
+        "marcus confirms only arrival"
+      ],
+      "description": "Marcus says he saw Elena drive in and asserts that hers was the only vehicle to come up the road all evening.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "MARCUS\n(nodding)\nHard to miss on this road. Only vehicle that came up all evening."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_010",
+      "type": "Event",
+      "name": "elena records suspicious note",
+      "aliases": [
+        "elena records suspicious note"
+      ],
+      "description": "Elena writes something in her notebook and underlines it twice, signaling that Marcus's statement is important to her.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena opens her notebook and writes something she underlines twice."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "type": "Character",
+      "name": "Elena",
+      "aliases": [
+        "Elena",
+        "ELENA"
+      ],
+      "description": "The woman who returns to the quarters, questions Marcus, and records a note in her notebook.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena glances toward the window.",
+        "Marcus glances at Elena.",
+        "Elena sets her bag down.",
+        "Elena opens her notebook and writes something she underlines twice.",
+        "Elena returns to find Marcus at the kitchen table",
+        "ELENA"
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "type": "Character",
+      "name": "Marcus",
+      "aliases": [
+        "Marcus",
+        "MARCUS"
+      ],
+      "description": "The man in the quarters who calms the dog, discusses his injury, and explains the vehicle outside.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena returns to find Marcus at the kitchen table",
+        "Marcus glances at Elena.",
+        "MARCUS",
+        "MARCUS (CONT'D)",
+        "Marcus"
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_006",
+      "type": "Character",
+      "name": "Captain",
+      "aliases": [
+        "Captain"
+      ],
+      "description": "The dog outside whom Marcus addresses to stop the barking.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Captain! Easy!"
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_017",
+      "type": "Character",
+      "name": "Tom Briggs",
+      "aliases": [
+        "Tom Briggs",
+        "Tom Briggs's"
+      ],
+      "description": "The person Marcus names as the owner of the borrowed vehicle.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "That's Tom Briggs's."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "type": "Location",
+      "name": "LIGHTHOUSE KEEPER'S QUARTERS",
+      "aliases": [
+        "LIGHTHOUSE KEEPER'S QUARTERS"
+      ],
+      "description": "The interior quarters where Elena returns and speaks with Marcus.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING"
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_016",
+      "type": "Location",
+      "name": "outbuilding",
+      "aliases": [
+        "outbuilding",
+        "the outbuilding"
+      ],
+      "description": "The structure near which Elena says she saw a vehicle upon returning.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "There was a vehicle near the outbuilding when I pulled in."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_020",
+      "type": "Location",
+      "name": "road",
+      "aliases": [
+        "road",
+        "this road"
+      ],
+      "description": "The road Marcus says makes Elena's arrival hard to miss and on which only one vehicle came up.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Hard to miss on this road."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "type": "TimePoint",
+      "name": "evening",
+      "aliases": [
+        "evening",
+        "EVENING",
+        "all evening",
+        "this evening"
+      ],
+      "description": "The evening time period during which Elena returns and questions Marcus.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "I came back a different route this evening.",
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING",
+        "Only vehicle that came up all evening."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_011",
+      "type": "TimePoint",
+      "name": "1991",
+      "aliases": [
+        "1991"
+      ],
+      "description": "The year Marcus says he injured his leg on a fishing trawler.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Left leg. Fishing trawler, 1991."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "type": "Object",
+      "name": "papers",
+      "aliases": [
+        "papers"
+      ],
+      "description": "Documents spread on the kitchen table in front of Marcus when Elena arrives.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "papers spread before him"
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_008",
+      "type": "Object",
+      "name": "bag",
+      "aliases": [
+        "bag"
+      ],
+      "description": "Elena's bag, which she sets down after entering the quarters.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena sets her bag down."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_009",
+      "type": "Object",
+      "name": "Marcus's left leg",
+      "aliases": [
+        "Marcus's left leg",
+        "Your leg",
+        "leg",
+        "Left leg"
+      ],
+      "description": "Marcus's injured left leg, which Elena asks about and Marcus explains was hurt years earlier.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Your leg. Is it an old injury?",
+        "Left leg. Fishing trawler, 1991."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_010",
+      "type": "Object",
+      "name": "fishing trawler",
+      "aliases": [
+        "fishing trawler",
+        "Fishing trawler"
+      ],
+      "description": "The vessel on which Marcus says he suffered his leg injury.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Left leg. Fishing trawler, 1991."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_012",
+      "type": "Object",
+      "name": "cable",
+      "aliases": [
+        "cable",
+        "A cable"
+      ],
+      "description": "The cable Marcus says snapped and caused his leg injury.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "A cable snapped."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_013",
+      "type": "Object",
+      "name": "stairs",
+      "aliases": [
+        "stairs",
+        "The stairs"
+      ],
+      "description": "The stairs Elena mentions as potentially difficult for Marcus because of his leg.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "The stairs must be hard."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_014",
+      "type": "Object",
+      "name": "window",
+      "aliases": [
+        "window"
+      ],
+      "description": "The window Elena glances toward during the tense pause in the conversation.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena glances toward the window."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_021",
+      "type": "Object",
+      "name": "notebook",
+      "aliases": [
+        "notebook"
+      ],
+      "description": "Elena's notebook, which she opens to write and underline a note.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena opens her notebook and writes something she underlines twice."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_015",
+      "type": "Vehicle",
+      "name": "vehicle near the outbuilding",
+      "aliases": [
+        "vehicle near the outbuilding",
+        "a vehicle",
+        "vehicle"
+      ],
+      "description": "The suspicious vehicle Elena reports seeing near the outbuilding when she arrived.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "There was a vehicle near the outbuilding when I pulled in.",
+        "Only vehicle that came up all evening."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_018",
+      "type": "Vehicle",
+      "name": "Marcus's vehicle",
+      "aliases": [
+        "Marcus's vehicle",
+        "my own vehicle"
+      ],
+      "description": "Marcus's own vehicle, which he says is currently in for service.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "my own vehicle is in for service"
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_019",
+      "type": "Vehicle",
+      "name": "the blue vehicle",
+      "aliases": [
+        "the blue vehicle",
+        "the blue one"
+      ],
+      "description": "The blue vehicle Elena refers to when testing Marcus's account of her arrival.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "So you saw me drive in with the blue one?"
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_007",
+      "type": "Concept",
+      "name": "pressure",
+      "aliases": [
+        "pressure",
+        "the pressure"
+      ],
+      "description": "The dropping pressure Marcus cites as the reason the dog becomes agitated.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "He gets wound up when the pressure drops."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_2e77bc214b97",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena returns to find Marcus at the kitchen table"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_8e5289abda85",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING",
+        "Elena returns to find Marcus at the kitchen table"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_6763710a3feb",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_e18170ca147d",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "MARCUS (calling through the door) Captain! Easy!",
+        "The barking stops."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_83247b188a39",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING",
+        "MARCUS (calling through the door) Captain! Easy!"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_df3326b3d2e3",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_1fcb49c0793e",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "MARCUS (CONT'D) He gets wound up when the pressure drops."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_8770785bc817",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING",
+        "MARCUS (CONT'D) He gets wound up when the pressure drops."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_a20ab937d5b1",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_c93ff25da424",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA Your leg. Is it an old injury?"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_8f03b24c4038",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "relation": "undergoes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA Your leg. Is it an old injury?"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_813c0f58fd53",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING",
+        "ELENA Your leg. Is it an old injury?"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_755f6a5ca968",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_5b117c6320bb",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "MARCUS Left leg. Fishing trawler, 1991. A cable snapped. Lucky I kept it."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_83621a5b6199",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING",
+        "MARCUS Left leg. Fishing trawler, 1991. A cable snapped. Lucky I kept it."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_1e284e754acc",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_4790da5834c9",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA I came back a different route this evening. There was a vehicle near the outbuilding when I pulled in."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_d0b51aba24ed",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING",
+        "ELENA I came back a different route this evening. There was a vehicle near the outbuilding when I pulled in."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_37196309c5c0",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA I came back a different route this evening."
+      ],
+      "confidence": 0.92
+    },
+    {
+      "id": "e_d08b0103123d",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "MARCUS That's Tom Briggs's. Borrowed it -- my own vehicle is in for service."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_c686d93c5f2e",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING",
+        "MARCUS That's Tom Briggs's. Borrowed it -- my own vehicle is in for service."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_af2ee4d10642",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_9b13e6e53892",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_008",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA So you saw me drive in with the blue one?"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_cf706961c9d7",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "relation": "undergoes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_008",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA So you saw me drive in with the blue one?"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_cec7aebe4823",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING",
+        "ELENA So you saw me drive in with the blue one?"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_cc0b7c8c9961",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_008",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_714fd506c844",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_009",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "MARCUS (nodding) Hard to miss on this road. Only vehicle that came up all evening."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_ea2dcb89a053",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_009",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING",
+        "MARCUS (nodding) Hard to miss on this road. Only vehicle that came up all evening."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_1ae779854bfa",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_009",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Only vehicle that came up all evening."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_ead9db3f7da1",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_010",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena opens her notebook and writes something she underlines twice."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_5e47aaed4e69",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_010",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING",
+        "Elena opens her notebook and writes something she underlines twice."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_058edfe3732e",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_010",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_600cfe319857",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "relation": "possesses",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena returns to find Marcus at the kitchen table, papers spread before him."
+      ],
+      "confidence": 0.91
+    },
+    {
+      "id": "e_2ea3809ef859",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_006",
+      "relation": "present_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING",
+        "Captain! Easy!"
+      ],
+      "confidence": 0.52
+    },
+    {
+      "id": "e_a2cc7daa2f2b",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_007",
+      "relation": "present_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "He gets wound up when the pressure drops."
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_fd990cb1c702",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "possesses",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_008",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena sets her bag down."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_17f8e6f95e09",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "relation": "references",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA Your leg. Is it an old injury?",
+        "MARCUS Left leg. Fishing trawler, 1991. A cable snapped."
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_703ad2525a06",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_010",
+      "relation": "present_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_011",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Fishing trawler, 1991."
+      ],
+      "confidence": 0.78
+    },
+    {
+      "id": "e_73e84b2b24ce",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_012",
+      "relation": "present_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_011",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "1991. A cable snapped."
+      ],
+      "confidence": 0.77
+    },
+    {
+      "id": "e_b95b380683af",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_013",
+      "relation": "located_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA The stairs must be hard.",
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING"
+      ],
+      "confidence": 0.74
+    },
+    {
+      "id": "e_b711f007ae39",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_014",
+      "relation": "located_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena glances toward the window.",
+        "INT. LIGHTHOUSE KEEPER'S QUARTERS - EVENING"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_f2a199075924",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_015",
+      "relation": "located_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_016",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "There was a vehicle near the outbuilding when I pulled in."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_97604d9fda52",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_017",
+      "relation": "possesses",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_015",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "MARCUS That's Tom Briggs's."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_7a8869c0c3d4",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "relation": "possesses",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_018",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "my own vehicle is in for service"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_03a466822ecc",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_019",
+      "relation": "located_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_020",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "So you saw me drive in with the blue one?",
+        "Hard to miss on this road."
+      ],
+      "confidence": 0.79
+    },
+    {
+      "id": "e_fb8f9399c53e",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "uses",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_019",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "So you saw me drive in with the blue one?"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_4591fe5a130b",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "uses",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_021",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena opens her notebook and writes something she underlines twice."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_567caab8e128",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena returns to find Marcus at the kitchen table",
+        "MARCUS (calling through the door) Captain! Easy!"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_b8f7798435a1",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "relation": "precedes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "The barking stops. Marcus glances at Elena.",
+        "MARCUS (CONT'D) He gets wound up when the pressure drops."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_c5b3d9c65804",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "relation": "precedes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena sets her bag down.",
+        "ELENA Your leg. Is it an old injury?"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_1ea71481624f",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "relation": "precedes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA Your leg. Is it an old injury?",
+        "MARCUS Left leg. Fishing trawler, 1991. A cable snapped."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_8e07bc06fd13",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "relation": "precedes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "A pause. Elena glances toward the window.",
+        "ELENA I came back a different route this evening. There was a vehicle near the outbuilding when I pulled in."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_7a1c7bbd5774",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "relation": "precedes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA ... There was a vehicle near the outbuilding when I pulled in.",
+        "MARCUS That's Tom Briggs's. Borrowed it -- my own vehicle is in for service."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_2ac843135d7f",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "relation": "precedes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_008",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "MARCUS That's Tom Briggs's. Borrowed it -- my own vehicle is in for service.",
+        "ELENA So you saw me drive in with the blue one?"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_f557c0b242ce",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_008",
+      "relation": "precedes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_009",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA So you saw me drive in with the blue one?",
+        "MARCUS (nodding) Hard to miss on this road. Only vehicle that came up all evening."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_0beb04b53785",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_009",
+      "relation": "precedes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_010",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "MARCUS (nodding) Hard to miss on this road. Only vehicle that came up all evening.",
+        "Elena opens her notebook and writes something she underlines twice."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_b096664d8898",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena returns to find Marcus at the kitchen table",
+        "MARCUS (calling through the door) Captain! Easy!"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_1ac851ee0a1f",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "The barking stops. Marcus glances at Elena.",
+        "MARCUS (CONT'D) He gets wound up when the pressure drops."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_2da9c4fefea1",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Elena sets her bag down.",
+        "ELENA Your leg. Is it an old injury?"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_81240fce736a",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA Your leg. Is it an old injury?",
+        "MARCUS Left leg. Fishing trawler, 1991. A cable snapped."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_37f3f89deccb",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "A pause. Elena glances toward the window.",
+        "ELENA I came back a different route this evening. There was a vehicle near the outbuilding when I pulled in."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_067ac4817e94",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA ... There was a vehicle near the outbuilding when I pulled in.",
+        "MARCUS That's Tom Briggs's. Borrowed it -- my own vehicle is in for service."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_c14179bf03bf",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_008",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "MARCUS That's Tom Briggs's. Borrowed it -- my own vehicle is in for service.",
+        "ELENA So you saw me drive in with the blue one?"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_5f45be1d22f5",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_009",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_008",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "ELENA So you saw me drive in with the blue one?",
+        "MARCUS (nodding) Hard to miss on this road. Only vehicle that came up all evening."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_6caae0b3db52",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_010",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_009",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "MARCUS (nodding) Hard to miss on this road. Only vehicle that came up all evening.",
+        "Elena opens her notebook and writes something she underlines twice."
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

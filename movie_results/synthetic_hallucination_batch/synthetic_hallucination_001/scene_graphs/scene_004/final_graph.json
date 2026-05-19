@@ -1,0 +1,1314 @@
+{
+  "movie_id": "synthetic_hallucination_001__scene_4",
+  "title": "synthetic_hallucination_001",
+  "nodes": [
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "type": "Event",
+      "name": "Marcus leads Elena upstairs",
+      "aliases": [
+        "Marcus leads Elena upstairs"
+      ],
+      "description": "Marcus guides Elena up the lighthouse's iron spiral staircase toward the upper level.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Marcus leads Elena up the iron spiral staircase."
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "type": "Event",
+      "name": "Elena notices locked door",
+      "aliases": [
+        "Elena notices locked door"
+      ],
+      "description": "At the top landing, Elena pauses when she sees a closed door secured with a heavy padlock.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Elena pauses.",
+        "The other door is CLOSED and secured with a heavy padlock.",
+        "At the top landing, below the lantern room, a narrow corridor has two doors."
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_003",
+      "type": "Event",
+      "name": "Elena asks about locked room",
+      "aliases": [
+        "Elena asks about locked room"
+      ],
+      "description": "Elena questions Marcus about what is inside the locked room.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "ELENA\nWhat's in the locked one?"
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "type": "Event",
+      "name": "Marcus dismisses Elena's interest",
+      "aliases": [
+        "Marcus dismisses Elena's interest"
+      ],
+      "description": "Marcus says the room contains old coast guard material and tells Elena it is irrelevant to her story.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "MARCUS\n(not stopping)\nOld coast guard material. Nothing that concerns your story."
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "type": "Event",
+      "name": "Marcus refuses Elena access",
+      "aliases": [
+        "Marcus refuses Elena access"
+      ],
+      "description": "When Elena starts to ask for access, Marcus cuts her off with a firm refusal.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "MARCUS\nNo.",
+        "ELENA\nCould I--"
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "type": "Event",
+      "name": "Elena studies locked door",
+      "aliases": [
+        "Elena studies locked door"
+      ],
+      "description": "As Marcus continues upward, Elena lingers behind and examines the locked door.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "He continues up toward the lantern.",
+        "Elena lingers at the locked door, studying it."
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "type": "Event",
+      "name": "Elena descends to entrance hall",
+      "aliases": [
+        "Elena descends to entrance hall"
+      ],
+      "description": "Elena leaves the upper floor and goes down to the lighthouse's main entrance hall.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Then she descends to the entrance hall."
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "type": "Event",
+      "name": "Elena discovers silver key",
+      "aliases": [
+        "Elena discovers silver key"
+      ],
+      "description": "At the base of the staircase, Elena notices a small old silver key hanging beside the main entrance door.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Elena pauses at the base of the staircase.",
+        "There, mounted on the wall right beside the MAIN ENTRANCE DOOR, hangs a SILVER KEY on a simple iron hook.",
+        "Small. Old."
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_009",
+      "type": "Event",
+      "name": "Elena documents key location",
+      "aliases": [
+        "Elena documents key location"
+      ],
+      "description": "Elena photographs the silver key and writes a note in her notebook recording where it hangs.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "She photographs it with her phone and opens her green spiral notebook.",
+        "ELENA\n(writing quietly)\nSilver key. Hook beside the main door."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "type": "Character",
+      "name": "Marcus",
+      "aliases": [
+        "Marcus",
+        "MARCUS"
+      ],
+      "description": "Marcus leads Elena upstairs, answers her question about the locked room, and refuses her access.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "MARCUS",
+        "He continues up toward the lantern.",
+        "Marcus leads Elena up the iron spiral staircase."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "type": "Character",
+      "name": "Elena",
+      "aliases": [
+        "Elena",
+        "ELENA"
+      ],
+      "description": "Elena follows Marcus upstairs, investigates the locked door, then finds and documents a silver key in the entrance hall.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "ELENA",
+        "She photographs it with her phone and opens her green spiral notebook.",
+        "Marcus leads Elena up the iron spiral staircase.",
+        "Elena pauses."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_003",
+      "type": "Location",
+      "name": "lighthouse",
+      "aliases": [
+        "lighthouse",
+        "LIGHTHOUSE"
+      ],
+      "description": "The lighthouse is the overall setting containing the upper floor, staircase, corridor, and entrance hall.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE - UPPER FLOOR - LATE AFTERNOON"
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "type": "Location",
+      "name": "upper floor",
+      "aliases": [
+        "upper floor",
+        "UPPER FLOOR"
+      ],
+      "description": "The upper floor of the lighthouse is where Marcus brings Elena to the landing and corridor with the locked door.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE - UPPER FLOOR - LATE AFTERNOON"
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_007",
+      "type": "Location",
+      "name": "top landing",
+      "aliases": [
+        "top landing",
+        "the top landing"
+      ],
+      "description": "The top landing is where Elena first sees the corridor and the locked door.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "At the top landing, below the lantern room, a narrow corridor has two doors."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_008",
+      "type": "Location",
+      "name": "lantern room",
+      "aliases": [
+        "lantern room",
+        "the lantern room"
+      ],
+      "description": "The lantern room is the lighthouse chamber above the landing, referenced as Marcus continues upward toward it.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "At the top landing, below the lantern room, a narrow corridor has two doors."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "type": "Location",
+      "name": "narrow corridor",
+      "aliases": [
+        "narrow corridor",
+        "a narrow corridor"
+      ],
+      "description": "The narrow corridor on the upper floor contains the open storage room and the locked door Elena studies.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "a narrow corridor has two doors"
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_010",
+      "type": "Location",
+      "name": "storage room",
+      "aliases": [
+        "storage room",
+        "a storage room"
+      ],
+      "description": "The open storage room is one of the two doors in the corridor, contrasted with the locked room Elena asks about.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "One stands open -- a storage room crowded with old equipment."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_011",
+      "type": "Location",
+      "name": "locked door",
+      "aliases": [
+        "locked door",
+        "the locked one",
+        "the locked door",
+        "The other door"
+      ],
+      "description": "The locked door on the upper corridor is the object of Elena's questions and scrutiny.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "What's in the locked one?",
+        "The other door is CLOSED and secured with a heavy padlock.",
+        "Elena lingers at the locked door, studying it."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_014",
+      "type": "Location",
+      "name": "main entrance hall",
+      "aliases": [
+        "main entrance hall",
+        "MAIN ENTRANCE HALL",
+        "the entrance hall"
+      ],
+      "description": "The main entrance hall is where Elena goes after leaving the upper floor and where she finds the silver key.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. MAIN ENTRANCE HALL - CONTINUOUS",
+        "Then she descends to the entrance hall."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_016",
+      "type": "Location",
+      "name": "main entrance door",
+      "aliases": [
+        "main entrance door",
+        "the main door",
+        "the MAIN ENTRANCE DOOR"
+      ],
+      "description": "The main entrance door is the wall-side location beside which the silver key hangs.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "right beside the MAIN ENTRANCE DOOR",
+        "Silver key. Hook beside the main door."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "type": "TimePoint",
+      "name": "late afternoon",
+      "aliases": [
+        "late afternoon",
+        "the afternoon light",
+        "LATE AFTERNOON"
+      ],
+      "description": "Late afternoon is the time of day during which the scene unfolds.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "It catches the afternoon light.",
+        "INT. LIGHTHOUSE - UPPER FLOOR - LATE AFTERNOON"
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_015",
+      "type": "TimePoint",
+      "name": "continuous",
+      "aliases": [
+        "continuous",
+        "CONTINUOUS"
+      ],
+      "description": "Continuous indicates the action in the entrance hall follows immediately after the upper-floor action.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. MAIN ENTRANCE HALL - CONTINUOUS"
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_006",
+      "type": "Object",
+      "name": "iron spiral staircase",
+      "aliases": [
+        "iron spiral staircase",
+        "the iron spiral staircase",
+        "the staircase"
+      ],
+      "description": "The iron spiral staircase is the route Marcus uses to lead Elena upward and later the stairs she descends.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Elena pauses at the base of the staircase.",
+        "Marcus leads Elena up the iron spiral staircase."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_012",
+      "type": "Object",
+      "name": "heavy padlock",
+      "aliases": [
+        "heavy padlock",
+        "a heavy padlock"
+      ],
+      "description": "The heavy padlock secures the closed door Elena notices on the upper floor.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "secured with a heavy padlock"
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_017",
+      "type": "Object",
+      "name": "silver key",
+      "aliases": [
+        "silver key",
+        "Silver key",
+        "a SILVER KEY"
+      ],
+      "description": "The small old silver key hanging by the main entrance door is discovered and documented by Elena.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "hangs a SILVER KEY on a simple iron hook",
+        "Silver key. Hook beside the main door."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_018",
+      "type": "Object",
+      "name": "iron hook",
+      "aliases": [
+        "iron hook",
+        "a simple iron hook",
+        "Hook"
+      ],
+      "description": "The iron hook mounted beside the main entrance door holds the silver key Elena records.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "hangs a SILVER KEY on a simple iron hook",
+        "Silver key. Hook beside the main door."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_019",
+      "type": "Object",
+      "name": "phone",
+      "aliases": [
+        "phone",
+        "her phone"
+      ],
+      "description": "Elena uses her phone to photograph the silver key.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "She photographs it with her phone"
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_020",
+      "type": "Object",
+      "name": "green spiral notebook",
+      "aliases": [
+        "green spiral notebook",
+        "the notebook",
+        "her green spiral notebook"
+      ],
+      "description": "Elena opens her green spiral notebook to write down the silver key's location.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "opens her green spiral notebook",
+        "slips the notebook back into her pocket"
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_021",
+      "type": "Object",
+      "name": "pen",
+      "aliases": [
+        "pen",
+        "the pen"
+      ],
+      "description": "Elena uses the pen to write her note and then caps it.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "She caps the pen"
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_013",
+      "type": "Concept",
+      "name": "coast guard",
+      "aliases": [
+        "coast guard"
+      ],
+      "description": "The coast guard is the organization Marcus cites when describing the material in the locked room.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Old coast guard material."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_3b8d531adad3",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Marcus leads Elena up the iron spiral staircase."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_cb488cb725b8",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "relation": "undergoes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Marcus leads Elena up the iron spiral staircase."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_0a4436dd7e0e",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE - UPPER FLOOR - LATE AFTERNOON",
+        "Marcus leads Elena up the iron spiral staircase."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_0e90e054005a",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE - UPPER FLOOR - LATE AFTERNOON"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_1ec2ca12d5f0",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "relation": "experiences",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "The other door is CLOSED and secured with a heavy padlock.",
+        "Elena pauses."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_9d69f6ffdabe",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "At the top landing, below the lantern room, a narrow corridor has two doors.",
+        "The other door is CLOSED and secured with a heavy padlock.",
+        "Elena pauses."
+      ],
+      "confidence": 0.92
+    },
+    {
+      "id": "e_fdae67af6ee5",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE - UPPER FLOOR - LATE AFTERNOON"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_1d83fa574895",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_003",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "ELENA",
+        "What's in the locked one?"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_6049ea714fa5",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_011",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "What's in the locked one?"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_5575013abf15",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "At the top landing, below the lantern room, a narrow corridor has two doors.",
+        "ELENA",
+        "What's in the locked one?"
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_3154486c3ade",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "MARCUS",
+        "(not stopping)",
+        "Old coast guard material. Nothing that concerns your story."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_8e6bf493e00e",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "relation": "undergoes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Old coast guard material. Nothing that concerns your story."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_0859ef4de5b4",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "At the top landing, below the lantern room, a narrow corridor has two doors.",
+        "MARCUS",
+        "Old coast guard material. Nothing that concerns your story."
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_ae9e2cd81519",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "ELENA",
+        "Could I--",
+        "MARCUS",
+        "No."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_f4d71cdfc6d6",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "relation": "undergoes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "ELENA",
+        "Could I--",
+        "MARCUS",
+        "No."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_87dc200771ce",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "At the top landing, below the lantern room, a narrow corridor has two doors.",
+        "MARCUS",
+        "No."
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_2ba3cab65062",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Elena lingers at the locked door, studying it."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_1d013a61b6b1",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_011",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Elena lingers at the locked door, studying it."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_24d33a36d168",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Then she descends to the entrance hall."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_175ab41c8857",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_014",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Then she descends to the entrance hall.",
+        "INT. MAIN ENTRANCE HALL - CONTINUOUS"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_ff926602392f",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_015",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. MAIN ENTRANCE HALL - CONTINUOUS"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_6f841f7494fc",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "There, mounted on the wall right beside the MAIN ENTRANCE DOOR, hangs a SILVER KEY on a simple iron hook."
+      ],
+      "confidence": 0.86
+    },
+    {
+      "id": "e_ef07007a7afd",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_014",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. MAIN ENTRANCE HALL - CONTINUOUS",
+        "There, mounted on the wall right beside the MAIN ENTRANCE DOOR, hangs a SILVER KEY on a simple iron hook."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_58fcd031143f",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_009",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "She photographs it with her phone and opens her green spiral notebook.",
+        "ELENA",
+        "(writing quietly)",
+        "Silver key. Hook beside the main door."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_35ed1010a06a",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_009",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_014",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. MAIN ENTRANCE HALL - CONTINUOUS",
+        "She photographs it with her phone and opens her green spiral notebook."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_5fcf875ab3be",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Marcus leads Elena up the iron spiral staircase.",
+        "The other door is CLOSED and secured with a heavy padlock.",
+        "Elena pauses."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_d3460783332b",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "relation": "causes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_003",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "The other door is CLOSED and secured with a heavy padlock.",
+        "Elena pauses.",
+        "What's in the locked one?"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_18b6bf95a6b5",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_003",
+      "relation": "causes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "What's in the locked one?",
+        "Old coast guard material. Nothing that concerns your story."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_72a16218282f",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "relation": "precedes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Old coast guard material. Nothing that concerns your story.",
+        "ELENA",
+        "Could I--",
+        "MARCUS",
+        "No."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_b3a150a4f7bb",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "relation": "causes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "MARCUS",
+        "No.",
+        "Elena lingers at the locked door, studying it."
+      ],
+      "confidence": 0.82
+    },
+    {
+      "id": "e_91c3d6dff4c9",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "relation": "precedes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Elena lingers at the locked door, studying it. Then she descends to the entrance hall."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_b675c8e75518",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "relation": "precedes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Then she descends to the entrance hall.",
+        "There, mounted on the wall right beside the MAIN ENTRANCE DOOR, hangs a SILVER KEY on a simple iron hook."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_6b4a8a9903d2",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "relation": "causes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_009",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "There, mounted on the wall right beside the MAIN ENTRANCE DOOR, hangs a SILVER KEY on a simple iron hook.",
+        "She photographs it with her phone and opens her green spiral notebook."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_dccd1d7566d0",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE - UPPER FLOOR - LATE AFTERNOON",
+        "Marcus leads Elena up the iron spiral staircase."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_e84158c48a29",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE - UPPER FLOOR - LATE AFTERNOON",
+        "Marcus leads Elena up the iron spiral staircase."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_6a45e87f68b7",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "relation": "part_of",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_003",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE - UPPER FLOOR - LATE AFTERNOON"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_ad1cd320fac2",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_006",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Marcus leads Elena up the iron spiral staircase.",
+        "INT. LIGHTHOUSE - UPPER FLOOR - LATE AFTERNOON"
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_d07aec3ec49f",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_007",
+      "relation": "part_of",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "At the top landing, below the lantern room, a narrow corridor has two doors."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_3bae973f1eaa",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_008",
+      "relation": "part_of",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_003",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "At the top landing, below the lantern room, a narrow corridor has two doors."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_d71a6f4fdd26",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "relation": "part_of",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "At the top landing, below the lantern room, a narrow corridor has two doors."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_6d92a4d015be",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_010",
+      "relation": "part_of",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "a narrow corridor has two doors. One stands open -- a storage room crowded with old equipment."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_9b85765e4da7",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_011",
+      "relation": "part_of",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "a narrow corridor has two doors. The other door is CLOSED and secured with a heavy padlock."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_1ccc5531c4d4",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_012",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_011",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "The other door is CLOSED and secured with a heavy padlock."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_6f47dc56771c",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "relation": "affiliated_with",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_013",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Old coast guard material."
+      ],
+      "confidence": 0.22
+    },
+    {
+      "id": "e_b8d36f8850ce",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_014",
+      "relation": "part_of",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_003",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. MAIN ENTRANCE HALL - CONTINUOUS"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_602acaa334e2",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_016",
+      "relation": "part_of",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_014",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "right beside the MAIN ENTRANCE DOOR"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_cdb218dd634e",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_017",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_016",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "right beside the MAIN ENTRANCE DOOR, hangs a SILVER KEY"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_15aedf5e1489",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_018",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_016",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "right beside the MAIN ENTRANCE DOOR, hangs a SILVER KEY on a simple iron hook"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_800d5d731551",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "relation": "uses",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_019",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "She photographs it with her phone"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_767a1d0fccb7",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "relation": "uses",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_020",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "opens her green spiral notebook"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_cc605a44ef32",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "relation": "uses",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_021",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "(writing quietly)",
+        "She caps the pen"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_8430555ec8b3",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_019",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_014",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. MAIN ENTRANCE HALL - CONTINUOUS",
+        "She photographs it with her phone"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "id": "e_ff67d8012160",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_020",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_014",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. MAIN ENTRANCE HALL - CONTINUOUS",
+        "opens her green spiral notebook"
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_135db8cce902",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_021",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_014",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. MAIN ENTRANCE HALL - CONTINUOUS",
+        "She caps the pen"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "e_368f1eb663d0",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Marcus leads Elena up the iron spiral staircase.",
+        "The other door is CLOSED and secured with a heavy padlock.",
+        "Elena pauses."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_5f50d5f3ba42",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Old coast guard material. Nothing that concerns your story.",
+        "ELENA",
+        "Could I--",
+        "MARCUS",
+        "No."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_05b65103e08e",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Elena lingers at the locked door, studying it. Then she descends to the entrance hall."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_edbeb2f9382e",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Then she descends to the entrance hall.",
+        "There, mounted on the wall right beside the MAIN ENTRANCE DOOR, hangs a SILVER KEY on a simple iron hook."
+      ],
+      "confidence": 0.96
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "8": [
+    {
+      "temp_id": "ent_001",
+      "type": "Location",
+      "surface_forms": [
+        "Ravenswood Theater",
+        "RAVENSWOOD THEATER"
+      ],
+      "canonical_name": "Ravenswood Theater",
+      "description": "The theater where the dress rehearsal takes place, with the stage lit and the house mostly dark.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Night",
+        "NIGHT"
+      ],
+      "canonical_name": "Night",
+      "description": "The time of day during which the rehearsal scene occurs.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Concept",
+      "surface_forms": [
+        "dress rehearsal",
+        "DRESS REHEARSAL"
+      ],
+      "canonical_name": "dress rehearsal",
+      "description": "The rehearsal context for the scene, during which props are checked and Act Four is run.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - NIGHT (DRESS REHEARSAL)"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_8_doc_7_chunk_0_ev_001"
+      ],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_003",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Priya",
+        "PRIYA"
+      ],
+      "canonical_name": "Priya",
+      "description": "A production member who unlocks the prop cabinet and delivers the replacement pistol to Leon.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "PRIYA approaches the prop cabinet and unlocks it with a SMALL KEY from her lanyard.",
+        "She removes a GOLD-PAINTED PROP PISTOL and brings it to Leon in the wings.",
+        "PRIYA",
+        "Properties said the silver was too reflective under stage lights."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_8_doc_7_chunk_0_ev_001",
+        "ev_syntheti_8_doc_7_chunk_0_ev_002",
+        "ev_syntheti_8_doc_7_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "prop cabinet"
+      ],
+      "canonical_name": "prop cabinet",
+      "description": "The cabinet Priya unlocks to retrieve the replacement stage weapon.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "PRIYA approaches the prop cabinet and unlocks it with a SMALL KEY from her lanyard."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_8_doc_7_chunk_0_ev_001"
+      ],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "small key",
+        "SMALL KEY"
+      ],
+      "canonical_name": "small key",
+      "description": "The key on Priya's lanyard used to unlock the prop cabinet.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "PRIYA approaches the prop cabinet and unlocks it with a SMALL KEY from her lanyard."
+      ],
+      "linked_event_ids": [],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_006",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "gold-painted prop pistol",
+        "GOLD-PAINTED PROP PISTOL",
+        "gold-painted pistol"
+      ],
+      "canonical_name": "gold-painted prop pistol",
+      "description": "The replacement stage pistol Priya retrieves, Leon checks, pockets, and later sets on a prop table.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "She removes a GOLD-PAINTED PROP PISTOL and brings it to Leon in the wings.",
+        "Leon pockets the gold-painted pistol.",
+        "Leon sets the gold-painted pistol on the nearest prop table."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_8_doc_7_chunk_0_ev_002",
+        "ev_syntheti_8_doc_7_chunk_0_ev_003",
+        "ev_syntheti_8_doc_7_chunk_0_ev_004",
+        "ev_syntheti_8_doc_7_chunk_0_ev_005",
+        "ev_syntheti_8_doc_7_chunk_0_ev_011"
+      ],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Character",
+      "surface_forms": [
+        "Leon",
+        "LEON"
+      ],
+      "canonical_name": "Leon",
+      "description": "A performer or crew member in the wings who receives the prop pistol, checks it, pockets it, and later sets it down during the break.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "She removes a GOLD-PAINTED PROP PISTOL and brings it to Leon in the wings.",
+        "LEON",
+        "(checking the weight)",
+        "Leon pockets the gold-painted pistol.",
+        "Leon sets the gold-painted pistol on the nearest prop table."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_8_doc_7_chunk_0_ev_002",
+        "ev_syntheti_8_doc_7_chunk_0_ev_003",
+        "ev_syntheti_8_doc_7_chunk_0_ev_004",
+        "ev_syntheti_8_doc_7_chunk_0_ev_005",
+        "ev_syntheti_8_doc_7_chunk_0_ev_011"
+      ],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Concept",
+      "surface_forms": [
+        "Properties"
+      ],
+      "canonical_name": "Properties",
+      "description": "The props department cited by Priya as the source of the decision to replace the silver pistol with a gold one.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Properties said the silver was too reflective under stage lights."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_8_doc_7_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_009",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "silver pistol",
+        "the silver",
+        "silver"
+      ],
+      "canonical_name": "silver pistol",
+      "description": "The earlier silver version of the prop pistol that was replaced because it reflected too much under the lights.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Properties said the silver was too reflective under stage lights."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_8_doc_7_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_010",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Character",
+      "surface_forms": [
+        "Oscar",
+        "OSCAR"
+      ],
+      "canonical_name": "Oscar",
+      "description": "A front-row observer who worries aloud about the empty six-hundred-seat theater and hopes attendance improves by Saturday.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "In the house, Oscar settles into a front-row seat beside Diana.",
+        "OSCAR",
+        "Six hundred seats and every one of them empty tonight.",
+        "Let us hope so."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_8_doc_7_chunk_0_ev_006",
+        "ev_syntheti_8_doc_7_chunk_0_ev_007",
+        "ev_syntheti_8_doc_7_chunk_0_ev_008",
+        "ev_syntheti_8_doc_7_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_011",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Character",
+      "surface_forms": [
+        "Diana",
+        "DIANA"
+      ],
+      "canonical_name": "Diana",
+      "description": "A front-row observer and rehearsal leader who reassures Oscar about Saturday and calls the end of Act Four.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "In the house, Oscar settles into a front-row seat beside Diana.",
+        "DIANA",
+        "They will not be empty Saturday.",
+        "End of Act Four! Take five, everyone!"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_8_doc_7_chunk_0_ev_006",
+        "ev_syntheti_8_doc_7_chunk_0_ev_007",
+        "ev_syntheti_8_doc_7_chunk_0_ev_008",
+        "ev_syntheti_8_doc_7_chunk_0_ev_009",
+        "ev_syntheti_8_doc_7_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_012",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "TimePoint",
+      "surface_forms": [
+        "tonight"
+      ],
+      "canonical_name": "tonight",
+      "description": "The immediate performance night Oscar refers to when noting the theater is empty.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Six hundred seats and every one of them empty tonight."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_8_doc_7_chunk_0_ev_007"
+      ],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_013",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Saturday"
+      ],
+      "canonical_name": "Saturday",
+      "description": "The upcoming day Diana mentions as the expected time when the theater will be full.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "They will not be empty Saturday."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_8_doc_7_chunk_0_ev_008",
+        "ev_syntheti_8_doc_7_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_014",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Concept",
+      "surface_forms": [
+        "Act Four"
+      ],
+      "canonical_name": "Act Four",
+      "description": "The section of the rehearsal Diana ends before calling for a five-minute break.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "End of Act Four! Take five, everyone!"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_8_doc_7_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_015",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Concept",
+      "surface_forms": [
+        "cast",
+        "The cast"
+      ],
+      "canonical_name": "cast",
+      "description": "The group of performers who relax on stage when Diana calls a break.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "The cast relaxes on stage."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_8_doc_7_chunk_0_ev_010",
+        "ev_syntheti_8_doc_7_chunk_0_ev_011"
+      ],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_016",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Object",
+      "surface_forms": [
+        "prop table"
+      ],
+      "canonical_name": "prop table",
+      "description": "The nearby table where Leon places the gold-painted pistol during the break.",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Leon sets the gold-painted pistol on the nearest prop table."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_8_doc_7_chunk_0_ev_011"
+      ],
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_017",
+      "movie_id": "synthetic_hallucination_002__scene_8"
+    }
+  ]
+}

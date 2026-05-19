@@ -1,0 +1,336 @@
+{
+  "9": [
+    {
+      "temp_id": "ent_001",
+      "type": "Location",
+      "surface_forms": [
+        "Cartographer's Workshop",
+        "CARTOGRAPHER'S WORKSHOP",
+        "the workshop",
+        "the room",
+        "the moonlit workshop"
+      ],
+      "canonical_name": "Cartographer's Workshop",
+      "description": "The interior location where Holt confronts Felix and Sable and reassesses the theft scene.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT",
+        "Holt steps inside and examines the room.",
+        "Felix stands alone in the moonlit workshop"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_9_doc_8_chunk_0_ev_001",
+        "ev_syntheti_9_doc_8_chunk_0_ev_002",
+        "ev_syntheti_9_doc_8_chunk_0_ev_008",
+        "ev_syntheti_9_doc_8_chunk_0_ev_011"
+      ],
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "movie_id": "synthetic_hallucination_003__scene_9"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Night",
+        "NIGHT"
+      ],
+      "canonical_name": "Night",
+      "description": "The time of day in which the workshop confrontation takes place.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_9_doc_8_chunk_0_ev_001"
+      ],
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "movie_id": "synthetic_hallucination_003__scene_9"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Holt",
+        "HOLT"
+      ],
+      "canonical_name": "Holt",
+      "description": "The investigator who arrives with constables, arrests Sable, and revises his theory of the theft.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "Holt arrives with two constables.",
+        "HOLT\nMiss Cross. I am placing you under arrest",
+        "HOLT (CONT'D)\nI have been reconsidering the entry point."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_9_doc_8_chunk_0_ev_001",
+        "ev_syntheti_9_doc_8_chunk_0_ev_002",
+        "ev_syntheti_9_doc_8_chunk_0_ev_003",
+        "ev_syntheti_9_doc_8_chunk_0_ev_004",
+        "ev_syntheti_9_doc_8_chunk_0_ev_005",
+        "ev_syntheti_9_doc_8_chunk_0_ev_006",
+        "ev_syntheti_9_doc_8_chunk_0_ev_008",
+        "ev_syntheti_9_doc_8_chunk_0_ev_009",
+        "ev_syntheti_9_doc_8_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "movie_id": "synthetic_hallucination_003__scene_9"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Felix Adler",
+        "Felix",
+        "FELIX",
+        "Mr. Adler"
+      ],
+      "canonical_name": "Felix Adler",
+      "description": "The man in the workshop who defends Sable and produces the iron key while disputing Holt's theory.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "Felix and Sable are already there.",
+        "HOLT\nStep back, Mr. Adler.",
+        "FELIX\nThe door was locked. This is the only key to the chest."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_9_doc_8_chunk_0_ev_001",
+        "ev_syntheti_9_doc_8_chunk_0_ev_005",
+        "ev_syntheti_9_doc_8_chunk_0_ev_006",
+        "ev_syntheti_9_doc_8_chunk_0_ev_007",
+        "ev_syntheti_9_doc_8_chunk_0_ev_009",
+        "ev_syntheti_9_doc_8_chunk_0_ev_010",
+        "ev_syntheti_9_doc_8_chunk_0_ev_011"
+      ],
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_004",
+      "movie_id": "synthetic_hallucination_003__scene_9"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Sable Cross",
+        "Sable",
+        "SABLE",
+        "Miss Cross",
+        "her"
+      ],
+      "canonical_name": "Sable Cross",
+      "description": "The accused woman whom Holt arrests for the theft and who is led away by the constables.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "Felix and Sable are already there.",
+        "HOLT\nMiss Cross. I am placing you under arrest",
+        "Sable is led away."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_9_doc_8_chunk_0_ev_001",
+        "ev_syntheti_9_doc_8_chunk_0_ev_003",
+        "ev_syntheti_9_doc_8_chunk_0_ev_004",
+        "ev_syntheti_9_doc_8_chunk_0_ev_005",
+        "ev_syntheti_9_doc_8_chunk_0_ev_006",
+        "ev_syntheti_9_doc_8_chunk_0_ev_007",
+        "ev_syntheti_9_doc_8_chunk_0_ev_011"
+      ],
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "movie_id": "synthetic_hallucination_003__scene_9"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Concept",
+      "surface_forms": [
+        "constables",
+        "two constables",
+        "The constables"
+      ],
+      "canonical_name": "constables",
+      "description": "The law officers accompanying Holt who physically detain and remove Sable.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "Holt arrives with two constables.",
+        "The constables take Sable by the arms.",
+        "Sable is led away."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_9_doc_8_chunk_0_ev_001",
+        "ev_syntheti_9_doc_8_chunk_0_ev_006",
+        "ev_syntheti_9_doc_8_chunk_0_ev_011"
+      ],
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_006",
+      "movie_id": "synthetic_hallucination_003__scene_9"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "Northern Reaches map",
+        "the Northern Reaches map"
+      ],
+      "canonical_name": "Northern Reaches map",
+      "description": "The stolen map whose theft is the basis for Sable's arrest.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "on suspicion of the theft of the Northern Reaches map"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_9_doc_8_chunk_0_ev_003"
+      ],
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_007",
+      "movie_id": "synthetic_hallucination_003__scene_9"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "the magistrate"
+      ],
+      "canonical_name": "the magistrate",
+      "description": "The judicial authority Holt says will determine Sable's innocence.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "If you are innocent, the magistrate will say so."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_9_doc_8_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_008",
+      "movie_id": "synthetic_hallucination_003__scene_9"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "the market"
+      ],
+      "canonical_name": "the market",
+      "description": "The place Felix cites as Sable's alibi location for the morning of the theft.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "You said three witnesses placed her at the market all morning."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_9_doc_8_chunk_0_ev_005"
+      ],
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_009",
+      "movie_id": "synthetic_hallucination_003__scene_9"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "window latch",
+        "The window latch",
+        "the window latch"
+      ],
+      "canonical_name": "window latch",
+      "description": "The worn latch Holt examines as part of his revised theory about how the thief entered.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "The window latch, though worn, shows no sign of recent movement."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_9_doc_8_chunk_0_ev_008"
+      ],
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_010",
+      "movie_id": "synthetic_hallucination_003__scene_9"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "front door",
+        "the FRONT DOOR",
+        "The door"
+      ],
+      "canonical_name": "front door",
+      "description": "The entry point Holt now believes the thief used to access the workshop.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "I now believe the thief entered through the FRONT DOOR.",
+        "The door was locked."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_9_doc_8_chunk_0_ev_008",
+        "ev_syntheti_9_doc_8_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_011",
+      "movie_id": "synthetic_hallucination_003__scene_9"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "chest",
+        "the chest",
+        "This is the only key to the chest"
+      ],
+      "canonical_name": "chest",
+      "description": "The locked container associated with the iron key Felix presents.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "This is the only key to the chest."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_9_doc_8_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_012",
+      "movie_id": "synthetic_hallucination_003__scene_9"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "iron key",
+        "the iron key",
+        "the key"
+      ],
+      "canonical_name": "iron key",
+      "description": "The key Felix produces to support his claim about the locked chest and restricted access.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "He reaches into his COAT POCKET and produces the iron key.",
+        "Felix stands alone in the moonlit workshop, the key in his hand."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_9_doc_8_chunk_0_ev_009",
+        "ev_syntheti_9_doc_8_chunk_0_ev_010",
+        "ev_syntheti_9_doc_8_chunk_0_ev_011"
+      ],
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_013",
+      "movie_id": "synthetic_hallucination_003__scene_9"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "coat pocket",
+        "his COAT POCKET",
+        "COAT POCKET"
+      ],
+      "canonical_name": "coat pocket",
+      "description": "The pocket from which Felix retrieves the iron key.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "He reaches into his COAT POCKET and produces the iron key."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_9_doc_8_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_014",
+      "movie_id": "synthetic_hallucination_003__scene_9"
+    }
+  ]
+}

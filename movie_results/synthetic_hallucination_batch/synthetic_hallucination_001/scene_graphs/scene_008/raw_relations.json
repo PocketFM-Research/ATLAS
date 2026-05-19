@@ -1,0 +1,1063 @@
+{
+  "8": [
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "MARCUS You should sleep. There's a cot in the equipment room."
+      ],
+      "confidence": 0.98,
+      "source_name": "Marcus",
+      "target_name": "Marcus urges Elena to rest",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_001",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "MARCUS You should sleep. There's a cot in the equipment room."
+      ],
+      "confidence": 0.93,
+      "source_name": "Elena",
+      "target_name": "Marcus urges Elena to rest",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_002",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT",
+        "The watch room lit by a single lamp.",
+        "MARCUS You should sleep. There's a cot in the equipment room."
+      ],
+      "confidence": 0.9,
+      "source_name": "Marcus urges Elena to rest",
+      "target_name": "watch room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_003",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_006",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT",
+        "Late."
+      ],
+      "confidence": 0.96,
+      "source_name": "Marcus urges Elena to rest",
+      "target_name": "night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_004",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "ELENA Just finishing. Your wife -- you must miss her. Ten years is a long time to be alone out here.",
+        "ELENA Does your daughter ever come to visit?"
+      ],
+      "confidence": 0.97,
+      "source_name": "Elena",
+      "target_name": "Elena probes Marcus about his family",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_005",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "ELENA Just finishing. Your wife -- you must miss her. Ten years is a long time to be alone out here.",
+        "ELENA Does your daughter ever come to visit?"
+      ],
+      "confidence": 0.95,
+      "source_name": "Marcus",
+      "target_name": "Elena probes Marcus about his family",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_006",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT",
+        "The watch room lit by a single lamp."
+      ],
+      "confidence": 0.9,
+      "source_name": "Elena probes Marcus about his family",
+      "target_name": "watch room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_007",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_006",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT"
+      ],
+      "confidence": 0.95,
+      "source_name": "Elena probes Marcus about his family",
+      "target_name": "night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_008",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "MARCUS (quietly) You learn to manage it."
+      ],
+      "confidence": 0.97,
+      "source_name": "Marcus",
+      "target_name": "Marcus admits he manages solitude",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_009",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT",
+        "MARCUS (quietly) You learn to manage it."
+      ],
+      "confidence": 0.89,
+      "source_name": "Marcus admits he manages solitude",
+      "target_name": "watch room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_010",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_006",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT"
+      ],
+      "confidence": 0.95,
+      "source_name": "Marcus admits he manages solitude",
+      "target_name": "night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_011",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "ELENA What's her name?",
+        "MARCUS Rose."
+      ],
+      "confidence": 0.98,
+      "source_name": "Marcus",
+      "target_name": "Marcus reveals his daughter is Rose",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_012",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_003",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "ELENA What's her name?",
+        "MARCUS Rose."
+      ],
+      "confidence": 0.9,
+      "source_name": "Rose",
+      "target_name": "Marcus reveals his daughter is Rose",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_013",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT",
+        "MARCUS Rose."
+      ],
+      "confidence": 0.88,
+      "source_name": "Marcus reveals his daughter is Rose",
+      "target_name": "watch room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_014",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_006",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT"
+      ],
+      "confidence": 0.95,
+      "source_name": "Marcus reveals his daughter is Rose",
+      "target_name": "night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_015",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Elena writes."
+      ],
+      "confidence": 0.98,
+      "source_name": "Elena",
+      "target_name": "Elena records Rose's name",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_016",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT",
+        "Elena writes."
+      ],
+      "confidence": 0.89,
+      "source_name": "Elena records Rose's name",
+      "target_name": "watch room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_018",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_006",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT"
+      ],
+      "confidence": 0.95,
+      "source_name": "Elena records Rose's name",
+      "target_name": "night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_019",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "ELENA The locked room. I'd really like to understand what's in there.",
+        "ELENA With respect, I think it might be."
+      ],
+      "confidence": 0.98,
+      "source_name": "Elena",
+      "target_name": "Elena presses about the locked room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_020",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_012",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "ELENA The locked room. I'd really like to understand what's in there."
+      ],
+      "confidence": 0.84,
+      "source_name": "locked room",
+      "target_name": "Elena presses about the locked room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_021",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT",
+        "ELENA The locked room. I'd really like to understand what's in there."
+      ],
+      "confidence": 0.9,
+      "source_name": "Elena presses about the locked room",
+      "target_name": "watch room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_022",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_006",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT"
+      ],
+      "confidence": 0.95,
+      "source_name": "Elena presses about the locked room",
+      "target_name": "night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_023",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "A long pause. Marcus crosses the room and reaches above the window sill beside the main instrument panel, retrieving a small KEY on a cord.",
+        "MARCUS All right. Come."
+      ],
+      "confidence": 0.97,
+      "source_name": "Marcus",
+      "target_name": "Marcus decides to show the locked room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_024",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT",
+        "Marcus crosses the room and reaches above the window sill beside the main instrument panel, retrieving a small KEY on a cord.",
+        "MARCUS All right. Come."
+      ],
+      "confidence": 0.92,
+      "source_name": "Marcus decides to show the locked room",
+      "target_name": "watch room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_025",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_006",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT"
+      ],
+      "confidence": 0.95,
+      "source_name": "Marcus decides to show the locked room",
+      "target_name": "night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_026",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "He leads her not upward but DOWN -- a staircase she has not noticed before, descending below the main floor to a heavy door at the bottom."
+      ],
+      "confidence": 0.98,
+      "source_name": "Marcus",
+      "target_name": "Marcus leads Elena below the lighthouse",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_027",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "He leads her not upward but DOWN -- a staircase she has not noticed before, descending below the main floor to a heavy door at the bottom."
+      ],
+      "confidence": 0.95,
+      "source_name": "Elena",
+      "target_name": "Marcus leads Elena below the lighthouse",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_028",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_015",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "He leads her not upward but DOWN -- a staircase she has not noticed before, descending below the main floor to a heavy door at the bottom."
+      ],
+      "confidence": 0.96,
+      "source_name": "Marcus leads Elena below the lighthouse",
+      "target_name": "below the main floor",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_029",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_030",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_006",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT"
+      ],
+      "confidence": 0.95,
+      "source_name": "Marcus leads Elena below the lighthouse",
+      "target_name": "night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_030",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_031",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "MARCUS That's just storage. This is what you came here for."
+      ],
+      "confidence": 0.94,
+      "source_name": "Marcus",
+      "target_name": "Marcus reveals the true locked room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_031",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_032",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "MARCUS That's just storage. This is what you came here for."
+      ],
+      "confidence": 0.82,
+      "source_name": "Elena",
+      "target_name": "Marcus reveals the true locked room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_032",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_033",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_015",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "descending below the main floor to a heavy door at the bottom.",
+        "MARCUS That's just storage. This is what you came here for."
+      ],
+      "confidence": 0.9,
+      "source_name": "Marcus reveals the true locked room",
+      "target_name": "below the main floor",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_033",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_034",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_006",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT"
+      ],
+      "confidence": 0.95,
+      "source_name": "Marcus reveals the true locked room",
+      "target_name": "night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_034",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_035",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT",
+        "Elena is still working"
+      ],
+      "confidence": 0.95,
+      "source_name": "Elena",
+      "target_name": "watch room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_035",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_036",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Marcus appears at the top of the stairs."
+      ],
+      "confidence": 0.88,
+      "source_name": "Marcus",
+      "target_name": "watch room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_036",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_037",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - WATCH ROOM - NIGHT"
+      ],
+      "confidence": 0.99,
+      "source_name": "watch room",
+      "target_name": "Lighthouse",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_037",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_038",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "There's a cot in the equipment room."
+      ],
+      "confidence": 0.88,
+      "source_name": "equipment room",
+      "target_name": "Lighthouse",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_038",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_039",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "There's a cot in the equipment room."
+      ],
+      "confidence": 0.99,
+      "source_name": "cot",
+      "target_name": "equipment room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_039",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_040",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_003",
+      "target_type": "Character",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "ELENA Does your daughter ever come to visit?",
+        "MARCUS She comes when she can.",
+        "MARCUS Rose."
+      ],
+      "confidence": 0.98,
+      "source_name": "Marcus",
+      "target_name": "Rose",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_040",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_041",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "target_type": "Character",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "MARCUS You should sleep. There's a cot in the equipment room.",
+        "MARCUS All right. Come.",
+        "He leads her not upward but DOWN"
+      ],
+      "confidence": 0.62,
+      "source_name": "Marcus",
+      "target_name": "Elena",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_041",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_043",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_009",
+      "source_type": "Concept",
+      "relation": "present_on",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_006",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "ELENA Just finishing. Your wife -- you must miss her."
+      ],
+      "confidence": 0.51,
+      "source_name": "wife",
+      "target_name": "night",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_043",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_044",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_010",
+      "target_type": "Object",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Marcus crosses the room and reaches above the window sill beside the main instrument panel, retrieving a small KEY on a cord."
+      ],
+      "confidence": 0.93,
+      "source_name": "Marcus",
+      "target_name": "key",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_044",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_045",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_010",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_011",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "It is BRASS."
+      ],
+      "confidence": 0.94,
+      "source_name": "key",
+      "target_name": "brass",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_045",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_046",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_010",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Marcus crosses the room and reaches above the window sill beside the main instrument panel, retrieving a small KEY on a cord."
+      ],
+      "confidence": 0.84,
+      "source_name": "key",
+      "target_name": "watch room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_046",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_047",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_012",
+      "source_type": "Concept",
+      "relation": "located_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_015",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "He leads her not upward but DOWN -- a staircase she has not noticed before, descending below the main floor to a heavy door at the bottom.",
+        "MARCUS That's just storage. This is what you came here for."
+      ],
+      "confidence": 0.86,
+      "source_name": "locked room",
+      "target_name": "below the main floor",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_047",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_048",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_013",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "ELENA I thought the locked room was upstairs."
+      ],
+      "confidence": 0.72,
+      "source_name": "upstairs",
+      "target_name": "Lighthouse",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_048",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_049",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_014",
+      "source_type": "Concept",
+      "relation": "located_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_013",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "MARCUS That's just storage."
+      ],
+      "confidence": 0.78,
+      "source_name": "storage",
+      "target_name": "upstairs",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_049",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_050",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_015",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "descending below the main floor"
+      ],
+      "confidence": 0.93,
+      "source_name": "below the main floor",
+      "target_name": "Lighthouse",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_050",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_051",
+      "source_id": "ent_syntheti_8_doc_7_chunk_0_ent_016",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_syntheti_8_doc_7_chunk_0_ent_015",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "descending below the main floor to a heavy door at the bottom."
+      ],
+      "confidence": 0.98,
+      "source_name": "heavy door",
+      "target_name": "below the main floor",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_051",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_052",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "MARCUS You should sleep. There's a cot in the equipment room.",
+        "ELENA Just finishing. Your wife -- you must miss her."
+      ],
+      "confidence": 0.98,
+      "source_name": "Marcus urges Elena to rest",
+      "target_name": "Elena probes Marcus about his family",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_052",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_053",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "ELENA ... Your wife -- you must miss her.",
+        "MARCUS (quietly) You learn to manage it."
+      ],
+      "confidence": 0.97,
+      "source_name": "Elena probes Marcus about his family",
+      "target_name": "Marcus admits he manages solitude",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_053",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_054",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "MARCUS You learn to manage it.",
+        "ELENA What's her name?",
+        "MARCUS Rose."
+      ],
+      "confidence": 0.96,
+      "source_name": "Marcus admits he manages solitude",
+      "target_name": "Marcus reveals his daughter is Rose",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_054",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_055",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "source_type": "Event",
+      "relation": "causes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "MARCUS Rose.",
+        "Elena writes."
+      ],
+      "confidence": 0.95,
+      "source_name": "Marcus reveals his daughter is Rose",
+      "target_name": "Elena records Rose's name",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_055",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_056",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "Elena writes.",
+        "ELENA The locked room. I'd really like to understand what's in there."
+      ],
+      "confidence": 0.97,
+      "source_name": "Elena records Rose's name",
+      "target_name": "Elena presses about the locked room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_056",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_057",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "source_type": "Event",
+      "relation": "causes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "ELENA With respect, I think it might be.",
+        "A long pause. Marcus crosses the room ... retrieving a small KEY on a cord.",
+        "MARCUS All right. Come."
+      ],
+      "confidence": 0.96,
+      "source_name": "Elena presses about the locked room",
+      "target_name": "Marcus decides to show the locked room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_057",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_058",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "source_type": "Event",
+      "relation": "causes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "MARCUS All right. Come.",
+        "He leads her not upward but DOWN"
+      ],
+      "confidence": 0.97,
+      "source_name": "Marcus decides to show the locked room",
+      "target_name": "Marcus leads Elena below the lighthouse",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_058",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    },
+    {
+      "temp_id": "rel_059",
+      "source_id": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0",
+      "evidence": [
+        "He leads her ... to a heavy door at the bottom.",
+        "MARCUS That's just storage. This is what you came here for."
+      ],
+      "confidence": 0.95,
+      "source_name": "Marcus leads Elena below the lighthouse",
+      "target_name": "Marcus reveals the true locked room",
+      "id": "rel_syntheti_8_doc_7_chunk_0_rel_059",
+      "movie_id": "synthetic_hallucination_001__scene_8"
+    }
+  ]
+}

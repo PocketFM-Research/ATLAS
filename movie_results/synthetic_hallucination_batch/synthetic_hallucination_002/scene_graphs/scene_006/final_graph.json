@@ -1,0 +1,1109 @@
+{
+  "movie_id": "synthetic_hallucination_002__scene_6",
+  "title": "synthetic_hallucination_002",
+  "nodes": [
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "type": "Event",
+      "name": "Leon reviews script quietly",
+      "aliases": [
+        "Leon reviews script quietly"
+      ],
+      "description": "The next morning, Leon sits in the green room reviewing his script while Oscar reads separately, establishing a subdued atmosphere after prior events.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Next morning. The green room is quieter. Leon sits at a makeup station reviewing his script. Oscar reads in the corner."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "type": "Event",
+      "name": "Diana clears Leon for movement",
+      "aliases": [
+        "Diana clears Leon for movement"
+      ],
+      "description": "Diana informs Leon that the stage physician has cleared him for full movement, while warning him to stop if he feels pain.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "DIANA\nLeon. The stage physician cleared you for full movement. Any pain, you stop.",
+        "DIANA enters, consulting a BLUE CLIPBOARD. She sets it on the table and turns to Leon."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "type": "Event",
+      "name": "Leon explains his injury",
+      "aliases": [
+        "Leon explains his injury"
+      ],
+      "description": "Leon claims his injury came from a car accident caused by another driver running a red light and minimizes it as a fluke affecting only his arm.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "LEON\nUnderstood. Honestly, the whole thing was a fluke. I was in a car accident -- the other driver ran a red light. Lucky it was just the arm."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "type": "Event",
+      "name": "Diana records Leon's status",
+      "aliases": [
+        "Diana records Leon's status"
+      ],
+      "description": "Diana responds tersely and writes notes on her blue clipboard, indicating she is formally documenting Leon's condition and remarks.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "DIANA\nRight.",
+        "She makes a note on the blue clipboard."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "type": "Event",
+      "name": "Oscar challenges Leon's story",
+      "aliases": [
+        "Oscar challenges Leon's story"
+      ],
+      "description": "Without looking up, Oscar contradicts Leon's account by saying he thought the injury involved a ladder, casting doubt on Leon's explanation.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "OSCAR\n(not looking up)\nCar accident. I thought it was the ladder."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "type": "Event",
+      "name": "Oscar implies Leon is lying",
+      "aliases": [
+        "Oscar implies Leon is lying"
+      ],
+      "description": "After Leon dismisses the importance of the cause, Oscar says only the story matters, implying Leon is shaping a false narrative about his injury.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "LEON\nDoes the cause matter?",
+        "OSCAR\nNot to the production. Only to the story you tell."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "type": "Event",
+      "name": "Leon falls silent under scrutiny",
+      "aliases": [
+        "Leon falls silent under scrutiny"
+      ],
+      "description": "Leon offers no response to Oscar's pointed remark, signaling discomfort or concealment as Diana notices the tension and continues marking her clipboard.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Leon says nothing. Diana glances between them and marks something else on the blue clipboard."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_008",
+      "type": "Event",
+      "name": "Diana calls company to stage",
+      "aliases": [
+        "Diana calls company to stage"
+      ],
+      "description": "Diana directs the full company to be on stage in thirty minutes and demands a clean Act One, shifting the scene back to production discipline.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "DIANA\nFull company on stage in thirty minutes. I want Act One clean."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "type": "Character",
+      "name": "Leon",
+      "aliases": [
+        "Leon",
+        "LEON"
+      ],
+      "description": "An actor in the production who reviews his script and discusses his injury under scrutiny.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "DIANA\nLeon. The stage physician cleared you for full movement.",
+        "LEON\nUnderstood. Honestly, the whole thing was a fluke.",
+        "Leon sits at a makeup station reviewing his script."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "type": "Character",
+      "name": "Oscar",
+      "aliases": [
+        "Oscar",
+        "OSCAR"
+      ],
+      "description": "A company member reading in the corner who challenges Leon's explanation for his injury.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Oscar reads in the corner.",
+        "OSCAR\nNot to the production. Only to the story you tell.",
+        "OSCAR\n(not looking up)\nCar accident. I thought it was the ladder."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "type": "Character",
+      "name": "Diana",
+      "aliases": [
+        "Diana",
+        "DIANA"
+      ],
+      "description": "A production authority figure who checks Leon's condition, records notes, and calls the company to stage.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "DIANA\nLeon. The stage physician cleared you for full movement.",
+        "DIANA enters, consulting a BLUE CLIPBOARD.",
+        "DIANA\nFull company on stage in thirty minutes. I want Act One clean."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_007",
+      "type": "Character",
+      "name": "stage physician",
+      "aliases": [
+        "stage physician",
+        "the stage physician"
+      ],
+      "description": "The medical professional who has cleared Leon for full movement.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "The stage physician cleared you for full movement."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "type": "Location",
+      "name": "RAVENSWOOD THEATER green room",
+      "aliases": [
+        "RAVENSWOOD THEATER green room",
+        "green room",
+        "The green room",
+        "RAVENSWOOD THEATER"
+      ],
+      "description": "The theater green room where Leon, Oscar, and Diana interact the next morning.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "The green room is quieter.",
+        "INT. RAVENSWOOD THEATER - GREEN ROOM - DAY"
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_014",
+      "type": "Location",
+      "name": "stage",
+      "aliases": [
+        "stage"
+      ],
+      "description": "The performance area where Diana orders the full company to assemble.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Full company on stage in thirty minutes."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "type": "TimePoint",
+      "name": "Next morning",
+      "aliases": [
+        "Next morning",
+        "DAY"
+      ],
+      "description": "The time setting of the scene, occurring the next morning during the day.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Next morning.",
+        "INT. RAVENSWOOD THEATER - GREEN ROOM - DAY"
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_015",
+      "type": "TimePoint",
+      "name": "in thirty minutes",
+      "aliases": [
+        "in thirty minutes"
+      ],
+      "description": "The deadline Diana gives for the company to be assembled on stage.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Full company on stage in thirty minutes."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_006",
+      "type": "Object",
+      "name": "blue clipboard",
+      "aliases": [
+        "blue clipboard",
+        "BLUE CLIPBOARD"
+      ],
+      "description": "The clipboard Diana consults and writes on while documenting Leon's condition and the tense exchange.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Diana glances between them and marks something else on the blue clipboard.",
+        "DIANA enters, consulting a BLUE CLIPBOARD.",
+        "She makes a note on the blue clipboard."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_010",
+      "type": "Object",
+      "name": "ladder",
+      "aliases": [
+        "ladder"
+      ],
+      "description": "The alternate cause of Leon's injury that Oscar mentions to challenge Leon's story.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "I thought it was the ladder."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_008",
+      "type": "Vehicle",
+      "name": "car",
+      "aliases": [
+        "car"
+      ],
+      "description": "The vehicle involved in the accident Leon cites as the cause of his injury.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "I was in a car accident -- the other driver ran a red light."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_009",
+      "type": "Concept",
+      "name": "car accident",
+      "aliases": [
+        "car accident"
+      ],
+      "description": "The explanation Leon gives for how he was injured.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "I was in a car accident -- the other driver ran a red light.",
+        "OSCAR\n(not looking up)\nCar accident."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_011",
+      "type": "Concept",
+      "name": "the production",
+      "aliases": [
+        "the production"
+      ],
+      "description": "The theatrical production whose practical concerns Oscar contrasts with Leon's personal story.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Not to the production."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_012",
+      "type": "Concept",
+      "name": "the story you tell",
+      "aliases": [
+        "the story you tell"
+      ],
+      "description": "Oscar's phrase for the narrative Leon is presenting about his injury, implying possible dishonesty.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Only to the story you tell."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_013",
+      "type": "Concept",
+      "name": "full company",
+      "aliases": [
+        "full company",
+        "Full company"
+      ],
+      "description": "The entire company Diana orders to be on stage for rehearsal.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Full company on stage in thirty minutes."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_016",
+      "type": "Concept",
+      "name": "Act One",
+      "aliases": [
+        "Act One"
+      ],
+      "description": "The first act of the production that Diana wants performed cleanly.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "I want Act One clean."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_f741d7ed1f04",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Leon sits at a makeup station reviewing his script."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_d2af4e336c5c",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - GREEN ROOM - DAY",
+        "Leon sits at a makeup station reviewing his script."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_657030c80fce",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Next morning.",
+        "Leon sits at a makeup station reviewing his script."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_e653580218a3",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "DIANA",
+        "Leon. The stage physician cleared you for full movement."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_ffac7592e59e",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "undergoes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Leon. The stage physician cleared you for full movement."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_8ba75866f542",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - GREEN ROOM - DAY",
+        "DIANA enters, consulting a BLUE CLIPBOARD. She sets it on the table and turns to Leon.",
+        "Leon. The stage physician cleared you for full movement."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_47937624d686",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Next morning.",
+        "Leon. The stage physician cleared you for full movement."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_47901bc03b09",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "LEON",
+        "Honestly, the whole thing was a fluke. I was in a car accident -- the other driver ran a red light. Lucky it was just the arm."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_09698a930bbe",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - GREEN ROOM - DAY",
+        "LEON",
+        "Honestly, the whole thing was a fluke. I was in a car accident -- the other driver ran a red light."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_791037a9cb06",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Next morning.",
+        "Honestly, the whole thing was a fluke. I was in a car accident -- the other driver ran a red light."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_2044d4a093ba",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "She makes a note on the blue clipboard.",
+        "Diana glances between them and marks something else on the blue clipboard."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_57b054131a89",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - GREEN ROOM - DAY",
+        "She makes a note on the blue clipboard."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_1b15e3d021a6",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Next morning.",
+        "She makes a note on the blue clipboard."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_945a29a144f5",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "OSCAR",
+        "(not looking up)",
+        "Car accident. I thought it was the ladder."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_c1cb7d90922e",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - GREEN ROOM - DAY",
+        "OSCAR",
+        "Car accident. I thought it was the ladder."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_417c8b458f62",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Next morning.",
+        "Car accident. I thought it was the ladder."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_c4a2ead01d82",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "OSCAR",
+        "Not to the production. Only to the story you tell."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_38275192e75c",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "undergoes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "LEON",
+        "Does the cause matter?",
+        "OSCAR",
+        "Not to the production. Only to the story you tell."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_5b6f8b25d3b1",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - GREEN ROOM - DAY",
+        "OSCAR",
+        "Not to the production. Only to the story you tell."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_d1e58c5b4f3e",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Next morning.",
+        "Not to the production. Only to the story you tell."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_5918b595890a",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "experiences",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Leon says nothing."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_18ac614975b6",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - GREEN ROOM - DAY",
+        "Leon says nothing."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_588354d6082e",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Next morning.",
+        "Leon says nothing."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_04cd426adf19",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_008",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "DIANA",
+        "Full company on stage in thirty minutes. I want Act One clean."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_7b77fc83fb34",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - GREEN ROOM - DAY",
+        "DIANA",
+        "Full company on stage in thirty minutes. I want Act One clean."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_a826d223fa80",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_008",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Next morning.",
+        "Full company on stage in thirty minutes."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_edb2ab44c876",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "located_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Leon sits at a makeup station reviewing his script."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_d6ade5895fd3",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "relation": "located_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Oscar reads in the corner."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_981e0279c417",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "relation": "located_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "DIANA enters, consulting a BLUE CLIPBOARD."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_aefa50de8fcc",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_006",
+      "relation": "located_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "DIANA enters, consulting a BLUE CLIPBOARD. She sets it on the table"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_e43b71cc54c4",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "relation": "uses",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_006",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "DIANA enters, consulting a BLUE CLIPBOARD.",
+        "She makes a note on the blue clipboard.",
+        "Diana glances between them and marks something else on the blue clipboard."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_a572335c2120",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_007",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Leon. The stage physician cleared you for full movement.",
+        "DIANA enters, consulting a BLUE CLIPBOARD."
+      ],
+      "confidence": 0.51
+    },
+    {
+      "id": "e_928b980468c6",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_008",
+      "relation": "undergoes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "I was in a car accident"
+      ],
+      "confidence": 0.54
+    },
+    {
+      "id": "e_c0d73a2e9788",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_009",
+      "relation": "present_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Next morning.",
+        "Car accident."
+      ],
+      "confidence": 0.52
+    },
+    {
+      "id": "e_05743161f5c8",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_010",
+      "relation": "located_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Car accident. I thought it was the ladder."
+      ],
+      "confidence": 0.4
+    },
+    {
+      "id": "e_72ceaa5aeffc",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "affiliated_with",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_011",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Not to the production.",
+        "Full company on stage in thirty minutes."
+      ],
+      "confidence": 0.63
+    },
+    {
+      "id": "e_b98597eb4187",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "relation": "affiliated_with",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_011",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Not to the production.",
+        "Oscar reads in the corner."
+      ],
+      "confidence": 0.63
+    },
+    {
+      "id": "e_b188e0b3e964",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "relation": "affiliated_with",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_011",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Full company on stage in thirty minutes.",
+        "I want Act One clean."
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_dc1aa281a9d9",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_012",
+      "relation": "present_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Only to the story you tell.",
+        "Next morning."
+      ],
+      "confidence": 0.45
+    },
+    {
+      "id": "e_0a0b0b34b1e6",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_013",
+      "relation": "present_on",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_015",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Full company on stage in thirty minutes."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_435c12139f61",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_016",
+      "relation": "part_of",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_011",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "I want Act One clean.",
+        "the production"
+      ],
+      "confidence": 0.66
+    },
+    {
+      "id": "e_4bdb86bf8e15",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "relation": "references",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Leon. The stage physician cleared you for full movement.",
+        "Honestly, the whole thing was a fluke. I was in a car accident"
+      ],
+      "confidence": 0.58
+    },
+    {
+      "id": "e_e85458e4ae38",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "relation": "precedes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Honestly, the whole thing was a fluke.",
+        "She makes a note on the blue clipboard."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_a4ba071f36d3",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "relation": "causes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Car accident. I thought it was the ladder.",
+        "Leon says nothing."
+      ],
+      "confidence": 0.74
+    },
+    {
+      "id": "e_59c6be27d952",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "relation": "causes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Only to the story you tell.",
+        "Leon says nothing."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_9e8e0ac26e78",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Leon sits at a makeup station reviewing his script.",
+        "DIANA enters",
+        "Leon. The stage physician cleared you for full movement."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_da89739b2d42",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "relation": "precedes",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Leon. The stage physician cleared you for full movement.",
+        "OSCAR",
+        "Car accident. I thought it was the ladder."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_70bc3e4e12b2",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_007",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Leon. The stage physician cleared you for full movement.",
+        "DIANA enters, consulting a BLUE CLIPBOARD."
+      ],
+      "confidence": 0.51
+    },
+    {
+      "id": "e_d4145e2a2663",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Honestly, the whole thing was a fluke.",
+        "She makes a note on the blue clipboard."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_9de6b8d19cbb",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Leon sits at a makeup station reviewing his script.",
+        "DIANA enters",
+        "Leon. The stage physician cleared you for full movement."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_81d063468322",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Leon. The stage physician cleared you for full movement.",
+        "OSCAR",
+        "Car accident. I thought it was the ladder."
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

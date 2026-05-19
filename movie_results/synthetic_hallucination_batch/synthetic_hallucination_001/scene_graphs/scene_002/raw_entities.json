@@ -1,0 +1,213 @@
+{
+  "2": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Elena Voss",
+        "ELENA VOSS",
+        "Elena"
+      ],
+      "canonical_name": "Elena Voss",
+      "description": "A journalist from the Coastal Herald who drives to the lighthouse to investigate and introduces herself to Marcus.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "ELENA VOSS (30s, sharp eyes, practical jacket) grips the steering wheel.",
+        "ELENA",
+        "Elena parks beside a weathered outbuilding",
+        "Elena Voss. Coastal Herald."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_001",
+        "ev_syntheti_2_doc_1_chunk_0_ev_002",
+        "ev_syntheti_2_doc_1_chunk_0_ev_003",
+        "ev_syntheti_2_doc_1_chunk_0_ev_004",
+        "ev_syntheti_2_doc_1_chunk_0_ev_005",
+        "ev_syntheti_2_doc_1_chunk_0_ev_006",
+        "ev_syntheti_2_doc_1_chunk_0_ev_007",
+        "ev_syntheti_2_doc_1_chunk_0_ev_008",
+        "ev_syntheti_2_doc_1_chunk_0_ev_009",
+        "ev_syntheti_2_doc_1_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "movie_id": "synthetic_hallucination_001__scene_2"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Vehicle",
+      "surface_forms": [
+        "Red Jeep",
+        "RED JEEP"
+      ],
+      "canonical_name": "Red Jeep",
+      "description": "The vehicle Elena drives along the coastal road and parks at the lighthouse entrance.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "A RED JEEP rounds the final curve of a winding coastal highway.",
+        "INT. RED JEEP - CONTINUOUS"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_001",
+        "ev_syntheti_2_doc_1_chunk_0_ev_004",
+        "ev_syntheti_2_doc_1_chunk_0_ev_005"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "movie_id": "synthetic_hallucination_001__scene_2"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Object",
+      "surface_forms": [
+        "Green Spiral Notebook",
+        "GREEN SPIRAL NOTEBOOK"
+      ],
+      "canonical_name": "Green Spiral Notebook",
+      "description": "Elena's notebook, marked with her name and newspaper, which she checks in the Jeep and carries with her.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "On the passenger seat: a GREEN SPIRAL NOTEBOOK, its cover marked ELENA VOSS -- COASTAL HERALD.",
+        "She glances at it.",
+        "GREEN SPIRAL NOTEBOOK tucked under her arm."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_002",
+        "ev_syntheti_2_doc_1_chunk_0_ev_005"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "movie_id": "synthetic_hallucination_001__scene_2"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Location",
+      "surface_forms": [
+        "Calloway"
+      ],
+      "canonical_name": "Calloway",
+      "description": "The destination Elena names as the end of the road when she reaches the lighthouse area.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "Calloway. End of the road."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_003"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_004",
+      "movie_id": "synthetic_hallucination_001__scene_2"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Marcus",
+        "MARCUS"
+      ],
+      "canonical_name": "Marcus",
+      "description": "The man at the lighthouse entrance who confronts Elena, recognizes Claire's referral, and invites her inside.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "MARCUS appears in the doorway, ANCHOR at his side.",
+        "MARCUS",
+        "A pause. Marcus almost smiles."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_006",
+        "ev_syntheti_2_doc_1_chunk_0_ev_007",
+        "ev_syntheti_2_doc_1_chunk_0_ev_008",
+        "ev_syntheti_2_doc_1_chunk_0_ev_009",
+        "ev_syntheti_2_doc_1_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_005",
+      "movie_id": "synthetic_hallucination_001__scene_2"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "Anchor",
+        "ANCHOR"
+      ],
+      "canonical_name": "Anchor",
+      "description": "A heavy maritime object positioned at Marcus's side when he appears in the doorway.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "MARCUS appears in the doorway, ANCHOR at his side."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_006"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_006",
+      "movie_id": "synthetic_hallucination_001__scene_2"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Character",
+      "surface_forms": [
+        "Claire Munroe"
+      ],
+      "canonical_name": "Claire Munroe",
+      "description": "Elena's editor, cited as the person who spoke with Marcus and recommended Elena.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "You spoke to my editor -- Claire Munroe?"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_007",
+        "ev_syntheti_2_doc_1_chunk_0_ev_008",
+        "ev_syntheti_2_doc_1_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_007",
+      "movie_id": "synthetic_hallucination_001__scene_2"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "Coastal Herald",
+        "COASTAL HERALD"
+      ],
+      "canonical_name": "Coastal Herald",
+      "description": "The news organization Elena works for, identified on her notebook and in her introduction.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "its cover marked ELENA VOSS -- COASTAL HERALD",
+        "Elena Voss. Coastal Herald."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_007"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_008",
+      "movie_id": "synthetic_hallucination_001__scene_2"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "the lighthouse"
+      ],
+      "canonical_name": "the lighthouse",
+      "description": "The coastal structure Elena approaches and where Marcus meets her at the entrance.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "Ahead, the lighthouse rises from a rocky promontory.",
+        "EXT. LIGHTHOUSE ENTRANCE - CONTINUOUS"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_001",
+        "ev_syntheti_2_doc_1_chunk_0_ev_004",
+        "ev_syntheti_2_doc_1_chunk_0_ev_005",
+        "ev_syntheti_2_doc_1_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_009",
+      "movie_id": "synthetic_hallucination_001__scene_2"
+    }
+  ]
+}

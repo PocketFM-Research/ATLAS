@@ -1,0 +1,437 @@
+{
+  "7": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Felix",
+        "Master Adler"
+      ],
+      "canonical_name": "Felix",
+      "description": "A nervous patron questioned in the tavern who discusses the survey, confides regret, and responds about the stolen chest.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "Felix and Holt sit at the corner booth.",
+        "TAVERN KEEPER\nMaster Adler. Your usual ale?",
+        "Felix turns the GOLD RING on his LEFT HAND as he speaks",
+        "I wish I had been more careful.",
+        "Behind the bookcase. Yes. I suppose that is where it was."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_001",
+        "ev_syntheti_7_doc_6_chunk_0_ev_002",
+        "ev_syntheti_7_doc_6_chunk_0_ev_003",
+        "ev_syntheti_7_doc_6_chunk_0_ev_004",
+        "ev_syntheti_7_doc_6_chunk_0_ev_006",
+        "ev_syntheti_7_doc_6_chunk_0_ev_007",
+        "ev_syntheti_7_doc_6_chunk_0_ev_008",
+        "ev_syntheti_7_doc_6_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Holt"
+      ],
+      "canonical_name": "Holt",
+      "description": "The investigator interviewing Felix, taking notes, consulting law officers, and correcting the record about the chest.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "Felix and Holt sit at the corner booth.",
+        "Holt has his leather folio open.",
+        "Holt makes a note.",
+        "Holt steps away to speak quietly with a constable at the door.",
+        "My deputy's notes from the morning of the theft say the chest was hidden behind the bookcase in the main room.",
+        "I will have the record corrected regardless."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_003",
+        "ev_syntheti_7_doc_6_chunk_0_ev_004",
+        "ev_syntheti_7_doc_6_chunk_0_ev_005",
+        "ev_syntheti_7_doc_6_chunk_0_ev_006",
+        "ev_syntheti_7_doc_6_chunk_0_ev_008",
+        "ev_syntheti_7_doc_6_chunk_0_ev_009",
+        "ev_syntheti_7_doc_6_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Sable"
+      ],
+      "canonical_name": "Sable",
+      "description": "A nearby listener whom Felix quietly confides in and who responds only with silence.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "Sable listens nearby.",
+        "Sable watches Felix.",
+        "Felix leans toward Sable.",
+        "FELIX (CONT'D)\n(low, to Sable)",
+        "Sable says nothing. She looks down at the table."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_006",
+        "ev_syntheti_7_doc_6_chunk_0_ev_007"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_003",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Tavern Keeper",
+        "TAVERN KEEPER",
+        "The TAVERN KEEPER",
+        "The keeper"
+      ],
+      "canonical_name": "Tavern Keeper",
+      "description": "The tavern worker who recognizes Felix and serves him his usual ale.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "The TAVERN KEEPER approaches Felix.",
+        "TAVERN KEEPER\nMaster Adler. Your usual ale?",
+        "The keeper sets a large mug of ale before Felix."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_001"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "constable"
+      ],
+      "canonical_name": "constable",
+      "description": "An officer at the door with whom Holt briefly confers before returning to question Felix.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "Holt steps away to speak quietly with a constable at the door."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_006"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_005",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Character",
+      "surface_forms": [
+        "deputy",
+        "My deputy"
+      ],
+      "canonical_name": "deputy",
+      "description": "Holt's subordinate whose notes are cited as evidence about the chest's location on the morning of the theft.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "My deputy's notes from the morning of the theft say the chest was hidden behind the bookcase in the main room."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_008"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_006",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "The Hound and Lantern Tavern",
+        "THE HOUND AND LANTERN TAVERN"
+      ],
+      "canonical_name": "The Hound and Lantern Tavern",
+      "description": "The tavern where Felix, Holt, and Sable meet and where the questioning takes place.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_001",
+        "ev_syntheti_7_doc_6_chunk_0_ev_003",
+        "ev_syntheti_7_doc_6_chunk_0_ev_004",
+        "ev_syntheti_7_doc_6_chunk_0_ev_005",
+        "ev_syntheti_7_doc_6_chunk_0_ev_006",
+        "ev_syntheti_7_doc_6_chunk_0_ev_007",
+        "ev_syntheti_7_doc_6_chunk_0_ev_008",
+        "ev_syntheti_7_doc_6_chunk_0_ev_009",
+        "ev_syntheti_7_doc_6_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "TimePoint",
+      "surface_forms": [
+        "night",
+        "NIGHT"
+      ],
+      "canonical_name": "night",
+      "description": "The time of day when the tavern conversation and questioning occur.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_001",
+        "ev_syntheti_7_doc_6_chunk_0_ev_003",
+        "ev_syntheti_7_doc_6_chunk_0_ev_004",
+        "ev_syntheti_7_doc_6_chunk_0_ev_005",
+        "ev_syntheti_7_doc_6_chunk_0_ev_006",
+        "ev_syntheti_7_doc_6_chunk_0_ev_007",
+        "ev_syntheti_7_doc_6_chunk_0_ev_008",
+        "ev_syntheti_7_doc_6_chunk_0_ev_009",
+        "ev_syntheti_7_doc_6_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_008",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "ale",
+        "a large mug of ale"
+      ],
+      "canonical_name": "ale",
+      "description": "Felix's usual drink, served by the tavern keeper and consumed absently.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "Master Adler. Your usual ale?",
+        "The keeper sets a large mug of ale before Felix."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_001"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_009",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "gold ring",
+        "GOLD RING"
+      ],
+      "canonical_name": "gold ring",
+      "description": "The ring on Felix's left hand that he fidgets with as a nervous habit.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "Felix turns the GOLD RING on his LEFT HAND as he speaks, sliding it back and forth across his knuckle -- a nervous habit."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_002"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_010",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "leather folio"
+      ],
+      "canonical_name": "leather folio",
+      "description": "Holt's open folio, used while he questions Felix and records notes.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "Holt has his leather folio open."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_005"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_011",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "Northern Reaches survey",
+        "survey"
+      ],
+      "canonical_name": "Northern Reaches survey",
+      "description": "The major cartographic project under discussion, whose scale and timeline are central to Holt's questioning of Felix.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "No dealer in the district has been approached about a Northern Reaches survey.",
+        "A piece like this -- two years of work from initial survey to final draft -- you do not move it quickly."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_003",
+        "ev_syntheti_7_doc_6_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_012",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Location",
+      "surface_forms": [
+        "Northern Reaches"
+      ],
+      "canonical_name": "Northern Reaches",
+      "description": "The named region associated with the survey Holt and Felix discuss.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "No dealer in the district has been approached about a Northern Reaches survey."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_003",
+        "ev_syntheti_7_doc_6_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_013",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "TimePoint",
+      "surface_forms": [
+        "two years"
+      ],
+      "canonical_name": "two years",
+      "description": "The minimum timeline Felix gives for completing the survey from initial work to final draft.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "two years of work from initial survey to final draft",
+        "two years is the minimum"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_014",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Object",
+      "surface_forms": [
+        "chest",
+        "the chest",
+        "the chest was already empty"
+      ],
+      "canonical_name": "chest",
+      "description": "The stolen container whose emptiness and hidden location are discussed as key facts in Holt's inquiry.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "I had no idea any of this was coming until the chest was already empty.",
+        "the chest was hidden behind the bookcase in the main room."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_006",
+        "ev_syntheti_7_doc_6_chunk_0_ev_008",
+        "ev_syntheti_7_doc_6_chunk_0_ev_009",
+        "ev_syntheti_7_doc_6_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_015",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Object",
+      "surface_forms": [
+        "bookcase",
+        "the bookcase"
+      ],
+      "canonical_name": "bookcase",
+      "description": "The furnishing behind which the chest was reportedly hidden on the morning of the theft.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "the chest was hidden behind the bookcase in the main room.",
+        "Behind the bookcase. Yes."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_008",
+        "ev_syntheti_7_doc_6_chunk_0_ev_009",
+        "ev_syntheti_7_doc_6_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_016",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Location",
+      "surface_forms": [
+        "main room",
+        "the main room"
+      ],
+      "canonical_name": "main room",
+      "description": "The room identified by Holt as the place where the chest was hidden behind the bookcase.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "the chest was hidden behind the bookcase in the main room."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_008"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_017",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "TimePoint",
+      "surface_forms": [
+        "the morning of the theft"
+      ],
+      "canonical_name": "the morning of the theft",
+      "description": "The specific time reference attached to the deputy's notes about where the chest was hidden.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "My deputy's notes from the morning of the theft say the chest was hidden behind the bookcase in the main room."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_008"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_018",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Concept",
+      "surface_forms": [
+        "record",
+        "the record"
+      ],
+      "canonical_name": "record",
+      "description": "The official account Holt says he will correct regarding the chest's location.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "I will have the record corrected regardless."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_7_doc_6_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_019",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    }
+  ]
+}

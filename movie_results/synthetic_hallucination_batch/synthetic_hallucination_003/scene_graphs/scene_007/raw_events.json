@@ -1,0 +1,211 @@
+{
+  "7": [
+    {
+      "temp_id": "ev_001",
+      "name": "keeper serves Felix ale",
+      "description": "The tavern keeper approaches Felix, confirms his usual order, and sets a mug of ale before him.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "The TAVERN KEEPER approaches Felix.",
+        "TAVERN KEEPER\nMaster Adler. Your usual ale?",
+        "FELIX\n(absently, distracted)\nYes. Thank you.",
+        "The keeper sets a large mug of ale before Felix."
+      ],
+      "participants": [
+        "Tavern Keeper",
+        "Felix"
+      ],
+      "location_hint": "THE HOUND AND LANTERN TAVERN",
+      "time_hint": "NIGHT",
+      "scope": "local",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_001",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "Felix reveals nervous distraction",
+      "description": "Felix drinks absently and fidgets with the gold ring on his left hand, signaling his anxiety.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "Felix drinks without noticing.",
+        "Felix turns the GOLD RING on his LEFT HAND as he speaks, sliding it back and forth across his knuckle -- a nervous habit."
+      ],
+      "participants": [
+        "Felix"
+      ],
+      "location_hint": "THE HOUND AND LANTERN TAVERN",
+      "time_hint": "NIGHT",
+      "scope": "global",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_002",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "Holt reports no dealer contact",
+      "description": "Holt states that no dealer in the district has yet been approached about a Northern Reaches survey.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "HOLT\nNo dealer in the district has been approached about a Northern Reaches survey. Not yet."
+      ],
+      "participants": [
+        "Holt",
+        "Felix"
+      ],
+      "location_hint": "THE HOUND AND LANTERN TAVERN",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_003",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "Felix explains survey timeline",
+      "description": "Felix says a work of that scale would be moved slowly and require at least two years from survey to final draft.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "FELIX\nThey will wait. A piece like this -- two years of work from initial survey to final draft -- you do not move it quickly.",
+        "FELIX\nAsk any cartographer of standing. That scope, that level of survey correction -- two years is the minimum."
+      ],
+      "participants": [
+        "Felix",
+        "Holt"
+      ],
+      "location_hint": "THE HOUND AND LANTERN TAVERN",
+      "time_hint": "two years",
+      "scope": "global",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_004",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "Holt records Felix's statement",
+      "description": "Holt makes a note after Felix describes the survey's timeline and significance.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "Holt makes a note."
+      ],
+      "participants": [
+        "Holt"
+      ],
+      "location_hint": "THE HOUND AND LANTERN TAVERN",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_005",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "Felix confides regret to Sable",
+      "description": "While Holt is away, Felix quietly tells Sable he wishes he had been more careful and claims he learned of the threat only after the chest was empty.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "Holt steps away to speak quietly with a constable at the door. Felix leans toward Sable.",
+        "FELIX (CONT'D)\n(low, to Sable)\nI wish I had been more careful. No one warned me there was any specific threat. I had no idea any of this was coming until the chest was already empty."
+      ],
+      "participants": [
+        "Felix",
+        "Sable",
+        "Holt",
+        "constable"
+      ],
+      "location_hint": "THE HOUND AND LANTERN TAVERN",
+      "time_hint": "the morning of the theft",
+      "scope": "global",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_006",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "Sable withholds response",
+      "description": "Sable remains silent and looks down at the table instead of answering Felix's confession.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "Sable says nothing. She looks down at the table."
+      ],
+      "participants": [
+        "Sable",
+        "Felix"
+      ],
+      "location_hint": "THE HOUND AND LANTERN TAVERN",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_007",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "Holt cites hidden chest notes",
+      "description": "After returning, Holt says his deputy's notes place the stolen chest behind the bookcase in the main room on the morning of the theft.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "Holt returns.",
+        "HOLT\nOne more thing. My deputy's notes from the morning of the theft say the chest was hidden behind the bookcase in the main room."
+      ],
+      "participants": [
+        "Holt",
+        "Felix",
+        "deputy"
+      ],
+      "location_hint": "THE HOUND AND LANTERN TAVERN",
+      "time_hint": "the morning of the theft",
+      "scope": "global",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_008",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ev_009",
+      "name": "Felix equivocates about chest location",
+      "description": "Felix hesitantly acknowledges the chest was behind the bookcase, sounding uncertain about the detail.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "FELIX\nBehind the bookcase. Yes. I suppose that is where it was."
+      ],
+      "participants": [
+        "Felix",
+        "Holt"
+      ],
+      "location_hint": "THE HOUND AND LANTERN TAVERN",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_009",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    },
+    {
+      "temp_id": "ev_010",
+      "name": "Holt promises record correction",
+      "description": "Holt states that he will correct the official record regarding the chest's location regardless of Felix's uncertainty.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "HOLT\nI will have the record corrected regardless."
+      ],
+      "participants": [
+        "Holt"
+      ],
+      "location_hint": "THE HOUND AND LANTERN TAVERN",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_010",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_7"
+    }
+  ]
+}

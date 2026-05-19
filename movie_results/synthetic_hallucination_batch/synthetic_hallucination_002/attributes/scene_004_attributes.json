@@ -1,0 +1,36 @@
+{
+  "Priya": {
+    "role": "props manager",
+    "uses": "tablet",
+    "uses_locked_object": "prop cabinet",
+    "locked_state": "padlocks prop cabinet",
+    "duration": "five minutes"
+  },
+  "Leon": {
+    "is_injured": "yes",
+    "holds": "silver-painted prop pistol",
+    "condition": "left arm in cast"
+  },
+  "silver prop pistol": {
+    "type": "prop pistol",
+    "color": "silver-painted",
+    "hidden_location": "prop cabinet"
+  },
+  "prop cabinet": {
+    "type": "prop cabinet",
+    "locked_state": "padlocked"
+  },
+  "PADLOCK": {
+    "type": "padlock",
+    "count": "three full rotations"
+  },
+  "RAVENSWOOD THEATER": {
+    "type": "theater"
+  },
+  "opening night": {
+    "identity_type": "event"
+  },
+  "Diana": {
+    "name_form": "Diana"
+  }
+}

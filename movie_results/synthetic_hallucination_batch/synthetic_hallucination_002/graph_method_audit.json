@@ -1,0 +1,766 @@
+{
+  "per_scene_proposal_stats": [
+    {
+      "scene_number": 2,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 3,
+      "proposals_added": 3,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 3,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 0,
+      "proposals_added": 0,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 4,
+      "candidate_facts_count": 24,
+      "raw_findings_count": 0,
+      "proposals_added": 0,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 5,
+      "candidate_facts_count": 24,
+      "raw_findings_count": 1,
+      "proposals_added": 1,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 6,
+      "candidate_facts_count": 18,
+      "raw_findings_count": 4,
+      "proposals_added": 4,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 7,
+      "candidate_facts_count": 24,
+      "raw_findings_count": 8,
+      "proposals_added": 8,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 8,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 4,
+      "proposals_added": 4,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 9,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 4,
+      "proposals_added": 4,
+      "exact_duplicates_dropped": 0
+    }
+  ],
+  "raw_proposals": [
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Leon's cast had no stated cause",
+      "event": "Leon says he fell off a ladder",
+      "text": "In scene 1, Leon's cast had no stated cause was established, yet in scene 2, Leon says he fell off a ladder happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Leon was already present at Ravenswood rehearsal",
+      "event": "Leon calls this his first Ravenswood production",
+      "text": "In scene 1, Leon was already present at Ravenswood rehearsal was established, yet in scene 2, Leon calls this his first Ravenswood production happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "a full run-through was scheduled at four o'clock",
+      "event": "Diana says opening night is five days away",
+      "text": "In scene 1, a full run-through was scheduled at four o'clock was established, yet in scene 2, Diana says opening night is five days away happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "fact": "Opening night is Friday",
+      "event": "the sponsorship offer is linked to opening night at night",
+      "text": "In scene 2, Opening night is Friday was established, yet in scene 5, the sponsorship offer is linked to opening night at night happens",
+      "proposed_at_scene_y": 5
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "fact": "Diana holds a red clipboard",
+      "event": "Diana consults a blue clipboard",
+      "text": "In scene 1, Diana holds a red clipboard was established, yet in scene 6, Diana consults a blue clipboard happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "fact": "Leon injured his arm fixing an apartment light",
+      "event": "Leon says a car crash caused the injury",
+      "text": "In scene 2, Leon injured his arm fixing an apartment light was established, yet in scene 6, Leon says a car crash caused the injury happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "fact": "Leon fell from a ladder",
+      "event": "Diana says a stage physician cleared him",
+      "text": "In scene 2, Leon fell from a ladder was established, yet in scene 6, Diana says a stage physician cleared him happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "fact": "Leon injured his arm in his apartment",
+      "event": "Diana cites a stage physician's clearance",
+      "text": "In scene 2, Leon injured his arm in his apartment was established, yet in scene 6, Diana cites a stage physician's clearance happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "fact": "opening night is Friday",
+      "event": "Diana reschedules opening night to Saturday",
+      "text": "In scene 2, opening night is Friday was established, yet in scene 7, Diana reschedules opening night to Saturday happens",
+      "proposed_at_scene_y": 7
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "fact": "Bram wanted a Friday box seat",
+      "event": "Diana says opening night is now Saturday",
+      "text": "In scene 5, Bram wanted a Friday box seat was established, yet in scene 7, Diana says opening night is now Saturday happens",
+      "proposed_at_scene_y": 7
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "fact": "Diana uses an old Nokia flip phone",
+      "event": "Diana checks and answers a smartphone",
+      "text": "In scene 3, Diana uses an old Nokia flip phone was established, yet in scene 7, Diana checks and answers a smartphone happens",
+      "proposed_at_scene_y": 7
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "fact": "the office coffee machine is broken",
+      "event": "Diana pours coffee from the machine",
+      "text": "In scene 3, the office coffee machine is broken was established, yet in scene 7, Diana pours coffee from the machine happens",
+      "proposed_at_scene_y": 7
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "fact": "Oscar carries a worn leather briefcase",
+      "event": "Oscar arrives carrying a canvas backpack",
+      "text": "In scene 1, Oscar carries a worn leather briefcase was established, yet in scene 7, Oscar arrives carrying a canvas backpack happens",
+      "proposed_at_scene_y": 7
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "fact": "Leon's cast is on his left arm",
+      "event": "Oscar says Leon offered his right arm cast",
+      "text": "In scene 1, Leon's cast is on his left arm was established, yet in scene 7, Oscar says Leon offered his right arm cast happens",
+      "proposed_at_scene_y": 7
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "fact": "Diana holds a red clipboard",
+      "event": "Diana is described as production office staff",
+      "text": "In scene 1, Diana holds a red clipboard was established, yet in scene 7, Diana is described as production office staff happens",
+      "proposed_at_scene_y": 7
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "fact": "Diana is the production leader",
+      "event": "Diana is described as production office staff",
+      "text": "In scene 6, Diana is the production leader was established, yet in scene 7, Diana is described as production office staff happens",
+      "proposed_at_scene_y": 7
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "fact": "the prop pistol was silver-painted",
+      "event": "Priya brings Leon a gold-painted prop pistol",
+      "text": "In scene 4, the prop pistol was silver-painted was established, yet in scene 8, Priya brings Leon a gold-painted prop pistol happens",
+      "proposed_at_scene_y": 8
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "fact": "the theater had four hundred seats",
+      "event": "Oscar calls it a six-hundred-seat theater",
+      "text": "In scene 2, the theater had four hundred seats was established, yet in scene 8, Oscar calls it a six-hundred-seat theater happens",
+      "proposed_at_scene_y": 8
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "fact": "Oscar's script had three acts",
+      "event": "Diana calls the end of Act Four",
+      "text": "In scene 3, Oscar's script had three acts was established, yet in scene 8, Diana calls the end of Act Four happens",
+      "proposed_at_scene_y": 8
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "fact": "Priya relocked the pistol in the cabinet",
+      "event": "Priya retrieves a replacement pistol without prior setup",
+      "text": "In scene 4, Priya relocked the pistol in the cabinet was established, yet in scene 8, Priya retrieves a replacement pistol without prior setup happens",
+      "proposed_at_scene_y": 8
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "fact": "Bram offered fifty thousand dollars",
+      "event": "Diana credits Bram with seventy-five thousand dollars",
+      "text": "In scene 5, Bram offered fifty thousand dollars was established, yet in scene 9, Diana credits Bram with seventy-five thousand dollars happens",
+      "proposed_at_scene_y": 9
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "fact": "Priya wears a yellow lanyard",
+      "event": "Priya wears a blue lanyard tonight",
+      "text": "In scene 1, Priya wears a yellow lanyard was established, yet in scene 9, Priya wears a blue lanyard tonight happens",
+      "proposed_at_scene_y": 9
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "fact": "Leon says this is his first Ravenswood production",
+      "event": "Poster calls it Leon's fifth Ravenswood production",
+      "text": "In scene 2, Leon says this is his first Ravenswood production was established, yet in scene 9, Poster calls it Leon's fifth Ravenswood production happens",
+      "proposed_at_scene_y": 9
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "fact": "A Quiet Machine was written by Oscar Vane",
+      "event": "Program credits William Harness as writer",
+      "text": "In scene 3, A Quiet Machine was written by Oscar Vane was established, yet in scene 9, Program credits William Harness as writer happens",
+      "proposed_at_scene_y": 9
+    }
+  ],
+  "dedupe_log": [
+    {
+      "raw_proposal_index": 0,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Leon's cast had no stated cause was established, yet in scene 2, Leon says he fell off a ladder happens"
+    },
+    {
+      "raw_proposal_index": 1,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Leon was already present at Ravenswood rehearsal was established, yet in scene 2, Leon calls this his first Ravenswood production happens"
+    },
+    {
+      "raw_proposal_index": 2,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, a full run-through was scheduled at four o'clock was established, yet in scene 2, Diana says opening night is five days away happens"
+    },
+    {
+      "raw_proposal_index": 3,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Opening night is Friday was established, yet in scene 5, the sponsorship offer is linked to opening night at night happens"
+    },
+    {
+      "raw_proposal_index": 4,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Diana holds a red clipboard was established, yet in scene 6, Diana consults a blue clipboard happens"
+    },
+    {
+      "raw_proposal_index": 5,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Leon injured his arm fixing an apartment light was established, yet in scene 6, Leon says a car crash caused the injury happens"
+    },
+    {
+      "raw_proposal_index": 6,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Leon fell from a ladder was established, yet in scene 6, Diana says a stage physician cleared him happens"
+    },
+    {
+      "raw_proposal_index": 7,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Leon injured his arm in his apartment was established, yet in scene 6, Diana cites a stage physician's clearance happens"
+    },
+    {
+      "raw_proposal_index": 8,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, opening night is Friday was established, yet in scene 7, Diana reschedules opening night to Saturday happens"
+    },
+    {
+      "raw_proposal_index": 9,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 5, Bram wanted a Friday box seat was established, yet in scene 7, Diana says opening night is now Saturday happens"
+    },
+    {
+      "raw_proposal_index": 10,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, Diana uses an old Nokia flip phone was established, yet in scene 7, Diana checks and answers a smartphone happens"
+    },
+    {
+      "raw_proposal_index": 11,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, the office coffee machine is broken was established, yet in scene 7, Diana pours coffee from the machine happens"
+    },
+    {
+      "raw_proposal_index": 12,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Oscar carries a worn leather briefcase was established, yet in scene 7, Oscar arrives carrying a canvas backpack happens"
+    },
+    {
+      "raw_proposal_index": 13,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Leon's cast is on his left arm was established, yet in scene 7, Oscar says Leon offered his right arm cast happens"
+    },
+    {
+      "raw_proposal_index": 14,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Diana holds a red clipboard was established, yet in scene 7, Diana is described as production office staff happens"
+    },
+    {
+      "raw_proposal_index": 15,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 6, Diana is the production leader was established, yet in scene 7, Diana is described as production office staff happens"
+    },
+    {
+      "raw_proposal_index": 16,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 4, the prop pistol was silver-painted was established, yet in scene 8, Priya brings Leon a gold-painted prop pistol happens"
+    },
+    {
+      "raw_proposal_index": 17,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, the theater had four hundred seats was established, yet in scene 8, Oscar calls it a six-hundred-seat theater happens"
+    },
+    {
+      "raw_proposal_index": 18,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, Oscar's script had three acts was established, yet in scene 8, Diana calls the end of Act Four happens"
+    },
+    {
+      "raw_proposal_index": 19,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 4, Priya relocked the pistol in the cabinet was established, yet in scene 8, Priya retrieves a replacement pistol without prior setup happens"
+    },
+    {
+      "raw_proposal_index": 20,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 5, Bram offered fifty thousand dollars was established, yet in scene 9, Diana credits Bram with seventy-five thousand dollars happens"
+    },
+    {
+      "raw_proposal_index": 21,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Priya wears a yellow lanyard was established, yet in scene 9, Priya wears a blue lanyard tonight happens"
+    },
+    {
+      "raw_proposal_index": 22,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Leon says this is his first Ravenswood production was established, yet in scene 9, Poster calls it Leon's fifth Ravenswood production happens"
+    },
+    {
+      "raw_proposal_index": 23,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, A Quiet Machine was written by Oscar Vane was established, yet in scene 9, Program credits William Harness as writer happens"
+    }
+  ],
+  "verification_log": [
+    {
+      "proposal_index": 1,
+      "proposal_text": "In scene 1, Leon's cast had no stated cause was established, yet in scene 2, Leon says he fell off a ladder happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails B: scene 1 states only that Leon has a cast, not the cause of the injury",
+      "attribute": "injury_cause",
+      "prior_quote": "Enter LEON MARSH ... His LEFT ARM is in a white plaster CAST from wrist to elbow.",
+      "later_quote": "I was fixing a light in my apartment. The ladder slipped. I fell off the ladder.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: scene 1 states only that Leon has a cast, not the cause of the injury"
+    },
+    {
+      "proposal_index": 2,
+      "proposal_text": "In scene 1, Leon was already present at Ravenswood rehearsal was established, yet in scene 2, Leon calls this his first Ravenswood production happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails B: scene 1 shows Leon present at rehearsal, not how many Ravenswood productions he has done",
+      "attribute": "Ravenswood_production_count",
+      "prior_quote": "Enter LEON MARSH ... from stage left.",
+      "later_quote": "First production I have done here, for the record. Good to finally work at Ravenswood.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: scene 1 shows Leon present at rehearsal, not how many Ravenswood productions he has done"
+    },
+    {
+      "proposal_index": 3,
+      "proposal_text": "In scene 1, a full run-through was scheduled at four o'clock was established, yet in scene 2, Diana says opening night is five days away happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails B: one quote is about rehearsal time, the other about opening-night date",
+      "attribute": "schedule_item",
+      "prior_quote": "Full run-through at four.",
+      "later_quote": "Opening night is FRIDAY. That is five days.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: one quote is about rehearsal time, the other about opening-night date"
+    },
+    {
+      "proposal_index": 4,
+      "proposal_text": "In scene 2, Opening night is Friday was established, yet in scene 5, the sponsorship offer is linked to opening night at night happens",
+      "scene_x": 2,
+      "scene_y": 5,
+      "model_decision": "reject",
+      "model_reason": "fails C: scene 5 does not state a different opening-night day",
+      "attribute": "opening_night_day",
+      "prior_quote": "Opening night is FRIDAY.",
+      "later_quote": "Fifty thousand dollars. Cash transfer, cleared before opening night.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: scene 5 does not state a different opening-night day"
+    },
+    {
+      "proposal_index": 5,
+      "proposal_text": "In scene 1, Diana holds a red clipboard was established, yet in scene 6, Diana consults a blue clipboard happens",
+      "scene_x": 1,
+      "scene_y": 6,
+      "model_decision": "confirm",
+      "model_reason": "same entity and attribute; red vs blue are different and no on-screen explanation is given",
+      "attribute": "clipboard_color",
+      "prior_quote": "DIANA CRANE ... stands center stage gripping a RED CLIPBOARD",
+      "later_quote": "DIANA enters, consulting a BLUE CLIPBOARD.",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 6,
+      "proposal_text": "In scene 2, Leon injured his arm fixing an apartment light was established, yet in scene 6, Leon says a car crash caused the injury happens",
+      "scene_x": 2,
+      "scene_y": 6,
+      "model_decision": "confirm",
+      "model_reason": "same entity and attribute; ladder fall vs car accident conflict and no explanation is given",
+      "attribute": "injury_cause",
+      "prior_quote": "I was fixing a light in my apartment. The ladder slipped. I fell off the ladder.",
+      "later_quote": "Honestly, the whole thing was a fluke. I was in a car accident -- the other driver ran a red light.",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 7,
+      "proposal_text": "In scene 2, Leon fell from a ladder was established, yet in scene 6, Diana says a stage physician cleared him happens",
+      "scene_x": 2,
+      "scene_y": 6,
+      "model_decision": "reject",
+      "model_reason": "fails B: injury cause and medical clearance are different attributes",
+      "attribute": "injury_status_vs_medical_clearance",
+      "prior_quote": "I fell off a ladder.",
+      "later_quote": "The stage physician cleared you for full movement.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: injury cause and medical clearance are different attributes"
+    },
+    {
+      "proposal_index": 8,
+      "proposal_text": "In scene 2, Leon injured his arm in his apartment was established, yet in scene 6, Diana cites a stage physician's clearance happens",
+      "scene_x": 2,
+      "scene_y": 6,
+      "model_decision": "reject",
+      "model_reason": "fails B: injury location and medical clearance are different attributes",
+      "attribute": "injury_location_vs_medical_clearance",
+      "prior_quote": "I was fixing a light in my apartment.",
+      "later_quote": "The stage physician cleared you for full movement.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: injury location and medical clearance are different attributes"
+    },
+    {
+      "proposal_index": 9,
+      "proposal_text": "In scene 2, opening night is Friday was established, yet in scene 7, Diana reschedules opening night to Saturday happens",
+      "scene_x": 2,
+      "scene_y": 7,
+      "model_decision": "reject",
+      "model_reason": "fails D: scene 7 explicitly explains the change by saying Diana moved opening night",
+      "attribute": "opening_night_day",
+      "prior_quote": "Opening night is FRIDAY.",
+      "later_quote": "I moved opening night. It is Saturday now.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails D: scene 7 explicitly explains the change by saying Diana moved opening night"
+    },
+    {
+      "proposal_index": 10,
+      "proposal_text": "In scene 5, Bram wanted a Friday box seat was established, yet in scene 7, Diana says opening night is now Saturday happens",
+      "scene_x": 5,
+      "scene_y": 7,
+      "model_decision": "reject",
+      "model_reason": "fails B: the later quote states opening-night day, not Bram's specific box-seat day",
+      "attribute": "Bram_box_seat_day",
+      "prior_quote": "In return: a seat in the box on Friday",
+      "later_quote": "I moved opening night. It is Saturday now.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the later quote states opening-night day, not Bram's specific box-seat day"
+    },
+    {
+      "proposal_index": 11,
+      "proposal_text": "In scene 3, Diana uses an old Nokia flip phone was established, yet in scene 7, Diana checks and answers a smartphone happens",
+      "scene_x": 3,
+      "scene_y": 7,
+      "model_decision": "confirm",
+      "model_reason": "same entity and attribute; flip phone vs smartphone conflict and no explanation is given",
+      "attribute": "phone_type",
+      "prior_quote": "She pulls it from her pocket -- an old NOKIA FLIP PHONE",
+      "later_quote": "Diana's SMARTPHONE buzzes on the desk. She picks it up and scrolls.",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 12,
+      "proposal_text": "In scene 3, the office coffee machine is broken was established, yet in scene 7, Diana pours coffee from the machine happens",
+      "scene_x": 3,
+      "scene_y": 7,
+      "model_decision": "confirm",
+      "model_reason": "same entity and attribute; broken vs dispensing coffee conflict and no explanation is given",
+      "attribute": "coffee_machine_working_state",
+      "prior_quote": "a COFFEE MACHINE bears a handwritten OUT OF ORDER sign",
+      "later_quote": "She pours herself a cup and drinks.",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 13,
+      "proposal_text": "In scene 1, Oscar carries a worn leather briefcase was established, yet in scene 7, Oscar arrives carrying a canvas backpack happens",
+      "scene_x": 1,
+      "scene_y": 7,
+      "model_decision": "reject",
+      "model_reason": "fails D: carrying a different bag later is an allowed change with no contradiction to a fixed attribute",
+      "attribute": "carried_bag_type",
+      "prior_quote": "OSCAR VANE ... enters ... carrying a worn LEATHER BRIEFCASE.",
+      "later_quote": "OSCAR enters carrying a CANVAS BACKPACK",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails D: carrying a different bag later is an allowed change with no contradiction to a fixed attribute"
+    },
+    {
+      "proposal_index": 14,
+      "proposal_text": "In scene 1, Leon's cast is on his left arm was established, yet in scene 7, Oscar says Leon offered his right arm cast happens",
+      "scene_x": 1,
+      "scene_y": 7,
+      "model_decision": "confirm",
+      "model_reason": "same entity and attribute; left-arm cast vs right-arm cast conflict and no explanation is given",
+      "attribute": "cast_side",
+      "prior_quote": "His LEFT ARM is in a white plaster CAST",
+      "later_quote": "I signed the right arm. He held it out specifically.",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 15,
+      "proposal_text": "In scene 1, Diana holds a red clipboard was established, yet in scene 7, Diana is described as production office staff happens",
+      "scene_x": 1,
+      "scene_y": 7,
+      "model_decision": "reject",
+      "model_reason": "fails B: clipboard color and being in the production office are different attributes",
+      "attribute": "role",
+      "prior_quote": "DIANA CRANE ... stands center stage gripping a RED CLIPBOARD",
+      "later_quote": "Diana is at the desk.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: clipboard color and being in the production office are different attributes"
+    },
+    {
+      "proposal_index": 16,
+      "proposal_text": "In scene 6, Diana is the production leader was established, yet in scene 7, Diana is described as production office staff happens",
+      "scene_x": 6,
+      "scene_y": 7,
+      "model_decision": "reject",
+      "model_reason": "fails B: leadership in rehearsal and physical location in the office are different attributes",
+      "attribute": "role",
+      "prior_quote": "DIANA enters ... consulting a BLUE CLIPBOARD. ... I want Act One clean.",
+      "later_quote": "Diana is at the desk.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: leadership in rehearsal and physical location in the office are different attributes"
+    },
+    {
+      "proposal_index": 17,
+      "proposal_text": "In scene 4, the prop pistol was silver-painted was established, yet in scene 8, Priya brings Leon a gold-painted prop pistol happens",
+      "scene_x": 4,
+      "scene_y": 8,
+      "model_decision": "reject",
+      "model_reason": "fails D: scene 8 explicitly explains why the pistol changed from silver to gold",
+      "attribute": "prop_pistol_color",
+      "prior_quote": "She lifts a SILVER-PAINTED PROP PISTOL",
+      "later_quote": "She removes a GOLD-PAINTED PROP PISTOL ... Properties said the silver was too reflective under stage lights. Gold reads better at distance.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails D: scene 8 explicitly explains why the pistol changed from silver to gold"
+    },
+    {
+      "proposal_index": 18,
+      "proposal_text": "In scene 2, the theater had four hundred seats was established, yet in scene 8, Oscar calls it a six-hundred-seat theater happens",
+      "scene_x": 2,
+      "scene_y": 8,
+      "model_decision": "confirm",
+      "model_reason": "same entity and attribute; 400 vs 600 seats conflict and no explanation is given",
+      "attribute": "theater_seat_count",
+      "prior_quote": "We have four hundred seats to fill.",
+      "later_quote": "Six hundred seats and every one of them empty tonight.",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 19,
+      "proposal_text": "In scene 3, Oscar's script had three acts was established, yet in scene 8, Diana calls the end of Act Four happens",
+      "scene_x": 3,
+      "scene_y": 8,
+      "model_decision": "confirm",
+      "model_reason": "same work and attribute; three acts vs act four conflict and no explanation is given",
+      "attribute": "number_of_acts",
+      "prior_quote": "Three acts. The structure is deliberate.",
+      "later_quote": "End of Act Four! Take five, everyone!",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 20,
+      "proposal_text": "In scene 4, Priya relocked the pistol in the cabinet was established, yet in scene 8, Priya retrieves a replacement pistol without prior setup happens",
+      "scene_x": 4,
+      "scene_y": 8,
+      "model_decision": "reject",
+      "model_reason": "fails C: the later quote does not contradict the cabinet being locked; it shows Priya unlocking it",
+      "attribute": "locked_state",
+      "prior_quote": "Priya takes the pistol, returns it to the cabinet, and locks the padlock again with three spins.",
+      "later_quote": "PRIYA approaches the prop cabinet and unlocks it with a SMALL KEY from her lanyard.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: the later quote does not contradict the cabinet being locked; it shows Priya unlocking it"
+    },
+    {
+      "proposal_index": 21,
+      "proposal_text": "In scene 5, Bram offered fifty thousand dollars was established, yet in scene 9, Diana credits Bram with seventy-five thousand dollars happens",
+      "scene_x": 5,
+      "scene_y": 9,
+      "model_decision": "confirm",
+      "model_reason": "same entity and attribute; 50,000 vs 75,000 conflict and no explanation is given",
+      "attribute": "funding_amount",
+      "prior_quote": "Fifty thousand dollars. Cash transfer",
+      "later_quote": "Your seventy-five thousand dollars made all of this possible.",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 22,
+      "proposal_text": "In scene 1, Priya wears a yellow lanyard was established, yet in scene 9, Priya wears a blue lanyard tonight happens",
+      "scene_x": 1,
+      "scene_y": 9,
+      "model_decision": "confirm",
+      "model_reason": "same entity and attribute; yellow vs blue conflict and no explanation is given",
+      "attribute": "lanyard_color",
+      "prior_quote": "She wears a YELLOW LANYARD looped around her neck",
+      "later_quote": "She wears a BLUE LANYARD tonight",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 23,
+      "proposal_text": "In scene 2, Leon says this is his first Ravenswood production was established, yet in scene 9, Poster calls it Leon's fifth Ravenswood production happens",
+      "scene_x": 2,
+      "scene_y": 9,
+      "model_decision": "confirm",
+      "model_reason": "same entity and attribute; first vs fifth production conflict and no explanation is given",
+      "attribute": "Ravenswood_production_count",
+      "prior_quote": "First production I have done here, for the record.",
+      "later_quote": "STARRING LEON MARSH IN HIS FIFTH PRODUCTION AT RAVENSWOOD THEATER.",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 24,
+      "proposal_text": "In scene 3, A Quiet Machine was written by Oscar Vane was established, yet in scene 9, Program credits William Harness as writer happens",
+      "scene_x": 3,
+      "scene_y": 9,
+      "model_decision": "confirm",
+      "model_reason": "same work and attribute; Oscar Vane vs William Harness conflict and no explanation is given",
+      "attribute": "writer_identity",
+      "prior_quote": "The title page reads: A QUIET MACHINE -- written by OSCAR VANE.",
+      "later_quote": "The credits page reads clearly: A QUIET MACHINE -- Written by WILLIAM HARNESS.",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    }
+  ],
+  "summary": {
+    "raw_proposals": 24,
+    "after_dedupe": 24,
+    "confirmed": 11,
+    "final_detections": 11
+  }
+}

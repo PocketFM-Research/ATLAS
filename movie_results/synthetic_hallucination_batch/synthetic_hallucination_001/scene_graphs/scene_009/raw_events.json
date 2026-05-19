@@ -1,0 +1,271 @@
+{
+  "9": [
+    {
+      "temp_id": "ev_001",
+      "name": "Elena finds Tom at harbor",
+      "description": "Elena locates Tom on the dock while he watches a fishing vessel unload, setting up their conversation.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "Elena finds TOM on the dock, watching a fishing vessel unload."
+      ],
+      "participants": [
+        "Elena",
+        "Tom"
+      ],
+      "location_hint": "harbor dock",
+      "time_hint": "DAY",
+      "scope": "local",
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_001",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_001__scene_9"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "Elena follows up with Tom",
+      "description": "Elena approaches Tom to continue her inquiry, indicating an ongoing investigation or interview.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "ELENA\nChief Briggs. I wanted to follow up.",
+        "TOM\nChief's generous. What's on your mind?"
+      ],
+      "participants": [
+        "Elena",
+        "Tom"
+      ],
+      "location_hint": "harbor dock",
+      "time_hint": "DAY",
+      "scope": "global",
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_001__scene_9"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "Elena asks lighthouse construction date",
+      "description": "Elena questions Tom about when the lighthouse was built.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "ELENA\nThe lighthouse. Can you confirm when it was built?"
+      ],
+      "participants": [
+        "Elena",
+        "Tom",
+        "lighthouse"
+      ],
+      "location_hint": "harbor dock",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_001__scene_9"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "Tom dates lighthouse to 1923",
+      "description": "Tom states that the lighthouse was built in 1923 as part of a coastal modernization program involving six towers.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "TOM\n(leaning on a post)\n1923, wasn't it. Part of the coastal modernization program. Six towers built that year along this stretch."
+      ],
+      "participants": [
+        "Tom",
+        "Elena",
+        "lighthouse"
+      ],
+      "location_hint": "harbor dock",
+      "time_hint": "1923",
+      "scope": "global",
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_004",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_001__scene_9"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "Elena records Tom's answer",
+      "description": "Elena carefully writes down Tom's information about the lighthouse.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "Elena writes carefully."
+      ],
+      "participants": [
+        "Elena"
+      ],
+      "location_hint": "harbor dock",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_005",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_001__scene_9"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "Elena asks about Marcus personally",
+      "description": "Elena shifts her questioning from the lighthouse to Marcus himself.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "ELENA\nAnd Marcus -- personally?"
+      ],
+      "participants": [
+        "Elena",
+        "Tom",
+        "Marcus"
+      ],
+      "location_hint": "harbor dock",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_001__scene_9"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "Tom says Marcus has excellent eyesight",
+      "description": "Tom describes Marcus as sharp and says he has never needed glasses and can read tide charts from across the room.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "TOM\nGood man. Sharp. Never needed glasses a day in his life, from what I know. Can still read the tide charts from across the room without squinting."
+      ],
+      "participants": [
+        "Tom",
+        "Elena",
+        "Marcus"
+      ],
+      "location_hint": "harbor dock",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_007",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_001__scene_9"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "Elena reacts and slows note-taking",
+      "description": "Elena's pen slows after hearing Tom's statement about Marcus's eyesight, signaling the information matters to her.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "Elena's pen slows.",
+        "ELENA\nRight."
+      ],
+      "participants": [
+        "Elena"
+      ],
+      "location_hint": "harbor dock",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_001__scene_9"
+    },
+    {
+      "temp_id": "ev_009",
+      "name": "Anchor runs to Tom",
+      "description": "A golden retriever bounds down the dock and circles Tom's legs.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "A GOLDEN RETRIEVER comes bounding down the dock, circling Tom's legs."
+      ],
+      "participants": [
+        "Anchor",
+        "Tom"
+      ],
+      "location_hint": "harbor dock",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_009",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_001__scene_9"
+    },
+    {
+      "temp_id": "ev_010",
+      "name": "Tom identifies dog as Marcus's",
+      "description": "Tom identifies the dog as Anchor and infers that Marcus walked him down that morning.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "TOM\nThat's Anchor. Marcus must have walked him down this morning."
+      ],
+      "participants": [
+        "Tom",
+        "Anchor",
+        "Marcus",
+        "Elena"
+      ],
+      "location_hint": "harbor dock",
+      "time_hint": "this morning",
+      "scope": "local",
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_010",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_001__scene_9"
+    },
+    {
+      "temp_id": "ev_011",
+      "name": "Marcus appears on dock",
+      "description": "Marcus arrives at the far end of the dock, and the dog leaps at his hands, confirming his presence nearby.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "Marcus appears at the far end of the dock, the golden retriever leaping at his hands."
+      ],
+      "participants": [
+        "Marcus",
+        "Anchor"
+      ],
+      "location_hint": "harbor dock",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_011",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_001__scene_9"
+    },
+    {
+      "temp_id": "ev_012",
+      "name": "Marcus calls out to Elena",
+      "description": "Marcus addresses Elena from down the dock and asks whether she is finished.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "MARCUS\n(calling over)\nMs. Voss. Finished?"
+      ],
+      "participants": [
+        "Marcus",
+        "Elena"
+      ],
+      "location_hint": "harbor dock",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_012",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_001__scene_9"
+    },
+    {
+      "temp_id": "ev_013",
+      "name": "Elena notes Marcus after seeing him",
+      "description": "Elena watches the dog with Marcus and adds another note to her legal pad, suggesting she is connecting this observation to her inquiry.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0",
+      "evidence": [
+        "Elena watches the golden retriever and adds a note to her yellow legal pad."
+      ],
+      "participants": [
+        "Elena",
+        "Marcus",
+        "Anchor"
+      ],
+      "location_hint": "harbor dock",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_013",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_001__scene_9"
+    }
+  ]
+}

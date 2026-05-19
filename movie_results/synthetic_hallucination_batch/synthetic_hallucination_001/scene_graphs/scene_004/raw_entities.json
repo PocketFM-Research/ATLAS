@@ -1,0 +1,482 @@
+{
+  "4": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Marcus",
+        "MARCUS",
+        "He"
+      ],
+      "canonical_name": "Marcus",
+      "description": "Marcus leads Elena upstairs, answers her question about the locked room, and refuses her access.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Marcus leads Elena up the iron spiral staircase.",
+        "MARCUS",
+        "He continues up toward the lantern."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_001",
+        "ev_syntheti_4_doc_3_chunk_0_ev_003",
+        "ev_syntheti_4_doc_3_chunk_0_ev_004",
+        "ev_syntheti_4_doc_3_chunk_0_ev_005",
+        "ev_syntheti_4_doc_3_chunk_0_ev_006"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Elena",
+        "ELENA",
+        "She"
+      ],
+      "canonical_name": "Elena",
+      "description": "Elena follows Marcus upstairs, investigates the locked door, then finds and documents a silver key in the entrance hall.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Marcus leads Elena up the iron spiral staircase.",
+        "Elena pauses.",
+        "ELENA",
+        "She photographs it with her phone and opens her green spiral notebook."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_001",
+        "ev_syntheti_4_doc_3_chunk_0_ev_002",
+        "ev_syntheti_4_doc_3_chunk_0_ev_003",
+        "ev_syntheti_4_doc_3_chunk_0_ev_004",
+        "ev_syntheti_4_doc_3_chunk_0_ev_005",
+        "ev_syntheti_4_doc_3_chunk_0_ev_006",
+        "ev_syntheti_4_doc_3_chunk_0_ev_007",
+        "ev_syntheti_4_doc_3_chunk_0_ev_008",
+        "ev_syntheti_4_doc_3_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Location",
+      "surface_forms": [
+        "lighthouse",
+        "LIGHTHOUSE"
+      ],
+      "canonical_name": "lighthouse",
+      "description": "The lighthouse is the overall setting containing the upper floor, staircase, corridor, and entrance hall.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - UPPER FLOOR - LATE AFTERNOON"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_001",
+        "ev_syntheti_4_doc_3_chunk_0_ev_007",
+        "ev_syntheti_4_doc_3_chunk_0_ev_008"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_003",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Location",
+      "surface_forms": [
+        "upper floor",
+        "UPPER FLOOR"
+      ],
+      "canonical_name": "upper floor",
+      "description": "The upper floor of the lighthouse is where Marcus brings Elena to the landing and corridor with the locked door.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - UPPER FLOOR - LATE AFTERNOON"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_001",
+        "ev_syntheti_4_doc_3_chunk_0_ev_002",
+        "ev_syntheti_4_doc_3_chunk_0_ev_003",
+        "ev_syntheti_4_doc_3_chunk_0_ev_004",
+        "ev_syntheti_4_doc_3_chunk_0_ev_005",
+        "ev_syntheti_4_doc_3_chunk_0_ev_006"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "TimePoint",
+      "surface_forms": [
+        "late afternoon",
+        "LATE AFTERNOON",
+        "the afternoon light"
+      ],
+      "canonical_name": "late afternoon",
+      "description": "Late afternoon is the time of day during which the scene unfolds.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. LIGHTHOUSE - UPPER FLOOR - LATE AFTERNOON",
+        "It catches the afternoon light."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_001",
+        "ev_syntheti_4_doc_3_chunk_0_ev_008",
+        "ev_syntheti_4_doc_3_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "iron spiral staircase",
+        "the iron spiral staircase",
+        "the staircase"
+      ],
+      "canonical_name": "iron spiral staircase",
+      "description": "The iron spiral staircase is the route Marcus uses to lead Elena upward and later the stairs she descends.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Marcus leads Elena up the iron spiral staircase.",
+        "Elena pauses at the base of the staircase."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_001",
+        "ev_syntheti_4_doc_3_chunk_0_ev_007",
+        "ev_syntheti_4_doc_3_chunk_0_ev_008"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_006",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "top landing",
+        "the top landing"
+      ],
+      "canonical_name": "top landing",
+      "description": "The top landing is where Elena first sees the corridor and the locked door.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "At the top landing, below the lantern room, a narrow corridor has two doors."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_002"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_007",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "lantern room",
+        "the lantern room"
+      ],
+      "canonical_name": "lantern room",
+      "description": "The lantern room is the lighthouse chamber above the landing, referenced as Marcus continues upward toward it.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "At the top landing, below the lantern room, a narrow corridor has two doors."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_001"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_008",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "narrow corridor",
+        "a narrow corridor"
+      ],
+      "canonical_name": "narrow corridor",
+      "description": "The narrow corridor on the upper floor contains the open storage room and the locked door Elena studies.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "a narrow corridor has two doors"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_002",
+        "ev_syntheti_4_doc_3_chunk_0_ev_006"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "storage room",
+        "a storage room"
+      ],
+      "canonical_name": "storage room",
+      "description": "The open storage room is one of the two doors in the corridor, contrasted with the locked room Elena asks about.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "One stands open -- a storage room crowded with old equipment."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_002"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_010",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Location",
+      "surface_forms": [
+        "locked door",
+        "the locked one",
+        "The other door",
+        "the locked door"
+      ],
+      "canonical_name": "locked door",
+      "description": "The locked door on the upper corridor is the object of Elena's questions and scrutiny.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "The other door is CLOSED and secured with a heavy padlock.",
+        "What's in the locked one?",
+        "Elena lingers at the locked door, studying it."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_002",
+        "ev_syntheti_4_doc_3_chunk_0_ev_003",
+        "ev_syntheti_4_doc_3_chunk_0_ev_006"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_011",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "heavy padlock",
+        "a heavy padlock"
+      ],
+      "canonical_name": "heavy padlock",
+      "description": "The heavy padlock secures the closed door Elena notices on the upper floor.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "secured with a heavy padlock"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_002",
+        "ev_syntheti_4_doc_3_chunk_0_ev_006"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_012",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Concept",
+      "surface_forms": [
+        "coast guard"
+      ],
+      "canonical_name": "coast guard",
+      "description": "The coast guard is the organization Marcus cites when describing the material in the locked room.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Old coast guard material."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_013",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Location",
+      "surface_forms": [
+        "main entrance hall",
+        "MAIN ENTRANCE HALL",
+        "the entrance hall"
+      ],
+      "canonical_name": "main entrance hall",
+      "description": "The main entrance hall is where Elena goes after leaving the upper floor and where she finds the silver key.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Then she descends to the entrance hall.",
+        "INT. MAIN ENTRANCE HALL - CONTINUOUS"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_007",
+        "ev_syntheti_4_doc_3_chunk_0_ev_008",
+        "ev_syntheti_4_doc_3_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_014",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "TimePoint",
+      "surface_forms": [
+        "continuous",
+        "CONTINUOUS"
+      ],
+      "canonical_name": "continuous",
+      "description": "Continuous indicates the action in the entrance hall follows immediately after the upper-floor action.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. MAIN ENTRANCE HALL - CONTINUOUS"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_007",
+        "ev_syntheti_4_doc_3_chunk_0_ev_008",
+        "ev_syntheti_4_doc_3_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_015",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Location",
+      "surface_forms": [
+        "main entrance door",
+        "the MAIN ENTRANCE DOOR",
+        "the main door"
+      ],
+      "canonical_name": "main entrance door",
+      "description": "The main entrance door is the wall-side location beside which the silver key hangs.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "right beside the MAIN ENTRANCE DOOR",
+        "Silver key. Hook beside the main door."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_008",
+        "ev_syntheti_4_doc_3_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_016",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Object",
+      "surface_forms": [
+        "silver key",
+        "a SILVER KEY",
+        "Silver key"
+      ],
+      "canonical_name": "silver key",
+      "description": "The small old silver key hanging by the main entrance door is discovered and documented by Elena.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "hangs a SILVER KEY on a simple iron hook",
+        "Silver key. Hook beside the main door."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_008",
+        "ev_syntheti_4_doc_3_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_017",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Object",
+      "surface_forms": [
+        "iron hook",
+        "a simple iron hook",
+        "Hook"
+      ],
+      "canonical_name": "iron hook",
+      "description": "The iron hook mounted beside the main entrance door holds the silver key Elena records.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "hangs a SILVER KEY on a simple iron hook",
+        "Silver key. Hook beside the main door."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_008",
+        "ev_syntheti_4_doc_3_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_018",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Object",
+      "surface_forms": [
+        "phone",
+        "her phone"
+      ],
+      "canonical_name": "phone",
+      "description": "Elena uses her phone to photograph the silver key.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "She photographs it with her phone"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_019",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_020",
+      "type": "Object",
+      "surface_forms": [
+        "green spiral notebook",
+        "her green spiral notebook",
+        "the notebook"
+      ],
+      "canonical_name": "green spiral notebook",
+      "description": "Elena opens her green spiral notebook to write down the silver key's location.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "opens her green spiral notebook",
+        "slips the notebook back into her pocket"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_020",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    },
+    {
+      "temp_id": "ent_021",
+      "type": "Object",
+      "surface_forms": [
+        "pen",
+        "the pen"
+      ],
+      "canonical_name": "pen",
+      "description": "Elena uses the pen to write her note and then caps it.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "She caps the pen"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_021",
+      "movie_id": "synthetic_hallucination_001__scene_4"
+    }
+  ]
+}

@@ -11,12 +11,13 @@ Runs the full extraction pipeline for one movie:
 Intermediate outputs are cached to disk for resumability.
 """
 
+import copy
 import json
 import logging
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from .ingest.loader import MovieData
+from .ingest.loader import MovieData, SceneRecord
 from .extraction.event_extractor import extract_events_for_movie
 from .extraction.entity_extractor import extract_entities_for_movie
 from .extraction.relation_extractor import extract_relations_for_movie
@@ -208,6 +209,97 @@ def _save_intermediate(data, path: Path) -> None:
     with path.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     logger.debug("Saved intermediate: %s", path)
+
+
+def run_pipeline_per_scene(
+    movie: MovieData,
+    llm: BaseLLM,
+    output_dir: Path,
+    skip_normalization: bool = False,
+    api_key: Optional[str] = None,
+) -> Dict[str, "KnowledgeGraph"]:
+    """
+    Build one independent KG per scene, reusing the existing pipeline.
+
+    Outputs:
+        <output_dir>/<movie_id>/scene_graphs/scene_<NNN>/final_graph.json
+
+    Returns:
+        Mapping scene_id -> KnowledgeGraph.
+    """
+    movie_out = Path(output_dir) / movie.movie_id
+    scene_graphs_root = movie_out / "scene_graphs"
+    scene_graphs_root.mkdir(parents=True, exist_ok=True)
+
+    logger.info(
+        "Building per-scene graphs for %s (%d scenes)",
+        movie.title or movie.movie_id,
+        len(movie.scenes),
+    )
+
+    results: Dict[str, "KnowledgeGraph"] = {}
+
+    for scene in movie.scenes:
+        scene_dir_name = _scene_dir_name(scene)
+        scene_out_root = scene_graphs_root / scene_dir_name
+
+        # Build a one-scene MovieData copy. Use a synthetic per-scene movie_id
+        # so the existing pipeline's caching/output rooting works in isolation.
+        scene_movie_id = f"{movie.movie_id}__scene_{_scene_num(scene)}"
+        scene_movie = MovieData(
+            movie_id=scene_movie_id,
+            title=movie.title,
+            language=movie.language,
+            data_dir=movie.data_dir,
+            scenes=[copy.deepcopy(scene)],
+            rename_map=dict(movie.rename_map),
+        )
+
+        logger.info(
+            "[per_scene] %s scene_id=%s title=%r",
+            movie.movie_id,
+            scene.scene_id,
+            scene.title,
+        )
+
+        graph = run_pipeline(
+            movie=scene_movie,
+            llm=llm,
+            output_dir=scene_graphs_root,
+            skip_normalization=skip_normalization,
+            api_key=api_key,
+        )
+
+        # run_pipeline wrote to scene_graphs_root/<scene_movie_id>/final_graph.json.
+        # Move/rename that directory to the canonical scene_<NNN> name.
+        produced_dir = scene_graphs_root / scene_movie_id
+        if produced_dir != scene_out_root:
+            if scene_out_root.exists():
+                # Clean prior output to avoid leftover artifacts mixing in.
+                import shutil
+
+                shutil.rmtree(scene_out_root)
+            produced_dir.rename(scene_out_root)
+
+        results[scene.scene_id] = graph
+
+    logger.info(
+        "Per-scene graphs complete: %d scene graphs written under %s",
+        len(results),
+        scene_graphs_root,
+    )
+    return results
+
+
+def _scene_num(scene: SceneRecord) -> int:
+    try:
+        return int(scene.scene_id)
+    except (TypeError, ValueError):
+        return scene.order + 1
+
+
+def _scene_dir_name(scene: SceneRecord) -> str:
+    return f"scene_{_scene_num(scene):03d}"
 
 
 def _save_scene_segmentation(movie: MovieData, path: Path) -> None:

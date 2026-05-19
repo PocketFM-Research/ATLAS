@@ -1,0 +1,1436 @@
+{
+  "movie_id": "synthetic_hallucination_003__scene_9",
+  "title": "synthetic_hallucination_003",
+  "nodes": [
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_001",
+      "type": "Event",
+      "name": "holt arrives with constables",
+      "aliases": [
+        "holt arrives with constables"
+      ],
+      "description": "Holt enters the cartographer's workshop accompanied by two constables, where Felix and Sable are already present.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Holt arrives with two constables. Felix and Sable are already there."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "type": "Event",
+      "name": "holt inspects workshop ceiling",
+      "aliases": [
+        "holt inspects workshop ceiling"
+      ],
+      "description": "Holt examines the room and notices the low plastered ceiling, a detail that informs his reassessment of the crime scene.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Holt steps inside and examines the room. He looks up at the low, plastered ceiling -- smooth and close overhead, nothing like the raftered space of a tradesman's hall."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "type": "Event",
+      "name": "holt arrests sable",
+      "aliases": [
+        "holt arrests sable"
+      ],
+      "description": "Holt formally places Sable under arrest for suspicion of stealing the Northern Reaches map.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "HOLT\nMiss Cross. I am placing you under arrest on suspicion of the theft of the Northern Reaches map."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_004",
+      "type": "Event",
+      "name": "holt cites new evidence",
+      "aliases": [
+        "holt cites new evidence"
+      ],
+      "description": "When Sable protests that she was previously cleared, Holt says new evidence has emerged and leaves judgment to the magistrate.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "HOLT\nNew evidence has come to light. If you are innocent, the magistrate will say so.",
+        "SABLE\nYou cleared me. My alibi -- three witnesses --"
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_005",
+      "type": "Event",
+      "name": "felix defends sable",
+      "aliases": [
+        "felix defends sable"
+      ],
+      "description": "Felix challenges Holt's reversal and insists that Holt himself had accepted Sable's market alibi.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "FELIX\n(stepping forward)\nThis is wrong. You declared her cleared yourself. You said three witnesses placed her at the market all morning."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "type": "Event",
+      "name": "constables seize sable",
+      "aliases": [
+        "constables seize sable"
+      ],
+      "description": "After Holt orders Felix back, the constables take Sable by the arms and she submits without resisting.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "The constables take Sable by the arms. She does not struggle.",
+        "HOLT\nStep back, Mr. Adler."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_007",
+      "type": "Event",
+      "name": "sable shares hollow look",
+      "aliases": [
+        "sable shares hollow look"
+      ],
+      "description": "As she is detained, Sable looks at Felix with a hollow expression, underscoring her emotional state and their connection.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "She looks at Felix, her expression hollow."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "type": "Event",
+      "name": "holt revises entry theory",
+      "aliases": [
+        "holt revises entry theory"
+      ],
+      "description": "Holt announces that he has reconsidered the break-in and now believes the thief entered through the front door rather than the window.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Holt turns and studies the room.",
+        "HOLT (CONT'D)\nI have been reconsidering the entry point. The window latch, though worn, shows no sign of recent movement. I now believe the thief entered through the FRONT DOOR. Someone had access."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_009",
+      "type": "Event",
+      "name": "felix produces chest key",
+      "aliases": [
+        "felix produces chest key"
+      ],
+      "description": "Felix responds by asserting the door was locked and reveals the iron key he says is the only key to the chest.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "He reaches into his COAT POCKET and produces the iron key.",
+        "FELIX\nThe door was locked. This is the only key to the chest."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_010",
+      "type": "Event",
+      "name": "holt questions key claim",
+      "aliases": [
+        "holt questions key claim"
+      ],
+      "description": "Holt rejects Felix's assertion about the key, signaling continued suspicion about access to the workshop or chest.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "HOLT\nWe will see about that."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_011",
+      "type": "Event",
+      "name": "sable is led away",
+      "aliases": [
+        "sable is led away"
+      ],
+      "description": "The constables remove Sable from the workshop, leaving Felix alone holding the key.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Sable is led away. Felix stands alone in the moonlit workshop, the key in his hand."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "type": "Character",
+      "name": "Holt",
+      "aliases": [
+        "Holt",
+        "HOLT"
+      ],
+      "description": "The investigator who arrives with constables, arrests Sable, and revises his theory of the theft.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "HOLT (CONT'D)\nI have been reconsidering the entry point.",
+        "HOLT\nMiss Cross. I am placing you under arrest",
+        "Holt arrives with two constables."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_004",
+      "type": "Character",
+      "name": "Felix Adler",
+      "aliases": [
+        "Felix Adler",
+        "Mr. Adler",
+        "Felix",
+        "FELIX"
+      ],
+      "description": "The man in the workshop who defends Sable and produces the iron key while disputing Holt's theory.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "FELIX\nThe door was locked. This is the only key to the chest.",
+        "Felix and Sable are already there.",
+        "HOLT\nStep back, Mr. Adler."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "type": "Character",
+      "name": "Sable Cross",
+      "aliases": [
+        "Sable Cross",
+        "SABLE",
+        "Sable",
+        "her",
+        "Miss Cross"
+      ],
+      "description": "The accused woman whom Holt arrests for the theft and who is led away by the constables.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Sable is led away.",
+        "HOLT\nMiss Cross. I am placing you under arrest",
+        "Felix and Sable are already there."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "type": "Location",
+      "name": "Cartographer's Workshop",
+      "aliases": [
+        "Cartographer's Workshop",
+        "the workshop",
+        "the room",
+        "the moonlit workshop",
+        "CARTOGRAPHER'S WORKSHOP"
+      ],
+      "description": "The interior location where Holt confronts Felix and Sable and reassesses the theft scene.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Felix stands alone in the moonlit workshop",
+        "Holt steps inside and examines the room.",
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_009",
+      "type": "Location",
+      "name": "the market",
+      "aliases": [
+        "the market"
+      ],
+      "description": "The place Felix cites as Sable's alibi location for the morning of the theft.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "You said three witnesses placed her at the market all morning."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "type": "TimePoint",
+      "name": "Night",
+      "aliases": [
+        "Night",
+        "NIGHT"
+      ],
+      "description": "The time of day in which the workshop confrontation takes place.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_007",
+      "type": "Object",
+      "name": "Northern Reaches map",
+      "aliases": [
+        "Northern Reaches map",
+        "the Northern Reaches map"
+      ],
+      "description": "The stolen map whose theft is the basis for Sable's arrest.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "on suspicion of the theft of the Northern Reaches map"
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_010",
+      "type": "Object",
+      "name": "window latch",
+      "aliases": [
+        "window latch",
+        "The window latch",
+        "the window latch"
+      ],
+      "description": "The worn latch Holt examines as part of his revised theory about how the thief entered.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "The window latch, though worn, shows no sign of recent movement."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_011",
+      "type": "Object",
+      "name": "front door",
+      "aliases": [
+        "front door",
+        "the FRONT DOOR",
+        "The door"
+      ],
+      "description": "The entry point Holt now believes the thief used to access the workshop.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "The door was locked.",
+        "I now believe the thief entered through the FRONT DOOR."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_012",
+      "type": "Object",
+      "name": "chest",
+      "aliases": [
+        "chest",
+        "This is the only key to the chest",
+        "the chest"
+      ],
+      "description": "The locked container associated with the iron key Felix presents.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "This is the only key to the chest."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_013",
+      "type": "Object",
+      "name": "iron key",
+      "aliases": [
+        "iron key",
+        "the iron key",
+        "the key"
+      ],
+      "description": "The key Felix produces to support his claim about the locked chest and restricted access.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "He reaches into his COAT POCKET and produces the iron key.",
+        "Felix stands alone in the moonlit workshop, the key in his hand."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_014",
+      "type": "Object",
+      "name": "coat pocket",
+      "aliases": [
+        "coat pocket",
+        "his COAT POCKET",
+        "COAT POCKET"
+      ],
+      "description": "The pocket from which Felix retrieves the iron key.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "He reaches into his COAT POCKET and produces the iron key."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_006",
+      "type": "Concept",
+      "name": "constables",
+      "aliases": [
+        "constables",
+        "The constables",
+        "two constables"
+      ],
+      "description": "The law officers accompanying Holt who physically detain and remove Sable.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Sable is led away.",
+        "Holt arrives with two constables.",
+        "The constables take Sable by the arms."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_008",
+      "type": "Concept",
+      "name": "the magistrate",
+      "aliases": [
+        "the magistrate"
+      ],
+      "description": "The judicial authority Holt says will determine Sable's innocence.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "If you are innocent, the magistrate will say so."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_e412e24b07c7",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Holt arrives with two constables."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_40de2536dee0",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_006",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Holt arrives with two constables."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_623460168086",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT",
+        "Holt arrives with two constables."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_0248c5dcea16",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_7b1c356a49d2",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Holt steps inside and examines the room.",
+        "He looks up at the low, plastered ceiling -- smooth and close overhead"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_c5687a2f9011",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT",
+        "Holt steps inside and examines the room."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_1a31b0e24463",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_bf9d58bba9ff",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "HOLT Miss Cross. I am placing you under arrest on suspicion of the theft of the Northern Reaches map."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_6dc2e1203790",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "relation": "undergoes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Miss Cross. I am placing you under arrest"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_311a6ec436e9",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT",
+        "I am placing you under arrest"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_0618b3976249",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_4f39ad2920fc",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_004",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "HOLT New evidence has come to light."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_963d00961668",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT",
+        "New evidence has come to light."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_3f4594c3bf41",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_004",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_17e977850cac",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "FELIX (stepping forward) This is wrong. You declared her cleared yourself."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_8c7ab5d05dff",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "relation": "undergoes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "This is wrong. You declared her cleared yourself.",
+        "You said three witnesses placed her at the market all morning."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_76137a2ee2e9",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT",
+        "FELIX (stepping forward) This is wrong."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_35e96fa3f001",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_005",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_db3bb76152e5",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_006",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "The constables take Sable by the arms."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_18bf6058cf5a",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "relation": "undergoes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "The constables take Sable by the arms."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_f07570aee7f8",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT",
+        "The constables take Sable by the arms."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_fbe38bb906dc",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_e0ed305a6d78",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_007",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "She looks at Felix, her expression hollow."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_d972af381e8a",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT",
+        "She looks at Felix, her expression hollow."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_ff31ce8cb635",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_007",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_a5a69d111dab",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Holt turns and studies the room.",
+        "HOLT (CONT'D) I have been reconsidering the entry point.",
+        "I now believe the thief entered through the FRONT DOOR."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_4e79b396592c",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT",
+        "Holt turns and studies the room."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_9f224193024a",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_b7c6a13e328e",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_009",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "He reaches into his COAT POCKET and produces the iron key."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_776d1f6ad7c6",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_009",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT",
+        "He reaches into his COAT POCKET and produces the iron key."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_b9e768b5f910",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_009",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_5ce81068e90b",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_010",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "HOLT We will see about that."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_b89a27471503",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_010",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT",
+        "HOLT We will see about that."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_9bf2113518fb",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_010",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_f683cab867e1",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "relation": "undergoes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_011",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Sable is led away."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_7a967bd0cbf8",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_006",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_011",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Sable is led away."
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_431fc134e818",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_011",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT",
+        "Sable is led away."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_15a2c26b18b2",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_011",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_2acd9f7c5eeb",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "relation": "located_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Holt arrives with two constables.",
+        "Holt steps inside and examines the room."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_eb568768ebd2",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_004",
+      "relation": "located_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Felix and Sable are already there."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_b3eda6524bd4",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "relation": "located_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Felix and Sable are already there."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_3886a8cde346",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_006",
+      "relation": "located_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Holt arrives with two constables.",
+        "The constables take Sable by the arms."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_1ddeea70fa40",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "relation": "present_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_aafe0e884e92",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_004",
+      "relation": "present_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_5482fba84afa",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "relation": "present_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_ba5d67621f7e",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_006",
+      "relation": "present_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - NIGHT"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_89ee147c0186",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "relation": "hostility_with",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Miss Cross. I am placing you under arrest on suspicion of the theft of the Northern Reaches map."
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_c22272536c50",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_004",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "This is wrong. You declared her cleared yourself.",
+        "She looks at Felix, her expression hollow."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_900a60d2de0e",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_004",
+      "relation": "possesses",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_013",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "He reaches into his COAT POCKET and produces the iron key.",
+        "Felix stands alone in the moonlit workshop, the key in his hand."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_005058a91aee",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_004",
+      "relation": "possesses",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_014",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "He reaches into his COAT POCKET and produces the iron key."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_056d78d8d1e3",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_013",
+      "relation": "part_of",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_012",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "This is the only key to the chest."
+      ],
+      "confidence": 0.78
+    },
+    {
+      "id": "e_f0f400f18670",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_010",
+      "relation": "located_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "The window latch, though worn, shows no sign of recent movement."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_1ea3d3fd30bc",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_011",
+      "relation": "located_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "I now believe the thief entered through the FRONT DOOR."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_f8586d0cdb7d",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_012",
+      "relation": "located_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "This is the only key to the chest."
+      ],
+      "confidence": 0.82
+    },
+    {
+      "id": "e_ddfe7a507701",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_013",
+      "relation": "located_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "He reaches into his COAT POCKET and produces the iron key.",
+        "Felix stands alone in the moonlit workshop, the key in his hand."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_d5936e94a9ea",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_007",
+      "relation": "located_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "the theft of the Northern Reaches map"
+      ],
+      "confidence": 0.51
+    },
+    {
+      "id": "e_c9a8b2533df3",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_008",
+      "relation": "present_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "If you are innocent, the magistrate will say so."
+      ],
+      "confidence": 0.35
+    },
+    {
+      "id": "e_c4453c8bc535",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Holt arrives with two constables.",
+        "Holt steps inside and examines the room."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_2b6aa1739419",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "relation": "precedes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "He looks up at the low, plastered ceiling",
+        "I am placing you under arrest"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_18886099ad42",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "relation": "precedes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_004",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "I am placing you under arrest",
+        "New evidence has come to light."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_725cb6b93f5d",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_004",
+      "relation": "causes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "New evidence has come to light. If you are innocent, the magistrate will say so.",
+        "I am placing you under arrest on suspicion of the theft of the Northern Reaches map."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_78c74f784c67",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "relation": "causes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "I am placing you under arrest",
+        "The constables take Sable by the arms."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_623e5d53d7c0",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "relation": "causes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_007",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "The constables take Sable by the arms. She does not struggle. She looks at Felix, her expression hollow."
+      ],
+      "confidence": 0.82
+    },
+    {
+      "id": "e_5fa99601b929",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "relation": "precedes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "The constables take Sable by the arms.",
+        "Holt turns and studies the room."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_37209eb05019",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "relation": "precedes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_009",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "I now believe the thief entered through the FRONT DOOR.",
+        "He reaches into his COAT POCKET and produces the iron key."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_f256ec765ef9",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_009",
+      "relation": "causes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_010",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "He reaches into his COAT POCKET and produces the iron key.",
+        "HOLT We will see about that."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_bc930fa11774",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_010",
+      "relation": "precedes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_011",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "HOLT We will see about that.",
+        "Sable is led away."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_700174ff63ff",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "relation": "hostility_with",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Miss Cross. I am placing you under arrest on suspicion of the theft of the Northern Reaches map."
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_909980bdb3e2",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_004",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "This is wrong. You declared her cleared yourself.",
+        "She looks at Felix, her expression hollow."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_19658a26a5fb",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Holt arrives with two constables.",
+        "Holt steps inside and examines the room."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_ad0d03e5328e",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "He looks up at the low, plastered ceiling",
+        "I am placing you under arrest"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_c91f038c9e1e",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_004",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "I am placing you under arrest",
+        "New evidence has come to light."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_b2f26c547dc6",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "The constables take Sable by the arms.",
+        "Holt turns and studies the room."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_24441809070b",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_009",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "I now believe the thief entered through the FRONT DOOR.",
+        "He reaches into his COAT POCKET and produces the iron key."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_df33494d17a4",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_011",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_010",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "HOLT We will see about that.",
+        "Sable is led away."
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "5": [
+    {
+      "temp_id": "ev_001",
+      "name": "holt briefs them on break-in entry",
+      "description": "Holt explains that investigators determined the workshop was entered through the east-facing window.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "Our people examined the workshop this morning. The entry point was the east-facing WINDOW."
+      ],
+      "participants": [
+        "Holt",
+        "Felix",
+        "Sable",
+        "investigators"
+      ],
+      "location_hint": "INSPECTOR'S OFFICE",
+      "time_hint": "this morning",
+      "scope": "global",
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_5"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "holt reveals latch was old damage",
+      "description": "Holt states the window latch had been broken from age and neglect rather than by a recent forced entry, implying the thief exploited that weakness.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "The latch was broken -- not forced recently, broken from age and neglect. The thief knew this or discovered it on approach."
+      ],
+      "participants": [
+        "Holt",
+        "thief"
+      ],
+      "location_hint": "INSPECTOR'S OFFICE",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_5"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "felix denies knowing broken latch",
+      "description": "Felix says he did not know the workshop window latch was broken.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "FELIX\nI did not know the latch was broken."
+      ],
+      "participants": [
+        "Felix",
+        "Holt"
+      ],
+      "location_hint": "INSPECTOR'S OFFICE",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_5"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "holt identifies satchel as sable's",
+      "description": "Holt announces that the satchel found near Felix's desk belongs to Sable.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "The satchel found near your desk, Mr. Adler. It belongs to Miss Cross."
+      ],
+      "participants": [
+        "Holt",
+        "Felix",
+        "Sable"
+      ],
+      "location_hint": "INSPECTOR'S OFFICE",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_5"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "holt clears sable with alibi",
+      "description": "Holt says independent witnesses place Sable at the market all morning, establishing an unambiguous alibi and clearing her of suspicion.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "We have confirmed your whereabouts independently.",
+        "Three separate stall-keepers in the market square placed you there from before first bell until after the midday toll.",
+        "You were at the market all morning. That is an unambiguous alibi. Miss Cross is cleared of any suspicion."
+      ],
+      "participants": [
+        "Holt",
+        "Sable",
+        "stall-keepers"
+      ],
+      "location_hint": "INSPECTOR'S OFFICE",
+      "time_hint": "from before first bell until after the midday toll; all morning",
+      "scope": "global",
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_5"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "sable expresses relief",
+      "description": "Sable exhales and thanks Holt after being cleared.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "SABLE\n(exhaling)\nThank you."
+      ],
+      "participants": [
+        "Sable",
+        "Holt"
+      ],
+      "location_hint": "INSPECTOR'S OFFICE",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_5"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "holt says someone framed sable",
+      "description": "Holt warns that someone deliberately tried to implicate Sable using the satchel and is pursuing both the map and suspicion toward Felix's apprentice.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "Do not thank me yet. Someone wanted you implicated.",
+        "That means they knew about the satchel or found it and used it.",
+        "The question is who benefits from the map and from casting doubt on your apprentice."
+      ],
+      "participants": [
+        "Holt",
+        "Sable",
+        "Felix",
+        "unknown culprit"
+      ],
+      "location_hint": "INSPECTOR'S OFFICE",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_5"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "felix names wren as suspect",
+      "description": "Felix identifies Wren as the likely person behind the theft and framing.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "FELIX\nWren."
+      ],
+      "participants": [
+        "Felix",
+        "Wren",
+        "Holt",
+        "Sable"
+      ],
+      "location_hint": "INSPECTOR'S OFFICE",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_5"
+    },
+    {
+      "temp_id": "ev_009",
+      "name": "holt cautions lack of proof",
+      "description": "Holt says there is not yet proof against Wren and warns Felix and Sable to be careful.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "We do not have proof. Not yet. But I want both of you to be careful."
+      ],
+      "participants": [
+        "Holt",
+        "Felix",
+        "Sable",
+        "Wren"
+      ],
+      "location_hint": "INSPECTOR'S OFFICE",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_5"
+    }
+  ]
+}

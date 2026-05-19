@@ -1,0 +1,325 @@
+{
+  "4": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Priya",
+        "PRIYA"
+      ],
+      "canonical_name": "Priya",
+      "description": "A stage crew member managing prop inventory and security who controls access to the prop pistol.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Priya moves efficiently between prop tables, inventorying items on her tablet.",
+        "PRIYA\nPadlocked. Done. This close to opening night, nothing walks off.",
+        "PRIYA\nYou want to run the pistol scene.",
+        "PRIYA\n(sighing)\nFive minutes.",
+        "PRIYA\nThat actually works.",
+        "PRIYA\nDon't tell anyone I let you practice without a spotter."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_001",
+        "ev_syntheti_4_doc_3_chunk_0_ev_002",
+        "ev_syntheti_4_doc_3_chunk_0_ev_003",
+        "ev_syntheti_4_doc_3_chunk_0_ev_004",
+        "ev_syntheti_4_doc_3_chunk_0_ev_005",
+        "ev_syntheti_4_doc_3_chunk_0_ev_007",
+        "ev_syntheti_4_doc_3_chunk_0_ev_008",
+        "ev_syntheti_4_doc_3_chunk_0_ev_010",
+        "ev_syntheti_4_doc_3_chunk_0_ev_012"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Leon",
+        "LEON"
+      ],
+      "canonical_name": "Leon",
+      "description": "A performer who asks to rehearse the pistol draw and demonstrates it despite having his arm in a cast.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Leon approaches, watching.",
+        "LEON\nDoing the full inventory tonight?",
+        "LEON\nWise policy.",
+        "LEON\nJust the draw. The cast makes the motion feel strange.",
+        "LEON\nThe line is: \"Put it down before one of us stops breathing.\" Then the draw.",
+        "LEON\nI told Diana."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_003",
+        "ev_syntheti_4_doc_3_chunk_0_ev_005",
+        "ev_syntheti_4_doc_3_chunk_0_ev_006",
+        "ev_syntheti_4_doc_3_chunk_0_ev_007",
+        "ev_syntheti_4_doc_3_chunk_0_ev_008",
+        "ev_syntheti_4_doc_3_chunk_0_ev_009",
+        "ev_syntheti_4_doc_3_chunk_0_ev_010",
+        "ev_syntheti_4_doc_3_chunk_0_ev_011",
+        "ev_syntheti_4_doc_3_chunk_0_ev_012"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Diana"
+      ],
+      "canonical_name": "Diana",
+      "description": "A named offscreen person whom Leon says he has already informed about the draw.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "LEON\nI told Diana."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_011"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_003",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Location",
+      "surface_forms": [
+        "RAVENSWOOD THEATER - STAGE"
+      ],
+      "canonical_name": "RAVENSWOOD THEATER - STAGE",
+      "description": "The theater stage where Priya inventories props and Leon rehearses the pistol draw.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_001",
+        "ev_syntheti_4_doc_3_chunk_0_ev_002",
+        "ev_syntheti_4_doc_3_chunk_0_ev_003",
+        "ev_syntheti_4_doc_3_chunk_0_ev_004",
+        "ev_syntheti_4_doc_3_chunk_0_ev_005",
+        "ev_syntheti_4_doc_3_chunk_0_ev_006",
+        "ev_syntheti_4_doc_3_chunk_0_ev_007",
+        "ev_syntheti_4_doc_3_chunk_0_ev_008",
+        "ev_syntheti_4_doc_3_chunk_0_ev_009",
+        "ev_syntheti_4_doc_3_chunk_0_ev_010",
+        "ev_syntheti_4_doc_3_chunk_0_ev_011",
+        "ev_syntheti_4_doc_3_chunk_0_ev_012"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "TimePoint",
+      "surface_forms": [
+        "EVENING",
+        "opening night",
+        "tonight"
+      ],
+      "canonical_name": "EVENING",
+      "description": "The scene takes place in the evening, with dialogue also referencing tonight and the approaching opening night.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "LEON\nDoing the full inventory tonight?",
+        "PRIYA\nPadlocked. Done. This close to opening night, nothing walks off."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_003",
+        "ev_syntheti_4_doc_3_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "tablet",
+        "her tablet"
+      ],
+      "canonical_name": "tablet",
+      "description": "The device Priya uses to check and track the stage prop inventory.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Priya moves efficiently between prop tables, inventorying items on her tablet."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_001"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_006",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "silver-painted prop pistol",
+        "SILVER-PAINTED PROP PISTOL",
+        "silver prop pistol",
+        "the pistol",
+        "pistol"
+      ],
+      "canonical_name": "silver-painted prop pistol",
+      "description": "The secured stage weapon prop that Priya locks away and briefly gives Leon for rehearsal.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "She lifts a SILVER-PAINTED PROP PISTOL from the table",
+        "She opens the padlock, retrieves the silver prop pistol, and hands it to Leon.",
+        "right hand raising the pistol smoothly.",
+        "Priya takes the pistol, returns it to the cabinet"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_002",
+        "ev_syntheti_4_doc_3_chunk_0_ev_008",
+        "ev_syntheti_4_doc_3_chunk_0_ev_009",
+        "ev_syntheti_4_doc_3_chunk_0_ev_012"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_007",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "prop cabinet",
+        "the cabinet",
+        "cabinet"
+      ],
+      "canonical_name": "prop cabinet",
+      "description": "The storage cabinet where Priya secures the prop pistol before and after Leon's rehearsal.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "places it in the prop cabinet.",
+        "She closes the cabinet",
+        "retrieves the silver prop pistol",
+        "returns it to the cabinet"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_002",
+        "ev_syntheti_4_doc_3_chunk_0_ev_008",
+        "ev_syntheti_4_doc_3_chunk_0_ev_012"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_008",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "padlock",
+        "PADLOCK"
+      ],
+      "canonical_name": "padlock",
+      "description": "The lock Priya uses to secure and reopen the prop cabinet during the scene.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "secures it with a PADLOCK",
+        "She opens the padlock",
+        "locks the padlock again with three spins."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_002",
+        "ev_syntheti_4_doc_3_chunk_0_ev_008",
+        "ev_syntheti_4_doc_3_chunk_0_ev_012"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Concept",
+      "surface_forms": [
+        "full inventory",
+        "inventory"
+      ],
+      "canonical_name": "full inventory",
+      "description": "The prop-checking routine Priya is carrying out and Leon asks about.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "inventorying items on her tablet.",
+        "LEON\nDoing the full inventory tonight?"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_001",
+        "ev_syntheti_4_doc_3_chunk_0_ev_003"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_010",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Concept",
+      "surface_forms": [
+        "pistol scene"
+      ],
+      "canonical_name": "pistol scene",
+      "description": "The stage scene involving the prop pistol that Leon wants to rehearse.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "PRIYA\nYou want to run the pistol scene."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_005"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_011",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "draw",
+        "the draw"
+      ],
+      "canonical_name": "draw",
+      "description": "The specific pistol-drawing movement Leon requests to practice and then performs.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "LEON\nJust the draw.",
+        "LEON\nThe line is: \"Put it down before one of us stops breathing.\" Then the draw."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_006",
+        "ev_syntheti_4_doc_3_chunk_0_ev_009",
+        "ev_syntheti_4_doc_3_chunk_0_ev_011"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_012",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Concept",
+      "surface_forms": [
+        "spotter"
+      ],
+      "canonical_name": "spotter",
+      "description": "The safety role Priya references when warning Leon not to reveal that she allowed practice without supervision.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "PRIYA\nDon't tell anyone I let you practice without a spotter."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_012"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_013",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    }
+  ]
+}

@@ -1,0 +1,1078 @@
+{
+  "per_scene_proposal_stats": [
+    {
+      "scene_number": 2,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 1,
+      "proposals_added": 1,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 3,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 6,
+      "proposals_added": 6,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 4,
+      "candidate_facts_count": 20,
+      "raw_findings_count": 1,
+      "proposals_added": 1,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 5,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 4,
+      "proposals_added": 4,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 6,
+      "candidate_facts_count": 17,
+      "raw_findings_count": 6,
+      "proposals_added": 6,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 7,
+      "candidate_facts_count": 17,
+      "raw_findings_count": 5,
+      "proposals_added": 5,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 8,
+      "candidate_facts_count": 24,
+      "raw_findings_count": 6,
+      "proposals_added": 6,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 9,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 7,
+      "proposals_added": 7,
+      "exact_duplicates_dropped": 0
+    }
+  ],
+  "raw_proposals": [
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Anchor is Marcus's black Labrador dog",
+      "event": "Anchor is identified as an anchor object",
+      "text": "In scene 1, Anchor is Marcus's black Labrador dog was established, yet in scene 2, Anchor is identified as an anchor object happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "fact": "Marcus uses a logbook",
+      "event": "Marcus presents a brown leather-bound logbook",
+      "text": "In scene 1, Marcus uses a logbook was established, yet in scene 3, Marcus presents a brown leather-bound logbook happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "fact": "Marcus carries a blue ceramic mug",
+      "event": "Marcus pours tea without the blue mug",
+      "text": "In scene 1, Marcus carries a blue ceramic mug was established, yet in scene 3, Marcus pours tea without the blue mug happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "fact": "Anchor is an anchor object",
+      "event": "Anchor is described as a black dog",
+      "text": "In scene 2, Anchor is an anchor object was established, yet in scene 3, Anchor is described as a black dog happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "fact": "Marcus holds an anchor",
+      "event": "Anchor rests his head on Elena's knee",
+      "text": "In scene 2, Marcus holds an anchor was established, yet in scene 3, Anchor rests his head on Elena's knee happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "fact": "Marcus is only identified as Marcus",
+      "event": "Marcus is treated as a lighthouse keeper",
+      "text": "In scene 2, Marcus is only identified as Marcus was established, yet in scene 3, Marcus is treated as a lighthouse keeper happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "fact": "No wife or children were mentioned earlier",
+      "event": "Marcus says Margaret died and he has no children",
+      "text": "In scene 2, No wife or children were mentioned earlier was established, yet in scene 3, Marcus says Margaret died and he has no children happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "fact": "Anchor is an anchor object",
+      "event": "Marcus leaves Anchor behind while leading Elena upstairs",
+      "text": "In scene 2, Anchor is an anchor object was established, yet in scene 4, Marcus leaves Anchor behind while leading Elena upstairs happens",
+      "proposed_at_scene_y": 4
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "fact": "Marcus said he has no children and lives with Anchor",
+      "event": "Tom says Marcus spent twenty years alone at the lighthouse",
+      "text": "In scene 3, Marcus said he has no children and lives with Anchor was established, yet in scene 5, Tom says Marcus spent twenty years alone at the lighthouse happens",
+      "proposed_at_scene_y": 5
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "fact": "Elena saw a padlocked upper-floor door",
+      "event": "Tom claims ignorance about the locked upper room",
+      "text": "In scene 4, Elena saw a padlocked upper-floor door was established, yet in scene 5, Tom claims ignorance about the locked upper room happens",
+      "proposed_at_scene_y": 5
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "fact": "the lighthouse had two doors",
+      "event": "the station is described as built in 1887",
+      "text": "In scene 4, the lighthouse had two doors was established, yet in scene 5, the station is described as built in 1887 happens",
+      "proposed_at_scene_y": 5
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "fact": "Marcus was the lighthouse keeper",
+      "event": "Marcus is described as a former merchant marine",
+      "text": "In scene 3, Marcus was the lighthouse keeper was established, yet in scene 5, Marcus is described as a former merchant marine happens",
+      "proposed_at_scene_y": 5
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "fact": "Marcus limps on his right leg",
+      "event": "Marcus says the injury is in his left leg",
+      "text": "In scene 1, Marcus limps on his right leg was established, yet in scene 6, Marcus says the injury is in his left leg happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "fact": "Elena drives a red Jeep",
+      "event": "Elena refers to arriving in a blue vehicle",
+      "text": "In scene 2, Elena drives a red Jeep was established, yet in scene 6, Elena refers to arriving in a blue vehicle happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "fact": "Marcus lives only with Anchor",
+      "event": "Marcus calls to a dog named Captain",
+      "text": "In scene 3, Marcus lives only with Anchor was established, yet in scene 6, Marcus calls to a dog named Captain happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "fact": "Marcus's dog is named Anchor",
+      "event": "Marcus addresses a dog named Captain",
+      "text": "In scene 1, Marcus's dog is named Anchor was established, yet in scene 6, Marcus addresses a dog named Captain happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "fact": "Tom Briggs is a deputy law officer",
+      "event": "Marcus says he borrowed Tom Briggs's vehicle",
+      "text": "In scene 5, Tom Briggs is a deputy law officer was established, yet in scene 6, Marcus says he borrowed Tom Briggs's vehicle happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "fact": "Elena arrives in a red Jeep",
+      "event": "Marcus says only one vehicle arrived all evening",
+      "text": "In scene 2, Elena arrives in a red Jeep was established, yet in scene 6, Marcus says only one vehicle arrived all evening happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "fact": "Marcus uses a brown leather-bound logbook",
+      "event": "Marcus presents a black logbook",
+      "text": "In scene 3, Marcus uses a brown leather-bound logbook was established, yet in scene 7, Marcus presents a black logbook happens",
+      "proposed_at_scene_y": 7
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "fact": "Marcus has served at the lighthouse twenty years",
+      "event": "Marcus agrees he has been there thirty years",
+      "text": "In scene 5, Marcus has served at the lighthouse twenty years was established, yet in scene 7, Marcus agrees he has been there thirty years happens",
+      "proposed_at_scene_y": 7
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "fact": "Marcus drinks tea from a blue mug",
+      "event": "Marcus says he never drinks hot beverages",
+      "text": "In scene 1, Marcus drinks tea from a blue mug was established, yet in scene 7, Marcus says he never drinks hot beverages happens",
+      "proposed_at_scene_y": 7
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "fact": "Elena carries a green spiral notebook",
+      "event": "Elena takes notes on a yellow legal pad",
+      "text": "In scene 2, Elena carries a green spiral notebook was established, yet in scene 7, Elena takes notes on a yellow legal pad happens",
+      "proposed_at_scene_y": 7
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "fact": "Claire Munroe is Elena's named editor contact",
+      "event": "Elena promises Diane a draft by Friday",
+      "text": "In scene 5, Claire Munroe is Elena's named editor contact was established, yet in scene 7, Elena promises Diane a draft by Friday happens",
+      "proposed_at_scene_y": 7
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "fact": "Margaret died three years earlier",
+      "event": "Elena says Marcus has been alone ten years",
+      "text": "In scene 3, Margaret died three years earlier was established, yet in scene 8, Elena says Marcus has been alone ten years happens",
+      "proposed_at_scene_y": 8
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "fact": "Marcus has no children",
+      "event": "Marcus says his daughter visits him",
+      "text": "In scene 3, Marcus has no children was established, yet in scene 8, Marcus says his daughter visits him happens",
+      "proposed_at_scene_y": 8
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "fact": "the locked room was upstairs",
+      "event": "Marcus says the real locked room is below",
+      "text": "In scene 4, the locked room was upstairs was established, yet in scene 8, Marcus says the real locked room is below happens",
+      "proposed_at_scene_y": 8
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "fact": "a silver key hung by the entrance door",
+      "event": "Marcus retrieves a brass key from the watch room",
+      "text": "In scene 4, a silver key hung by the entrance door was established, yet in scene 8, Marcus retrieves a brass key from the watch room happens",
+      "proposed_at_scene_y": 8
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "fact": "the discovered key was silver",
+      "event": "the locked-room key is brass",
+      "text": "In scene 4, the discovered key was silver was established, yet in scene 8, the locked-room key is brass happens",
+      "proposed_at_scene_y": 8
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "fact": "the upstairs locked door needed a key",
+      "event": "Marcus says the upstairs room is just storage",
+      "text": "In scene 4, the upstairs locked door needed a key was established, yet in scene 8, Marcus says the upstairs room is just storage happens",
+      "proposed_at_scene_y": 8
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "fact": "Tom Briggs is Deputy Briggs",
+      "event": "Elena addresses him as Chief Briggs",
+      "text": "In scene 5, Tom Briggs is Deputy Briggs was established, yet in scene 9, Elena addresses him as Chief Briggs happens",
+      "proposed_at_scene_y": 9
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "fact": "Tom Briggs holds the deputy title",
+      "event": "Tom is treated as chief",
+      "text": "In scene 5, Tom Briggs holds the deputy title was established, yet in scene 9, Tom is treated as chief happens",
+      "proposed_at_scene_y": 9
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "fact": "the lighthouse was built in 1887",
+      "event": "Tom says it was built in 1923",
+      "text": "In scene 5, the lighthouse was built in 1887 was established, yet in scene 9, Tom says it was built in 1923 happens",
+      "proposed_at_scene_y": 9
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "fact": "Marcus wears thick-framed reading glasses",
+      "event": "Tom says Marcus never needed glasses",
+      "text": "In scene 1, Marcus wears thick-framed reading glasses was established, yet in scene 9, Tom says Marcus never needed glasses happens",
+      "proposed_at_scene_y": 9
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "fact": "Anchor is a black Labrador",
+      "event": "Anchor appears as a golden retriever",
+      "text": "In scene 1, Anchor is a black Labrador was established, yet in scene 9, Anchor appears as a golden retriever happens",
+      "proposed_at_scene_y": 9
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "fact": "Marcus has no children",
+      "event": "Tom identifies Anchor as Marcus's dog",
+      "text": "In scene 3, Marcus has no children was established, yet in scene 9, Tom identifies Anchor as Marcus's dog happens",
+      "proposed_at_scene_y": 9
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "fact": "the dog present with Marcus is Captain",
+      "event": "Tom identifies the dock dog as Anchor",
+      "text": "In scene 6, the dog present with Marcus is Captain was established, yet in scene 9, Tom identifies the dock dog as Anchor happens",
+      "proposed_at_scene_y": 9
+    }
+  ],
+  "dedupe_log": [
+    {
+      "raw_proposal_index": 0,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Anchor is Marcus's black Labrador dog was established, yet in scene 2, Anchor is identified as an anchor object happens"
+    },
+    {
+      "raw_proposal_index": 1,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Marcus uses a logbook was established, yet in scene 3, Marcus presents a brown leather-bound logbook happens"
+    },
+    {
+      "raw_proposal_index": 2,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Marcus carries a blue ceramic mug was established, yet in scene 3, Marcus pours tea without the blue mug happens"
+    },
+    {
+      "raw_proposal_index": 3,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Anchor is an anchor object was established, yet in scene 3, Anchor is described as a black dog happens"
+    },
+    {
+      "raw_proposal_index": 4,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Marcus holds an anchor was established, yet in scene 3, Anchor rests his head on Elena's knee happens"
+    },
+    {
+      "raw_proposal_index": 5,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Marcus is only identified as Marcus was established, yet in scene 3, Marcus is treated as a lighthouse keeper happens"
+    },
+    {
+      "raw_proposal_index": 6,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, No wife or children were mentioned earlier was established, yet in scene 3, Marcus says Margaret died and he has no children happens"
+    },
+    {
+      "raw_proposal_index": 7,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Anchor is an anchor object was established, yet in scene 4, Marcus leaves Anchor behind while leading Elena upstairs happens"
+    },
+    {
+      "raw_proposal_index": 8,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, Marcus said he has no children and lives with Anchor was established, yet in scene 5, Tom says Marcus spent twenty years alone at the lighthouse happens"
+    },
+    {
+      "raw_proposal_index": 9,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 4, Elena saw a padlocked upper-floor door was established, yet in scene 5, Tom claims ignorance about the locked upper room happens"
+    },
+    {
+      "raw_proposal_index": 10,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 4, the lighthouse had two doors was established, yet in scene 5, the station is described as built in 1887 happens"
+    },
+    {
+      "raw_proposal_index": 11,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, Marcus was the lighthouse keeper was established, yet in scene 5, Marcus is described as a former merchant marine happens"
+    },
+    {
+      "raw_proposal_index": 12,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Marcus limps on his right leg was established, yet in scene 6, Marcus says the injury is in his left leg happens"
+    },
+    {
+      "raw_proposal_index": 13,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Elena drives a red Jeep was established, yet in scene 6, Elena refers to arriving in a blue vehicle happens"
+    },
+    {
+      "raw_proposal_index": 14,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, Marcus lives only with Anchor was established, yet in scene 6, Marcus calls to a dog named Captain happens"
+    },
+    {
+      "raw_proposal_index": 15,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Marcus's dog is named Anchor was established, yet in scene 6, Marcus addresses a dog named Captain happens"
+    },
+    {
+      "raw_proposal_index": 16,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 5, Tom Briggs is a deputy law officer was established, yet in scene 6, Marcus says he borrowed Tom Briggs's vehicle happens"
+    },
+    {
+      "raw_proposal_index": 17,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Elena arrives in a red Jeep was established, yet in scene 6, Marcus says only one vehicle arrived all evening happens"
+    },
+    {
+      "raw_proposal_index": 18,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, Marcus uses a brown leather-bound logbook was established, yet in scene 7, Marcus presents a black logbook happens"
+    },
+    {
+      "raw_proposal_index": 19,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 5, Marcus has served at the lighthouse twenty years was established, yet in scene 7, Marcus agrees he has been there thirty years happens"
+    },
+    {
+      "raw_proposal_index": 20,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Marcus drinks tea from a blue mug was established, yet in scene 7, Marcus says he never drinks hot beverages happens"
+    },
+    {
+      "raw_proposal_index": 21,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Elena carries a green spiral notebook was established, yet in scene 7, Elena takes notes on a yellow legal pad happens"
+    },
+    {
+      "raw_proposal_index": 22,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 5, Claire Munroe is Elena's named editor contact was established, yet in scene 7, Elena promises Diane a draft by Friday happens"
+    },
+    {
+      "raw_proposal_index": 23,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, Margaret died three years earlier was established, yet in scene 8, Elena says Marcus has been alone ten years happens"
+    },
+    {
+      "raw_proposal_index": 24,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, Marcus has no children was established, yet in scene 8, Marcus says his daughter visits him happens"
+    },
+    {
+      "raw_proposal_index": 25,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 4, the locked room was upstairs was established, yet in scene 8, Marcus says the real locked room is below happens"
+    },
+    {
+      "raw_proposal_index": 26,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 4, a silver key hung by the entrance door was established, yet in scene 8, Marcus retrieves a brass key from the watch room happens"
+    },
+    {
+      "raw_proposal_index": 27,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 4, the discovered key was silver was established, yet in scene 8, the locked-room key is brass happens"
+    },
+    {
+      "raw_proposal_index": 28,
+      "decision": "drop",
+      "duplicate_of_raw_index": 25,
+      "reason": "shared entity ['marcus'] + jaccard 0.42",
+      "text": "In scene 4, the upstairs locked door needed a key was established, yet in scene 8, Marcus says the upstairs room is just storage happens"
+    },
+    {
+      "raw_proposal_index": 29,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 5, Tom Briggs is Deputy Briggs was established, yet in scene 9, Elena addresses him as Chief Briggs happens"
+    },
+    {
+      "raw_proposal_index": 30,
+      "decision": "drop",
+      "duplicate_of_raw_index": 29,
+      "reason": "shared entity ['briggs', 'tom'] + jaccard 0.40",
+      "text": "In scene 5, Tom Briggs holds the deputy title was established, yet in scene 9, Tom is treated as chief happens"
+    },
+    {
+      "raw_proposal_index": 31,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 5, the lighthouse was built in 1887 was established, yet in scene 9, Tom says it was built in 1923 happens"
+    },
+    {
+      "raw_proposal_index": 32,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Marcus wears thick-framed reading glasses was established, yet in scene 9, Tom says Marcus never needed glasses happens"
+    },
+    {
+      "raw_proposal_index": 33,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Anchor is a black Labrador was established, yet in scene 9, Anchor appears as a golden retriever happens"
+    },
+    {
+      "raw_proposal_index": 34,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, Marcus has no children was established, yet in scene 9, Tom identifies Anchor as Marcus's dog happens"
+    },
+    {
+      "raw_proposal_index": 35,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 6, the dog present with Marcus is Captain was established, yet in scene 9, Tom identifies the dock dog as Anchor happens"
+    }
+  ],
+  "verification_log": [
+    {
+      "proposal_index": 1,
+      "proposal_text": "In scene 1, Anchor is Marcus's black Labrador dog was established, yet in scene 2, Anchor is identified as an anchor object happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails C: scene 2 does not identify Anchor as an anchor object or assert a different value.",
+      "attribute": "identity",
+      "prior_quote": "Below the desk, a BLACK LABRADOR -- ANCHOR -- raises his broad head",
+      "later_quote": "MARCUS appears in the doorway, ANCHOR at his side.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: scene 2 does not identify Anchor as an anchor object or assert a different value."
+    },
+    {
+      "proposal_index": 2,
+      "proposal_text": "In scene 1, Marcus uses a logbook was established, yet in scene 3, Marcus presents a brown leather-bound logbook happens",
+      "scene_x": 1,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails C: both quotes describe a logbook, not conflicting values for the same attribute.",
+      "attribute": "object_type",
+      "prior_quote": "Marcus ... opens a logbook",
+      "later_quote": "Marcus ... places on the table a large BROWN LEATHER-BOUND LOGBOOK",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: both quotes describe a logbook, not conflicting values for the same attribute."
+    },
+    {
+      "proposal_index": 3,
+      "proposal_text": "In scene 1, Marcus carries a blue ceramic mug was established, yet in scene 3, Marcus pours tea without the blue mug happens",
+      "scene_x": 1,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails B: the later quote does not assert any value about the mug's color or identity.",
+      "attribute": "mug_color",
+      "prior_quote": "He carries a BLUE CERAMIC MUG of steaming tea.",
+      "later_quote": "He pours the tea and sets it on the table.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the later quote does not assert any value about the mug's color or identity."
+    },
+    {
+      "proposal_index": 4,
+      "proposal_text": "In scene 2, Anchor is an anchor object was established, yet in scene 3, Anchor is described as a black dog happens",
+      "scene_x": 2,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails A: the quotes are not about the same entity.",
+      "attribute": "identity",
+      "prior_quote": "GREEN SPIRAL NOTEBOOK tucked under her arm.",
+      "later_quote": "Anchor rests his black head on Elena's knee.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails A: the quotes are not about the same entity."
+    },
+    {
+      "proposal_index": 5,
+      "proposal_text": "In scene 2, Marcus holds an anchor was established, yet in scene 3, Anchor rests his head on Elena's knee happens",
+      "scene_x": 2,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails C: Marcus being near Anchor earlier does not contradict Anchor resting on Elena later.",
+      "attribute": "relation_to_Anchor",
+      "prior_quote": "MARCUS appears in the doorway, ANCHOR at his side.",
+      "later_quote": "Anchor rests his black head on Elena's knee.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: Marcus being near Anchor earlier does not contradict Anchor resting on Elena later."
+    },
+    {
+      "proposal_index": 6,
+      "proposal_text": "In scene 2, Marcus is only identified as Marcus was established, yet in scene 3, Marcus is treated as a lighthouse keeper happens",
+      "scene_x": 2,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails B: scene 2 does not assert Marcus's role, while scene 3 does.",
+      "attribute": "role",
+      "prior_quote": "MARCUS appears in the doorway, ANCHOR at his side.",
+      "later_quote": "Every keeper back to the first.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: scene 2 does not assert Marcus's role, while scene 3 does."
+    },
+    {
+      "proposal_index": 7,
+      "proposal_text": "In scene 2, No wife or children were mentioned earlier was established, yet in scene 3, Marcus says Margaret died and he has no children happens",
+      "scene_x": 2,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails B: scene 2 does not assert any value about Marcus's wife or children.",
+      "attribute": "family_status",
+      "prior_quote": "Elena Voss. Coastal Herald. You spoke to my editor -- Claire Munroe?",
+      "later_quote": "Margaret. She passed three years ago... No. No children.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: scene 2 does not assert any value about Marcus's wife or children."
+    },
+    {
+      "proposal_index": 8,
+      "proposal_text": "In scene 2, Anchor is an anchor object was established, yet in scene 4, Marcus leaves Anchor behind while leading Elena upstairs happens",
+      "scene_x": 2,
+      "scene_y": 4,
+      "model_decision": "reject",
+      "model_reason": "fails B: the later quote does not assert Anchor is an anchor object or any conflicting attribute of the same entity.",
+      "attribute": "location",
+      "prior_quote": "MARCUS appears in the doorway, ANCHOR at his side.",
+      "later_quote": "Marcus leads Elena up the iron spiral staircase.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the later quote does not assert Anchor is an anchor object or any conflicting attribute of the same entity."
+    },
+    {
+      "proposal_index": 9,
+      "proposal_text": "In scene 3, Marcus said he has no children and lives with Anchor was established, yet in scene 5, Tom says Marcus spent twenty years alone at the lighthouse happens",
+      "scene_x": 3,
+      "scene_y": 5,
+      "model_decision": "reject",
+      "model_reason": "fails B: 'alone' is about Marcus's solitude at the lighthouse, not the same specific attribute as whether he has children.",
+      "attribute": "household_children",
+      "prior_quote": "\"No. No children. It is just Anchor and me.\"",
+      "later_quote": "\"Twenty years alone out there\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: 'alone' is about Marcus's solitude at the lighthouse, not the same specific attribute as whether he has children."
+    },
+    {
+      "proposal_index": 10,
+      "proposal_text": "In scene 4, Elena saw a padlocked upper-floor door was established, yet in scene 5, Tom claims ignorance about the locked upper room happens",
+      "scene_x": 4,
+      "scene_y": 5,
+      "model_decision": "reject",
+      "model_reason": "fails A: the prior quote is Marcus describing the room; the later quote is Tom disclaiming knowledge.",
+      "attribute": "knowledge_of_locked_room",
+      "prior_quote": "\"What's in the locked one?\" / \"Old coast guard material.\"",
+      "later_quote": "\"Can't say I do.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails A: the prior quote is Marcus describing the room; the later quote is Tom disclaiming knowledge."
+    },
+    {
+      "proposal_index": 11,
+      "proposal_text": "In scene 4, the lighthouse had two doors was established, yet in scene 5, the station is described as built in 1887 happens",
+      "scene_x": 4,
+      "scene_y": 5,
+      "model_decision": "reject",
+      "model_reason": "fails B: the quotes concern different attributes.",
+      "attribute": "building_feature_vs_year",
+      "prior_quote": "a narrow corridor has two doors",
+      "later_quote": "\"Built in 1887.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the quotes concern different attributes."
+    },
+    {
+      "proposal_index": 12,
+      "proposal_text": "In scene 3, Marcus was the lighthouse keeper was established, yet in scene 5, Marcus is described as a former merchant marine happens",
+      "scene_x": 3,
+      "scene_y": 5,
+      "model_decision": "reject",
+      "model_reason": "fails C: being a lighthouse keeper and formerly merchant marine are not contradictory.",
+      "attribute": "occupation",
+      "prior_quote": "Every keeper back to the first.",
+      "later_quote": "\"Former merchant marine, Marcus.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: being a lighthouse keeper and formerly merchant marine are not contradictory."
+    },
+    {
+      "proposal_index": 13,
+      "proposal_text": "In scene 1, Marcus limps on his right leg was established, yet in scene 6, Marcus says the injury is in his left leg happens",
+      "scene_x": 1,
+      "scene_y": 6,
+      "model_decision": "confirm",
+      "model_reason": "Same entity and same attribute; right leg versus left leg is a direct contradiction with no explanation.",
+      "attribute": "injured_leg_side",
+      "prior_quote": "Each step reveals a pronounced limp -- his RIGHT LEG drags",
+      "later_quote": "\"Left leg. Fishing trawler, 1991. A cable snapped.\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 14,
+      "proposal_text": "In scene 2, Elena drives a red Jeep was established, yet in scene 6, Elena refers to arriving in a blue vehicle happens",
+      "scene_x": 2,
+      "scene_y": 6,
+      "model_decision": "confirm",
+      "model_reason": "Same entity and same attribute; Elena's vehicle is red earlier and blue later with no explanation.",
+      "attribute": "vehicle_color",
+      "prior_quote": "A RED JEEP rounds the final curve",
+      "later_quote": "\"So you saw me drive in with the blue one?\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 15,
+      "proposal_text": "In scene 3, Marcus lives only with Anchor was established, yet in scene 6, Marcus calls to a dog named Captain happens",
+      "scene_x": 3,
+      "scene_y": 6,
+      "model_decision": "reject",
+      "model_reason": "fails C: the later scene does not establish Captain lives with Marcus or contradicts the earlier statement.",
+      "attribute": "household_composition",
+      "prior_quote": "\"It is just Anchor and me.\"",
+      "later_quote": "\"Captain! Easy!\" / \"He gets wound up when the pressure drops.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: the later scene does not establish Captain lives with Marcus or contradicts the earlier statement."
+    },
+    {
+      "proposal_index": 16,
+      "proposal_text": "In scene 1, Marcus's dog is named Anchor was established, yet in scene 6, Marcus addresses a dog named Captain happens",
+      "scene_x": 1,
+      "scene_y": 6,
+      "model_decision": "reject",
+      "model_reason": "fails A: scene 6 does not identify the barking dog as Anchor, so same-entity is not established.",
+      "attribute": "dog_name",
+      "prior_quote": "\"You smell it already, don't you, Anchor. Good boy.\"",
+      "later_quote": "\"Captain! Easy!\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails A: scene 6 does not identify the barking dog as Anchor, so same-entity is not established."
+    },
+    {
+      "proposal_index": 17,
+      "proposal_text": "In scene 5, Tom Briggs is a deputy law officer was established, yet in scene 6, Marcus says he borrowed Tom Briggs's vehicle happens",
+      "scene_x": 5,
+      "scene_y": 6,
+      "model_decision": "reject",
+      "model_reason": "fails B: Tom's law-enforcement role and ownership of a vehicle are different attributes.",
+      "attribute": "role_vs_vehicle_ownership",
+      "prior_quote": "DEPUTY'S OFFICE ... TOM BRIGGS",
+      "later_quote": "\"That's Tom Briggs's. Borrowed it -- my own vehicle is in for service.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: Tom's law-enforcement role and ownership of a vehicle are different attributes."
+    },
+    {
+      "proposal_index": 18,
+      "proposal_text": "In scene 2, Elena arrives in a red Jeep was established, yet in scene 6, Marcus says only one vehicle arrived all evening happens",
+      "scene_x": 2,
+      "scene_y": 6,
+      "model_decision": "reject",
+      "model_reason": "fails C: Elena's arrival in scene 2 does not contradict Marcus saying only one vehicle came up that evening in scene 6.",
+      "attribute": "vehicle_count_arrivals",
+      "prior_quote": "Elena parks beside a weathered outbuilding",
+      "later_quote": "\"Only vehicle that came up all evening.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: Elena's arrival in scene 2 does not contradict Marcus saying only one vehicle came up that evening in scene 6."
+    },
+    {
+      "proposal_index": 19,
+      "proposal_text": "In scene 3, Marcus uses a brown leather-bound logbook was established, yet in scene 7, Marcus presents a black logbook happens",
+      "scene_x": 3,
+      "scene_y": 7,
+      "model_decision": "confirm",
+      "model_reason": "Same entity type and same attribute; brown versus black logbook is a direct mismatch with no explanation.",
+      "attribute": "logbook_color",
+      "prior_quote": "a large BROWN LEATHER-BOUND LOGBOOK",
+      "later_quote": "Marcus sets a large BLACK LOGBOOK on the desk",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 20,
+      "proposal_text": "In scene 5, Marcus has served at the lighthouse twenty years was established, yet in scene 7, Marcus agrees he has been there thirty years happens",
+      "scene_x": 5,
+      "scene_y": 7,
+      "model_decision": "confirm",
+      "model_reason": "Same entity and same attribute; twenty years versus thirty years is a direct contradiction with no explanation.",
+      "attribute": "years_at_lighthouse",
+      "prior_quote": "\"Twenty years. He came when old Gareth retired.\"",
+      "later_quote": "\"Thirty years, they said.\" / \"Give or take.\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 21,
+      "proposal_text": "In scene 1, Marcus drinks tea from a blue mug was established, yet in scene 7, Marcus says he never drinks hot beverages happens",
+      "scene_x": 1,
+      "scene_y": 7,
+      "model_decision": "confirm",
+      "model_reason": "Same entity and same attribute; Marcus drinks hot tea earlier but later says he never drinks hot drinks.",
+      "attribute": "drinks_hot_beverages",
+      "prior_quote": "He carries a BLUE CERAMIC MUG of steaming tea... sips his tea",
+      "later_quote": "\"No. I've never taken to hot drinks. Never have.\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 22,
+      "proposal_text": "In scene 2, Elena carries a green spiral notebook was established, yet in scene 7, Elena takes notes on a yellow legal pad happens",
+      "scene_x": 2,
+      "scene_y": 7,
+      "model_decision": "reject",
+      "model_reason": "fails A: these are two different writing items, not established as the same entity.",
+      "attribute": "notebook_type",
+      "prior_quote": "On the passenger seat: a GREEN SPIRAL NOTEBOOK",
+      "later_quote": "Elena sits across from Marcus, a YELLOW LEGAL PAD open on her knee.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails A: these are two different writing items, not established as the same entity."
+    },
+    {
+      "proposal_index": 23,
+      "proposal_text": "In scene 5, Claire Munroe is Elena's named editor contact was established, yet in scene 7, Elena promises Diane a draft by Friday happens",
+      "scene_x": 5,
+      "scene_y": 7,
+      "model_decision": "reject",
+      "model_reason": "fails B: scene 7 does not identify Diane as Elena's editor, so the same attribute is not asserted.",
+      "attribute": "editor_identity",
+      "prior_quote": "\"You spoke to my editor -- Claire Munroe?\"",
+      "later_quote": "\"Diane, yes. I'm still with him. I'll have the draft by Friday\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: scene 7 does not identify Diane as Elena's editor, so the same attribute is not asserted."
+    },
+    {
+      "proposal_index": 24,
+      "proposal_text": "In scene 3, Margaret died three years earlier was established, yet in scene 8, Elena says Marcus has been alone ten years happens",
+      "scene_x": 3,
+      "scene_y": 8,
+      "model_decision": "confirm",
+      "model_reason": "Same entity and same attribute; three years versus ten years alone after his wife is a direct contradiction with no explanation.",
+      "attribute": "years_since_wife_died",
+      "prior_quote": "\"Margaret. She passed three years ago.\"",
+      "later_quote": "\"Your wife -- you must miss her. Ten years is a long time to be alone out here.\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 25,
+      "proposal_text": "In scene 3, Marcus has no children was established, yet in scene 8, Marcus says his daughter visits him happens",
+      "scene_x": 3,
+      "scene_y": 8,
+      "model_decision": "confirm",
+      "model_reason": "Same entity and same attribute; no children versus having a daughter is a direct contradiction with no explanation.",
+      "attribute": "has_children",
+      "prior_quote": "\"No. No children.\"",
+      "later_quote": "\"Does your daughter ever come to visit?\" / \"She comes when she can.\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 26,
+      "proposal_text": "In scene 4, the locked room was upstairs was established, yet in scene 8, Marcus says the real locked room is below happens",
+      "scene_x": 4,
+      "scene_y": 8,
+      "model_decision": "confirm",
+      "model_reason": "Same subject and same attribute; the locked room is upstairs earlier but later the real locked room is below, with no explicit explanation for the discrepancy.",
+      "attribute": "location_of_locked_room",
+      "prior_quote": "On the upper floor ... The other door is CLOSED and secured with a heavy padlock.",
+      "later_quote": "\"I thought the locked room was upstairs.\" / \"That's just storage. This is what you came here for.\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 27,
+      "proposal_text": "In scene 4, a silver key hung by the entrance door was established, yet in scene 8, Marcus retrieves a brass key from the watch room happens",
+      "scene_x": 4,
+      "scene_y": 8,
+      "model_decision": "reject",
+      "model_reason": "fails A: the screenplay does not establish that the brass key is the same key Elena saw by the entrance.",
+      "attribute": "key_location",
+      "prior_quote": "mounted on the wall right beside the MAIN ENTRANCE DOOR, hangs a SILVER KEY",
+      "later_quote": "retrieving a small KEY on a cord... It is BRASS.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails A: the screenplay does not establish that the brass key is the same key Elena saw by the entrance."
+    },
+    {
+      "proposal_index": 28,
+      "proposal_text": "In scene 4, the discovered key was silver was established, yet in scene 8, the locked-room key is brass happens",
+      "scene_x": 4,
+      "scene_y": 8,
+      "model_decision": "reject",
+      "model_reason": "fails A: the later key is not established to be the same key as the earlier silver key.",
+      "attribute": "key_color",
+      "prior_quote": "hangs a SILVER KEY on a simple iron hook",
+      "later_quote": "retrieving a small KEY on a cord. It is BRASS.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails A: the later key is not established to be the same key as the earlier silver key."
+    },
+    {
+      "proposal_index": 29,
+      "proposal_text": "In scene 5, Tom Briggs is Deputy Briggs was established, yet in scene 9, Elena addresses him as Chief Briggs happens",
+      "scene_x": 5,
+      "scene_y": 9,
+      "model_decision": "confirm",
+      "model_reason": "Same entity and same attribute; Deputy versus Chief is a direct title mismatch with no explanation.",
+      "attribute": "Tom_Briggs_title",
+      "prior_quote": "\"Deputy Briggs -- how long has Marcus been out at the lighthouse?\"",
+      "later_quote": "\"Chief Briggs. I wanted to follow up.\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 30,
+      "proposal_text": "In scene 5, the lighthouse was built in 1887 was established, yet in scene 9, Tom says it was built in 1923 happens",
+      "scene_x": 5,
+      "scene_y": 9,
+      "model_decision": "confirm",
+      "model_reason": "Same entity and same attribute; 1887 versus 1923 is a direct contradiction with no explanation.",
+      "attribute": "lighthouse_build_year",
+      "prior_quote": "\"Built in 1887.\"",
+      "later_quote": "\"1923, wasn't it.\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 31,
+      "proposal_text": "In scene 1, Marcus wears thick-framed reading glasses was established, yet in scene 9, Tom says Marcus never needed glasses happens",
+      "scene_x": 1,
+      "scene_y": 9,
+      "model_decision": "confirm",
+      "model_reason": "Same entity and same attribute; wearing reading glasses versus never needing glasses is a direct contradiction.",
+      "attribute": "uses_glasses",
+      "prior_quote": "Marcus wears THICK-FRAMED READING GLASSES perched at the end of his nose.",
+      "later_quote": "\"Never needed glasses a day in his life\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 32,
+      "proposal_text": "In scene 1, Anchor is a black Labrador was established, yet in scene 9, Anchor appears as a golden retriever happens",
+      "scene_x": 1,
+      "scene_y": 9,
+      "model_decision": "confirm",
+      "model_reason": "Same entity and same attribute; black Labrador versus golden retriever is a direct contradiction with no explanation.",
+      "attribute": "dog_breed_color",
+      "prior_quote": "a BLACK LABRADOR -- ANCHOR",
+      "later_quote": "A GOLDEN RETRIEVER comes bounding down the dock ... \"That's Anchor.\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "passed all checks"
+    },
+    {
+      "proposal_index": 33,
+      "proposal_text": "In scene 3, Marcus has no children was established, yet in scene 9, Tom identifies Anchor as Marcus's dog happens",
+      "scene_x": 3,
+      "scene_y": 9,
+      "model_decision": "reject",
+      "model_reason": "fails B: the quotes concern different attributes.",
+      "attribute": "has_children_vs_dog_identity",
+      "prior_quote": "\"No. No children.\"",
+      "later_quote": "\"That's Anchor. Marcus must have walked him down this morning.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the quotes concern different attributes."
+    },
+    {
+      "proposal_index": 34,
+      "proposal_text": "In scene 6, the dog present with Marcus is Captain was established, yet in scene 9, Tom identifies the dock dog as Anchor happens",
+      "scene_x": 6,
+      "scene_y": 9,
+      "model_decision": "reject",
+      "model_reason": "fails A: scene 6 does not establish that Captain is the same dog later identified as Anchor.",
+      "attribute": "dog_name",
+      "prior_quote": "\"Captain! Easy!\"",
+      "later_quote": "\"That's Anchor.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails A: scene 6 does not establish that Captain is the same dog later identified as Anchor."
+    }
+  ],
+  "summary": {
+    "raw_proposals": 36,
+    "after_dedupe": 34,
+    "confirmed": 12,
+    "final_detections": 12
+  }
+}

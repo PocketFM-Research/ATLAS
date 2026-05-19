@@ -1,0 +1,1263 @@
+{
+  "movie_id": "synthetic_hallucination_002__scene_5",
+  "title": "synthetic_hallucination_002",
+  "nodes": [
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "type": "Event",
+      "name": "diana meets bram in alley",
+      "aliases": [
+        "diana meets bram in alley"
+      ],
+      "description": "Diana exits the theater into the alley and finds Bram Holloway already waiting for her there.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Diana steps out through a side door into the narrow alley behind the theater. A man is already there. BRAM HOLLOWAY (50s, precise, well-dressed) checks his watch as she approaches.",
+        "BRAM\nMs. Crane. I have been waiting."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "type": "Event",
+      "name": "bram explains he waited outside",
+      "aliases": [
+        "bram explains he waited outside"
+      ],
+      "description": "Bram acknowledges Diana is in the middle of rehearsal and says he deliberately waited outside to intercept her.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "BRAM\nWhich is why I waited outside.",
+        "DIANA\nWe are mid-rehearsal."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "type": "Event",
+      "name": "diana asks about funding matter",
+      "aliases": [
+        "diana asks about funding matter"
+      ],
+      "description": "Diana prompts Bram to explain the funding issue he claimed to have.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Diana crosses her arms.",
+        "DIANA\nYou said there was a funding matter."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "type": "Event",
+      "name": "bram offers fifty thousand sponsorship",
+      "aliases": [
+        "bram offers fifty thousand sponsorship"
+      ],
+      "description": "Bram offers Diana fifty thousand dollars before opening night in exchange for a Friday box seat and program mention.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "BRAM\nFifty thousand dollars. Cash transfer, cleared before opening night. In return: a seat in the box on Friday and a mention in the program."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "type": "Event",
+      "name": "diana reacts to amount",
+      "aliases": [
+        "diana reacts to amount"
+      ],
+      "description": "Diana is visibly stunned by the size of Bram's offer and repeats the amount back to him.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "BRAM\nFifty thousand dollars.",
+        "Diana stares.",
+        "DIANA\nFifty thousand."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "type": "Event",
+      "name": "diana questions brams motive",
+      "aliases": [
+        "diana questions brams motive"
+      ],
+      "description": "Diana challenges Bram's sudden interest in theater, noting he has never cared about it before.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA\nWhy? You have never shown interest in theater.",
+        "BRAM\nI am interested now."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "type": "Event",
+      "name": "bram confirms limited terms",
+      "aliases": [
+        "bram confirms limited terms"
+      ],
+      "description": "Diana verifies the deal's conditions and Bram insists the box seat and program credit are his only terms.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA\nAnd your terms are only what you said. Box seat. Program credit.",
+        "BRAM\nThat is all."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "type": "Event",
+      "name": "diana accepts and promises paperwork",
+      "aliases": [
+        "diana accepts and promises paperwork"
+      ],
+      "description": "After considering the offer, Diana agrees and says she will prepare the paperwork by morning.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA\nI will have the paperwork by morning.",
+        "Diana considers. Then:"
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "type": "Event",
+      "name": "bram departs after agreement",
+      "aliases": [
+        "bram departs after agreement"
+      ],
+      "description": "Bram expresses anticipation for Friday and leaves Diana alone in the alley.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "BRAM\nI look forward to Friday.",
+        "He steps away into the dark. Diana watches him go"
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_010",
+      "type": "Event",
+      "name": "diana reflects on windfall",
+      "aliases": [
+        "diana reflects on windfall"
+      ],
+      "description": "Left alone, Diana looks back at the theater and quietly repeats the amount, underscoring its significance to her.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "then looks back at the lit windows of the theater.",
+        "DIANA\n(to herself)\nFifty thousand dollars."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "type": "Character",
+      "name": "Diana Crane",
+      "aliases": [
+        "Diana Crane",
+        "DIANA",
+        "Diana",
+        "Ms. Crane"
+      ],
+      "description": "A theater-associated woman interrupted during rehearsal who negotiates and accepts Bram Holloway's sponsorship offer.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA\nI will have the paperwork by morning.",
+        "DIANA\n(to herself)\nFifty thousand dollars.",
+        "BRAM\nMs. Crane. I have been waiting.",
+        "Diana steps out through a side door into the narrow alley behind the theater.",
+        "DIANA\nWe are mid-rehearsal."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "type": "Character",
+      "name": "Bram Holloway",
+      "aliases": [
+        "Bram Holloway",
+        "BRAM",
+        "BRAM HOLLOWAY"
+      ],
+      "description": "A well-dressed man waiting in the alley who offers Diana fifty thousand dollars in sponsorship under limited terms.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "BRAM\nThat is all.",
+        "BRAM HOLLOWAY (50s, precise, well-dressed) checks his watch as she approaches.",
+        "BRAM\nMs. Crane. I have been waiting.",
+        "BRAM\nI look forward to Friday.",
+        "BRAM\nFifty thousand dollars. Cash transfer, cleared before opening night."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "type": "Location",
+      "name": "Ravenswood Theater",
+      "aliases": [
+        "Ravenswood Theater",
+        "RAVENSWOOD THEATER"
+      ],
+      "description": "The theater where rehearsal is underway and beside which Diana meets Bram in the alley.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT",
+        "Diana watches him go, then looks back at the lit windows of the theater.",
+        "Diana steps out through a side door into the narrow alley behind the theater."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "type": "TimePoint",
+      "name": "Night",
+      "aliases": [
+        "Night",
+        "NIGHT"
+      ],
+      "description": "The nighttime setting of the alley meeting outside the theater.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT"
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_007",
+      "type": "TimePoint",
+      "name": "opening night",
+      "aliases": [
+        "opening night"
+      ],
+      "description": "The deadline by which Bram says the cash transfer will clear.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Cash transfer, cleared before opening night."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_009",
+      "type": "TimePoint",
+      "name": "Friday",
+      "aliases": [
+        "Friday"
+      ],
+      "description": "The day tied to Bram's requested box seat and the future occasion he says he looks forward to.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "BRAM\nI look forward to Friday.",
+        "a seat in the box on Friday"
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_013",
+      "type": "TimePoint",
+      "name": "morning",
+      "aliases": [
+        "morning"
+      ],
+      "description": "The time by which Diana says she will have the paperwork ready.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA\nI will have the paperwork by morning."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_008",
+      "type": "Object",
+      "name": "box seat",
+      "aliases": [
+        "box seat",
+        "Box seat",
+        "a seat in the box"
+      ],
+      "description": "One of the specific benefits Bram requests in exchange for his sponsorship money.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA\nAnd your terms are only what you said. Box seat. Program credit.",
+        "In return: a seat in the box on Friday"
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "type": "Vehicle",
+      "name": "cab",
+      "aliases": [
+        "cab",
+        "A cab"
+      ],
+      "description": "A passing taxi that briefly punctuates the silence during Diana and Bram's negotiation.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "A cab passes the mouth of the alley."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "type": "Concept",
+      "name": "funding matter",
+      "aliases": [
+        "funding matter"
+      ],
+      "description": "The financial issue Diana asks Bram to explain, which leads into his sponsorship proposal.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA\nYou said there was a funding matter."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_006",
+      "type": "Concept",
+      "name": "fifty thousand dollars",
+      "aliases": [
+        "fifty thousand dollars",
+        "Fifty thousand",
+        "Fifty thousand dollars"
+      ],
+      "description": "The amount of money Bram offers Diana, which shocks her and becomes the focus of the agreement.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "BRAM\nFifty thousand dollars.",
+        "DIANA\n(to herself)\nFifty thousand dollars.",
+        "DIANA\nFifty thousand.",
+        "BRAM\nFifty thousand dollars. Cash transfer, cleared before opening night."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_010",
+      "type": "Concept",
+      "name": "program credit",
+      "aliases": [
+        "program credit",
+        "the program",
+        "Program credit"
+      ],
+      "description": "The mention in the theater program that Bram requests as part of the deal.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA\nAnd your terms are only what you said. Box seat. Program credit.",
+        "and a mention in the program."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_012",
+      "type": "Concept",
+      "name": "paperwork",
+      "aliases": [
+        "paperwork"
+      ],
+      "description": "The formal documents Diana promises to prepare by morning after accepting Bram's offer.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA\nI will have the paperwork by morning."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_5d8f3e5664d5",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Diana steps out through a side door into the narrow alley behind the theater. A man is already there.",
+        "BRAM Ms. Crane. I have been waiting."
+      ],
+      "confidence": 0.92
+    },
+    {
+      "id": "e_6fd5b20d886a",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "A man is already there. BRAM HOLLOWAY (50s, precise, well-dressed) checks his watch as she approaches.",
+        "BRAM Ms. Crane. I have been waiting."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_8e2c502b8f9d",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT",
+        "Diana steps out through a side door into the narrow alley behind the theater."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_2ce200b01209",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_ec0f80d68b68",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "BRAM Which is why I waited outside."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_1dca1f7b84bb",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT",
+        "BRAM Which is why I waited outside."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_43c9bc79fee2",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_40b86906e0c4",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA You said there was a funding matter."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_4f34708ba874",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT",
+        "DIANA You said there was a funding matter."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_9335818be149",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_b358faceae97",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "relation": "references",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA You said there was a funding matter."
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_9fcc7373d2da",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "relation": "affiliated_with",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_010",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "You said there was a funding matter.",
+        "In return: a seat in the box on Friday and a mention in the program."
+      ],
+      "confidence": 0.31
+    },
+    {
+      "id": "e_9b8616f960b9",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "BRAM Fifty thousand dollars. Cash transfer, cleared before opening night. In return: a seat in the box on Friday and a mention in the program."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_f2c76ebe8aef",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT",
+        "BRAM Fifty thousand dollars. Cash transfer, cleared before opening night. In return: a seat in the box on Friday and a mention in the program."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_1727a9e826d8",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_9eb124babc44",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_007",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Cash transfer, cleared before opening night."
+      ],
+      "confidence": 0.74
+    },
+    {
+      "id": "e_02239f6bfe26",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_006",
+      "relation": "affiliated_with",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "You said there was a funding matter.",
+        "Fifty thousand dollars."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_f585a59c392f",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_008",
+      "relation": "part_of",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "a seat in the box"
+      ],
+      "confidence": 0.63
+    },
+    {
+      "id": "e_914d1eb34a9f",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "undergoes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "BRAM Fifty thousand dollars. Cash transfer, cleared before opening night. In return: a seat in the box on Friday and a mention in the program."
+      ],
+      "confidence": 0.76
+    },
+    {
+      "id": "e_7093290fa91f",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Diana stares.",
+        "DIANA Fifty thousand."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_891cdda6e0c5",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT",
+        "Diana stares."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_05796aee8db1",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_4710722cfcc4",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA Why? You have never shown interest in theater."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_3f57c7c2fcbc",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT",
+        "DIANA Why? You have never shown interest in theater."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_e0d71c0416dd",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_34e711493741",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "undergoes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA Why? You have never shown interest in theater."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_23c44147958e",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA And your terms are only what you said. Box seat. Program credit.",
+        "BRAM That is all."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_b54e40d7a7b0",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT",
+        "BRAM That is all."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_aa7291613ae6",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_e6f158aaeb78",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA I will have the paperwork by morning."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_c8c81baafcb3",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT",
+        "DIANA I will have the paperwork by morning."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_e31b55801434",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_0626dfff7afb",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_013",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "I will have the paperwork by morning."
+      ],
+      "confidence": 0.86
+    },
+    {
+      "id": "e_330a7b39430c",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_012",
+      "relation": "affiliated_with",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "You said there was a funding matter.",
+        "I will have the paperwork by morning."
+      ],
+      "confidence": 0.67
+    },
+    {
+      "id": "e_79668f3717b3",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "He steps away into the dark."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_8d871d5380d5",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT",
+        "He steps away into the dark."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_799d97797a92",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_1a9ec427b6f5",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "experiences",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_010",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Diana watches him go, then looks back at the lit windows of the theater.",
+        "DIANA (to herself) Fifty thousand dollars."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_3820131a6e5c",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_010",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT",
+        "Diana watches him go, then looks back at the lit windows of the theater."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_b5db662f032b",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_010",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_8b47a31dcf0f",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Diana steps out through a side door into the narrow alley behind the theater.",
+        "BRAM Which is why I waited outside."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_7c57327c8b3e",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "relation": "precedes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "BRAM Which is why I waited outside.",
+        "DIANA You said there was a funding matter."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_b66980afa41b",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "relation": "precedes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA You said there was a funding matter.",
+        "BRAM Fifty thousand dollars. Cash transfer, cleared before opening night."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_6f3199a39ab6",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "relation": "causes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "BRAM Fifty thousand dollars. Cash transfer, cleared before opening night.",
+        "Diana stares.",
+        "DIANA Fifty thousand."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_f7c4a6ac77fa",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "relation": "precedes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA Fifty thousand.",
+        "DIANA Why? You have never shown interest in theater."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_a138285e1297",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "relation": "causes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA And your terms are only what you said. Box seat. Program credit.",
+        "BRAM That is all."
+      ],
+      "confidence": 0.83
+    },
+    {
+      "id": "e_c607e848fc23",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "relation": "causes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "BRAM That is all.",
+        "Diana considers. Then:",
+        "DIANA I will have the paperwork by morning."
+      ],
+      "confidence": 0.92
+    },
+    {
+      "id": "e_b1b4058fdc2c",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "relation": "causes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA I will have the paperwork by morning.",
+        "BRAM I look forward to Friday.",
+        "He steps away into the dark."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_fd14db719273",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "relation": "precedes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_010",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "He steps away into the dark.",
+        "Diana watches him go, then looks back at the lit windows of the theater.",
+        "DIANA (to herself) Fifty thousand dollars."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_2cc560715156",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "located_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Diana steps out through a side door into the narrow alley behind the theater."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_9c21083a2c7e",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "located_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "A man is already there. BRAM HOLLOWAY (50s, precise, well-dressed) checks his watch as she approaches."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_1981bd5d7655",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "relation": "located_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "A cab passes the mouth of the alley."
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_e0c1c40796fa",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "present_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_384c05a9b7e2",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "present_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_e4cadae39e92",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "relation": "present_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "A cab passes the mouth of the alley.",
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT"
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_cfe5e53288ec",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_008",
+      "relation": "present_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_009",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "a seat in the box on Friday"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_f2b72f44d730",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_010",
+      "relation": "present_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_009",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "a seat in the box on Friday and a mention in the program"
+      ],
+      "confidence": 0.54
+    },
+    {
+      "id": "e_793ae6eea5b9",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_012",
+      "relation": "present_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_013",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "I will have the paperwork by morning."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_b43bf007c985",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_006",
+      "relation": "present_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_007",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Fifty thousand dollars. Cash transfer, cleared before opening night."
+      ],
+      "confidence": 0.71
+    },
+    {
+      "id": "e_b080ffa5f18b",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Diana steps out through a side door into the narrow alley behind the theater.",
+        "BRAM Which is why I waited outside."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_0fd1e13e3b36",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "BRAM Which is why I waited outside.",
+        "DIANA You said there was a funding matter."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_95f3ef77799b",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA You said there was a funding matter.",
+        "BRAM Fifty thousand dollars. Cash transfer, cleared before opening night."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_8e06e4fa5354",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "DIANA Fifty thousand.",
+        "DIANA Why? You have never shown interest in theater."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_dd6059feef1e",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_010",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "He steps away into the dark.",
+        "Diana watches him go, then looks back at the lit windows of the theater.",
+        "DIANA (to herself) Fifty thousand dollars."
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

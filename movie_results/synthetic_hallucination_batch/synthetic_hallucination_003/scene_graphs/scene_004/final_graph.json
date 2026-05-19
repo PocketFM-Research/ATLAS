@@ -1,0 +1,906 @@
+{
+  "movie_id": "synthetic_hallucination_003__scene_4",
+  "title": "synthetic_hallucination_003",
+  "nodes": [
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "type": "Event",
+      "name": "workshop found ransacked",
+      "aliases": [
+        "workshop found ransacked"
+      ],
+      "description": "The cartographer's workshop is discovered disturbed, with scattered papers, emptied cubbies, and a pried-up floorboard exposing an empty hiding place.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "The workshop has been disturbed. Papers scattered. Cubbies emptied. In the northeast corner, a LOOSE FLOORBOARD has been pried up -- the hiding space beneath it gapes empty."
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "type": "Event",
+      "name": "iron chest discovered missing",
+      "aliases": [
+        "iron chest discovered missing"
+      ],
+      "description": "The scene reveals that the iron chest once hidden in the workshop is gone.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "The IRON CHEST is GONE."
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_003",
+      "type": "Event",
+      "name": "sable enters workshop",
+      "aliases": [
+        "sable enters workshop"
+      ],
+      "description": "Sable enters the workshop and takes in the damage while Felix stands rigidly inside.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "SABLE\n(taking in the damage)\nFelix --",
+        "FELIX stands in the center of the room, rigid. Sable enters behind him."
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "type": "Event",
+      "name": "felix announces map stolen",
+      "aliases": [
+        "felix announces map stolen"
+      ],
+      "description": "Felix states that the map is gone, identifying the theft's key loss.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "FELIX\nThe map is gone."
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "type": "Event",
+      "name": "felix confirms chest was hidden overnight",
+      "aliases": [
+        "felix confirms chest was hidden overnight"
+      ],
+      "description": "Felix checks the empty hiding place and explains that he placed the chest under the floorboard the previous night and that it was still there at midnight.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "FELIX (CONT'D)\nI placed the chest under this board last night. Right here. It was here at midnight.",
+        "He crouches over the loose floorboard, pressing his hand into the empty space beneath."
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "type": "Event",
+      "name": "felix notices sable satchel",
+      "aliases": [
+        "felix notices sable satchel"
+      ],
+      "description": "Felix spots Sable's empty leather satchel with a broken clasp on the floor near his desk and picks it up.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "FELIX\n(standing)\nYour satchel.",
+        "Near FELIX'S DESK, on the floor, lies Sable's LEATHER SATCHEL -- EMPTY, broken clasp hanging open. Felix picks it up."
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "type": "Event",
+      "name": "sable denies leaving satchel",
+      "aliases": [
+        "sable denies leaving satchel"
+      ],
+      "description": "When Felix questions the satchel's presence, Sable says she just arrived and did not leave it there.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "FELIX (CONT'D)\nThis was here when you arrived?",
+        "SABLE\nI just walked in. I did not leave it there."
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "type": "Event",
+      "name": "felix concludes sable was framed",
+      "aliases": [
+        "felix concludes sable was framed"
+      ],
+      "description": "Felix infers that the satchel was planted to make it appear that Sable was responsible.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "FELIX\nBut someone wants it to look as though you did."
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_009",
+      "type": "Event",
+      "name": "sable offers market alibi",
+      "aliases": [
+        "sable offers market alibi"
+      ],
+      "description": "Shaken, Sable insists she was at the market all morning before first bell and says she can prove it.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "SABLE\n(shaken)\nI was not here this morning. I was at the market. All morning, from before first bell. I can prove it."
+      ]
+    },
+    {
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_010",
+      "type": "Event",
+      "name": "felix decides to go to holt",
+      "aliases": [
+        "felix decides to go to holt"
+      ],
+      "description": "Felix responds to Sable's alibi by deciding they should go to Holt.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "FELIX\nThen we go to Holt."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "type": "Character",
+      "name": "Felix",
+      "aliases": [
+        "Felix",
+        "FELIX"
+      ],
+      "description": "The workshop's occupant who discovers the theft, questions Sable, and decides to go to Holt.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "FELIX\nThen we go to Holt.",
+        "FELIX stands in the center of the room, rigid.",
+        "FELIX\nThe map is gone."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "type": "Character",
+      "name": "Sable",
+      "aliases": [
+        "Sable",
+        "SABLE"
+      ],
+      "description": "The woman who enters the workshop, denies leaving the satchel, and offers an alibi at the market.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Sable enters behind him.",
+        "SABLE\nI was not here this morning. I was at the market.",
+        "SABLE\nFelix --"
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_011",
+      "type": "Character",
+      "name": "Holt",
+      "aliases": [
+        "Holt"
+      ],
+      "description": "The person Felix decides they should go to after Sable gives her alibi.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Then we go to Holt."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "type": "Location",
+      "name": "Cartographer's workshop",
+      "aliases": [
+        "Cartographer's workshop",
+        "The workshop",
+        "the room",
+        "CARTOGRAPHER'S WORKSHOP"
+      ],
+      "description": "The interior workshop where the theft and signs of ransacking are discovered.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "FELIX stands in the center of the room, rigid.",
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "The workshop has been disturbed."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "type": "Location",
+      "name": "Felix's desk",
+      "aliases": [
+        "Felix's desk",
+        "FELIX'S DESK"
+      ],
+      "description": "The spot near which Sable's satchel is found on the workshop floor.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Near FELIX'S DESK, on the floor, lies Sable's LEATHER SATCHEL"
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_010",
+      "type": "Location",
+      "name": "market",
+      "aliases": [
+        "market",
+        "the market"
+      ],
+      "description": "The place Sable cites as her whereabouts during the morning as an alibi.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "I was at the market."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_007",
+      "type": "TimePoint",
+      "name": "this morning",
+      "aliases": [
+        "this morning",
+        "All morning",
+        "last night",
+        "midnight",
+        "before first bell"
+      ],
+      "description": "The cluster of explicit time references used to establish when the chest was last seen and where Sable claims to have been.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "I placed the chest under this board last night.",
+        "It was here at midnight.",
+        "I was not here this morning. I was at the market. All morning, from before first bell."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "type": "Object",
+      "name": "loose floorboard",
+      "aliases": [
+        "loose floorboard",
+        "this board",
+        "LOOSE FLOORBOARD"
+      ],
+      "description": "The pried-up floorboard concealing the now-empty hiding space where the chest had been stored.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "I placed the chest under this board last night.",
+        "In the northeast corner, a LOOSE FLOORBOARD has been pried up",
+        "He crouches over the loose floorboard"
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_003",
+      "type": "Object",
+      "name": "iron chest",
+      "aliases": [
+        "iron chest",
+        "IRON CHEST",
+        "The IRON CHEST",
+        "the chest"
+      ],
+      "description": "The hidden chest that has been stolen from beneath the floorboard.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "I placed the chest under this board last night.",
+        "The IRON CHEST is GONE.",
+        "It was here at midnight."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_006",
+      "type": "Object",
+      "name": "map",
+      "aliases": [
+        "map",
+        "the map",
+        "The map"
+      ],
+      "description": "The stolen map that Felix identifies as the key missing item.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "FELIX\nThe map is gone."
+      ]
+    },
+    {
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_008",
+      "type": "Object",
+      "name": "leather satchel",
+      "aliases": [
+        "leather satchel",
+        "LEATHER SATCHEL",
+        "This",
+        "Your satchel",
+        "it"
+      ],
+      "description": "Sable's empty satchel with a broken clasp, apparently planted in the workshop to implicate her.",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "FELIX\nYour satchel.",
+        "lies Sable's LEATHER SATCHEL -- EMPTY, broken clasp hanging open.",
+        "I did not leave it there.",
+        "This was here when you arrived?"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_5eda6580403f",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "In the northeast corner, a LOOSE FLOORBOARD has been pried up"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_2f29f7d03103",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_003",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "The IRON CHEST is GONE.",
+        "I placed the chest under this board last night."
+      ],
+      "confidence": 0.63
+    },
+    {
+      "id": "e_e000ba92593a",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "FELIX stands in the center of the room, rigid."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_d0b1c138cbb7",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Sable enters behind him."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_b9446c4c6970",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_006",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "The map is gone."
+      ],
+      "confidence": 0.51
+    },
+    {
+      "id": "e_b2b54ab346fa",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_008",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Near FELIX'S DESK, on the floor, lies Sable's LEATHER SATCHEL"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_425812a899ca",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "relation": "part_of",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Near FELIX'S DESK, on the floor",
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_1fbc98cbb8a8",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_011",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Then we go to Holt."
+      ],
+      "confidence": 0.34
+    },
+    {
+      "id": "e_bfb05bf700e9",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "The workshop has been disturbed."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_3e8d03267f74",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_003",
+      "relation": "undergoes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "The IRON CHEST is GONE."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_b7eb9e2fb5a7",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "The IRON CHEST is GONE."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_77a92c30576f",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_003",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Sable enters behind him."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_151940b0f757",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "Sable enters behind him."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_84e306d6b09f",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "FELIX",
+        "The map is gone."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_1bcd2880cc35",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "FELIX The map is gone."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_e4c6562a56ec",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "I placed the chest under this board last night. Right here. It was here at midnight."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_67cbfe16804c",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "He crouches over the loose floorboard",
+        "I placed the chest under this board last night."
+      ],
+      "confidence": 0.91
+    },
+    {
+      "id": "e_46ccfec5a850",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "FELIX (standing) Your satchel.",
+        "Felix picks it up."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_884476c65458",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Near FELIX'S DESK, on the floor, lies Sable's LEATHER SATCHEL",
+        "Felix picks it up."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_a8c2d6cdcc64",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "relation": "uses",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_008",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Felix picks it up."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_03d21fb711d5",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "relation": "possesses",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_008",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "lies Sable's LEATHER SATCHEL"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_721396251278",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "SABLE I just walked in. I did not leave it there."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_079f3f6ace91",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "SABLE I just walked in. I did not leave it there."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_ff977b7b3490",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "FELIX But someone wants it to look as though you did."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_05179ba53337",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "But someone wants it to look as though you did."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_422d2a610b1a",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_009",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "SABLE (shaken) I was not here this morning. I was at the market. All morning, from before first bell. I can prove it."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_e1d160bf2fc1",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_009",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "SABLE I was not here this morning. I was at the market."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_fca4aa1e12bb",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_009",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_007",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "I was not here this morning."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_6f560f6f6ebc",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "relation": "located_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_010",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "I was at the market."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_c7c7c167acfd",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_010",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "FELIX Then we go to Holt."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_f274956ced96",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_010",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "Then we go to Holt."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_09e9a569c4bd",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "The workshop has been disturbed.",
+        "The IRON CHEST is GONE."
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_0e7e3fc5091b",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "relation": "causes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "The IRON CHEST is GONE.",
+        "FELIX The map is gone."
+      ],
+      "confidence": 0.74
+    },
+    {
+      "id": "e_1ac80cb1a6b7",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "relation": "causes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Your satchel.",
+        "But someone wants it to look as though you did."
+      ],
+      "confidence": 0.83
+    },
+    {
+      "id": "e_bf9954bf72ea",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "relation": "causes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "I did not leave it there.",
+        "But someone wants it to look as though you did."
+      ],
+      "confidence": 0.78
+    },
+    {
+      "id": "e_ce075611bffd",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "relation": "causes",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_010",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "But someone wants it to look as though you did.",
+        "Then we go to Holt."
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_f18b6cbf5152",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "relation": "references",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "I placed the chest under this board last night. Right here. It was here at midnight.",
+        "The IRON CHEST is GONE."
+      ],
+      "confidence": 0.87
+    },
+    {
+      "id": "e_5e3920ae2ff6",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_009",
+      "relation": "contrasts_with",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "I did not leave it there.",
+        "I was not here this morning. I was at the market."
+      ],
+      "confidence": 0.66
+    },
+    {
+      "id": "e_0ba878ad80bd",
+      "source": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_4_doc_3_chunk_0_ent_011",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "Then we go to Holt."
+      ],
+      "confidence": 0.34
+    },
+    {
+      "id": "e_e1ec3f17a3d4",
+      "source": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "scene_refs": [
+        "4"
+      ],
+      "evidence": [
+        "The workshop has been disturbed.",
+        "The IRON CHEST is GONE."
+      ],
+      "confidence": 0.72
+    }
+  ]
+}

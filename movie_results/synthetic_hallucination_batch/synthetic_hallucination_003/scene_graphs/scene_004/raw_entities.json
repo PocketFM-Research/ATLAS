@@ -1,0 +1,265 @@
+{
+  "4": [
+    {
+      "temp_id": "ent_001",
+      "type": "Location",
+      "surface_forms": [
+        "Cartographer's workshop",
+        "CARTOGRAPHER'S WORKSHOP",
+        "The workshop",
+        "the room"
+      ],
+      "canonical_name": "Cartographer's workshop",
+      "description": "The interior workshop where the theft and signs of ransacking are discovered.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "The workshop has been disturbed.",
+        "FELIX stands in the center of the room, rigid."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_001"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Object",
+      "surface_forms": [
+        "loose floorboard",
+        "LOOSE FLOORBOARD",
+        "this board"
+      ],
+      "canonical_name": "loose floorboard",
+      "description": "The pried-up floorboard concealing the now-empty hiding space where the chest had been stored.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "In the northeast corner, a LOOSE FLOORBOARD has been pried up",
+        "He crouches over the loose floorboard",
+        "I placed the chest under this board last night."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_001",
+        "ev_syntheti_4_doc_3_chunk_0_ev_005"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Object",
+      "surface_forms": [
+        "iron chest",
+        "IRON CHEST",
+        "The IRON CHEST",
+        "the chest"
+      ],
+      "canonical_name": "iron chest",
+      "description": "The hidden chest that has been stolen from beneath the floorboard.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "The IRON CHEST is GONE.",
+        "I placed the chest under this board last night.",
+        "It was here at midnight."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_002",
+        "ev_syntheti_4_doc_3_chunk_0_ev_005"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_003",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Felix",
+        "FELIX"
+      ],
+      "canonical_name": "Felix",
+      "description": "The workshop's occupant who discovers the theft, questions Sable, and decides to go to Holt.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "FELIX stands in the center of the room, rigid.",
+        "FELIX\nThe map is gone.",
+        "FELIX\nThen we go to Holt."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_003",
+        "ev_syntheti_4_doc_3_chunk_0_ev_004",
+        "ev_syntheti_4_doc_3_chunk_0_ev_005",
+        "ev_syntheti_4_doc_3_chunk_0_ev_006",
+        "ev_syntheti_4_doc_3_chunk_0_ev_007",
+        "ev_syntheti_4_doc_3_chunk_0_ev_008",
+        "ev_syntheti_4_doc_3_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Sable",
+        "SABLE"
+      ],
+      "canonical_name": "Sable",
+      "description": "The woman who enters the workshop, denies leaving the satchel, and offers an alibi at the market.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Sable enters behind him.",
+        "SABLE\nFelix --",
+        "SABLE\nI was not here this morning. I was at the market."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_003",
+        "ev_syntheti_4_doc_3_chunk_0_ev_006",
+        "ev_syntheti_4_doc_3_chunk_0_ev_007",
+        "ev_syntheti_4_doc_3_chunk_0_ev_008",
+        "ev_syntheti_4_doc_3_chunk_0_ev_009",
+        "ev_syntheti_4_doc_3_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "map",
+        "The map",
+        "the map"
+      ],
+      "canonical_name": "map",
+      "description": "The stolen map that Felix identifies as the key missing item.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "FELIX\nThe map is gone."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_006",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "TimePoint",
+      "surface_forms": [
+        "this morning",
+        "last night",
+        "midnight",
+        "All morning",
+        "before first bell"
+      ],
+      "canonical_name": "this morning",
+      "description": "The cluster of explicit time references used to establish when the chest was last seen and where Sable claims to have been.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "I placed the chest under this board last night.",
+        "It was here at midnight.",
+        "I was not here this morning. I was at the market. All morning, from before first bell."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_005",
+        "ev_syntheti_4_doc_3_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_007",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "leather satchel",
+        "LEATHER SATCHEL",
+        "Your satchel",
+        "This",
+        "it"
+      ],
+      "canonical_name": "leather satchel",
+      "description": "Sable's empty satchel with a broken clasp, apparently planted in the workshop to implicate her.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "FELIX\nYour satchel.",
+        "lies Sable's LEATHER SATCHEL -- EMPTY, broken clasp hanging open.",
+        "This was here when you arrived?",
+        "I did not leave it there."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_006",
+        "ev_syntheti_4_doc_3_chunk_0_ev_007"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_008",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "Felix's desk",
+        "FELIX'S DESK"
+      ],
+      "canonical_name": "Felix's desk",
+      "description": "The spot near which Sable's satchel is found on the workshop floor.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Near FELIX'S DESK, on the floor, lies Sable's LEATHER SATCHEL"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_006"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "market",
+        "the market"
+      ],
+      "canonical_name": "market",
+      "description": "The place Sable cites as her whereabouts during the morning as an alibi.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "I was at the market."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_010",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Character",
+      "surface_forms": [
+        "Holt"
+      ],
+      "canonical_name": "Holt",
+      "description": "The person Felix decides they should go to after Sable gives her alibi.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Then we go to Holt."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_4_doc_3_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_4_doc_3_chunk_0_ent_011",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    }
+  ]
+}

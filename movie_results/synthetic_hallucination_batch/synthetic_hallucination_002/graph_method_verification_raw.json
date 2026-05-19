@@ -1,0 +1,196 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "injury_cause",
+      "prior_quote": "Enter LEON MARSH ... His LEFT ARM is in a white plaster CAST from wrist to elbow.",
+      "later_quote": "I was fixing a light in my apartment. The ladder slipped. I fell off the ladder.",
+      "reason": "fails B: scene 1 states only that Leon has a cast, not the cause of the injury"
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "Ravenswood_production_count",
+      "prior_quote": "Enter LEON MARSH ... from stage left.",
+      "later_quote": "First production I have done here, for the record. Good to finally work at Ravenswood.",
+      "reason": "fails B: scene 1 shows Leon present at rehearsal, not how many Ravenswood productions he has done"
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "schedule_item",
+      "prior_quote": "Full run-through at four.",
+      "later_quote": "Opening night is FRIDAY. That is five days.",
+      "reason": "fails B: one quote is about rehearsal time, the other about opening-night date"
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "opening_night_day",
+      "prior_quote": "Opening night is FRIDAY.",
+      "later_quote": "Fifty thousand dollars. Cash transfer, cleared before opening night.",
+      "reason": "fails C: scene 5 does not state a different opening-night day"
+    },
+    {
+      "index": 5,
+      "decision": "confirm",
+      "attribute": "clipboard_color",
+      "prior_quote": "DIANA CRANE ... stands center stage gripping a RED CLIPBOARD",
+      "later_quote": "DIANA enters, consulting a BLUE CLIPBOARD.",
+      "reason": "same entity and attribute; red vs blue are different and no on-screen explanation is given"
+    },
+    {
+      "index": 6,
+      "decision": "confirm",
+      "attribute": "injury_cause",
+      "prior_quote": "I was fixing a light in my apartment. The ladder slipped. I fell off the ladder.",
+      "later_quote": "Honestly, the whole thing was a fluke. I was in a car accident -- the other driver ran a red light.",
+      "reason": "same entity and attribute; ladder fall vs car accident conflict and no explanation is given"
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "injury_status_vs_medical_clearance",
+      "prior_quote": "I fell off a ladder.",
+      "later_quote": "The stage physician cleared you for full movement.",
+      "reason": "fails B: injury cause and medical clearance are different attributes"
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "injury_location_vs_medical_clearance",
+      "prior_quote": "I was fixing a light in my apartment.",
+      "later_quote": "The stage physician cleared you for full movement.",
+      "reason": "fails B: injury location and medical clearance are different attributes"
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "opening_night_day",
+      "prior_quote": "Opening night is FRIDAY.",
+      "later_quote": "I moved opening night. It is Saturday now.",
+      "reason": "fails D: scene 7 explicitly explains the change by saying Diana moved opening night"
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "Bram_box_seat_day",
+      "prior_quote": "In return: a seat in the box on Friday",
+      "later_quote": "I moved opening night. It is Saturday now.",
+      "reason": "fails B: the later quote states opening-night day, not Bram's specific box-seat day"
+    },
+    {
+      "index": 11,
+      "decision": "confirm",
+      "attribute": "phone_type",
+      "prior_quote": "She pulls it from her pocket -- an old NOKIA FLIP PHONE",
+      "later_quote": "Diana's SMARTPHONE buzzes on the desk. She picks it up and scrolls.",
+      "reason": "same entity and attribute; flip phone vs smartphone conflict and no explanation is given"
+    },
+    {
+      "index": 12,
+      "decision": "confirm",
+      "attribute": "coffee_machine_working_state",
+      "prior_quote": "a COFFEE MACHINE bears a handwritten OUT OF ORDER sign",
+      "later_quote": "She pours herself a cup and drinks.",
+      "reason": "same entity and attribute; broken vs dispensing coffee conflict and no explanation is given"
+    },
+    {
+      "index": 13,
+      "decision": "reject",
+      "attribute": "carried_bag_type",
+      "prior_quote": "OSCAR VANE ... enters ... carrying a worn LEATHER BRIEFCASE.",
+      "later_quote": "OSCAR enters carrying a CANVAS BACKPACK",
+      "reason": "fails D: carrying a different bag later is an allowed change with no contradiction to a fixed attribute"
+    },
+    {
+      "index": 14,
+      "decision": "confirm",
+      "attribute": "cast_side",
+      "prior_quote": "His LEFT ARM is in a white plaster CAST",
+      "later_quote": "I signed the right arm. He held it out specifically.",
+      "reason": "same entity and attribute; left-arm cast vs right-arm cast conflict and no explanation is given"
+    },
+    {
+      "index": 15,
+      "decision": "reject",
+      "attribute": "role",
+      "prior_quote": "DIANA CRANE ... stands center stage gripping a RED CLIPBOARD",
+      "later_quote": "Diana is at the desk.",
+      "reason": "fails B: clipboard color and being in the production office are different attributes"
+    },
+    {
+      "index": 16,
+      "decision": "reject",
+      "attribute": "role",
+      "prior_quote": "DIANA enters ... consulting a BLUE CLIPBOARD. ... I want Act One clean.",
+      "later_quote": "Diana is at the desk.",
+      "reason": "fails B: leadership in rehearsal and physical location in the office are different attributes"
+    },
+    {
+      "index": 17,
+      "decision": "reject",
+      "attribute": "prop_pistol_color",
+      "prior_quote": "She lifts a SILVER-PAINTED PROP PISTOL",
+      "later_quote": "She removes a GOLD-PAINTED PROP PISTOL ... Properties said the silver was too reflective under stage lights. Gold reads better at distance.",
+      "reason": "fails D: scene 8 explicitly explains why the pistol changed from silver to gold"
+    },
+    {
+      "index": 18,
+      "decision": "confirm",
+      "attribute": "theater_seat_count",
+      "prior_quote": "We have four hundred seats to fill.",
+      "later_quote": "Six hundred seats and every one of them empty tonight.",
+      "reason": "same entity and attribute; 400 vs 600 seats conflict and no explanation is given"
+    },
+    {
+      "index": 19,
+      "decision": "confirm",
+      "attribute": "number_of_acts",
+      "prior_quote": "Three acts. The structure is deliberate.",
+      "later_quote": "End of Act Four! Take five, everyone!",
+      "reason": "same work and attribute; three acts vs act four conflict and no explanation is given"
+    },
+    {
+      "index": 20,
+      "decision": "reject",
+      "attribute": "locked_state",
+      "prior_quote": "Priya takes the pistol, returns it to the cabinet, and locks the padlock again with three spins.",
+      "later_quote": "PRIYA approaches the prop cabinet and unlocks it with a SMALL KEY from her lanyard.",
+      "reason": "fails C: the later quote does not contradict the cabinet being locked; it shows Priya unlocking it"
+    },
+    {
+      "index": 21,
+      "decision": "confirm",
+      "attribute": "funding_amount",
+      "prior_quote": "Fifty thousand dollars. Cash transfer",
+      "later_quote": "Your seventy-five thousand dollars made all of this possible.",
+      "reason": "same entity and attribute; 50,000 vs 75,000 conflict and no explanation is given"
+    },
+    {
+      "index": 22,
+      "decision": "confirm",
+      "attribute": "lanyard_color",
+      "prior_quote": "She wears a YELLOW LANYARD looped around her neck",
+      "later_quote": "She wears a BLUE LANYARD tonight",
+      "reason": "same entity and attribute; yellow vs blue conflict and no explanation is given"
+    },
+    {
+      "index": 23,
+      "decision": "confirm",
+      "attribute": "Ravenswood_production_count",
+      "prior_quote": "First production I have done here, for the record.",
+      "later_quote": "STARRING LEON MARSH IN HIS FIFTH PRODUCTION AT RAVENSWOOD THEATER.",
+      "reason": "same entity and attribute; first vs fifth production conflict and no explanation is given"
+    },
+    {
+      "index": 24,
+      "decision": "confirm",
+      "attribute": "writer_identity",
+      "prior_quote": "The title page reads: A QUIET MACHINE -- written by OSCAR VANE.",
+      "later_quote": "The credits page reads clearly: A QUIET MACHINE -- Written by WILLIAM HARNESS.",
+      "reason": "same work and attribute; Oscar Vane vs William Harness conflict and no explanation is given"
+    }
+  ]
+}

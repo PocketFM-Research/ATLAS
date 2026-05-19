@@ -1,0 +1,208 @@
+{
+  "4": [
+    {
+      "temp_id": "ev_001",
+      "name": "workshop found ransacked",
+      "description": "The cartographer's workshop is discovered disturbed, with scattered papers, emptied cubbies, and a pried-up floorboard exposing an empty hiding place.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "The workshop has been disturbed. Papers scattered. Cubbies emptied. In the northeast corner, a LOOSE FLOORBOARD has been pried up -- the hiding space beneath it gapes empty."
+      ],
+      "participants": [
+        "Cartographer's workshop"
+      ],
+      "location_hint": "CARTOGRAPHER'S WORKSHOP",
+      "time_hint": "DAY",
+      "scope": "global",
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "iron chest discovered missing",
+      "description": "The scene reveals that the iron chest once hidden in the workshop is gone.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "The IRON CHEST is GONE."
+      ],
+      "participants": [
+        "IRON CHEST"
+      ],
+      "location_hint": "CARTOGRAPHER'S WORKSHOP",
+      "time_hint": "DAY",
+      "scope": "global",
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "sable enters workshop",
+      "description": "Sable enters the workshop and takes in the damage while Felix stands rigidly inside.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "FELIX stands in the center of the room, rigid. Sable enters behind him.",
+        "SABLE\n(taking in the damage)\nFelix --"
+      ],
+      "participants": [
+        "Sable",
+        "Felix"
+      ],
+      "location_hint": "CARTOGRAPHER'S WORKSHOP",
+      "time_hint": "DAY",
+      "scope": "local",
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_003",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "felix announces map stolen",
+      "description": "Felix states that the map is gone, identifying the theft's key loss.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "FELIX\nThe map is gone."
+      ],
+      "participants": [
+        "Felix",
+        "map"
+      ],
+      "location_hint": "CARTOGRAPHER'S WORKSHOP",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "felix confirms chest was hidden overnight",
+      "description": "Felix checks the empty hiding place and explains that he placed the chest under the floorboard the previous night and that it was still there at midnight.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "He crouches over the loose floorboard, pressing his hand into the empty space beneath.",
+        "FELIX (CONT'D)\nI placed the chest under this board last night. Right here. It was here at midnight."
+      ],
+      "participants": [
+        "Felix",
+        "IRON CHEST"
+      ],
+      "location_hint": "CARTOGRAPHER'S WORKSHOP",
+      "time_hint": "last night; midnight",
+      "scope": "global",
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "felix notices sable satchel",
+      "description": "Felix spots Sable's empty leather satchel with a broken clasp on the floor near his desk and picks it up.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "FELIX\n(standing)\nYour satchel.",
+        "Near FELIX'S DESK, on the floor, lies Sable's LEATHER SATCHEL -- EMPTY, broken clasp hanging open. Felix picks it up."
+      ],
+      "participants": [
+        "Felix",
+        "Sable",
+        "LEATHER SATCHEL"
+      ],
+      "location_hint": "near FELIX'S DESK in CARTOGRAPHER'S WORKSHOP",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "sable denies leaving satchel",
+      "description": "When Felix questions the satchel's presence, Sable says she just arrived and did not leave it there.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "FELIX (CONT'D)\nThis was here when you arrived?",
+        "SABLE\nI just walked in. I did not leave it there."
+      ],
+      "participants": [
+        "Felix",
+        "Sable",
+        "LEATHER SATCHEL"
+      ],
+      "location_hint": "CARTOGRAPHER'S WORKSHOP",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "felix concludes sable was framed",
+      "description": "Felix infers that the satchel was planted to make it appear that Sable was responsible.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "FELIX\nBut someone wants it to look as though you did."
+      ],
+      "participants": [
+        "Felix",
+        "Sable"
+      ],
+      "location_hint": "CARTOGRAPHER'S WORKSHOP",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ev_009",
+      "name": "sable offers market alibi",
+      "description": "Shaken, Sable insists she was at the market all morning before first bell and says she can prove it.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "SABLE\n(shaken)\nI was not here this morning. I was at the market. All morning, from before first bell. I can prove it."
+      ],
+      "participants": [
+        "Sable"
+      ],
+      "location_hint": "CARTOGRAPHER'S WORKSHOP",
+      "time_hint": "this morning; all morning; from before first bell",
+      "scope": "global",
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_009",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    },
+    {
+      "temp_id": "ev_010",
+      "name": "felix decides to go to holt",
+      "description": "Felix responds to Sable's alibi by deciding they should go to Holt.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "FELIX\nThen we go to Holt."
+      ],
+      "participants": [
+        "Felix",
+        "Sable",
+        "Holt"
+      ],
+      "location_hint": "CARTOGRAPHER'S WORKSHOP",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_4_doc_3_chunk_0_ev_010",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_003__scene_4"
+    }
+  ]
+}

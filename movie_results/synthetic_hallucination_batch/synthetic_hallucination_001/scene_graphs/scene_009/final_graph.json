@@ -1,0 +1,1316 @@
+{
+  "movie_id": "synthetic_hallucination_001__scene_9",
+  "title": "synthetic_hallucination_001",
+  "nodes": [
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_001",
+      "type": "Event",
+      "name": "Elena finds Tom at harbor",
+      "aliases": [
+        "Elena finds Tom at harbor"
+      ],
+      "description": "Elena locates Tom on the dock while he watches a fishing vessel unload, setting up their conversation.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena finds TOM on the dock, watching a fishing vessel unload."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "type": "Event",
+      "name": "Elena follows up with Tom",
+      "aliases": [
+        "Elena follows up with Tom"
+      ],
+      "description": "Elena approaches Tom to continue her inquiry, indicating an ongoing investigation or interview.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "TOM\nChief's generous. What's on your mind?",
+        "ELENA\nChief Briggs. I wanted to follow up."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "type": "Event",
+      "name": "Elena asks lighthouse construction date",
+      "aliases": [
+        "Elena asks lighthouse construction date"
+      ],
+      "description": "Elena questions Tom about when the lighthouse was built.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "ELENA\nThe lighthouse. Can you confirm when it was built?"
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_004",
+      "type": "Event",
+      "name": "Tom dates lighthouse to 1923",
+      "aliases": [
+        "Tom dates lighthouse to 1923"
+      ],
+      "description": "Tom states that the lighthouse was built in 1923 as part of a coastal modernization program involving six towers.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "TOM\n(leaning on a post)\n1923, wasn't it. Part of the coastal modernization program. Six towers built that year along this stretch."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_005",
+      "type": "Event",
+      "name": "Elena records Tom's answer",
+      "aliases": [
+        "Elena records Tom's answer"
+      ],
+      "description": "Elena carefully writes down Tom's information about the lighthouse.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena writes carefully."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "type": "Event",
+      "name": "Elena asks about Marcus personally",
+      "aliases": [
+        "Elena asks about Marcus personally"
+      ],
+      "description": "Elena shifts her questioning from the lighthouse to Marcus himself.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "ELENA\nAnd Marcus -- personally?"
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_007",
+      "type": "Event",
+      "name": "Tom says Marcus has excellent eyesight",
+      "aliases": [
+        "Tom says Marcus has excellent eyesight"
+      ],
+      "description": "Tom describes Marcus as sharp and says he has never needed glasses and can read tide charts from across the room.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "TOM\nGood man. Sharp. Never needed glasses a day in his life, from what I know. Can still read the tide charts from across the room without squinting."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "type": "Event",
+      "name": "Elena reacts and slows note-taking",
+      "aliases": [
+        "Elena reacts and slows note-taking"
+      ],
+      "description": "Elena's pen slows after hearing Tom's statement about Marcus's eyesight, signaling the information matters to her.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena's pen slows.",
+        "ELENA\nRight."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_009",
+      "type": "Event",
+      "name": "Anchor runs to Tom",
+      "aliases": [
+        "Anchor runs to Tom"
+      ],
+      "description": "A golden retriever bounds down the dock and circles Tom's legs.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "A GOLDEN RETRIEVER comes bounding down the dock, circling Tom's legs."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_010",
+      "type": "Event",
+      "name": "Tom identifies dog as Marcus's",
+      "aliases": [
+        "Tom identifies dog as Marcus's"
+      ],
+      "description": "Tom identifies the dog as Anchor and infers that Marcus walked him down that morning.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "TOM\nThat's Anchor. Marcus must have walked him down this morning."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_011",
+      "type": "Event",
+      "name": "Marcus appears on dock",
+      "aliases": [
+        "Marcus appears on dock"
+      ],
+      "description": "Marcus arrives at the far end of the dock, and the dog leaps at his hands, confirming his presence nearby.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Marcus appears at the far end of the dock, the golden retriever leaping at his hands."
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_012",
+      "type": "Event",
+      "name": "Marcus calls out to Elena",
+      "aliases": [
+        "Marcus calls out to Elena"
+      ],
+      "description": "Marcus addresses Elena from down the dock and asks whether she is finished.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "MARCUS\n(calling over)\nMs. Voss. Finished?"
+      ]
+    },
+    {
+      "id": "ev_syntheti_9_doc_8_chunk_0_ev_013",
+      "type": "Event",
+      "name": "Elena notes Marcus after seeing him",
+      "aliases": [
+        "Elena notes Marcus after seeing him"
+      ],
+      "description": "Elena watches the dog with Marcus and adds another note to her legal pad, suggesting she is connecting this observation to her inquiry.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena watches the golden retriever and adds a note to her yellow legal pad."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "type": "Character",
+      "name": "Elena",
+      "aliases": [
+        "Elena",
+        "Ms. Voss",
+        "ELENA"
+      ],
+      "description": "A woman questioning Tom at the harbor and taking notes as she investigates details about the lighthouse and Marcus.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "MARCUS\n(calling over)\nMs. Voss. Finished?",
+        "Elena writes carefully.",
+        "Elena's pen slows.",
+        "Elena finds TOM on the dock, watching a fishing vessel unload.",
+        "ELENA\nChief Briggs. I wanted to follow up.",
+        "Elena watches the golden retriever and adds a note to her yellow legal pad."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "type": "Character",
+      "name": "Tom",
+      "aliases": [
+        "Tom",
+        "Chief Briggs",
+        "Chief",
+        "TOM"
+      ],
+      "description": "A harbor man Elena interviews about the lighthouse and Marcus, whom she addresses as Chief Briggs.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "TOM\nGood man. Sharp.",
+        "TOM\n(leaning on a post)\n1923, wasn't it.",
+        "TOM\nThat's Anchor. Marcus must have walked him down this morning.",
+        "Elena finds TOM on the dock, watching a fishing vessel unload.",
+        "ELENA\nChief Briggs. I wanted to follow up.",
+        "TOM\nChief's generous. What's on your mind?"
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_008",
+      "type": "Character",
+      "name": "Marcus",
+      "aliases": [
+        "Marcus",
+        "MARCUS"
+      ],
+      "description": "The man Elena asks about, described by Tom as sharp-eyed, who later appears at the far end of the dock.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "MARCUS\n(calling over)\nMs. Voss. Finished?",
+        "TOM\nGood man. Sharp.",
+        "TOM\nThat's Anchor. Marcus must have walked him down this morning.",
+        "Marcus appears at the far end of the dock, the golden retriever leaping at his hands.",
+        "ELENA\nAnd Marcus -- personally?"
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_010",
+      "type": "Character",
+      "name": "Anchor",
+      "aliases": [
+        "Anchor",
+        "A GOLDEN RETRIEVER",
+        "the golden retriever"
+      ],
+      "description": "Marcus's dog, a golden retriever that runs to Tom and then leaps at Marcus's hands.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "TOM\nThat's Anchor.",
+        "A GOLDEN RETRIEVER comes bounding down the dock, circling Tom's legs.",
+        "Marcus appears at the far end of the dock, the golden retriever leaping at his hands.",
+        "Elena watches the golden retriever and adds a note to her yellow legal pad."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "type": "Location",
+      "name": "Harbor",
+      "aliases": [
+        "Harbor",
+        "HARBOR"
+      ],
+      "description": "The waterfront setting where Elena meets Tom on the dock and Marcus later appears.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY"
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "type": "TimePoint",
+      "name": "day",
+      "aliases": [
+        "day",
+        "DAY"
+      ],
+      "description": "The daytime setting indicated in the scene heading.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY"
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_006",
+      "type": "TimePoint",
+      "name": "1923",
+      "aliases": [
+        "1923"
+      ],
+      "description": "The year Tom gives as the lighthouse's construction date.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "TOM\n(leaning on a post)\n1923, wasn't it."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_004",
+      "type": "Object",
+      "name": "lighthouse",
+      "aliases": [
+        "lighthouse",
+        "The lighthouse"
+      ],
+      "description": "The structure Elena asks Tom about, including when it was built as part of a modernization program.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "ELENA\nThe lighthouse. Can you confirm when it was built?"
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_009",
+      "type": "Object",
+      "name": "tide charts",
+      "aliases": [
+        "tide charts",
+        "the tide charts"
+      ],
+      "description": "The charts Tom cites as evidence of Marcus's excellent eyesight.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Can still read the tide charts from across the room without squinting."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_011",
+      "type": "Object",
+      "name": "yellow legal pad",
+      "aliases": [
+        "yellow legal pad"
+      ],
+      "description": "The notepad Elena uses to record observations during her conversation and after seeing Marcus with the dog.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena watches the golden retriever and adds a note to her yellow legal pad."
+      ]
+    },
+    {
+      "id": "ent_syntheti_9_doc_8_chunk_0_ent_007",
+      "type": "Concept",
+      "name": "coastal modernization program",
+      "aliases": [
+        "coastal modernization program",
+        "the coastal modernization program"
+      ],
+      "description": "The program Tom says funded the construction of six towers along the coast in 1923.",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Part of the coastal modernization program."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_3fbce7c7394a",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena finds TOM on the dock, watching a fishing vessel unload."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_f1746bd8f108",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY",
+        "Elena finds TOM on the dock, watching a fishing vessel unload."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_6dc9e4f6ddfb",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_5b2f532e6a55",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "ELENA",
+        "Chief Briggs. I wanted to follow up."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_e67ced0cf77e",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY",
+        "Chief Briggs. I wanted to follow up."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_6cc67058bb9f",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_b3d40b10a057",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "ELENA",
+        "The lighthouse. Can you confirm when it was built?"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_958d95c5301c",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY",
+        "The lighthouse. Can you confirm when it was built?"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_423f47067bbe",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_95cc3d82035e",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_004",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "TOM",
+        "1923, wasn't it. Part of the coastal modernization program. Six towers built that year along this stretch."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_f96c7633916d",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY",
+        "1923, wasn't it. Part of the coastal modernization program."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_941fc2e7b7de",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_004",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_cb7b5595d504",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena writes carefully."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_9cf2ce095096",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY",
+        "Elena writes carefully."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_13db015ed2e0",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_005",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_35d980ecba26",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "ELENA",
+        "And Marcus -- personally?"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_2805a37ebd44",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY",
+        "And Marcus -- personally?"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_c24588dc7611",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_5563786016fe",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_007",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "TOM",
+        "Good man. Sharp. Never needed glasses a day in his life, from what I know. Can still read the tide charts from across the room without squinting."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_2d924f0f3c7e",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY",
+        "Good man. Sharp. Never needed glasses a day in his life, from what I know."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_0a5504e600cb",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_007",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_443431bd7d8a",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "relation": "experiences",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena's pen slows.",
+        "ELENA",
+        "Right."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_81cfb840f0ce",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY",
+        "Elena's pen slows."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_8bfb29700a28",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_d3b9b3ddf525",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_010",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_009",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "A GOLDEN RETRIEVER comes bounding down the dock, circling Tom's legs."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_fb59e0b35901",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_009",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY",
+        "A GOLDEN RETRIEVER comes bounding down the dock, circling Tom's legs."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_269152c2ea0a",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_009",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_8bce5f647902",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_010",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "TOM",
+        "That's Anchor. Marcus must have walked him down this morning."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_0101b01f45c8",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_010",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY",
+        "That's Anchor. Marcus must have walked him down this morning."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_4c2934009073",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_010",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_fedcc6022bbb",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_008",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_011",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Marcus appears at the far end of the dock, the golden retriever leaping at his hands."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_7c53a860e99c",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_011",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY",
+        "Marcus appears at the far end of the dock"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_189cd6bdfe34",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_011",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_ec315d61d650",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_008",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_012",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "MARCUS",
+        "(calling over)",
+        "Ms. Voss. Finished?"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_54fa24bef651",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_012",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY",
+        "MARCUS",
+        "Ms. Voss. Finished?"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_038a6c24f2a3",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_012",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_98d32f98dc45",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_013",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena watches the golden retriever and adds a note to her yellow legal pad."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_8ae80dcfcf36",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_013",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY",
+        "Elena watches the golden retriever and adds a note to her yellow legal pad."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_732e77f94cab",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_013",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_20d72058772e",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "relation": "located_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "EXT. HARBOR - DAY",
+        "Elena finds TOM on the dock"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_99046ad7fc14",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "relation": "located_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena finds TOM on the dock, watching a fishing vessel unload."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_02c46b23da08",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_008",
+      "relation": "located_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Marcus appears at the far end of the dock"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_589486799a2b",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_010",
+      "relation": "located_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "A GOLDEN RETRIEVER comes bounding down the dock",
+        "the golden retriever leaping at his hands"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_97e84fc2f8b9",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_004",
+      "relation": "located_at",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "The lighthouse. Can you confirm when it was built?",
+        "Part of the coastal modernization program. Six towers built that year along this stretch."
+      ],
+      "confidence": 0.62
+    },
+    {
+      "id": "e_8a904fcc49bd",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_007",
+      "relation": "present_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_006",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "1923, wasn't it. Part of the coastal modernization program."
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_dadfa8c98d11",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_002",
+      "relation": "uses",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_009",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Can still read the tide charts from across the room without squinting."
+      ],
+      "confidence": 0.52
+    },
+    {
+      "id": "e_fc71761f69a8",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "relation": "possesses",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_011",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena watches the golden retriever and adds a note to her yellow legal pad."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_24ce32cde53d",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_001",
+      "relation": "uses",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_011",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena writes carefully.",
+        "Elena watches the golden retriever and adds a note to her yellow legal pad."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_4fb886274a21",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_004",
+      "relation": "is_a",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_007",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "1923, wasn't it. Part of the coastal modernization program."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_6a16dcb51c82",
+      "source": "ent_syntheti_9_doc_8_chunk_0_ent_004",
+      "relation": "present_on",
+      "target": "ent_syntheti_9_doc_8_chunk_0_ent_006",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "1923, wasn't it."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_94cbf6f32908",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena finds TOM on the dock",
+        "ELENA Chief Briggs. I wanted to follow up."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_4f49b53ae5a5",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "relation": "precedes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Chief Briggs. I wanted to follow up.",
+        "The lighthouse. Can you confirm when it was built?"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_ff1c9d4c1b5e",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "relation": "causes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_004",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "The lighthouse. Can you confirm when it was built?",
+        "1923, wasn't it."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_5ec280ecfac2",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_004",
+      "relation": "causes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "1923, wasn't it. Part of the coastal modernization program.",
+        "Elena writes carefully."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_7cfae2f72f4d",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_005",
+      "relation": "precedes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena writes carefully.",
+        "And Marcus -- personally?"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_9d50de22c29e",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "relation": "causes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_007",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "And Marcus -- personally?",
+        "Good man. Sharp. Never needed glasses a day in his life"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_b05085db821b",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_007",
+      "relation": "causes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Can still read the tide charts from across the room without squinting.",
+        "Elena's pen slows."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_5dc14d07e04c",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "relation": "precedes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_009",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena's pen slows.",
+        "A GOLDEN RETRIEVER comes bounding down the dock"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_69903161f7c9",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_009",
+      "relation": "causes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_010",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "A GOLDEN RETRIEVER comes bounding down the dock, circling Tom's legs.",
+        "That's Anchor. Marcus must have walked him down this morning."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_95467390022f",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_010",
+      "relation": "precedes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_011",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "That's Anchor. Marcus must have walked him down this morning.",
+        "Marcus appears at the far end of the dock"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_9685dae895f1",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_011",
+      "relation": "causes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_012",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Marcus appears at the far end of the dock",
+        "MARCUS (calling over) Ms. Voss. Finished?"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_e3d09426f910",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_012",
+      "relation": "causes",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_013",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Ms. Voss. Finished?",
+        "Elena watches the golden retriever and adds a note to her yellow legal pad."
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_b289bbd28bdb",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_001",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena finds TOM on the dock",
+        "ELENA Chief Briggs. I wanted to follow up."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_098af6351e5c",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_003",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_002",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Chief Briggs. I wanted to follow up.",
+        "The lighthouse. Can you confirm when it was built?"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_5a4a248f7a8c",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_006",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_005",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena writes carefully.",
+        "And Marcus -- personally?"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_515b65eeadee",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_009",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_008",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "Elena's pen slows.",
+        "A GOLDEN RETRIEVER comes bounding down the dock"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_f5c0c910b825",
+      "source": "ev_syntheti_9_doc_8_chunk_0_ev_011",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_9_doc_8_chunk_0_ev_010",
+      "scene_refs": [
+        "9"
+      ],
+      "evidence": [
+        "That's Anchor. Marcus must have walked him down this morning.",
+        "Marcus appears at the far end of the dock"
+      ],
+      "confidence": 0.93
+    }
+  ]
+}

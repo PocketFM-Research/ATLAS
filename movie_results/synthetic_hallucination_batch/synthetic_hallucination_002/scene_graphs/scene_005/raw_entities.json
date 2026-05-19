@@ -1,0 +1,305 @@
+{
+  "5": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Diana Crane",
+        "Diana",
+        "DIANA",
+        "Ms. Crane"
+      ],
+      "canonical_name": "Diana Crane",
+      "description": "A theater-associated woman interrupted during rehearsal who negotiates and accepts Bram Holloway's sponsorship offer.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "Diana steps out through a side door into the narrow alley behind the theater.",
+        "BRAM\nMs. Crane. I have been waiting.",
+        "DIANA\nWe are mid-rehearsal.",
+        "DIANA\nI will have the paperwork by morning.",
+        "DIANA\n(to herself)\nFifty thousand dollars."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_5_doc_4_chunk_0_ev_001",
+        "ev_syntheti_5_doc_4_chunk_0_ev_002",
+        "ev_syntheti_5_doc_4_chunk_0_ev_003",
+        "ev_syntheti_5_doc_4_chunk_0_ev_004",
+        "ev_syntheti_5_doc_4_chunk_0_ev_005",
+        "ev_syntheti_5_doc_4_chunk_0_ev_006",
+        "ev_syntheti_5_doc_4_chunk_0_ev_007",
+        "ev_syntheti_5_doc_4_chunk_0_ev_008",
+        "ev_syntheti_5_doc_4_chunk_0_ev_009",
+        "ev_syntheti_5_doc_4_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "movie_id": "synthetic_hallucination_002__scene_5"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Bram Holloway",
+        "BRAM HOLLOWAY",
+        "BRAM"
+      ],
+      "canonical_name": "Bram Holloway",
+      "description": "A well-dressed man waiting in the alley who offers Diana fifty thousand dollars in sponsorship under limited terms.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "BRAM HOLLOWAY (50s, precise, well-dressed) checks his watch as she approaches.",
+        "BRAM\nMs. Crane. I have been waiting.",
+        "BRAM\nFifty thousand dollars. Cash transfer, cleared before opening night.",
+        "BRAM\nThat is all.",
+        "BRAM\nI look forward to Friday."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_5_doc_4_chunk_0_ev_001",
+        "ev_syntheti_5_doc_4_chunk_0_ev_002",
+        "ev_syntheti_5_doc_4_chunk_0_ev_003",
+        "ev_syntheti_5_doc_4_chunk_0_ev_004",
+        "ev_syntheti_5_doc_4_chunk_0_ev_005",
+        "ev_syntheti_5_doc_4_chunk_0_ev_006",
+        "ev_syntheti_5_doc_4_chunk_0_ev_007",
+        "ev_syntheti_5_doc_4_chunk_0_ev_008",
+        "ev_syntheti_5_doc_4_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "movie_id": "synthetic_hallucination_002__scene_5"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Location",
+      "surface_forms": [
+        "Ravenswood Theater",
+        "RAVENSWOOD THEATER"
+      ],
+      "canonical_name": "Ravenswood Theater",
+      "description": "The theater where rehearsal is underway and beside which Diana meets Bram in the alley.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT",
+        "Diana steps out through a side door into the narrow alley behind the theater.",
+        "Diana watches him go, then looks back at the lit windows of the theater."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_5_doc_4_chunk_0_ev_001",
+        "ev_syntheti_5_doc_4_chunk_0_ev_002",
+        "ev_syntheti_5_doc_4_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "movie_id": "synthetic_hallucination_002__scene_5"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Night",
+        "NIGHT"
+      ],
+      "canonical_name": "Night",
+      "description": "The nighttime setting of the alley meeting outside the theater.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "EXT. RAVENSWOOD THEATER - ALLEY - NIGHT"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_5_doc_4_chunk_0_ev_001"
+      ],
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "movie_id": "synthetic_hallucination_002__scene_5"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Concept",
+      "surface_forms": [
+        "funding matter"
+      ],
+      "canonical_name": "funding matter",
+      "description": "The financial issue Diana asks Bram to explain, which leads into his sponsorship proposal.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "DIANA\nYou said there was a funding matter."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_5_doc_4_chunk_0_ev_003"
+      ],
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "movie_id": "synthetic_hallucination_002__scene_5"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Concept",
+      "surface_forms": [
+        "fifty thousand dollars",
+        "Fifty thousand dollars",
+        "Fifty thousand"
+      ],
+      "canonical_name": "fifty thousand dollars",
+      "description": "The amount of money Bram offers Diana, which shocks her and becomes the focus of the agreement.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "BRAM\nFifty thousand dollars. Cash transfer, cleared before opening night.",
+        "DIANA\nFifty thousand.",
+        "BRAM\nFifty thousand dollars.",
+        "DIANA\n(to herself)\nFifty thousand dollars."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_5_doc_4_chunk_0_ev_004",
+        "ev_syntheti_5_doc_4_chunk_0_ev_005",
+        "ev_syntheti_5_doc_4_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_006",
+      "movie_id": "synthetic_hallucination_002__scene_5"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "TimePoint",
+      "surface_forms": [
+        "opening night"
+      ],
+      "canonical_name": "opening night",
+      "description": "The deadline by which Bram says the cash transfer will clear.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "Cash transfer, cleared before opening night."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_5_doc_4_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_007",
+      "movie_id": "synthetic_hallucination_002__scene_5"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "box seat",
+        "a seat in the box",
+        "Box seat"
+      ],
+      "canonical_name": "box seat",
+      "description": "One of the specific benefits Bram requests in exchange for his sponsorship money.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "In return: a seat in the box on Friday",
+        "DIANA\nAnd your terms are only what you said. Box seat. Program credit."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_5_doc_4_chunk_0_ev_004",
+        "ev_syntheti_5_doc_4_chunk_0_ev_007"
+      ],
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_008",
+      "movie_id": "synthetic_hallucination_002__scene_5"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Friday"
+      ],
+      "canonical_name": "Friday",
+      "description": "The day tied to Bram's requested box seat and the future occasion he says he looks forward to.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "a seat in the box on Friday",
+        "BRAM\nI look forward to Friday."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_5_doc_4_chunk_0_ev_004",
+        "ev_syntheti_5_doc_4_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_009",
+      "movie_id": "synthetic_hallucination_002__scene_5"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Concept",
+      "surface_forms": [
+        "program credit",
+        "the program",
+        "Program credit"
+      ],
+      "canonical_name": "program credit",
+      "description": "The mention in the theater program that Bram requests as part of the deal.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "and a mention in the program.",
+        "DIANA\nAnd your terms are only what you said. Box seat. Program credit."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_5_doc_4_chunk_0_ev_004",
+        "ev_syntheti_5_doc_4_chunk_0_ev_007"
+      ],
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_010",
+      "movie_id": "synthetic_hallucination_002__scene_5"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Vehicle",
+      "surface_forms": [
+        "cab",
+        "A cab"
+      ],
+      "canonical_name": "cab",
+      "description": "A passing taxi that briefly punctuates the silence during Diana and Bram's negotiation.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "A cab passes the mouth of the alley."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_5_doc_4_chunk_0_ev_005"
+      ],
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "movie_id": "synthetic_hallucination_002__scene_5"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "paperwork"
+      ],
+      "canonical_name": "paperwork",
+      "description": "The formal documents Diana promises to prepare by morning after accepting Bram's offer.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "DIANA\nI will have the paperwork by morning."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_5_doc_4_chunk_0_ev_008"
+      ],
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_012",
+      "movie_id": "synthetic_hallucination_002__scene_5"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "TimePoint",
+      "surface_forms": [
+        "morning"
+      ],
+      "canonical_name": "morning",
+      "description": "The time by which Diana says she will have the paperwork ready.",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0",
+      "evidence": [
+        "DIANA\nI will have the paperwork by morning."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_5_doc_4_chunk_0_ev_008"
+      ],
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_013",
+      "movie_id": "synthetic_hallucination_002__scene_5"
+    }
+  ]
+}

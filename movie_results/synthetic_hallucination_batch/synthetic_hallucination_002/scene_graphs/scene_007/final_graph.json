@@ -1,0 +1,1036 @@
+{
+  "movie_id": "synthetic_hallucination_002__scene_7",
+  "title": "synthetic_hallucination_002",
+  "nodes": [
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_001",
+      "type": "Event",
+      "name": "Oscar arrives at production office",
+      "aliases": [
+        "Oscar arrives at production office"
+      ],
+      "description": "Oscar enters the production office carrying a canvas backpack and settles into the room with Diana.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Diana is at the desk. OSCAR enters carrying a CANVAS BACKPACK, which he drops over the back of a chair."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_002",
+      "type": "Event",
+      "name": "Diana moves opening night",
+      "aliases": [
+        "Diana moves opening night"
+      ],
+      "description": "Diana informs Oscar that opening night has been rescheduled to Saturday because new funding required another rehearsal day.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "DIANA\nSaturday. Eight o'clock curtain.",
+        "DIANA\nI moved opening night. It is Saturday now. The new funding required one additional rehearsal day."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_003",
+      "type": "Event",
+      "name": "Oscar prepares with script",
+      "aliases": [
+        "Oscar prepares with script"
+      ],
+      "description": "Oscar sits down and takes the script out of his backpack, signaling readiness to discuss or work.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Oscar sits and pulls the script from his canvas backpack."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_004",
+      "type": "Event",
+      "name": "Diana confirms new opening time by phone",
+      "aliases": [
+        "Diana confirms new opening time by phone"
+      ],
+      "description": "After her smartphone buzzes, Diana answers and confirms that opening night is Saturday at eight o'clock.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "DIANA (CONT'D)\n(into phone)\nYes, confirmed Saturday. Eight o'clock.",
+        "Diana's SMARTPHONE buzzes on the desk. She picks it up and scrolls."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_005",
+      "type": "Event",
+      "name": "Diana takes coffee",
+      "aliases": [
+        "Diana takes coffee"
+      ],
+      "description": "Diana moves to the coffee machine, pours herself coffee, and drinks while the conversation continues.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "She sets the phone down and crosses to the COFFEE MACHINE. She pours herself a cup and drinks."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_006",
+      "type": "Event",
+      "name": "Oscar reports Leon's unusual cheerfulness",
+      "aliases": [
+        "Oscar reports Leon's unusual cheerfulness"
+      ],
+      "description": "Oscar tells Diana that Leon approached him that morning in an unexpectedly cheerful mood.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR\nLeon came to me this morning. He was cheerful."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_007",
+      "type": "Event",
+      "name": "Oscar says he signed Leon's cast",
+      "aliases": [
+        "Oscar says he signed Leon's cast"
+      ],
+      "description": "Oscar reveals that he signed Leon's cast and that Leon appeared to want the interaction.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR\nI signed his cast. He seemed to want it."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_008",
+      "type": "Event",
+      "name": "Oscar raises concern about Leon's right side",
+      "aliases": [
+        "Oscar raises concern about Leon's right side"
+      ],
+      "description": "Oscar explains that Leon was guarding his right side all morning and specifically presented his right arm to be signed, implying a possible issue.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR\nI signed the right arm. He held it out specifically.",
+        "OSCAR\nHe was protecting the right side all morning. More than the left."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_009",
+      "type": "Event",
+      "name": "Diana dismisses Leon's behavior",
+      "aliases": [
+        "Diana dismisses Leon's behavior"
+      ],
+      "description": "Diana first questions the relevance of Oscar's report to opening night and then attributes Leon's behavior to compensation rather than responding with concern.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "DIANA\nHe is compensating.",
+        "Diana pours a second cup of coffee and does not respond.",
+        "DIANA\nHow is that relevant to opening night?"
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "type": "Character",
+      "name": "Diana",
+      "aliases": [
+        "Diana",
+        "Diana's",
+        "DIANA"
+      ],
+      "description": "Diana is in the production office, informs Oscar about the rescheduled opening night, answers a phone call, and drinks coffee while discussing Leon.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Diana is at the desk.",
+        "She sets the phone down and crosses to the COFFEE MACHINE.",
+        "DIANA\nI moved opening night. It is Saturday now.",
+        "Diana's SMARTPHONE buzzes on the desk.",
+        "DIANA (CONT'D)\n(into phone)\nYes, confirmed Saturday. Eight o'clock."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "type": "Character",
+      "name": "Oscar",
+      "aliases": [
+        "Oscar",
+        "OSCAR"
+      ],
+      "description": "Oscar arrives carrying a backpack, takes out a script, and reports his observations about Leon to Diana.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR\nSaturday.",
+        "Oscar sits and pulls the script from his canvas backpack.",
+        "OSCAR\nI signed his cast. He seemed to want it.",
+        "OSCAR\nLeon came to me this morning. He was cheerful.",
+        "OSCAR enters carrying a CANVAS BACKPACK"
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_003",
+      "type": "Character",
+      "name": "Leon",
+      "aliases": [
+        "Leon"
+      ],
+      "description": "Leon is discussed as having approached Oscar cheerfully, wearing a cast, and guarding his right side.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "DIANA\nHe is compensating.",
+        "OSCAR\nI signed his cast. He seemed to want it.",
+        "OSCAR\nLeon came to me this morning. He was cheerful."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "type": "Location",
+      "name": "Ravenswood Theater - Production Office",
+      "aliases": [
+        "Ravenswood Theater - Production Office",
+        "RAVENSWOOD THEATER - PRODUCTION OFFICE"
+      ],
+      "description": "The production office inside Ravenswood Theater is the setting where Diana and Oscar discuss the schedule and Leon.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_005",
+      "type": "TimePoint",
+      "name": "Day",
+      "aliases": [
+        "Day",
+        "DAY"
+      ],
+      "description": "The scene takes place during the day.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_006",
+      "type": "TimePoint",
+      "name": "Saturday",
+      "aliases": [
+        "Saturday"
+      ],
+      "description": "Saturday is the newly scheduled day for opening night.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "DIANA\nSaturday. Eight o'clock curtain.",
+        "OSCAR\nSaturday.",
+        "Yes, confirmed Saturday.",
+        "It is Saturday now."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "type": "TimePoint",
+      "name": "Eight o'clock",
+      "aliases": [
+        "Eight o'clock",
+        "eight o'clock"
+      ],
+      "description": "Eight o'clock is the confirmed curtain time for opening night.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "DIANA\nSaturday. Eight o'clock curtain.",
+        "Yes, confirmed Saturday. Eight o'clock."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_010",
+      "type": "Object",
+      "name": "canvas backpack",
+      "aliases": [
+        "canvas backpack",
+        "CANVAS BACKPACK"
+      ],
+      "description": "Oscar carries a canvas backpack into the office and pulls the script from it.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR enters carrying a CANVAS BACKPACK",
+        "Oscar sits and pulls the script from his canvas backpack."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_011",
+      "type": "Object",
+      "name": "script",
+      "aliases": [
+        "script",
+        "the script"
+      ],
+      "description": "The script is the document Oscar takes out of his backpack as he prepares to work.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Oscar sits and pulls the script from his canvas backpack."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_012",
+      "type": "Object",
+      "name": "smartphone",
+      "aliases": [
+        "smartphone",
+        "SMARTPHONE",
+        "phone"
+      ],
+      "description": "Diana's smartphone buzzes on the desk, prompting her to confirm the new opening time by phone.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "DIANA (CONT'D)\n(into phone)\nYes, confirmed Saturday. Eight o'clock.",
+        "She sets the phone down",
+        "Diana's SMARTPHONE buzzes on the desk."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_013",
+      "type": "Object",
+      "name": "coffee machine",
+      "aliases": [
+        "coffee machine",
+        "COFFEE MACHINE"
+      ],
+      "description": "The coffee machine is where Diana pours coffee during the conversation.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "She sets the phone down and crosses to the COFFEE MACHINE."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_014",
+      "type": "Object",
+      "name": "coffee",
+      "aliases": [
+        "coffee",
+        "cup"
+      ],
+      "description": "Diana pours and drinks coffee, then pours a second cup while listening to Oscar.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Diana pours a second cup of coffee and does not respond.",
+        "She pours herself a cup and drinks."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_015",
+      "type": "Object",
+      "name": "cast",
+      "aliases": [
+        "cast"
+      ],
+      "description": "Leon's cast is the object Oscar says he signed, central to his observations about Leon's condition.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR\nI signed his cast. He seemed to want it."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_008",
+      "type": "Concept",
+      "name": "opening night",
+      "aliases": [
+        "opening night"
+      ],
+      "description": "Opening night is the production milestone whose date and time Diana discusses with Oscar and confirms by phone.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "I moved opening night.",
+        "How is that relevant to opening night?"
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_009",
+      "type": "Concept",
+      "name": "new funding",
+      "aliases": [
+        "new funding"
+      ],
+      "description": "New funding is cited by Diana as the reason an additional rehearsal day was needed and opening night was moved.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "The new funding required one additional rehearsal day."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_016",
+      "type": "Concept",
+      "name": "Leon's right side",
+      "aliases": [
+        "Leon's right side",
+        "the left",
+        "right arm",
+        "right side",
+        "the right side"
+      ],
+      "description": "Leon's right side, especially his right arm, is the bodily area Oscar highlights as unusually protected and specifically offered for signing.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "I signed the right arm. He held it out specifically.",
+        "He was protecting the right side all morning. More than the left."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_b19cb7a937ab",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_001",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR enters carrying a CANVAS BACKPACK"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_fceb259f8ae5",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY",
+        "OSCAR enters carrying a CANVAS BACKPACK"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_edae405b40ca",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_005",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_04dd1c9256c4",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_002",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "DIANA I moved opening night. It is Saturday now."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_a9d8f96d7469",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY",
+        "DIANA I moved opening night. It is Saturday now."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_af8af6e75e3c",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_002",
+      "relation": "references",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "I moved opening night. It is Saturday now.",
+        "Yes, confirmed Saturday. Eight o'clock."
+      ],
+      "confidence": 0.82
+    },
+    {
+      "id": "e_5fa85e3c38fc",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "DIANA (CONT'D) (into phone) Yes, confirmed Saturday. Eight o'clock."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_c73a5bd3e9e0",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY",
+        "Diana's SMARTPHONE buzzes on the desk. She picks it up and scrolls.",
+        "Yes, confirmed Saturday. Eight o'clock."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_7a05d66a992b",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "uses",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_012",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Diana's SMARTPHONE buzzes on the desk. She picks it up and scrolls.",
+        "(into phone) Yes, confirmed Saturday. Eight o'clock."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_ddb5e2c80998",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_012",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Diana's SMARTPHONE buzzes on the desk."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_fd61904162b2",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_005",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "She pours herself a cup and drinks."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_349052db5778",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY",
+        "She pours herself a cup and drinks."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_565dcf669a9b",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "uses",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_013",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "She sets the phone down and crosses to the COFFEE MACHINE. She pours herself a cup and drinks."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_af910e26f225",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "possesses",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_014",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "She pours herself a cup and drinks.",
+        "Diana pours a second cup of coffee"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_2d7da5d02cfc",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_013",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "She sets the phone down and crosses to the COFFEE MACHINE."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_4e812894203e",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_014",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "She pours herself a cup and drinks.",
+        "Diana pours a second cup of coffee"
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_6456260583e3",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_003",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Oscar sits and pulls the script from his canvas backpack."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_b020b9f54d63",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY",
+        "Oscar sits and pulls the script from his canvas backpack."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_3d62dbcfacd1",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "possesses",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_010",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR enters carrying a CANVAS BACKPACK",
+        "Oscar sits and pulls the script from his canvas backpack."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_ecd0104320a9",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "possesses",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_011",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Oscar sits and pulls the script from his canvas backpack."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_179cd1ba61d1",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_010",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR enters carrying a CANVAS BACKPACK, which he drops over the back of a chair."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_2ab6daaa398e",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_011",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Oscar sits and pulls the script from his canvas backpack."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_38e206bb491e",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_006",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR Leon came to me this morning. He was cheerful."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_49626cf5a9ec",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY",
+        "OSCAR Leon came to me this morning. He was cheerful."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_87ded4abef1a",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_006",
+      "relation": "references",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_009",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR Leon came to me this morning. He was cheerful.",
+        "DIANA He is compensating."
+      ],
+      "confidence": 0.61
+    },
+    {
+      "id": "e_05bc202d16d9",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR I signed his cast. He seemed to want it."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_fa719b058b11",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_003",
+      "relation": "undergoes",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "I signed his cast."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_d65889c96040",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY",
+        "OSCAR I signed his cast. He seemed to want it."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_c0b9c2ffb9eb",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_015",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "I signed his cast."
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_c7bb509d9d9d",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_008",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR He was protecting the right side all morning. More than the left."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_b1c5c1e3a923",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY",
+        "OSCAR He was protecting the right side all morning. More than the left."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_6d3bd64680b9",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_008",
+      "relation": "references",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "I signed his cast.",
+        "He was protecting the right side all morning."
+      ],
+      "confidence": 0.74
+    },
+    {
+      "id": "e_af0536ffe19d",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_009",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "DIANA How is that relevant to opening night?",
+        "DIANA He is compensating."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_bf936bc5f249",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_009",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY",
+        "DIANA He is compensating."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_3bedd3d88d0c",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_009",
+      "relation": "references",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_008",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "He was protecting the right side all morning. More than the left.",
+        "He is compensating."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_208f0d17d7bf",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_003",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR enters carrying a CANVAS BACKPACK",
+        "Oscar sits and pulls the script from his canvas backpack."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_707b84faa311",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_002",
+      "relation": "causes",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "I moved opening night. It is Saturday now.",
+        "Yes, confirmed Saturday. Eight o'clock."
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_fa5d1e56504c",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "present_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_005",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY",
+        "Diana is at the desk."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_c28fb928f020",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "present_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_005",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY",
+        "OSCAR enters carrying a CANVAS BACKPACK"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_9b65f9b653ae",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Diana is at the desk."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_1b8b2a648489",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR enters carrying a CANVAS BACKPACK",
+        "Oscar sits"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_99ff9334d2a0",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_008",
+      "relation": "present_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_006",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "I moved opening night. It is Saturday now."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_d34c5ac8239a",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_008",
+      "relation": "present_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Saturday. Eight o'clock curtain.",
+        "Yes, confirmed Saturday. Eight o'clock."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_2a8a3d57275b",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_009",
+      "relation": "present_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_006",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "The new funding required one additional rehearsal day.",
+        "It is Saturday now."
+      ],
+      "confidence": 0.58
+    },
+    {
+      "id": "e_995bff81b539",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_003",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_001",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "OSCAR enters carrying a CANVAS BACKPACK",
+        "Oscar sits and pulls the script from his canvas backpack."
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

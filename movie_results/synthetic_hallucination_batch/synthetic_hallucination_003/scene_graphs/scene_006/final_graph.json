@@ -1,0 +1,762 @@
+{
+  "movie_id": "synthetic_hallucination_003__scene_6",
+  "title": "synthetic_hallucination_003",
+  "nodes": [
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "type": "Event",
+      "name": "Felix and Sable ride forest road",
+      "aliases": [
+        "Felix and Sable ride forest road"
+      ],
+      "description": "Felix and Sable travel quickly together along a dirt road through the forest.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Felix and Sable ride a dirt road through tall pines, moving at pace.",
+        "Sable rides beside Felix, her long dark brown hair pulled back under a riding hood."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "type": "Event",
+      "name": "Felix predicts Wren's smuggling route",
+      "aliases": [
+        "Felix predicts Wren's smuggling route"
+      ],
+      "description": "Felix states that if Wren has the map, he will move it through the eastern fences as he has done before.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "FELIX\nIf Wren has the map he will move it through the eastern fences. He has done it before."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "type": "Event",
+      "name": "Felix identifies Wren as powerful nobleman",
+      "aliases": [
+        "Felix identifies Wren as powerful nobleman"
+      ],
+      "description": "Felix explains his certainty by revealing that Wren is a nobleman with influence across three provinces.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "FELIX\nBecause of who he is. A nobleman with reach across three provinces.",
+        "SABLE\nHow can you be certain?"
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "type": "Event",
+      "name": "Felix says thief described wrong map",
+      "aliases": [
+        "Felix says thief described wrong map"
+      ],
+      "description": "Felix explains that the thief's description matched a convincing but incorrect version of the map.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "FELIX\nThey described a map of the Northern Reaches drawn in red ink on reinforced parchment. That matches the work closely -- closely enough that someone who had seen it briefly or heard it described secondhand might believe it.",
+        "SABLE\nWhat about the description the thief gave? You said it was wrong."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "type": "Event",
+      "name": "Felix cites Holt's fence report",
+      "aliases": [
+        "Felix cites Holt's fence report"
+      ],
+      "description": "Felix confirms that the red-ink description came from how Holt said the fence described the map.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "SABLE\nRed ink.",
+        "FELIX\nThat is how Holt said the fence described it."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "type": "Event",
+      "name": "Felix explains thieves searched old hiding place",
+      "aliases": [
+        "Felix explains thieves searched old hiding place"
+      ],
+      "description": "Felix says the thieves must have previously seen the map in his wooden box on the window alcove shelf and assumed it was still there.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "SABLE\nAnd the chest -- where they found it. The window alcove?",
+        "FELIX\nThey must have seen it earlier in the wooden box I kept on the alcove shelf. They assumed it was still there when they came back for it."
+      ]
+    },
+    {
+      "id": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "type": "Event",
+      "name": "Felix reveals he moved the map",
+      "aliases": [
+        "Felix reveals he moved the map"
+      ],
+      "description": "Felix states that the map was no longer in the alcove because he had moved it, though not soon enough to prevent the larger problem.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "SABLE\nBut it was not.",
+        "FELIX\nNo. I had moved it. Too late, as it turns out."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "type": "Character",
+      "name": "Felix",
+      "aliases": [
+        "Felix",
+        "FELIX"
+      ],
+      "description": "Felix rides through the forest with Sable and explains his reasoning about Wren, the map, and the thieves.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "FELIX\nIf Wren has the map he will move it through the eastern fences.",
+        "Felix and Sable ride a dirt road through tall pines, moving at pace.",
+        "FELIX\nNo. I had moved it. Too late, as it turns out."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "type": "Character",
+      "name": "Sable",
+      "aliases": [
+        "Sable",
+        "SABLE"
+      ],
+      "description": "Sable rides beside Felix and questions him about Wren, the map description, and where the thieves searched.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Felix and Sable ride a dirt road through tall pines, moving at pace.",
+        "Sable rides beside Felix, her long dark brown hair pulled back under a riding hood.",
+        "SABLE\nHow can you be certain?"
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "type": "Character",
+      "name": "Wren",
+      "aliases": [
+        "Wren"
+      ],
+      "description": "Wren is the influential nobleman Felix suspects would move the map through the eastern fences.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "If Wren has the map he will move it through the eastern fences.",
+        "Because of who he is. A nobleman with reach across three provinces."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_007",
+      "type": "Character",
+      "name": "the thief",
+      "aliases": [
+        "the thief"
+      ],
+      "description": "The thief is the person whose incorrect description of the map prompts Felix's explanation.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "What about the description the thief gave? You said it was wrong."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_009",
+      "type": "Character",
+      "name": "Holt",
+      "aliases": [
+        "Holt"
+      ],
+      "description": "Holt is the person Felix cites as the source for how the fence described the map.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "That is how Holt said the fence described it."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_010",
+      "type": "Character",
+      "name": "the fence",
+      "aliases": [
+        "the fence"
+      ],
+      "description": "The fence is the intermediary whose description of the map Holt reportedly relayed.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "That is how Holt said the fence described it."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_013",
+      "type": "Character",
+      "name": "the thieves",
+      "aliases": [
+        "the thieves"
+      ],
+      "description": "The thieves are the people Felix says had seen the map earlier and returned expecting it to still be in its old hiding place.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "They must have seen it earlier in the wooden box I kept on the alcove shelf.",
+        "They assumed it was still there when they came back for it."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "type": "Location",
+      "name": "the eastern fences",
+      "aliases": [
+        "the eastern fences"
+      ],
+      "description": "The eastern fences are the route Felix says Wren would use to move the map.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "he will move it through the eastern fences."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_008",
+      "type": "Location",
+      "name": "the Northern Reaches",
+      "aliases": [
+        "the Northern Reaches"
+      ],
+      "description": "The Northern Reaches are the region depicted on the map Felix discusses.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "They described a map of the Northern Reaches drawn in red ink on reinforced parchment."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_012",
+      "type": "Location",
+      "name": "the window alcove",
+      "aliases": [
+        "the window alcove",
+        "The window alcove",
+        "the alcove shelf"
+      ],
+      "description": "The window alcove is the hiding place area where Felix kept the map in a wooden box on a shelf.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "The window alcove?",
+        "the wooden box I kept on the alcove shelf."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "type": "Object",
+      "name": "the map",
+      "aliases": [
+        "the map",
+        "a map of the Northern Reaches"
+      ],
+      "description": "The sought-after map is the central object of the discussion, described as a version of the Northern Reaches map and moved by Felix.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "If Wren has the map he will move it through the eastern fences.",
+        "No. I had moved it.",
+        "They described a map of the Northern Reaches drawn in red ink on reinforced parchment."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_011",
+      "type": "Object",
+      "name": "the chest",
+      "aliases": [
+        "the chest"
+      ],
+      "description": "The chest is the container Sable references when asking where the thieves found the map.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "And the chest -- where they found it."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_014",
+      "type": "Object",
+      "name": "the wooden box",
+      "aliases": [
+        "the wooden box"
+      ],
+      "description": "The wooden box is the container in which Felix previously kept the map on the alcove shelf.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "the wooden box I kept on the alcove shelf."
+      ]
+    },
+    {
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_006",
+      "type": "Concept",
+      "name": "three provinces",
+      "aliases": [
+        "three provinces"
+      ],
+      "description": "The three provinces are the extent of Wren's political reach as described by Felix.",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "A nobleman with reach across three provinces."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_f0503b9eadf7",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Felix and Sable ride a dirt road through tall pines, moving at pace."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_84021252567f",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Felix and Sable ride a dirt road through tall pines, moving at pace.",
+        "Sable rides beside Felix"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_0d27298795eb",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "EXT. FOREST ROAD - DAY",
+        "Felix and Sable ride a dirt road through tall pines, moving at pace."
+      ],
+      "confidence": 0.58
+    },
+    {
+      "id": "e_e7caa36e22ee",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "FELIX If Wren has the map he will move it through the eastern fences. He has done it before."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_07e2cd16b0ee",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "If Wren has the map he will move it through the eastern fences."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_8415990b3e08",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "possesses",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "If Wren has the map"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_029fc08d43d0",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "FELIX Because of who he is. A nobleman with reach across three provinces."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_f8ad570d2ac4",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "EXT. FOREST ROAD - DAY",
+        "Felix and Sable ride a dirt road through tall pines"
+      ],
+      "confidence": 0.52
+    },
+    {
+      "id": "e_3fa6240047df",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "relation": "affiliated_with",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_006",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "A nobleman with reach across three provinces."
+      ],
+      "confidence": 0.61
+    },
+    {
+      "id": "e_7c4fe9f702e1",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "SABLE What about the description the thief gave? You said it was wrong.",
+        "FELIX They described a map of the Northern Reaches drawn in red ink on reinforced parchment."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_5c843cf6467b",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "EXT. FOREST ROAD - DAY",
+        "Felix and Sable ride a dirt road through tall pines"
+      ],
+      "confidence": 0.51
+    },
+    {
+      "id": "e_2f2170f0a8de",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_007",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "What about the description the thief gave?",
+        "They described a map of the Northern Reaches drawn in red ink on reinforced parchment."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_2364986ba391",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "relation": "located_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_008",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "They described a map of the Northern Reaches"
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_39c14df96687",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "FELIX That is how Holt said the fence described it."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_71b6b98b90f4",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "EXT. FOREST ROAD - DAY",
+        "Felix and Sable ride a dirt road through tall pines"
+      ],
+      "confidence": 0.5
+    },
+    {
+      "id": "e_8fabea3fc12b",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_009",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Holt said the fence described it."
+      ],
+      "confidence": 0.76
+    },
+    {
+      "id": "e_47fc744cbff7",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_010",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "the fence described it"
+      ],
+      "confidence": 0.74
+    },
+    {
+      "id": "e_830370848e44",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "FELIX They must have seen it earlier in the wooden box I kept on the alcove shelf. They assumed it was still there when they came back for it."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_28be6f530cae",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_012",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "the window alcove",
+        "in the wooden box I kept on the alcove shelf",
+        "They assumed it was still there when they came back for it."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_c3df18e73b0e",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_013",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "They assumed it was still there when they came back for it."
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_6237a3bf31ba",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_011",
+      "relation": "located_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_012",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "And the chest -- where they found it. The window alcove?"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_81cf76988721",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_014",
+      "relation": "located_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_012",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "the wooden box I kept on the alcove shelf"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_eb191bb56ab4",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "relation": "possesses",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_014",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "the wooden box I kept on the alcove shelf"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_ee028ad42302",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "FELIX No. I had moved it. Too late, as it turns out."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_637ca6b91b0a",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_012",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "The window alcove?",
+        "No. I had moved it."
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_fbe285abce64",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "relation": "possesses",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "No. I had moved it.",
+        "the wooden box I kept on the alcove shelf"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "id": "e_5c978046d3ae",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Felix and Sable ride a dirt road through tall pines, moving at pace.",
+        "Sable rides beside Felix"
+      ],
+      "confidence": 0.67
+    },
+    {
+      "id": "e_80354e6d948f",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_002",
+      "relation": "references",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "If Wren has the map he will move it through the eastern fences.",
+        "No. I had moved it."
+      ],
+      "confidence": 0.62
+    },
+    {
+      "id": "e_c6f4b34109ff",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_004",
+      "relation": "references",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_005",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "You said it was wrong.",
+        "That is how Holt said the fence described it."
+      ],
+      "confidence": 0.83
+    },
+    {
+      "id": "e_8a66ed5e1c71",
+      "source": "ev_syntheti_6_doc_5_chunk_0_ev_006",
+      "relation": "references",
+      "target": "ev_syntheti_6_doc_5_chunk_0_ev_007",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "They assumed it was still there when they came back for it.",
+        "No. I had moved it."
+      ],
+      "confidence": 0.91
+    },
+    {
+      "id": "e_9c6de866de6e",
+      "source": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "scene_refs": [
+        "6"
+      ],
+      "evidence": [
+        "Felix and Sable ride a dirt road through tall pines, moving at pace.",
+        "Sable rides beside Felix"
+      ],
+      "confidence": 0.67
+    }
+  ]
+}

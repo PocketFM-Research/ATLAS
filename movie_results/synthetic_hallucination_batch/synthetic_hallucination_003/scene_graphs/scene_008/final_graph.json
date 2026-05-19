@@ -1,0 +1,1325 @@
+{
+  "movie_id": "synthetic_hallucination_003__scene_8",
+  "title": "synthetic_hallucination_003",
+  "nodes": [
+    {
+      "id": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "type": "Event",
+      "name": "felix confronts wren",
+      "aliases": [
+        "felix confronts wren"
+      ],
+      "description": "Felix approaches Wren at his market stall, initiating a direct confrontation.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Felix approaches Wren at his stall. Wren looks unsurprised."
+      ]
+    },
+    {
+      "id": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "type": "Event",
+      "name": "wren says he expected felix",
+      "aliases": [
+        "wren says he expected felix"
+      ],
+      "description": "Wren reveals he anticipated Felix's arrival, suggesting prior awareness of the conflict.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "WREN\nMaster Adler. I expected you eventually."
+      ]
+    },
+    {
+      "id": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "type": "Event",
+      "name": "felix demands map back",
+      "aliases": [
+        "felix demands map back"
+      ],
+      "description": "Felix states his purpose plainly by demanding the return of his map.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "FELIX\nI want my map back."
+      ]
+    },
+    {
+      "id": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "type": "Event",
+      "name": "wren denies possessing map",
+      "aliases": [
+        "wren denies possessing map"
+      ],
+      "description": "Wren denies having the map and defends himself by citing his earlier attempt to buy it openly.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "WREN\nI offered five hundred gold coins and you refused me. Plainly and publicly. That was the end of my interest. Why would I steal what I tried to purchase through honest negotiation?",
+        "WREN\n(spreading his hands)\nI do not have it.",
+        "FELIX\nYou offered to buy it."
+      ]
+    },
+    {
+      "id": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "type": "Event",
+      "name": "felix accuses wren of motive",
+      "aliases": [
+        "felix accuses wren of motive"
+      ],
+      "description": "Felix argues that Wren would steal the map because he knew Felix would never sell it.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "FELIX\nBecause you knew I would never sell."
+      ]
+    },
+    {
+      "id": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "type": "Event",
+      "name": "sable joins confrontation",
+      "aliases": [
+        "sable joins confrontation"
+      ],
+      "description": "Sable arrives beside Felix, bringing her satchel into the scene and drawing Wren's attention.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "SABLE arrives beside Felix. She carries her LEATHER SATCHEL over one shoulder."
+      ]
+    },
+    {
+      "id": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "type": "Event",
+      "name": "sable fastens satchel shut",
+      "aliases": [
+        "sable fastens satchel shut"
+      ],
+      "description": "Sable visibly closes her leather satchel with a firm brass clasp, establishing that it is secured.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "She reaches up and fastens it shut with its BRASS CLASP -- a firm, clean click."
+      ]
+    },
+    {
+      "id": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "type": "Event",
+      "name": "wren notes sable was cleared",
+      "aliases": [
+        "wren notes sable was cleared"
+      ],
+      "description": "Wren acknowledges hearing that Sable was cleared, and Sable confirms it.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "WREN\n(eyeing Sable)\nYour apprentice. I heard she was cleared.",
+        "WREN\nGlad to hear it.",
+        "SABLE\nI was."
+      ]
+    },
+    {
+      "id": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "type": "Event",
+      "name": "felix notices satchel at stall entrance",
+      "aliases": [
+        "felix notices satchel at stall entrance"
+      ],
+      "description": "As he turns to leave, Felix sees Sable's satchel sitting full and intact near Wren's stall entrance, contradicting the image of it being on her shoulder moments earlier.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Felix turns to leave and notices, near the ENTRANCE of Wren's stall, Sable's leather satchel sitting on the ground -- full, buckled, intact. He pauses."
+      ]
+    },
+    {
+      "id": "ev_syntheti_8_doc_7_chunk_0_ev_010",
+      "type": "Event",
+      "name": "sable explains satchel placement",
+      "aliases": [
+        "sable explains satchel placement"
+      ],
+      "description": "When Felix points out the satchel, Sable explains that she set it down while looking at the next stall.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "FELIX\n(quietly, to Sable)\nYour satchel is there.",
+        "SABLE\nI set it down when I looked at the next stall."
+      ]
+    },
+    {
+      "id": "ev_syntheti_8_doc_7_chunk_0_ev_011",
+      "type": "Event",
+      "name": "felix registers inconsistency",
+      "aliases": [
+        "felix registers inconsistency"
+      ],
+      "description": "Felix mentally notes the suspicious satchel discrepancy, indicating growing suspicion or deduction.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Felix files the image away."
+      ]
+    },
+    {
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "type": "Character",
+      "name": "Felix",
+      "aliases": [
+        "Felix",
+        "Master Adler",
+        "FELIX"
+      ],
+      "description": "Felix confronts Wren over the missing map and notices the suspicious placement of Sable's satchel.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "WREN\nMaster Adler. I expected you eventually.",
+        "Felix turns to leave and notices",
+        "Felix approaches Wren at his stall.",
+        "Felix files the image away.",
+        "FELIX\nI want my map back."
+      ]
+    },
+    {
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "type": "Character",
+      "name": "Wren",
+      "aliases": [
+        "Wren",
+        "WREN"
+      ],
+      "description": "Wren is the stall owner Felix confronts about the stolen map and who comments on Sable being cleared.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "WREN\nMaster Adler. I expected you eventually.",
+        "WREN\n(eyeing Sable)\nYour apprentice. I heard she was cleared.",
+        "WREN\nI do not have it.",
+        "Wren looks unsurprised.",
+        "Felix approaches Wren at his stall."
+      ]
+    },
+    {
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "type": "Character",
+      "name": "Sable",
+      "aliases": [
+        "Sable",
+        "SABLE"
+      ],
+      "description": "Sable, identified by Wren as Felix's apprentice, arrives carrying a satchel and later explains why it is on the ground.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "SABLE\nI set it down when I looked at the next stall.",
+        "SABLE\nI was.",
+        "WREN\n(eyeing Sable)\nYour apprentice. I heard she was cleared.",
+        "SABLE arrives beside Felix.",
+        "She carries her LEATHER SATCHEL over one shoulder."
+      ]
+    },
+    {
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "type": "Location",
+      "name": "Market Square",
+      "aliases": [
+        "Market Square",
+        "MARKET SQUARE"
+      ],
+      "description": "The outdoor market square is the setting of the confrontation at Wren's stall.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ]
+    },
+    {
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_009",
+      "type": "Location",
+      "name": "entrance",
+      "aliases": [
+        "entrance",
+        "ENTRANCE"
+      ],
+      "description": "The entrance of Wren's stall is where Felix notices Sable's satchel on the ground.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "near the ENTRANCE of Wren's stall, Sable's leather satchel sitting on the ground"
+      ]
+    },
+    {
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "type": "TimePoint",
+      "name": "Day",
+      "aliases": [
+        "Day",
+        "DAY"
+      ],
+      "description": "The scene takes place during the day.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ]
+    },
+    {
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_003",
+      "type": "Object",
+      "name": "map",
+      "aliases": [
+        "map",
+        "my map",
+        "it"
+      ],
+      "description": "The missing map is the object Felix demands back from Wren and the focus of their dispute.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "FELIX\nI want my map back.",
+        "WREN\nI do not have it.",
+        "Why would I steal what I tried to purchase through honest negotiation?"
+      ]
+    },
+    {
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "type": "Object",
+      "name": "leather satchel",
+      "aliases": [
+        "leather satchel",
+        "satchel",
+        "LEATHER SATCHEL",
+        "Your satchel"
+      ],
+      "description": "Sable's leather satchel is first shown on her shoulder and then unexpectedly seen sitting intact near Wren's stall entrance.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "FELIX\n(quietly, to Sable)\nYour satchel is there.",
+        "He notices, near the ENTRANCE of Wren's stall, Sable's leather satchel sitting on the ground -- full, buckled, intact.",
+        "She carries her LEATHER SATCHEL over one shoulder."
+      ]
+    },
+    {
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_006",
+      "type": "Object",
+      "name": "brass clasp",
+      "aliases": [
+        "brass clasp",
+        "BRASS CLASP"
+      ],
+      "description": "The brass clasp is the fastening on Sable's satchel that she snaps shut with a firm click.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "She reaches up and fastens it shut with its BRASS CLASP -- a firm, clean click."
+      ]
+    },
+    {
+      "id": "ent_syntheti_8_doc_7_chunk_0_ent_010",
+      "type": "Concept",
+      "name": "five hundred gold coins",
+      "aliases": [
+        "five hundred gold coins",
+        "gold coins"
+      ],
+      "description": "The sum Wren says he previously offered Felix for the map, used to support his claim of honest negotiation.",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "I offered five hundred gold coins and you refused me."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_2d0bb62b5af5",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Felix approaches Wren at his stall."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_e0dfe8cf0e4d",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "relation": "undergoes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Felix approaches Wren at his stall."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_ff32d4f58fa4",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "Felix approaches Wren at his stall."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_afdabdea24a2",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_c8e23b03814e",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "WREN",
+        "Master Adler. I expected you eventually."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_e8f7eeaffe6b",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "relation": "undergoes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Master Adler. I expected you eventually."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_f612869ef59f",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "Master Adler. I expected you eventually."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_265b3d1ed81c",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_8f37103cc0f6",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "FELIX",
+        "I want my map back."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_73b8a7b81bec",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_003",
+      "relation": "undergoes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "I want my map back."
+      ],
+      "confidence": 0.86
+    },
+    {
+      "id": "e_00bf9869e513",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "I want my map back."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_53f7b55893e4",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_11d603262397",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "WREN",
+        "(spreading his hands)",
+        "I do not have it."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_75504ece3de8",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_003",
+      "relation": "undergoes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "I do not have it."
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "e_c4f287ba883e",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "I do not have it."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_053371381df8",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_0a3eb60b47da",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "FELIX",
+        "Because you knew I would never sell."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_ec694184e57e",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "relation": "undergoes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Because you knew I would never sell."
+      ],
+      "confidence": 0.82
+    },
+    {
+      "id": "e_13564086c304",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "Because you knew I would never sell."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_95ba95c3315d",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_94ba31b5926e",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "SABLE arrives beside Felix."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_ea91eecf10b2",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "SABLE arrives beside Felix."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_661d14389390",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_89a982640810",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "She reaches up and fastens it shut with its BRASS CLASP -- a firm, clean click."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_7f383f3f5de8",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "relation": "uses",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_006",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "She reaches up and fastens it shut with its BRASS CLASP"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_eb981a4bbf60",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "relation": "possesses",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "She carries her LEATHER SATCHEL over one shoulder."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_d52554847f7b",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "She reaches up and fastens it shut with its BRASS CLASP -- a firm, clean click."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_91d43bcd696a",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_4b4e915f3083",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "WREN",
+        "(eyeing Sable)",
+        "Your apprentice. I heard she was cleared."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_c377de645396",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "relation": "undergoes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Your apprentice. I heard she was cleared."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_abf7008d3228",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "Your apprentice. I heard she was cleared."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_fe2f2358269e",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_76368b092377",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Felix turns to leave and notices, near the ENTRANCE of Wren's stall, Sable's leather satchel sitting on the ground -- full, buckled, intact."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_8aa231045580",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "relation": "undergoes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Felix turns to leave and notices, near the ENTRANCE of Wren's stall, Sable's leather satchel sitting on the ground -- full, buckled, intact."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_11815db71690",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_009",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "near the ENTRANCE of Wren's stall"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_0f7f3243be03",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_7cf667f75beb",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_010",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "SABLE",
+        "I set it down when I looked at the next stall."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_63b946c8c0b4",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "relation": "undergoes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_010",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "I set it down when I looked at the next stall."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_494fb00adabb",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_010",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "I set it down when I looked at the next stall."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_c93ed317fcaa",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_010",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_f2b6aa2a7c80",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "relation": "experiences",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_011",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "He pauses.",
+        "Felix files the image away."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_ab1e9b9ce845",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_011",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_007",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "Felix files the image away."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_4513cf394d01",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_011",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_550d25b42fdc",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "relation": "hostility_with",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Felix approaches Wren at his stall.",
+        "I want my map back.",
+        "Because you knew I would never sell."
+      ],
+      "confidence": 0.86
+    },
+    {
+      "id": "e_1a91332ddc5a",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "SABLE arrives beside Felix.",
+        "Your apprentice."
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_7da58825a5fe",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "relation": "located_at",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_009",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "near the ENTRANCE of Wren's stall, Sable's leather satchel sitting on the ground"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_97d8d1a95437",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_006",
+      "relation": "part_of",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_005",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "its BRASS CLASP"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_020a104ae27d",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_010",
+      "relation": "present_on",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "I offered five hundred gold coins and you refused me."
+      ],
+      "confidence": 0.62
+    },
+    {
+      "id": "e_57974fb89cb6",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "relation": "causes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_011",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Felix turns to leave and notices... Sable's leather satchel sitting on the ground -- full, buckled, intact. He pauses.",
+        "Felix files the image away."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_102e783b5086",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Felix approaches Wren at his stall. Wren looks unsurprised.",
+        "Master Adler. I expected you eventually."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_e18a0cacfbf7",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "relation": "precedes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Master Adler. I expected you eventually.",
+        "I want my map back."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_37b6cd8938c6",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "relation": "precedes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "I want my map back.",
+        "I do not have it."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_da66da0ecca4",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "relation": "precedes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "I do not have it.",
+        "Because you knew I would never sell."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_fa98ddfa6631",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "relation": "precedes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Because you knew I would never sell.",
+        "SABLE arrives beside Felix."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_47e15d7c76cd",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "relation": "precedes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "SABLE arrives beside Felix. She carries her LEATHER SATCHEL over one shoulder. She reaches up and fastens it shut"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_90c3860a7aaa",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "relation": "precedes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "She reaches up and fastens it shut with its BRASS CLASP -- a firm, clean click.",
+        "Your apprentice. I heard she was cleared."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_f40e44c0e946",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "relation": "precedes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Your apprentice. I heard she was cleared.",
+        "Felix turns to leave and notices"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_5d512228875c",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "relation": "precedes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_010",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Your satchel is there.",
+        "I set it down when I looked at the next stall."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_8f9ee9dcaaf1",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_010",
+      "relation": "precedes",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_011",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "I set it down when I looked at the next stall.",
+        "Felix files the image away."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_832be268275a",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_002",
+      "relation": "hostility_with",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Felix approaches Wren at his stall.",
+        "I want my map back.",
+        "Because you knew I would never sell."
+      ],
+      "confidence": 0.86
+    },
+    {
+      "id": "e_5e80862a0f08",
+      "source": "ent_syntheti_8_doc_7_chunk_0_ent_001",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_8_doc_7_chunk_0_ent_004",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "SABLE arrives beside Felix.",
+        "Your apprentice."
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_b68ad4ff87e4",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_001",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Felix approaches Wren at his stall. Wren looks unsurprised.",
+        "Master Adler. I expected you eventually."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_1dafc0f207bd",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_002",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Master Adler. I expected you eventually.",
+        "I want my map back."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_35907181d0bd",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_003",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "I want my map back.",
+        "I do not have it."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_0f6edcf120b9",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_004",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "I do not have it.",
+        "Because you knew I would never sell."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_2a27e49cd2b9",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_005",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Because you knew I would never sell.",
+        "SABLE arrives beside Felix."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_5082d8b09882",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_006",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "SABLE arrives beside Felix. She carries her LEATHER SATCHEL over one shoulder. She reaches up and fastens it shut"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_44325ad2c07d",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_007",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "She reaches up and fastens it shut with its BRASS CLASP -- a firm, clean click.",
+        "Your apprentice. I heard she was cleared."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_a8373352a6fe",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_008",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Your apprentice. I heard she was cleared.",
+        "Felix turns to leave and notices"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_e7dd622b402d",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_010",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_009",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "Your satchel is there.",
+        "I set it down when I looked at the next stall."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_55810d12088f",
+      "source": "ev_syntheti_8_doc_7_chunk_0_ev_011",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_8_doc_7_chunk_0_ev_010",
+      "scene_refs": [
+        "8"
+      ],
+      "evidence": [
+        "I set it down when I looked at the next stall.",
+        "Felix files the image away."
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

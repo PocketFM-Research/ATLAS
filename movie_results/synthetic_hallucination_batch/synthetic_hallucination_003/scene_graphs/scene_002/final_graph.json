@@ -1,0 +1,1006 @@
+{
+  "movie_id": "synthetic_hallucination_003__scene_2",
+  "title": "synthetic_hallucination_003",
+  "nodes": [
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_001",
+      "type": "Event",
+      "name": "Felix and Sable cross market",
+      "aliases": [
+        "Felix and Sable cross market"
+      ],
+      "description": "Felix and Sable move together through the crowded market square.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "A busy morning market. Merchants and buyers weave between stalls. Felix and Sable move through the crowd."
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_002",
+      "type": "Event",
+      "name": "Sable's satchel clasp breaks",
+      "aliases": [
+        "Sable's satchel clasp breaks"
+      ],
+      "description": "As Sable tries to open her worn leather satchel, its clasp snaps and she has to hold it shut by hand.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Sable carries a worn LEATHER SATCHEL over one shoulder. She reaches to open it and the CLASP BREAKS -- the leather tab snapping clean. She grips it shut with her hand.",
+        "SABLE\nAgain."
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_003",
+      "type": "Event",
+      "name": "Felix suggests cobbler repair",
+      "aliases": [
+        "Felix suggests cobbler repair"
+      ],
+      "description": "Felix responds to Sable's broken satchel by telling her to take it to the cobbler.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "FELIX\nTake it to the cobbler."
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_004",
+      "type": "Event",
+      "name": "Wren intercepts Felix and Sable",
+      "aliases": [
+        "Wren intercepts Felix and Sable"
+      ],
+      "description": "Wren Aldous steps into Felix and Sable's path and addresses Felix directly.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "WREN\nMaster Adler. I have been hoping to find you.",
+        "WREN ALDOUS (50s, broad-shouldered, prosperously dressed) steps from between two stalls directly into their path. A MERCHANT'S BADGE is pinned visibly to his coat."
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_005",
+      "type": "Event",
+      "name": "Wren offers to buy map",
+      "aliases": [
+        "Wren offers to buy map"
+      ],
+      "description": "Wren bluntly offers Felix two hundred gold coins for the Northern Reaches map, either immediately or upon completion.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "WREN\nI will be direct. I want to purchase the Northern Reaches map. Two hundred gold coins. Today, or when it is complete."
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_006",
+      "type": "Event",
+      "name": "Felix refuses to sell map",
+      "aliases": [
+        "Felix refuses to sell map"
+      ],
+      "description": "Felix stops and firmly states that the map is not for sale.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "FELIX\nIt is not for sale.",
+        "Felix stops walking."
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_007",
+      "type": "Event",
+      "name": "Felix asserts ownership of map",
+      "aliases": [
+        "Felix asserts ownership of map"
+      ],
+      "description": "Felix emphasizes the personal labor invested in the map and insists that he alone will decide its fate.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "FELIX\n(quietly)\nSix months of my life are in that map. My surveys, my corrections, my ink. I will decide what happens to it."
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_008",
+      "type": "Event",
+      "name": "Felix ends encounter and leaves",
+      "aliases": [
+        "Felix ends encounter and leaves"
+      ],
+      "description": "After rejecting Wren's offer, Felix dismisses him and walks away, with Sable following.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "FELIX\nGood day, Mr. Aldous.",
+        "WREN\nTwo hundred gold is a fair price.",
+        "He walks past. Sable follows, holding her broken satchel shut"
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_009",
+      "type": "Event",
+      "name": "Wren watches them calculatingly",
+      "aliases": [
+        "Wren watches them calculatingly"
+      ],
+      "description": "As Felix and Sable depart, Wren remains behind and watches them with calculating intent.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "glancing back at Wren, who watches them with calculating eyes."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "type": "Character",
+      "name": "Felix",
+      "aliases": [
+        "Felix",
+        "Master Adler",
+        "FELIX"
+      ],
+      "description": "A mapmaker moving through the market with Sable who refuses Wren Aldous's offer to buy his map.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "FELIX\nIt is not for sale.",
+        "Felix and Sable move through the crowd.",
+        "WREN\nMaster Adler. I have been hoping to find you."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_004",
+      "type": "Character",
+      "name": "Sable",
+      "aliases": [
+        "Sable",
+        "SABLE"
+      ],
+      "description": "Felix's companion whose worn satchel breaks as they cross the market.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Felix and Sable move through the crowd.",
+        "Sable carries a worn LEATHER SATCHEL over one shoulder.",
+        "SABLE\nAgain."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_007",
+      "type": "Character",
+      "name": "Wren Aldous",
+      "aliases": [
+        "Wren Aldous",
+        "WREN ALDOUS",
+        "WREN",
+        "Mr. Aldous",
+        "Aldous"
+      ],
+      "description": "A prosperous, broad-shouldered man with a merchant's badge who intercepts Felix to buy the Northern Reaches map.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "FELIX\nGood day, Mr. Aldous.",
+        "FELIX\n(measured)\nMr. Aldous.",
+        "WREN ALDOUS (50s, broad-shouldered, prosperously dressed) steps from between two stalls directly into their path."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "type": "Location",
+      "name": "Market Square",
+      "aliases": [
+        "Market Square",
+        "MARKET SQUARE"
+      ],
+      "description": "The crowded outdoor market where Felix, Sable, and Wren encounter one another.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "A busy morning market."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "type": "TimePoint",
+      "name": "Day",
+      "aliases": [
+        "Day",
+        "morning",
+        "DAY"
+      ],
+      "description": "The daytime period during which the market scene takes place.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "A busy morning market."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_005",
+      "type": "Object",
+      "name": "leather satchel",
+      "aliases": [
+        "leather satchel",
+        "satchel",
+        "LEATHER SATCHEL"
+      ],
+      "description": "Sable's worn bag whose broken clasp forces her to hold it shut by hand.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Sable carries a worn LEATHER SATCHEL over one shoulder.",
+        "holding her broken satchel shut"
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_006",
+      "type": "Object",
+      "name": "clasp",
+      "aliases": [
+        "clasp",
+        "CLASP"
+      ],
+      "description": "The satchel fastener that snaps clean when Sable tries to open the bag.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "the CLASP BREAKS -- the leather tab snapping clean."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_008",
+      "type": "Object",
+      "name": "merchant's badge",
+      "aliases": [
+        "merchant's badge",
+        "MERCHANT'S BADGE"
+      ],
+      "description": "The badge pinned to Wren Aldous's coat, marking his merchant status.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "A MERCHANT'S BADGE is pinned visibly to his coat."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_009",
+      "type": "Object",
+      "name": "Northern Reaches map",
+      "aliases": [
+        "Northern Reaches map",
+        "that map",
+        "the Northern Reaches map",
+        "it"
+      ],
+      "description": "Felix's painstakingly surveyed map that Wren Aldous tries to purchase.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Six months of my life are in that map.",
+        "I want to purchase the Northern Reaches map.",
+        "It is not for sale."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_010",
+      "type": "Object",
+      "name": "two hundred gold coins",
+      "aliases": [
+        "two hundred gold coins",
+        "two hundred gold",
+        "Two hundred gold coins",
+        "Two hundred gold"
+      ],
+      "description": "The price Wren offers Felix in exchange for the Northern Reaches map.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Two hundred gold is a fair price.",
+        "Two hundred gold coins. Today, or when it is complete."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_011",
+      "type": "Concept",
+      "name": "cobbler",
+      "aliases": [
+        "cobbler"
+      ],
+      "description": "The repair trade Felix suggests Sable use to fix her broken satchel.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "FELIX\nTake it to the cobbler."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_869a45ba1931",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Felix and Sable move through the crowd."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_bf329bb567ba",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Felix and Sable move through the crowd."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_4dd264b12172",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "Felix and Sable move through the crowd."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_8b0fe797f670",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_53f32475306e",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_006",
+      "relation": "undergoes",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "She reaches to open it and the CLASP BREAKS -- the leather tab snapping clean."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_17d4b2aa4330",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "She reaches to open it and the CLASP BREAKS -- the leather tab snapping clean."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_354e9442196c",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_002",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_aa7b06e1754b",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_003",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "FELIX",
+        "Take it to the cobbler."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_7b13c5f1982f",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "FELIX",
+        "Take it to the cobbler."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_56bb0900a596",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_003",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_0a13eb51bd45",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_007",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_004",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "WREN ALDOUS (50s, broad-shouldered, prosperously dressed) steps from between two stalls directly into their path."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_b226e8123a1b",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "relation": "undergoes",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_004",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "WREN ALDOUS (50s, broad-shouldered, prosperously dressed) steps from between two stalls directly into their path."
+      ],
+      "confidence": 0.92
+    },
+    {
+      "id": "e_a94ecced1ed6",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_004",
+      "relation": "undergoes",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_004",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "WREN ALDOUS (50s, broad-shouldered, prosperously dressed) steps from between two stalls directly into their path."
+      ],
+      "confidence": 0.92
+    },
+    {
+      "id": "e_c6a332103f84",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "WREN ALDOUS (50s, broad-shouldered, prosperously dressed) steps from between two stalls directly into their path."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_6ecc5b4df55d",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_004",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_4bbb076fd1b9",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_007",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_005",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "WREN",
+        "I will be direct. I want to purchase the Northern Reaches map. Two hundred gold coins. Today, or when it is complete."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_2a475a22527f",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "WREN",
+        "I will be direct. I want to purchase the Northern Reaches map. Two hundred gold coins. Today, or when it is complete."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_013837b05b28",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_005",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_c6bf6baa7bbf",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_006",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "FELIX",
+        "It is not for sale."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_db602a57350a",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "FELIX",
+        "It is not for sale."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_55f443f2df3b",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_006",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_c35c69269dcc",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_007",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "FELIX",
+        "(quietly)",
+        "Six months of my life are in that map. My surveys, my corrections, my ink. I will decide what happens to it."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_ebdff98be295",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "FELIX",
+        "Six months of my life are in that map. My surveys, my corrections, my ink. I will decide what happens to it."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_61e12ff6a917",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_007",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_7bfb2864c045",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_008",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "FELIX",
+        "Good day, Mr. Aldous.",
+        "He walks past."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_bcedb538c18f",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "He walks past."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_025c6e6332b9",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_008",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_f7817b78a1bc",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_007",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_009",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Wren, who watches them with calculating eyes."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_29572b990b62",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_009",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "Wren, who watches them with calculating eyes."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_242edf29c0d8",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_009",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_66042e008e22",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_004",
+      "relation": "possesses",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_005",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Sable carries a worn LEATHER SATCHEL over one shoulder."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_e02cfc34e653",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_006",
+      "relation": "part_of",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_005",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Sable carries a worn LEATHER SATCHEL over one shoulder. She reaches to open it and the CLASP BREAKS"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_643147549f0b",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_007",
+      "relation": "possesses",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_008",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "A MERCHANT'S BADGE is pinned visibly to his coat."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_2fa569e0272a",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "relation": "possesses",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_009",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Six months of my life are in that map. My surveys, my corrections, my ink. I will decide what happens to it."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_e841b82edb0b",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_007",
+      "relation": "uses",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_010",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "I want to purchase the Northern Reaches map. Two hundred gold coins."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_bfb6c4e48769",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_004",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Felix and Sable move through the crowd.",
+        "He walks past. Sable follows"
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_d192a4f1144c",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "relation": "hostility_with",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_007",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "WREN",
+        "I want to purchase the Northern Reaches map.",
+        "FELIX",
+        "It is not for sale.",
+        "Good day, Mr. Aldous."
+      ],
+      "confidence": 0.82
+    },
+    {
+      "id": "e_52bf1f85910b",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "relation": "located_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "Felix and Sable move through the crowd."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_20087570a849",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_004",
+      "relation": "located_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "Felix and Sable move through the crowd."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_c5eba5d5d533",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_007",
+      "relation": "located_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "WREN ALDOUS ... steps from between two stalls directly into their path."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_9ea3281cb136",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_005",
+      "relation": "located_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "Sable carries a worn LEATHER SATCHEL over one shoulder."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_00a05868a316",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_008",
+      "relation": "located_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "A MERCHANT'S BADGE is pinned visibly to his coat."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_6a53f953ed37",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_009",
+      "relation": "located_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "I want to purchase the Northern Reaches map."
+      ],
+      "confidence": 0.62
+    },
+    {
+      "id": "e_6f10e0935b82",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_010",
+      "relation": "located_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "Two hundred gold coins."
+      ],
+      "confidence": 0.55
+    },
+    {
+      "id": "e_cb4709280f23",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_011",
+      "relation": "located_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Take it to the cobbler."
+      ],
+      "confidence": 0.51
+    },
+    {
+      "id": "e_71331b903615",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "relation": "present_on",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_62eb6ca23b16",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_004",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Felix and Sable move through the crowd.",
+        "He walks past. Sable follows"
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_ae3814ff766b",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_007",
+      "relation": "hostility_with",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "WREN",
+        "I want to purchase the Northern Reaches map.",
+        "FELIX",
+        "It is not for sale.",
+        "Good day, Mr. Aldous."
+      ],
+      "confidence": 0.82
+    }
+  ]
+}

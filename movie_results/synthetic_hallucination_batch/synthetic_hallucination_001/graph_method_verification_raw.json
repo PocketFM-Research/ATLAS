@@ -1,0 +1,276 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "identity",
+      "prior_quote": "Below the desk, a BLACK LABRADOR -- ANCHOR -- raises his broad head",
+      "later_quote": "MARCUS appears in the doorway, ANCHOR at his side.",
+      "reason": "fails C: scene 2 does not identify Anchor as an anchor object or assert a different value."
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "object_type",
+      "prior_quote": "Marcus ... opens a logbook",
+      "later_quote": "Marcus ... places on the table a large BROWN LEATHER-BOUND LOGBOOK",
+      "reason": "fails C: both quotes describe a logbook, not conflicting values for the same attribute."
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "mug_color",
+      "prior_quote": "He carries a BLUE CERAMIC MUG of steaming tea.",
+      "later_quote": "He pours the tea and sets it on the table.",
+      "reason": "fails B: the later quote does not assert any value about the mug's color or identity."
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "identity",
+      "prior_quote": "GREEN SPIRAL NOTEBOOK tucked under her arm.",
+      "later_quote": "Anchor rests his black head on Elena's knee.",
+      "reason": "fails A: the quotes are not about the same entity."
+    },
+    {
+      "index": 5,
+      "decision": "reject",
+      "attribute": "relation_to_Anchor",
+      "prior_quote": "MARCUS appears in the doorway, ANCHOR at his side.",
+      "later_quote": "Anchor rests his black head on Elena's knee.",
+      "reason": "fails C: Marcus being near Anchor earlier does not contradict Anchor resting on Elena later."
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "role",
+      "prior_quote": "MARCUS appears in the doorway, ANCHOR at his side.",
+      "later_quote": "Every keeper back to the first.",
+      "reason": "fails B: scene 2 does not assert Marcus's role, while scene 3 does."
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "family_status",
+      "prior_quote": "Elena Voss. Coastal Herald. You spoke to my editor -- Claire Munroe?",
+      "later_quote": "Margaret. She passed three years ago... No. No children.",
+      "reason": "fails B: scene 2 does not assert any value about Marcus's wife or children."
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "location",
+      "prior_quote": "MARCUS appears in the doorway, ANCHOR at his side.",
+      "later_quote": "Marcus leads Elena up the iron spiral staircase.",
+      "reason": "fails B: the later quote does not assert Anchor is an anchor object or any conflicting attribute of the same entity."
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "household_children",
+      "prior_quote": "\"No. No children. It is just Anchor and me.\"",
+      "later_quote": "\"Twenty years alone out there\"",
+      "reason": "fails B: 'alone' is about Marcus's solitude at the lighthouse, not the same specific attribute as whether he has children."
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "knowledge_of_locked_room",
+      "prior_quote": "\"What's in the locked one?\" / \"Old coast guard material.\"",
+      "later_quote": "\"Can't say I do.\"",
+      "reason": "fails A: the prior quote is Marcus describing the room; the later quote is Tom disclaiming knowledge."
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "building_feature_vs_year",
+      "prior_quote": "a narrow corridor has two doors",
+      "later_quote": "\"Built in 1887.\"",
+      "reason": "fails B: the quotes concern different attributes."
+    },
+    {
+      "index": 12,
+      "decision": "reject",
+      "attribute": "occupation",
+      "prior_quote": "Every keeper back to the first.",
+      "later_quote": "\"Former merchant marine, Marcus.\"",
+      "reason": "fails C: being a lighthouse keeper and formerly merchant marine are not contradictory."
+    },
+    {
+      "index": 13,
+      "decision": "confirm",
+      "attribute": "injured_leg_side",
+      "prior_quote": "Each step reveals a pronounced limp -- his RIGHT LEG drags",
+      "later_quote": "\"Left leg. Fishing trawler, 1991. A cable snapped.\"",
+      "reason": "Same entity and same attribute; right leg versus left leg is a direct contradiction with no explanation."
+    },
+    {
+      "index": 14,
+      "decision": "confirm",
+      "attribute": "vehicle_color",
+      "prior_quote": "A RED JEEP rounds the final curve",
+      "later_quote": "\"So you saw me drive in with the blue one?\"",
+      "reason": "Same entity and same attribute; Elena's vehicle is red earlier and blue later with no explanation."
+    },
+    {
+      "index": 15,
+      "decision": "reject",
+      "attribute": "household_composition",
+      "prior_quote": "\"It is just Anchor and me.\"",
+      "later_quote": "\"Captain! Easy!\" / \"He gets wound up when the pressure drops.\"",
+      "reason": "fails C: the later scene does not establish Captain lives with Marcus or contradicts the earlier statement."
+    },
+    {
+      "index": 16,
+      "decision": "reject",
+      "attribute": "dog_name",
+      "prior_quote": "\"You smell it already, don't you, Anchor. Good boy.\"",
+      "later_quote": "\"Captain! Easy!\"",
+      "reason": "fails A: scene 6 does not identify the barking dog as Anchor, so same-entity is not established."
+    },
+    {
+      "index": 17,
+      "decision": "reject",
+      "attribute": "role_vs_vehicle_ownership",
+      "prior_quote": "DEPUTY'S OFFICE ... TOM BRIGGS",
+      "later_quote": "\"That's Tom Briggs's. Borrowed it -- my own vehicle is in for service.\"",
+      "reason": "fails B: Tom's law-enforcement role and ownership of a vehicle are different attributes."
+    },
+    {
+      "index": 18,
+      "decision": "reject",
+      "attribute": "vehicle_count_arrivals",
+      "prior_quote": "Elena parks beside a weathered outbuilding",
+      "later_quote": "\"Only vehicle that came up all evening.\"",
+      "reason": "fails C: Elena's arrival in scene 2 does not contradict Marcus saying only one vehicle came up that evening in scene 6."
+    },
+    {
+      "index": 19,
+      "decision": "confirm",
+      "attribute": "logbook_color",
+      "prior_quote": "a large BROWN LEATHER-BOUND LOGBOOK",
+      "later_quote": "Marcus sets a large BLACK LOGBOOK on the desk",
+      "reason": "Same entity type and same attribute; brown versus black logbook is a direct mismatch with no explanation."
+    },
+    {
+      "index": 20,
+      "decision": "confirm",
+      "attribute": "years_at_lighthouse",
+      "prior_quote": "\"Twenty years. He came when old Gareth retired.\"",
+      "later_quote": "\"Thirty years, they said.\" / \"Give or take.\"",
+      "reason": "Same entity and same attribute; twenty years versus thirty years is a direct contradiction with no explanation."
+    },
+    {
+      "index": 21,
+      "decision": "confirm",
+      "attribute": "drinks_hot_beverages",
+      "prior_quote": "He carries a BLUE CERAMIC MUG of steaming tea... sips his tea",
+      "later_quote": "\"No. I've never taken to hot drinks. Never have.\"",
+      "reason": "Same entity and same attribute; Marcus drinks hot tea earlier but later says he never drinks hot drinks."
+    },
+    {
+      "index": 22,
+      "decision": "reject",
+      "attribute": "notebook_type",
+      "prior_quote": "On the passenger seat: a GREEN SPIRAL NOTEBOOK",
+      "later_quote": "Elena sits across from Marcus, a YELLOW LEGAL PAD open on her knee.",
+      "reason": "fails A: these are two different writing items, not established as the same entity."
+    },
+    {
+      "index": 23,
+      "decision": "reject",
+      "attribute": "editor_identity",
+      "prior_quote": "\"You spoke to my editor -- Claire Munroe?\"",
+      "later_quote": "\"Diane, yes. I'm still with him. I'll have the draft by Friday\"",
+      "reason": "fails B: scene 7 does not identify Diane as Elena's editor, so the same attribute is not asserted."
+    },
+    {
+      "index": 24,
+      "decision": "confirm",
+      "attribute": "years_since_wife_died",
+      "prior_quote": "\"Margaret. She passed three years ago.\"",
+      "later_quote": "\"Your wife -- you must miss her. Ten years is a long time to be alone out here.\"",
+      "reason": "Same entity and same attribute; three years versus ten years alone after his wife is a direct contradiction with no explanation."
+    },
+    {
+      "index": 25,
+      "decision": "confirm",
+      "attribute": "has_children",
+      "prior_quote": "\"No. No children.\"",
+      "later_quote": "\"Does your daughter ever come to visit?\" / \"She comes when she can.\"",
+      "reason": "Same entity and same attribute; no children versus having a daughter is a direct contradiction with no explanation."
+    },
+    {
+      "index": 26,
+      "decision": "confirm",
+      "attribute": "location_of_locked_room",
+      "prior_quote": "On the upper floor ... The other door is CLOSED and secured with a heavy padlock.",
+      "later_quote": "\"I thought the locked room was upstairs.\" / \"That's just storage. This is what you came here for.\"",
+      "reason": "Same subject and same attribute; the locked room is upstairs earlier but later the real locked room is below, with no explicit explanation for the discrepancy."
+    },
+    {
+      "index": 27,
+      "decision": "reject",
+      "attribute": "key_location",
+      "prior_quote": "mounted on the wall right beside the MAIN ENTRANCE DOOR, hangs a SILVER KEY",
+      "later_quote": "retrieving a small KEY on a cord... It is BRASS.",
+      "reason": "fails A: the screenplay does not establish that the brass key is the same key Elena saw by the entrance."
+    },
+    {
+      "index": 28,
+      "decision": "reject",
+      "attribute": "key_color",
+      "prior_quote": "hangs a SILVER KEY on a simple iron hook",
+      "later_quote": "retrieving a small KEY on a cord. It is BRASS.",
+      "reason": "fails A: the later key is not established to be the same key as the earlier silver key."
+    },
+    {
+      "index": 29,
+      "decision": "confirm",
+      "attribute": "Tom_Briggs_title",
+      "prior_quote": "\"Deputy Briggs -- how long has Marcus been out at the lighthouse?\"",
+      "later_quote": "\"Chief Briggs. I wanted to follow up.\"",
+      "reason": "Same entity and same attribute; Deputy versus Chief is a direct title mismatch with no explanation."
+    },
+    {
+      "index": 30,
+      "decision": "confirm",
+      "attribute": "lighthouse_build_year",
+      "prior_quote": "\"Built in 1887.\"",
+      "later_quote": "\"1923, wasn't it.\"",
+      "reason": "Same entity and same attribute; 1887 versus 1923 is a direct contradiction with no explanation."
+    },
+    {
+      "index": 31,
+      "decision": "confirm",
+      "attribute": "uses_glasses",
+      "prior_quote": "Marcus wears THICK-FRAMED READING GLASSES perched at the end of his nose.",
+      "later_quote": "\"Never needed glasses a day in his life\"",
+      "reason": "Same entity and same attribute; wearing reading glasses versus never needing glasses is a direct contradiction."
+    },
+    {
+      "index": 32,
+      "decision": "confirm",
+      "attribute": "dog_breed_color",
+      "prior_quote": "a BLACK LABRADOR -- ANCHOR",
+      "later_quote": "A GOLDEN RETRIEVER comes bounding down the dock ... \"That's Anchor.\"",
+      "reason": "Same entity and same attribute; black Labrador versus golden retriever is a direct contradiction with no explanation."
+    },
+    {
+      "index": 33,
+      "decision": "reject",
+      "attribute": "has_children_vs_dog_identity",
+      "prior_quote": "\"No. No children.\"",
+      "later_quote": "\"That's Anchor. Marcus must have walked him down this morning.\"",
+      "reason": "fails B: the quotes concern different attributes."
+    },
+    {
+      "index": 34,
+      "decision": "reject",
+      "attribute": "dog_name",
+      "prior_quote": "\"Captain! Easy!\"",
+      "later_quote": "\"That's Anchor.\"",
+      "reason": "fails A: scene 6 does not establish that Captain is the same dog later identified as Anchor."
+    }
+  ]
+}

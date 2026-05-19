@@ -1,0 +1,304 @@
+{
+  "6": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Felix",
+        "FELIX"
+      ],
+      "canonical_name": "Felix",
+      "description": "Felix rides through the forest with Sable and explains his reasoning about Wren, the map, and the thieves.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0",
+      "evidence": [
+        "Felix and Sable ride a dirt road through tall pines, moving at pace.",
+        "FELIX\nIf Wren has the map he will move it through the eastern fences.",
+        "FELIX\nNo. I had moved it. Too late, as it turns out."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_6_doc_5_chunk_0_ev_001",
+        "ev_syntheti_6_doc_5_chunk_0_ev_002",
+        "ev_syntheti_6_doc_5_chunk_0_ev_003",
+        "ev_syntheti_6_doc_5_chunk_0_ev_004",
+        "ev_syntheti_6_doc_5_chunk_0_ev_005",
+        "ev_syntheti_6_doc_5_chunk_0_ev_006",
+        "ev_syntheti_6_doc_5_chunk_0_ev_007"
+      ],
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_001",
+      "movie_id": "synthetic_hallucination_003__scene_6"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Sable",
+        "SABLE"
+      ],
+      "canonical_name": "Sable",
+      "description": "Sable rides beside Felix and questions him about Wren, the map description, and where the thieves searched.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0",
+      "evidence": [
+        "Felix and Sable ride a dirt road through tall pines, moving at pace.",
+        "Sable rides beside Felix, her long dark brown hair pulled back under a riding hood.",
+        "SABLE\nHow can you be certain?"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_6_doc_5_chunk_0_ev_001",
+        "ev_syntheti_6_doc_5_chunk_0_ev_002",
+        "ev_syntheti_6_doc_5_chunk_0_ev_003",
+        "ev_syntheti_6_doc_5_chunk_0_ev_004",
+        "ev_syntheti_6_doc_5_chunk_0_ev_005",
+        "ev_syntheti_6_doc_5_chunk_0_ev_006",
+        "ev_syntheti_6_doc_5_chunk_0_ev_007"
+      ],
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_002",
+      "movie_id": "synthetic_hallucination_003__scene_6"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Wren"
+      ],
+      "canonical_name": "Wren",
+      "description": "Wren is the influential nobleman Felix suspects would move the map through the eastern fences.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0",
+      "evidence": [
+        "If Wren has the map he will move it through the eastern fences.",
+        "Because of who he is. A nobleman with reach across three provinces."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_6_doc_5_chunk_0_ev_002",
+        "ev_syntheti_6_doc_5_chunk_0_ev_003"
+      ],
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_003",
+      "movie_id": "synthetic_hallucination_003__scene_6"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "the map",
+        "a map of the Northern Reaches"
+      ],
+      "canonical_name": "the map",
+      "description": "The sought-after map is the central object of the discussion, described as a version of the Northern Reaches map and moved by Felix.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0",
+      "evidence": [
+        "If Wren has the map he will move it through the eastern fences.",
+        "They described a map of the Northern Reaches drawn in red ink on reinforced parchment.",
+        "No. I had moved it."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_6_doc_5_chunk_0_ev_002",
+        "ev_syntheti_6_doc_5_chunk_0_ev_004",
+        "ev_syntheti_6_doc_5_chunk_0_ev_005",
+        "ev_syntheti_6_doc_5_chunk_0_ev_006",
+        "ev_syntheti_6_doc_5_chunk_0_ev_007"
+      ],
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_004",
+      "movie_id": "synthetic_hallucination_003__scene_6"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "the eastern fences"
+      ],
+      "canonical_name": "the eastern fences",
+      "description": "The eastern fences are the route Felix says Wren would use to move the map.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0",
+      "evidence": [
+        "he will move it through the eastern fences."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_6_doc_5_chunk_0_ev_002"
+      ],
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_005",
+      "movie_id": "synthetic_hallucination_003__scene_6"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Concept",
+      "surface_forms": [
+        "three provinces"
+      ],
+      "canonical_name": "three provinces",
+      "description": "The three provinces are the extent of Wren's political reach as described by Felix.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0",
+      "evidence": [
+        "A nobleman with reach across three provinces."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_6_doc_5_chunk_0_ev_003"
+      ],
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_006",
+      "movie_id": "synthetic_hallucination_003__scene_6"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Character",
+      "surface_forms": [
+        "the thief"
+      ],
+      "canonical_name": "the thief",
+      "description": "The thief is the person whose incorrect description of the map prompts Felix's explanation.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0",
+      "evidence": [
+        "What about the description the thief gave? You said it was wrong."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_6_doc_5_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_007",
+      "movie_id": "synthetic_hallucination_003__scene_6"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "the Northern Reaches"
+      ],
+      "canonical_name": "the Northern Reaches",
+      "description": "The Northern Reaches are the region depicted on the map Felix discusses.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0",
+      "evidence": [
+        "They described a map of the Northern Reaches drawn in red ink on reinforced parchment."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_6_doc_5_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_008",
+      "movie_id": "synthetic_hallucination_003__scene_6"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Character",
+      "surface_forms": [
+        "Holt"
+      ],
+      "canonical_name": "Holt",
+      "description": "Holt is the person Felix cites as the source for how the fence described the map.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0",
+      "evidence": [
+        "That is how Holt said the fence described it."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_6_doc_5_chunk_0_ev_005"
+      ],
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_009",
+      "movie_id": "synthetic_hallucination_003__scene_6"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Character",
+      "surface_forms": [
+        "the fence"
+      ],
+      "canonical_name": "the fence",
+      "description": "The fence is the intermediary whose description of the map Holt reportedly relayed.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0",
+      "evidence": [
+        "That is how Holt said the fence described it."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_6_doc_5_chunk_0_ev_005"
+      ],
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_010",
+      "movie_id": "synthetic_hallucination_003__scene_6"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "the chest"
+      ],
+      "canonical_name": "the chest",
+      "description": "The chest is the container Sable references when asking where the thieves found the map.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0",
+      "evidence": [
+        "And the chest -- where they found it."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_6_doc_5_chunk_0_ev_006"
+      ],
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_011",
+      "movie_id": "synthetic_hallucination_003__scene_6"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Location",
+      "surface_forms": [
+        "the window alcove",
+        "The window alcove",
+        "the alcove shelf"
+      ],
+      "canonical_name": "the window alcove",
+      "description": "The window alcove is the hiding place area where Felix kept the map in a wooden box on a shelf.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0",
+      "evidence": [
+        "The window alcove?",
+        "the wooden box I kept on the alcove shelf."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_6_doc_5_chunk_0_ev_006",
+        "ev_syntheti_6_doc_5_chunk_0_ev_007"
+      ],
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_012",
+      "movie_id": "synthetic_hallucination_003__scene_6"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Character",
+      "surface_forms": [
+        "the thieves",
+        "They",
+        "they"
+      ],
+      "canonical_name": "the thieves",
+      "description": "The thieves are the people Felix says had seen the map earlier and returned expecting it to still be in its old hiding place.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0",
+      "evidence": [
+        "They must have seen it earlier in the wooden box I kept on the alcove shelf.",
+        "They assumed it was still there when they came back for it."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_6_doc_5_chunk_0_ev_006"
+      ],
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_013",
+      "movie_id": "synthetic_hallucination_003__scene_6"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "the wooden box"
+      ],
+      "canonical_name": "the wooden box",
+      "description": "The wooden box is the container in which Felix previously kept the map on the alcove shelf.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0",
+      "evidence": [
+        "the wooden box I kept on the alcove shelf."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_6_doc_5_chunk_0_ev_006"
+      ],
+      "id": "ent_syntheti_6_doc_5_chunk_0_ent_014",
+      "movie_id": "synthetic_hallucination_003__scene_6"
+    }
+  ]
+}

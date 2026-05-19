@@ -1,0 +1,868 @@
+{
+  "movie_id": "synthetic_hallucination_001__scene_1",
+  "title": "synthetic_hallucination_001",
+  "nodes": [
+    {
+      "id": "ev_syntheti_1_doc_0_chunk_0_ev_001",
+      "type": "Event",
+      "name": "Marcus tends lighthouse instruments",
+      "aliases": [
+        "Marcus tends lighthouse instruments"
+      ],
+      "description": "Marcus Calloway moves through the lighthouse watch room monitoring the instrument panels, revealing his pronounced limp.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Each step reveals a pronounced limp -- his RIGHT LEG drags with a soft scrape while his left lands firmly.",
+        "Below, in the watch room, MARCUS CALLOWAY (50s, weathered face, salt-and-pepper beard) moves between instrument panels."
+      ]
+    },
+    {
+      "id": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "type": "Event",
+      "name": "Marcus logs weather conditions",
+      "aliases": [
+        "Marcus logs weather conditions"
+      ],
+      "description": "Marcus sets down his tea, opens the logbook, and records or reviews the current wind speed and visibility.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "MARCUS\n(murmuring)\nWind speed up two knots. Visibility holding at fourteen miles.",
+        "He carries a BLUE CERAMIC MUG of steaming tea. He sets the mug on the corner of a worn wooden desk and opens a logbook, running his finger along the day's entries."
+      ]
+    },
+    {
+      "id": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "type": "Event",
+      "name": "Anchor responds to Marcus",
+      "aliases": [
+        "Anchor responds to Marcus"
+      ],
+      "description": "Anchor, the black Labrador, wakes from his mat and signals alertness by thumping his tail.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Below the desk, a BLACK LABRADOR -- ANCHOR -- raises his broad head from a sleeping mat and thumps his tail against the stone floor."
+      ]
+    },
+    {
+      "id": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "type": "Event",
+      "name": "Marcus notes Anchor senses storm",
+      "aliases": [
+        "Marcus notes Anchor senses storm"
+      ],
+      "description": "Marcus tells Anchor that the dog can already smell the approaching weather, underscoring the storm's arrival and their bond.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "MARCUS (CONT'D)\n(to the dog)\nYou smell it already, don't you, Anchor. Good boy."
+      ]
+    },
+    {
+      "id": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "type": "Event",
+      "name": "Marcus adjusts lighthouse rotation",
+      "aliases": [
+        "Marcus adjusts lighthouse rotation"
+      ],
+      "description": "Marcus limps to the window and manually adjusts the lighthouse rotation mechanism with practiced skill.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Marcus limps back to the window, his right leg stiff and dragging, and adjusts the rotation mechanism with practiced hands."
+      ]
+    },
+    {
+      "id": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "type": "Event",
+      "name": "Marcus watches storm build",
+      "aliases": [
+        "Marcus watches storm build"
+      ],
+      "description": "Marcus sits back down, drinks his tea, and watches the storm gathering on the horizon.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "He resettles in his chair, lifts the blue mug, sips his tea, and watches the storm building on the horizon."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "type": "Character",
+      "name": "Marcus Calloway",
+      "aliases": [
+        "Marcus Calloway",
+        "MARCUS",
+        "MARCUS CALLOWAY",
+        "Marcus"
+      ],
+      "description": "A weathered lighthouse keeper with a pronounced limp who monitors instruments, logs conditions, adjusts the mechanism, and watches the approaching storm.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Marcus limps back to the window, his right leg stiff and dragging, and adjusts the rotation mechanism with practiced hands.",
+        "MARCUS CALLOWAY (50s, weathered face, salt-and-pepper beard) moves between instrument panels.",
+        "MARCUS",
+        "Marcus resettles in his chair, lifts the blue mug, sips his tea, and watches the storm building on the horizon.",
+        "Marcus wears THICK-FRAMED READING GLASSES perched at the end of his nose."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_002",
+      "type": "Character",
+      "name": "Anchor",
+      "aliases": [
+        "Anchor",
+        "ANCHOR"
+      ],
+      "description": "Marcus's black Labrador, who wakes from his mat and reacts alertly to the incoming storm.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "a BLACK LABRADOR -- ANCHOR -- raises his broad head from a sleeping mat",
+        "You smell it already, don't you, Anchor. Good boy."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "type": "Location",
+      "name": "Lighthouse Watch Room",
+      "aliases": [
+        "Lighthouse Watch Room",
+        "LIGHTHOUSE WATCH ROOM",
+        "watch room"
+      ],
+      "description": "The interior room of the lighthouse where Marcus works among the instruments and desk.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT",
+        "Below, in the watch room, MARCUS CALLOWAY (50s, weathered face, salt-and-pepper beard) moves between instrument panels."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "type": "TimePoint",
+      "name": "Night",
+      "aliases": [
+        "Night",
+        "NIGHT"
+      ],
+      "description": "The nighttime setting of the lighthouse scene.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT"
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_005",
+      "type": "Object",
+      "name": "instrument panels",
+      "aliases": [
+        "instrument panels"
+      ],
+      "description": "The monitoring equipment Marcus moves between while tending the lighthouse systems.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "moves between instrument panels"
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_006",
+      "type": "Object",
+      "name": "blue ceramic mug",
+      "aliases": [
+        "blue ceramic mug",
+        "BLUE CERAMIC MUG",
+        "the blue mug",
+        "the mug"
+      ],
+      "description": "Marcus's mug of steaming tea, which he sets down and later drinks from while watching the storm.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "lifts the blue mug, sips his tea",
+        "He carries a BLUE CERAMIC MUG of steaming tea.",
+        "He sets the mug on the corner of a worn wooden desk"
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_007",
+      "type": "Object",
+      "name": "logbook",
+      "aliases": [
+        "logbook"
+      ],
+      "description": "The record book Marcus opens to review and note weather conditions.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "opens a logbook, running his finger along the day's entries"
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_009",
+      "type": "Object",
+      "name": "rotation mechanism",
+      "aliases": [
+        "rotation mechanism"
+      ],
+      "description": "The lighthouse control mechanism Marcus manually adjusts with practiced hands.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "adjusts the rotation mechanism with practiced hands"
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_008",
+      "type": "Concept",
+      "name": "weather conditions",
+      "aliases": [
+        "weather conditions",
+        "Wind speed",
+        "Visibility"
+      ],
+      "description": "The measured atmospheric conditions Marcus tracks in the lighthouse log.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Wind speed up two knots. Visibility holding at fourteen miles."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_010",
+      "type": "Concept",
+      "name": "storm",
+      "aliases": [
+        "storm",
+        "the storm"
+      ],
+      "description": "The approaching bad weather that Anchor senses and Marcus watches building on the horizon.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "You smell it already, don't you, Anchor.",
+        "watches the storm building on the horizon"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_2e863956158c",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_001",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Below, in the watch room, MARCUS CALLOWAY (50s, weathered face, salt-and-pepper beard) moves between instrument panels."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_dbbb0971cf79",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT",
+        "Below, in the watch room, MARCUS CALLOWAY ... moves between instrument panels."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_dead1bfadaa3",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_c58c9ae2779a",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "uses",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_005",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "MARCUS CALLOWAY ... moves between instrument panels."
+      ],
+      "confidence": 0.82
+    },
+    {
+      "id": "e_3ccf975f594a",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "He sets the mug on the corner of a worn wooden desk and opens a logbook, running his finger along the day's entries.",
+        "MARCUS (murmuring) Wind speed up two knots. Visibility holding at fourteen miles."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_75b44d5895ed",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT",
+        "He sets the mug on the corner of a worn wooden desk and opens a logbook"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_4f67f905b257",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_1542966b6172",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "uses",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_007",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "He sets the mug on the corner of a worn wooden desk and opens a logbook, running his finger along the day's entries."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_a4b9f4b4f0c1",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "relation": "references",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Wind speed up two knots. Visibility holding at fourteen miles.",
+        "watches the storm building on the horizon"
+      ],
+      "confidence": 0.61
+    },
+    {
+      "id": "e_fd76afea0c31",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_008",
+      "relation": "affiliated_with",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_010",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Wind speed up two knots. Visibility holding at fourteen miles.",
+        "watches the storm building on the horizon"
+      ],
+      "confidence": 0.52
+    },
+    {
+      "id": "e_6d7ec538a14d",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Below the desk, a BLACK LABRADOR -- ANCHOR -- raises his broad head from a sleeping mat and thumps his tail against the stone floor."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_e80aefcf1e0d",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT",
+        "Below the desk, a BLACK LABRADOR -- ANCHOR -- raises his broad head"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_eaff2c3b5b8a",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_cb5f9c5b42bb",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_002",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "You smell it already, don't you, Anchor. Good boy."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_1d7654e3d157",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "MARCUS (CONT'D) (to the dog) You smell it already, don't you, Anchor."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_fc692dfb2f84",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT",
+        "MARCUS (CONT'D) (to the dog) You smell it already, don't you, Anchor."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_855a2c9a66e9",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_960e00e865eb",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "relation": "references",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Below the desk, a BLACK LABRADOR -- ANCHOR -- raises his broad head from a sleeping mat and thumps his tail against the stone floor.",
+        "You smell it already, don't you, Anchor."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_af43068d53de",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Marcus limps back to the window, his right leg stiff and dragging, and adjusts the rotation mechanism with practiced hands."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_30d96ef0488e",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT",
+        "Marcus limps back to the window ... and adjusts the rotation mechanism"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_65bf0703de01",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_b350a59ee187",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "uses",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_009",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "adjusts the rotation mechanism with practiced hands"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_8d32785f0be7",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "He resettles in his chair, lifts the blue mug, sips his tea, and watches the storm building on the horizon."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_3f2f475d8045",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT",
+        "watches the storm building on the horizon"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_e164ab3c37f9",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_05419c53e5d5",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "moves between instrument panels.",
+        "He sets the mug on the corner of a worn wooden desk and opens a logbook"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_89ece0d2b732",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "relation": "precedes",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Wind speed up two knots. Visibility holding at fourteen miles.",
+        "Below the desk, a BLACK LABRADOR -- ANCHOR -- raises his broad head"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "id": "e_59e0b46c513d",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "relation": "precedes",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "ANCHOR -- raises his broad head from a sleeping mat and thumps his tail against the stone floor.",
+        "You smell it already, don't you, Anchor."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_b1defd2c2cef",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "relation": "precedes",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "You smell it already, don't you, Anchor. Good boy.",
+        "Marcus limps back to the window ... and adjusts the rotation mechanism"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_e63f86e1aeff",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "relation": "precedes",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "adjusts the rotation mechanism with practiced hands.",
+        "He resettles in his chair, lifts the blue mug, sips his tea, and watches the storm building on the horizon."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_71ffadd1a9d2",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "possesses",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_006",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "He carries a BLUE CERAMIC MUG of steaming tea.",
+        "He resettles in his chair, lifts the blue mug"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_d271d7f75224",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT",
+        "Below, in the watch room, MARCUS CALLOWAY"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_ff29664aeaf6",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_002",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Below the desk, a BLACK LABRADOR -- ANCHOR -- raises his broad head"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_386ec5e9fcf8",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_005",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Below, in the watch room, MARCUS CALLOWAY ... moves between instrument panels."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_d2e77c60d287",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_006",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "He carries a BLUE CERAMIC MUG of steaming tea.",
+        "He sets the mug on the corner of a worn wooden desk"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_2dcfedad09a7",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_007",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "He sets the mug on the corner of a worn wooden desk and opens a logbook"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_a977f3db0a67",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_009",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Marcus limps back to the window ... and adjusts the rotation mechanism"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_9de959071941",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_010",
+      "relation": "present_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. LIGHTHOUSE WATCH ROOM - NIGHT",
+        "watches the storm building on the horizon"
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_3898d0d9ed20",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_002",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "You smell it already, don't you, Anchor. Good boy."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_6024381b6045",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_001",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "moves between instrument panels.",
+        "He sets the mug on the corner of a worn wooden desk and opens a logbook"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_45fa50ef7e8d",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Wind speed up two knots. Visibility holding at fourteen miles.",
+        "Below the desk, a BLACK LABRADOR -- ANCHOR -- raises his broad head"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "id": "e_c340ed9748f8",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "ANCHOR -- raises his broad head from a sleeping mat and thumps his tail against the stone floor.",
+        "You smell it already, don't you, Anchor."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_75a9436fbeab",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "You smell it already, don't you, Anchor. Good boy.",
+        "Marcus limps back to the window ... and adjusts the rotation mechanism"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_4b8480eb6df5",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "adjusts the rotation mechanism with practiced hands.",
+        "He resettles in his chair, lifts the blue mug, sips his tea, and watches the storm building on the horizon."
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

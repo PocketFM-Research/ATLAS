@@ -8,21 +8,32 @@ def get_llm(
     model=None,
     api_key=None,
     base_url=None,
+    api_version=None,
 ) -> BaseLLM:
     """
     Factory function to instantiate the correct LLM backend.
 
     Args:
-        provider: One of 'openai', 'anthropic', 'gemini', 'vllm'.
+        provider: One of 'openai', 'azure_openai', 'anthropic', 'gemini', 'vllm'.
         model: Model name/ID (provider-specific default if None).
         api_key: API key (reads from env if None).
-        base_url: Override endpoint URL (mainly for vllm).
+        base_url: Override endpoint URL (mainly for vllm / azure_openai).
+        api_version: Azure API version (azure_openai only).
     """
     provider = provider.lower()
 
     if provider == "openai":
         from .openai_client import OpenAILLM
         return OpenAILLM(model=model or "gpt-4o", api_key=api_key, base_url=base_url)
+
+    elif provider in ("azure_openai", "azure-openai", "azure"):
+        from .azure_openai_client import AzureOpenAILLM
+        return AzureOpenAILLM(
+            model=model or "gpt-5.4-mini",
+            api_key=api_key,
+            base_url=base_url,
+            api_version=api_version,
+        )
 
     elif provider == "anthropic":
         from .anthropic_client import AnthropicLLM
@@ -41,5 +52,6 @@ def get_llm(
 
     else:
         raise ValueError(
-            f"Unknown provider '{provider}'. Choose from: openai, anthropic, gemini, vllm"
+            f"Unknown provider '{provider}'. Choose from: "
+            "openai, azure_openai, anthropic, gemini, vllm"
         )

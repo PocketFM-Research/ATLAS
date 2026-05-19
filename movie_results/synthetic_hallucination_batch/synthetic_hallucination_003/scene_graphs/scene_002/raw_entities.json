@@ -1,0 +1,267 @@
+{
+  "2": [
+    {
+      "temp_id": "ent_001",
+      "type": "Location",
+      "surface_forms": [
+        "Market Square",
+        "MARKET SQUARE"
+      ],
+      "canonical_name": "Market Square",
+      "description": "The crowded outdoor market where Felix, Sable, and Wren encounter one another.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "A busy morning market."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_001",
+        "ev_syntheti_2_doc_1_chunk_0_ev_004",
+        "ev_syntheti_2_doc_1_chunk_0_ev_008",
+        "ev_syntheti_2_doc_1_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "movie_id": "synthetic_hallucination_003__scene_2"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Day",
+        "DAY",
+        "morning"
+      ],
+      "canonical_name": "Day",
+      "description": "The daytime period during which the market scene takes place.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "EXT. MARKET SQUARE - DAY",
+        "A busy morning market."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_001"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "movie_id": "synthetic_hallucination_003__scene_2"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Felix",
+        "FELIX",
+        "Master Adler"
+      ],
+      "canonical_name": "Felix",
+      "description": "A mapmaker moving through the market with Sable who refuses Wren Aldous's offer to buy his map.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "Felix and Sable move through the crowd.",
+        "WREN\nMaster Adler. I have been hoping to find you.",
+        "FELIX\nIt is not for sale."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_001",
+        "ev_syntheti_2_doc_1_chunk_0_ev_003",
+        "ev_syntheti_2_doc_1_chunk_0_ev_004",
+        "ev_syntheti_2_doc_1_chunk_0_ev_005",
+        "ev_syntheti_2_doc_1_chunk_0_ev_006",
+        "ev_syntheti_2_doc_1_chunk_0_ev_007",
+        "ev_syntheti_2_doc_1_chunk_0_ev_008",
+        "ev_syntheti_2_doc_1_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "movie_id": "synthetic_hallucination_003__scene_2"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Sable",
+        "SABLE"
+      ],
+      "canonical_name": "Sable",
+      "description": "Felix's companion whose worn satchel breaks as they cross the market.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "Felix and Sable move through the crowd.",
+        "Sable carries a worn LEATHER SATCHEL over one shoulder.",
+        "SABLE\nAgain."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_001",
+        "ev_syntheti_2_doc_1_chunk_0_ev_002",
+        "ev_syntheti_2_doc_1_chunk_0_ev_003",
+        "ev_syntheti_2_doc_1_chunk_0_ev_004",
+        "ev_syntheti_2_doc_1_chunk_0_ev_008",
+        "ev_syntheti_2_doc_1_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_004",
+      "movie_id": "synthetic_hallucination_003__scene_2"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "leather satchel",
+        "LEATHER SATCHEL",
+        "satchel"
+      ],
+      "canonical_name": "leather satchel",
+      "description": "Sable's worn bag whose broken clasp forces her to hold it shut by hand.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "Sable carries a worn LEATHER SATCHEL over one shoulder.",
+        "holding her broken satchel shut"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_002"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_005",
+      "movie_id": "synthetic_hallucination_003__scene_2"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "clasp",
+        "CLASP"
+      ],
+      "canonical_name": "clasp",
+      "description": "The satchel fastener that snaps clean when Sable tries to open the bag.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "the CLASP BREAKS -- the leather tab snapping clean."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_002"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_006",
+      "movie_id": "synthetic_hallucination_003__scene_2"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Character",
+      "surface_forms": [
+        "Wren Aldous",
+        "WREN ALDOUS",
+        "WREN",
+        "Mr. Aldous",
+        "Aldous"
+      ],
+      "canonical_name": "Wren Aldous",
+      "description": "A prosperous, broad-shouldered man with a merchant's badge who intercepts Felix to buy the Northern Reaches map.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "WREN ALDOUS (50s, broad-shouldered, prosperously dressed) steps from between two stalls directly into their path.",
+        "FELIX\n(measured)\nMr. Aldous.",
+        "FELIX\nGood day, Mr. Aldous."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_004",
+        "ev_syntheti_2_doc_1_chunk_0_ev_005",
+        "ev_syntheti_2_doc_1_chunk_0_ev_006",
+        "ev_syntheti_2_doc_1_chunk_0_ev_007",
+        "ev_syntheti_2_doc_1_chunk_0_ev_008",
+        "ev_syntheti_2_doc_1_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_007",
+      "movie_id": "synthetic_hallucination_003__scene_2"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "merchant's badge",
+        "MERCHANT'S BADGE"
+      ],
+      "canonical_name": "merchant's badge",
+      "description": "The badge pinned to Wren Aldous's coat, marking his merchant status.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "A MERCHANT'S BADGE is pinned visibly to his coat."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_008",
+      "movie_id": "synthetic_hallucination_003__scene_2"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "Northern Reaches map",
+        "the Northern Reaches map",
+        "that map",
+        "it"
+      ],
+      "canonical_name": "Northern Reaches map",
+      "description": "Felix's painstakingly surveyed map that Wren Aldous tries to purchase.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "I want to purchase the Northern Reaches map.",
+        "It is not for sale.",
+        "Six months of my life are in that map."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_005",
+        "ev_syntheti_2_doc_1_chunk_0_ev_006",
+        "ev_syntheti_2_doc_1_chunk_0_ev_007"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_009",
+      "movie_id": "synthetic_hallucination_003__scene_2"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "two hundred gold coins",
+        "Two hundred gold coins",
+        "Two hundred gold",
+        "two hundred gold"
+      ],
+      "canonical_name": "two hundred gold coins",
+      "description": "The price Wren offers Felix in exchange for the Northern Reaches map.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "Two hundred gold coins. Today, or when it is complete.",
+        "Two hundred gold is a fair price."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_005"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_010",
+      "movie_id": "synthetic_hallucination_003__scene_2"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Concept",
+      "surface_forms": [
+        "cobbler"
+      ],
+      "canonical_name": "cobbler",
+      "description": "The repair trade Felix suggests Sable use to fix her broken satchel.",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0",
+      "evidence": [
+        "FELIX\nTake it to the cobbler."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_2_doc_1_chunk_0_ev_003"
+      ],
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_011",
+      "movie_id": "synthetic_hallucination_003__scene_2"
+    }
+  ]
+}

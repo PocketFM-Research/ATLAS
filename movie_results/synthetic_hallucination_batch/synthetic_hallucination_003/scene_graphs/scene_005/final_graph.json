@@ -1,0 +1,1075 @@
+{
+  "movie_id": "synthetic_hallucination_003__scene_5",
+  "title": "synthetic_hallucination_003",
+  "nodes": [
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "type": "Event",
+      "name": "holt briefs them on break-in entry",
+      "aliases": [
+        "holt briefs them on break-in entry"
+      ],
+      "description": "Holt explains that investigators determined the workshop was entered through the east-facing window.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Our people examined the workshop this morning. The entry point was the east-facing WINDOW."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "type": "Event",
+      "name": "holt reveals latch was old damage",
+      "aliases": [
+        "holt reveals latch was old damage"
+      ],
+      "description": "Holt states the window latch had been broken from age and neglect rather than by a recent forced entry, implying the thief exploited that weakness.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The latch was broken -- not forced recently, broken from age and neglect. The thief knew this or discovered it on approach."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "type": "Event",
+      "name": "felix denies knowing broken latch",
+      "aliases": [
+        "felix denies knowing broken latch"
+      ],
+      "description": "Felix says he did not know the workshop window latch was broken.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "FELIX\nI did not know the latch was broken."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "type": "Event",
+      "name": "holt identifies satchel as sable's",
+      "aliases": [
+        "holt identifies satchel as sable's"
+      ],
+      "description": "Holt announces that the satchel found near Felix's desk belongs to Sable.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The satchel found near your desk, Mr. Adler. It belongs to Miss Cross."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "type": "Event",
+      "name": "holt clears sable with alibi",
+      "aliases": [
+        "holt clears sable with alibi"
+      ],
+      "description": "Holt says independent witnesses place Sable at the market all morning, establishing an unambiguous alibi and clearing her of suspicion.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Three separate stall-keepers in the market square placed you there from before first bell until after the midday toll.",
+        "We have confirmed your whereabouts independently.",
+        "You were at the market all morning. That is an unambiguous alibi. Miss Cross is cleared of any suspicion."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "type": "Event",
+      "name": "sable expresses relief",
+      "aliases": [
+        "sable expresses relief"
+      ],
+      "description": "Sable exhales and thanks Holt after being cleared.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "SABLE\n(exhaling)\nThank you."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "type": "Event",
+      "name": "holt says someone framed sable",
+      "aliases": [
+        "holt says someone framed sable"
+      ],
+      "description": "Holt warns that someone deliberately tried to implicate Sable using the satchel and is pursuing both the map and suspicion toward Felix's apprentice.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Do not thank me yet. Someone wanted you implicated.",
+        "That means they knew about the satchel or found it and used it.",
+        "The question is who benefits from the map and from casting doubt on your apprentice."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "type": "Event",
+      "name": "felix names wren as suspect",
+      "aliases": [
+        "felix names wren as suspect"
+      ],
+      "description": "Felix identifies Wren as the likely person behind the theft and framing.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "FELIX\nWren."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "type": "Event",
+      "name": "holt cautions lack of proof",
+      "aliases": [
+        "holt cautions lack of proof"
+      ],
+      "description": "Holt says there is not yet proof against Wren and warns Felix and Sable to be careful.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "We do not have proof. Not yet. But I want both of you to be careful."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "type": "Character",
+      "name": "Holt",
+      "aliases": [
+        "Holt",
+        "HOLT"
+      ],
+      "description": "The inspector leading the briefing about the break-in, the satchel, and the current suspicions.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Holt spreads his notes across a clear section of his desk.",
+        "HOLT (CONT'D)\nThe satchel found near your desk, Mr. Adler. It belongs to Miss Cross.",
+        "HOLT\nWe do not have proof. Not yet. But I want both of you to be careful.",
+        "HOLT\nOur people examined the workshop this morning."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "type": "Character",
+      "name": "Felix",
+      "aliases": [
+        "Felix",
+        "Mr. Adler",
+        "FELIX"
+      ],
+      "description": "The workshop owner or investigator's subject who denies knowing about the broken latch and later names Wren as the suspect.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Felix and Sable sit opposite.",
+        "The satchel found near your desk, Mr. Adler.",
+        "FELIX\nI did not know the latch was broken.",
+        "FELIX\nWren."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "type": "Character",
+      "name": "Sable",
+      "aliases": [
+        "Sable",
+        "SABLE",
+        "Miss Cross"
+      ],
+      "description": "Felix's apprentice who is initially implicated by the satchel but then cleared by an alibi.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "It belongs to Miss Cross.",
+        "SABLE\nI can explain --",
+        "Miss Cross is cleared of any suspicion.",
+        "Felix and Sable sit opposite.",
+        "SABLE\n(exhaling)\nThank you."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "type": "Character",
+      "name": "Wren",
+      "aliases": [
+        "Wren"
+      ],
+      "description": "The person Felix identifies as the likely culprit behind the theft and framing, though Holt says there is no proof yet.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "FELIX\nWren.",
+        "HOLT\nWe do not have proof. Not yet."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "type": "Location",
+      "name": "Inspector's Office",
+      "aliases": [
+        "Inspector's Office",
+        "INSPECTOR'S OFFICE"
+      ],
+      "description": "The office where Holt briefs Felix and Sable about the investigation.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. INSPECTOR'S OFFICE - DAY"
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_006",
+      "type": "Location",
+      "name": "workshop",
+      "aliases": [
+        "workshop",
+        "the workshop"
+      ],
+      "description": "The place that was entered through the east-facing window during the break-in.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Our people examined the workshop this morning."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_007",
+      "type": "Location",
+      "name": "market square",
+      "aliases": [
+        "market square",
+        "the market square",
+        "the market"
+      ],
+      "description": "The place where witnesses say Sable spent the entire morning, establishing her alibi.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "You were at the market all morning.",
+        "Three separate stall-keepers in the market square placed you there"
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_008",
+      "type": "TimePoint",
+      "name": "this morning",
+      "aliases": [
+        "this morning"
+      ],
+      "description": "The time when Holt says the workshop was examined.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Our people examined the workshop this morning."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_009",
+      "type": "TimePoint",
+      "name": "all morning",
+      "aliases": [
+        "all morning",
+        "before first bell",
+        "after the midday toll"
+      ],
+      "description": "The span of time during which Sable is said to have been at the market, forming her alibi.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "You were at the market all morning.",
+        "from before first bell until after the midday toll"
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_010",
+      "type": "Object",
+      "name": "east-facing window",
+      "aliases": [
+        "east-facing window",
+        "The entry point was the east-facing WINDOW",
+        "WINDOW"
+      ],
+      "description": "The window identified as the point of entry into the workshop.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The entry point was the east-facing WINDOW."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "type": "Object",
+      "name": "window latch",
+      "aliases": [
+        "window latch",
+        "The latch was broken",
+        "the latch",
+        "The latch"
+      ],
+      "description": "The old, neglected latch whose condition explains how the thief could enter without recent forced damage.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "FELIX\nI did not know the latch was broken.",
+        "The latch was broken -- not forced recently, broken from age and neglect."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_012",
+      "type": "Object",
+      "name": "satchel",
+      "aliases": [
+        "satchel",
+        "The satchel",
+        "the satchel"
+      ],
+      "description": "The bag found near Felix's desk that Holt says belongs to Sable and was used to implicate her.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Someone wanted you implicated. That means they knew about the satchel or found it and used it.",
+        "The satchel found near your desk, Mr. Adler."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_013",
+      "type": "Object",
+      "name": "map",
+      "aliases": [
+        "map",
+        "the map"
+      ],
+      "description": "The sought-after item Holt says the culprit stands to benefit from obtaining.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The question is who benefits from the map"
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_014",
+      "type": "Concept",
+      "name": "investigators",
+      "aliases": [
+        "investigators",
+        "Our people"
+      ],
+      "description": "Holt's investigative personnel who examined the workshop and determined the entry point.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Our people examined the workshop this morning."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_015",
+      "type": "Concept",
+      "name": "stall-keepers",
+      "aliases": [
+        "stall-keepers",
+        "Three separate stall-keepers"
+      ],
+      "description": "The market witnesses whose statements establish Sable's alibi.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Three separate stall-keepers in the market square placed you there"
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_016",
+      "type": "Concept",
+      "name": "thief",
+      "aliases": [
+        "thief",
+        "The thief"
+      ],
+      "description": "The unknown intruder who used or discovered the broken latch to enter the workshop.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The thief knew this or discovered it on approach."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_017",
+      "type": "Concept",
+      "name": "unknown culprit",
+      "aliases": [
+        "unknown culprit",
+        "Someone"
+      ],
+      "description": "The unidentified person Holt says deliberately tried to implicate Sable and cast doubt on the apprentice.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Someone wanted you implicated."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_c2b6b83ac15f",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "HOLT Our people examined the workshop this morning. The entry point was the east-facing WINDOW."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_a47760d7d2cf",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. INSPECTOR'S OFFICE - DAY",
+        "Holt spreads his notes across a clear section of his desk. Felix and Sable sit opposite.",
+        "HOLT Our people examined the workshop this morning. The entry point was the east-facing WINDOW."
+      ],
+      "confidence": 0.74
+    },
+    {
+      "id": "e_ffdb3d252595",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_008",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Our people examined the workshop this morning."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_6b07f172489a",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_006",
+      "relation": "part_of",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Our people examined the workshop this morning."
+      ],
+      "confidence": 0.28
+    },
+    {
+      "id": "e_2cf46c225a23",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_010",
+      "relation": "part_of",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_006",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The entry point was the east-facing WINDOW."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_51381a134f49",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "relation": "part_of",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_010",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The entry point was the east-facing WINDOW. The latch was broken"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_099981ed91db",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "HOLT Our people examined the workshop this morning. The entry point was the east-facing WINDOW. The latch was broken -- not forced recently, broken from age and neglect."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_5a8d6325b9ad",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. INSPECTOR'S OFFICE - DAY",
+        "HOLT Our people examined the workshop this morning. The entry point was the east-facing WINDOW. The latch was broken -- not forced recently, broken from age and neglect."
+      ],
+      "confidence": 0.74
+    },
+    {
+      "id": "e_aa09876e91da",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "relation": "references",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Our people examined the workshop this morning. The entry point was the east-facing WINDOW. The latch was broken -- not forced recently, broken from age and neglect."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_b39c488e870e",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "FELIX I did not know the latch was broken."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_aecca7dff4f7",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. INSPECTOR'S OFFICE - DAY",
+        "FELIX I did not know the latch was broken."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_4ad0d9332600",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "relation": "references",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The latch was broken -- not forced recently, broken from age and neglect.",
+        "FELIX I did not know the latch was broken."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_4f8ee1da6c30",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "HOLT (CONT'D) The satchel found near your desk, Mr. Adler. It belongs to Miss Cross."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_d1a5c67247eb",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. INSPECTOR'S OFFICE - DAY",
+        "HOLT (CONT'D) The satchel found near your desk, Mr. Adler. It belongs to Miss Cross."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_6f85a4fb4473",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "relation": "possesses",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_012",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "It belongs to Miss Cross."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_dd74aa13881f",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "HOLT You do not need to. We have confirmed your whereabouts independently.",
+        "You were at the market all morning. That is an unambiguous alibi. Miss Cross is cleared of any suspicion."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_7b48b850ddf3",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. INSPECTOR'S OFFICE - DAY",
+        "HOLT You do not need to. We have confirmed your whereabouts independently."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_c160c83f7ac7",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "relation": "references",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The satchel found near your desk, Mr. Adler. It belongs to Miss Cross.",
+        "Miss Cross is cleared of any suspicion."
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_28f7210e7b24",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "relation": "present_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_009",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "You were at the market all morning."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_958781f42d01",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "relation": "located_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_007",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Three separate stall-keepers in the market square placed you there",
+        "You were at the market all morning."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_58d88388c5c3",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_015",
+      "relation": "located_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_007",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Three separate stall-keepers in the market square placed you there"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_641661659faa",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "relation": "experiences",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "SABLE (exhaling) Thank you."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_ceb6407e3927",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. INSPECTOR'S OFFICE - DAY",
+        "SABLE (exhaling) Thank you."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_6818a96a25b6",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "relation": "causes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Miss Cross is cleared of any suspicion.",
+        "SABLE (exhaling) Thank you."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_8d51cfd380fe",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "HOLT Do not thank me yet. Someone wanted you implicated."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_4c6fac564c41",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. INSPECTOR'S OFFICE - DAY",
+        "HOLT Do not thank me yet. Someone wanted you implicated."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_1c69f16c70f2",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "relation": "references",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The satchel found near your desk, Mr. Adler. It belongs to Miss Cross.",
+        "Someone wanted you implicated. That means they knew about the satchel or found it and used it."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_c72057573f55",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_017",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Someone wanted you implicated."
+      ],
+      "confidence": 0.62
+    },
+    {
+      "id": "e_bd69dbaad483",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_016",
+      "relation": "is_a",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_017",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The thief knew this or discovered it on approach.",
+        "Someone wanted you implicated."
+      ],
+      "confidence": 0.34
+    },
+    {
+      "id": "e_fb330bcf74ea",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "FELIX Wren."
+      ],
+      "confidence": 0.12
+    },
+    {
+      "id": "e_d9509f96bfe3",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "FELIX Wren."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_8c8b842a5c97",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. INSPECTOR'S OFFICE - DAY",
+        "FELIX Wren."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_9255ddac041c",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "relation": "references",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Someone wanted you implicated.",
+        "FELIX Wren."
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_ceec69cf2500",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "relation": "present_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_008",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "FELIX Wren."
+      ],
+      "confidence": 0.21
+    },
+    {
+      "id": "e_5c87f6d2c67b",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "HOLT We do not have proof. Not yet. But I want both of you to be careful."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_56dcb15c6a91",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. INSPECTOR'S OFFICE - DAY",
+        "HOLT We do not have proof. Not yet. But I want both of you to be careful."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_1babc102f8eb",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "relation": "contrasts_with",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "FELIX Wren.",
+        "HOLT We do not have proof. Not yet."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_c4bfccc25436",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_013",
+      "relation": "located_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The question is who benefits from the map"
+      ],
+      "confidence": 0.31
+    },
+    {
+      "id": "e_a1d74dae6af1",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The entry point was the east-facing WINDOW. The latch was broken"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "id": "e_81d5e9b9f35a",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "relation": "precedes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The latch was broken -- not forced recently, broken from age and neglect.",
+        "FELIX I did not know the latch was broken."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_ed6e3c870975",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "relation": "precedes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The satchel found near your desk, Mr. Adler. It belongs to Miss Cross.",
+        "Miss Cross is cleared of any suspicion."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_515b969ae590",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "located_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. INSPECTOR'S OFFICE - DAY",
+        "Holt spreads his notes across a clear section of his desk."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_f99df2af62ce",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "located_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Felix and Sable sit opposite."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_d32e7d395508",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "relation": "located_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Felix and Sable sit opposite."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_512c53cf470d",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The entry point was the east-facing WINDOW. The latch was broken"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "id": "e_b1ede2703cd1",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The latch was broken -- not forced recently, broken from age and neglect.",
+        "FELIX I did not know the latch was broken."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_31419a075288",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "The satchel found near your desk, Mr. Adler. It belongs to Miss Cross.",
+        "Miss Cross is cleared of any suspicion."
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

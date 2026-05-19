@@ -1,0 +1,9 @@
+story_id,method,Gold,Pred.,TP,FP,FN,precision,recall,F1
+synthetic_hallucination_001,graph_verifier,16,12,11,1,5,0.9167,0.6875,0.7857
+synthetic_hallucination_001,llm_judge,16,11,10,1,6,0.9091,0.625,0.7407
+synthetic_hallucination_002,graph_verifier,13,11,11,0,2,1.0,0.8462,0.9167
+synthetic_hallucination_002,llm_judge,13,13,11,2,2,0.8462,0.8462,0.8462
+synthetic_hallucination_003,graph_verifier,15,12,10,2,5,0.8333,0.6667,0.7407
+synthetic_hallucination_003,llm_judge,15,13,10,3,5,0.7692,0.6667,0.7143
+__aggregate__,graph_verifier,44,35,32,3,12,0.9143,0.7273,0.8101
+__aggregate__,llm_judge,44,37,31,6,13,0.8378,0.7045,0.7654

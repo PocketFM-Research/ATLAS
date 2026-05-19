@@ -1,0 +1,1180 @@
+{
+  "movie_id": "synthetic_hallucination_001__scene_5",
+  "title": "synthetic_hallucination_001",
+  "nodes": [
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "type": "Event",
+      "name": "Elena questions Marcus's tenure",
+      "aliases": [
+        "Elena questions Marcus's tenure"
+      ],
+      "description": "Elena asks Deputy Briggs how long Marcus has been stationed at the lighthouse, initiating her inquiry into Marcus.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA\nDeputy Briggs -- how long has Marcus been out at the lighthouse?"
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "type": "Event",
+      "name": "Tom recounts Marcus's background",
+      "aliases": [
+        "Tom recounts Marcus's background"
+      ],
+      "description": "Tom explains that Marcus has served at the lighthouse for twenty years, arrived after Gareth retired, and has been a quiet, trouble-free former merchant marine.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM\nTwenty years. He came when old Gareth retired. Former merchant marine, Marcus. Quiet man. No trouble ever."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "type": "Event",
+      "name": "Elena investigates lighthouse history",
+      "aliases": [
+        "Elena investigates lighthouse history"
+      ],
+      "description": "Elena writes in her notebook and asks Tom about the historical origins of the lighthouse station.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA\n(writing in her green notebook)\nAnd the station itself -- how far back does it go?"
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "type": "Event",
+      "name": "Tom provides station facts",
+      "aliases": [
+        "Tom provides station facts"
+      ],
+      "description": "Tom retrieves a fact sheet and tells Elena the lighthouse was built in 1887 and has operated under civilian contract since the 1980s.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM\nBuilt in 1887. One of the original iron-frame coastal towers on this stretch. Still functioning under civilian contract since the eighties.",
+        "Tom swivels and pulls a laminated fact sheet from his bulletin board."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "type": "Event",
+      "name": "Elena raises locked room",
+      "aliases": [
+        "Elena raises locked room"
+      ],
+      "description": "Elena asks Tom whether he knows anything about a locked room on the lighthouse's upper floor, shifting the conversation toward a suspicious detail.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA\nThere's a locked room on the upper floor. You know anything about that?"
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "type": "Event",
+      "name": "Tom reacts and denies knowledge",
+      "aliases": [
+        "Tom reacts and denies knowledge"
+      ],
+      "description": "Tom visibly freezes before claiming he knows nothing about the locked room, suggesting discomfort or concealment.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM\nCan't say I do.",
+        "Tom goes still."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "type": "Event",
+      "name": "Elena signals skepticism",
+      "aliases": [
+        "Elena signals skepticism"
+      ],
+      "description": "Elena's curt response indicates she does not believe Tom's denial.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA\nSure."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "type": "Event",
+      "name": "Tom defends Marcus's privacy",
+      "aliases": [
+        "Tom defends Marcus's privacy"
+      ],
+      "description": "Tom leans forward and warns Elena that Marcus is a private man whose solitary habits are his own business.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM\n(leaning forward)\nMs. Voss. Marcus is a private man. Twenty years alone out there -- people form habits. That's his business."
+      ]
+    },
+    {
+      "id": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "type": "Event",
+      "name": "Elena ends the interview",
+      "aliases": [
+        "Elena ends the interview"
+      ],
+      "description": "Elena stands, offers her hand, and formally thanks Deputy Briggs, closing the exchange.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Elena stands and extends a hand.",
+        "ELENA\nThank you, Deputy Briggs."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "type": "Character",
+      "name": "Elena",
+      "aliases": [
+        "Elena",
+        "Ms. Voss",
+        "ELENA"
+      ],
+      "description": "A woman interviewing Deputy Briggs about Marcus and the lighthouse while taking notes in her notebook.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "regards Elena across the desk",
+        "(writing in her green notebook)",
+        "Ms. Voss.",
+        "ELENA"
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "type": "Character",
+      "name": "Tom Briggs",
+      "aliases": [
+        "Tom Briggs",
+        "Tom",
+        "TOM",
+        "Deputy Briggs",
+        "TOM BRIGGS"
+      ],
+      "description": "The deputy being questioned in his office about Marcus, the lighthouse, and the locked room.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM BRIGGS (40s, stocky, unhurried)",
+        "Tom swivels and pulls a laminated fact sheet",
+        "TOM",
+        "Thank you, Deputy Briggs."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "type": "Character",
+      "name": "Marcus",
+      "aliases": [
+        "Marcus"
+      ],
+      "description": "The lighthouse keeper under discussion, described as a quiet former merchant marine who has lived alone there for twenty years.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "how long has Marcus been out at the lighthouse?",
+        "Former merchant marine, Marcus.",
+        "Marcus is a private man."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "type": "Character",
+      "name": "Gareth",
+      "aliases": [
+        "Gareth",
+        "old Gareth"
+      ],
+      "description": "Marcus's predecessor at the lighthouse, mentioned as having retired before Marcus arrived.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "He came when old Gareth retired."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "type": "Location",
+      "name": "Deputy's Office",
+      "aliases": [
+        "Deputy's Office",
+        "DEPUTY'S OFFICE"
+      ],
+      "description": "The small-town law satellite office where Elena interviews Tom Briggs.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "A small-town law satellite office.",
+        "INT. DEPUTY'S OFFICE - DAY"
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_006",
+      "type": "Location",
+      "name": "the lighthouse",
+      "aliases": [
+        "the lighthouse",
+        "the station",
+        "the station itself"
+      ],
+      "description": "The coastal lighthouse station where Marcus has been stationed and whose history Elena investigates.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Built in 1887.",
+        "And the station itself -- how far back does it go?",
+        "how long has Marcus been out at the lighthouse?"
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_007",
+      "type": "Location",
+      "name": "the upper floor",
+      "aliases": [
+        "the upper floor"
+      ],
+      "description": "The upper floor of the lighthouse, where Elena says there is a locked room.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "There's a locked room on the upper floor."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_010",
+      "type": "Location",
+      "name": "this stretch",
+      "aliases": [
+        "this stretch"
+      ],
+      "description": "The coastal stretch referenced when Tom describes the lighthouse as one of the original iron-frame towers in the area.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "One of the original iron-frame coastal towers on this stretch."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "type": "TimePoint",
+      "name": "Day",
+      "aliases": [
+        "Day",
+        "DAY"
+      ],
+      "description": "The time of day indicated in the scene heading for the interview in the deputy's office.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY"
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_012",
+      "type": "TimePoint",
+      "name": "twenty years",
+      "aliases": [
+        "twenty years",
+        "Twenty years"
+      ],
+      "description": "The duration Tom says Marcus has spent at the lighthouse.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Twenty years alone out there",
+        "Twenty years."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_013",
+      "type": "TimePoint",
+      "name": "1887",
+      "aliases": [
+        "1887"
+      ],
+      "description": "The year Tom states the lighthouse was built.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Built in 1887."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_014",
+      "type": "TimePoint",
+      "name": "the eighties",
+      "aliases": [
+        "the eighties"
+      ],
+      "description": "The decade since which Tom says the lighthouse has operated under civilian contract.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Still functioning under civilian contract since the eighties."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_008",
+      "type": "Object",
+      "name": "green notebook",
+      "aliases": [
+        "green notebook",
+        "my green notebook",
+        "her green notebook"
+      ],
+      "description": "Elena's notebook, which she writes in while questioning Tom.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "(writing in her green notebook)"
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_009",
+      "type": "Object",
+      "name": "laminated fact sheet",
+      "aliases": [
+        "laminated fact sheet",
+        "a laminated fact sheet"
+      ],
+      "description": "A fact sheet Tom pulls from the bulletin board to provide historical details about the lighthouse station.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Tom swivels and pulls a laminated fact sheet from his bulletin board."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_015",
+      "type": "Concept",
+      "name": "merchant marine",
+      "aliases": [
+        "merchant marine"
+      ],
+      "description": "The maritime service background Tom attributes to Marcus.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Former merchant marine, Marcus."
+      ]
+    },
+    {
+      "id": "ent_syntheti_5_doc_4_chunk_0_ent_016",
+      "type": "Concept",
+      "name": "civilian contract",
+      "aliases": [
+        "civilian contract"
+      ],
+      "description": "The operational arrangement under which Tom says the lighthouse has functioned since the eighties.",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Still functioning under civilian contract since the eighties."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_c154ae8e4775",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA Deputy Briggs -- how long has Marcus been out at the lighthouse?"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_bdbdf55fd113",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY",
+        "TOM BRIGGS ... regards Elena across the desk.",
+        "ELENA Deputy Briggs -- how long has Marcus been out at the lighthouse?"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_308dc2ff3afd",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_ca5fde7b584a",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM Twenty years. He came when old Gareth retired. Former merchant marine, Marcus. Quiet man. No trouble ever."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_4b3e496f622e",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY",
+        "TOM Twenty years. He came when old Gareth retired. Former merchant marine, Marcus. Quiet man. No trouble ever."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_8db39a0ad251",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_249e441b7e2b",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA (writing in her green notebook) And the station itself -- how far back does it go?"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_53478894de33",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY",
+        "ELENA (writing in her green notebook) And the station itself -- how far back does it go?"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_d7cd5e678d6e",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_cb38e1ec5c25",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Tom swivels and pulls a laminated fact sheet from his bulletin board.",
+        "TOM Built in 1887. One of the original iron-frame coastal towers on this stretch. Still functioning under civilian contract since the eighties."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_956f2cf44f42",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY",
+        "Tom swivels and pulls a laminated fact sheet from his bulletin board.",
+        "TOM Built in 1887. One of the original iron-frame coastal towers on this stretch. Still functioning under civilian contract since the eighties."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_fe406f003260",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_609a6853bf21",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA There's a locked room on the upper floor. You know anything about that?"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_5e972530ead6",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY",
+        "ELENA There's a locked room on the upper floor. You know anything about that?"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_9921fae48006",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_f8683e494bfc",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Tom goes still.",
+        "TOM Can't say I do."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_c601b35611e5",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY",
+        "Tom goes still.",
+        "TOM Can't say I do."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_43b87e5af5c0",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_780860c35c95",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA Sure."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_86fda1ad966c",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY",
+        "ELENA Sure."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_c7b127f1987c",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_ec60bd52dbde",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM (leaning forward) Ms. Voss. Marcus is a private man. Twenty years alone out there -- people form habits. That's his business."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_cf9a41dfdfb7",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY",
+        "TOM (leaning forward) Ms. Voss. Marcus is a private man. Twenty years alone out there -- people form habits. That's his business."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_e16ee06a165e",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_50c8ecaa74ba",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Elena stands and extends a hand.",
+        "ELENA Thank you, Deputy Briggs."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_e2e7d27b272c",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY",
+        "Elena stands and extends a hand.",
+        "ELENA Thank you, Deputy Briggs."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_61ccabb66698",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_011",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "INT. DEPUTY'S OFFICE - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_9730a24a88b0",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "possesses",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_008",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA (writing in her green notebook)"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_319b899a7fac",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "uses",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_008",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA (writing in her green notebook)"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_97839373cadb",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "possesses",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_009",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Tom swivels and pulls a laminated fact sheet from his bulletin board."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_fa2fa23030c6",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "uses",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_009",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Tom swivels and pulls a laminated fact sheet from his bulletin board."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_e0b066fded4c",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_001",
+      "relation": "located_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM BRIGGS ... regards Elena across the desk.",
+        "Elena stands and extends a hand."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_b95b0861065c",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "located_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM BRIGGS ... leans back in his chair and regards Elena across the desk."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_87e0ddf017ff",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "relation": "located_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_006",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA Deputy Briggs -- how long has Marcus been out at the lighthouse?",
+        "TOM Twenty years."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_ec4730606f14",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_004",
+      "relation": "located_at",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_006",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "He came when old Gareth retired."
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_6223b31cdeb1",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_007",
+      "relation": "part_of",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_006",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "There's a locked room on the upper floor."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_e41206fbb5e7",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_006",
+      "relation": "part_of",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_010",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "One of the original iron-frame coastal towers on this stretch."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_b8e41fefc587",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "relation": "present_on",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_012",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Twenty years. He came when old Gareth retired."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_9d1f22315247",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "relation": "is_a",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_015",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Former merchant marine, Marcus."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_505dbdd722da",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA Deputy Briggs -- how long has Marcus been out at the lighthouse?",
+        "TOM Twenty years. He came when old Gareth retired. Former merchant marine, Marcus. Quiet man. No trouble ever."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_44cebad828cd",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "relation": "causes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA Deputy Briggs -- how long has Marcus been out at the lighthouse?",
+        "TOM Twenty years. He came when old Gareth retired. Former merchant marine, Marcus. Quiet man. No trouble ever."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_da0da40402a0",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "relation": "precedes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM Twenty years. He came when old Gareth retired. Former merchant marine, Marcus. Quiet man. No trouble ever.",
+        "ELENA (writing in her green notebook) And the station itself -- how far back does it go?"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_314120b3f1c6",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "relation": "causes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA (writing in her green notebook) And the station itself -- how far back does it go?",
+        "Tom swivels and pulls a laminated fact sheet from his bulletin board.",
+        "TOM Built in 1887. One of the original iron-frame coastal towers on this stretch. Still functioning under civilian contract since the eighties."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_96dc21e35c68",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "relation": "precedes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM Built in 1887. One of the original iron-frame coastal towers on this stretch. Still functioning under civilian contract since the eighties.",
+        "ELENA There's a locked room on the upper floor. You know anything about that?"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_5e1885592445",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "relation": "causes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA There's a locked room on the upper floor. You know anything about that?",
+        "Tom goes still.",
+        "TOM Can't say I do."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_1d7276fc32c8",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "relation": "precedes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM Can't say I do.",
+        "ELENA Sure."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_d8bf241d58ef",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "relation": "causes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA Sure.",
+        "TOM (leaning forward) Ms. Voss. Marcus is a private man. Twenty years alone out there -- people form habits. That's his business."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_281fde9bdd40",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "relation": "precedes",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM (leaning forward) Ms. Voss. Marcus is a private man. Twenty years alone out there -- people form habits. That's his business.",
+        "Elena stands and extends a hand.",
+        "ELENA Thank you, Deputy Briggs."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_be02f62c7e13",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "relation": "references",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA (writing in her green notebook) And the station itself -- how far back does it go?",
+        "ELENA There's a locked room on the upper floor. You know anything about that?"
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_d4c058aab6de",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Former merchant marine, Marcus. Quiet man. No trouble ever.",
+        "Marcus is a private man. Twenty years alone out there -- people form habits. That's his business."
+      ],
+      "confidence": 0.82
+    },
+    {
+      "id": "e_04a62526c0b5",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_001",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "ELENA Deputy Briggs -- how long has Marcus been out at the lighthouse?",
+        "TOM Twenty years. He came when old Gareth retired. Former merchant marine, Marcus. Quiet man. No trouble ever."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_8ece26aabfe6",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_003",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_002",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM Twenty years. He came when old Gareth retired. Former merchant marine, Marcus. Quiet man. No trouble ever.",
+        "ELENA (writing in her green notebook) And the station itself -- how far back does it go?"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_f60bcf3216f3",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_005",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_004",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM Built in 1887. One of the original iron-frame coastal towers on this stretch. Still functioning under civilian contract since the eighties.",
+        "ELENA There's a locked room on the upper floor. You know anything about that?"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_002e157dafc1",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_007",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_006",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM Can't say I do.",
+        "ELENA Sure."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_8e1a95835899",
+      "source": "ev_syntheti_5_doc_4_chunk_0_ev_009",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_5_doc_4_chunk_0_ev_008",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "TOM (leaning forward) Ms. Voss. Marcus is a private man. Twenty years alone out there -- people form habits. That's his business.",
+        "Elena stands and extends a hand.",
+        "ELENA Thank you, Deputy Briggs."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_21b4dc05e479",
+      "source": "ent_syntheti_5_doc_4_chunk_0_ent_003",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_5_doc_4_chunk_0_ent_002",
+      "scene_refs": [
+        "5"
+      ],
+      "evidence": [
+        "Former merchant marine, Marcus. Quiet man. No trouble ever.",
+        "Marcus is a private man. Twenty years alone out there -- people form habits. That's his business."
+      ],
+      "confidence": 0.82
+    }
+  ]
+}

@@ -14,6 +14,11 @@ Usage:
         --model vllm --model_name mistralai/Mistral-7B-Instruct-v0.2 \
         --base_url http://localhost:8000/v1
 
+    # Use Azure OpenAI (GPT-5.4 mini):
+    python build_graph.py --input_dir . --output_dir ./output \
+        --model azure_openai --model_name gpt-5.4-mini \
+        --api_key_file openai.txt --base_url_file base_url.txt
+
     # Skip LLM merge adjudication (faster):
     python build_graph.py --input_dir . --output_dir ./output --model anthropic \
         --skip_normalization
@@ -21,6 +26,10 @@ Usage:
     # Process only first N scenes (for quick testing):
     python build_graph.py --input_dir . --output_dir ./output --model anthropic \
         --movie_ids en04052c0f20834cf1bac19927d8f758e0 --max_scenes 5
+
+    # Build one graph per scene (per-scene mode):
+    python build_graph.py --input_dir . --output_dir ./output --model azure_openai \
+        --movie_ids my_story --per_scene
 """
 
 import argparse
@@ -34,7 +43,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from stage_kg.ingest.loader import load_movie, load_all_movies
 from stage_kg.llm import get_llm
-from stage_kg.pipeline import run_pipeline
+from stage_kg.pipeline import run_pipeline, run_pipeline_per_scene
 from stage_kg.utils.logging_utils import setup_logging
 
 
@@ -59,7 +68,7 @@ def parse_args() -> argparse.Namespace:
         "--model",
         type=str,
         default="gemini",
-        choices=["openai", "anthropic", "gemini", "vllm"],
+        choices=["openai", "azure_openai", "anthropic", "gemini", "vllm"],
         help="LLM provider.",
     )
     p.add_argument(
@@ -84,7 +93,20 @@ def parse_args() -> argparse.Namespace:
         "--base_url",
         type=str,
         default=None,
-        help="Override LLM endpoint URL (for vLLM).",
+        help="Override LLM endpoint URL (for vLLM / Azure).",
+    )
+    p.add_argument(
+        "--base_url_file",
+        type=Path,
+        default=None,
+        help="Path to a file containing the endpoint URL (e.g. base_url.txt).",
+    )
+    p.add_argument(
+        "--api_version",
+        type=str,
+        default=None,
+        help="Azure OpenAI API version (e.g. 2024-12-01-preview). "
+             "Only required for plain Azure endpoints without /openai/deployments/ in URL.",
     )
     p.add_argument(
         "--language",
@@ -111,11 +133,23 @@ def parse_args() -> argparse.Namespace:
         help="Skip LLM-based merge adjudication (faster, lower quality).",
     )
     p.add_argument(
+        "--per_scene",
+        "--scene_graphs",
+        dest="per_scene",
+        action="store_true",
+        help="Build one independent graph per scene instead of one merged movie graph. "
+             "Outputs to <output_dir>/<movie_id>/scene_graphs/scene_<N>/final_graph.json.",
+    )
+    p.add_argument(
         "--verbose",
         action="store_true",
         help="Enable DEBUG logging.",
     )
     return p.parse_args()
+
+
+def _read_text_file(path: Path) -> str:
+    return path.read_text(encoding="utf-8").strip()
 
 
 def main() -> None:
@@ -135,7 +169,12 @@ def main() -> None:
     # Resolve API key: explicit string > key file > env var (handled inside each client)
     api_key = args.api_key
     if not api_key and args.api_key_file:
-        api_key = Path(args.api_key_file).read_text().strip()
+        api_key = _read_text_file(Path(args.api_key_file))
+
+    # Resolve base URL similarly
+    base_url = args.base_url
+    if not base_url and args.base_url_file:
+        base_url = _read_text_file(Path(args.base_url_file))
 
     # Build LLM backend
     logger.info("Initializing LLM backend: provider=%s model=%s", args.model, args.model_name)
@@ -143,7 +182,8 @@ def main() -> None:
         provider=args.model,
         model=args.model_name,
         api_key=api_key,
-        base_url=args.base_url,
+        base_url=base_url,
+        api_version=args.api_version,
     )
     logger.info("LLM ready: %s", llm.model_id)
 
@@ -194,13 +234,22 @@ def main() -> None:
                 logger.info(
                     "Limiting to first %d scenes for %s", args.max_scenes, movie.movie_id
                 )
-            run_pipeline(
-                movie=movie,
-                llm=llm,
-                output_dir=args.output_dir,
-                skip_normalization=args.skip_normalization,
-                api_key=api_key,
-            )
+            if args.per_scene:
+                run_pipeline_per_scene(
+                    movie=movie,
+                    llm=llm,
+                    output_dir=args.output_dir,
+                    skip_normalization=args.skip_normalization,
+                    api_key=api_key,
+                )
+            else:
+                run_pipeline(
+                    movie=movie,
+                    llm=llm,
+                    output_dir=args.output_dir,
+                    skip_normalization=args.skip_normalization,
+                    api_key=api_key,
+                )
         except Exception as e:
             logger.error("Pipeline failed for %s: %s", movie.movie_id, e, exc_info=True)
             failed.append(movie.movie_id)

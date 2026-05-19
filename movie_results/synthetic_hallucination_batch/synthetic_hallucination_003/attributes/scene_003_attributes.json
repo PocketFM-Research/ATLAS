@@ -1,0 +1,41 @@
+{
+  "THE HOUND AND LANTERN TAVERN": {
+    "type": "tavern"
+  },
+  "Felix": {
+    "name_form": "Master Adler",
+    "holds": "small iron chest",
+    "wears": "chain under shirt",
+    "carries": "heavy iron key",
+    "drinks": "water"
+  },
+  "SMALL IRON CHEST": {
+    "type": "chest",
+    "material": "iron",
+    "condition": "small",
+    "locked_state": "locked"
+  },
+  "CHAIN": {
+    "type": "chain",
+    "hidden_location": "inside Felix's shirt"
+  },
+  "HEAVY IRON KEY": {
+    "type": "key",
+    "material": "iron",
+    "condition": "heavy",
+    "uses": "matches chest lock",
+    "hidden_location": "inside Felix's shirt"
+  },
+  "INSPECTOR HOLT": {
+    "title": "Inspector",
+    "age_years": "40s",
+    "distinguishing_feature": "watchful eyes",
+    "carries": "leather folio",
+    "source_of_warning": "known fence"
+  },
+  "your map": {
+    "type": "map",
+    "holds": "Felix",
+    "condition": "wanted badly"
+  }
+}

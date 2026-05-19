@@ -1,0 +1,1263 @@
+{
+  "movie_id": "synthetic_hallucination_003__scene_3",
+  "title": "synthetic_hallucination_003",
+  "nodes": [
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_001",
+      "type": "Event",
+      "name": "felix waits with locked chest",
+      "aliases": [
+        "felix waits with locked chest"
+      ],
+      "description": "Felix sits in a tavern booth with a small iron chest secured by a heavy lock beside him, signaling the chest's importance.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Felix sits in a corner booth. Beside him on the bench sits a SMALL IRON CHEST, its lid secured with a heavy iron lock."
+      ]
+    },
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_002",
+      "type": "Event",
+      "name": "felix declines his usual drink",
+      "aliases": [
+        "felix declines his usual drink"
+      ],
+      "description": "When the tavern keeper offers Felix his usual order, Felix asks only for water, suggesting unusual caution or tension.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "FELIX\nWater. Just water, please.",
+        "TAVERN KEEPER\nYour usual, Master Adler?"
+      ]
+    },
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_003",
+      "type": "Event",
+      "name": "sable confirms chest was brought",
+      "aliases": [
+        "sable confirms chest was brought"
+      ],
+      "description": "Sable focuses on the iron chest and acknowledges that Felix has brought it to the meeting.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "SABLE\nYou brought it.",
+        "Sable sits across from Felix, her eyes on the iron chest."
+      ]
+    },
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_004",
+      "type": "Event",
+      "name": "felix reveals he carries the key",
+      "aliases": [
+        "felix reveals he carries the key"
+      ],
+      "description": "Felix states his philosophy of guarding valuables and shows that he keeps the chest's heavy iron key on a chain around his neck.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "He reaches into the collar of his shirt and draws out a CHAIN. From the chain hangs a HEAVY IRON KEY that matches the chest's lock. He tucks it back inside his shirt.",
+        "FELIX\n(touching the chest)\nYou keep what matters with you or you lose it."
+      ]
+    },
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_005",
+      "type": "Event",
+      "name": "sable warns about wren",
+      "aliases": [
+        "sable warns about wren"
+      ],
+      "description": "Sable warns Felix that Wren will continue pursuing the matter involving the chest or its contents.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "SABLE\nWren will not let this rest."
+      ]
+    },
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_006",
+      "type": "Event",
+      "name": "felix refuses to sell to wren",
+      "aliases": [
+        "felix refuses to sell to wren"
+      ],
+      "description": "Felix asserts that Wren cannot obtain the item because Felix will not sell it, clarifying his stance and control over the map.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "FELIX\nWren cannot take what I do not sell."
+      ]
+    },
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_007",
+      "type": "Event",
+      "name": "inspector holt approaches felix",
+      "aliases": [
+        "inspector holt approaches felix"
+      ],
+      "description": "Inspector Holt enters the tavern, identifies Felix, and comes directly to his table before sitting uninvited.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Holt sits without invitation.",
+        "HOLT\nMr. Adler. Good that I found you.",
+        "A figure enters: INSPECTOR HOLT (40s, tall, watchful eyes, leather folio under his arm). He scans the room, finds Felix, and crosses directly to the table."
+      ]
+    },
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_008",
+      "type": "Event",
+      "name": "holt warns of violent interest in map",
+      "aliases": [
+        "holt warns of violent interest in map"
+      ],
+      "description": "Holt tells Felix that dangerous parties are seeking his map through criminal channels and advises him to take precautions.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "HOLT (CONT'D)\nI will be plain. There are parties inquiring about your map. Not merchants -- the kind who take what they want. The inquiry came through a known fence. Someone wants that map badly enough to hire for it. I am telling you now so you can take precautions."
+      ]
+    },
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_009",
+      "type": "Event",
+      "name": "felix accepts warning cautiously",
+      "aliases": [
+        "felix accepts warning cautiously"
+      ],
+      "description": "Felix, visibly still, thanks Holt and says he will be careful, indicating he takes the threat seriously.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "FELIX\n(very still)\nThank you, Inspector. I will be careful."
+      ]
+    },
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_010",
+      "type": "Event",
+      "name": "felix guards chest while drinking",
+      "aliases": [
+        "felix guards chest while drinking"
+      ],
+      "description": "After receiving his water, Felix drinks while keeping one hand on the iron chest, underscoring his protectiveness.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "The keeper returns with a cup of water and sets it before Felix. Felix drinks, one hand resting on the iron chest."
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "type": "Character",
+      "name": "Felix Adler",
+      "aliases": [
+        "Felix Adler",
+        "Inspector",
+        "Mr. Adler",
+        "Felix",
+        "Master Adler",
+        "FELIX"
+      ],
+      "description": "A cautious man guarding a locked iron chest and the map associated with it.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Felix sits in a corner booth.",
+        "Thank you, Inspector. I will be careful.",
+        "Mr. Adler. Good that I found you.",
+        "Your usual, Master Adler?",
+        "FELIX"
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_006",
+      "type": "Character",
+      "name": "Tavern Keeper",
+      "aliases": [
+        "Tavern Keeper",
+        "The TAVERN KEEPER",
+        "The keeper",
+        "keeper",
+        "TAVERN KEEPER"
+      ],
+      "description": "The tavern employee who recognizes Felix and serves him water.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "The TAVERN KEEPER approaches.",
+        "The keeper nods and retreats.",
+        "The keeper returns with a cup of water"
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_008",
+      "type": "Character",
+      "name": "Sable",
+      "aliases": [
+        "Sable",
+        "SABLE"
+      ],
+      "description": "Felix's table companion who notices the chest and warns him about Wren.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "SABLE\nWren will not let this rest.",
+        "SABLE",
+        "SABLE\nYou brought it.",
+        "Sable sits across from Felix"
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_011",
+      "type": "Character",
+      "name": "Wren",
+      "aliases": [
+        "Wren"
+      ],
+      "description": "An offscreen adversarial figure whom Sable says will keep pursuing the matter.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Wren will not let this rest.",
+        "Wren cannot take what I do not sell."
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_012",
+      "type": "Character",
+      "name": "Inspector Holt",
+      "aliases": [
+        "Inspector Holt",
+        "INSPECTOR HOLT",
+        "Holt"
+      ],
+      "description": "A watchful inspector who finds Felix in the tavern and warns him about violent interest in his map.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "A figure enters: INSPECTOR HOLT",
+        "Thank you, Inspector. I will be careful.",
+        "Holt sits without invitation."
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "type": "Location",
+      "name": "The Hound and Lantern Tavern",
+      "aliases": [
+        "The Hound and Lantern Tavern",
+        "THE HOUND AND LANTERN TAVERN"
+      ],
+      "description": "The firelit tavern where Felix meets Sable and Inspector Holt while guarding the chest.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "A firelit tavern.",
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "type": "TimePoint",
+      "name": "Night",
+      "aliases": [
+        "Night",
+        "NIGHT"
+      ],
+      "description": "The time of day when the tavern meeting takes place.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_004",
+      "type": "Object",
+      "name": "small iron chest",
+      "aliases": [
+        "small iron chest",
+        "the chest",
+        "iron chest",
+        "SMALL IRON CHEST"
+      ],
+      "description": "A locked chest beside Felix that appears central to the meeting and the surrounding danger.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Beside him on the bench sits a SMALL IRON CHEST",
+        "one hand resting on the iron chest",
+        "(touching the chest)",
+        "her eyes on the iron chest"
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_005",
+      "type": "Object",
+      "name": "heavy iron lock",
+      "aliases": [
+        "heavy iron lock",
+        "lock",
+        "the chest's lock"
+      ],
+      "description": "The lock securing the iron chest, emphasizing that its contents are protected.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "a HEAVY IRON KEY that matches the chest's lock",
+        "its lid secured with a heavy iron lock"
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_007",
+      "type": "Object",
+      "name": "water",
+      "aliases": [
+        "water",
+        "cup of water",
+        "Water"
+      ],
+      "description": "The drink Felix requests instead of his usual order, signaling his tension and caution.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Water. Just water, please.",
+        "Felix drinks",
+        "The keeper returns with a cup of water"
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_009",
+      "type": "Object",
+      "name": "chain",
+      "aliases": [
+        "chain",
+        "CHAIN"
+      ],
+      "description": "The chain Felix wears around his neck to hold the chest's key.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "draws out a CHAIN.",
+        "From the chain hangs a HEAVY IRON KEY"
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_010",
+      "type": "Object",
+      "name": "heavy iron key",
+      "aliases": [
+        "heavy iron key",
+        "key",
+        "HEAVY IRON KEY"
+      ],
+      "description": "The key Felix keeps on a chain around his neck to open the iron chest.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "a HEAVY IRON KEY that matches the chest's lock",
+        "He tucks it back inside his shirt."
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_013",
+      "type": "Object",
+      "name": "leather folio",
+      "aliases": [
+        "leather folio",
+        "folio"
+      ],
+      "description": "The folio carried under Inspector Holt's arm when he enters the tavern.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "leather folio under his arm"
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_014",
+      "type": "Object",
+      "name": "map",
+      "aliases": [
+        "map",
+        "that map",
+        "your map"
+      ],
+      "description": "The sought-after item Holt says dangerous parties are trying to obtain from Felix.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Someone wants that map badly enough to hire for it.",
+        "There are parties inquiring about your map."
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_015",
+      "type": "Concept",
+      "name": "known fence",
+      "aliases": [
+        "known fence",
+        "a known fence",
+        "fence"
+      ],
+      "description": "A criminal intermediary through whom the inquiry about Felix's map was made.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "The inquiry came through a known fence."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_68ed08c1c4b7",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Felix sits in a corner booth. Beside him on the bench sits a SMALL IRON CHEST, its lid secured with a heavy iron lock."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_0a3ca7f06a42",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT",
+        "Felix sits in a corner booth."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_009736ab32a8",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_20b5e7cbf87f",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "TAVERN KEEPER Your usual, Master Adler?",
+        "FELIX Water. Just water, please."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_3cc6e80df423",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT",
+        "TAVERN KEEPER Your usual, Master Adler? FELIX Water. Just water, please."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_0ca49019c0a0",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_002",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_f17615795bfb",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_008",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_003",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "SABLE You brought it."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_601c3e8f1f6e",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT",
+        "Sable sits across from Felix",
+        "SABLE You brought it."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_0c8b03ca3d62",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_003",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_39a365c1f14f",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_004",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "He reaches into the collar of his shirt and draws out a CHAIN. From the chain hangs a HEAVY IRON KEY that matches the chest's lock. He tucks it back inside his shirt."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_8ade8edbc977",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT",
+        "He reaches into the collar of his shirt and draws out a CHAIN. From the chain hangs a HEAVY IRON KEY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_a71b5c8767af",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_004",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_380a63748426",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_008",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_005",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "SABLE Wren will not let this rest."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_32936b0c2a3a",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT",
+        "SABLE Wren will not let this rest."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_2eb246d13c50",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_005",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_11740caf02c8",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_006",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "FELIX Wren cannot take what I do not sell."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_575fa0399b6d",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT",
+        "FELIX Wren cannot take what I do not sell."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_d1184e89c308",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_006",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_a94a6b53d340",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_012",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_007",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "A figure enters: INSPECTOR HOLT",
+        "He scans the room, finds Felix, and crosses directly to the table.",
+        "HOLT Mr. Adler. Good that I found you."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_2970f3ea4510",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "undergoes",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_007",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "He scans the room, finds Felix, and crosses directly to the table.",
+        "HOLT Mr. Adler. Good that I found you."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_a54ff46c5467",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT",
+        "He scans the room, finds Felix, and crosses directly to the table."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_302ab3b9e8d7",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_007",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_c44b7f35b80a",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_012",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_008",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "HOLT (CONT'D) I will be plain. There are parties inquiring about your map. Not merchants -- the kind who take what they want. The inquiry came through a known fence. Someone wants that map badly enough to hire for it. I am telling you now so you can take precautions."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_0b97b9deee2e",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT",
+        "HOLT (CONT'D) I will be plain. There are parties inquiring about your map."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_719001f7e5af",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_008",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_34feca495e29",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_009",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "FELIX (very still) Thank you, Inspector. I will be careful."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_ebd4b88d77bc",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_009",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT",
+        "FELIX (very still) Thank you, Inspector. I will be careful."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_dcc47b4c91f5",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_009",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_f468a662c08a",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_010",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "The keeper returns with a cup of water and sets it before Felix. Felix drinks, one hand resting on the iron chest."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_db67d114ea24",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_010",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT",
+        "Felix drinks, one hand resting on the iron chest."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_d3821a8a459b",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_010",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_fa7bcff24af6",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "located_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Felix sits in a corner booth."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_811c1cddb6d5",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_004",
+      "relation": "located_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Beside him on the bench sits a SMALL IRON CHEST"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_da815f5465d1",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_005",
+      "relation": "part_of",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_004",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "a SMALL IRON CHEST, its lid secured with a heavy iron lock"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_78b6ca70fb60",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_006",
+      "relation": "located_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "The TAVERN KEEPER approaches."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_51a2ac44066d",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_007",
+      "relation": "located_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "The keeper returns with a cup of water and sets it before Felix."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_e4f3fe95bd67",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_008",
+      "relation": "located_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Sable sits across from Felix"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_acc07da843f8",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_009",
+      "relation": "part_of",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_010",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "He reaches into the collar of his shirt and draws out a CHAIN. From the chain hangs a HEAVY IRON KEY"
+      ],
+      "confidence": 0.83
+    },
+    {
+      "id": "e_5b2a53f52e5b",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_010",
+      "relation": "located_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "From the chain hangs a HEAVY IRON KEY that matches the chest's lock."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_031ba65a44f8",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_011",
+      "relation": "hostility_with",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "SABLE Wren will not let this rest.",
+        "FELIX Wren cannot take what I do not sell."
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_71b0f09f7274",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_012",
+      "relation": "located_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "A figure enters: INSPECTOR HOLT",
+        "He scans the room"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_a730bed856de",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_013",
+      "relation": "located_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INSPECTOR HOLT (40s, tall, watchful eyes, leather folio under his arm)"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_263743cafa90",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_014",
+      "relation": "located_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "There are parties inquiring about your map."
+      ],
+      "confidence": 0.62
+    },
+    {
+      "id": "e_3bd26529a44b",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_015",
+      "relation": "located_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "The inquiry came through a known fence."
+      ],
+      "confidence": 0.51
+    },
+    {
+      "id": "e_f0a055b4ea8f",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "possesses",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_004",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Beside him on the bench sits a SMALL IRON CHEST",
+        "FELIX You keep what matters with you or you lose it."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_beb6464ee554",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "possesses",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_010",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "He reaches into the collar of his shirt and draws out a CHAIN. From the chain hangs a HEAVY IRON KEY",
+        "He tucks it back inside his shirt."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_2c6de1371040",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "possesses",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_009",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "He reaches into the collar of his shirt and draws out a CHAIN."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_c4245a2b57cb",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_012",
+      "relation": "possesses",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_013",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INSPECTOR HOLT (40s, tall, watchful eyes, leather folio under his arm)"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_9f5e40d61b86",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "uses",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_007",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "The keeper returns with a cup of water and sets it before Felix. Felix drinks"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_ae7d2189a014",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Felix sits in a corner booth.",
+        "TAVERN KEEPER Your usual, Master Adler? FELIX Water. Just water, please."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_994c7b073c92",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_003",
+      "relation": "precedes",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_004",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "SABLE You brought it.",
+        "He reaches into the collar of his shirt and draws out a CHAIN. From the chain hangs a HEAVY IRON KEY"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "id": "e_e0ae8066a1c0",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_005",
+      "relation": "precedes",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_006",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "SABLE Wren will not let this rest.",
+        "FELIX Wren cannot take what I do not sell."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_136204e5dac6",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_007",
+      "relation": "precedes",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_008",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "He scans the room, finds Felix, and crosses directly to the table.",
+        "HOLT (CONT'D) I will be plain. There are parties inquiring about your map."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_44659e8df675",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_008",
+      "relation": "causes",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_009",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "I am telling you now so you can take precautions.",
+        "FELIX (very still) Thank you, Inspector. I will be careful."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_28ba4763b978",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_009",
+      "relation": "precedes",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_010",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "FELIX (very still) Thank you, Inspector. I will be careful.",
+        "The keeper returns with a cup of water and sets it before Felix. Felix drinks, one hand resting on the iron chest."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_b7a0b446201c",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "hostility_with",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_011",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "SABLE Wren will not let this rest.",
+        "FELIX Wren cannot take what I do not sell."
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "e_8ae77fa32d83",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_002",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Felix sits in a corner booth.",
+        "TAVERN KEEPER Your usual, Master Adler? FELIX Water. Just water, please."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_4e9a7af77c05",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_004",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_003",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "SABLE You brought it.",
+        "He reaches into the collar of his shirt and draws out a CHAIN. From the chain hangs a HEAVY IRON KEY"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "id": "e_87d2c78fdeee",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_006",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_005",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "SABLE Wren will not let this rest.",
+        "FELIX Wren cannot take what I do not sell."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_642594278b35",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_008",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_007",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "He scans the room, finds Felix, and crosses directly to the table.",
+        "HOLT (CONT'D) I will be plain. There are parties inquiring about your map."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_f1b64f4f35f0",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_010",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_009",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "FELIX (very still) Thank you, Inspector. I will be careful.",
+        "The keeper returns with a cup of water and sets it before Felix. Felix drinks, one hand resting on the iron chest."
+      ],
+      "confidence": 0.94
+    }
+  ]
+}

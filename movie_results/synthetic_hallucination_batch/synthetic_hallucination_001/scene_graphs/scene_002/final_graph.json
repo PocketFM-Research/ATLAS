@@ -1,0 +1,985 @@
+{
+  "movie_id": "synthetic_hallucination_001__scene_2",
+  "title": "synthetic_hallucination_001",
+  "nodes": [
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_001",
+      "type": "Event",
+      "name": "elena drives to lighthouse",
+      "aliases": [
+        "elena drives to lighthouse"
+      ],
+      "description": "Elena arrives by red Jeep along the coastal road toward the lighthouse, establishing her destination.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "A RED JEEP rounds the final curve of a winding coastal highway.",
+        "Ahead, the lighthouse rises from a rocky promontory."
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_002",
+      "type": "Event",
+      "name": "elena checks notebook",
+      "aliases": [
+        "elena checks notebook"
+      ],
+      "description": "Inside the Jeep, Elena glances at her notebook, reinforcing her identity as a reporter on assignment.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "On the passenger seat: a GREEN SPIRAL NOTEBOOK, its cover marked ELENA VOSS -- COASTAL HERALD. She glances at it."
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_003",
+      "type": "Event",
+      "name": "elena confirms destination",
+      "aliases": [
+        "elena confirms destination"
+      ],
+      "description": "Elena mutters that Calloway is the end of the road, signaling she has reached the place she came to investigate.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA\n(muttering)\nCalloway. End of the road."
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_004",
+      "type": "Event",
+      "name": "elena turns onto gravel track",
+      "aliases": [
+        "elena turns onto gravel track"
+      ],
+      "description": "Elena leaves the main coastal highway and turns down the gravel track toward the lighthouse entrance.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "She turns down the gravel track."
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_005",
+      "type": "Event",
+      "name": "elena arrives at lighthouse entrance",
+      "aliases": [
+        "elena arrives at lighthouse entrance"
+      ],
+      "description": "Elena parks by the outbuilding and gets out carrying her notebook, beginning her in-person visit.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Elena parks beside a weathered outbuilding and climbs out, GREEN SPIRAL NOTEBOOK tucked under her arm."
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_006",
+      "type": "Event",
+      "name": "marcus confronts elena",
+      "aliases": [
+        "marcus confronts elena"
+      ],
+      "description": "Marcus appears in the doorway with an anchor at his side and challenges Elena by asking if she is the journalist.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS\nYou the journalist?",
+        "MARCUS appears in the doorway, ANCHOR at his side."
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_007",
+      "type": "Event",
+      "name": "elena identifies herself",
+      "aliases": [
+        "elena identifies herself"
+      ],
+      "description": "Elena introduces herself as a Coastal Herald journalist and references Claire Munroe to establish legitimacy.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA\nElena Voss. Coastal Herald. You spoke to my editor -- Claire Munroe?"
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_008",
+      "type": "Event",
+      "name": "marcus acknowledges editor referral",
+      "aliases": [
+        "marcus acknowledges editor referral"
+      ],
+      "description": "Marcus confirms Claire's recommendation, indicating Elena's visit was arranged and that he has some expectation of her.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS\nShe said you were thorough."
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_009",
+      "type": "Event",
+      "name": "elena responds with dry wit",
+      "aliases": [
+        "elena responds with dry wit"
+      ],
+      "description": "Elena replies that such praise is just what opens doors, revealing her pragmatic, sardonic personality.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA\nShe says what opens the door."
+      ]
+    },
+    {
+      "id": "ev_syntheti_2_doc_1_chunk_0_ev_010",
+      "type": "Event",
+      "name": "marcus invites elena inside",
+      "aliases": [
+        "marcus invites elena inside"
+      ],
+      "description": "After a brief pause, Marcus softens and invites Elena in, noting that a storm is already in the air.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS\nCome in then. Storm's already in the air.",
+        "A pause. Marcus almost smiles."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "type": "Character",
+      "name": "Elena Voss",
+      "aliases": [
+        "Elena Voss",
+        "ELENA VOSS",
+        "Elena"
+      ],
+      "description": "A journalist from the Coastal Herald who drives to the lighthouse to investigate and introduces herself to Marcus.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA VOSS (30s, sharp eyes, practical jacket) grips the steering wheel.",
+        "Elena Voss. Coastal Herald.",
+        "ELENA",
+        "Elena parks beside a weathered outbuilding"
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_005",
+      "type": "Character",
+      "name": "Marcus",
+      "aliases": [
+        "Marcus",
+        "MARCUS"
+      ],
+      "description": "The man at the lighthouse entrance who confronts Elena, recognizes Claire's referral, and invites her inside.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS",
+        "MARCUS appears in the doorway, ANCHOR at his side.",
+        "A pause. Marcus almost smiles."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_007",
+      "type": "Character",
+      "name": "Claire Munroe",
+      "aliases": [
+        "Claire Munroe"
+      ],
+      "description": "Elena's editor, cited as the person who spoke with Marcus and recommended Elena.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "You spoke to my editor -- Claire Munroe?"
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_004",
+      "type": "Location",
+      "name": "Calloway",
+      "aliases": [
+        "Calloway"
+      ],
+      "description": "The destination Elena names as the end of the road when she reaches the lighthouse area.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Calloway. End of the road."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_009",
+      "type": "Location",
+      "name": "the lighthouse",
+      "aliases": [
+        "the lighthouse"
+      ],
+      "description": "The coastal structure Elena approaches and where Marcus meets her at the entrance.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. LIGHTHOUSE ENTRANCE - CONTINUOUS",
+        "Ahead, the lighthouse rises from a rocky promontory."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "type": "Object",
+      "name": "Green Spiral Notebook",
+      "aliases": [
+        "Green Spiral Notebook",
+        "GREEN SPIRAL NOTEBOOK"
+      ],
+      "description": "Elena's notebook, marked with her name and newspaper, which she checks in the Jeep and carries with her.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "On the passenger seat: a GREEN SPIRAL NOTEBOOK, its cover marked ELENA VOSS -- COASTAL HERALD.",
+        "GREEN SPIRAL NOTEBOOK tucked under her arm.",
+        "She glances at it."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_006",
+      "type": "Object",
+      "name": "Anchor",
+      "aliases": [
+        "Anchor",
+        "ANCHOR"
+      ],
+      "description": "A heavy maritime object positioned at Marcus's side when he appears in the doorway.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS appears in the doorway, ANCHOR at his side."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "type": "Vehicle",
+      "name": "Red Jeep",
+      "aliases": [
+        "Red Jeep",
+        "RED JEEP"
+      ],
+      "description": "The vehicle Elena drives along the coastal road and parks at the lighthouse entrance.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "INT. RED JEEP - CONTINUOUS",
+        "A RED JEEP rounds the final curve of a winding coastal highway."
+      ]
+    },
+    {
+      "id": "ent_syntheti_2_doc_1_chunk_0_ent_008",
+      "type": "Concept",
+      "name": "Coastal Herald",
+      "aliases": [
+        "Coastal Herald",
+        "COASTAL HERALD"
+      ],
+      "description": "The news organization Elena works for, identified on her notebook and in her introduction.",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "its cover marked ELENA VOSS -- COASTAL HERALD",
+        "Elena Voss. Coastal Herald."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_a8e8e34943f8",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA VOSS (30s, sharp eyes, practical jacket) grips the steering wheel."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_1e845c117136",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "INT. RED JEEP - CONTINUOUS",
+        "ELENA VOSS (30s, sharp eyes, practical jacket) grips the steering wheel."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_eda9ad33b62d",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "relation": "uses",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA VOSS (30s, sharp eyes, practical jacket) grips the steering wheel.",
+        "A RED JEEP rounds the final curve of a winding coastal highway."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_dd7d6f3e90e4",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "On the passenger seat: a GREEN SPIRAL NOTEBOOK, its cover marked ELENA VOSS -- COASTAL HERALD. She glances at it."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_6cc31ebd31f2",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "INT. RED JEEP - CONTINUOUS",
+        "On the passenger seat: a GREEN SPIRAL NOTEBOOK... She glances at it."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_e63a60e68265",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "relation": "possesses",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "On the passenger seat: a GREEN SPIRAL NOTEBOOK, its cover marked ELENA VOSS -- COASTAL HERALD.",
+        "Elena parks beside a weathered outbuilding and climbs out, GREEN SPIRAL NOTEBOOK tucked under her arm."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_1d19112d944f",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_003",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA (muttering) Calloway. End of the road."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_c9f81461a06c",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "INT. RED JEEP - CONTINUOUS",
+        "ELENA (muttering) Calloway. End of the road."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_f4e3dc85f4d1",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_004",
+      "relation": "part_of",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_009",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA (muttering) Calloway. End of the road.",
+        "Ahead, the lighthouse rises from a rocky promontory."
+      ],
+      "confidence": 0.42
+    },
+    {
+      "id": "e_f7022db90c10",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_004",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "She turns down the gravel track."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_96413ee9ae9a",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "INT. RED JEEP - CONTINUOUS",
+        "She turns down the gravel track."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_257361640992",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_005",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. LIGHTHOUSE ENTRANCE - CONTINUOUS",
+        "Elena parks beside a weathered outbuilding and climbs out"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_128656980900",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_009",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. LIGHTHOUSE ENTRANCE - CONTINUOUS",
+        "Elena parks beside a weathered outbuilding and climbs out"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_e52077ad777a",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_005",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_006",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS appears in the doorway, ANCHOR at his side.",
+        "MARCUS You the journalist?"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_c422c3b235a7",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "relation": "undergoes",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_006",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS You the journalist?"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_33b115178b99",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_009",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. LIGHTHOUSE ENTRANCE - CONTINUOUS",
+        "MARCUS appears in the doorway"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_fcd200e2e226",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_007",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA Elena Voss. Coastal Herald. You spoke to my editor -- Claire Munroe?"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_6bb1fa8168e2",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_009",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. LIGHTHOUSE ENTRANCE - CONTINUOUS",
+        "ELENA Elena Voss. Coastal Herald. You spoke to my editor -- Claire Munroe?"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_c1f542fa9526",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "relation": "affiliated_with",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_008",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "its cover marked ELENA VOSS -- COASTAL HERALD",
+        "ELENA Elena Voss. Coastal Herald."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_4f84e955524d",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_007",
+      "relation": "affiliated_with",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_008",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "You spoke to my editor -- Claire Munroe?"
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_21428b65ccc0",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_005",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_008",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS She said you were thorough."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_b61cfbbcbbf6",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_009",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. LIGHTHOUSE ENTRANCE - CONTINUOUS",
+        "MARCUS She said you were thorough."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_8efae5cdfd38",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_009",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA She says what opens the door."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_7ad365e6c0fc",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_009",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_009",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. LIGHTHOUSE ENTRANCE - CONTINUOUS",
+        "ELENA She says what opens the door."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_373305aeeea3",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_005",
+      "relation": "performs",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_010",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS Come in then. Storm's already in the air."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_409b80fd9204",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_001",
+      "relation": "undergoes",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_010",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS Come in then."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_6f7e33356943",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_010",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_009",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. LIGHTHOUSE ENTRANCE - CONTINUOUS",
+        "MARCUS Come in then."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_c4ebfe598bf3",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_005",
+      "relation": "possesses",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_006",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS appears in the doorway, ANCHOR at his side."
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_625d417fe258",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "relation": "located_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_009",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "EXT. LIGHTHOUSE ENTRANCE - CONTINUOUS",
+        "Elena parks beside a weathered outbuilding"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_d42627f00db5",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_003",
+      "relation": "part_of",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "On the passenger seat: a GREEN SPIRAL NOTEBOOK"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_a646f85ae74f",
+      "source": "ent_syntheti_2_doc_1_chunk_0_ent_006",
+      "relation": "located_at",
+      "target": "ent_syntheti_2_doc_1_chunk_0_ent_009",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS appears in the doorway, ANCHOR at his side."
+      ],
+      "confidence": 0.78
+    },
+    {
+      "id": "e_2044a594da69",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA VOSS ... grips the steering wheel.",
+        "She glances at it."
+      ],
+      "confidence": 0.92
+    },
+    {
+      "id": "e_27de16fc8ab9",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_002",
+      "relation": "precedes",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_003",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "She glances at it.",
+        "ELENA (muttering) Calloway. End of the road."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_fa23e6cb2b69",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_003",
+      "relation": "precedes",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_004",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA (muttering) Calloway. End of the road.",
+        "She turns down the gravel track."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_05cba7dff6da",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_004",
+      "relation": "precedes",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_005",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "She turns down the gravel track.",
+        "Elena parks beside a weathered outbuilding and climbs out"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_0c964d9c82f8",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_005",
+      "relation": "precedes",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_006",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Elena parks beside a weathered outbuilding and climbs out",
+        "MARCUS appears in the doorway"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_6e6fc4623e55",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_006",
+      "relation": "precedes",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_007",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS You the journalist?",
+        "ELENA Elena Voss. Coastal Herald."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_bb71218b3774",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_007",
+      "relation": "precedes",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_008",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA Elena Voss. Coastal Herald. You spoke to my editor -- Claire Munroe?",
+        "MARCUS She said you were thorough."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_25147e72332f",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_008",
+      "relation": "precedes",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_009",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS She said you were thorough.",
+        "ELENA She says what opens the door."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_30e487bf2602",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_009",
+      "relation": "precedes",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_010",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA She says what opens the door.",
+        "MARCUS Come in then."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_61edf819cdc3",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_002",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_001",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA VOSS ... grips the steering wheel.",
+        "She glances at it."
+      ],
+      "confidence": 0.92
+    },
+    {
+      "id": "e_61869415890a",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_003",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_002",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "She glances at it.",
+        "ELENA (muttering) Calloway. End of the road."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_d75b053ba884",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_004",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_003",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA (muttering) Calloway. End of the road.",
+        "She turns down the gravel track."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_8a5547ff5873",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_005",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_004",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "She turns down the gravel track.",
+        "Elena parks beside a weathered outbuilding and climbs out"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_2b893ec022bd",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_006",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_005",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "Elena parks beside a weathered outbuilding and climbs out",
+        "MARCUS appears in the doorway"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_bb4a592e8b99",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_007",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_006",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS You the journalist?",
+        "ELENA Elena Voss. Coastal Herald."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_39b576604819",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_008",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_007",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA Elena Voss. Coastal Herald. You spoke to my editor -- Claire Munroe?",
+        "MARCUS She said you were thorough."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_d63afebe070e",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_009",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_008",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "MARCUS She said you were thorough.",
+        "ELENA She says what opens the door."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_e1d3514a9825",
+      "source": "ev_syntheti_2_doc_1_chunk_0_ev_010",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_2_doc_1_chunk_0_ev_009",
+      "scene_refs": [
+        "2"
+      ],
+      "evidence": [
+        "ELENA She says what opens the door.",
+        "MARCUS Come in then."
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

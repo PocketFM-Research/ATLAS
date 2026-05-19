@@ -1,0 +1,190 @@
+{
+  "7": [
+    {
+      "temp_id": "ev_001",
+      "name": "Oscar arrives at production office",
+      "description": "Oscar enters the production office carrying a canvas backpack and settles into the room with Diana.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "Diana is at the desk. OSCAR enters carrying a CANVAS BACKPACK, which he drops over the back of a chair."
+      ],
+      "participants": [
+        "Oscar",
+        "Diana"
+      ],
+      "location_hint": "Ravenswood Theater - Production Office",
+      "time_hint": "DAY",
+      "scope": "local",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_001",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_002__scene_7"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "Diana moves opening night",
+      "description": "Diana informs Oscar that opening night has been rescheduled to Saturday because new funding required another rehearsal day.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "DIANA\nI moved opening night. It is Saturday now. The new funding required one additional rehearsal day.",
+        "DIANA\nSaturday. Eight o'clock curtain."
+      ],
+      "participants": [
+        "Diana",
+        "Oscar"
+      ],
+      "location_hint": "Ravenswood Theater - Production Office",
+      "time_hint": "Saturday, eight o'clock",
+      "scope": "global",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_002",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_002__scene_7"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "Oscar prepares with script",
+      "description": "Oscar sits down and takes the script out of his backpack, signaling readiness to discuss or work.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "Oscar sits and pulls the script from his canvas backpack."
+      ],
+      "participants": [
+        "Oscar"
+      ],
+      "location_hint": "Ravenswood Theater - Production Office",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_003",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_002__scene_7"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "Diana confirms new opening time by phone",
+      "description": "After her smartphone buzzes, Diana answers and confirms that opening night is Saturday at eight o'clock.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "Diana's SMARTPHONE buzzes on the desk. She picks it up and scrolls.",
+        "DIANA (CONT'D)\n(into phone)\nYes, confirmed Saturday. Eight o'clock."
+      ],
+      "participants": [
+        "Diana"
+      ],
+      "location_hint": "Ravenswood Theater - Production Office",
+      "time_hint": "Saturday, eight o'clock",
+      "scope": "global",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_004",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_002__scene_7"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "Diana takes coffee",
+      "description": "Diana moves to the coffee machine, pours herself coffee, and drinks while the conversation continues.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "She sets the phone down and crosses to the COFFEE MACHINE. She pours herself a cup and drinks."
+      ],
+      "participants": [
+        "Diana"
+      ],
+      "location_hint": "Ravenswood Theater - Production Office",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_005",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_002__scene_7"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "Oscar reports Leon's unusual cheerfulness",
+      "description": "Oscar tells Diana that Leon approached him that morning in an unexpectedly cheerful mood.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "OSCAR\nLeon came to me this morning. He was cheerful."
+      ],
+      "participants": [
+        "Oscar",
+        "Diana",
+        "Leon"
+      ],
+      "location_hint": "Ravenswood Theater - Production Office",
+      "time_hint": "this morning",
+      "scope": "global",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_006",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_002__scene_7"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "Oscar says he signed Leon's cast",
+      "description": "Oscar reveals that he signed Leon's cast and that Leon appeared to want the interaction.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "OSCAR\nI signed his cast. He seemed to want it."
+      ],
+      "participants": [
+        "Oscar",
+        "Leon",
+        "Diana"
+      ],
+      "location_hint": "Ravenswood Theater - Production Office",
+      "time_hint": "this morning",
+      "scope": "global",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_007",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_002__scene_7"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "Oscar raises concern about Leon's right side",
+      "description": "Oscar explains that Leon was guarding his right side all morning and specifically presented his right arm to be signed, implying a possible issue.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "OSCAR\nHe was protecting the right side all morning. More than the left.",
+        "OSCAR\nI signed the right arm. He held it out specifically."
+      ],
+      "participants": [
+        "Oscar",
+        "Leon",
+        "Diana"
+      ],
+      "location_hint": "Ravenswood Theater - Production Office",
+      "time_hint": "all morning",
+      "scope": "global",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_008",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_002__scene_7"
+    },
+    {
+      "temp_id": "ev_009",
+      "name": "Diana dismisses Leon's behavior",
+      "description": "Diana first questions the relevance of Oscar's report to opening night and then attributes Leon's behavior to compensation rather than responding with concern.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0",
+      "evidence": [
+        "DIANA\nHow is that relevant to opening night?",
+        "DIANA\nHe is compensating.",
+        "Diana pours a second cup of coffee and does not respond."
+      ],
+      "participants": [
+        "Diana",
+        "Oscar",
+        "Leon"
+      ],
+      "location_hint": "Ravenswood Theater - Production Office",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_009",
+      "type": "Event",
+      "movie_id": "synthetic_hallucination_002__scene_7"
+    }
+  ]
+}

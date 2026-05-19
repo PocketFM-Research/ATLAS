@@ -1,0 +1,1150 @@
+{
+  "movie_id": "synthetic_hallucination_003__scene_1",
+  "title": "synthetic_hallucination_003",
+  "nodes": [
+    {
+      "id": "ev_syntheti_1_doc_0_chunk_0_ev_001",
+      "type": "Event",
+      "name": "Felix drafts survey map",
+      "aliases": [
+        "Felix drafts survey map"
+      ],
+      "description": "Felix Adler works meticulously over a large survey map, adding details in deep blue ink.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "FELIX ADLER (40s, meticulous, ink-stained fingers) leans over the largest table, adding detail to an enormous survey map.",
+        "The lines are drawn in DEEP BLUE INK -- rivers, roads, mountain ridges, all rendered in the same rich blue."
+      ]
+    },
+    {
+      "id": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "type": "Event",
+      "name": "Felix twists silver ring",
+      "aliases": [
+        "Felix twists silver ring"
+      ],
+      "description": "Felix pauses his work and absently twists the silver ring on his right hand, revealing a habitual gesture.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "He pauses, sets down his quill, and absently twists the SILVER RING on his RIGHT HAND -- a habit."
+      ]
+    },
+    {
+      "id": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "type": "Event",
+      "name": "Sable enters with parchments",
+      "aliases": [
+        "Sable enters with parchments"
+      ],
+      "description": "Sable Cross enters the workshop carrying a bundle of reference parchments.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "SABLE CROSS (20s, Felix's apprentice) enters from a side door, her LONG RED HAIR loosely braided over one shoulder. She carries a bundle of reference parchments."
+      ]
+    },
+    {
+      "id": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "type": "Event",
+      "name": "Sable delivers elevation surveys",
+      "aliases": [
+        "Sable delivers elevation surveys"
+      ],
+      "description": "Sable presents the elevation surveys from the northern pass that Felix had requested.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "SABLE\nThe elevation surveys from the northern pass. As requested."
+      ]
+    },
+    {
+      "id": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "type": "Event",
+      "name": "Felix directs placement of surveys",
+      "aliases": [
+        "Felix directs placement of surveys"
+      ],
+      "description": "Without looking up, Felix instructs Sable to place the surveys to his left because he needs the ridge-line cross-reference.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "FELIX\n(without looking up)\nSet them to the left. I need the ridge-line cross-reference."
+      ]
+    },
+    {
+      "id": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "type": "Event",
+      "name": "Sable studies and praises map",
+      "aliases": [
+        "Sable studies and praises map"
+      ],
+      "description": "After setting down the parchments, Sable examines Felix's map and calls it beautiful.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "SABLE\nIt is beautiful.",
+        "Sable sets the bundle down and studies the map."
+      ]
+    },
+    {
+      "id": "ev_syntheti_1_doc_0_chunk_0_ev_007",
+      "type": "Event",
+      "name": "Felix rejects praise as premature",
+      "aliases": [
+        "Felix rejects praise as premature"
+      ],
+      "description": "Felix dismisses Sable's compliment, insisting the map is incomplete and telling her to return only when it is finished.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "FELIX\nIt is incomplete. Come back when it is finished."
+      ]
+    },
+    {
+      "id": "ev_syntheti_1_doc_0_chunk_0_ev_008",
+      "type": "Event",
+      "name": "Felix resumes mapping in blue ink",
+      "aliases": [
+        "Felix resumes mapping in blue ink"
+      ],
+      "description": "Felix uncaps a fresh quill, dips it in blue ink, and continues extending the survey lines across the Northern Reaches map.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "The deep blue lines extend across the parchment of the Northern Reaches survey.",
+        "He uncaps a fresh quill and dips it in the BLUE INK."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "type": "Character",
+      "name": "Felix Adler",
+      "aliases": [
+        "Felix Adler",
+        "Felix",
+        "FELIX ADLER",
+        "FELIX"
+      ],
+      "description": "A meticulous cartographer working over a large survey map in his workshop.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "FELIX\nIt is incomplete. Come back when it is finished.",
+        "FELIX ADLER (40s, meticulous, ink-stained fingers) leans over the largest table, adding detail to an enormous survey map.",
+        "He pauses, sets down his quill, and absently twists the SILVER RING on his RIGHT HAND -- a habit.",
+        "FELIX\n(without looking up)\nSet them to the left. I need the ridge-line cross-reference.",
+        "He uncaps a fresh quill and dips it in the BLUE INK."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_002",
+      "type": "Character",
+      "name": "Sable Cross",
+      "aliases": [
+        "Sable Cross",
+        "SABLE CROSS",
+        "Sable",
+        "SABLE"
+      ],
+      "description": "Felix's apprentice who enters carrying reference parchments and delivers the requested surveys.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "SABLE\nIt is beautiful.",
+        "She carries a bundle of reference parchments.",
+        "Sable sets the bundle down and studies the map.",
+        "SABLE CROSS (20s, Felix's apprentice) enters from a side door, her LONG RED HAIR loosely braided over one shoulder.",
+        "SABLE\nThe elevation surveys from the northern pass. As requested."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "type": "Location",
+      "name": "Cartographer's Workshop",
+      "aliases": [
+        "Cartographer's Workshop",
+        "workroom",
+        "CARTOGRAPHER'S WORKSHOP"
+      ],
+      "description": "The grand interior workspace where Felix maps and Sable brings survey materials.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "A grand workroom with a HIGH CEILING crossed by thick, dark EXPOSED BEAMS."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_009",
+      "type": "Location",
+      "name": "northern pass",
+      "aliases": [
+        "northern pass",
+        "the northern pass"
+      ],
+      "description": "The pass from which the elevation surveys were gathered.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "The elevation surveys from the northern pass."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_013",
+      "type": "Location",
+      "name": "Northern Reaches",
+      "aliases": [
+        "Northern Reaches"
+      ],
+      "description": "The region depicted by the survey parchment Felix continues marking.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "The deep blue lines extend across the parchment of the Northern Reaches survey."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "type": "TimePoint",
+      "name": "Day",
+      "aliases": [
+        "Day",
+        "DAY"
+      ],
+      "description": "The time of day indicated for the workshop scene.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_005",
+      "type": "Object",
+      "name": "survey map",
+      "aliases": [
+        "survey map",
+        "enormous survey map",
+        "map"
+      ],
+      "description": "The large map Felix is drafting and that Sable admires.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "It is incomplete.",
+        "It is beautiful.",
+        "adding detail to an enormous survey map.",
+        "Sable sets the bundle down and studies the map."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_006",
+      "type": "Object",
+      "name": "silver ring",
+      "aliases": [
+        "silver ring",
+        "SILVER RING"
+      ],
+      "description": "The ring on Felix's right hand that he twists habitually.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "absently twists the SILVER RING on his RIGHT HAND -- a habit."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_007",
+      "type": "Object",
+      "name": "reference parchments",
+      "aliases": [
+        "reference parchments",
+        "bundle",
+        "bundle of reference parchments"
+      ],
+      "description": "The bundle of parchments Sable carries into the workshop and sets down.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Sable sets the bundle down",
+        "She carries a bundle of reference parchments."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_008",
+      "type": "Object",
+      "name": "elevation surveys",
+      "aliases": [
+        "elevation surveys"
+      ],
+      "description": "The survey documents from the northern pass that Sable delivers to Felix.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Set them to the left.",
+        "The elevation surveys from the northern pass. As requested."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_011",
+      "type": "Object",
+      "name": "quill",
+      "aliases": [
+        "quill",
+        "fresh quill"
+      ],
+      "description": "The writing tool Felix sets down and later replaces to continue drafting.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "He pauses, sets down his quill",
+        "He uncaps a fresh quill"
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_012",
+      "type": "Object",
+      "name": "blue ink",
+      "aliases": [
+        "blue ink",
+        "BLUE INK",
+        "DEEP BLUE INK"
+      ],
+      "description": "The ink Felix uses to render and extend the survey lines on the map.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "The lines are drawn in DEEP BLUE INK",
+        "He uncaps a fresh quill and dips it in the BLUE INK."
+      ]
+    },
+    {
+      "id": "ent_syntheti_1_doc_0_chunk_0_ent_010",
+      "type": "Concept",
+      "name": "ridge-line cross-reference",
+      "aliases": [
+        "ridge-line cross-reference"
+      ],
+      "description": "The mapping reference Felix says he needs from the surveys.",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "I need the ridge-line cross-reference."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_583ec5d234c8",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_001",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "FELIX ADLER (40s, meticulous, ink-stained fingers) leans over the largest table, adding detail to an enormous survey map."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_79bc66002118",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "FELIX ADLER (40s, meticulous, ink-stained fingers) leans over the largest table, adding detail to an enormous survey map."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_8d3611ee9f2c",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_b8fa34af9211",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "uses",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_011",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "He pauses, sets down his quill",
+        "He uncaps a fresh quill and dips it in the BLUE INK."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_fefea636c1c5",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "uses",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_012",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "The lines are drawn in DEEP BLUE INK",
+        "He uncaps a fresh quill and dips it in the BLUE INK."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_7064f6698b18",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "He pauses, sets down his quill, and absently twists the SILVER RING on his RIGHT HAND -- a habit."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_833f990fed21",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "He pauses, sets down his quill, and absently twists the SILVER RING on his RIGHT HAND -- a habit."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_0b64947c3bbf",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_a1d7a123d589",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "possesses",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_006",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "twists the SILVER RING on his RIGHT HAND"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_c6925d6146b4",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "SABLE CROSS (20s, Felix's apprentice) enters from a side door, her LONG RED HAIR loosely braided over one shoulder. She carries a bundle of reference parchments."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_f69afa8dabd6",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "SABLE CROSS (20s, Felix's apprentice) enters from a side door"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_13545a14015d",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_3d4e96d33ecc",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_002",
+      "relation": "possesses",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_007",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "She carries a bundle of reference parchments."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_4714f206cfd6",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "SABLE The elevation surveys from the northern pass. As requested."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_837c777b4f52",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "SABLE The elevation surveys from the northern pass. As requested."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_a285f34b4d9c",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_40cd0f71e345",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_008",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_009",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "The elevation surveys from the northern pass."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_a4ba93837a57",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "FELIX (without looking up) Set them to the left. I need the ridge-line cross-reference."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_71d2b676b65f",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "FELIX (without looking up) Set them to the left. I need the ridge-line cross-reference."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_38ab23d9f07d",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_c2baac062456",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_007",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "FELIX It is incomplete. Come back when it is finished."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_5df33123e6d2",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "FELIX It is incomplete. Come back when it is finished."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_78e8da4b6967",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_007",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_eb3f81f3946a",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Sable sets the bundle down and studies the map.",
+        "SABLE It is beautiful."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_a3d6dd2c0e3b",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "Sable sets the bundle down and studies the map."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_47c33513918e",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_1bfecc81a332",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_008",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "He uncaps a fresh quill and dips it in the BLUE INK. The deep blue lines extend across the parchment of the Northern Reaches survey."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_06da25d8a4a0",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "He uncaps a fresh quill and dips it in the BLUE INK."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_7a39c1ef274b",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_008",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_51ed9ca817d0",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_002",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "SABLE CROSS (20s, Felix's apprentice)"
+      ],
+      "confidence": 0.78
+    },
+    {
+      "id": "e_eb2b1ee1ce06",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "FELIX ADLER (40s, meticulous, ink-stained fingers) leans over the largest table"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_1e301980d3ad",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_002",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY",
+        "SABLE CROSS (20s, Felix's apprentice) enters from a side door"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_1c3cd7297d37",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_005",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "adding detail to an enormous survey map",
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_c0e5523390a2",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_006",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "twists the SILVER RING on his RIGHT HAND",
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_3189ac9505ad",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_007",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "She carries a bundle of reference parchments.",
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_20f6034a2ac0",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_008",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "The elevation surveys from the northern pass.",
+        "Set them to the left."
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_24cf1cbf9bd1",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_010",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "I need the ridge-line cross-reference.",
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_0d001f87e6af",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_011",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "sets down his quill",
+        "He uncaps a fresh quill",
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_23028086ea0d",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_012",
+      "relation": "located_at",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "The lines are drawn in DEEP BLUE INK",
+        "He uncaps a fresh quill and dips it in the BLUE INK."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_353ac87f3e0f",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "relation": "present_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_abb10b5cccc3",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_002",
+      "relation": "present_on",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "INT. CARTOGRAPHER'S WORKSHOP - DAY"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_df0d00dbbcfb",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_005",
+      "relation": "part_of",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_013",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "the Northern Reaches survey"
+      ],
+      "confidence": 0.61
+    },
+    {
+      "id": "e_7081a8168b40",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "adding detail to an enormous survey map.",
+        "He pauses, sets down his quill, and absently twists the SILVER RING"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_20221b6a7dff",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "relation": "precedes",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "twists the SILVER RING on his RIGHT HAND",
+        "SABLE CROSS (20s, Felix's apprentice) enters from a side door"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_2762bfa01251",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "relation": "precedes",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "SABLE CROSS ... enters from a side door",
+        "SABLE The elevation surveys from the northern pass. As requested."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_ed4c552f16bf",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "relation": "precedes",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "The elevation surveys from the northern pass. As requested.",
+        "FELIX (without looking up) Set them to the left. I need the ridge-line cross-reference."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_350325aa1975",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "relation": "precedes",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Set them to the left. I need the ridge-line cross-reference.",
+        "Sable sets the bundle down and studies the map."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_275dde3fb172",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "relation": "precedes",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_007",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "SABLE It is beautiful.",
+        "FELIX It is incomplete. Come back when it is finished."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_2bfb7f67f19c",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_007",
+      "relation": "precedes",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_008",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "FELIX It is incomplete. Come back when it is finished.",
+        "He uncaps a fresh quill and dips it in the BLUE INK."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_f05a7c2eebf6",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "relation": "contrasts_with",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_007",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "SABLE It is beautiful.",
+        "FELIX It is incomplete. Come back when it is finished."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_f3b09b0a7840",
+      "source": "ent_syntheti_1_doc_0_chunk_0_ent_002",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_1_doc_0_chunk_0_ent_001",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "SABLE CROSS (20s, Felix's apprentice)"
+      ],
+      "confidence": 0.78
+    },
+    {
+      "id": "e_6fd74e3571d8",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_001",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "adding detail to an enormous survey map.",
+        "He pauses, sets down his quill, and absently twists the SILVER RING"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_ea3246651895",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_002",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "twists the SILVER RING on his RIGHT HAND",
+        "SABLE CROSS (20s, Felix's apprentice) enters from a side door"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_113a9954ef94",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_003",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "SABLE CROSS ... enters from a side door",
+        "SABLE The elevation surveys from the northern pass. As requested."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_dddeea5d87aa",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_004",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "The elevation surveys from the northern pass. As requested.",
+        "FELIX (without looking up) Set them to the left. I need the ridge-line cross-reference."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_365dcffafc5c",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_005",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "Set them to the left. I need the ridge-line cross-reference.",
+        "Sable sets the bundle down and studies the map."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_134aefb6ce6b",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_007",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_006",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "SABLE It is beautiful.",
+        "FELIX It is incomplete. Come back when it is finished."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_e5714326d2fe",
+      "source": "ev_syntheti_1_doc_0_chunk_0_ev_008",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_1_doc_0_chunk_0_ev_007",
+      "scene_refs": [
+        "1"
+      ],
+      "evidence": [
+        "FELIX It is incomplete. Come back when it is finished.",
+        "He uncaps a fresh quill and dips it in the BLUE INK."
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

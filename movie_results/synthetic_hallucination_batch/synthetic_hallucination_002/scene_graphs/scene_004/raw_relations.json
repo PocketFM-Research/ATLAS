@@ -1,0 +1,1271 @@
+{
+  "4": [
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Priya moves efficiently between prop tables, inventorying items on her tablet."
+      ],
+      "confidence": 0.99,
+      "source_name": "Priya",
+      "target_name": "Priya inventories stage props",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_001",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "Priya moves efficiently between prop tables, inventorying items on her tablet."
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya inventories stage props",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_002",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya inventories stage props",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_003",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_006",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Priya moves efficiently between prop tables, inventorying items on her tablet."
+      ],
+      "confidence": 0.97,
+      "source_name": "Priya",
+      "target_name": "tablet",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_004",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "She lifts a SILVER-PAINTED PROP PISTOL from the table, checks it against her list, and places it in the prop cabinet. She closes the cabinet and secures it with a PADLOCK, spinning the dial three full rotations before engaging the lock."
+      ],
+      "confidence": 0.99,
+      "source_name": "Priya",
+      "target_name": "Priya secures prop pistol",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_005",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "She lifts a SILVER-PAINTED PROP PISTOL from the table, checks it against her list, and places it in the prop cabinet."
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya secures prop pistol",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_006",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya secures prop pistol",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_007",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_007",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "She lifts a SILVER-PAINTED PROP PISTOL from the table, checks it against her list, and places it in the prop cabinet."
+      ],
+      "confidence": 0.96,
+      "source_name": "Priya",
+      "target_name": "silver-painted prop pistol",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_008",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_008",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "She lifts a SILVER-PAINTED PROP PISTOL from the table, checks it against her list, and places it in the prop cabinet."
+      ],
+      "confidence": 0.95,
+      "source_name": "Priya",
+      "target_name": "prop cabinet",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_009",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "She closes the cabinet and secures it with a PADLOCK, spinning the dial three full rotations before engaging the lock."
+      ],
+      "confidence": 0.97,
+      "source_name": "Priya",
+      "target_name": "padlock",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_010",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "LEON",
+        "Doing the full inventory tonight?"
+      ],
+      "confidence": 0.99,
+      "source_name": "Leon",
+      "target_name": "Leon questions inventory routine",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_011",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "LEON Doing the full inventory tonight?"
+      ],
+      "confidence": 0.98,
+      "source_name": "Leon questions inventory routine",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_012",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.98,
+      "source_name": "Leon questions inventory routine",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_013",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "PRIYA",
+        "Padlocked. Done. This close to opening night, nothing walks off."
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya",
+      "target_name": "Priya emphasizes strict prop security",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_014",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "Padlocked. Done. This close to opening night, nothing walks off."
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya emphasizes strict prop security",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_015",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya emphasizes strict prop security",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_016",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_010",
+      "source_type": "Concept",
+      "relation": "affiliated_with",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_011",
+      "target_type": "Concept",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Doing the full inventory tonight?",
+        "You want to run the pistol scene."
+      ],
+      "confidence": 0.52,
+      "source_name": "full inventory",
+      "target_name": "pistol scene",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_017",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "A pause. Priya gives him a look.",
+        "PRIYA You want to run the pistol scene."
+      ],
+      "confidence": 0.93,
+      "source_name": "Priya",
+      "target_name": "Priya realizes Leon wants rehearsal",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_018",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "A pause. Priya gives him a look."
+      ],
+      "confidence": 0.96,
+      "source_name": "Priya realizes Leon wants rehearsal",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_019",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya realizes Leon wants rehearsal",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_020",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "LEON",
+        "Just the draw. The cast makes the motion feel strange."
+      ],
+      "confidence": 0.97,
+      "source_name": "Leon",
+      "target_name": "Leon requests draw practice",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_021",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "Just the draw. The cast makes the motion feel strange."
+      ],
+      "confidence": 0.98,
+      "source_name": "Leon requests draw practice",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_022",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.98,
+      "source_name": "Leon requests draw practice",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_023",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_012",
+      "source_type": "Concept",
+      "relation": "part_of",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_011",
+      "target_type": "Concept",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "You want to run the pistol scene.",
+        "Just the draw."
+      ],
+      "confidence": 0.95,
+      "source_name": "draw",
+      "target_name": "pistol scene",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_024",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "PRIYA (sighing) Five minutes."
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya",
+      "target_name": "Priya allows brief rehearsal",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_025",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "PRIYA (sighing) Five minutes."
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya allows brief rehearsal",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_026",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya allows brief rehearsal",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_027",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "She opens the padlock, retrieves the silver prop pistol, and hands it to Leon."
+      ],
+      "confidence": 0.99,
+      "source_name": "Priya",
+      "target_name": "Priya unlocks cabinet and hands over pistol",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_028",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "She opens the padlock, retrieves the silver prop pistol, and hands it to Leon."
+      ],
+      "confidence": 0.95,
+      "source_name": "Leon",
+      "target_name": "Priya unlocks cabinet and hands over pistol",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_029",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_030",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "She opens the padlock, retrieves the silver prop pistol, and hands it to Leon."
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya unlocks cabinet and hands over pistol",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_030",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_031",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya unlocks cabinet and hands over pistol",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_031",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_032",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_007",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "She opens the padlock, retrieves the silver prop pistol, and hands it to Leon."
+      ],
+      "confidence": 0.94,
+      "source_name": "Leon",
+      "target_name": "silver-painted prop pistol",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_032",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_033",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_009",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "He stands in position, right hand raising the pistol smoothly.",
+        "He moves through it."
+      ],
+      "confidence": 0.99,
+      "source_name": "Leon",
+      "target_name": "Leon rehearses pistol draw",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_033",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_034",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "He stands in position, right hand raising the pistol smoothly."
+      ],
+      "confidence": 0.98,
+      "source_name": "Leon rehearses pistol draw",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_034",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_035",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.98,
+      "source_name": "Leon rehearses pistol draw",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_035",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_036",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_007",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "He stands in position, right hand raising the pistol smoothly."
+      ],
+      "confidence": 0.97,
+      "source_name": "Leon",
+      "target_name": "silver-painted prop pistol",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_036",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_037",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_010",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "PRIYA That actually works."
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya",
+      "target_name": "Priya approves Leon's performance",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_037",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_038",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_010",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "PRIYA That actually works."
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya approves Leon's performance",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_038",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_039",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_010",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya approves Leon's performance",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_039",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_040",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_011",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "LEON I told Diana."
+      ],
+      "confidence": 0.99,
+      "source_name": "Leon",
+      "target_name": "Leon says he informed Diana",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_040",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_041",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_011",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "LEON I told Diana."
+      ],
+      "confidence": 0.98,
+      "source_name": "Leon says he informed Diana",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_041",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_042",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_011",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.98,
+      "source_name": "Leon says he informed Diana",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_042",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_043",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_003",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_011",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "LEON I told Diana."
+      ],
+      "confidence": 0.88,
+      "source_name": "Diana",
+      "target_name": "Leon says he informed Diana",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_043",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_044",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_012",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Priya takes the pistol, returns it to the cabinet, and locks the padlock again with three spins.",
+        "PRIYA Don't tell anyone I let you practice without a spotter."
+      ],
+      "confidence": 0.99,
+      "source_name": "Priya",
+      "target_name": "Priya relocks pistol and demands secrecy",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_044",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_045",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_012",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "Priya takes the pistol, returns it to the cabinet, and locks the padlock again with three spins."
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya relocks pistol and demands secrecy",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_045",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_046",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_012",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya relocks pistol and demands secrecy",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_046",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_050",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "Priya moves efficiently between prop tables"
+      ],
+      "confidence": 0.99,
+      "source_name": "Priya",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_050",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_051",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Leon approaches, watching."
+      ],
+      "confidence": 0.98,
+      "source_name": "Leon",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_051",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_052",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_003",
+      "source_type": "Character",
+      "relation": "present_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "LEON I told Diana.",
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.55,
+      "source_name": "Diana",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_052",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_053",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_006",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "Priya moves efficiently between prop tables, inventorying items on her tablet."
+      ],
+      "confidence": 0.9,
+      "source_name": "tablet",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_053",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_054",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_007",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "She lifts a SILVER-PAINTED PROP PISTOL from the table"
+      ],
+      "confidence": 0.95,
+      "source_name": "silver-painted prop pistol",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_054",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_055",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_008",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING",
+        "places it in the prop cabinet"
+      ],
+      "confidence": 0.96,
+      "source_name": "prop cabinet",
+      "target_name": "RAVENSWOOD THEATER - STAGE",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_055",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_056",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_009",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_008",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "She closes the cabinet and secures it with a PADLOCK"
+      ],
+      "confidence": 0.9,
+      "source_name": "padlock",
+      "target_name": "prop cabinet",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_056",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_057",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_010",
+      "source_type": "Concept",
+      "relation": "present_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Doing the full inventory tonight?",
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.78,
+      "source_name": "full inventory",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_057",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_058",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_011",
+      "source_type": "Concept",
+      "relation": "present_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "You want to run the pistol scene.",
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.76,
+      "source_name": "pistol scene",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_058",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_059",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_012",
+      "source_type": "Concept",
+      "relation": "present_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Just the draw.",
+        "Then the draw.",
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.8,
+      "source_name": "draw",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_059",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_060",
+      "source_id": "ent_syntheti_4_doc_3_chunk_0_ent_013",
+      "source_type": "Concept",
+      "relation": "present_on",
+      "target_id": "ent_syntheti_4_doc_3_chunk_0_ent_005",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Don't tell anyone I let you practice without a spotter.",
+        "INT. RAVENSWOOD THEATER - STAGE - EVENING"
+      ],
+      "confidence": 0.74,
+      "source_name": "spotter",
+      "target_name": "EVENING",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_060",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_061",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Priya moves efficiently between prop tables, inventorying items on her tablet.",
+        "She lifts a SILVER-PAINTED PROP PISTOL from the table"
+      ],
+      "confidence": 0.97,
+      "source_name": "Priya inventories stage props",
+      "target_name": "Priya secures prop pistol",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_061",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_062",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_002",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "She closes the cabinet and secures it with a PADLOCK",
+        "LEON Doing the full inventory tonight?"
+      ],
+      "confidence": 0.96,
+      "source_name": "Priya secures prop pistol",
+      "target_name": "Leon questions inventory routine",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_062",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_063",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_003",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Doing the full inventory tonight?",
+        "Padlocked. Done. This close to opening night, nothing walks off."
+      ],
+      "confidence": 0.98,
+      "source_name": "Leon questions inventory routine",
+      "target_name": "Priya emphasizes strict prop security",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_063",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_064",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_004",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "Padlocked. Done. This close to opening night, nothing walks off.",
+        "A pause. Priya gives him a look.",
+        "You want to run the pistol scene."
+      ],
+      "confidence": 0.95,
+      "source_name": "Priya emphasizes strict prop security",
+      "target_name": "Priya realizes Leon wants rehearsal",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_064",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_065",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_005",
+      "source_type": "Event",
+      "relation": "causes",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "PRIYA You want to run the pistol scene.",
+        "LEON Just the draw."
+      ],
+      "confidence": 0.72,
+      "source_name": "Priya realizes Leon wants rehearsal",
+      "target_name": "Leon requests draw practice",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_065",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_066",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_006",
+      "source_type": "Event",
+      "relation": "causes",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "LEON Just the draw. The cast makes the motion feel strange.",
+        "PRIYA (sighing) Five minutes."
+      ],
+      "confidence": 0.95,
+      "source_name": "Leon requests draw practice",
+      "target_name": "Priya allows brief rehearsal",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_066",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_067",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_007",
+      "source_type": "Event",
+      "relation": "causes",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "PRIYA (sighing) Five minutes.",
+        "She opens the padlock, retrieves the silver prop pistol, and hands it to Leon."
+      ],
+      "confidence": 0.97,
+      "source_name": "Priya allows brief rehearsal",
+      "target_name": "Priya unlocks cabinet and hands over pistol",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_067",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_068",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_008",
+      "source_type": "Event",
+      "relation": "causes",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_009",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "She opens the padlock, retrieves the silver prop pistol, and hands it to Leon.",
+        "He stands in position, right hand raising the pistol smoothly."
+      ],
+      "confidence": 0.98,
+      "source_name": "Priya unlocks cabinet and hands over pistol",
+      "target_name": "Leon rehearses pistol draw",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_068",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_069",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_009",
+      "source_type": "Event",
+      "relation": "causes",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_010",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "He moves through it. Power there, even with the left arm in the cast.",
+        "PRIYA That actually works."
+      ],
+      "confidence": 0.96,
+      "source_name": "Leon rehearses pistol draw",
+      "target_name": "Priya approves Leon's performance",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_069",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_070",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_010",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_011",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "PRIYA That actually works.",
+        "LEON I told Diana."
+      ],
+      "confidence": 0.96,
+      "source_name": "Priya approves Leon's performance",
+      "target_name": "Leon says he informed Diana",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_070",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    },
+    {
+      "temp_id": "rel_071",
+      "source_id": "ev_syntheti_4_doc_3_chunk_0_ev_011",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_syntheti_4_doc_3_chunk_0_ev_012",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0",
+      "evidence": [
+        "LEON I told Diana.",
+        "Priya takes the pistol, returns it to the cabinet, and locks the padlock again with three spins.",
+        "Don't tell anyone I let you practice without a spotter."
+      ],
+      "confidence": 0.97,
+      "source_name": "Leon says he informed Diana",
+      "target_name": "Priya relocks pistol and demands secrecy",
+      "id": "rel_syntheti_4_doc_3_chunk_0_rel_071",
+      "movie_id": "synthetic_hallucination_002__scene_4"
+    }
+  ]
+}

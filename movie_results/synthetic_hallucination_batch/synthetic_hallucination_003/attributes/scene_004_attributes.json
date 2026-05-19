@@ -1,0 +1,26 @@
+{
+  "Felix": {
+    "occupation": "cartographer",
+    "uses": "Felix's desk"
+  },
+  "Sable": {
+    "owns": "leather satchel"
+  },
+  "LOOSE FLOORBOARD": {
+    "side": "northeast corner",
+    "condition": "pried up",
+    "hidden_location": "iron chest beneath"
+  },
+  "IRON CHEST": {
+    "hidden_location": "under loose floorboard",
+    "holds": "the map"
+  },
+  "Sable's LEATHER SATCHEL": {
+    "material": "leather",
+    "condition": "broken clasp",
+    "intact_state": "empty"
+  },
+  "the map": {
+    "hidden_location": "in iron chest"
+  }
+}

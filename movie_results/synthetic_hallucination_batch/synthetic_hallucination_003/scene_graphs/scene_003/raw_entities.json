@@ -1,0 +1,351 @@
+{
+  "3": [
+    {
+      "temp_id": "ent_001",
+      "type": "Location",
+      "surface_forms": [
+        "The Hound and Lantern Tavern",
+        "THE HOUND AND LANTERN TAVERN"
+      ],
+      "canonical_name": "The Hound and Lantern Tavern",
+      "description": "The firelit tavern where Felix meets Sable and Inspector Holt while guarding the chest.",
+      "scene_id": "3",
+      "chunk_id": "doc_2_chunk_0",
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT",
+        "A firelit tavern."
+      ],
+      "linked_event_ids": [],
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "movie_id": "synthetic_hallucination_003__scene_3"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Night",
+        "NIGHT"
+      ],
+      "canonical_name": "Night",
+      "description": "The time of day when the tavern meeting takes place.",
+      "scene_id": "3",
+      "chunk_id": "doc_2_chunk_0",
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "movie_id": "synthetic_hallucination_003__scene_3"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Felix Adler",
+        "Felix",
+        "FELIX",
+        "Master Adler",
+        "Mr. Adler",
+        "Inspector"
+      ],
+      "canonical_name": "Felix Adler",
+      "description": "A cautious man guarding a locked iron chest and the map associated with it.",
+      "scene_id": "3",
+      "chunk_id": "doc_2_chunk_0",
+      "evidence": [
+        "Felix sits in a corner booth.",
+        "Your usual, Master Adler?",
+        "Mr. Adler. Good that I found you.",
+        "FELIX",
+        "Thank you, Inspector. I will be careful."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_3_doc_2_chunk_0_ev_001",
+        "ev_syntheti_3_doc_2_chunk_0_ev_002",
+        "ev_syntheti_3_doc_2_chunk_0_ev_003",
+        "ev_syntheti_3_doc_2_chunk_0_ev_004",
+        "ev_syntheti_3_doc_2_chunk_0_ev_005",
+        "ev_syntheti_3_doc_2_chunk_0_ev_006",
+        "ev_syntheti_3_doc_2_chunk_0_ev_007",
+        "ev_syntheti_3_doc_2_chunk_0_ev_008",
+        "ev_syntheti_3_doc_2_chunk_0_ev_009",
+        "ev_syntheti_3_doc_2_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "movie_id": "synthetic_hallucination_003__scene_3"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "small iron chest",
+        "SMALL IRON CHEST",
+        "iron chest",
+        "the chest"
+      ],
+      "canonical_name": "small iron chest",
+      "description": "A locked chest beside Felix that appears central to the meeting and the surrounding danger.",
+      "scene_id": "3",
+      "chunk_id": "doc_2_chunk_0",
+      "evidence": [
+        "Beside him on the bench sits a SMALL IRON CHEST",
+        "her eyes on the iron chest",
+        "(touching the chest)",
+        "one hand resting on the iron chest"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_3_doc_2_chunk_0_ev_001",
+        "ev_syntheti_3_doc_2_chunk_0_ev_003",
+        "ev_syntheti_3_doc_2_chunk_0_ev_004",
+        "ev_syntheti_3_doc_2_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_004",
+      "movie_id": "synthetic_hallucination_003__scene_3"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "heavy iron lock",
+        "the chest's lock",
+        "lock"
+      ],
+      "canonical_name": "heavy iron lock",
+      "description": "The lock securing the iron chest, emphasizing that its contents are protected.",
+      "scene_id": "3",
+      "chunk_id": "doc_2_chunk_0",
+      "evidence": [
+        "its lid secured with a heavy iron lock",
+        "a HEAVY IRON KEY that matches the chest's lock"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_005",
+      "movie_id": "synthetic_hallucination_003__scene_3"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Character",
+      "surface_forms": [
+        "Tavern Keeper",
+        "TAVERN KEEPER",
+        "The TAVERN KEEPER",
+        "The keeper",
+        "keeper"
+      ],
+      "canonical_name": "Tavern Keeper",
+      "description": "The tavern employee who recognizes Felix and serves him water.",
+      "scene_id": "3",
+      "chunk_id": "doc_2_chunk_0",
+      "evidence": [
+        "The TAVERN KEEPER approaches.",
+        "The keeper nods and retreats.",
+        "The keeper returns with a cup of water"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_3_doc_2_chunk_0_ev_002",
+        "ev_syntheti_3_doc_2_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_006",
+      "movie_id": "synthetic_hallucination_003__scene_3"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "water",
+        "Water",
+        "cup of water"
+      ],
+      "canonical_name": "water",
+      "description": "The drink Felix requests instead of his usual order, signaling his tension and caution.",
+      "scene_id": "3",
+      "chunk_id": "doc_2_chunk_0",
+      "evidence": [
+        "Water. Just water, please.",
+        "The keeper returns with a cup of water",
+        "Felix drinks"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_3_doc_2_chunk_0_ev_002",
+        "ev_syntheti_3_doc_2_chunk_0_ev_010"
+      ],
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_007",
+      "movie_id": "synthetic_hallucination_003__scene_3"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Character",
+      "surface_forms": [
+        "Sable",
+        "SABLE"
+      ],
+      "canonical_name": "Sable",
+      "description": "Felix's table companion who notices the chest and warns him about Wren.",
+      "scene_id": "3",
+      "chunk_id": "doc_2_chunk_0",
+      "evidence": [
+        "Sable sits across from Felix",
+        "SABLE",
+        "SABLE\nYou brought it.",
+        "SABLE\nWren will not let this rest."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_3_doc_2_chunk_0_ev_003",
+        "ev_syntheti_3_doc_2_chunk_0_ev_005"
+      ],
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_008",
+      "movie_id": "synthetic_hallucination_003__scene_3"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "chain",
+        "CHAIN"
+      ],
+      "canonical_name": "chain",
+      "description": "The chain Felix wears around his neck to hold the chest's key.",
+      "scene_id": "3",
+      "chunk_id": "doc_2_chunk_0",
+      "evidence": [
+        "draws out a CHAIN.",
+        "From the chain hangs a HEAVY IRON KEY"
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_3_doc_2_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_009",
+      "movie_id": "synthetic_hallucination_003__scene_3"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "heavy iron key",
+        "HEAVY IRON KEY",
+        "key"
+      ],
+      "canonical_name": "heavy iron key",
+      "description": "The key Felix keeps on a chain around his neck to open the iron chest.",
+      "scene_id": "3",
+      "chunk_id": "doc_2_chunk_0",
+      "evidence": [
+        "a HEAVY IRON KEY that matches the chest's lock",
+        "He tucks it back inside his shirt."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_3_doc_2_chunk_0_ev_004"
+      ],
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_010",
+      "movie_id": "synthetic_hallucination_003__scene_3"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Character",
+      "surface_forms": [
+        "Wren"
+      ],
+      "canonical_name": "Wren",
+      "description": "An offscreen adversarial figure whom Sable says will keep pursuing the matter.",
+      "scene_id": "3",
+      "chunk_id": "doc_2_chunk_0",
+      "evidence": [
+        "Wren will not let this rest.",
+        "Wren cannot take what I do not sell."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_3_doc_2_chunk_0_ev_005",
+        "ev_syntheti_3_doc_2_chunk_0_ev_006"
+      ],
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_011",
+      "movie_id": "synthetic_hallucination_003__scene_3"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Character",
+      "surface_forms": [
+        "Inspector Holt",
+        "INSPECTOR HOLT",
+        "Holt"
+      ],
+      "canonical_name": "Inspector Holt",
+      "description": "A watchful inspector who finds Felix in the tavern and warns him about violent interest in his map.",
+      "scene_id": "3",
+      "chunk_id": "doc_2_chunk_0",
+      "evidence": [
+        "A figure enters: INSPECTOR HOLT",
+        "Holt sits without invitation.",
+        "Thank you, Inspector. I will be careful."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_3_doc_2_chunk_0_ev_007",
+        "ev_syntheti_3_doc_2_chunk_0_ev_008",
+        "ev_syntheti_3_doc_2_chunk_0_ev_009"
+      ],
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_012",
+      "movie_id": "synthetic_hallucination_003__scene_3"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "leather folio",
+        "folio"
+      ],
+      "canonical_name": "leather folio",
+      "description": "The folio carried under Inspector Holt's arm when he enters the tavern.",
+      "scene_id": "3",
+      "chunk_id": "doc_2_chunk_0",
+      "evidence": [
+        "leather folio under his arm"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_013",
+      "movie_id": "synthetic_hallucination_003__scene_3"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "map",
+        "your map",
+        "that map"
+      ],
+      "canonical_name": "map",
+      "description": "The sought-after item Holt says dangerous parties are trying to obtain from Felix.",
+      "scene_id": "3",
+      "chunk_id": "doc_2_chunk_0",
+      "evidence": [
+        "There are parties inquiring about your map.",
+        "Someone wants that map badly enough to hire for it."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_3_doc_2_chunk_0_ev_006",
+        "ev_syntheti_3_doc_2_chunk_0_ev_008"
+      ],
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_014",
+      "movie_id": "synthetic_hallucination_003__scene_3"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Concept",
+      "surface_forms": [
+        "known fence",
+        "a known fence",
+        "fence"
+      ],
+      "canonical_name": "known fence",
+      "description": "A criminal intermediary through whom the inquiry about Felix's map was made.",
+      "scene_id": "3",
+      "chunk_id": "doc_2_chunk_0",
+      "evidence": [
+        "The inquiry came through a known fence."
+      ],
+      "linked_event_ids": [
+        "ev_syntheti_3_doc_2_chunk_0_ev_008"
+      ],
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_015",
+      "movie_id": "synthetic_hallucination_003__scene_3"
+    }
+  ]
+}

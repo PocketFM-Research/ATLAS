@@ -1,0 +1,26 @@
+[
+  {
+    "story_id": "synthetic_hallucination_002",
+    "method": "graph_verifier",
+    "Gold": 13,
+    "Pred.": 11,
+    "TP": 11,
+    "FP": 0,
+    "FN": 2,
+    "precision": 1.0,
+    "recall": 0.8462,
+    "F1": 0.9167
+  },
+  {
+    "story_id": "synthetic_hallucination_002",
+    "method": "llm_judge",
+    "Gold": 13,
+    "Pred.": 13,
+    "TP": 11,
+    "FP": 2,
+    "FN": 2,
+    "precision": 0.8462,
+    "recall": 0.8462,
+    "F1": 0.8462
+  }
+]

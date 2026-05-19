@@ -1,0 +1,898 @@
+{
+  "movie_id": "synthetic_hallucination_002__scene_3",
+  "title": "synthetic_hallucination_002",
+  "nodes": [
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_001",
+      "type": "Event",
+      "name": "Oscar defends three-act structure",
+      "aliases": [
+        "Oscar defends three-act structure"
+      ],
+      "description": "Oscar insists that the script's three-act design and intermission are essential to its intended psychological rhythm.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "OSCAR\nThree acts. The structure is deliberate. Remove the intermission and the psychological rhythm collapses."
+      ]
+    },
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_002",
+      "type": "Event",
+      "name": "Diana challenges script running time",
+      "aliases": [
+        "Diana challenges script running time"
+      ],
+      "description": "Diana acknowledges Oscar's artistic reasoning but presses him specifically about the production's length.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "DIANA\nI understand the rhythm, Oscar. I am asking about running time."
+      ]
+    },
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_003",
+      "type": "Event",
+      "name": "Oscar refuses to shorten script",
+      "aliases": [
+        "Oscar refuses to shorten script"
+      ],
+      "description": "Oscar states that the script must remain exactly as written at one hundred and forty minutes with one intermission.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "OSCAR\nThree acts. One intermission. One hundred and forty minutes. That is the script as written by me and that is how it stays."
+      ]
+    },
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_004",
+      "type": "Event",
+      "name": "Diana answers phone call",
+      "aliases": [
+        "Diana answers phone call"
+      ],
+      "description": "Diana receives a call on her old cracked flip phone and tersely confirms Friday while resisting a prior request.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Diana's phone RINGS. She pulls it from her pocket -- an old NOKIA FLIP PHONE, its case cracked down one side. She flips it open.",
+        "DIANA\n(into phone)\nYes. Friday. No -- we have talked about this."
+      ]
+    },
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_005",
+      "type": "Event",
+      "name": "Oscar remarks on Diana's old phone",
+      "aliases": [
+        "Oscar remarks on Diana's old phone"
+      ],
+      "description": "After Diana ends the call, Oscar comments on how outdated her phone is, highlighting her practical attitude.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "DIANA\nIt works. That is enough.",
+        "OSCAR\n(eyeing the phone)\nDo they still manufacture those?",
+        "She claps it shut and tosses it on the desk."
+      ]
+    },
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_006",
+      "type": "Event",
+      "name": "Diana discovers coffee machine is broken",
+      "aliases": [
+        "Diana discovers coffee machine is broken"
+      ],
+      "description": "Diana reaches for coffee but stops when she notices again that the office machine is out of order.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "DIANA (CONT'D)\nForgot. Again.",
+        "She reaches toward the COFFEE MACHINE before catching sight of the OUT OF ORDER sign."
+      ]
+    },
+    {
+      "id": "ev_syntheti_3_doc_2_chunk_0_ev_007",
+      "type": "Event",
+      "name": "Diana declines coffee errand",
+      "aliases": [
+        "Diana declines coffee errand"
+      ],
+      "description": "Oscar suggests getting coffee nearby, but Diana refuses because she has no time and returns to the script.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "OSCAR\nThere is a place two blocks down.",
+        "She returns to the desk and picks up the script.",
+        "DIANA\nNo time."
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "type": "Character",
+      "name": "Diana",
+      "aliases": [
+        "Diana",
+        "DIANA"
+      ],
+      "description": "A practical theater professional who challenges Oscar on the script's length, answers a phone call, and declines a coffee run.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "DIANA",
+        "Diana sits across from Oscar",
+        "Diana's phone RINGS.",
+        "She returns to the desk and picks up the script."
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_006",
+      "type": "Character",
+      "name": "Oscar Vane",
+      "aliases": [
+        "Oscar Vane",
+        "OSCAR VANE",
+        "OSCAR",
+        "Oscar"
+      ],
+      "description": "The writer defending his script's three-act structure, intermission, and full running time.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Diana sits across from Oscar",
+        "written by OSCAR VANE",
+        "I understand the rhythm, Oscar.",
+        "A QUIET MACHINE -- written by OSCAR VANE",
+        "OSCAR"
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "type": "Location",
+      "name": "RAVENSWOOD THEATER - PRODUCTION OFFICE",
+      "aliases": [
+        "RAVENSWOOD THEATER - PRODUCTION OFFICE"
+      ],
+      "description": "The cluttered theater production office where Diana and Oscar discuss the script and its running time.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "A cluttered room.",
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "type": "TimePoint",
+      "name": "DAY",
+      "aliases": [
+        "DAY"
+      ],
+      "description": "The daytime setting of the scene in the production office.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_009",
+      "type": "TimePoint",
+      "name": "Friday",
+      "aliases": [
+        "Friday"
+      ],
+      "description": "The day Diana confirms during her terse phone call.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Yes. Friday."
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_008",
+      "type": "Object",
+      "name": "Nokia flip phone",
+      "aliases": [
+        "Nokia flip phone",
+        "NOKIA FLIP PHONE",
+        "phone"
+      ],
+      "description": "Diana's old cracked flip phone, which rings during the meeting and prompts Oscar's remark.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Diana's phone RINGS.",
+        "Do they still manufacture those?",
+        "an old NOKIA FLIP PHONE, its case cracked down one side."
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_010",
+      "type": "Object",
+      "name": "coffee machine",
+      "aliases": [
+        "coffee machine",
+        "COFFEE MACHINE"
+      ],
+      "description": "The office coffee machine that Diana notices is unusable.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "She reaches toward the COFFEE MACHINE",
+        "On the counter, a COFFEE MACHINE bears a handwritten OUT OF ORDER sign."
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_011",
+      "type": "Object",
+      "name": "OUT OF ORDER sign",
+      "aliases": [
+        "OUT OF ORDER sign",
+        "OUT OF ORDER"
+      ],
+      "description": "The handwritten sign indicating that the coffee machine is broken.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "a COFFEE MACHINE bears a handwritten OUT OF ORDER sign",
+        "catching sight of the OUT OF ORDER sign"
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_012",
+      "type": "Object",
+      "name": "script",
+      "aliases": [
+        "script",
+        "the script"
+      ],
+      "description": "The screenplay Oscar spreads on the desk and Diana returns to after refusing to get coffee.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "She returns to the desk and picks up the script.",
+        "That is the script as written by me",
+        "who spreads the script on the desk"
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_005",
+      "type": "Concept",
+      "name": "A QUIET MACHINE",
+      "aliases": [
+        "A QUIET MACHINE"
+      ],
+      "description": "The title of Oscar's script being discussed in the office.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "The title page reads: A QUIET MACHINE -- written by OSCAR VANE."
+      ]
+    },
+    {
+      "id": "ent_syntheti_3_doc_2_chunk_0_ent_007",
+      "type": "Concept",
+      "name": "three-act structure",
+      "aliases": [
+        "three-act structure",
+        "The structure",
+        "One hundred and forty minutes",
+        "Three acts",
+        "One intermission",
+        "the intermission",
+        "running time",
+        "psychological rhythm"
+      ],
+      "description": "The script's formal structure and duration, which Oscar insists must remain intact and Diana questions.",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "I am asking about running time.",
+        "Three acts. One intermission. One hundred and forty minutes.",
+        "Remove the intermission and the psychological rhythm collapses.",
+        "Three acts. The structure is deliberate."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_dc1406de28cc",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_006",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "OSCAR Three acts. The structure is deliberate. Remove the intermission and the psychological rhythm collapses."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_e602486451c9",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY",
+        "Diana sits across from Oscar, who spreads the script on the desk."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_f7d139e06df2",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_c2113c90fed4",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_007",
+      "relation": "possesses",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_012",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Three acts. The structure is deliberate.",
+        "That is the script as written by me and that is how it stays."
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_4b907ed78797",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "DIANA I understand the rhythm, Oscar. I am asking about running time."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_1b941e2bd36c",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_b73071aefb5b",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_002",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_ad44ab69b1a1",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_006",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_003",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "OSCAR Three acts. One intermission. One hundred and forty minutes. That is the script as written by me and that is how it stays."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_913927dffb17",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_255fd62712c1",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_003",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_fc04a91262c3",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_004",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Diana's phone RINGS. She pulls it from her pocket -- an old NOKIA FLIP PHONE, its case cracked down one side. She flips it open.",
+        "DIANA (into phone) Yes. Friday. No -- we have talked about this."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_31f5acb26e87",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_c063e8713c46",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_004",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_9c6057543312",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "possesses",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_008",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "She pulls it from her pocket -- an old NOKIA FLIP PHONE"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_21b34d9dd470",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "uses",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_008",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "She flips it open.",
+        "DIANA (into phone) Yes. Friday."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_0c2ee83f0a68",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_006",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_005",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "OSCAR (eyeing the phone) Do they still manufacture those?"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_70882afe318c",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_b4d8f518c2a8",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_005",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_c9af1ad13b94",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_006",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "She reaches toward the COFFEE MACHINE before catching sight of the OUT OF ORDER sign.",
+        "DIANA (CONT'D) Forgot. Again."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_5a388eb4a673",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY",
+        "On the counter, a COFFEE MACHINE bears a handwritten OUT OF ORDER sign."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_f411cc75610c",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_006",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_8f5cace4007f",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_010",
+      "relation": "located_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "On the counter, a COFFEE MACHINE bears a handwritten OUT OF ORDER sign."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_57d54795f791",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_011",
+      "relation": "located_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "On the counter, a COFFEE MACHINE bears a handwritten OUT OF ORDER sign."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_f62f69cf8deb",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_011",
+      "relation": "part_of",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_010",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "a COFFEE MACHINE bears a handwritten OUT OF ORDER sign"
+      ],
+      "confidence": 0.62
+    },
+    {
+      "id": "e_f74b42cfcfb2",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_007",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "OSCAR There is a place two blocks down.",
+        "DIANA No time."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_01d4f742d76d",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_9dc1318fffd8",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_007",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "INT. RAVENSWOOD THEATER - PRODUCTION OFFICE - DAY"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_0c570a8bd8c4",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_001",
+      "relation": "precedes",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "OSCAR Three acts. The structure is deliberate.",
+        "DIANA I understand the rhythm, Oscar. I am asking about running time."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_a486785f769e",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_002",
+      "relation": "precedes",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_003",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "DIANA I am asking about running time.",
+        "OSCAR Three acts. One intermission. One hundred and forty minutes. That is the script as written by me and that is how it stays."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_da7a07ac7687",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_003",
+      "relation": "precedes",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_004",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "That is how it stays.",
+        "Diana's phone RINGS."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_ce0285f4af28",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_004",
+      "relation": "precedes",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_005",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "She claps it shut and tosses it on the desk.",
+        "OSCAR (eyeing the phone) Do they still manufacture those?"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_3e3fd646a95d",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_005",
+      "relation": "precedes",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_006",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "DIANA It works. That is enough.",
+        "She reaches toward the COFFEE MACHINE before catching sight of the OUT OF ORDER sign."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_55a92bacc8a2",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_006",
+      "relation": "precedes",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_007",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "DIANA (CONT'D) Forgot. Again.",
+        "OSCAR There is a place two blocks down. DIANA No time."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_aa6342604387",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_006",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Diana sits across from Oscar",
+        "OSCAR There is a place two blocks down."
+      ],
+      "confidence": 0.52
+    },
+    {
+      "id": "e_dfba0fefebee",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_006",
+      "relation": "possesses",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_012",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "The title page reads: A QUIET MACHINE -- written by OSCAR VANE."
+      ],
+      "confidence": 0.63
+    },
+    {
+      "id": "e_7ea355d7c92f",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_012",
+      "relation": "located_at",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Oscar, who spreads the script on the desk.",
+        "She returns to the desk and picks up the script."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_ce17a3315065",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_002",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_001",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "OSCAR Three acts. The structure is deliberate.",
+        "DIANA I understand the rhythm, Oscar. I am asking about running time."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_4b446ff5e134",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_003",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_002",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "DIANA I am asking about running time.",
+        "OSCAR Three acts. One intermission. One hundred and forty minutes. That is the script as written by me and that is how it stays."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_52be81ecaf95",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_004",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_003",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "That is how it stays.",
+        "Diana's phone RINGS."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_5a21a927ba7e",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_005",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_004",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "She claps it shut and tosses it on the desk.",
+        "OSCAR (eyeing the phone) Do they still manufacture those?"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_631e45d500e4",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_006",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_005",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "DIANA It works. That is enough.",
+        "She reaches toward the COFFEE MACHINE before catching sight of the OUT OF ORDER sign."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_9c64a93f77b0",
+      "source": "ev_syntheti_3_doc_2_chunk_0_ev_007",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_3_doc_2_chunk_0_ev_006",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "DIANA (CONT'D) Forgot. Again.",
+        "OSCAR There is a place two blocks down. DIANA No time."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_f2d507ce74c6",
+      "source": "ent_syntheti_3_doc_2_chunk_0_ent_003",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_3_doc_2_chunk_0_ent_006",
+      "scene_refs": [
+        "3"
+      ],
+      "evidence": [
+        "Diana sits across from Oscar",
+        "OSCAR There is a place two blocks down."
+      ],
+      "confidence": 0.52
+    }
+  ]
+}

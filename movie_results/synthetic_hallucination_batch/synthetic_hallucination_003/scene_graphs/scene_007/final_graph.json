@@ -1,0 +1,1315 @@
+{
+  "movie_id": "synthetic_hallucination_003__scene_7",
+  "title": "synthetic_hallucination_003",
+  "nodes": [
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_001",
+      "type": "Event",
+      "name": "keeper serves Felix ale",
+      "aliases": [
+        "keeper serves Felix ale"
+      ],
+      "description": "The tavern keeper approaches Felix, confirms his usual order, and sets a mug of ale before him.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "TAVERN KEEPER\nMaster Adler. Your usual ale?",
+        "The keeper sets a large mug of ale before Felix.",
+        "The TAVERN KEEPER approaches Felix.",
+        "FELIX\n(absently, distracted)\nYes. Thank you."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_002",
+      "type": "Event",
+      "name": "Felix reveals nervous distraction",
+      "aliases": [
+        "Felix reveals nervous distraction"
+      ],
+      "description": "Felix drinks absently and fidgets with the gold ring on his left hand, signaling his anxiety.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Felix drinks without noticing.",
+        "Felix turns the GOLD RING on his LEFT HAND as he speaks, sliding it back and forth across his knuckle -- a nervous habit."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_003",
+      "type": "Event",
+      "name": "Holt reports no dealer contact",
+      "aliases": [
+        "Holt reports no dealer contact"
+      ],
+      "description": "Holt states that no dealer in the district has yet been approached about a Northern Reaches survey.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "HOLT\nNo dealer in the district has been approached about a Northern Reaches survey. Not yet."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_004",
+      "type": "Event",
+      "name": "Felix explains survey timeline",
+      "aliases": [
+        "Felix explains survey timeline"
+      ],
+      "description": "Felix says a work of that scale would be moved slowly and require at least two years from survey to final draft.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "FELIX\nThey will wait. A piece like this -- two years of work from initial survey to final draft -- you do not move it quickly.",
+        "FELIX\nAsk any cartographer of standing. That scope, that level of survey correction -- two years is the minimum."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_005",
+      "type": "Event",
+      "name": "Holt records Felix's statement",
+      "aliases": [
+        "Holt records Felix's statement"
+      ],
+      "description": "Holt makes a note after Felix describes the survey's timeline and significance.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Holt makes a note."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_006",
+      "type": "Event",
+      "name": "Felix confides regret to Sable",
+      "aliases": [
+        "Felix confides regret to Sable"
+      ],
+      "description": "While Holt is away, Felix quietly tells Sable he wishes he had been more careful and claims he learned of the threat only after the chest was empty.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "FELIX (CONT'D)\n(low, to Sable)\nI wish I had been more careful. No one warned me there was any specific threat. I had no idea any of this was coming until the chest was already empty.",
+        "Holt steps away to speak quietly with a constable at the door. Felix leans toward Sable."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_007",
+      "type": "Event",
+      "name": "Sable withholds response",
+      "aliases": [
+        "Sable withholds response"
+      ],
+      "description": "Sable remains silent and looks down at the table instead of answering Felix's confession.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Sable says nothing. She looks down at the table."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_008",
+      "type": "Event",
+      "name": "Holt cites hidden chest notes",
+      "aliases": [
+        "Holt cites hidden chest notes"
+      ],
+      "description": "After returning, Holt says his deputy's notes place the stolen chest behind the bookcase in the main room on the morning of the theft.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "HOLT\nOne more thing. My deputy's notes from the morning of the theft say the chest was hidden behind the bookcase in the main room.",
+        "Holt returns."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_009",
+      "type": "Event",
+      "name": "Felix equivocates about chest location",
+      "aliases": [
+        "Felix equivocates about chest location"
+      ],
+      "description": "Felix hesitantly acknowledges the chest was behind the bookcase, sounding uncertain about the detail.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "FELIX\nBehind the bookcase. Yes. I suppose that is where it was."
+      ]
+    },
+    {
+      "id": "ev_syntheti_7_doc_6_chunk_0_ev_010",
+      "type": "Event",
+      "name": "Holt promises record correction",
+      "aliases": [
+        "Holt promises record correction"
+      ],
+      "description": "Holt states that he will correct the official record regarding the chest's location regardless of Felix's uncertainty.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "HOLT\nI will have the record corrected regardless."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "type": "Character",
+      "name": "Felix",
+      "aliases": [
+        "Felix",
+        "Master Adler"
+      ],
+      "description": "A nervous patron questioned in the tavern who discusses the survey, confides regret, and responds about the stolen chest.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Felix turns the GOLD RING on his LEFT HAND as he speaks",
+        "TAVERN KEEPER\nMaster Adler. Your usual ale?",
+        "Felix and Holt sit at the corner booth.",
+        "I wish I had been more careful.",
+        "Behind the bookcase. Yes. I suppose that is where it was."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "type": "Character",
+      "name": "Holt",
+      "aliases": [
+        "Holt"
+      ],
+      "description": "The investigator interviewing Felix, taking notes, consulting law officers, and correcting the record about the chest.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "I will have the record corrected regardless.",
+        "Holt has his leather folio open.",
+        "My deputy's notes from the morning of the theft say the chest was hidden behind the bookcase in the main room.",
+        "Holt makes a note.",
+        "Felix and Holt sit at the corner booth.",
+        "Holt steps away to speak quietly with a constable at the door."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_003",
+      "type": "Character",
+      "name": "Sable",
+      "aliases": [
+        "Sable"
+      ],
+      "description": "A nearby listener whom Felix quietly confides in and who responds only with silence.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Sable says nothing. She looks down at the table.",
+        "Sable watches Felix.",
+        "Sable listens nearby.",
+        "FELIX (CONT'D)\n(low, to Sable)",
+        "Felix leans toward Sable."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "type": "Character",
+      "name": "Tavern Keeper",
+      "aliases": [
+        "Tavern Keeper",
+        "The keeper",
+        "The TAVERN KEEPER",
+        "TAVERN KEEPER"
+      ],
+      "description": "The tavern worker who recognizes Felix and serves him his usual ale.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "TAVERN KEEPER\nMaster Adler. Your usual ale?",
+        "The keeper sets a large mug of ale before Felix.",
+        "The TAVERN KEEPER approaches Felix."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_005",
+      "type": "Character",
+      "name": "constable",
+      "aliases": [
+        "constable"
+      ],
+      "description": "An officer at the door with whom Holt briefly confers before returning to question Felix.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Holt steps away to speak quietly with a constable at the door."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_006",
+      "type": "Character",
+      "name": "deputy",
+      "aliases": [
+        "deputy",
+        "My deputy"
+      ],
+      "description": "Holt's subordinate whose notes are cited as evidence about the chest's location on the morning of the theft.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "My deputy's notes from the morning of the theft say the chest was hidden behind the bookcase in the main room."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "type": "Location",
+      "name": "The Hound and Lantern Tavern",
+      "aliases": [
+        "The Hound and Lantern Tavern",
+        "THE HOUND AND LANTERN TAVERN"
+      ],
+      "description": "The tavern where Felix, Holt, and Sable meet and where the questioning takes place.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_013",
+      "type": "Location",
+      "name": "Northern Reaches",
+      "aliases": [
+        "Northern Reaches"
+      ],
+      "description": "The named region associated with the survey Holt and Felix discuss.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "No dealer in the district has been approached about a Northern Reaches survey."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_017",
+      "type": "Location",
+      "name": "main room",
+      "aliases": [
+        "main room",
+        "the main room"
+      ],
+      "description": "The room identified by Holt as the place where the chest was hidden behind the bookcase.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "the chest was hidden behind the bookcase in the main room."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_008",
+      "type": "TimePoint",
+      "name": "night",
+      "aliases": [
+        "night",
+        "NIGHT"
+      ],
+      "description": "The time of day when the tavern conversation and questioning occur.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_014",
+      "type": "TimePoint",
+      "name": "two years",
+      "aliases": [
+        "two years"
+      ],
+      "description": "The minimum timeline Felix gives for completing the survey from initial work to final draft.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "two years of work from initial survey to final draft",
+        "two years is the minimum"
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_018",
+      "type": "TimePoint",
+      "name": "the morning of the theft",
+      "aliases": [
+        "the morning of the theft"
+      ],
+      "description": "The specific time reference attached to the deputy's notes about where the chest was hidden.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "My deputy's notes from the morning of the theft say the chest was hidden behind the bookcase in the main room."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_009",
+      "type": "Object",
+      "name": "ale",
+      "aliases": [
+        "ale",
+        "a large mug of ale"
+      ],
+      "description": "Felix's usual drink, served by the tavern keeper and consumed absently.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "The keeper sets a large mug of ale before Felix.",
+        "Master Adler. Your usual ale?"
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_010",
+      "type": "Object",
+      "name": "gold ring",
+      "aliases": [
+        "gold ring",
+        "GOLD RING"
+      ],
+      "description": "The ring on Felix's left hand that he fidgets with as a nervous habit.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Felix turns the GOLD RING on his LEFT HAND as he speaks, sliding it back and forth across his knuckle -- a nervous habit."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_011",
+      "type": "Object",
+      "name": "leather folio",
+      "aliases": [
+        "leather folio"
+      ],
+      "description": "Holt's open folio, used while he questions Felix and records notes.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Holt has his leather folio open."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_015",
+      "type": "Object",
+      "name": "chest",
+      "aliases": [
+        "chest",
+        "the chest was already empty",
+        "the chest"
+      ],
+      "description": "The stolen container whose emptiness and hidden location are discussed as key facts in Holt's inquiry.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "I had no idea any of this was coming until the chest was already empty.",
+        "the chest was hidden behind the bookcase in the main room."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_016",
+      "type": "Object",
+      "name": "bookcase",
+      "aliases": [
+        "bookcase",
+        "the bookcase"
+      ],
+      "description": "The furnishing behind which the chest was reportedly hidden on the morning of the theft.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Behind the bookcase. Yes.",
+        "the chest was hidden behind the bookcase in the main room."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_012",
+      "type": "Concept",
+      "name": "Northern Reaches survey",
+      "aliases": [
+        "Northern Reaches survey",
+        "survey"
+      ],
+      "description": "The major cartographic project under discussion, whose scale and timeline are central to Holt's questioning of Felix.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "No dealer in the district has been approached about a Northern Reaches survey.",
+        "A piece like this -- two years of work from initial survey to final draft -- you do not move it quickly."
+      ]
+    },
+    {
+      "id": "ent_syntheti_7_doc_6_chunk_0_ent_019",
+      "type": "Concept",
+      "name": "record",
+      "aliases": [
+        "record",
+        "the record"
+      ],
+      "description": "The official account Holt says he will correct regarding the chest's location.",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "I will have the record corrected regardless."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_925f7cde3e8a",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_001",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "The TAVERN KEEPER approaches Felix.",
+        "The keeper sets a large mug of ale before Felix."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_3fa17a5ef7af",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "undergoes",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_001",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "The keeper sets a large mug of ale before Felix."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_d92af5d83d3c",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_001",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_4a4115f5d3dd",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_001",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_008",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_259a7d331b4a",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_009",
+      "relation": "undergoes",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_001",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Your usual ale?",
+        "The keeper sets a large mug of ale before Felix."
+      ],
+      "confidence": 0.78
+    },
+    {
+      "id": "e_a107d3a9fbb1",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "experiences",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_002",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "FELIX (absently, distracted) Yes. Thank you.",
+        "Felix turns the GOLD RING on his LEFT HAND as he speaks, sliding it back and forth across his knuckle -- a nervous habit."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_ee12a4b20c6b",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_002",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_b6d3e1000f59",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_002",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_008",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_76930dc76f54",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_003",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "HOLT No dealer in the district has been approached about a Northern Reaches survey. Not yet."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_368926118e86",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_003",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_b1411bbf8dff",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_003",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_008",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_cf1a7193268e",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "FELIX They will wait. A piece like this -- two years of work from initial survey to final draft -- you do not move it quickly.",
+        "FELIX Ask any cartographer of standing. That scope, that level of survey correction -- two years is the minimum."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_469bd911e066",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_004",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_8659cf9db69b",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_004",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_008",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_86451669a756",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_005",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Holt makes a note."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_14d94e0333c7",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_005",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_bd5faa87cef2",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_005",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_008",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_612f4b6ccbb3",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_006",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Felix leans toward Sable.",
+        "FELIX (CONT'D) (low, to Sable) I wish I had been more careful. No one warned me there was any specific threat. I had no idea any of this was coming until the chest was already empty."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_4013a178ad87",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_003",
+      "relation": "undergoes",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_006",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Felix leans toward Sable.",
+        "FELIX (CONT'D) (low, to Sable) I wish I had been more careful."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_8471ee57ca87",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_006",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_bf1056e025f3",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_006",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_008",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_142cbcaf4fef",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_003",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Sable says nothing. She looks down at the table."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_5b8bbf547653",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_007",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_1a1627851d56",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_007",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_008",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_025ebb6af69d",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_008",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Holt returns.",
+        "HOLT One more thing. My deputy's notes from the morning of the theft say the chest was hidden behind the bookcase in the main room."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_c0b72259fca2",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_008",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_a4bf840814bf",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_008",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_008",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_1c7b0384f364",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_009",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "FELIX Behind the bookcase. Yes. I suppose that is where it was."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_938eab60cde7",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_009",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_d628c1f7a85a",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_009",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_008",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_f101b25c82c4",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "performs",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_010",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "HOLT I will have the record corrected regardless."
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_edea9b3867c5",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_010",
+      "relation": "occurs_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_ace75c0e60b0",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_010",
+      "relation": "occurs_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_008",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "e_87ea185c387b",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "possesses",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_010",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Felix turns the GOLD RING on his LEFT HAND as he speaks"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_7291fe6c48dd",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "possesses",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_011",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Holt has his leather folio open."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_e4c4cee43e85",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "uses",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_011",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Holt has his leather folio open.",
+        "Holt makes a note."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_6ef67f55f4c5",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "uses",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_009",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "The keeper sets a large mug of ale before Felix. Felix drinks without noticing."
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_5ac73b9ceafd",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Felix and Holt sit at the corner booth."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_a448c035f881",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_002",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Felix and Holt sit at the corner booth."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_f7bf50562e42",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_003",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Sable listens nearby."
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_1be254e11339",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_004",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "The TAVERN KEEPER approaches Felix."
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "e_5e364f28ce44",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_005",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Holt steps away to speak quietly with a constable at the door."
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_f474234877db",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_006",
+      "relation": "present_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_018",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "My deputy's notes from the morning of the theft"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "id": "e_8d0534f9c7d6",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_012",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_013",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Northern Reaches survey"
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_8ea4d1afe29e",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_012",
+      "relation": "present_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_014",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "two years of work from initial survey to final draft",
+        "two years is the minimum"
+      ],
+      "confidence": 0.74
+    },
+    {
+      "id": "e_8199e1fba96f",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_015",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_017",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "the chest was hidden behind the bookcase in the main room"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_017a3cf1ddf2",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_016",
+      "relation": "located_at",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_017",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "behind the bookcase in the main room"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "id": "e_36cf7508f46b",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_019",
+      "relation": "present_on",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_018",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "My deputy's notes from the morning of the theft",
+        "I will have the record corrected regardless."
+      ],
+      "confidence": 0.69
+    },
+    {
+      "id": "e_4a7993a9fbaa",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_017",
+      "relation": "part_of",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "the main room",
+        "INT. THE HOUND AND LANTERN TAVERN - NIGHT"
+      ],
+      "confidence": 0.88
+    },
+    {
+      "id": "e_ad6d8c9496d2",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_003",
+      "relation": "precedes",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "HOLT No dealer in the district has been approached about a Northern Reaches survey. Not yet.",
+        "FELIX They will wait. A piece like this -- two years of work from initial survey to final draft -- you do not move it quickly."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_cc51ca7307f5",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_004",
+      "relation": "precedes",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_005",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "FELIX Ask any cartographer of standing. That scope, that level of survey correction -- two years is the minimum.",
+        "Holt makes a note."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_04061c7f6a94",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_006",
+      "relation": "precedes",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_007",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "FELIX (CONT'D) (low, to Sable) I wish I had been more careful.",
+        "Sable says nothing."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_1c871c913ed5",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_008",
+      "relation": "precedes",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_009",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "HOLT One more thing. My deputy's notes from the morning of the theft say the chest was hidden behind the bookcase in the main room.",
+        "FELIX Behind the bookcase. Yes. I suppose that is where it was."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_371493c44114",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_009",
+      "relation": "precedes",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_010",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "FELIX Behind the bookcase. Yes. I suppose that is where it was.",
+        "HOLT I will have the record corrected regardless."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_aec4ad2c5eba",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_008",
+      "relation": "references",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_010",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "My deputy's notes from the morning of the theft say the chest was hidden behind the bookcase in the main room.",
+        "I will have the record corrected regardless."
+      ],
+      "confidence": 0.76
+    },
+    {
+      "id": "e_a67c2a10aa50",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_003",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Felix leans toward Sable.",
+        "FELIX (CONT'D) (low, to Sable) I wish I had been more careful."
+      ],
+      "confidence": 0.61
+    },
+    {
+      "id": "e_551144b6f5e0",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_004",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_003",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "HOLT No dealer in the district has been approached about a Northern Reaches survey. Not yet.",
+        "FELIX They will wait. A piece like this -- two years of work from initial survey to final draft -- you do not move it quickly."
+      ],
+      "confidence": 0.96
+    },
+    {
+      "id": "e_bc0b73f26281",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_005",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_004",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "FELIX Ask any cartographer of standing. That scope, that level of survey correction -- two years is the minimum.",
+        "Holt makes a note."
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "e_36a3d19e9711",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_007",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_006",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "FELIX (CONT'D) (low, to Sable) I wish I had been more careful.",
+        "Sable says nothing."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_e468a22a92bb",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_009",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_008",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "HOLT One more thing. My deputy's notes from the morning of the theft say the chest was hidden behind the bookcase in the main room.",
+        "FELIX Behind the bookcase. Yes. I suppose that is where it was."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_0737a68a12a8",
+      "source": "ev_syntheti_7_doc_6_chunk_0_ev_010",
+      "relation": "occurs_after",
+      "target": "ev_syntheti_7_doc_6_chunk_0_ev_009",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "FELIX Behind the bookcase. Yes. I suppose that is where it was.",
+        "HOLT I will have the record corrected regardless."
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_cc0b41dfb531",
+      "source": "ent_syntheti_7_doc_6_chunk_0_ent_003",
+      "relation": "affinity_with",
+      "target": "ent_syntheti_7_doc_6_chunk_0_ent_001",
+      "scene_refs": [
+        "7"
+      ],
+      "evidence": [
+        "Felix leans toward Sable.",
+        "FELIX (CONT'D) (low, to Sable) I wish I had been more careful."
+      ],
+      "confidence": 0.61
+    }
+  ]
+}

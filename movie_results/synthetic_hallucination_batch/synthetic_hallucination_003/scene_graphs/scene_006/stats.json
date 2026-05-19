@@ -1,0 +1,29 @@
+{
+  "movie_id": "synthetic_hallucination_003__scene_6",
+  "title": "synthetic_hallucination_003",
+  "node_count_total": 21,
+  "node_count_by_type": {
+    "Event": 7,
+    "Character": 7,
+    "Location": 3,
+    "Object": 3,
+    "Concept": 1
+  },
+  "edge_count_total": 31,
+  "edge_count_by_relation": {
+    "performs": 12,
+    "occurs_at": 7,
+    "possesses": 3,
+    "affiliated_with": 1,
+    "located_at": 3,
+    "affinity_with": 2,
+    "references": 3
+  },
+  "nodes_with_evidence_pct": 100.0,
+  "edges_with_evidence_pct": 100.0,
+  "schema_violation_count": 0,
+  "avg_degree": 2.95,
+  "disconnected_component_count": 1,
+  "avg_aliases_per_node": 1.24,
+  "avg_edge_confidence": 0.821
+}

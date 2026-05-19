@@ -1,0 +1,316 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "carried_item",
+      "prior_quote": "SABLE CROSS ... enters ... She carries a bundle of reference parchments.",
+      "later_quote": "Sable carries a worn LEATHER SATCHEL over one shoulder.",
+      "reason": "fails B: the quotes describe different carried items at different times, not the same specific attribute with incompatible values"
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "form_of_address",
+      "prior_quote": "FELIX ADLER (40s, meticulous, ink-stained fingers)",
+      "later_quote": "WREN: Master Adler.",
+      "reason": "fails C: 'Felix Adler' and 'Master Adler' are compatible names/titles for the same person, not contradictory values"
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "object_type",
+      "prior_quote": "an enormous survey map ... the Northern Reaches survey",
+      "later_quote": "I want to purchase the Northern Reaches map.",
+      "reason": "fails C: 'survey map' and 'map' are compatible, not different asserted values"
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "ink_color",
+      "prior_quote": "The lines are drawn in DEEP BLUE INK.",
+      "later_quote": "My surveys, my corrections, my ink.",
+      "reason": "fails B: the later quote asserts ownership/use of ink, not a color value"
+    },
+    {
+      "index": 5,
+      "decision": "reject",
+      "attribute": "satchel_clasp_condition",
+      "prior_quote": "the CLASP BREAKS -- the leather tab snapping clean",
+      "later_quote": "Sable sits across from Felix, her eyes on the iron chest.",
+      "reason": "fails B: the later quote does not assert any value about the satchel clasp"
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "storage_method_for_map",
+      "prior_quote": "I want to purchase the Northern Reaches map.",
+      "later_quote": "Beside him on the bench sits a SMALL IRON CHEST ... You keep what matters with you or you lose it.",
+      "reason": "fails B: scene 2 says Felix has the map; scene 3 says he has a chest, not a contradictory value for the same attribute"
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "number_of_interested_parties",
+      "prior_quote": "WREN: I want to purchase the Northern Reaches map.",
+      "later_quote": "HOLT: There are parties inquiring about your map.",
+      "reason": "fails C: scene 2 does not assert Wren was the only interested party"
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "chest_location",
+      "prior_quote": "Beside him on the bench sits a SMALL IRON CHEST.",
+      "later_quote": "I placed the chest under this board last night. Right here.",
+      "reason": "fails D: the later quote explicitly states Felix moved the chest to a new location last night"
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "locked_state",
+      "prior_quote": "its lid secured with a heavy iron lock ... a HEAVY IRON KEY that matches the chest's lock",
+      "later_quote": "The IRON CHEST is GONE.",
+      "reason": "fails B: the later quote asserts absence of the chest, not a contradictory value for whether it was locked"
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "possession_of_chest",
+      "prior_quote": "Beside him on the bench sits a SMALL IRON CHEST.",
+      "later_quote": "The IRON CHEST is GONE.",
+      "reason": "fails D: scene 4 explicitly explains the change by stating it was stolen overnight"
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "satchel_condition",
+      "prior_quote": "the CLASP BREAKS -- the leather tab snapping clean",
+      "later_quote": "lies Sable's LEATHER SATCHEL -- EMPTY, broken clasp hanging open",
+      "reason": "fails B: 'broken clasp' and 'empty' are different attributes; the later quote also repeats the broken clasp consistently"
+    },
+    {
+      "index": 12,
+      "decision": "reject",
+      "attribute": "map_possession",
+      "prior_quote": "Felix drinks, one hand resting on the iron chest.",
+      "later_quote": "The map is gone.",
+      "reason": "fails D: scene 4 explicitly explains the change by showing the workshop disturbed and the chest stolen"
+    },
+    {
+      "index": 13,
+      "decision": "reject",
+      "attribute": "time_range_of_market_alibi",
+      "prior_quote": "I was at the market. All morning, from before first bell.",
+      "later_quote": "placed you there from before first bell until after the midday toll",
+      "reason": "fails C: Holt's statement extends and confirms Sable's claim; it does not contradict it"
+    },
+    {
+      "index": 14,
+      "decision": "confirm",
+      "attribute": "hair_color",
+      "prior_quote": "her LONG RED HAIR loosely braided over one shoulder",
+      "later_quote": "her long dark brown hair pulled back under a riding hood",
+      "reason": "same person, same attribute, red vs dark brown, with no on-screen explanation"
+    },
+    {
+      "index": 15,
+      "decision": "confirm",
+      "attribute": "social_role/status",
+      "prior_quote": "A MERCHANT'S BADGE is pinned visibly to his coat.",
+      "later_quote": "Because of who he is. A nobleman with reach across three provinces.",
+      "reason": "same person, same role/status attribute, merchant vs nobleman, with no explicit explanation"
+    },
+    {
+      "index": 16,
+      "decision": "reject",
+      "attribute": "ink_color_of_actual_map",
+      "prior_quote": "The lines are drawn in DEEP BLUE INK.",
+      "later_quote": "They described a map of the Northern Reaches drawn in red ink ... That is how Holt said the fence described it.",
+      "reason": "fails B: the later quote reports a thief/fence description, not a new assertion about the actual map's color"
+    },
+    {
+      "index": 17,
+      "decision": "reject",
+      "attribute": "container_for_map/chest",
+      "prior_quote": "I placed the chest under this board last night.",
+      "later_quote": "They must have seen it earlier in the wooden box I kept on the alcove shelf.",
+      "reason": "fails D: scene 6 explicitly explains this was an earlier location before Felix moved it"
+    },
+    {
+      "index": 18,
+      "decision": "reject",
+      "attribute": "chest_location",
+      "prior_quote": "I placed the chest under this board last night. Right here.",
+      "later_quote": "And the chest -- where they found it. The window alcove? ... They must have seen it earlier ... on the alcove shelf.",
+      "reason": "fails D: scene 6 explicitly explains the alcove was an earlier location and that Felix had moved it"
+    },
+    {
+      "index": 19,
+      "decision": "reject",
+      "attribute": "entry_point_vs_prior_storage_location",
+      "prior_quote": "The entry point was the east-facing WINDOW.",
+      "later_quote": "the window alcove ... the alcove shelf",
+      "reason": "fails B: window entry point and alcove shelf storage are different attributes"
+    },
+    {
+      "index": 20,
+      "decision": "reject",
+      "attribute": "source_of_information",
+      "prior_quote": "The inquiry came through a known fence.",
+      "later_quote": "That is how Holt said the fence described it.",
+      "reason": "fails C: both quotes are compatible references to information coming through a fence"
+    },
+    {
+      "index": 21,
+      "decision": "reject",
+      "attribute": "expected_location_of_chest",
+      "prior_quote": "a HEAVY IRON KEY that matches the chest's lock",
+      "later_quote": "They assumed it was still there when they came back for it.",
+      "reason": "fails B: the prior quote is about the key/lock, while the later quote is about where thieves expected the chest to be"
+    },
+    {
+      "index": 22,
+      "decision": "confirm",
+      "attribute": "usual_drink_order",
+      "prior_quote": "TAVERN KEEPER: Your usual, Master Adler? FELIX: Water. Just water, please.",
+      "later_quote": "TAVERN KEEPER: Master Adler. Your usual ale? FELIX: ... Yes.",
+      "reason": "same person, same attribute, usual drink is water vs ale, with no explicit explanation"
+    },
+    {
+      "index": 23,
+      "decision": "confirm",
+      "attribute": "ring_hand_and_material",
+      "prior_quote": "twists the SILVER RING on his RIGHT HAND",
+      "later_quote": "turns the GOLD RING on his LEFT HAND",
+      "reason": "same person, same ring attribute, silver/right vs gold/left, with no explicit explanation"
+    },
+    {
+      "index": 24,
+      "decision": "reject",
+      "attribute": "warning_about_threat",
+      "prior_quote": "He reaches into the collar of his shirt and draws out a CHAIN ... a HEAVY IRON KEY",
+      "later_quote": "No one warned me there was any specific threat.",
+      "reason": "fails B: the prior quote is about key location, the later quote is about whether Felix was warned"
+    },
+    {
+      "index": 25,
+      "decision": "reject",
+      "attribute": "offer_amount_vs_work_duration",
+      "prior_quote": "Two hundred gold coins.",
+      "later_quote": "two years of work from initial survey to final draft",
+      "reason": "fails B: price offered and duration of work are different attributes"
+    },
+    {
+      "index": 26,
+      "decision": "confirm",
+      "attribute": "chest_hiding_location",
+      "prior_quote": "I placed the chest under this board last night. Right here.",
+      "later_quote": "My deputy's notes ... say the chest was hidden behind the bookcase in the main room. FELIX: Behind the bookcase. Yes. I suppose that is where it was.",
+      "reason": "same chest, same location attribute, floorboard vs behind bookcase, with no explicit explanation"
+    },
+    {
+      "index": 27,
+      "decision": "confirm",
+      "attribute": "offer_amount",
+      "prior_quote": "Two hundred gold coins.",
+      "later_quote": "I offered five hundred gold coins and you refused me.",
+      "reason": "same offer event and same attribute, 200 vs 500, with no explicit explanation"
+    },
+    {
+      "index": 28,
+      "decision": "confirm",
+      "attribute": "satchel_clasp_condition/material",
+      "prior_quote": "the CLASP BREAKS -- the leather tab snapping clean",
+      "later_quote": "She reaches up and fastens it shut with its BRASS CLASP -- a firm, clean click.",
+      "reason": "same satchel, same clasp condition, broken leather-tab clasp vs intact brass clasp, with no explicit explanation"
+    },
+    {
+      "index": 29,
+      "decision": "confirm",
+      "attribute": "satchel_contents_and_condition",
+      "prior_quote": "lies Sable's LEATHER SATCHEL -- EMPTY, broken clasp hanging open",
+      "later_quote": "Sable's leather satchel sitting on the ground -- full, buckled, intact",
+      "reason": "same satchel, same condition/contents attribute, empty and broken vs full and intact, with no explicit explanation"
+    },
+    {
+      "index": 30,
+      "decision": "reject",
+      "attribute": "occupation",
+      "prior_quote": "A MERCHANT'S BADGE is pinned visibly to his coat.",
+      "later_quote": "Felix approaches Wren at his stall.",
+      "reason": "fails C: being a merchant is compatible with operating a stall"
+    },
+    {
+      "index": 31,
+      "decision": "confirm",
+      "attribute": "social_role/status",
+      "prior_quote": "A nobleman with reach across three provinces.",
+      "later_quote": "Felix approaches Wren at his stall.",
+      "reason": "same person, same role/status attribute, nobleman vs stall owner/merchant presentation, with no explicit explanation"
+    },
+    {
+      "index": 32,
+      "decision": "reject",
+      "attribute": "reason_satchel_was_present",
+      "prior_quote": "someone wants it to look as though you did",
+      "later_quote": "I set it down when I looked at the next stall.",
+      "reason": "fails B: scene 4 concerns the satchel found near Felix's desk in the workshop, while scene 8 concerns Sable setting down her satchel at the market"
+    },
+    {
+      "index": 33,
+      "decision": "confirm",
+      "attribute": "workshop_ceiling_structure",
+      "prior_quote": "A grand workroom with a HIGH CEILING crossed by thick, dark EXPOSED BEAMS.",
+      "later_quote": "the low, plastered ceiling -- smooth and close overhead",
+      "reason": "same workshop, same ceiling attribute, high exposed beams vs low plastered ceiling, with no explicit explanation"
+    },
+    {
+      "index": 34,
+      "decision": "reject",
+      "attribute": "suspicion_status",
+      "prior_quote": "Miss Cross is cleared of any suspicion.",
+      "later_quote": "I am placing you under arrest on suspicion of the theft of the Northern Reaches map.",
+      "reason": "fails D: scene 9 explicitly says 'New evidence has come to light,' explaining the change"
+    },
+    {
+      "index": 35,
+      "decision": "reject",
+      "attribute": "arrest_status",
+      "prior_quote": "I was.",
+      "later_quote": "I am placing you under arrest",
+      "reason": "fails B: the prior quote is about being cleared, not an assertion that Sable was not arrested"
+    },
+    {
+      "index": 36,
+      "decision": "confirm",
+      "attribute": "entry_point",
+      "prior_quote": "The entry point was the east-facing WINDOW.",
+      "later_quote": "I now believe the thief entered through the FRONT DOOR.",
+      "reason": "same theft, same entry-point attribute, window vs front door, with no explicit explanation beyond Holt's reconsideration"
+    },
+    {
+      "index": 37,
+      "decision": "reject",
+      "attribute": "window_latch_condition",
+      "prior_quote": "The latch was broken -- not forced recently, broken from age and neglect.",
+      "later_quote": "The window latch, though worn, shows no sign of recent movement.",
+      "reason": "fails C: both quotes are compatible; an old worn latch can show no recent movement"
+    },
+    {
+      "index": 38,
+      "decision": "confirm",
+      "attribute": "key_storage_location",
+      "prior_quote": "He reaches into the collar of his shirt ... He tucks it back inside his shirt.",
+      "later_quote": "He reaches into his COAT POCKET and produces the iron key.",
+      "reason": "same key, same location attribute, inside shirt vs coat pocket, with no explicit explanation"
+    },
+    {
+      "index": 39,
+      "decision": "reject",
+      "attribute": "number_of_keys",
+      "prior_quote": "a HEAVY IRON KEY that matches the chest's lock",
+      "later_quote": "This is the only key to the chest.",
+      "reason": "fails C: possessing a key earlier is compatible with later stating it is the only key"
+    }
+  ]
+}
