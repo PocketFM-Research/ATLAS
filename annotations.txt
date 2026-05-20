@@ -1,0 +1,26 @@
+my read: (just for gpt 5.4):
+
+story 1:
+
+notes abt annoations
+- change black labrador from being established in scene 3 to scene 1 (hence why both methods gain an extra TP and lose one FN)
+
+gpt 5.4
+- graph verifier: 12 TP, 0 FP, 4 FN
+- llm judge: 11 TP, 0 FP, 5 FN
+
+story 2:
+
+gpt 5.4
+- graph verifier: 11 TP, 0 FP, 2 FN
+- llm judge: 11 TP,  2 FP, 2 FN
+
+story 3 (lots of issues):
+- the blue/red ink is invalid. cus the map is blue ink, but it was DESCRIBED as red ink. felix never accepts that and just says thats how it was DESCRIBED.
+- silver/gold: can refer to different rings, so not a hallucination
+- iron chest/wooden box: the map in the story seems to have been in the wooden box for a while, but felix mentions that he MOVED it to the iron chest, which they then stole. this shows that he moved it too late cus the thief already saw the map, and at that point they knew it was in the house so they stole the chest.
+- three witnesses: the story establishes holt changed his mind.
+
+gpt 5.4:
+- graph_verifier:  9 TP, 3 FP, 2 FN
+- llm judge: 9 TP, 4 FP,  2 FN
