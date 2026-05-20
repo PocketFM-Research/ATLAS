@@ -1,0 +1,52 @@
+{
+  "Asha": {
+    "kinship": "Lucia's sister",
+    "has_siblings": "yes",
+    "occupation": "lawyer",
+    "carries": "briefcase",
+    "holds": "signed affidavits",
+    "uses": "phone alarm",
+    "affiliated_with": "Serrano closing",
+    "drives": "mother transport",
+    "handles": "intake calls",
+    "stays_until": "five",
+    "phone_on_until": "Lucia wakes"
+  },
+  "Lucia": {
+    "kinship": "Asha's sister",
+    "has_siblings": "yes",
+    "carries": "bag",
+    "holds": "half-page facility list",
+    "tabbed": "binder index weeks earlier",
+    "circled": "Haverford In-Home Respite",
+    "drives": "to see Wynnewood room",
+    "scans": "medical records from home",
+    "cannot_do": "intake talking today"
+  },
+  "Wynnewood": {
+    "type": "facility",
+    "has": "respite bed",
+    "day": "through Sunday",
+    "callback_time": "9 a.m.",
+    "requires": "current med list",
+    "requires_also": "last two incident reports",
+    "bed_hold_deadline": "past noon"
+  },
+  "Bryn Mawr Extended Care": {
+    "type": "extended care facility"
+  },
+  "Haverford In-Home Respite": {
+    "type": "in-home respite",
+    "trial_duration": "second week",
+    "problem": "different aide each shift"
+  },
+  "Mama": {
+    "kinship": "Asha and Lucia's mother",
+    "life_status": "alive",
+    "stopped_eating": "third day"
+  },
+  "Serrano closing": {
+    "type": "closing",
+    "time": "six"
+  }
+}

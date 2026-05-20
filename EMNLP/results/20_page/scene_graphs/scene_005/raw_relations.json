@@ -1,0 +1,4548 @@
+{
+  "5": [
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_001",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "By the time the affidavits were notarized and locked into the firm's overnight safe"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "notarize and secure affidavits",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_001",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_013",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_001",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "the affidavits were notarized and locked into the firm's overnight safe"
+      ],
+      "confidence": 0.93,
+      "source_name": "affidavits",
+      "target_name": "notarize and secure affidavits",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_002",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_014",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "the firm's overnight safe",
+        "along Spruce"
+      ],
+      "confidence": 0.72,
+      "source_name": "the firm's overnight safe",
+      "target_name": "Spruce",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_003",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "along Spruce"
+      ],
+      "confidence": 0.84,
+      "source_name": "notarize and secure affidavits",
+      "target_name": "Spruce",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_004",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "Asha walked Lucia and Rosa to the curb"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "escort Lucia and Rosa to cab",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_005",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "Asha walked Lucia and Rosa to the curb"
+      ],
+      "confidence": 0.95,
+      "source_name": "Lucia",
+      "target_name": "escort Lucia and Rosa to cab",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_006",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "Asha walked Lucia and Rosa to the curb"
+      ],
+      "confidence": 0.95,
+      "source_name": "Rosa",
+      "target_name": "escort Lucia and Rosa to cab",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_007",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "to the curb",
+        "along Spruce"
+      ],
+      "confidence": 0.8,
+      "source_name": "escort Lucia and Rosa to cab",
+      "target_name": "Spruce",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_008",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "watching Lucia settle into the back seat"
+      ],
+      "confidence": 0.97,
+      "source_name": "Lucia",
+      "target_name": "Lucia boards cab with unresolved burden",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_009",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_017",
+      "source_type": "Vehicle",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "Lucia settle into the back seat",
+        "the cab pulled away"
+      ],
+      "confidence": 0.9,
+      "source_name": "cab",
+      "target_name": "Lucia boards cab with unresolved burden",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_010",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_017",
+      "target_type": "Vehicle",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "settle into the back seat",
+        "the cab"
+      ],
+      "confidence": 0.88,
+      "source_name": "Lucia boards cab with unresolved burden",
+      "target_name": "cab",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_011",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "Rosa got in beside her without a word and laid a hand flat on Lucia's knee"
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "Rosa comforts Lucia in cab",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_012",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "Rosa got in beside her without a word and laid a hand flat on Lucia's knee"
+      ],
+      "confidence": 0.96,
+      "source_name": "Lucia",
+      "target_name": "Rosa comforts Lucia in cab",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_013",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_017",
+      "target_type": "Vehicle",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "in the cab",
+        "the cab pulled away"
+      ],
+      "confidence": 0.9,
+      "source_name": "Rosa comforts Lucia in cab",
+      "target_name": "cab",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_014",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "Asha walked the four blocks home alone"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha walks home alone",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_015",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "home",
+        "when she let herself into her own apartment"
+      ],
+      "confidence": 0.78,
+      "source_name": "Asha walks home alone",
+      "target_name": "Asha's apartment",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_016",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "the message light on the landline was blinking the slow double pulse her sister used when something at the group home had gone wrong with their mother again"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "discover urgent message from sister",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_017",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "her sister used when something at the group home had gone wrong"
+      ],
+      "confidence": 0.86,
+      "source_name": "Asha's sister",
+      "target_name": "discover urgent message from sister",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_018",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_005",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "something at the group home had gone wrong with their mother again"
+      ],
+      "confidence": 0.84,
+      "source_name": "their mother",
+      "target_name": "discover urgent message from sister",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_019",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "when she let herself into her own apartment"
+      ],
+      "confidence": 0.82,
+      "source_name": "discover urgent message from sister",
+      "target_name": "Asha's apartment",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_020",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_007",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "She stood in the dark hallway with her coat still on and listened to the message twice"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "listen to message twice",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_021",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_008",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "in the dark hallway"
+      ],
+      "confidence": 0.95,
+      "source_name": "listen to message twice",
+      "target_name": "dark hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_022",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "The Serrano file was sealed for the night; the other thing she had been holding at arm's length for months was not."
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha",
+      "target_name": "set aside family crisis",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_023",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_008",
+      "source_type": "Event",
+      "relation": "references",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "the other thing she had been holding at arm's length for months was not"
+      ],
+      "confidence": 0.74,
+      "source_name": "set aside family crisis",
+      "target_name": "discover urgent message from sister",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_024",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_009",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "she ... turned in the dark hallway and went back out the way she had come, pulling the door shut behind her"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "leave apartment to respond",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_025",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "went back out the way she had come"
+      ],
+      "confidence": 0.9,
+      "source_name": "leave apartment to respond",
+      "target_name": "Asha's apartment",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_026",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_010",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "her car started on the first turn of the key"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "drive away at night",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_027",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_018",
+      "source_type": "Vehicle",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_010",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "her car started on the first turn of the key"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha's car",
+      "target_name": "drive away at night",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_028",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_010",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_011",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "The garage two blocks over"
+      ],
+      "confidence": 0.93,
+      "source_name": "drive away at night",
+      "target_name": "the garage",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_029",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_030",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "when she let herself into her own apartment"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "Asha's apartment",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_030",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_031",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_017",
+      "target_type": "Vehicle",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "Lucia settle into the back seat"
+      ],
+      "confidence": 0.96,
+      "source_name": "Lucia",
+      "target_name": "cab",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_031",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_032",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_017",
+      "target_type": "Vehicle",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "Rosa got in beside her"
+      ],
+      "confidence": 0.96,
+      "source_name": "Rosa",
+      "target_name": "cab",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_032",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_033",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_004",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_009",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "at the group home"
+      ],
+      "confidence": 0.8,
+      "source_name": "Asha's sister",
+      "target_name": "the group home",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_033",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_034",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_005",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_009",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "at the group home had gone wrong with their mother again"
+      ],
+      "confidence": 0.8,
+      "source_name": "their mother",
+      "target_name": "the group home",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_034",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_035",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_013",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_014",
+      "target_type": "Object",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "locked into the firm's overnight safe"
+      ],
+      "confidence": 0.9,
+      "source_name": "affidavits",
+      "target_name": "the firm's overnight safe",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_035",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_036",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_015",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "when she let herself into her own apartment the message light on the landline was blinking"
+      ],
+      "confidence": 0.88,
+      "source_name": "landline message light",
+      "target_name": "Asha's apartment",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_036",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_037",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_016",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_017",
+      "target_type": "Vehicle",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "the cardigan bunched in her lap"
+      ],
+      "confidence": 0.86,
+      "source_name": "cardigan",
+      "target_name": "cab",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_037",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_038",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_0_ent_019",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_0",
+      "evidence": [
+        "The Serrano file was sealed for the night"
+      ],
+      "confidence": 0.77,
+      "source_name": "the Serrano file",
+      "target_name": "set aside family crisis",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_0_rel_038",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_001",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "She drove west toward Bryn Mawr",
+        "when she pulled out onto the empty street"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "drives out toward Bryn Mawr",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_001",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_016",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "She drove west toward Bryn Mawr"
+      ],
+      "confidence": 0.88,
+      "source_name": "drives out toward Bryn Mawr",
+      "target_name": "road",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_002",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_002",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "she realized she had not yet decided what she would say to her sister when she got there"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "realizes she has no plan for her sister",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_003",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_016",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "somewhere past the river she realized she had not yet decided what she would say to her sister"
+      ],
+      "confidence": 0.72,
+      "source_name": "realizes she has no plan for her sister",
+      "target_name": "road",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_004",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_003",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "Asha pulled the car onto the shoulder before she could think better of it"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "pulls over to hesitate",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_005",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_015",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "Asha pulled the car onto the shoulder"
+      ],
+      "confidence": 0.97,
+      "source_name": "pulls over to hesitate",
+      "target_name": "shoulder",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_006",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_004",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "she looked at it for a long moment without touching it"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "studies the briefcase",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_007",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_009",
+      "target_type": "Vehicle",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "The briefcase sat belted in the passenger seat",
+        "Asha pulled the car onto the shoulder"
+      ],
+      "confidence": 0.74,
+      "source_name": "studies the briefcase",
+      "target_name": "car",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_008",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_005",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "When she pulled back onto the road"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "resumes driving toward Bryn Mawr",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_009",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_016",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "When she pulled back onto the road"
+      ],
+      "confidence": 0.9,
+      "source_name": "resumes driving toward Bryn Mawr",
+      "target_name": "road",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_010",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_006",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "Asha worked the top button of her coat free, then the next, until the wool fell open"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "opens her coat",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_011",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_018",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "At the next stoplight Asha worked the top button of her coat free"
+      ],
+      "confidence": 0.93,
+      "source_name": "opens her coat",
+      "target_name": "stoplight",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_012",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_007",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "she leaned across the briefcase and opened the glovebox"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "opens the glovebox",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_013",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_018",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "At the next stoplight Asha ... opened the glovebox"
+      ],
+      "confidence": 0.9,
+      "source_name": "opens the glovebox",
+      "target_name": "stoplight",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_014",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_002",
+      "target_type": "Character",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "what she would say to her sister when she got there"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Asha's sister",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_015",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_004",
+      "target_type": "Object",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "with the briefcase belted into the passenger seat beside her"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "briefcase",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_016",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_004",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_009",
+      "target_type": "Vehicle",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "the briefcase belted into the passenger seat beside her"
+      ],
+      "confidence": 0.96,
+      "source_name": "briefcase",
+      "target_name": "car",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_017",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_009",
+      "source_type": "Vehicle",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_016",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "She drove west toward Bryn Mawr",
+        "pulled the car onto the shoulder",
+        "pulled back onto the road"
+      ],
+      "confidence": 0.9,
+      "source_name": "car",
+      "target_name": "road",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_019",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_008",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_009",
+      "target_type": "Vehicle",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "her coat still buttoned to the throat",
+        "she had been driving with her coat still buttoned to the throat"
+      ],
+      "confidence": 0.89,
+      "source_name": "coat",
+      "target_name": "car",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_020",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_010",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_009",
+      "target_type": "Vehicle",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "she leaned across the briefcase and opened the glovebox"
+      ],
+      "confidence": 0.9,
+      "source_name": "glovebox",
+      "target_name": "car",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_021",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_006",
+      "target_type": "TimePoint",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "the dashboard clock reading eleven-twenty-three when she pulled out onto the empty street"
+      ],
+      "confidence": 0.86,
+      "source_name": "drives out toward Bryn Mawr",
+      "target_name": "11:23",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_024",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_1_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_1_ent_007",
+      "target_type": "TimePoint",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_1",
+      "evidence": [
+        "the dashboard clock had gone past eleven-forty"
+      ],
+      "confidence": 0.86,
+      "source_name": "resumes driving toward Bryn Mawr",
+      "target_name": "11:40",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_1_rel_025",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_2_ev_001",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "She leaned across the briefcase and opened the glovebox, and from beneath the registration and a folded map she drew out the small photo she had put there months ago"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "retrieves hidden photograph",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_001",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_2_ev_002",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "She propped it against the base of the speedometer where the dashboard light caught it."
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "displays mother photo on dashboard",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_002",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_2_ev_003",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "When the light changed she drove on with the picture in the corner of her vision, and the exit for Bryn Mawr came up and she took it."
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "drives to Bryn Mawr exit",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_003",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_2_ev_004",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "The group home sat back from the road behind a low hedge... Asha pulled in past a staff sedan and a minivan with a wheelchair decal"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "arrives at group home",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_004",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_2_ev_005",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "Asha pulled in past a staff sedan and a minivan with a wheelchair decal, killed the engine, and let the dashboard lights fade"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "shuts off car and lingers",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_005",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_2_ev_006",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "When she finally let go, she folded the photo face-down into her coat pocket before she opened the door"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "hides photo in coat pocket",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_006",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_2_ev_007",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "Asha got out of the car with the briefcase in her hand"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "gets out carrying briefcase",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_007",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_2_ev_005",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "Her hands stayed on the wheel longer than she meant them to, tightening until the knuckles went pale"
+      ],
+      "confidence": 0.86,
+      "source_name": "Asha",
+      "target_name": "shuts off car and lingers",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_008",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "target_type": "Character",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "her mother on the back steps of the Bryn Mawr house",
+        "her mother's summer face"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha's mother",
+      "target_name": "Asha",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_009",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_006",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_012",
+      "target_type": "Vehicle",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "opened the glovebox"
+      ],
+      "confidence": 0.98,
+      "source_name": "glovebox",
+      "target_name": "car",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_012",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_007",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_006",
+      "target_type": "Object",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "from beneath the registration and a folded map"
+      ],
+      "confidence": 0.95,
+      "source_name": "registration",
+      "target_name": "glovebox",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_013",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_008",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_006",
+      "target_type": "Object",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "from beneath the registration and a folded map"
+      ],
+      "confidence": 0.95,
+      "source_name": "folded map",
+      "target_name": "glovebox",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_014",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_020",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_012",
+      "target_type": "Vehicle",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "Asha got out of the car with the briefcase in her hand"
+      ],
+      "confidence": 0.97,
+      "source_name": "briefcase",
+      "target_name": "car",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_016",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_2_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_012",
+      "target_type": "Vehicle",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "She leaned across the briefcase and opened the glovebox"
+      ],
+      "confidence": 0.9,
+      "source_name": "retrieves hidden photograph",
+      "target_name": "car",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_017",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_2_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_003",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "the exit for Bryn Mawr came up and she took it"
+      ],
+      "confidence": 0.99,
+      "source_name": "drives to Bryn Mawr exit",
+      "target_name": "Bryn Mawr",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_019",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_2_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_004",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "The group home sat back from the road behind a low hedge"
+      ],
+      "confidence": 0.99,
+      "source_name": "arrives at group home",
+      "target_name": "the group home",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_020",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_2_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_012",
+      "target_type": "Vehicle",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "Asha pulled in past a staff sedan and a minivan with a wheelchair decal, killed the engine"
+      ],
+      "confidence": 0.98,
+      "source_name": "shuts off car and lingers",
+      "target_name": "car",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_021",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_2_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_012",
+      "target_type": "Vehicle",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "she folded the photo face-down into her coat pocket before she opened the door"
+      ],
+      "confidence": 0.92,
+      "source_name": "hides photo in coat pocket",
+      "target_name": "car",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_022",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_2_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_012",
+      "target_type": "Vehicle",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "Asha got out of the car with the briefcase in her hand"
+      ],
+      "confidence": 0.99,
+      "source_name": "gets out carrying briefcase",
+      "target_name": "car",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_023",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_012",
+      "source_type": "Vehicle",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_023",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "its porch light burning yellow against the wet asphalt of the small lot"
+      ],
+      "confidence": 0.88,
+      "source_name": "car",
+      "target_name": "the small lot",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_024",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_003",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_022",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "the exit for Bryn Mawr came up and she took it"
+      ],
+      "confidence": 0.7,
+      "source_name": "Bryn Mawr",
+      "target_name": "the road",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_025",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_004",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_2_ent_022",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_2",
+      "evidence": [
+        "The group home sat back from the road"
+      ],
+      "confidence": 0.68,
+      "source_name": "the group home",
+      "target_name": "the road",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_2_rel_026",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_001",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "she did not want to leave her mother's summer face alone in an empty car at midnight"
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha",
+      "target_name": "keeps mother's memory in car",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_001",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_002",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "Asha got out of the car with the briefcase in her hand"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "exits car with briefcase",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_002",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_003",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "She tightened her grip on the handle until the leather creaked, then walked toward the porch light"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "tightens grip and walks to porch",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_003",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_004",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "At the bottom of the steps she paused"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "pauses at steps",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_004",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_005",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "She rang the bell once, evenly"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "rings doorbell",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_005",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_006",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "The door opened slowly, the way Rosa might have opened it, except it was a night aide Asha didn't recognize"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "meets unfamiliar aide at door",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_006",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_007",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "Asha registered the warm hallway smell behind her—floor cleaner, something baked earlier, the faint medicinal undertone"
+      ],
+      "confidence": 0.84,
+      "source_name": "Asha",
+      "target_name": "reads aide's guarded expression",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_007",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_008",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "Asha ... stepped inside before she was invited"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "enters house uninvited",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_008",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_009",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "Just past the entry mat she set the briefcase down against the wainscoting"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "sets briefcase down inside",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_009",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_005",
+      "target_type": "Object",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "Asha got out of the car with the briefcase in her hand"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "briefcase",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_010",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_005",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "leave her mother's summer face alone in an empty car"
+      ],
+      "confidence": 0.9,
+      "source_name": "briefcase",
+      "target_name": "car",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_011",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_004",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "leave her mother's summer face alone in an empty car"
+      ],
+      "confidence": 0.72,
+      "source_name": "Asha's mother",
+      "target_name": "car",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_012",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "stood a moment in the cold of the lot"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "lot",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_013",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_008",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "walked toward the porch light"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "porch",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_014",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_009",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "At the bottom of the steps she paused"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "steps",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_015",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_010",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_011",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "She rang the bell once"
+      ],
+      "confidence": 0.9,
+      "source_name": "doorbell",
+      "target_name": "door",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_016",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_003",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_011",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "The door opened slowly, the way Rosa might have opened it, except it was a night aide Asha didn't recognize"
+      ],
+      "confidence": 0.93,
+      "source_name": "night aide",
+      "target_name": "door",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_017",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_003",
+      "source_type": "Character",
+      "relation": "is_a",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_013",
+      "target_type": "Concept",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "it was a night aide Asha didn't recognize"
+      ],
+      "confidence": 0.99,
+      "source_name": "night aide",
+      "target_name": "floor cleaner",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_018",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_003",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_012",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "Asha registered the warm hallway smell behind her"
+      ],
+      "confidence": 0.88,
+      "source_name": "night aide",
+      "target_name": "hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_019",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_013",
+      "source_type": "Concept",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_012",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "the warm hallway smell behind her—floor cleaner, something baked earlier, the faint medicinal undertone"
+      ],
+      "confidence": 0.8,
+      "source_name": "floor cleaner",
+      "target_name": "hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_020",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_014",
+      "source_type": "Concept",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_012",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "the faint medicinal undertone"
+      ],
+      "confidence": 0.8,
+      "source_name": "medicinal undertone",
+      "target_name": "hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_021",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_015",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "Just past the entry mat"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "entry",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_022",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_016",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_012",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "set the briefcase down against the wainscoting"
+      ],
+      "confidence": 0.86,
+      "source_name": "wainscoting",
+      "target_name": "hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_023",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_004",
+      "target_type": "Character",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "The door opened slowly, the way Rosa might have opened it"
+      ],
+      "confidence": 0.74,
+      "source_name": "Rosa",
+      "target_name": "Asha's mother",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_024",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "Asha got out of the car"
+      ],
+      "confidence": 0.98,
+      "source_name": "exits car with briefcase",
+      "target_name": "car",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_025",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "stood a moment in the cold of the lot",
+        "walked toward the porch light"
+      ],
+      "confidence": 0.97,
+      "source_name": "tightens grip and walks to porch",
+      "target_name": "lot",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_026",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_009",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "At the bottom of the steps she paused"
+      ],
+      "confidence": 0.99,
+      "source_name": "pauses at steps",
+      "target_name": "steps",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_027",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_011",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "She rang the bell once"
+      ],
+      "confidence": 0.99,
+      "source_name": "rings doorbell",
+      "target_name": "door",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_028",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_011",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "The door opened slowly"
+      ],
+      "confidence": 0.96,
+      "source_name": "meets unfamiliar aide at door",
+      "target_name": "door",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_029",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_030",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_015",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "stepped inside before she was invited"
+      ],
+      "confidence": 0.95,
+      "source_name": "enters house uninvited",
+      "target_name": "entry",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_030",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_031",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_3_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_3_ent_012",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_3",
+      "evidence": [
+        "Just past the entry mat she set the briefcase down against the wainscoting"
+      ],
+      "confidence": 0.94,
+      "source_name": "sets briefcase down inside",
+      "target_name": "hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_3_rel_031",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_001",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "Just past the entry mat she set the briefcase down against the wainscoting, deliberately"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "sets briefcase aside",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_001",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_002",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "Asha understood that the woman had been told she was a lawyer and was now adjusting for a daughter instead"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "aide recognizes Asha as daughter",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_002",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_002",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "Asha understood that the woman had been told she was a lawyer and was now adjusting for a daughter instead"
+      ],
+      "confidence": 0.9,
+      "source_name": "the aide",
+      "target_name": "aide recognizes Asha as daughter",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_003",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_003",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "\"She's awake,\" the aide said"
+      ],
+      "confidence": 0.99,
+      "source_name": "the aide",
+      "target_name": "aide says she is awake",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_004",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_004",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "Asha buttoned her coat at the throat before she followed the aide down the hall"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha follows aide down hall",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_005",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_004",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "before she followed the aide down the hall"
+      ],
+      "confidence": 0.88,
+      "source_name": "the aide",
+      "target_name": "Asha follows aide down hall",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_006",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_005",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "Behind her, Rosa came in at a careful distance"
+      ],
+      "confidence": 0.99,
+      "source_name": "Rosa",
+      "target_name": "Rosa enters at distance",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_007",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_006",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "Asha felt herself being read without resenting it"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha accepts being read",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_008",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_007",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "Asha registered, without slowing, that she had stopped being the lawyer at the door and become the daughter walking toward a lit room"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha shifts from lawyer to daughter",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_009",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_008",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "At the threshold Asha stopped, one hand resting briefly on the doorframe"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha pauses at doorway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_010",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "Just past the entry mat she set the briefcase down"
+      ],
+      "confidence": 0.9,
+      "source_name": "sets briefcase aside",
+      "target_name": "entry mat",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_011",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "on the porch would have undone whatever she had braced for in the car. Just past the entry mat"
+      ],
+      "confidence": 0.72,
+      "source_name": "aide recognizes Asha as daughter",
+      "target_name": "porch",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_012",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "\"She's awake,\" the aide said, quieter than the porch had been"
+      ],
+      "confidence": 0.7,
+      "source_name": "aide says she is awake",
+      "target_name": "porch",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_013",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_009",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "Asha buttoned her coat at the throat before she followed the aide down the hall"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha follows aide down hall",
+      "target_name": "hall",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_014",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_009",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "Behind her, Rosa came in at a careful distance"
+      ],
+      "confidence": 0.74,
+      "source_name": "Rosa enters at distance",
+      "target_name": "hall",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_015",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_009",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "Asha felt herself being read without resenting it"
+      ],
+      "confidence": 0.68,
+      "source_name": "Asha accepts being read",
+      "target_name": "hall",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_016",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_009",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "Asha registered, without slowing, that she had stopped being the lawyer at the door and become the daughter walking toward a lit room"
+      ],
+      "confidence": 0.7,
+      "source_name": "Asha shifts from lawyer to daughter",
+      "target_name": "hall",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_017",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_4_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_013",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "At the threshold Asha stopped"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha pauses at doorway",
+      "target_name": "threshold",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_018",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_013",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "At the threshold Asha stopped"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "threshold",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_019",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_004",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_008",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "she set the briefcase down against the wainscoting"
+      ],
+      "confidence": 0.96,
+      "source_name": "briefcase",
+      "target_name": "wainscoting",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_020",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_005",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_016",
+      "target_type": "Concept",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "Asha's open coat"
+      ],
+      "confidence": 0.6,
+      "source_name": "coat",
+      "target_name": "lawyer",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_021",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "is_a",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_4_ent_017",
+      "target_type": "Concept",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_4",
+      "evidence": [
+        "adjusting for a daughter instead",
+        "become the daughter walking toward a lit room"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "daughter",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_4_rel_022",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_5_ev_001",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "At the threshold Asha stopped, one hand resting briefly on the doorframe"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha pauses at the doorway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_001",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_5_ev_003",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "Asha did not look at the bed yet; she looked at the chair beside it, at the folded cardigan on its arm, at a water glass with a straw bent toward where a head would be."
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha surveys the bedside objects",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_002",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_5_ev_004",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "Asha crossed the short distance to the bed in three quiet steps and lowered herself to the edge of the chair"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha sits beside her mother",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_003",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_5_ev_005",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "She let her hand find her mother's where it lay on top of the blanket"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha takes her mother's hand",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_004",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_5_ev_006",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "she asked, low enough that only the room would hear it, whether her mother knew who she was"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha asks if her mother recognizes her",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_005",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_5_ev_007",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "her mother's eyes moved over her face with the slow, searching attention of someone reading a page in poor light"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha's mother",
+      "target_name": "Mother studies Asha silently",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_006",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_5_ev_002",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "Rosa came in behind her at the same measured pace she kept in any hallway at any hour"
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "Rosa follows cautiously",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_007",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_5_ev_008",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "From the doorway Rosa held her step back"
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "Rosa holds back at the doorway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_008",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_5_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "At the threshold Asha stopped",
+        "before she stepped inside"
+      ],
+      "confidence": 0.86,
+      "source_name": "Asha pauses at the doorway",
+      "target_name": "room",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_010",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_5_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "Rosa came in behind her at the same measured pace she kept in any hallway at any hour"
+      ],
+      "confidence": 0.95,
+      "source_name": "Rosa follows cautiously",
+      "target_name": "hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_011",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_5_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "The room was lit low from a lamp on the dresser"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha surveys the bedside objects",
+      "target_name": "room",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_012",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_5_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "she asked, low enough that only the room would hear it"
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha asks if her mother recognizes her",
+      "target_name": "room",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_016",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_5_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "her mother's eyes moved over her face"
+      ],
+      "confidence": 0.88,
+      "source_name": "Mother studies Asha silently",
+      "target_name": "room",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_017",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "she stepped inside",
+        "Asha crossed the short distance to the bed"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "room",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_019",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "Rosa came in behind her",
+        "From the doorway Rosa held her step back"
+      ],
+      "confidence": 0.86,
+      "source_name": "Rosa",
+      "target_name": "room",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_020",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_014",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "the briefcase still leaned against the wainscoting"
+      ],
+      "confidence": 0.9,
+      "source_name": "wainscoting",
+      "target_name": "hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_026",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_015",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_5_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_5",
+      "evidence": [
+        "smelled faintly of the same cleaner as the hall"
+      ],
+      "confidence": 0.82,
+      "source_name": "cleaner",
+      "target_name": "hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_5_rel_027",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_6_ev_001",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_6",
+      "evidence": [
+        "her mother's eyes moved over her face with the slow, searching attention"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha's mother",
+      "target_name": "mother studies Asha's face",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_6_rel_001",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_6_ev_002",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_6",
+      "evidence": [
+        "From the doorway Rosa held her step back"
+      ],
+      "confidence": 0.99,
+      "source_name": "Rosa",
+      "target_name": "Rosa hesitates in doorway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_6_rel_002",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_6_ev_003",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_6",
+      "evidence": [
+        "Asha tightened her hand around her mother's"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha grips her mother's hand",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_6_rel_003",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_6_ev_004",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_6",
+      "evidence": [
+        "and leaned in until the lamp on the dresser threw a soft edge along her mother's cheek"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha leans closer to her mother",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_6_rel_004",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_6_ev_005",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_6",
+      "evidence": [
+        "Whatever recognition was going to come was going to take its own time, and Asha... found she could do nothing to hurry it."
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "Asha waits for recognition",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_6_rel_005",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_6_ev_006",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_6",
+      "evidence": [
+        "she said the old name softly"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha speaks old name softly",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_6_rel_006",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_001",
+      "target_type": "Character",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_6",
+      "evidence": [
+        "her mother",
+        "Asha's mother"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha's mother",
+      "target_name": "Asha",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_6_rel_007",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_004",
+      "target_type": "Object",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_6",
+      "evidence": [
+        "still buttoned into the coat she had not thought to remove"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "coat",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_6_rel_008",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_007",
+      "target_type": "Object",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_6",
+      "evidence": [
+        "her coat sleeve pressed the folded cardigan flat against the chair arm"
+      ],
+      "confidence": 0.84,
+      "source_name": "Asha",
+      "target_name": "cardigan",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_6_rel_009",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_007",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_006",
+      "target_type": "Object",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_6",
+      "evidence": [
+        "the folded cardigan flat against the chair arm"
+      ],
+      "confidence": 0.88,
+      "source_name": "cardigan",
+      "target_name": "chair",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_6_rel_010",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_009",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_6_ent_010",
+      "target_type": "Concept",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_6",
+      "evidence": [
+        "Whatever recognition was going to come"
+      ],
+      "confidence": 0.72,
+      "source_name": "recognition",
+      "target_name": "old name",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_6_rel_012",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_7_ev_001",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "she said the old name softly"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha uses mother's old name",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_001",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_003",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_7_ev_002",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "she said the old name softly... the shape of the word was the part being recognized"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha's mother",
+      "target_name": "Mother recognizes the word",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_002",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_7_ev_003",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "Lucia eased into the room without speaking"
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia",
+      "target_name": "Lucia enters quietly",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_003",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_7_ev_004",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "reached past the chair for the water glass on the bedside table, straightening the bent straw and turning the glass a quarter turn"
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Lucia tends the water glass",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_004",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_7_ev_005",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "Asha registered the avoidance"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha senses sisterly avoidance",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_005",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_7_ev_006",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "Asha let her mother's hand settle back onto the blanket and held it there a moment with her own before drawing her fingers away"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha releases mother's hand",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_006",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_7_ev_007",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "She stood... and turned toward Lucia at the bedside table"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha turns to Lucia",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_007",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_7_ev_008",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "without quite meeting Asha's eyes, asked in a low voice whether Asha had seen the updated reports from the facility"
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia",
+      "target_name": "Lucia asks about updated reports",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_008",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_003",
+      "target_type": "Character",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "mother",
+        "her mother"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha's mother",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_009",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_002",
+      "target_type": "Character",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "her sister",
+        "Lucia",
+        "Asha turned toward Lucia"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Lucia",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_010",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_001",
+      "target_type": "Character",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "her sister",
+        "Lucia"
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia",
+      "target_name": "Asha",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_011",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_005",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_007",
+      "target_type": "Object",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "water glass on the bedside table"
+      ],
+      "confidence": 0.96,
+      "source_name": "water glass",
+      "target_name": "bedside table",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_012",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_006",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_005",
+      "target_type": "Object",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "straightening the bent straw"
+      ],
+      "confidence": 0.95,
+      "source_name": "straw",
+      "target_name": "water glass",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_013",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_004",
+      "target_type": "Object",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "she said the old name softly"
+      ],
+      "confidence": 0.72,
+      "source_name": "Asha",
+      "target_name": "old name",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_014",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_007",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_011",
+      "target_type": "Concept",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "bedside table"
+      ],
+      "confidence": 0.9,
+      "source_name": "bedside table",
+      "target_name": "facility",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_023",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_008",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_011",
+      "target_type": "Concept",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "the chair"
+      ],
+      "confidence": 0.88,
+      "source_name": "chair",
+      "target_name": "facility",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_024",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_009",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_011",
+      "target_type": "Concept",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "the blanket"
+      ],
+      "confidence": 0.86,
+      "source_name": "blanket",
+      "target_name": "facility",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_025",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_010",
+      "source_type": "Concept",
+      "relation": "affiliated_with",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_7_ent_011",
+      "target_type": "Concept",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_7",
+      "evidence": [
+        "updated reports from the facility"
+      ],
+      "confidence": 0.84,
+      "source_name": "updated reports",
+      "target_name": "facility",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_7_rel_026",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_001",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "asked in a low voice whether Asha had seen the updated reports from the facility"
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Lucia asks about updated reports",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_001",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_005",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_005",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "from the facility"
+      ],
+      "confidence": 0.5,
+      "source_name": "the facility",
+      "target_name": "the facility",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_002",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_002",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "Asha understood that the conversation they owed each other had begun on Lucia's terms"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "Asha recognizes Lucia's opening",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_003",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_003",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "She tipped her head once toward the door, agreeing without speaking"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha silently agrees to speak privately",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_004",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_004",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "Asha stepped into the hallway"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha steps into the hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_005",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_005",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "Rosa, without a word, drew back from the doorway and angled herself just enough to make a path"
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "Rosa clears the doorway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_006",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_006",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "Lucia followed a half-step behind"
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia",
+      "target_name": "Lucia follows into the hall",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_007",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_007",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "she let her shoulders drop a fraction"
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha",
+      "target_name": "Asha relaxes in private",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_008",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_008",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "She did not ask for the reports yet"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha postpones asking for the reports",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_009",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_005",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "from the facility"
+      ],
+      "confidence": 0.72,
+      "source_name": "Lucia asks about updated reports",
+      "target_name": "the facility",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_010",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_005",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "the conversation they owed each other had begun on Lucia's terms"
+      ],
+      "confidence": 0.55,
+      "source_name": "Asha recognizes Lucia's opening",
+      "target_name": "the facility",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_011",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_005",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "they should take it out of their mother's hearing"
+      ],
+      "confidence": 0.56,
+      "source_name": "Asha silently agrees to speak privately",
+      "target_name": "the facility",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_012",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "Asha stepped into the hallway"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha steps into the hallway",
+      "target_name": "the hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_013",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_005",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "drew back from the doorway"
+      ],
+      "confidence": 0.6,
+      "source_name": "Rosa clears the doorway",
+      "target_name": "the facility",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_014",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "Lucia followed a half-step behind"
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia follows into the hall",
+      "target_name": "the hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_015",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "In the hall the air was cooler"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha relaxes in private",
+      "target_name": "the hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_016",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "She did not ask for the reports yet; she only turned to face her sister in the narrower light"
+      ],
+      "confidence": 0.84,
+      "source_name": "Asha postpones asking for the reports",
+      "target_name": "the hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_017",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_006",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "the hallway"
+      ],
+      "confidence": 0.5,
+      "source_name": "the hallway",
+      "target_name": "the hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_019",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_002",
+      "target_type": "Character",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "their mother's hearing",
+        "turned to face her sister"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Lucia",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_020",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "Asha stepped into the hallway"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "the hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_021",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "Lucia followed a half-step behind"
+      ],
+      "confidence": 0.96,
+      "source_name": "Lucia",
+      "target_name": "the hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_022",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_003",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_005",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "Rosa, without a word, drew back from the doorway"
+      ],
+      "confidence": 0.7,
+      "source_name": "Rosa",
+      "target_name": "the facility",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_023",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_007",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_005",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "with her coat still buttoned"
+      ],
+      "confidence": 0.55,
+      "source_name": "coat",
+      "target_name": "the facility",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_024",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_011",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_012",
+      "target_type": "Object",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "their shadows long across the corridor's pale runner"
+      ],
+      "confidence": 0.62,
+      "source_name": "shadows",
+      "target_name": "runner",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_027",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_012",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "across the corridor's pale runner"
+      ],
+      "confidence": 0.7,
+      "source_name": "runner",
+      "target_name": "the hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_028",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_013",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_006",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "a cart parked further down"
+      ],
+      "confidence": 0.86,
+      "source_name": "cart",
+      "target_name": "the hallway",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_029",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_030",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_014",
+      "source_type": "Concept",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_005",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "their mother's hearing"
+      ],
+      "confidence": 0.58,
+      "source_name": "their mother's hearing",
+      "target_name": "the facility",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_030",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_031",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_8_ent_015",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_8_ev_001",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_8",
+      "evidence": [
+        "the ones that had come in the week before"
+      ],
+      "confidence": 0.74,
+      "source_name": "the week before",
+      "target_name": "Lucia asks about updated reports",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_8_rel_031",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_9_ev_001",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "Lucia shifted her bag from her shoulder, unzipped it without looking up, and drew out a thin sheaf of stapled pages that she held out to Asha"
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "bring hidden pages into corridor",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_001",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_9_ev_002",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "Lucia shifted her bag from her shoulder, unzipped it without looking up, and drew out a thin sheaf of stapled pages that she held out to Asha"
+      ],
+      "confidence": 0.9,
+      "source_name": "Lucia",
+      "target_name": "Asha receives facility documents",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_002",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_9_ev_002",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "Asha took them"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha receives facility documents",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_003",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_9_ev_003",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "she said, quietly, that she had not opened the email yet"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha admits she has not opened email",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_004",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_9_ev_004",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "Lucia's hand stayed near the bag a beat longer, as if she had not decided whether handing them over had been the right order of things"
+      ],
+      "confidence": 0.92,
+      "source_name": "Lucia",
+      "target_name": "Lucia hesitates after handing over pages",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_005",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_9_ev_005",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "Asha set her fingertips lightly on Lucia's forearm"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha comforts Lucia physically",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_006",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_9_ev_006",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "Lucia did not pull away, but she did not look up either; she took a shallow breath, fixed her gaze somewhere near Asha's shoes, and said that the staffing levels had dropped last month and that they weren't really providing the specialized care anymore"
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia",
+      "target_name": "Lucia explains staffing cuts",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_007",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_004",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "In the narrower light of the corridor"
+      ],
+      "confidence": 0.97,
+      "source_name": "Lucia",
+      "target_name": "Corridor",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_008",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_9_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_004",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "In the narrower light of the corridor, Lucia shifted her bag from her shoulder, unzipped it without looking up, and drew out a thin sheaf of stapled pages"
+      ],
+      "confidence": 0.98,
+      "source_name": "bring hidden pages into corridor",
+      "target_name": "Corridor",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_009",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_9_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_004",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "In the narrower light of the corridor, Lucia shifted her bag from her shoulder, unzipped it without looking up, and drew out a thin sheaf of stapled pages that she held out to Asha at chest height"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha receives facility documents",
+      "target_name": "Corridor",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_010",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_9_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_004",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "In the narrower light of the corridor"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha admits she has not opened email",
+      "target_name": "Corridor",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_011",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_9_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_004",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "In the narrower light of the corridor"
+      ],
+      "confidence": 0.9,
+      "source_name": "Lucia hesitates after handing over pages",
+      "target_name": "Corridor",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_012",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_9_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_004",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "Down the hall the laundry cart rattled once against a baseboard"
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha comforts Lucia physically",
+      "target_name": "Corridor",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_013",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_9_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_004",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "Down the hall the laundry cart rattled once against a baseboard"
+      ],
+      "confidence": 0.86,
+      "source_name": "Lucia explains staffing cuts",
+      "target_name": "Corridor",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_014",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_005",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_004",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "Lucia shifted her bag from her shoulder"
+      ],
+      "confidence": 0.95,
+      "source_name": "Bag",
+      "target_name": "Corridor",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_015",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_006",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_011",
+      "target_type": "Object",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "a thin sheaf of stapled pages",
+        "the letter the night before"
+      ],
+      "confidence": 0.72,
+      "source_name": "Stapled Pages",
+      "target_name": "Letter",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_016",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_008",
+      "source_type": "Concept",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_010",
+      "target_type": "Concept",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "the staffing levels had dropped last month"
+      ],
+      "confidence": 0.9,
+      "source_name": "Staffing Levels",
+      "target_name": "Facility",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_018",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_009",
+      "source_type": "Concept",
+      "relation": "part_of",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_010",
+      "target_type": "Concept",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "they weren't really providing the specialized care anymore"
+      ],
+      "confidence": 0.9,
+      "source_name": "Specialized Care",
+      "target_name": "Facility",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_019",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_010",
+      "source_type": "Concept",
+      "relation": "affiliated_with",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_008",
+      "target_type": "Concept",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "the staffing levels had dropped last month"
+      ],
+      "confidence": 0.62,
+      "source_name": "Facility",
+      "target_name": "Staffing Levels",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_020",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_002",
+      "target_type": "Character",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "between them",
+        "Asha set her fingertips lightly on Lucia's forearm"
+      ],
+      "confidence": 0.86,
+      "source_name": "Lucia",
+      "target_name": "Asha",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_021",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_003",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_9_ent_004",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "where their mother could not hear it"
+      ],
+      "confidence": 0.7,
+      "source_name": "Mother",
+      "target_name": "Corridor",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_022",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_9_ev_002",
+      "source_type": "Event",
+      "relation": "references",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_9_ev_001",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_9",
+      "evidence": [
+        "the same bag that had held the letter the night before"
+      ],
+      "confidence": 0.58,
+      "source_name": "Asha receives facility documents",
+      "target_name": "bring hidden pages into corridor",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_9_rel_023",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_004",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "Asha felt the stapled corner of the report bite into her thumb where she had not realized she was gripping it"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha grips report tightly",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_004",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_005",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "She did not answer right away"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha delays response",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_005",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_006",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "She kept her hand where it was on Lucia's sleeve"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha keeps hold of Lucia",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_006",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_007",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "understanding that the arrangement they had agreed on a year ago ... no longer described what was happening on the other side of their mother's door"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "Asha realizes prior arrangement no longer fits",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_007",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_001",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_002",
+      "target_type": "Character",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "Lucia",
+        "their mother's door"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Lucia",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_009",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_003",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_001",
+      "target_type": "Character",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "their mother's door"
+      ],
+      "confidence": 0.98,
+      "source_name": "their mother",
+      "target_name": "Asha",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_010",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_003",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_002",
+      "target_type": "Character",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "their mother's door"
+      ],
+      "confidence": 0.98,
+      "source_name": "their mother",
+      "target_name": "Lucia",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_011",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_006",
+      "target_type": "TimePoint",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "last month"
+      ],
+      "confidence": 0.99,
+      "source_name": "reveals reduced staffing",
+      "target_name": "last month",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_013",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_006",
+      "target_type": "TimePoint",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "last month"
+      ],
+      "confidence": 0.86,
+      "source_name": "admits specialized care has ended",
+      "target_name": "last month",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_014",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "on the other side of their mother's door"
+      ],
+      "confidence": 0.72,
+      "source_name": "reveals reduced staffing",
+      "target_name": "their mother's door",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_015",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "on the other side of their mother's door"
+      ],
+      "confidence": 0.72,
+      "source_name": "admits specialized care has ended",
+      "target_name": "their mother's door",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_016",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "on the other side of their mother's door"
+      ],
+      "confidence": 0.7,
+      "source_name": "speaks quietly to Asha",
+      "target_name": "their mother's door",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_017",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "on the other side of their mother's door"
+      ],
+      "confidence": 0.68,
+      "source_name": "Asha grips report tightly",
+      "target_name": "their mother's door",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_018",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "on the other side of their mother's door"
+      ],
+      "confidence": 0.68,
+      "source_name": "Asha delays response",
+      "target_name": "their mother's door",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_019",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "on the other side of their mother's door"
+      ],
+      "confidence": 0.68,
+      "source_name": "Asha keeps hold of Lucia",
+      "target_name": "their mother's door",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_020",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_007",
+      "target_type": "Location",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "on the other side of their mother's door"
+      ],
+      "confidence": 0.68,
+      "source_name": "Asha realizes prior arrangement no longer fits",
+      "target_name": "their mother's door",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_021",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_002",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "staffing levels had dropped last month and that they weren't really providing the specialized care anymore"
+      ],
+      "confidence": 0.74,
+      "source_name": "reveals reduced staffing",
+      "target_name": "admits specialized care has ended",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_022",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_002",
+      "source_type": "Event",
+      "relation": "causes",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_007",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "they weren't really providing the specialized care anymore ... no longer described what was happening"
+      ],
+      "confidence": 0.8,
+      "source_name": "admits specialized care has ended",
+      "target_name": "Asha realizes prior arrangement no longer fits",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_023",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_003",
+      "source_type": "Event",
+      "relation": "causes",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_005",
+      "target_type": "Event",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "evidence": [
+        "The words were quieter than the laundry cart down the hall, and Asha felt ... She did not answer right away"
+      ],
+      "confidence": 0.66,
+      "source_name": "speaks quietly to Asha",
+      "target_name": "Asha delays response",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_rel_024",
+      "movie_id": "20_page__scene_5"
+    },
+    {
+      "temp_id": "synth_ev_20_page__5_doc_4_chunk_0_part_10_ev_003_ent_20_page__5_doc_4_chunk_0_part_10_ent_001",
+      "source_id": "ent_20_page__5_doc_4_chunk_0_part_10_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__5_doc_4_chunk_0_part_10_ev_003",
+      "target_type": "Event",
+      "evidence": [
+        "The words were quieter than the laundry cart down the hall"
+      ],
+      "confidence": 0.6,
+      "source_name": "Asha",
+      "target_name": "speaks quietly to Asha",
+      "id": "rel_20_page__5_doc_4_chunk_0_part_10_synth_ev_20_page__5_doc_4_chunk_0_part_10_ev_003_ent_20_page__5_doc_4_chunk_0_part_10_ent_001",
+      "scene_id": "5",
+      "chunk_id": "doc_4_chunk_0_part_10",
+      "movie_id": "20_page__scene_5"
+    }
+  ]
+}

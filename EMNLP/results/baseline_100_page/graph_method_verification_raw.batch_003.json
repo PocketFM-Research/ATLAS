@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "Daniel's share of the house",
+      "prior_quote": "Scene 7 / embedded story: \"The house in equal thirds. Daniel, Lucia, Rosa.\"",
+      "later_quote": "Scene 8 / embedded story: \"The codicil leaves the house to Lucia, with a charge upon the property in favor of Daniel in the amount of one-third of the appraised value\"",
+      "reason": "fails B: the later quote is about Daniel receiving a monetary charge/payment right, not a house ownership share."
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "Lucia's share of the house",
+      "prior_quote": "Scene 7 / embedded story: \"The house in equal thirds. Daniel, Lucia, Rosa.\"",
+      "later_quote": "Scene 8 / embedded story: \"The codicil leaves the house to Lucia\"",
+      "reason": "fails D: the later scene explicitly presents a new legal arrangement after later negotiations and signed documents, so any change is explained on-screen."
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "Lucia's clothing color/type",
+      "prior_quote": "Scene 1: \"She was younger than her brother... wearing a black sweater and jeans\"",
+      "later_quote": "Scene 8 / embedded story: \"She was wearing a dark sweater\"",
+      "reason": "fails C: \"black sweater\" and \"dark sweater\" are not a real value mismatch; the later wording is broader and compatible."
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "Asha's professional history/rules",
+      "prior_quote": "Scene 2: \"She had been twenty-eight then\" and references to Halloran as a separate attorney later do not state she worked under him for fifteen years.",
+      "later_quote": "Scene 8 / embedded story: \"she had not, in fifteen years, written rules of engagement for any other case\"",
+      "reason": "fails B: these are different attributes; one concerns alleged employment under Halloran, the other concerns whether she wrote special rules for other cases."
+    },
+    {
+      "index": 5,
+      "decision": "confirm",
+      "attribute": "Asha's surname",
+      "prior_quote": "Scene 1: \"Rosa opened the door. ... 'Ms. Patel,' Rosa said.\"",
+      "later_quote": "Scene 9 / embedded story: \"She replied at six. 'Mr. Serrano — Received. I will see you Thursday at the inspection. — A. Mensah.'\"",
+      "reason": "Same entity, same attribute, different surnames, and no on-screen explanation for the change."
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "Asha's client/representation role",
+      "prior_quote": "Scene 6: \"I am your mother's estate's attorney. I am not your attorney.\"",
+      "later_quote": "Scene 10 / embedded story: \"the letter... is, in my view as your attorney, indisputably yours\"",
+      "reason": "fails A/B: the prior quote is about Daniel specifically, while the later quote addresses Lucia; it does not contradict her statement that she is not Daniel's personal attorney."
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "Lucia's legal status",
+      "prior_quote": "Scene 1: \"It leaves the house and contents jointly to the two of you, in equal shares, with you named as executor.\"",
+      "later_quote": "Scene 9 / embedded story: references to Lucia as a person discussing ownership/retention of the house",
+      "reason": "fails B: executor status and co-owner status are different attributes; the later quote does not assert Lucia became executor or deny Daniel was executor."
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "timing of appraisal output",
+      "prior_quote": "Scene 9 / embedded story: \"The inspection began. It took four hours.\"",
+      "later_quote": "Scene 10 / embedded story: \"Beverly closed her clipboard and said she would have a preliminary number by Friday afternoon\"",
+      "reason": "fails B: one quote states duration of the inspection; the other states when the appraiser will deliver a preliminary number."
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "deadline for choosing appraiser vs later decision date",
+      "prior_quote": "Scene 9 / embedded story: \"I would like you to choose one by the end of business today.\"",
+      "later_quote": "Scene 10 / embedded story: \"We don't have to talk about this now... We have until next Wednesday.\"",
+      "reason": "fails B: the first quote is about selecting an appraiser; the later quote is about discussing what to do with the building after the appraisal."
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "date of next meeting",
+      "prior_quote": "Scene 8 / embedded story: \"A meeting two weeks from today\"",
+      "later_quote": "Scene 10 / embedded story: \"We will meet again Monday week\"",
+      "reason": "fails C: \"two weeks from today\" and \"Monday week\" refer to the same upcoming meeting in context, not conflicting dates."
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "form of address for Asha",
+      "prior_quote": "Scene 7 / embedded story: \"If I start spending too much time at that house, tell me.\"",
+      "later_quote": "Scene 10 / embedded story: \"Counselor,\" he said.",
+      "reason": "fails B: the prior quote is about time spent at the house, not how Asha is addressed."
+    },
+    {
+      "index": 12,
+      "decision": "reject",
+      "attribute": "Rosa's employment status",
+      "prior_quote": "Scene 6: \"I am going to ask you, Ms. Maldonado, to do me the personal favor of accepting that you are now a one-third owner of this house and not... an employee in it any longer.\"",
+      "later_quote": "Scene 10 / embedded story: \"I have been a housekeeper for thirty-one years\"",
+      "reason": "fails C: the later quote refers to Rosa's past occupation/history, not her current employment status in the house."
+    }
+  ]
+}

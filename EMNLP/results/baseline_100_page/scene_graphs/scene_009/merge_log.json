@@ -1,0 +1,418 @@
+[
+  {
+    "cluster": [
+      "ev_baseline_8_doc_7_chunk_0_part_4_ev_001",
+      "ev_baseline_8_doc_7_chunk_0_part_4_ev_002",
+      "ev_baseline_8_doc_7_chunk_0_part_4_ev_003",
+      "ev_baseline_8_doc_7_chunk_0_part_4_ev_004",
+      "ev_baseline_8_doc_7_chunk_0_part_4_ev_006",
+      "ev_baseline_8_doc_7_chunk_0_part_5_ev_001",
+      "ev_baseline_8_doc_7_chunk_0_part_7_ev_004",
+      "ev_baseline_8_doc_7_chunk_0_part_7_ev_005",
+      "ev_baseline_8_doc_7_chunk_0_part_7_ev_010",
+      "ev_baseline_8_doc_7_chunk_0_part_8_ev_008"
+    ],
+    "max_similarity": 0.7026302526350806,
+    "decision": {
+      "merges": [],
+      "unmerged": [
+        {
+          "name": "she weighs his question carefully",
+          "justification": "Distinct event describing her internal consideration of Mr. Serrano's question; no evidence it is the same as the other events."
+        },
+        {
+          "name": "she warns him to hire counsel",
+          "justification": "A separate speech act in the same scene, specifically advising legal counsel if he contests the codicil or takes an adverse position."
+        },
+        {
+          "name": "she outlines a nonlitigious path",
+          "justification": "A different speech act in which she explains the cooperative, nonlitigious option and says he may not need counsel."
+        },
+        {
+          "name": "she forces him to choose a role",
+          "justification": "A distinct summarizing event about forcing a choice between adversary and cooperation."
+        },
+        {
+          "name": "she validates his honesty",
+          "justification": "Separate event where she affirms that his uncertainty is an honest answer."
+        },
+        {
+          "name": "answers uncertainty honestly",
+          "justification": "This is Mr. Serrano's response admitting uncertainty; it is not the same event as the others."
+        },
+        {
+          "name": "skips house visit Tuesday",
+          "justification": "A separate temporal event about Asha not going to the house on Tuesday."
+        },
+        {
+          "name": "skips house visit Wednesday",
+          "justification": "A separate temporal event about Asha not going to the house on Wednesday; distinct from Tuesday."
+        },
+        {
+          "name": "Marcus specifies full access",
+          "justification": "A different event involving Marcus telling Rosa about access requirements for the appraiser."
+        },
+        {
+          "name": "Inspection lasts four hours",
+          "justification": "A separate duration event describing how long the inspection took."
+        }
+      ]
+    }
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_3_ent_003",
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_3_ent_003",
+      "ent_baseline_8_doc_7_chunk_0_part_7_ent_006",
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_7_ent_006",
+      "ent_baseline_8_doc_7_chunk_0_part_8_ent_009",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_3_ent_003",
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_002",
+      "ent_baseline_8_doc_7_chunk_0_part_1_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_5_ent_004",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_002",
+      "ent_baseline_8_doc_7_chunk_0_part_1_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_5_ent_004",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_002",
+      "ent_baseline_8_doc_7_chunk_0_part_8_ent_008",
+      "ent_baseline_8_doc_7_chunk_0_part_1_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "ent_baseline_8_doc_7_chunk_0_part_3_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "ent_baseline_8_doc_7_chunk_0_part_3_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_003",
+      "ent_baseline_8_doc_7_chunk_0_part_5_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "ent_baseline_8_doc_7_chunk_0_part_3_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_003",
+      "ent_baseline_8_doc_7_chunk_0_part_7_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "ent_baseline_8_doc_7_chunk_0_part_8_ent_004",
+      "ent_baseline_8_doc_7_chunk_0_part_3_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_003",
+      "ent_baseline_8_doc_7_chunk_0_part_7_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "serrano",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_004",
+      "ent_baseline_8_doc_7_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "serrano",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_4_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_004",
+      "ent_baseline_8_doc_7_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "serrano",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_4_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_004",
+      "ent_baseline_8_doc_7_chunk_0_part_1_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_5_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_7_ent_012",
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_8_ent_002",
+      "ent_baseline_8_doc_7_chunk_0_part_7_ent_012",
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "beverly ostrowski",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_5_ent_003",
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "beverly ostrowski",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_5_ent_003",
+      "ent_baseline_8_doc_7_chunk_0_part_8_ent_005",
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel serrano",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_3_ent_002",
+      "ent_baseline_8_doc_7_chunk_0_part_6_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "marcus",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_7_ent_007",
+      "ent_baseline_8_doc_7_chunk_0_part_8_ent_001"
+    ]
+  },
+  {
+    "type": "prefix_merge",
+    "canonical_name": "Lucia Serrano",
+    "merged_name": "Lucia",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_1_ent_005",
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_3_ent_003",
+      "ent_baseline_8_doc_7_chunk_0_part_7_ent_006",
+      "ent_baseline_8_doc_7_chunk_0_part_8_ent_009"
+    ]
+  },
+  {
+    "type": "prefix_merge",
+    "canonical_name": "Daniel Serrano",
+    "merged_name": "Daniel",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_002",
+      "ent_baseline_8_doc_7_chunk_0_part_1_ent_002",
+      "ent_baseline_8_doc_7_chunk_0_part_3_ent_002",
+      "ent_baseline_8_doc_7_chunk_0_part_5_ent_004",
+      "ent_baseline_8_doc_7_chunk_0_part_6_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_8_ent_008"
+    ]
+  },
+  {
+    "type": "prefix_merge",
+    "canonical_name": "Mr. Serrano's sister",
+    "merged_name": "Mr. Serrano",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_004",
+      "ent_baseline_8_doc_7_chunk_0_part_1_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_4_ent_001",
+      "ent_baseline_8_doc_7_chunk_0_part_4_ent_003",
+      "ent_baseline_8_doc_7_chunk_0_part_5_ent_001"
+    ]
+  },
+  {
+    "type": "prefix_merge",
+    "canonical_name": "Rosa Maldonado",
+    "merged_name": "Rosa",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_1_ent_008",
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_002",
+      "ent_baseline_8_doc_7_chunk_0_part_7_ent_012",
+      "ent_baseline_8_doc_7_chunk_0_part_8_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "upstairs study",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_016",
+      "ent_baseline_8_doc_7_chunk_0_part_1_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "dining room",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_5_ent_005",
+      "ent_baseline_8_doc_7_chunk_0_part_3_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "stoop",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_5_ent_008",
+      "ent_baseline_8_doc_7_chunk_0_part_8_ent_010"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "the next two weeks",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_3_ent_007",
+      "ent_baseline_8_doc_7_chunk_0_part_2_ent_012"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "memorandum",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_005",
+      "ent_baseline_8_doc_7_chunk_0_part_3_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "email",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_5_ent_016",
+      "ent_baseline_8_doc_7_chunk_0_part_6_ent_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "phone",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_6_ent_008",
+      "ent_baseline_8_doc_7_chunk_0_part_7_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "soup",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_7_ent_004",
+      "ent_baseline_8_doc_7_chunk_0_part_6_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "inspection",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_6_ent_015",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "inspection",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_6_ent_015",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_009",
+      "ent_baseline_8_doc_7_chunk_0_part_7_ent_016"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "inspection",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_6_ent_015",
+      "ent_baseline_8_doc_7_chunk_0_part_8_ent_012",
+      "ent_baseline_8_doc_7_chunk_0_part_0_ent_009",
+      "ent_baseline_8_doc_7_chunk_0_part_7_ent_016"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "inventory",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_1_ent_012",
+      "ent_baseline_8_doc_7_chunk_0_part_7_ent_011"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "appraiser",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_1_ent_013",
+      "ent_baseline_8_doc_7_chunk_0_part_7_ent_013"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "the estate",
+    "merged_ids": [
+      "ent_baseline_8_doc_7_chunk_0_part_3_ent_008",
+      "ent_baseline_8_doc_7_chunk_0_part_4_ent_009"
+    ]
+  }
+]

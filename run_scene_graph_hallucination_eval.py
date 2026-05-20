@@ -42,6 +42,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from stage_kg.evaluation.graph_by_graph.attribute_extractor import extract_all_scene_attributes
 from stage_kg.evaluation.graph_by_graph.graph_verifier import (
+    _verify_against_full_text,
     load_scene_graphs,
     verify_scene_graphs,
 )
@@ -111,6 +112,8 @@ def parse_args() -> argparse.Namespace:
                    help="Skip merge adjudication (faster, lower quality).")
     p.add_argument("--reuse_existing_graphs", action="store_true",
                    help="If scene_graphs/ already exist, skip rebuilding them.")
+    p.add_argument("--verify_existing_proposals", action="store_true",
+                   help="Reuse graph_method_proposals.json and rerun only the final text verifier.")
     p.add_argument("--skip_graph_method", action="store_true",
                    help="Skip the graph_verifier method.")
     p.add_argument("--skip_llm_judge", action="store_true",
@@ -260,7 +263,9 @@ def process_case(
         args.reuse_existing_graphs
         and _has_complete_scene_graphs(scene_graphs_dir, len(movie.scenes))
     )
-    if must_build and not args.skip_graph_method:
+    if args.verify_existing_proposals:
+        logger.info("Skipping graph construction; verifying existing proposals only.")
+    elif must_build and not args.skip_graph_method:
         logger.info("Building per-scene graphs for %s ...", case.story_id)
         run_pipeline_per_scene(
             movie=movie,
@@ -278,28 +283,64 @@ def process_case(
     # 3. Graph-method hallucinations
     graph_predictions: List[Dict[str, Any]] = []
     if not args.skip_graph_method:
-        scene_graphs = load_scene_graphs(scene_graphs_dir)
+        if args.verify_existing_proposals:
+            proposals_path = case_out / "graph_method_proposals.json"
+            if not proposals_path.exists():
+                logger.error(
+                    "Cannot verify existing proposals; missing %s", proposals_path
+                )
+                return []
+            with proposals_path.open("r", encoding="utf-8") as f:
+                proposals = json.load(f)
+            if not isinstance(proposals, list):
+                logger.error("Existing proposals file is not a JSON list: %s", proposals_path)
+                return []
 
-        # Per-scene durable-attribute extraction (cached on disk).
-        attributes_dir = case_out / "attributes"
-        scene_attributes = extract_all_scene_attributes(
-            scene_records=movie.scenes,
-            llm=llm,
-            cache_dir=attributes_dir,
-        )
-        logger.info(
-            "Attribute extractor produced profiles for %d scenes",
-            sum(1 for v in scene_attributes.values() if v),
-        )
+            confirmed, verification_log = _verify_against_full_text(
+                llm=llm,
+                proposals=proposals,
+                scene_texts=_scene_texts(movie),
+                debug_path=case_out / "graph_method_verification_raw.json",
+                with_trace=True,
+            )
+            graph_predictions = [
+                {"id": idx, "hallucination": prop["text"]}
+                for idx, prop in enumerate(confirmed, start=1)
+            ]
+            _save_json(
+                {
+                    "raw_proposals": len(proposals),
+                    "after_dedupe": len(proposals),
+                    "confirmed": len(confirmed),
+                    "final_detections": len(graph_predictions),
+                    "verification_only": True,
+                    "verification_log": verification_log,
+                },
+                case_out / "graph_method_audit.json",
+            )
+        else:
+            scene_graphs = load_scene_graphs(scene_graphs_dir)
 
-        graph_predictions = verify_scene_graphs(
-            scene_graphs=scene_graphs,
-            llm=llm,
-            scene_texts=_scene_texts(movie),
-            proposals_debug_path=case_out / "graph_method_proposals.json",
-            scene_attributes=scene_attributes,
-            audit_log_path=case_out / "graph_method_audit.json",
-        )
+            # Per-scene durable-attribute extraction (cached on disk).
+            attributes_dir = case_out / "attributes"
+            scene_attributes = extract_all_scene_attributes(
+                scene_records=movie.scenes,
+                llm=llm,
+                cache_dir=attributes_dir,
+            )
+            logger.info(
+                "Attribute extractor produced profiles for %d scenes",
+                sum(1 for v in scene_attributes.values() if v),
+            )
+
+            graph_predictions = verify_scene_graphs(
+                scene_graphs=scene_graphs,
+                llm=llm,
+                scene_texts=_scene_texts(movie),
+                proposals_debug_path=case_out / "graph_method_proposals.json",
+                scene_attributes=scene_attributes,
+                audit_log_path=case_out / "graph_method_audit.json",
+            )
         _save_json(graph_predictions, case_out / "graph_method_hallucinations.json")
         logger.info("Graph method: %d detections", len(graph_predictions))
 

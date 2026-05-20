@@ -1,0 +1,349 @@
+[
+  {
+    "cluster": [
+      "ev_baseline_16_doc_15_chunk_0_part_0_ev_007",
+      "ev_baseline_16_doc_15_chunk_0_part_1_ev_005",
+      "ev_baseline_16_doc_15_chunk_0_part_2_ev_005",
+      "ev_baseline_16_doc_15_chunk_0_part_2_ev_006",
+      "ev_baseline_16_doc_15_chunk_0_part_2_ev_009",
+      "ev_baseline_16_doc_15_chunk_0_part_2_ev_010",
+      "ev_baseline_16_doc_15_chunk_0_part_3_ev_001",
+      "ev_baseline_16_doc_15_chunk_0_part_3_ev_002",
+      "ev_baseline_16_doc_15_chunk_0_part_3_ev_003",
+      "ev_baseline_16_doc_15_chunk_0_part_4_ev_003"
+    ],
+    "max_similarity": 0.7084826730961928,
+    "decision": {
+      "merges": [
+        {
+          "member_indices": [
+            4,
+            6
+          ],
+          "canonical_name": "Asha reflects on the work's purpose",
+          "aliases": [
+            "reflects on the work's purpose"
+          ],
+          "justification": "Both clusters describe the same internal reflection by Asha in scene 16: she sits in the kitchen and thinks that the work was meant to preserve the house and family. The evidence samples are effectively the same event phrased with and without Asha named."
+        },
+        {
+          "member_indices": [
+            5,
+            7
+          ],
+          "canonical_name": "Asha leaves the kitchen",
+          "aliases": [
+            "finishes coffee and stands up"
+          ],
+          "justification": "Both clusters refer to the same outward action by Asha at the end of the scene: she finishes her coffee and gets up, leaving the kitchen. The descriptions and evidence align exactly."
+        },
+        {
+          "member_indices": [
+            3,
+            9
+          ],
+          "canonical_name": "They wait in the kitchen after Rosa's death",
+          "aliases": [
+            "sit with friends and wait"
+          ],
+          "justification": "These clusters describe the same waiting scene in the kitchen after Rosa's death, with Asha sitting with Lucia and Daniel/friends and waiting for the people who must come. The narrative function and setting match."
+        }
+      ],
+      "unmerged": [
+        {
+          "name": "walks to the office",
+          "justification": "This is a separate action earlier in the scene: leaving home and walking to the office. It is not the same as the later kitchen events."
+        },
+        {
+          "name": "Lucia reports useful news to Asha",
+          "justification": "This is a distinct conversational event where Lucia tells Asha news about Daniel's girlfriend. It is not identical to the waiting/reflection/exit actions."
+        },
+        {
+          "name": "Asha arrives as a friend",
+          "justification": "This is a separate arrival/role-framing event describing Asha coming over as a friend rather than as the attorney. It is distinct from the later kitchen waiting and departure actions."
+        },
+        {
+          "name": "rinses cup as taught by Rosa",
+          "justification": "This is a specific cup-rinsing action with Rosa's instruction and symbolic meaning. Although it occurs near the end of the same scene, it is a distinct event from merely finishing coffee or standing up."
+        }
+      ]
+    }
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_002",
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_004",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_002",
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_004",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_002",
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_001",
+      "ent_baseline_16_doc_15_chunk_0_part_3_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_002",
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_004",
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_001",
+      "ent_baseline_16_doc_15_chunk_0_part_4_ent_001",
+      "ent_baseline_16_doc_15_chunk_0_part_3_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_014",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_014",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_006",
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_014",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_006",
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_002",
+      "ent_baseline_16_doc_15_chunk_0_part_3_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_001",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_001",
+      "ent_baseline_16_doc_15_chunk_0_part_3_ent_003",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_003",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_003",
+      "ent_baseline_16_doc_15_chunk_0_part_3_ent_004",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_007"
+    ]
+  },
+  {
+    "type": "prefix_merge",
+    "canonical_name": "Asha's friend",
+    "merged_name": "Asha",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_001",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_002",
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_004",
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_006",
+      "ent_baseline_16_doc_15_chunk_0_part_3_ent_001",
+      "ent_baseline_16_doc_15_chunk_0_part_4_ent_001"
+    ]
+  },
+  {
+    "type": "prefix_merge",
+    "canonical_name": "Asha's family",
+    "merged_name": "Asha",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_001",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_002",
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_004",
+      "ent_baseline_16_doc_15_chunk_0_part_3_ent_001",
+      "ent_baseline_16_doc_15_chunk_0_part_4_ent_001",
+      "ent_baseline_16_doc_15_chunk_0_part_4_ent_004"
+    ]
+  },
+  {
+    "type": "prefix_merge",
+    "canonical_name": "Asha's friends",
+    "merged_name": "Asha",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_001",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_002",
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_004",
+      "ent_baseline_16_doc_15_chunk_0_part_3_ent_001",
+      "ent_baseline_16_doc_15_chunk_0_part_4_ent_001",
+      "ent_baseline_16_doc_15_chunk_0_part_4_ent_007"
+    ]
+  },
+  {
+    "type": "prefix_merge",
+    "canonical_name": "Lucia's mother",
+    "merged_name": "Lucia",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_005",
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_001",
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_005",
+      "ent_baseline_16_doc_15_chunk_0_part_3_ent_003"
+    ]
+  },
+  {
+    "type": "prefix_merge",
+    "canonical_name": "Daniel's girlfriend",
+    "merged_name": "Daniel",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_007",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_008",
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_003",
+      "ent_baseline_16_doc_15_chunk_0_part_3_ent_004"
+    ]
+  },
+  {
+    "cluster": [
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_014",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_008",
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_005",
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_006",
+      "ent_baseline_16_doc_15_chunk_0_part_4_ent_004",
+      "ent_baseline_16_doc_15_chunk_0_part_4_ent_007"
+    ],
+    "max_similarity": 0.6895850213468833,
+    "decision": {
+      "merges": [],
+      "unmerged": [
+        {
+          "name": "Rosa",
+          "justification": "Distinct person described as the woman whose letter helped Lucia and who died in the third-floor room; no evidence links Rosa to the other mentions."
+        },
+        {
+          "name": "Daniel's girlfriend",
+          "justification": "A separate woman Lucia calls after finding Rosa dead; the description identifies her by relationship to Daniel, not as Rosa, Lucia, or Asha."
+        },
+        {
+          "name": "Lucia's mother",
+          "justification": "Identified as Rosa's daughter and the person helped by Rosa's letter; this is a different character from Rosa and from the other named roles."
+        },
+        {
+          "name": "Asha's friend",
+          "justification": "Described as Rosa's attorney-turned-friend who comes over after Rosa's death; this is a distinct character role from the other mentions."
+        },
+        {
+          "name": "Asha's family",
+          "justification": "Although the evidence points to Asha, the cluster label and description are inconsistent with the attorney-turned-friend role and do not support merging with the other Asha-related clusters."
+        },
+        {
+          "name": "Asha's friends",
+          "justification": "Also points to Asha, but the cluster label is plural and does not clearly match the singular attorney-turned-friend mention; insufficient evidence to merge."
+        }
+      ]
+    }
+  },
+  {
+    "type": "exact_merge",
+    "key": "the house",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_3_ent_006",
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "the kitchen",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_009",
+      "ent_baseline_16_doc_15_chunk_0_part_3_ent_005"
+    ]
+  },
+  {
+    "cluster": [
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_011",
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_016",
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_017",
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_019",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_001",
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_010"
+    ],
+    "max_similarity": 0.6806555684435616,
+    "decision": {
+      "merges": [
+        {
+          "member_indices": [
+            1,
+            4
+          ],
+          "canonical_name": "Philadelphia Register of Wills office",
+          "aliases": [
+            "Register of Wills office",
+            "Philadelphia Register of Wills office"
+          ],
+          "justification": "Both mentions refer to the same Philadelphia office where the codicil/closed estate is filed and assigned a number; the longer form is just a more specific label for the same location."
+        }
+      ],
+      "unmerged": [
+        {
+          "name": "Asha's office",
+          "justification": "A distinct office belonging to Asha, described as the place where she opens the new file and keeps the binder; not the Register of Wills office."
+        },
+        {
+          "name": "Philadelphia",
+          "justification": "A city-level location, broader than the specific office and not identical to it."
+        },
+        {
+          "name": "shelf",
+          "justification": "A subarea/object location inside Asha's office, not the same as any other listed place."
+        },
+        {
+          "name": "Spruce Street",
+          "justification": "A separate street location outside the house; no evidence indicates it is the same as any other location here."
+        }
+      ]
+    }
+  },
+  {
+    "type": "exact_merge",
+    "key": "coffee",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_3_ent_010",
+      "ent_baseline_16_doc_15_chunk_0_part_0_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "the letter",
+    "merged_ids": [
+      "ent_baseline_16_doc_15_chunk_0_part_2_ent_013",
+      "ent_baseline_16_doc_15_chunk_0_part_1_ent_013"
+    ]
+  }
+]

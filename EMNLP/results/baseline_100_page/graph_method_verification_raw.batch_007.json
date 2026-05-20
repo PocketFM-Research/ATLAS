@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "time of estate closing",
+      "prior_quote": "In Scene 16, after the documents are signed, Rosa says, \"The estate is closed. You are no longer billing us. You can have soup.\"",
+      "later_quote": "In Scene 17, Asha thinks of \"the day they had closed the estate\" while recalling that Monday morning meeting.",
+      "reason": "fails C: these do not assert different values; Scene 16's closing occurs during that same Monday meeting and lunch follows it."
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "first time Asha stayed for a meal at the house",
+      "prior_quote": "In Scene 16, after signing, Lucia says, \"Stay for lunch,\" and Rosa says, \"The estate is closed... You can have soup.\"",
+      "later_quote": "In Scene 17, Asha recalls Rosa teaching her to rinse her cup \"the first time she had ever stayed for lunch.\"",
+      "reason": "fails C: the later quote matches the earlier event rather than contradicting it; both refer to that soup lunch."
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "status of Asha's relationship to the family before the Sunday-after-next dinner invitation",
+      "prior_quote": "In Scene 16, Rosa invites her back: \"Come for dinner some Sunday. Not next Sunday. The Sunday after.\"",
+      "later_quote": "In Scene 17, Rosa says of an earlier lunch lesson, \"you are not a guest here anymore, you are a person,\" and Asha comes to dinner as a friend.",
+      "reason": "fails B: the prior quote is about scheduling a future dinner invitation, while the later quote is about social familiarity/guest status, not the same specific attribute."
+    }
+  ]
+}

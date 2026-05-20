@@ -1,0 +1,3825 @@
+{
+  "4": [
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "By the time the courier from the register's office had come and gone with the codicil sealed into its docket"
+      ],
+      "confidence": 0.95,
+      "source_name": "courier",
+      "target_name": "codicil is filed and sealed",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_001",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_003",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "with the codicil sealed into its docket"
+      ],
+      "confidence": 0.98,
+      "source_name": "codicil",
+      "target_name": "codicil is filed and sealed",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_003",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "the long afternoon in the sitting room"
+      ],
+      "confidence": 0.96,
+      "source_name": "afternoon settles after the dispute",
+      "target_name": "sitting room",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_005",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_006",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Daniel had named his ground"
+      ],
+      "confidence": 0.98,
+      "source_name": "Daniel",
+      "target_name": "Daniel asserts his position",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_006",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "in the sitting room had thinned",
+        "Daniel had named his ground"
+      ],
+      "confidence": 0.88,
+      "source_name": "Daniel asserts his position",
+      "target_name": "sitting room",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_007",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_010",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "had let his attorney write the withdrawal in the kitchen with a borrowed pen"
+      ],
+      "confidence": 0.97,
+      "source_name": "attorney",
+      "target_name": "attorney drafts withdrawal",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_008",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_011",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "write the withdrawal in the kitchen"
+      ],
+      "confidence": 0.98,
+      "source_name": "attorney drafts withdrawal",
+      "target_name": "kitchen",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_009",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_013",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "the buyers' hold expired without anyone moving to extend it"
+      ],
+      "confidence": 0.99,
+      "source_name": "buyers' hold",
+      "target_name": "buyers' hold expires",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_011",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "in the sitting room",
+        "the buyers' hold expired"
+      ],
+      "confidence": 0.72,
+      "source_name": "buyers' hold expires",
+      "target_name": "sitting room",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_012",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_014",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Lucia walked Asha to the door"
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia",
+      "target_name": "Lucia escorts Asha to the door",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_013",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_015",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Lucia walked Asha to the door"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Lucia escorts Asha to the door",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_014",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_017",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "to the door",
+        "at the threshold"
+      ],
+      "confidence": 0.95,
+      "source_name": "Lucia escorts Asha to the door",
+      "target_name": "door threshold",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_015",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_015",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Asha stood on the stoop a moment after the door closed, aware ... of how thoroughly she had stopped being only the lawyer in that house"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha realizes her role has changed",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_016",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_017",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Asha stood on the stoop a moment after the door closed",
+        "at the threshold"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha realizes her role has changed",
+      "target_name": "door threshold",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_017",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_015",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Her phone, when she finally looked at it on the train home, held four missed calls ... and a voicemail"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha discovers missed calls and voicemail",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_018",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_021",
+      "target_type": "Vehicle",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "on the train home"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha discovers missed calls and voicemail",
+      "target_name": "train",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_019",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_024",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_009",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "a voicemail from the night nurse using the careful, level tone that meant something had already happened"
+      ],
+      "confidence": 0.98,
+      "source_name": "night nurse",
+      "target_name": "night nurse reports father's fall",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_020",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_025",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_009",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "her father had fallen getting out of bed at shift change"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha's father",
+      "target_name": "night nurse reports father's fall",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_021",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_015",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_010",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Asha pressed the voicemail to her ear ... then opened her calendar and looked at the gap"
+      ],
+      "confidence": "0.96",
+      "source_name": "Asha",
+      "target_name": "Asha replays the voicemail and checks her calendar",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_023",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_0_ev_010",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_021",
+      "target_type": "Vehicle",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "On the train home"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha replays the voicemail and checks her calendar",
+      "target_name": "train",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_024",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_006",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_010",
+      "target_type": "Character",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "had let his attorney write the withdrawal"
+      ],
+      "confidence": 0.72,
+      "source_name": "Daniel",
+      "target_name": "attorney",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_025",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_014",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_015",
+      "target_type": "Character",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Lucia walked Asha to the door",
+        "\"Stay for supper,\" she said"
+      ],
+      "confidence": 0.86,
+      "source_name": "Lucia",
+      "target_name": "Asha",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_026",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_025",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_015",
+      "target_type": "Character",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "her father's care facility",
+        "her father had fallen"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha's father",
+      "target_name": "Asha",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_027",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ent_024",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_025",
+      "target_type": "Character",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "the night nurse's careful voice"
+      ],
+      "confidence": 0.7,
+      "source_name": "night nurse",
+      "target_name": "Asha's father",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_028",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ent_026",
+      "source_type": "Concept",
+      "relation": "affiliated_with",
+      "target_id": "ent_022",
+      "target_type": "Concept",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "the discharge planner would need a decision by Friday"
+      ],
+      "confidence": 0.8,
+      "source_name": "discharge planner",
+      "target_name": "father's care facility",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_0_rel_029",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "She listened to it twice, the second time with the volume lower"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "listens to discharge planner message",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_001",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "then opened her calendar and looked at the gap between Thursday's depositions and the Friday filing, measuring it against the timetable for the regional line into Trenton"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "checks calendar against schedule",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_002",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "the screen lit with a text from Rosa—Check your messages from Trenton. Let me know if you need a ride tomorrow—and Asha read it without answering"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "receives Rosa ride offer",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_003",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "Asha read it without answering"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "withholds response to Rosa",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_004",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "She typed back, I have the schedule. I will drive myself, and sent it"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "rejects Rosa's ride offer",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_005",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "she did not turn the phone over to see whether Rosa had answered"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "avoids checking Rosa's reply",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_006",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "At home she set the phone face up on the kitchen counter and opened her laptop beside it"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "returns home and opens laptop",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_007",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_003",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "the discharge planner would need a decision by Friday"
+      ],
+      "confidence": 0.84,
+      "source_name": "discharge planner",
+      "target_name": "listens to discharge planner message",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_008",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "the screen lit with a text from Rosa—Check your messages from Trenton. Let me know if you need a ride tomorrow",
+        "Rosa: I have the morning free. Just say the word and I'll pick you up at seven"
+      ],
+      "confidence": 0.99,
+      "source_name": "Rosa",
+      "target_name": "receives Rosa ride offer",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_009",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "Asha read it without answering"
+      ],
+      "confidence": 0.88,
+      "source_name": "Rosa",
+      "target_name": "withholds response to Rosa",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_010",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "She typed back, I have the schedule. I will drive myself, and sent it"
+      ],
+      "confidence": 0.93,
+      "source_name": "Rosa",
+      "target_name": "rejects Rosa's ride offer",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_011",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "she did not turn the phone over to see whether Rosa had answered"
+      ],
+      "confidence": 0.86,
+      "source_name": "Rosa",
+      "target_name": "avoids checking Rosa's reply",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_012",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_011",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "At home she set the phone face up on the kitchen counter"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "home",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_013",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_008",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_011",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "At home she set the phone face up on the kitchen counter"
+      ],
+      "confidence": 0.96,
+      "source_name": "phone",
+      "target_name": "home",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_014",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_010",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_011",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "At home she set the phone face up on the kitchen counter and opened her laptop beside it"
+      ],
+      "confidence": 0.95,
+      "source_name": "laptop",
+      "target_name": "home",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_015",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_007",
+      "source_type": "Object",
+      "relation": "uses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_009",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "looked at the gap between Thursday's depositions and the Friday filing, measuring it against the timetable for the regional line into Trenton"
+      ],
+      "confidence": 0.82,
+      "source_name": "calendar",
+      "target_name": "train schedule",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_016",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_011",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "At home she set the phone face up on the kitchen counter and opened her laptop beside it"
+      ],
+      "confidence": 0.72,
+      "source_name": "listens to discharge planner message",
+      "target_name": "home",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_018",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_011",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "At home she set the phone face up on the kitchen counter and opened her laptop beside it"
+      ],
+      "confidence": 0.7,
+      "source_name": "checks calendar against schedule",
+      "target_name": "home",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_019",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_011",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "At home she set the phone face up on the kitchen counter and opened her laptop beside it"
+      ],
+      "confidence": 0.68,
+      "source_name": "receives Rosa ride offer",
+      "target_name": "home",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_020",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_011",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "At home she set the phone face up on the kitchen counter"
+      ],
+      "confidence": 0.68,
+      "source_name": "withholds response to Rosa",
+      "target_name": "home",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_021",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_011",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "At home she set the phone face up on the kitchen counter"
+      ],
+      "confidence": 0.68,
+      "source_name": "rejects Rosa's ride offer",
+      "target_name": "home",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_022",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_011",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "At home she set the phone face up on the kitchen counter"
+      ],
+      "confidence": 0.68,
+      "source_name": "avoids checking Rosa's reply",
+      "target_name": "home",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_023",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_1_ent_011",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "At home she set the phone face up on the kitchen counter and opened her laptop beside it"
+      ],
+      "confidence": 0.99,
+      "source_name": "returns home and opens laptop",
+      "target_name": "home",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_024",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_002",
+      "source_type": "Event",
+      "relation": "references",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_1_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "She listened to it twice, the second time with the volume lower, then opened her calendar"
+      ],
+      "confidence": 0.74,
+      "source_name": "checks calendar against schedule",
+      "target_name": "listens to discharge planner message",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_1_rel_025",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "she did not turn the phone over to see whether Rosa had answered"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "ignores Rosa's unanswered call",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_001",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "she found a Thursday evening departure",
+        "She booked the seat under her own card"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "books Thursday evening train",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_002",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "only when the confirmation email landed did she turn the phone over to silence its notifications"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "waits for confirmation before checking phone",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_003",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "Rosa's message was already there: Safe travels tomorrow. Let me check in with you later. Asha read it once"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "reads Rosa's travel message",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_004",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "Asha read it once and did not answer"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "chooses not to reply",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_005",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "she went to find a bag",
+        "the bag she had half-packed waiting open on a kitchen chair behind her"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "packs a bag while withholding response",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_006",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "Asha picked it up, thumbed out a short line—Thank you, Rosa. I appreciate the thought—and sent it"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "sends polite thank-you text",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_007",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_008",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "It buzzed almost at once, and she turned it over: Safe travels. Reach out if you need anything while you're there."
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "receives Rosa's follow-up offer",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_008",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_009",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "She read it once and left it there, not answering"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "leaves Rosa unanswered again",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_009",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_010",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "she understood that Rosa was going to keep the"
+      ],
+      "confidence": 0.84,
+      "source_name": "Asha",
+      "target_name": "recognizes Rosa will persist",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_010",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_003",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "At home she set the phone face up on the kitchen counter"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "home",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_011",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_006",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "she set the phone face up on the kitchen counter"
+      ],
+      "confidence": 0.99,
+      "source_name": "phone",
+      "target_name": "kitchen counter",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_012",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_007",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "opened her laptop beside it"
+      ],
+      "confidence": 0.95,
+      "source_name": "laptop",
+      "target_name": "kitchen counter",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_013",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_011",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "the bag she had half-packed waiting open on a kitchen chair behind her"
+      ],
+      "confidence": 0.96,
+      "source_name": "bag",
+      "target_name": "kitchen",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_014",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_012",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "the screen lit on the counter"
+      ],
+      "confidence": 0.9,
+      "source_name": "screen",
+      "target_name": "kitchen counter",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_015",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "In the kitchen, the phone was still face up on the counter"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "kitchen",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_016",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_006",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "she turned the phone over",
+        "Asha picked it up"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "phone",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_017",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_007",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "opened her laptop beside it"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "laptop",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_018",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_008",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "opened her laptop beside it, the cursor blinking through the regional rail site"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "regional rail site",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_019",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_011",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "the bag she had half-packed"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "bag",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_020",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_009",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "Thursday evening departure"
+      ],
+      "confidence": 0.99,
+      "source_name": "books Thursday evening train",
+      "target_name": "Thursday evening",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_021",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "At home she set the phone face up on the kitchen counter"
+      ],
+      "confidence": 0.93,
+      "source_name": "ignores Rosa's unanswered call",
+      "target_name": "kitchen",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_023",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "At home she set the phone face up on the kitchen counter"
+      ],
+      "confidence": 0.9,
+      "source_name": "waits for confirmation before checking phone",
+      "target_name": "kitchen",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_024",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "Rosa's message was already there",
+        "on the kitchen counter"
+      ],
+      "confidence": 0.92,
+      "source_name": "reads Rosa's travel message",
+      "target_name": "kitchen counter",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_025",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "left the screen lit on the counter"
+      ],
+      "confidence": 0.9,
+      "source_name": "chooses not to reply",
+      "target_name": "kitchen counter",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_026",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "she went to find a bag",
+        "In the kitchen"
+      ],
+      "confidence": 0.89,
+      "source_name": "packs a bag while withholding response",
+      "target_name": "kitchen",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_027",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "In the kitchen, the phone was still face up on the counter"
+      ],
+      "confidence": 0.9,
+      "source_name": "sends polite thank-you text",
+      "target_name": "kitchen",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_028",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "It buzzed almost at once, and she turned it over"
+      ],
+      "confidence": 0.88,
+      "source_name": "receives Rosa's follow-up offer",
+      "target_name": "kitchen",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_029",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_030",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "the bag she had half-packed waiting open on a kitchen chair behind her"
+      ],
+      "confidence": 0.87,
+      "source_name": "leaves Rosa unanswered again",
+      "target_name": "kitchen",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_030",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_031",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_010",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "she understood that Rosa was going to keep the"
+      ],
+      "confidence": 0.8,
+      "source_name": "recognizes Rosa will persist",
+      "target_name": "kitchen",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_031",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_032",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "Thank you, Rosa. I appreciate the thought"
+      ],
+      "confidence": 0.86,
+      "source_name": "Rosa",
+      "target_name": "sends polite thank-you text",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_032",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_033",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_2_ev_009",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "Rosa's follow-up offer",
+        "Safe travels. Reach out if you need anything while you're there."
+      ],
+      "confidence": 0.84,
+      "source_name": "Rosa",
+      "target_name": "leaves Rosa unanswered again",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_2_rel_033",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_3_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "Asha closed the laptop and went back to the bag on the kitchen chair, working through it the way she worked through an exhibit list: toiletries zipped into the inner pocket, two blouses folded flat, the printed itinerary tucked against the lining"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha packs for departure",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_001",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_3_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "She checked the Thursday departure time once more against her last deposition slot, then again"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Asha checks departure against deposition",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_002",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_3_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "Rosa: The nursing staff mentioned his fall."
+      ],
+      "confidence": 0.97,
+      "source_name": "Rosa",
+      "target_name": "Rosa informs Asha about the fall",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_003",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_3_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "Asha read it standing, one hand still on the strap of the bag, and the small efficient world she had been building around the trip widened by exactly that much—someone in Trenton already knew about the fall"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "Asha realizes others know about the fall",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_004",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_3_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "She did not answer, but she did not turn the phone over either; she left it face up beside the packed bag"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha leaves the message unanswered",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_005",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_3_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "Asha picked the phone back up before she had her shoes on ... and thumbed out the question she had been avoiding by not answering: What did the staff say about the fall."
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha drafts a question about the fall",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_006",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_3_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_018",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "the bag she had half-packed waiting open on a kitchen chair behind her"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha packs for departure",
+      "target_name": "kitchen chair",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_007",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_3_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_007",
+      "target_type": "TimePoint",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "She checked the Thursday departure time once more"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha checks departure against deposition",
+      "target_name": "Thursday",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_008",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_3_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_018",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "the bag she had half-packed waiting open on a kitchen chair behind her"
+      ],
+      "confidence": 0.72,
+      "source_name": "Asha checks departure against deposition",
+      "target_name": "kitchen chair",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_009",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_3_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "someone in Trenton already knew about the fall"
+      ],
+      "confidence": 0.88,
+      "source_name": "Rosa informs Asha about the fall",
+      "target_name": "Trenton",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_010",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_3_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "someone in Trenton already knew about the fall"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha realizes others know about the fall",
+      "target_name": "Trenton",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_011",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_3_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_018",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "she left it face up beside the packed bag"
+      ],
+      "confidence": 0.7,
+      "source_name": "Asha leaves the message unanswered",
+      "target_name": "kitchen chair",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_012",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_3_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_018",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "Asha picked the phone back up ... and thumbed out the question"
+      ],
+      "confidence": 0.68,
+      "source_name": "Asha drafts a question about the fall",
+      "target_name": "kitchen chair",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_013",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_004",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_004",
+      "target_type": "Concept",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "discharge papers"
+      ],
+      "confidence": 0.5,
+      "source_name": "discharge papers",
+      "target_name": "discharge papers",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_014",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_003",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_003",
+      "target_type": "Concept",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "The nursing staff mentioned his fall."
+      ],
+      "confidence": 0.5,
+      "source_name": "the nursing staff",
+      "target_name": "the nursing staff",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_015",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_005",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_005",
+      "target_type": "Concept",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "the fall"
+      ],
+      "confidence": 0.5,
+      "source_name": "the fall",
+      "target_name": "the fall",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_016",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_008",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_018",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "the bag she had half-packed waiting open on a kitchen chair"
+      ],
+      "confidence": 0.93,
+      "source_name": "bag",
+      "target_name": "kitchen chair",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_017",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_009",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_018",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "Asha closed the laptop and went back to the bag on the kitchen chair"
+      ],
+      "confidence": 0.95,
+      "source_name": "laptop",
+      "target_name": "kitchen chair",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_018",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_015",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_019",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "when the phone lit on the counter"
+      ],
+      "confidence": 0.97,
+      "source_name": "phone",
+      "target_name": "counter",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_019",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_016",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_018",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "went to find her shoes"
+      ],
+      "confidence": 0.74,
+      "source_name": "shoes",
+      "target_name": "kitchen chair",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_020",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_3_ent_001",
+      "target_type": "Character",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "Rosa: The nursing staff mentioned his fall. If you need help navigating the discharge papers, just reach out."
+      ],
+      "confidence": 0.62,
+      "source_name": "Rosa",
+      "target_name": "Asha",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_3_rel_021",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "thumbed out the question she had been avoiding by not answering: What did the staff say about the fall. She sent it without softening it"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "sends pointed text to Rosa",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_001",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "What did the staff say about the fall. She sent it without softening it"
+      ],
+      "confidence": 0.74,
+      "source_name": "Rosa",
+      "target_name": "sends pointed text to Rosa",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_002",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "The reply that came was not the one she had asked for—Thinking of you. Call me whenever.—",
+        "Rosa had chosen, deliberately, to answer the person before the question"
+      ],
+      "confidence": 0.96,
+      "source_name": "Rosa",
+      "target_name": "receives evasive reply from Rosa",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_003",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "The reply that came was not the one she had asked for—Thinking of you. Call me whenever.—"
+      ],
+      "confidence": 0.72,
+      "source_name": "Asha",
+      "target_name": "receives evasive reply from Rosa",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_004",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "she did not text again",
+        "the next thing she said would have to be on a phone call"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "decides against texting further",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_005",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "Asha sat on the kitchen chair beside the bag and worked her feet into her shoes one at a time, slower than the task asked for"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "puts on shoes slowly",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_006",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "listening to herself almost reach for the phone and not quite do it",
+        "Calling Rosa now would mean hearing the word fall in someone else's mouth"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "resists calling Rosa",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_007",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "She straightened, picked up the bag by its strap, and left the phone where it was"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "leaves phone behind and departs",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_008",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_003",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "left the phone where it was"
+      ],
+      "confidence": 0.9,
+      "source_name": "phone",
+      "target_name": "leaves phone behind and departs",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_009",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "She sent it without softening it, then stood at the counter watching the screen",
+        "The reply that came was not the one she had asked for"
+      ],
+      "confidence": 0.95,
+      "source_name": "sends pointed text to Rosa",
+      "target_name": "receives evasive reply from Rosa",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_010",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_002",
+      "source_type": "Event",
+      "relation": "causes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "She set the phone down face up beside the laptop and did not text again, because the next thing she said would have to be on a phone call"
+      ],
+      "confidence": 0.93,
+      "source_name": "receives evasive reply from Rosa",
+      "target_name": "decides against texting further",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_011",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_004",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "worked her feet into her shoes one at a time, slower than the task asked for",
+        "listening to herself almost reach for the phone and not quite do it"
+      ],
+      "confidence": 0.84,
+      "source_name": "puts on shoes slowly",
+      "target_name": "resists calling Rosa",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_012",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_005",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_4_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "Calling Rosa now would mean hearing the word fall in someone else's mouth",
+        "She straightened, picked up the bag by its strap, and left the phone where it was"
+      ],
+      "confidence": 0.88,
+      "source_name": "resists calling Rosa",
+      "target_name": "leaves phone behind and departs",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_013",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_004",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the strap of the bag still slung over the chair behind her",
+        "picked up the bag by its strap"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "bag",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_020",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_005",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "worked her feet into her shoes one at a time"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "shoes",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_021",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_007",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_007",
+      "target_type": "Concept",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the staff"
+      ],
+      "confidence": 0.5,
+      "source_name": "the staff",
+      "target_name": "the staff",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_025",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_008",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_4_ent_008",
+      "target_type": "Concept",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the fall"
+      ],
+      "confidence": 0.5,
+      "source_name": "the fall",
+      "target_name": "the fall",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_4_rel_026",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_5_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "she did not need to read it again to take it with her",
+        "Asha ... walked the half block to her car"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "decides to leave without rereading message",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_001",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_5_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "she crossed back to the counter, picked up the phone, and slid it into her coat pocket"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "retrieves phone and pockets it",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_002",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_5_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "At the door ... stepped out, pulling it shut behind her"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "leaves the house",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_003",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_5_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Asha walked the half block to her car with her hand closed around the phone in her coat pocket"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "walks to car holding phone",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_004",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_5_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "she stopped on the curb and looked at it then",
+        "Asha read it through twice"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "stops to read text message",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_005",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_5_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Rosa had sent only a line: the form was called an MDS-discharge addendum, and the social worker would need it signed before Friday",
+        "Asha read it through twice"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "learns form must be signed",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_006",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_005",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "she picked up the phone",
+        "with her hand closed around the phone in her coat pocket"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "phone",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_014",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_005",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_007",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "slid it into her coat pocket"
+      ],
+      "confidence": 0.97,
+      "source_name": "phone",
+      "target_name": "coat pocket",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_015",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_016",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_5_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "a text was something she could absorb without speaking",
+        "Asha read it through twice"
+      ],
+      "confidence": 0.86,
+      "source_name": "text message",
+      "target_name": "stops to read text message",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_016",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_017",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_5_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "the form was called an MDS-discharge addendum, and the social worker would need it signed before Friday"
+      ],
+      "confidence": 0.99,
+      "source_name": "MDS-discharge addendum",
+      "target_name": "learns form must be signed",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_017",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_003",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_5_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "the social worker would need it signed before Friday"
+      ],
+      "confidence": 0.95,
+      "source_name": "social worker",
+      "target_name": "learns form must be signed",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_019",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_5_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Rosa had sent only a line: the form was called an MDS-discharge addendum"
+      ],
+      "confidence": 0.82,
+      "source_name": "Rosa",
+      "target_name": "learns form must be signed",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_020",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_5_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Rosa had sent only a line"
+      ],
+      "confidence": 0.7,
+      "source_name": "Rosa",
+      "target_name": "stops to read text message",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_021",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_004",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_008",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "She straightened, picked up the bag by its strap, and left the phone where it was"
+      ],
+      "confidence": 0.66,
+      "source_name": "bag",
+      "target_name": "house",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_023",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_011",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_010",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "The kitchen on the other side of the door held the laptop and the dishes and the chair"
+      ],
+      "confidence": 0.95,
+      "source_name": "laptop",
+      "target_name": "kitchen",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_024",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_012",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_010",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "The kitchen on the other side of the door held the laptop and the dishes and the chair"
+      ],
+      "confidence": 0.95,
+      "source_name": "dishes",
+      "target_name": "kitchen",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_025",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_013",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_010",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "the chair where she had tied her shoes"
+      ],
+      "confidence": 0.94,
+      "source_name": "chair",
+      "target_name": "kitchen",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_026",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_009",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_5_ent_008",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "walked to the front door"
+      ],
+      "confidence": 0.72,
+      "source_name": "front door",
+      "target_name": "house",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_5_rel_027",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_6_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "Asha read it through twice"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "reads discharge addendum request",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_001",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_6_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "slid the phone back into her pocket without replying"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "silently accepts message",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_002",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_6_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "She unlocked the car, set the bag on the passenger seat, and sat for a moment with her hands on the wheel before she turned the key."
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "prepares to drive",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_003",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_6_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "Asha pulled away from the curb and let the car carry her out toward the bridge",
+        "drove on with both hands on the wheel"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "drives toward Trenton",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_004",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_6_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "without letting herself rehearse what she would say when she got there"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "avoids rehearsing confrontation",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_005",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_6_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "she turned it down, not off"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "turns down radio traffic report",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_006",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_6_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "The exit ramp narrowed into Trenton's surface streets, and Asha followed the signs through two intersections before the low brick face of the facility came up on her right"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "arrives at facility",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_007",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_6_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "the social worker would need it signed before Friday"
+      ],
+      "confidence": 0.72,
+      "source_name": "social worker",
+      "target_name": "reads discharge addendum request",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_008",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_006",
+      "source_type": "Vehicle",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_6_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "She unlocked the car",
+        "turned the key"
+      ],
+      "confidence": 0.84,
+      "source_name": "car",
+      "target_name": "prepares to drive",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_010",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_006",
+      "source_type": "Vehicle",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_6_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "let the car carry her out toward the bridge"
+      ],
+      "confidence": 0.96,
+      "source_name": "car",
+      "target_name": "drives toward Trenton",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_011",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_009",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_6_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "the radio cut to traffic and she turned it down"
+      ],
+      "confidence": 0.91,
+      "source_name": "radio",
+      "target_name": "turns down radio traffic report",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_012",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_007",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "drives toward Trenton",
+        "signs change over to Trenton"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "Trenton",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_013",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_006",
+      "source_type": "Vehicle",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_012",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "let the car carry her out toward the bridge",
+        "kept to the right lane through the city"
+      ],
+      "confidence": 0.78,
+      "source_name": "car",
+      "target_name": "surface streets",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_014",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_010",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "the low brick face of the facility came up on her right",
+        "She turned in"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "the facility",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_015",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_004",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_010",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "the social worker would need it signed before Friday"
+      ],
+      "confidence": 0.6,
+      "source_name": "MDS-discharge addendum",
+      "target_name": "the facility",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_017",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_008",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_007",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "out toward the bridge"
+      ],
+      "confidence": 0.52,
+      "source_name": "the bridge",
+      "target_name": "Trenton",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_019",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_011",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_6_ent_010",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "found a space near the visitor entrance"
+      ],
+      "confidence": 0.95,
+      "source_name": "visitor entrance",
+      "target_name": "the facility",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_6_rel_020",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_7_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "facility came up on her right",
+        "She turned in, found a space near the visitor entrance"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "arrive at facility",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_001",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_7_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "she did not reach for the door right away; her hands stayed at ten and two"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "pause before exiting car",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_002",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_7_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "she counted the seconds it took",
+        "the way she sometimes counted at a client's threshold to steady her breath before she went in"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "steady herself by counting",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_003",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_7_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "the form Rosa had named was in her pocket"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "remember appointment form",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_004",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_7_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "Asha opened the door and stepped out onto the pavement",
+        "walked toward the entrance"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "exit car and approach entrance",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_005",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_7_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "The automatic doors parted at her approach",
+        "she registered the small mechanical hesitation of the second panel and crossed under it anyway"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "enter through automatic doors",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_006",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_7_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "Inside, the air changed—warmer, faintly medicinal"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "enter warmer interior",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_007",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_7_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "facility came up on her right"
+      ],
+      "confidence": 0.94,
+      "source_name": "arrive at facility",
+      "target_name": "facility",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_008",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_7_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "the way she sometimes counted at a client's threshold"
+      ],
+      "confidence": 0.72,
+      "source_name": "steady herself by counting",
+      "target_name": "the lot",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_010",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_7_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "walked toward the entrance",
+        "the automatic doors parted at her approach"
+      ],
+      "confidence": 0.95,
+      "source_name": "exit car and approach entrance",
+      "target_name": "visitor entrance",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_012",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_7_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "Inside, the air changed—warmer, faintly medicinal"
+      ],
+      "confidence": 0.88,
+      "source_name": "enter warmer interior",
+      "target_name": "facility",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_014",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_7_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "the form Rosa had named"
+      ],
+      "confidence": 0.86,
+      "source_name": "Rosa",
+      "target_name": "remember appointment form",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_015",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_007",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "found a space near the visitor entrance"
+      ],
+      "confidence": 0.9,
+      "source_name": "car",
+      "target_name": "the lot",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_017",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_009",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_004",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "the automatic doors parted at her approach"
+      ],
+      "confidence": 0.84,
+      "source_name": "automatic doors",
+      "target_name": "visitor entrance",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_018",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_004",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "visitor entrance",
+        "facility"
+      ],
+      "confidence": 0.8,
+      "source_name": "visitor entrance",
+      "target_name": "facility",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_019",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_006",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "set back behind a strip of grass"
+      ],
+      "confidence": 0.77,
+      "source_name": "strip of grass",
+      "target_name": "the lot",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_020",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_7_ent_013",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_7_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_7",
+      "evidence": [
+        "the automatic doors slide open for someone in scrubs"
+      ],
+      "confidence": 0.62,
+      "source_name": "someone in scrubs",
+      "target_name": "enter through automatic doors",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_7_rel_021",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_8_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_8",
+      "evidence": [
+        "she registered the small mechanical hesitation of the second panel and crossed under it anyway",
+        "Inside"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "enter building past hesitant panel",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_8_rel_001",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_8_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_8",
+      "evidence": [
+        "Asha gave her name and her father's, and asked for the administrator who handled the MDS-discharge addendum",
+        "she would also like to see the nursing notes from the past month"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "request administrator and discharge addendum",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_8_rel_003",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_8_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_8",
+      "evidence": [
+        "said it would be a few minutes; Asha nodded and stepped back from the counter"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "wait for administrator",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_8_rel_005",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_8_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_8",
+      "evidence": [
+        "Rosa's message: ask them for the nursing notes since last month, they'll tell you more than the forms ever will"
+      ],
+      "confidence": 0.99,
+      "source_name": "Rosa",
+      "target_name": "receive Rosa's advice",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_8_rel_007",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_100_page_4_doc_3_chunk_0_part_8_ev_004",
+      "source_type": "Event",
+      "relation": "references",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_8_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_8",
+      "evidence": [
+        "ask them for the nursing notes since last month"
+      ],
+      "confidence": 0.93,
+      "source_name": "receive Rosa's advice",
+      "target_name": "request nursing notes",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_8_rel_008",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_8_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_8",
+      "evidence": [
+        "Asha added, evenly, that she would also like to see the nursing notes from the past month"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "request nursing notes",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_8_rel_009",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_8_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_8",
+      "evidence": [
+        "Asha sat in one of the upholstered chairs along the wall and kept her bag on her lap"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "sit and wait with bag in lap",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_8_rel_011",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_8_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_8",
+      "evidence": [
+        "Asha set the bag flat on her thighs, drew out the small notebook she carried for client intake, and uncapped her pen. She wrote her father's name at the top of a blank page and then a column of years down the left margin"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "begin note-taking investigation",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_8_rel_013",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_004",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_001",
+      "target_type": "Character",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_8",
+      "evidence": [
+        "Asha gave her name and her father's"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha's father",
+      "target_name": "Asha",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_8_rel_015",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_006",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_8",
+      "evidence": [
+        "Her phone buzzed once against her hip"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Phone",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_8_rel_016",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_010",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_8",
+      "evidence": [
+        "she sat in one of the upholstered chairs along the wall and kept her bag on her lap"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Bag",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_8_rel_017",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_010",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_011",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_8",
+      "evidence": [
+        "kept her bag on her lap, the strap still in her hand"
+      ],
+      "confidence": 0.84,
+      "source_name": "Bag",
+      "target_name": "Bag strap",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_8_rel_018",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_012",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_8",
+      "evidence": [
+        "drew out the small notebook she carried for client intake"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Notebook",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_8_rel_019",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_013",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_8",
+      "evidence": [
+        "uncapped her pen"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Pen",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_8_rel_020",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_8_ent_005",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_8",
+      "evidence": [
+        "asked for the administrator who handled the MDS-discharge addendum"
+      ],
+      "confidence": 0.72,
+      "source_name": "Asha",
+      "target_name": "MDS-discharge addendum",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_8_rel_021",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_9_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_9",
+      "evidence": [
+        "She wrote her father's name at the top of a blank page and then a column of years down the left margin"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "writes father's name and timeline",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_9_rel_001",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_9_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_9",
+      "evidence": [
+        "the long gap she could not honestly bracket at either end",
+        "she had to mark only with a dash"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "marks gaps in visit history",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_9_rel_002",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_9_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_9",
+      "evidence": [
+        "Rosa again, brief as always—\"Check the medication logs too, those show changes faster than notes.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "receives Rosa's medication advice",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_9_rel_003",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_9_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_9",
+      "evidence": [
+        "She added a third item under the receptionist's pending list, medication logs, 30 days"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "adds medication logs to request",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_9_rel_004",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_9_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_9",
+      "evidence": [
+        "When the receptionist looked up again, Asha was already on her feet",
+        "She crossed back to the counter"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "returns to receptionist counter",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_9_rel_005",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_9_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_9",
+      "evidence": [
+        "she wanted to add the medication logs to her request—thirty days, alongside the nursing notes and the discharge addendum"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "requests medication logs from receptionist",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_9_rel_006",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_9_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_9",
+      "evidence": [
+        "The receptionist tapped a key, repeated the three items back, and said the administrator was finishing a call."
+      ],
+      "confidence": 0.97,
+      "source_name": "receptionist",
+      "target_name": "receptionist repeats request and delays",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_9_rel_007",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_9_ev_008",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_9",
+      "evidence": [
+        "Asha said that was fine and stayed at the counter a moment longer than she needed to, the way she sometimes did with a clerk who might forget."
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "waits for receptionist to remember",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_9_rel_008",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_9_ev_009",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_9",
+      "evidence": [
+        "Her phone buzzed as she turned back toward the chair: Rosa again, telling her to watch for sudden"
+      ],
+      "confidence": 0.9,
+      "source_name": "Rosa",
+      "target_name": "receives another warning from Rosa",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_9_rel_009",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_004",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_001",
+      "target_type": "Character",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_9",
+      "evidence": [
+        "She wrote her father's name at the top of a blank page"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha's father",
+      "target_name": "Asha",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_9_rel_010",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_005",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_9",
+      "evidence": [
+        "ped her pen",
+        "She wrote her father's name"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "pen",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_9_rel_011",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_006",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_9",
+      "evidence": [
+        "She wrote her father's name at the top of a blank page"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "blank page",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_9_rel_012",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_013",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_9",
+      "evidence": [
+        "closing the notebook over her thumb"
+      ],
+      "confidence": 0.94,
+      "source_name": "Asha",
+      "target_name": "notebook",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_9_rel_013",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_014",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_9",
+      "evidence": [
+        "the bag's strap looped over her wrist"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "bag",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_9_rel_014",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_9_ent_010",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_9",
+      "evidence": [
+        "Her phone buzzed against her leg"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "phone",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_9_rel_015",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_10_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_10_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_10",
+      "evidence": [
+        "counter a moment longer than she needed to"
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha",
+      "target_name": "lingers at the counter",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_10_rel_001",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_10_ent_003",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_10_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_10",
+      "evidence": [
+        "Her phone buzzed"
+      ],
+      "confidence": 0.98,
+      "source_name": "phone",
+      "target_name": "phone buzzes with Rosa's message",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_10_rel_002",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_10_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_10_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_10",
+      "evidence": [
+        "Rosa again, telling her to watch for sudden dosage drops in the meds"
+      ],
+      "confidence": 0.99,
+      "source_name": "Rosa",
+      "target_name": "Rosa warns about dosage drops",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_10_rel_003",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_10_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_10_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_10",
+      "evidence": [
+        "Asha read it standing where she was"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha reads message standing",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_10_rel_004",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_10_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_10_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_10",
+      "evidence": [
+        "then went to sit down without writing it in the notebook yet"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha sits without noting message",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_10_rel_005",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_10_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_10_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_10",
+      "evidence": [
+        "counter a moment longer than she needed to"
+      ],
+      "confidence": 0.72,
+      "source_name": "Asha",
+      "target_name": "lingers at the counter",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_10_rel_006",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_10_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_10_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_10",
+      "evidence": [
+        "Her phone buzzed as she turned back toward the chair"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "phone buzzes with Rosa's message",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_10_rel_007",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_10_ent_005",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_100_page_4_doc_3_chunk_0_part_10_ent_006",
+      "target_type": "Concept",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_10",
+      "evidence": [
+        "watch for sudden dosage drops in the meds"
+      ],
+      "confidence": 0.61,
+      "source_name": "meds",
+      "target_name": "dosage drops",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_10_rel_008",
+      "movie_id": "100_page__scene_4"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_100_page_4_doc_3_chunk_0_part_10_ent_006",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_100_page_4_doc_3_chunk_0_part_10_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_10",
+      "evidence": [
+        "watch for sudden dosage drops in the meds, that they often signaled shifts in condition"
+      ],
+      "confidence": 0.84,
+      "source_name": "dosage drops",
+      "target_name": "Rosa warns about dosage drops",
+      "id": "rel_100_page_4_doc_3_chunk_0_part_10_rel_009",
+      "movie_id": "100_page__scene_4"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "Asha": {
+    "has_siblings": "yes",
+    "kinship": "daughter",
+    "occupation": "lawyer",
+    "uses": "landline",
+    "owns": "car",
+    "drives": "car",
+    "carries": "briefcase",
+    "wears": "coat",
+    "holds": "mother's photo"
+  },
+  "Lucia": {
+    "has_siblings": "yes",
+    "kinship": "daughter",
+    "carries": "bag",
+    "holds": "facility reports"
+  },
+  "Rosa": {
+    "role": "sister"
+  },
+  "Asha's mother": {
+    "kinship": "mother",
+    "affiliated_with": "group home",
+    "is_alive": "yes"
+  },
+  "Asha's sister": {
+    "has_siblings": "yes",
+    "kinship": "sister",
+    "affiliated_with": "group home"
+  },
+  "the firm": {
+    "owns": "overnight safe"
+  },
+  "Serrano file": {
+    "locked_state": "sealed for night"
+  },
+  "Serrano papers": {
+    "hidden_location": "inside briefcase"
+  },
+  "the briefcase": {
+    "holds": "Serrano papers"
+  },
+  "the Bryn Mawr house": {
+    "name_form": "Bryn Mawr house"
+  },
+  "Bryn Mawr": {
+    "type": "place"
+  },
+  "the group home": {
+    "type": "care facility",
+    "provides": "specialized care",
+    "staffing_levels": "dropped last month"
+  },
+  "the facility": {
+    "type": "care facility",
+    "provides": "not specialized care",
+    "staffing_levels": "dropped last month"
+  },
+  "the updated reports": {
+    "source_of_warning": "facility",
+    "date": "week before"
+  }
+}

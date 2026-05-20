@@ -1,0 +1,600 @@
+[
+  {
+    "type": "exact_merge",
+    "key": "lucia asks about updated reports",
+    "merged_ids": [
+      "ev_20_page__5_doc_4_chunk_0_part_8_ev_001",
+      "ev_20_page__5_doc_4_chunk_0_part_7_ev_008"
+    ]
+  },
+  {
+    "cluster": [
+      "ev_20_page__5_doc_4_chunk_0_part_0_ev_002",
+      "ev_20_page__5_doc_4_chunk_0_part_0_ev_004",
+      "ev_20_page__5_doc_4_chunk_0_part_2_ev_003",
+      "ev_20_page__5_doc_4_chunk_0_part_3_ev_006",
+      "ev_20_page__5_doc_4_chunk_0_part_4_ev_005",
+      "ev_20_page__5_doc_4_chunk_0_part_4_ev_008",
+      "ev_20_page__5_doc_4_chunk_0_part_5_ev_001",
+      "ev_20_page__5_doc_4_chunk_0_part_5_ev_008",
+      "ev_20_page__5_doc_4_chunk_0_part_6_ev_002",
+      "ev_20_page__5_doc_4_chunk_0_part_8_ev_005"
+    ],
+    "max_similarity": 0.8943359915383784,
+    "decision": {
+      "merges": [
+        {
+          "member_indices": [
+            5,
+            6
+          ],
+          "canonical_name": "Asha pauses at the doorway",
+          "aliases": [
+            "asha pauses at doorway"
+          ],
+          "justification": "Both clusters describe the same event in scene 5: Asha stops at the threshold, rests a hand on the doorframe, and takes a slow breath before stepping inside. The wording differs only slightly."
+        },
+        {
+          "member_indices": [
+            7,
+            8,
+            9
+          ],
+          "canonical_name": "Rosa holds back at the doorway",
+          "aliases": [
+            "rosa hesitates in doorway",
+            "rosa clears the doorway"
+          ],
+          "justification": "These clusters all refer to Rosa lingering at or drawing back from the doorway in the same scene, keeping her distance and making room for Asha. The descriptions are compatible variants of the same doorway-behavior event."
+        }
+      ],
+      "unmerged": [
+        {
+          "name": "escort Lucia and Rosa to cab",
+          "justification": "A distinct earlier action: Asha escorts Lucia and Rosa to a cab."
+        },
+        {
+          "name": "Rosa comforts Lucia in cab",
+          "justification": "A separate in-cab interaction between Rosa and Lucia, not the same as the escorting event."
+        },
+        {
+          "name": "drives to Bryn Mawr exit",
+          "justification": "Asha driving to a specific exit is a different event from the doorway interactions."
+        },
+        {
+          "name": "meets unfamiliar aide at door",
+          "justification": "This is a distinct event involving an unfamiliar night aide opening the door, not the same as Asha's or Rosa's doorway hesitation."
+        }
+      ]
+    }
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_8_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_8_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_9_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_8_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_9_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_10_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_8_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_9_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_8_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_9_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_8_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_10_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_8_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha s sister",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "their mother",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_10_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha s mother",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_004",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha s mother",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_004",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha s mother",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_004",
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha s mother",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_004",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_002"
+    ]
+  },
+  {
+    "type": "prefix_merge",
+    "canonical_name": "Asha's sister",
+    "merged_name": "Asha",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_004",
+      "ent_20_page__5_doc_4_chunk_0_part_10_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_8_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_9_ent_002"
+    ]
+  },
+  {
+    "type": "prefix_merge",
+    "canonical_name": "Asha's mother",
+    "merged_name": "Asha",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_10_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_004",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_002",
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_8_ent_001",
+      "ent_20_page__5_doc_4_chunk_0_part_9_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "the group home",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_009",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "the garage",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_005",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_011"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "bryn mawr",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_003",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "porch",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_008",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "hallway",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_012",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "wainscoting",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_008",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_016"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "tonight",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_012",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_018"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "cardigan",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_007",
+      "ent_20_page__5_doc_4_chunk_0_part_0_ent_016"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "briefcase",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_020",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "briefcase",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_020",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_004",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "briefcase",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_004",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_020",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_004",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "briefcase",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_004",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_004",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_020",
+      "ent_20_page__5_doc_4_chunk_0_part_3_ent_005",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "coat",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_008",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "coat",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_008",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_005",
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "coat",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_008",
+      "ent_20_page__5_doc_4_chunk_0_part_4_ent_005",
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_004",
+      "ent_20_page__5_doc_4_chunk_0_part_8_ent_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "glovebox",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_006",
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_010"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "registration",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_011",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "folded map",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_012",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_008"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "chair",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_008",
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "chair",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_008",
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_006",
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_008"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lamp",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_012",
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lamp",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_8_ent_010",
+      "ent_20_page__5_doc_4_chunk_0_part_5_ent_012",
+      "ent_20_page__5_doc_4_chunk_0_part_6_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "water glass",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_005",
+      "ent_20_page__5_doc_4_chunk_0_part_8_ent_008"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "bedside table",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_007",
+      "ent_20_page__5_doc_4_chunk_0_part_8_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "car",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_1_ent_009",
+      "ent_20_page__5_doc_4_chunk_0_part_2_ent_012"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "facility",
+    "merged_ids": [
+      "ent_20_page__5_doc_4_chunk_0_part_9_ent_010",
+      "ent_20_page__5_doc_4_chunk_0_part_7_ent_011"
+    ]
+  }
+]

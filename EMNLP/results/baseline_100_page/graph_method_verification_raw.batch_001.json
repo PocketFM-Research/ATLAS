@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "date Rosa's employment ended / notice timing",
+      "prior_quote": "Rosa said, \"Mr. Serrano informed me last Friday that my services would not be required after the funeral.\"",
+      "later_quote": "Lucia said, \"You gave her notice the day after the funeral.\"",
+      "reason": "fails C: these are not clearly different values, because if the funeral was earlier in the week, 'last Friday' could be 'the day after the funeral.'"
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "house architecture",
+      "prior_quote": "Asha could see \"the bay window on the second floor.\"",
+      "later_quote": "The house was \"a center-hall Italianate with ... three stories above.\"",
+      "reason": "fails C: a house can have a second-floor bay window and also have three stories above; no contradiction."
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "desk drawer configuration",
+      "prior_quote": "Rosa said the folder was in \"the bottom drawer\" and then clarified, \"Yes. On the right.\"",
+      "later_quote": "The desk was \"a roll top and three drawers down each side.\"",
+      "reason": "fails C: these are consistent, since a desk with three drawers on each side has bottom drawers, including one on the right."
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "location/access point of the paper in the desk",
+      "prior_quote": "Rosa said, \"The señora put the paper in a folder and the folder in the bottom drawer of her desk in the sewing room.\"",
+      "later_quote": "Asha \"did not open the desk\" then later opened the roll top before opening \"the bottom right drawer.\"",
+      "reason": "fails B: the prior quote is about where the folder was stored, while the later quote is about the sequence in which Asha opened parts of the desk."
+    },
+    {
+      "index": 5,
+      "decision": "reject",
+      "attribute": "portfolio contents/state",
+      "prior_quote": "Asha \"had brought the file in a leather portfolio.\"",
+      "later_quote": "\"Asha closed the portfolio without putting anything into it.\"",
+      "reason": "fails C: closing the portfolio without adding anything does not contradict having brought the file in it."
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "Daniel's schedule/presence",
+      "prior_quote": "Rosa said, \"He has been here since seven. Walking the rooms. Counting.\"",
+      "later_quote": "Daniel said, \"I have a call at noon... I'll see you tomorrow,\" and left.",
+      "reason": "fails B: being present since seven and leaving at noon are different time points, not conflicting values of the same attribute."
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "Rosa's employer/role",
+      "prior_quote": "Rosa was introduced as \"the housekeeper\" and said, \"How long did you work for Mrs. Serrano?\" / \"Thirty-one years in June.\"",
+      "later_quote": "Rosa said, \"Mr. Serrano informed me last Friday that my services would not be required after the funeral.\"",
+      "reason": "fails C: Daniel treating Rosa as someone whose services he can terminate after Estela's death does not contradict that Rosa worked for Estela."
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "Rosa's knowledge of the codicil",
+      "prior_quote": "Rosa said, \"I did not read it carefully... The señora told me it was a change to her will.\"",
+      "later_quote": "Later scenes identify Rosa as a witness and Asha says, \"Rosa has seen it.\"",
+      "reason": "fails C: witnessing the later will change and having seen the codicil are consistent; Rosa never claimed she had not seen it, only that she had not read it carefully."
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "Asha's profession/title",
+      "prior_quote": "Asha is described as having been \"an attorney.\"",
+      "later_quote": "Daniel says, \"Counselor.\"",
+      "reason": "fails C: 'attorney' and 'counselor/counsel' are compatible titles, not different values."
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "status/form of buyer offer",
+      "prior_quote": "Daniel said, \"The buyer's agent has been in touch again. They're prepared to come up to seven-twenty.\"",
+      "later_quote": "Daniel later says, \"I have an offer in writing as of yesterday afternoon.\"",
+      "reason": "fails C: an oral/preliminary increased offer can later become a written offer; no contradiction."
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "Daniel's age",
+      "prior_quote": "Daniel was \"a tall man in his early forties.\"",
+      "later_quote": "He sat at the head of the table because he had been sitting there \"since he was nine years old.\"",
+      "reason": "fails B: the prior quote gives Daniel's current age, while the later quote refers to his age in childhood."
+    },
+    {
+      "index": 12,
+      "decision": "confirm",
+      "attribute": "deceased mother's given name",
+      "prior_quote": "Scene 1 identifies the deceased as \"Estela Serrano\" and repeatedly refers to \"Mrs. Serrano\" / \"the señora\" as that mother.",
+      "later_quote": "The letter is signed, \"— Esperanza Serrano Maldonado, February 14, 2024.\"",
+      "reason": "all four conditions hold: both refer to the same deceased mother, both give her name, the values 'Estela' and 'Esperanza' differ, and no scene explains the change."
+    }
+  ]
+}

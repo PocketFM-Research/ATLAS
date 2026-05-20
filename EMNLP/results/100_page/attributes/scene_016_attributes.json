@@ -1,0 +1,59 @@
+{
+  "Asha": {
+    "role": "non-spouse contact",
+    "uses": "phone",
+    "carries": "bag",
+    "drives": "car",
+    "holds": "signed authorization form",
+    "hidden_location": "fax number on wrist",
+    "duration": "hour to hospital"
+  },
+  "Claire": {
+    "kinship": "mother",
+    "marital_status": "non-spouse to patient",
+    "has_children": "yes",
+    "has_siblings": "no",
+    "holds": "signed authorization form",
+    "signs": "authorization form"
+  },
+  "Rosa": {
+    "affiliated_with": "hospital coordination",
+    "uses": "phone",
+    "source_of_warning": "fax number recitation"
+  },
+  "boy": {
+    "identity_type": "child",
+    "kinship": "Claire's older son",
+    "has_siblings": "yes",
+    "wears": "mismatched pajama pants"
+  },
+  "brother": {
+    "identity_type": "child",
+    "kinship": "boy's brother",
+    "has_siblings": "yes",
+    "uses": "blue cup"
+  },
+  "hospital": {
+    "duration": "forty-minute drive"
+  },
+  "unit": {
+    "affiliated_with": "hospital",
+    "locked_state": "non-spouse requires paperwork"
+  },
+  "authorization form": {
+    "type": "paperwork",
+    "intact_state": "signed by Claire",
+    "origin_of_object": "kitchen signature"
+  },
+  "blue cup": {
+    "color": "blue"
+  },
+  "car": {
+    "type": "Asha's car"
+  },
+  "fax number": {
+    "hidden_location": "inside Asha's wrist",
+    "condition": "written in ballpoint",
+    "source_of_warning": "Rosa recited digits"
+  }
+}

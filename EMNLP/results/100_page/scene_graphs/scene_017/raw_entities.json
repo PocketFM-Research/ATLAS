@@ -1,0 +1,3974 @@
+{
+  "17": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman driving to the hospital and reacting to Whitfield's voicemail.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "her phone",
+        "she thumbed it open",
+        "she did not play it",
+        "By the time she pulled into the hospital lot",
+        "Asha left the engine off"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_007",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_008",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_001",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Whitfield"
+      ],
+      "canonical_name": "Whitfield",
+      "description": "The person whose voicemail asks Asha to come to his office and discuss the Hatcher record and filing discrepancy.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "the name above it was Whitfield's",
+        "Whitfield's voice",
+        "come by his office Tuesday morning",
+        "Whitfield's voicemail"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_002",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Location",
+      "surface_forms": [
+        "hospital",
+        "hospital lot"
+      ],
+      "canonical_name": "hospital",
+      "description": "The destination Asha is driving toward and where she parks before opening her briefcase.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "The hour to the hospital",
+        "By the time she pulled into the hospital lot",
+        "In the hospital lot"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_008",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_003",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Location",
+      "surface_forms": [
+        "turnpike exit"
+      ],
+      "canonical_name": "turnpike exit",
+      "description": "A roadway exit passed during Asha's drive to the hospital.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "Somewhere past the turnpike exit"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_004",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Friday afternoon"
+      ],
+      "canonical_name": "Friday afternoon",
+      "description": "The timestamp shown on Whitfield's voicemail.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "the timestamp was from Friday afternoon"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_002"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_005",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "TimePoint",
+      "surface_forms": [
+        "next red light"
+      ],
+      "canonical_name": "next red light",
+      "description": "The traffic stop where Asha opens the voicemail but does not play it.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "when she thumbed it open at the next red light"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_006",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "phone"
+      ],
+      "canonical_name": "phone",
+      "description": "Asha's phone, which displays Whitfield's voicemail icon and message.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "her phone",
+        "lit with a voicemail icon",
+        "she thumbed it open",
+        "She set the phone back down"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_007",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "voicemail",
+        "voicemail icon"
+      ],
+      "canonical_name": "voicemail",
+      "description": "Whitfield's voicemail message that Asha opens and later listens to twice.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "voicemail icon",
+        "the voicemail sat there",
+        "she had played it twice through the car speakers",
+        "Whitfield's voicemail"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_008",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "fax number"
+      ],
+      "canonical_name": "fax number",
+      "description": "A number on Asha's wrist mentioned alongside the voicemail as part of the sense of an unwanted appointment.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "beside the fax number on her wrist"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_009",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Concept",
+      "surface_forms": [
+        "partners' meeting"
+      ],
+      "canonical_name": "partners' meeting",
+      "description": "The meeting Whitfield wants Asha to attend before discussing the case issues.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "before the partners' meeting"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_010",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "Hatcher record"
+      ],
+      "canonical_name": "Hatcher record",
+      "description": "The case record Whitfield wants to discuss with Asha.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "to talk about the Hatcher record"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_011",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "opposing counsel"
+      ],
+      "canonical_name": "opposing counsel",
+      "description": "The legal opposition referenced as having flagged a discrepancy in the filing.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "opposing counsel had flagged"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_012",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "footnote"
+      ],
+      "canonical_name": "footnote",
+      "description": "The part of the filing where the discrepancy was flagged.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "a discrepancy opposing counsel had flagged in a footnote"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_013",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "corrected filing"
+      ],
+      "canonical_name": "corrected filing",
+      "description": "The filing Asha brought in Monday that Whitfield questions about timing.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "the corrected filing she had walked in with Monday"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_014",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Monday"
+      ],
+      "canonical_name": "Monday",
+      "description": "The day Asha brought in the corrected filing and the day referenced by the voicemail.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "Monday",
+        "the middle of the morning"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_007",
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_008"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_015",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Object",
+      "surface_forms": [
+        "cross"
+      ],
+      "canonical_name": "cross",
+      "description": "The cross-examination Asha conducted on the caseworker.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "the cross she had run on the caseworker"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_016",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Character",
+      "surface_forms": [
+        "caseworker"
+      ],
+      "canonical_name": "caseworker",
+      "description": "The person Asha cross-examined, referenced in Whitfield's voicemail.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "the caseworker"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_017",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Concept",
+      "surface_forms": [
+        "wall",
+        "seam"
+      ],
+      "canonical_name": "wall",
+      "description": "A metaphorical boundary Asha believes she lowered once and that is now about to be examined.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "the wall she had told herself she only lowered once was about to be examined for the seam"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_008"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_018",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Object",
+      "surface_forms": [
+        "form"
+      ],
+      "canonical_name": "form",
+      "description": "A paper form sitting on the seat beside Asha and later on the passenger seat as she opens her briefcase.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "the form on the seat beside her",
+        "the form on the passenger seat"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_019",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_020",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase"
+      ],
+      "canonical_name": "briefcase",
+      "description": "Asha's briefcase that she pulls onto her knees and opens in the hospital lot.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_0",
+      "evidence": [
+        "pulled the briefcase up onto her knees",
+        "She opened it"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_0_ent_020",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman in the hospital lot who reviews the filing, notices the timestamp match, and leaves with the evidence.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_1",
+      "evidence": [
+        "In the hospital lot, Asha left the engine off",
+        "She slid the phone out of the cup holder and into her coat pocket"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_1_ent_001",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Devin",
+        "Devin's"
+      ],
+      "canonical_name": "Devin",
+      "description": "The person whose corrected filing Asha compares against her notes.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_1",
+      "evidence": [
+        "laid Devin's corrected filing flat against the lid",
+        "Devin's number still untouched two screens down"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_1_ent_002",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Whitfield",
+        "Whitfield's"
+      ],
+      "canonical_name": "Whitfield",
+      "description": "The named sender of the voicemail still queued on Asha's phone.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_1",
+      "evidence": [
+        "the voicemail she had already played twice still sitting open on the phone in the cup holder",
+        "the voicemail still queued under Whitfield's name"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_1_ent_003",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Location",
+      "surface_forms": [
+        "hospital lot"
+      ],
+      "canonical_name": "hospital lot",
+      "description": "The parking area where Asha sits in her car while reviewing the documents.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_1",
+      "evidence": [
+        "In the hospital lot, Asha left the engine off",
+        "the parking lot quiet around the car"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_1_ent_004",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "engine",
+        "the engine"
+      ],
+      "canonical_name": "engine",
+      "description": "The car engine Asha leaves off at first and then starts before reversing out.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_1",
+      "evidence": [
+        "Asha left the engine off",
+        "She turned the key, and the engine came up under her hands"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_1_ent_005",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase",
+        "the briefcase",
+        "case"
+      ],
+      "canonical_name": "briefcase",
+      "description": "The container holding the corrected filing and notes that Asha closes and sets aside.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_1",
+      "evidence": [
+        "pulled the briefcase up onto her knees",
+        "Asha closed the briefcase over both pages without looking down at them again",
+        "She lifted the case off her lap onto the passenger seat"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_1_ent_006",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "Devin's corrected filing",
+        "corrected filing",
+        "corrected document"
+      ],
+      "canonical_name": "Devin's corrected filing",
+      "description": "The corrected legal filing Asha compares against her notes and then closes away in the briefcase.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_1",
+      "evidence": [
+        "laid Devin's corrected filing flat against the lid",
+        "She read the header on the corrected document twice"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_1_ent_007",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "legal pad with Monday trial notes",
+        "legal pad",
+        "the legal pad",
+        "Monday trial notes"
+      ],
+      "canonical_name": "legal pad with Monday trial notes",
+      "description": "Asha's legal pad containing her Monday trial notes and the time she called the caseworker.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_1",
+      "evidence": [
+        "dug under it for the legal pad with her Monday trial notes",
+        "matched both against the margin where she had written the time she'd called the caseworker to the stand"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_1_ent_008",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "form",
+        "the form",
+        "folded form"
+      ],
+      "canonical_name": "form",
+      "description": "A paper form left on the passenger seat beside the briefcase.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_1",
+      "evidence": [
+        "Asha left the engine off and the form on the passenger seat",
+        "beside the folded form"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_1_ent_009",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "phone",
+        "the phone"
+      ],
+      "canonical_name": "phone",
+      "description": "Asha's phone, which holds the voicemail and is put away without being checked.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_1",
+      "evidence": [
+        "the voicemail she had already played twice still sitting open on the phone in the cup holder",
+        "She slid the phone out of the cup holder and into her coat pocket"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_1_ent_010",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "voicemail",
+        "the voicemail"
+      ],
+      "canonical_name": "voicemail",
+      "description": "The voicemail Asha has already played twice and leaves untouched while putting her phone away.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_1",
+      "evidence": [
+        "the voicemail she had already played twice still sitting open on the phone in the cup holder",
+        "the voicemail still queued under Whitfield's name"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_1_ent_011",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "cup holder",
+        "the cup holder"
+      ],
+      "canonical_name": "cup holder",
+      "description": "The car's cup holder where Asha's phone sits during the scene.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_1",
+      "evidence": [
+        "still sitting open on the phone in the cup holder",
+        "She slid the phone out of the cup holder"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_1_ent_012",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "car key",
+        "key",
+        "the key"
+      ],
+      "canonical_name": "car key",
+      "description": "The key Asha turns to start the car.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_1",
+      "evidence": [
+        "She turned the key, and the engine came up under her hands"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_1_ent_013",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman driving, calling the courthouse clerk, and realizing the timing discrepancy.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "She turned the key, and the engine came up under her hands",
+        "Halfway down the access road, Asha pulled into the shoulder",
+        "Asha wrote it along the top margin of an envelope"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_007",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_001",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Devin"
+      ],
+      "canonical_name": "Devin",
+      "description": "The person Asha considers calling but deliberately avoids contacting.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "calling Devin tonight would mean was asking him to agree with her about it",
+        "Devin's number two screens away",
+        "without dialing"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_007",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_002",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "courthouse clerk",
+        "the clerk"
+      ],
+      "canonical_name": "courthouse clerk",
+      "description": "The clerk who reads back the electronic intake stamp for Asha over the phone.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "she dialed the courthouse clerk's direct line from memory",
+        "The clerk read the number back",
+        "She thanked the clerk, ended the call"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_003",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "caseworker",
+        "the caseworker"
+      ],
+      "canonical_name": "caseworker",
+      "description": "The person Asha mentally compares the filing timestamp against when she stood up to call.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "against the minute she had stood up to call the caseworker"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_004",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Whitfield"
+      ],
+      "canonical_name": "Whitfield",
+      "description": "A person whose voicemail is mentioned as another pending call on Asha's phone.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "Whitfield's voicemail no longer the worst thing queued on the device"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_005",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "access road"
+      ],
+      "canonical_name": "access road",
+      "description": "The road Asha drives down before pulling over on the shoulder.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "Halfway down the access road",
+        "pulled into the shoulder"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_006",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "shoulder"
+      ],
+      "canonical_name": "shoulder",
+      "description": "The roadside shoulder where Asha parks to make the call.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "Asha pulled into the shoulder"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_007",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "courthouse"
+      ],
+      "canonical_name": "courthouse",
+      "description": "The courthouse associated with the clerk Asha calls.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "the courthouse clerk's direct line"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_008",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "legal pad"
+      ],
+      "canonical_name": "legal pad",
+      "description": "The pad whose margin contains numbers Asha avoids looking at again.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "the numbers in the margin of the legal pad"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_001"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_009",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "numbers in the margin",
+        "numbers",
+        "the numbers in the margin"
+      ],
+      "canonical_name": "numbers in the margin",
+      "description": "The written numbers on the legal pad that Asha refuses to look at again.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "she did not let herself look at the numbers in the margin of the legal pad one more time",
+        "she had already seen what they said"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_010",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "docket number"
+      ],
+      "canonical_name": "docket number",
+      "description": "The case identifier Asha gives to the courthouse clerk.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "gave the docket number twice"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_011",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "electronic intake stamp"
+      ],
+      "canonical_name": "electronic intake stamp",
+      "description": "The filing timestamp Asha requests from the courthouse clerk.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "asked for the electronic intake stamp on the Hatcher corrected filing down to the second"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_012",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "Hatcher corrected filing"
+      ],
+      "canonical_name": "Hatcher corrected filing",
+      "description": "The corrected filing whose intake stamp Asha is verifying.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "the electronic intake stamp on the Hatcher corrected filing"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_013",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "envelope"
+      ],
+      "canonical_name": "envelope",
+      "description": "The envelope Asha uses to write down the clerk's timestamp.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "Asha wrote it along the top margin of an envelope she pulled from the door pocket"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_014",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase"
+      ],
+      "canonical_name": "briefcase",
+      "description": "The briefcase Asha avoids reopening while taking notes.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "she did not want to open the briefcase again on the seat beside her"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_015",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Object",
+      "surface_forms": [
+        "phone",
+        "the phone"
+      ],
+      "canonical_name": "phone",
+      "description": "Asha's phone used to call the clerk and then put away without dialing Devin.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "she dialed the courthouse clerk's direct line",
+        "sat with her hand still on the phone",
+        "Asha slid the phone back into her coat pocket without dialing"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_007",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_016",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Object",
+      "surface_forms": [
+        "ballpoint number"
+      ],
+      "canonical_name": "ballpoint number",
+      "description": "The number Asha wrote on the envelope and keeps looking at.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "her eyes still on the ballpoint number she had written along the top margin of the envelope"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_017",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Vehicle",
+      "surface_forms": [
+        "car"
+      ],
+      "canonical_name": "car",
+      "description": "The vehicle Asha starts, reverses, and parks on the shoulder.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_2",
+      "evidence": [
+        "She turned the key, and the engine came up under her hands",
+        "before she put the car in reverse",
+        "Asha pulled into the shoulder under a thinned row of sycamores and put the car in park"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_2_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_2_ent_018",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman driving, handling the phone, and deciding whether to call Devin while thinking about Whitfield.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "Asha slid the phone back into her coat pocket without dialing",
+        "she had already decided not to be sure of",
+        "Asha pulled the phone back out of her coat pocket"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_001",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Devin"
+      ],
+      "canonical_name": "Devin",
+      "description": "The person Asha considers calling but ultimately avoids contacting.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "Calling Devin now would be asking him to say back to her",
+        "she had stopped rehearsing what she would say to Devin"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_002",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Whitfield"
+      ],
+      "canonical_name": "Whitfield",
+      "description": "The person whose voicemail Asha listens to and whose office she is preparing to confront.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "the voicemail under Whitfield's name still queued",
+        "rehearsing what she would say in Whitfield's office without him",
+        "Whitfield's voice came through the speaker"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_003",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Location",
+      "surface_forms": [
+        "counsel table"
+      ],
+      "canonical_name": "counsel table",
+      "description": "The courtroom table Asha recalls from Monday while rereading the written number.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "when she had stood up at counsel table on Monday"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_002"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_004",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Monday"
+      ],
+      "canonical_name": "Monday",
+      "description": "The earlier day Asha associates with writing the number at counsel table.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "on Monday"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_002"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_005",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "phone"
+      ],
+      "canonical_name": "phone",
+      "description": "The device Asha pockets, retrieves, and uses to access Whitfield's voicemail.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "Asha slid the phone back into her coat pocket",
+        "Asha pulled the phone back out of her coat pocket"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_006",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "ballpoint number",
+        "number"
+      ],
+      "canonical_name": "ballpoint number",
+      "description": "The handwritten number Asha rereads on the envelope and hides inside it.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "the ballpoint number she had written along the top margin of the envelope",
+        "she read it once more",
+        "so the number was on the inside"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_007",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "envelope"
+      ],
+      "canonical_name": "envelope",
+      "description": "The envelope Asha folds and tucks into the car door pocket.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "she had written along the top margin of the envelope",
+        "folded the envelope in half",
+        "tucked it into the door pocket"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_008",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "ice scraper"
+      ],
+      "canonical_name": "ice scraper",
+      "description": "The item behind which Asha hides the folded envelope in the car door pocket.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "tucked it into the door pocket behind the ice scraper"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_009",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Vehicle",
+      "surface_forms": [
+        "car"
+      ],
+      "canonical_name": "car",
+      "description": "The vehicle Asha drives home in while avoiding the call and listening to voicemail.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "she put the car in gear",
+        "took the turn toward home",
+        "holding it low against the steering wheel"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_010",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase"
+      ],
+      "canonical_name": "briefcase",
+      "description": "The briefcase resting quietly on the passenger seat during Asha's drive.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "the briefcase quiet on the passenger seat"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_011",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "voicemail"
+      ],
+      "canonical_name": "voicemail",
+      "description": "Whitfield's voicemail that Asha keeps queued and then opens to listen to again.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "the voicemail under Whitfield's name still queued",
+        "thumbed the voicemail open",
+        "Whitfield's voice came through the speaker"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_012",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Location",
+      "surface_forms": [
+        "access road"
+      ],
+      "canonical_name": "access road",
+      "description": "The road Asha drives along before turning toward home.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "The access road ran out under the sycamores"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_013",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Location",
+      "surface_forms": [
+        "sycamores"
+      ],
+      "canonical_name": "sycamores",
+      "description": "The trees lining the access road as Asha drives home.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "ran out under the sycamores"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_014",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Location",
+      "surface_forms": [
+        "home"
+      ],
+      "canonical_name": "home",
+      "description": "The destination Asha drives toward instead of making the call.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "she took the turn toward home"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_015",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Location",
+      "surface_forms": [
+        "boulevard",
+        "sodium lights"
+      ],
+      "canonical_name": "boulevard",
+      "description": "The boulevard where sodium lights pass the windshield as Asha drives.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "the sodium lights along the boulevard started passing the windshield"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_016",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Location",
+      "surface_forms": [
+        "Whitfield's office"
+      ],
+      "canonical_name": "Whitfield's office",
+      "description": "The office where Asha mentally prepares to confront Whitfield.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "what she would say in Whitfield's office without him"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_017",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "TimePoint",
+      "surface_forms": [
+        "red light"
+      ],
+      "canonical_name": "red light",
+      "description": "The traffic light at which Asha stops and opens Whitfield's voicemail.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "At the next red light"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_018",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "TimePoint",
+      "surface_forms": [
+        "before seven"
+      ],
+      "canonical_name": "before seven",
+      "description": "The deadline Whitfield gives in his voicemail for Asha to stop by.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "the request that she stop by before seven"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_019",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_020",
+      "type": "Object",
+      "surface_forms": [
+        "docket number"
+      ],
+      "canonical_name": "docket number",
+      "description": "The case number Whitfield states in the voicemail.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_3",
+      "evidence": [
+        "the docket number given without hesitation"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_3_ent_020",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who listens to Eld's voicemail, drives home, and organizes legal materials in her study.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "she listened past the words this time",
+        "she could not tell",
+        "She set the phone face down",
+        "Asha let herself in",
+        "She carried the briefcase straight back to the study",
+        "She unlatched the case and laid out what she needed"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_001",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Eld",
+        "eld"
+      ],
+      "canonical_name": "Eld",
+      "description": "The person whose voicemail Asha listens to and whose intent she tries to read from his voice.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "eld's voice came through the speaker",
+        "the request that she stop by before seven"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_001"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_002",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Devin"
+      ],
+      "canonical_name": "Devin",
+      "description": "The person associated with the corrected filing that Asha lays out among her case materials.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "the printout of Devin's corrected filing"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_003",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "caseworker"
+      ],
+      "canonical_name": "caseworker",
+      "description": "The caseworker referenced in Asha's shorthand notes among her legal materials.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "her own legal pad from Monday with the cross of the caseworker running down two pages"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_004",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "the house"
+      ],
+      "canonical_name": "the house",
+      "description": "Asha's home, which she enters in the dark.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "The house was dark when Asha let herself in"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_005",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "the study"
+      ],
+      "canonical_name": "the study",
+      "description": "The room where Asha takes her briefcase and lays out her documents.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "she carried the briefcase straight back to the study",
+        "set it on the desk under the green-shaded lamp"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_006",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "the boulevard"
+      ],
+      "canonical_name": "the boulevard",
+      "description": "The road Asha drives along after listening to Eld's voicemail.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "she could not tell which reading she had brought into the car with her",
+        "she drove the rest of the boulevard without reaching for it again"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_002"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_007",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "speaker"
+      ],
+      "canonical_name": "speaker",
+      "description": "The device through which Eld's voicemail is heard.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "eld's voice came through the speaker"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_001"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_008",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "phone"
+      ],
+      "canonical_name": "phone",
+      "description": "Asha's phone, which she sets face down and does not check again while driving.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "She set the phone face down on the passenger seat",
+        "without reaching for it again"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_002"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_009",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase"
+      ],
+      "canonical_name": "briefcase",
+      "description": "Asha's briefcase containing the documents and notes she brings into the study.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "the briefcase",
+        "She carried the briefcase straight back to the study",
+        "She unlatched the case and laid out what she needed"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_010",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "green-shaded lamp"
+      ],
+      "canonical_name": "green-shaded lamp",
+      "description": "The lamp in Asha's study used for late reading.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "the green-shaded lamp she kept there for late reading"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_011",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "Devin's corrected filing",
+        "printout"
+      ],
+      "canonical_name": "Devin's corrected filing",
+      "description": "The corrected filing printout that Asha places among her case materials.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "the printout of Devin's corrected filing with its electronic stamp along the header"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_012",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "electronic stamp"
+      ],
+      "canonical_name": "electronic stamp",
+      "description": "The stamp visible along the header of Devin's corrected filing.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "with its electronic stamp along the header"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_013",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "court's intake confirmation"
+      ],
+      "canonical_name": "court's intake confirmation",
+      "description": "The court confirmation document Asha pulled from the docket that afternoon.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "a copy of the court's intake confirmation she had pulled off the docket that afternoon"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_014",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Object",
+      "surface_forms": [
+        "legal pad"
+      ],
+      "canonical_name": "legal pad",
+      "description": "Asha's legal pad from Monday containing shorthand notes about the caseworker.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "her own legal pad from Monday"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_015",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Object",
+      "surface_forms": [
+        "envelope from the door pocket",
+        "envelope",
+        "the envelope from the door pocket"
+      ],
+      "canonical_name": "envelope from the door pocket",
+      "description": "An envelope Asha sets beside her materials and opens to inspect the clerk's ballpoint number.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "She set the envelope from the door pocket beside them and unfolded it"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_016",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Object",
+      "surface_forms": [
+        "ballpoint number"
+      ],
+      "canonical_name": "ballpoint number",
+      "description": "The number written in ballpoint ink that Asha inspects from the envelope.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "so the ballpoint number from the clerk"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_017",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "TimePoint",
+      "surface_forms": [
+        "before seven"
+      ],
+      "canonical_name": "before seven",
+      "description": "The deadline Eld mentions in his voicemail.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "the request that she stop by before seven"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_001"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_018",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Monday",
+        "that afternoon"
+      ],
+      "canonical_name": "Monday",
+      "description": "The earlier time reference tied to Asha's legal pad and the docket work.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "her own legal pad from Monday",
+        "she had pulled off the docket that afternoon"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_019",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_020",
+      "type": "Concept",
+      "surface_forms": [
+        "docket",
+        "the docket"
+      ],
+      "canonical_name": "docket",
+      "description": "The case docket referenced in Eld's voicemail and Asha's document review.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "the docket number given without hesitation",
+        "she had pulled off the docket that afternoon"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_020",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_021",
+      "type": "Concept",
+      "surface_forms": [
+        "legal exhibits",
+        "exhibits"
+      ],
+      "canonical_name": "legal exhibits",
+      "description": "The evidentiary framework Asha uses to organize her documents and notes.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_4",
+      "evidence": [
+        "in the order she would have laid out exhibits"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_4_ent_021",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman reviewing the paperwork, comparing records, and deleting messages from Devin.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "Asha reached into the briefcase for her phone",
+        "she deleted them one at a time",
+        "she understood that she would walk into"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_007",
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_001",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Devin"
+      ],
+      "canonical_name": "Devin",
+      "description": "The person whose page and message thread Asha is examining and deleting drafts about.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "the stamp on Devin's page",
+        "opened the thread with Devin",
+        "she had asked him whether he remembered"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_002",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "caseworker"
+      ],
+      "canonical_name": "caseworker",
+      "description": "The caseworker whose shorthand notes and earlier answers are being compared against the court record.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "the cross of the caseworker running down two pages",
+        "the caseworker had answered her questions"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_002"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_003",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "clerk"
+      ],
+      "canonical_name": "clerk",
+      "description": "The clerk associated with the ballpoint number on the envelope record.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "the ballpoint number from the clerk"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_004",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "the court"
+      ],
+      "canonical_name": "the court",
+      "description": "The court that did not yet have the corrected record when the caseworker answered questions.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "the court did not yet have"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_002"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_005",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "envelope from the door pocket",
+        "envelope",
+        "the envelope from the door pocket"
+      ],
+      "canonical_name": "envelope from the door pocket",
+      "description": "The envelope Asha places beside the notes and uses to compare the clerk's number against Devin's page.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "She set the envelope from the door pocket beside them"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_006",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "ballpoint number"
+      ],
+      "canonical_name": "ballpoint number",
+      "description": "The number written in ballpoint that Asha aligns with the stamp on Devin's page.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "the ballpoint number from the clerk sat next to the stamp"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_007",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "Devin's page"
+      ],
+      "canonical_name": "Devin's page",
+      "description": "The page bearing Devin's stamp that Asha compares against the envelope record.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "the stamp on Devin's page"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_008",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "pad"
+      ],
+      "canonical_name": "pad",
+      "description": "The pad Asha uses to mark ticks and later closes over the pen to keep her place.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "marking each minute in the margin of the pad",
+        "She closed the pad over the pen"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_009",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "pen"
+      ],
+      "canonical_name": "pen",
+      "description": "The pen Asha closes inside the pad to keep her place.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "She closed the pad over the pen"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_010",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Concept",
+      "surface_forms": [
+        "correction"
+      ],
+      "canonical_name": "correction",
+      "description": "The record correction whose timing Asha realizes occurred after she stood up.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "the correction had gone through after she had stood up"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_002"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_011",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase"
+      ],
+      "canonical_name": "briefcase",
+      "description": "The briefcase Asha opens for her phone and later closes over the printouts.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "Asha reached into the briefcase for her phone",
+        "closed the briefcase over the printouts"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_012",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "phone"
+      ],
+      "canonical_name": "phone",
+      "description": "Asha's phone used to open the Devin thread and delete unsent drafts.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "Asha reached into the briefcase for her phone",
+        "She set the phone face down"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_013",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "message thread",
+        "thread"
+      ],
+      "canonical_name": "message thread",
+      "description": "The message thread between Asha and Devin that she opens on her phone.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "opened the thread with Devin"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_014",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Object",
+      "surface_forms": [
+        "unsent draft messages",
+        "drafts",
+        "half-written drafts"
+      ],
+      "canonical_name": "unsent draft messages",
+      "description": "The unsent draft messages from the car that Asha deletes one by one.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "held her thumb over the half-written drafts she had not sent from the car",
+        "She deleted them one at a time"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_015",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Monday afternoon"
+      ],
+      "canonical_name": "Monday afternoon",
+      "description": "The time reference in Asha's unsent question to Devin.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "whether he remembered the order of things on Monday afternoon"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_016",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Object",
+      "surface_forms": [
+        "printouts"
+      ],
+      "canonical_name": "printouts",
+      "description": "The printed documents stored in Asha's briefcase.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "closed the briefcase over the printouts"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_017",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Object",
+      "surface_forms": [
+        "latch"
+      ],
+      "canonical_name": "latch",
+      "description": "The briefcase latch that clicks shut when Asha closes it.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "pressed the latch until it clicked"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_018",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Object",
+      "surface_forms": [
+        "lock",
+        "small brass tongue of the lock"
+      ],
+      "canonical_name": "lock",
+      "description": "The brass lock on the briefcase that Asha looks at instead of the page underneath.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_5",
+      "evidence": [
+        "looking at the small brass tongue of the lock"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_5_ent_019",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who studies the briefcase, decides not to call anyone, and prepares to face Whitfield with the evidence.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "Asha did not get up",
+        "Asha switched the lamp back on",
+        "she would walk into Whitfield's office in the morning"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_001",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Whitfield"
+      ],
+      "canonical_name": "Whitfield",
+      "description": "The person whose office Asha plans to enter in the morning with the desk evidence.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "walk into Whitfield's office in the morning",
+        "carry into Whitfield's office in a few hours"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_002",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Devin"
+      ],
+      "canonical_name": "Devin",
+      "description": "The person whose words Asha lacks to confirm what she has found.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "nothing Devin had said to confirm it"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_001"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_003",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase",
+        "closed briefcase"
+      ],
+      "canonical_name": "briefcase",
+      "description": "The locked case on the desk that Asha studies and plans to carry to Whitfield's office.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "the motion required, looking at the small brass tongue of the lock",
+        "she rested her palm flat on the closed briefcase",
+        "the shape of the briefcase on the desk"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_004",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "pad"
+      ],
+      "canonical_name": "pad",
+      "description": "The pad on the desk that contains the three ticks Asha inspects and touches.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "The three ticks in the margin of the pad",
+        "Asha switched the lamp back on and opened the pad",
+        "She traced the last mark slowly with her fingertip"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_005",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "lamp",
+        "green-shaded lamp"
+      ],
+      "canonical_name": "lamp",
+      "description": "The lamp Asha turns off and then switches back on while examining the pad.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "she turned off the green-shaded lamp instead",
+        "Asha switched the lamp back on"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_006",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "phone"
+      ],
+      "canonical_name": "phone",
+      "description": "The phone on the desk that Asha deliberately does not reach for.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "she did not reach for the phone on the corner of the desk"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_007",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase lock",
+        "lock",
+        "small brass tongue of the lock",
+        "latch"
+      ],
+      "canonical_name": "briefcase lock",
+      "description": "The locking mechanism on the briefcase that clicks shut before Asha pauses.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "the small brass tongue of the lock",
+        "For a long minute after the latch clicked"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_002"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_008",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "desk"
+      ],
+      "canonical_name": "desk",
+      "description": "The desk in the study where the briefcase, pad, lamp, and phone are placed.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "what was on the desk",
+        "the corner of the desk",
+        "the shape of the briefcase on the desk"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_009",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "Whitfield's office",
+        "office"
+      ],
+      "canonical_name": "Whitfield's office",
+      "description": "The destination Asha plans to enter carrying the briefcase and evidence.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "walk into Whitfield's office in the morning",
+        "carry into Whitfield's office in a few hours"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_010",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Location",
+      "surface_forms": [
+        "house"
+      ],
+      "canonical_name": "house",
+      "description": "The house surrounding the study, whose silence Asha listens to after the briefcase is latched.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "she listened to the house, which gave her nothing back"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_002"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_011",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Location",
+      "surface_forms": [
+        "study"
+      ],
+      "canonical_name": "study",
+      "description": "The room where Asha sits with the briefcase, lamp, pad, and phone.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "In the dark of the study"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_012",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Location",
+      "surface_forms": [
+        "hall"
+      ],
+      "canonical_name": "hall",
+      "description": "The hallway where the radiator makes a small ticking sound.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "the small tick of the radiator in the hall"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_002"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_013",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "radiator"
+      ],
+      "canonical_name": "radiator",
+      "description": "The radiator in the hall that provides the only sound back to Asha.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "the small tick of the radiator in the hall"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_002"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_014",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Concept",
+      "surface_forms": [
+        "lamplight"
+      ],
+      "canonical_name": "lamplight",
+      "description": "The light that illuminates the ticks in the pad margin before the lamp is turned off.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "plain in the lamplight"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_002"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_015",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Concept",
+      "surface_forms": [
+        "dark"
+      ],
+      "canonical_name": "dark",
+      "description": "The darkness of the study after the lamp is switched off.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "She turned off the green-shaded lamp instead",
+        "In the dark of the study"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_016",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Concept",
+      "surface_forms": [
+        "morning"
+      ],
+      "canonical_name": "morning",
+      "description": "The time when Asha plans to go to Whitfield's office.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "in the morning"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_001"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_017",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Concept",
+      "surface_forms": [
+        "a few hours"
+      ],
+      "canonical_name": "a few hours",
+      "description": "The short time remaining before Asha carries the briefcase into Whitfield's office.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_6",
+      "evidence": [
+        "in a few hours"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_6_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_6_ent_018",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who examines the ink marks, makes the phone call, and records the timing details.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "Asha picked up the phone",
+        "When the night clerk answered, she gave the docket number",
+        "Asha picked up the pen again and drew a slow, heavy circle"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_001",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "night clerk",
+        "clerk"
+      ],
+      "canonical_name": "night clerk",
+      "description": "The after-hours clerk who answers Asha's call and provides the requested filing and sworn-time details.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "the night clerk answered",
+        "asked him to read back the time the caseworker had been sworn"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_002",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Devin"
+      ],
+      "canonical_name": "Devin",
+      "description": "The person whose corrected filing Asha asks about during the phone call.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "the exact intake stamp on Devin's corrected filing"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_003",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "caseworker"
+      ],
+      "canonical_name": "caseworker",
+      "description": "The official whose sworn time Asha asks the night clerk to confirm.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "the time the caseworker had been sworn"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_004",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "pad",
+        "the pad"
+      ],
+      "canonical_name": "pad",
+      "description": "The pad left open on the desk and used as the surface for the marks and notes.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "The pad stayed open on the desk",
+        "the folded sheet from the clerk's office lay under the edge of the pad"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_005",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "phone",
+        "the phone"
+      ],
+      "canonical_name": "phone",
+      "description": "The phone Asha picks up and uses to call the after-hours line.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "Asha picked up the phone",
+        "dialed the after-hours line"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_006",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "folded sheet",
+        "sheet"
+      ],
+      "canonical_name": "folded sheet",
+      "description": "The folded sheet from the clerk's office that contains the after-hours line.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "The folded sheet from the clerk's office lay under the edge of the pad",
+        "dialed the after-hours line printed at the bottom"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_007",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "after-hours line"
+      ],
+      "canonical_name": "after-hours line",
+      "description": "The phone line printed on the folded sheet that Asha calls after hours.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "dialed the after-hours line printed at the bottom"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_008",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "desk clock"
+      ],
+      "canonical_name": "desk clock",
+      "description": "The clock Asha watches while making the call.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "watching the second hand on the desk clock"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_009",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "docket number"
+      ],
+      "canonical_name": "docket number",
+      "description": "The case identifier Asha gives to the night clerk.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "she gave the docket number"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_010",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "intake stamp"
+      ],
+      "canonical_name": "intake stamp",
+      "description": "The filing stamp Asha asks the night clerk to confirm on Devin's corrected filing.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "asked for the exact intake stamp on Devin's corrected filing"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_011",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "corrected filing"
+      ],
+      "canonical_name": "corrected filing",
+      "description": "The filing associated with Devin that Asha is verifying by its intake stamp.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "Devin's corrected filing"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_012",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "TimePoint",
+      "surface_forms": [
+        "that afternoon",
+        "afternoon"
+      ],
+      "canonical_name": "that afternoon",
+      "description": "The time period when the caseworker had been sworn.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "the caseworker had been sworn that afternoon"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_013",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "pen"
+      ],
+      "canonical_name": "pen",
+      "description": "The pen Asha uses to write and circle the numbers on the page.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "Asha picked up the pen again",
+        "set the pen down",
+        "The pen dragged a little on the second pass"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_014",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Object",
+      "surface_forms": [
+        "three ticks",
+        "the three ticks",
+        "third tick"
+      ],
+      "canonical_name": "three ticks",
+      "description": "The three marks on the page that Asha compares and links together.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "beside the three ticks",
+        "loop the third tick into the same shape",
+        "With the three marks bound together"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_015",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Concept",
+      "surface_forms": [
+        "gap"
+      ],
+      "canonical_name": "gap",
+      "description": "The timing difference Asha realizes is smaller than she believed.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_7",
+      "evidence": [
+        "because the gap between them was smaller than she had been telling herself"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_7_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_7_ent_016",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman organizing the corrected filing and preparing to bring the papers to Whitfield.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_8",
+      "evidence": [
+        "Asha lifted the briefcase onto the desk",
+        "she would have to name in Whitfield's office",
+        "Asha lifted the briefcase off the desk and carried it to the door"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_8_ent_001",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Whitfield"
+      ],
+      "canonical_name": "Whitfield",
+      "description": "The person whose office Asha is preparing to visit with the documents.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_8",
+      "evidence": [
+        "Whitfield's office",
+        "name the order to herself in the lamplight was not the same as the thing she would have to name in Whitfield's office",
+        "carry this into Whitfield's office tomorrow"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_8_ent_002",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "caseworker"
+      ],
+      "canonical_name": "caseworker",
+      "description": "The caseworker whose swearing-in is used to establish the corrected filing sequence.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_8",
+      "evidence": [
+        "the caseworker had been sworn before the corrected filing was stamped"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_001"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_8_ent_003",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Location",
+      "surface_forms": [
+        "Whitfield's office"
+      ],
+      "canonical_name": "Whitfield's office",
+      "description": "The office where Asha intends to state the corrected order and bring the papers.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_8",
+      "evidence": [
+        "Whitfield's office",
+        "name the order to herself in the lamplight",
+        "carry this into Whitfield's office tomorrow"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_8_ent_004",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "pen"
+      ],
+      "canonical_name": "pen",
+      "description": "The pen Asha uses to mark the page and then sets down.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_8",
+      "evidence": [
+        "The pen dragged a little on the second pass",
+        "She set the pen down beside the pad"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_002"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_8_ent_005",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "pad"
+      ],
+      "canonical_name": "pad",
+      "description": "The pad Asha places beside the pen and later packs into the briefcase.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_8",
+      "evidence": [
+        "She set the pen down beside the pad",
+        "laid the pad on top"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_8_ent_006",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase"
+      ],
+      "canonical_name": "briefcase",
+      "description": "The briefcase Asha opens, fills with papers, closes, and carries to the door.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_8",
+      "evidence": [
+        "Asha lifted the briefcase onto the desk",
+        "Then she closed the lid and clicked it shut",
+        "Asha lifted the briefcase off the desk and carried it to the door"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_8_ent_007",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "clerk's sheet"
+      ],
+      "canonical_name": "clerk's sheet",
+      "description": "The clerk's sheet Asha folds and stores inside the briefcase with the other papers.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_8",
+      "evidence": [
+        "She folded the clerk's sheet along its existing crease"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_8_ent_008",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "trial notes",
+        "notes"
+      ],
+      "canonical_name": "trial notes",
+      "description": "The trial notes Asha arranges inside the briefcase with the clerk's sheet and pad.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_8",
+      "evidence": [
+        "set it inside against the spine of the trial notes",
+        "the intake stamp, the notes, the page"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_8_ent_009",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "intake stamp"
+      ],
+      "canonical_name": "intake stamp",
+      "description": "The intake stamp that Asha mentally groups with the notes and marked page as evidence.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_8",
+      "evidence": [
+        "the intake stamp, the notes, the page where she had drawn the sequence in her own ink"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_8_ent_010",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "page"
+      ],
+      "canonical_name": "page",
+      "description": "The marked page on which Asha records the corrected filing sequence.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_8",
+      "evidence": [
+        "the corrected filing was stamped",
+        "the page where she had drawn the sequence in her own ink"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_8_ent_011",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "corrected filing sequence",
+        "sequence",
+        "corrected filing"
+      ],
+      "canonical_name": "corrected filing sequence",
+      "description": "The corrected order of events Asha establishes by marking the page.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_8",
+      "evidence": [
+        "became a sequence: the caseworker had been sworn before the corrected filing was stamped",
+        "the corrected filing was stamped, not after"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_001"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_8_ent_012",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Concept",
+      "surface_forms": [
+        "lamplight"
+      ],
+      "canonical_name": "lamplight",
+      "description": "The lamp-lit setting where Asha pauses to think through the order before speaking in Whitfield's office.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_8",
+      "evidence": [
+        "in the lamplight",
+        "the lamp's circle"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_002"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_8_ent_013",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase latches",
+        "latches"
+      ],
+      "canonical_name": "briefcase latches",
+      "description": "The metal latches Asha thumbs open on the briefcase.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_8",
+      "evidence": [
+        "thumbed the latches",
+        "the small metallic snap"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_8_ent_014",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase lid",
+        "lid"
+      ],
+      "canonical_name": "briefcase lid",
+      "description": "The lid of the briefcase that Asha closes after arranging the papers.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_8",
+      "evidence": [
+        "Then she closed the lid and clicked it shut"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_8_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_8_ent_015",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who carries the briefcase out of the study, secures the room, and leaves with the trial notes.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "Asha lifted the briefcase off the desk and carried it to the door",
+        "In the dark hallway Asha shifted the briefcase from her left hand to her right",
+        "she sat a moment with her hand on the lid"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_001",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase"
+      ],
+      "canonical_name": "briefcase",
+      "description": "The case Asha carries from the study to the car, containing the trial notes.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "Asha lifted the briefcase off the desk and carried it to the door",
+        "the closed briefcase",
+        "the briefcase from her left hand to her right",
+        "The briefcase went onto the passenger seat",
+        "the spine of the trial notes lay level"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_002",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Object",
+      "surface_forms": [
+        "door",
+        "door jamb",
+        "door by the door"
+      ],
+      "canonical_name": "door",
+      "description": "The study door Asha pauses at, locks, and shuts behind her.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "carried it to the door",
+        "with her hand on the jamb",
+        "She tested the lock",
+        "she reached for the switch",
+        "she stepped out onto the stoop, pulling the door shut behind her"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_003",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "door lock",
+        "lock",
+        "bolt"
+      ],
+      "canonical_name": "door lock",
+      "description": "The lock on the study door that Asha checks twice before leaving.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "She tested the lock, then tested it again",
+        "though she had heard it seat the first",
+        "until the bolt caught"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_004",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "lamp"
+      ],
+      "canonical_name": "lamp",
+      "description": "The study lamp that Asha switches off before leaving the room in darkness.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "looked back once at the lamp burning over the empty pad",
+        "she reached for the switch and put the lamp out",
+        "the study went dark all at once"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_005",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "study"
+      ],
+      "canonical_name": "study",
+      "description": "The room where Asha makes her decision, turns off the light, and leaves with the briefcase.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "Asha lifted the briefcase off the desk",
+        "the study went dark all at once",
+        "what she had decided in it would have to hold",
+        "In the dark hallway"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_006",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "hallway"
+      ],
+      "canonical_name": "hallway",
+      "description": "The dark hallway Asha passes through without turning on the light.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "In the dark hallway Asha shifted the briefcase",
+        "She did not turn on the hall light"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_007",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "coat"
+      ],
+      "canonical_name": "coat",
+      "description": "Asha's coat, found by touch in the dark hallway before she leaves.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "She found her coat by touch"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_008",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "keys"
+      ],
+      "canonical_name": "keys",
+      "description": "The keys Asha takes from the dish by the door before stepping outside.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "slid the keys from the dish by the door"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_009",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "stoop"
+      ],
+      "canonical_name": "stoop",
+      "description": "The exterior step or landing Asha steps onto after shutting the door behind her.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "stepped out onto the stoop"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_010",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Vehicle",
+      "surface_forms": [
+        "passenger seat"
+      ],
+      "canonical_name": "passenger seat",
+      "description": "The seat in Asha's car where she places the briefcase flat.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "The briefcase went onto the passenger seat",
+        "set flat so the spine of the trial notes lay level"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_011",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "trial notes"
+      ],
+      "canonical_name": "trial notes",
+      "description": "The notes inside the briefcase that Asha keeps level on the passenger seat.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "the spine of the trial notes lay level",
+        "the page with the circled marks was now between her and the windshield"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_012",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "marked page",
+        "page",
+        "the page with the circled marks"
+      ],
+      "canonical_name": "marked page",
+      "description": "The marked page from the trial notes that Asha keeps between herself and the windshield.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "the page with the circled marks was now between her and the windshield"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_013",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "desk"
+      ],
+      "canonical_name": "desk",
+      "description": "The desk in the study from which Asha takes the briefcase.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "Asha lifted the briefcase off the desk",
+        "the desk and the closed briefcase"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_014",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Object",
+      "surface_forms": [
+        "chair"
+      ],
+      "canonical_name": "chair",
+      "description": "The chair Asha had been sitting in for hours in the study.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "the chair she had been sitting in for hours"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_015",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Object",
+      "surface_forms": [
+        "light switch",
+        "switch"
+      ],
+      "canonical_name": "light switch",
+      "description": "The switch Asha uses to turn off the study lamp.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "she reached for the switch and put the lamp out",
+        "with her hand still on the switch"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_003"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_016",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Object",
+      "surface_forms": [
+        "dish"
+      ],
+      "canonical_name": "dish",
+      "description": "The dish by the door where Asha keeps her keys.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "slid the keys from the dish by the door"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_017",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Object",
+      "surface_forms": [
+        "ignition"
+      ],
+      "canonical_name": "ignition",
+      "description": "The car ignition Asha is about to use after settling the briefcase on the passenger seat.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "before she put the key in the ignition"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_9_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_018",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Location",
+      "surface_forms": [
+        "Whitfield's office"
+      ],
+      "canonical_name": "Whitfield's office",
+      "description": "The office mentioned as Asha's intended destination for the briefcase tomorrow.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_9",
+      "evidence": [
+        "into Whitfield's office tomorrow"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_9_ent_019",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman driving the car and carrying the notes and briefcase in this scene.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_10",
+      "evidence": [
+        "Asha turned the key and the engine caught on the second try",
+        "she reached over to steady the briefcase",
+        "She backed out slow",
+        "she was not rehearsing what to say to Whitfield"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_001",
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_004",
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_10_ent_001",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Whitfield"
+      ],
+      "canonical_name": "Whitfield",
+      "description": "The person Asha is thinking about speaking to while driving with the briefcase.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_10",
+      "evidence": [
+        "what to say to Whitfield"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_005"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_10_ent_002",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Object",
+      "surface_forms": [
+        "trial notes",
+        "notes",
+        "page",
+        "paper",
+        "circled marks"
+      ],
+      "canonical_name": "trial notes",
+      "description": "The marked page of notes Asha decides to carry with her as paper.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_10",
+      "evidence": [
+        "the trial notes lay level",
+        "the page with the circled marks",
+        "carry it the rest of the way as paper"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_001"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_10_ent_003",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Vehicle",
+      "surface_forms": [
+        "car"
+      ],
+      "canonical_name": "car",
+      "description": "The vehicle Asha starts and drives away in.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_10",
+      "evidence": [
+        "before she put the key in the ignition",
+        "Asha turned the key and the engine caught on the second try",
+        "She backed out slow"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_002",
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_10_ent_004",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase",
+        "case",
+        "closed lid",
+        "lid"
+      ],
+      "canonical_name": "briefcase",
+      "description": "The briefcase on the passenger seat that Asha steadies and focuses on during the drive.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_10",
+      "evidence": [
+        "steady the briefcase on the passenger seat",
+        "the closed lid beside her",
+        "what was inside the case"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_003",
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_006"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_10_ent_005",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "parkway"
+      ],
+      "canonical_name": "parkway",
+      "description": "The route Asha drives toward after backing out of the street.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_10",
+      "evidence": [
+        "took the corner toward the parkway"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_10_ent_006",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "heater"
+      ],
+      "canonical_name": "heater",
+      "description": "The car heater that comes on cold as Asha drives away.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_10",
+      "evidence": [
+        "with the heater ticking on cold"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_004"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_10_ent_007",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "TimePoint",
+      "surface_forms": [
+        "first long light",
+        "long light"
+      ],
+      "canonical_name": "first long light",
+      "description": "The traffic light moment when Asha reflects on the briefcase and Whitfield.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_10",
+      "evidence": [
+        "At the first long light"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_005",
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_006",
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_10_ent_008",
+      "movie_id": "100_page__scene_17"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "phone"
+      ],
+      "canonical_name": "phone",
+      "description": "The phone Asha leaves untouched in her coat pocket while driving.",
+      "scene_id": "17",
+      "chunk_id": "doc_16_chunk_0_part_10",
+      "evidence": [
+        "did not reach for the phone in her coat pocket once"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_17_doc_16_chunk_0_part_10_ev_007"
+      ],
+      "id": "ent_100_page_17_doc_16_chunk_0_part_10_ent_009",
+      "movie_id": "100_page__scene_17"
+    }
+  ]
+}

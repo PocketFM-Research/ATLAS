@@ -1,0 +1,2739 @@
+{
+  "13": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Whitfield"
+      ],
+      "canonical_name": "Whitfield",
+      "description": "The person in the office who reviews Devin's signature, thanks Asha, and warns her about the meeting timing.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "Whitfield finally moved his hand",
+        "\"Thank you for bringing this to me before the meeting,\" he said",
+        "He glanced at the clock on the credenza. \"Six-forty. You'll want to be in your chair before Hatcher's name comes up.\""
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_001",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Devin"
+      ],
+      "canonical_name": "Devin",
+      "description": "The person whose signature Whitfield reads in full on the document.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "read Devin's signature in full"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_002",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who brings the document, receives Whitfield's response, leaves for the meeting, steadies herself in the corridor, and reads Rosa's text.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "Thank you for bringing this to me before the meeting",
+        "Asha understood",
+        "She nodded, took the copy he slid back toward her, and let herself out into the corridor",
+        "Asha stopped walking",
+        "When she opened her eyes the phone at her hip buzzed once"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_006",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_007",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_003",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Hatcher"
+      ],
+      "canonical_name": "Hatcher",
+      "description": "The person whose name is about to come up in the meeting and whose placement Asha must defend.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "\"You'll want to be in your chair before Hatcher's name comes up.\"",
+        "explain why the firm's strategy for the Hatcher placement still held"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_004",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The person who sends Asha a brief encouraging text before the meeting.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "Rosa, two words, Go. Win."
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_007",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_005",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "Corridor",
+        "corridor"
+      ],
+      "canonical_name": "Corridor",
+      "description": "The hallway outside Whitfield's office where Asha pauses to steady herself.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "let herself out into the corridor",
+        "In the corridor outside Whitfield's office, Asha stopped walking"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_006",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "Conference Room",
+        "conference room"
+      ],
+      "canonical_name": "Conference Room",
+      "description": "The room Asha is preparing to enter for the upcoming meeting.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "she could carry into the conference room"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_007",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Six-forty",
+        "in eighteen minutes",
+        "ten"
+      ],
+      "canonical_name": "Six-forty",
+      "description": "The time Whitfield checks on the clock before warning Asha about the meeting.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "\"Six-forty.\"",
+        "in eighteen minutes",
+        "the woman's children's hearing was at ten"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_008",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "Document",
+        "page",
+        "document",
+        "copy"
+      ],
+      "canonical_name": "Document",
+      "description": "The paper Whitfield reads, squares away, and returns to Asha.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "lifting the page just enough to read Devin's signature in full",
+        "set it back down squared to the edge of his blotter",
+        "Thank you for bringing this to me before the meeting",
+        "took the copy he slid back toward her"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_009",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "Devin's Signature",
+        "signature"
+      ],
+      "canonical_name": "Devin's Signature",
+      "description": "The signature on the document that Whitfield reads in full.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "read Devin's signature in full"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_010",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "Clock",
+        "clock"
+      ],
+      "canonical_name": "Clock",
+      "description": "The office clock Whitfield checks before telling Asha the meeting timing.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "He glanced at the clock on the credenza"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_003"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_011",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "Phone",
+        "phone"
+      ],
+      "canonical_name": "Phone",
+      "description": "Asha's phone that buzzes with Rosa's message and is then put away.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "the phone at her hip buzzed once",
+        "She read it, slid the phone back into her"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_007",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_012",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Concept",
+      "surface_forms": [
+        "Meeting",
+        "meeting",
+        "conference"
+      ],
+      "canonical_name": "Meeting",
+      "description": "The upcoming meeting that frames Whitfield's warning and Asha's departure.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "before the meeting",
+        "before Hatcher's name comes up",
+        "toward the upcoming conference meeting"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_013",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Concept",
+      "surface_forms": [
+        "Hatcher Placement Strategy",
+        "the procedural piece",
+        "the personal piece",
+        "the firm's strategy",
+        "the Hatcher placement"
+      ],
+      "canonical_name": "Hatcher Placement Strategy",
+      "description": "The procedural and personal issue Asha believes has been accepted and the firm's strategy she must defend.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "the procedural piece had landed where she needed it to land",
+        "the personal piece had been heard and would not be repeated out loud",
+        "explain why the firm's strategy for the Hatcher placement still held"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_014",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Concept",
+      "surface_forms": [
+        "Children's Hearing",
+        "children's hearing"
+      ],
+      "canonical_name": "Children's Hearing",
+      "description": "The hearing scheduled for ten that is mentioned as part of the woman's context in the meeting discussion.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "the woman's children's hearing was at ten"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_015",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Concept",
+      "surface_forms": [
+        "Savings Account",
+        "savings account"
+      ],
+      "canonical_name": "Savings Account",
+      "description": "Asha's empty savings account, part of the pressure she feels before the meeting.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_0",
+      "evidence": [
+        "with a night of no sleep behind her and an empty savings account"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_0_ent_016",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The lawyer who composes herself, enters the conference room, and leads the meeting with Mrs. Hatcher.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_1",
+      "evidence": [
+        "she could carry into the conference room",
+        "Asha pushed the conference room door open",
+        "Asha said good morning",
+        "\"We have a little under three hours,\" she said"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_006",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_007",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_1_ent_001",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The person who texts Asha brief encouragement before the meeting.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_1",
+      "evidence": [
+        "the phone at her hip buzzed once: Rosa",
+        "Go. Win."
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_1_ent_002",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Mrs. Hatcher"
+      ],
+      "canonical_name": "Mrs. Hatcher",
+      "description": "The woman waiting in the conference room to meet with Asha about the case.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_1",
+      "evidence": [
+        "Mrs. Hatcher was already waiting",
+        "Mrs. Hatcher was at the far end of the table",
+        "Asha said good morning"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_006",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_1_ent_003",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Location",
+      "surface_forms": [
+        "conference room",
+        "the room"
+      ],
+      "canonical_name": "conference room",
+      "description": "The meeting room where Asha meets Mrs. Hatcher.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_1",
+      "evidence": [
+        "into the conference room",
+        "started toward the room",
+        "Asha pushed the conference room door open",
+        "stepped in"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_006",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_1_ent_004",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "phone"
+      ],
+      "canonical_name": "phone",
+      "description": "Asha's phone that buzzes with Rosa's text message.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_1",
+      "evidence": [
+        "the phone at her hip buzzed once",
+        "slid the phone back into her pocket"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_1_ent_005",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "firm's coffee",
+        "coffee",
+        "cup"
+      ],
+      "canonical_name": "firm's coffee",
+      "description": "The untouched cup of coffee waiting in the conference room for Mrs. Hatcher.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_1",
+      "evidence": [
+        "with a cup of the firm's coffee",
+        "the firm's coffee in front of her, untouched",
+        "the cup turned so the logo faced out"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_1_ent_006",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "folder"
+      ],
+      "canonical_name": "folder",
+      "description": "The case folder Asha brings to the meeting and opens to review evidence.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_1",
+      "evidence": [
+        "laid the folder down",
+        "Asha opened the folder"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_1_ent_007",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "TimePoint",
+      "surface_forms": [
+        "three hours",
+        "little under three hours"
+      ],
+      "canonical_name": "three hours",
+      "description": "The short amount of time Asha says they have for the meeting.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_1",
+      "evidence": [
+        "\"We have a little under three hours,\" she said"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_1_ent_008",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "launderette receipts",
+        "receipts"
+      ],
+      "canonical_name": "launderette receipts",
+      "description": "Receipts in Asha's folder used as evidence during the review.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_1",
+      "evidence": [
+        "Asha opened the folder to the launderette receipts"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_1_ent_009",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "caseworker's site-visit log",
+        "site-visit log",
+        "log"
+      ],
+      "canonical_name": "caseworker's site-visit log",
+      "description": "The log Asha shows to Mrs. Hatcher to establish the sequence of dates.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_1",
+      "evidence": [
+        "the caseworker's site-visit log",
+        "fanning them so Mrs. Hatcher could see the dates in sequence"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_1_ent_010",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Concept",
+      "surface_forms": [
+        "caseworker",
+        "agency witness"
+      ],
+      "canonical_name": "caseworker",
+      "description": "The witness Asha plans to question in a specific order.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_1",
+      "evidence": [
+        "\"the order I'm going to take the caseworker in\"",
+        "the order she meant to take the agency witness in"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_006",
+        "ev_100_page_13_doc_12_chunk_0_part_1_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_1_ent_011",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The person guiding the questioning, handling the Tuesday report, and moving the folder through the conference room exchange.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "walked her through the order she meant to take the agency witness in",
+        "She kept the Tuesday report face-down under her left palm",
+        "Asha lifted her left palm from the Tuesday report",
+        "Asha let the decision sit where she had put it"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_001",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "agency witness",
+        "witness"
+      ],
+      "canonical_name": "agency witness",
+      "description": "The witness Asha is preparing to question in a specific order.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "walked her through the order she meant to take the agency witness in"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_001"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_002",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Devin"
+      ],
+      "canonical_name": "Devin",
+      "description": "The person whose corrected filing contains the line Asha refuses to name.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "the line in Devin's corrected filing"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_002"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_003",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The person who deletes a sent message, sets her phone face-down, and washes her hands at the counter.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "Rosa picked up her phone",
+        "deleted the two words she had sent",
+        "Rosa stood from the counter",
+        "washed her hands without hurrying"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_004",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Mrs. Hatcher"
+      ],
+      "canonical_name": "Mrs. Hatcher",
+      "description": "The woman in the room who nods through the pages and reacts to the folder closing while holding a coffee cup.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "Mrs. Hatcher nodded at each page in turn",
+        "Mrs. Hatcher looked up at the sound"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_007"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_005",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "Whitfield's office"
+      ],
+      "canonical_name": "Whitfield's office",
+      "description": "The office where Asha is located earlier in the scene while Rosa is elsewhere across town.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "Asha was still in Whitfield's office"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_006",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "conference room"
+      ],
+      "canonical_name": "conference room",
+      "description": "The room where Asha closes the folder and continues the questioning.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "the quiet of the conference room"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_006",
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_007"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_007",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "kitchen"
+      ],
+      "canonical_name": "kitchen",
+      "description": "The kitchen across town where Rosa deletes the message and washes her hands.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "Across town, in the kitchen"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_008",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "counter"
+      ],
+      "canonical_name": "counter",
+      "description": "The counter where Rosa leaves her phone face-down and washes her hands.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "set the device face-down on the counter",
+        "stood from the counter"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_009",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "TimePoint",
+      "surface_forms": [
+        "six-forty"
+      ],
+      "canonical_name": "six-forty",
+      "description": "The time when Rosa sent the message she later deletes.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "she had sent at six-forty"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_010",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "Tuesday report"
+      ],
+      "canonical_name": "Tuesday report",
+      "description": "The report Asha keeps face-down, moves into the folder, and withholds from the table discussion.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "the Tuesday report face-down",
+        "Asha lifted her left palm from the Tuesday report",
+        "slid it face-down to the bottom of the folder"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_011",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "corrected filing"
+      ],
+      "canonical_name": "corrected filing",
+      "description": "Devin's filing that contains the line Asha refuses to mention.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "Devin's corrected filing"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_002"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_012",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "phone",
+        "her phone",
+        "device"
+      ],
+      "canonical_name": "phone",
+      "description": "Rosa's phone used to open the thread, delete the message, and then left face-down on the counter.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "Rosa picked up her phone",
+        "set the device face-down on the counter",
+        "her phone still lay face-down"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_013",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "thread"
+      ],
+      "canonical_name": "thread",
+      "description": "The message thread Rosa opens before deleting the two words she sent.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "opened the thread"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_014",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Object",
+      "surface_forms": [
+        "two-word message",
+        "two words",
+        "the two words"
+      ],
+      "canonical_name": "two-word message",
+      "description": "The brief message Rosa sent earlier and then deletes from the thread.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "deleted the two words she had sent"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_015",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Object",
+      "surface_forms": [
+        "coffee cup",
+        "coffee"
+      ],
+      "canonical_name": "coffee cup",
+      "description": "The cup Mrs. Hatcher lifts and Asha hears against the saucer during the exchange.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "lifted the coffee she had not touched",
+        "the small sound of the cup against the saucer",
+        "back at the coffee cup in her hands"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_007"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_016",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Object",
+      "surface_forms": [
+        "folder"
+      ],
+      "canonical_name": "folder",
+      "description": "The folder Asha uses to hold the Tuesday report and closes with a sharp click.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "her hands steady on the folder",
+        "moved to the next exhibit",
+        "inside the folder rather than on the table between them"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_017",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Object",
+      "surface_forms": [
+        "saucer"
+      ],
+      "canonical_name": "saucer",
+      "description": "The saucer that the coffee cup touches, making a small sound in the room.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "the cup against the saucer"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_018",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Concept",
+      "surface_forms": [
+        "agency witness"
+      ],
+      "canonical_name": "agency witness",
+      "description": "The witness role or participant Asha is preparing to question in sequence.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_2",
+      "evidence": [
+        "take the agency witness in"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_2_ev_001"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_2_ent_019",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "A woman across town who washes her hands, ignores her phone, and sends a brief warning message.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "Across town, Rosa stood from the counter",
+        "Rosa lifted the phone off the counter",
+        "trust your gut"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_001",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The interviewer in the conference room who questions Mrs. Hatcher and ignores a phone vibration.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "In the conference room, Asha set her hand flat on the closed folder",
+        "Asha slid the folder back across the table",
+        "Asha's phone, face-down beside the folder, vibrated once"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_002",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Mrs. Hatcher"
+      ],
+      "canonical_name": "Mrs. Hatcher",
+      "description": "The woman being questioned about the school pickup window and her arrival time.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "Asha set her hand flat on the closed folder and told Mrs. Hatcher",
+        "Mrs. Hatcher set the coffee cup down and answered, two forty-eight"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_003",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Location",
+      "surface_forms": [
+        "conference room"
+      ],
+      "canonical_name": "conference room",
+      "description": "The room where Asha interviews Mrs. Hatcher.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "In the conference room, Asha set her hand flat on the closed folder"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_004",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "kitchen"
+      ],
+      "canonical_name": "kitchen",
+      "description": "The kitchen where Rosa stands at the counter and sink.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "Across town, Rosa stood from the counter",
+        "the way she had washed them after every difficult morning in that kitchen for thirty years"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_005",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "phone",
+        "her phone",
+        "Asha's phone"
+      ],
+      "canonical_name": "phone",
+      "description": "The phone that Rosa and Asha each handle while avoiding immediate responses.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "her phone still lay face-down",
+        "did not turn the phone back over",
+        "Asha's phone, face-down beside the folder, vibrated once"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_006",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "folder",
+        "closed folder"
+      ],
+      "canonical_name": "folder",
+      "description": "The folder Asha places her hand on and slides across the table during the interview.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "Asha set her hand flat on the closed folder",
+        "Asha slid the folder back across the table"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_007",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "legal pad"
+      ],
+      "canonical_name": "legal pad",
+      "description": "The pad where Asha writes down Mrs. Hatcher's answer in small print.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "Asha wrote the number on the legal pad"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_008",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "coffee cup"
+      ],
+      "canonical_name": "coffee cup",
+      "description": "The cup Mrs. Hatcher sets down before answering Asha.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "Mrs. Hatcher set the coffee cup down"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_009",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "tap"
+      ],
+      "canonical_name": "tap",
+      "description": "The faucet Rosa runs until the water is cold before washing her hands.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "ran the tap until the water was cold"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_001"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_010",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "water"
+      ],
+      "canonical_name": "water",
+      "description": "The cold water Rosa uses to wash her hands.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "ran the tap until the water was cold",
+        "washed her hands"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_001"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_011",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "towel"
+      ],
+      "canonical_name": "towel",
+      "description": "The towel by the sink that Rosa uses to dry her hands.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "She dried them on the towel by the sink",
+        "went back to the towel by the sink"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_001"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_012",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "TimePoint",
+      "surface_forms": [
+        "2:48",
+        "two forty-eight"
+      ],
+      "canonical_name": "2:48",
+      "description": "The arrival time Mrs. Hatcher gives for when she pulled up to the school.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "answered, two forty-eight"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_013",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Friday",
+        "the Friday"
+      ],
+      "canonical_name": "Friday",
+      "description": "The day referenced in the caseworker's log for Mrs. Hatcher's school arrival.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "on the Friday in the caseworker's log"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_014",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Concept",
+      "surface_forms": [
+        "caseworker's log"
+      ],
+      "canonical_name": "caseworker's log",
+      "description": "The record that contains the school arrival time Asha is verifying.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "on the Friday in the caseworker's log"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_015",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Concept",
+      "surface_forms": [
+        "school-pickup window"
+      ],
+      "canonical_name": "school-pickup window",
+      "description": "The time window Asha and Mrs. Hatcher are reviewing during the interview.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "they would walk the school-pickup window one more time"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_002"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_016",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Concept",
+      "surface_forms": [
+        "thread"
+      ],
+      "canonical_name": "thread",
+      "description": "The message thread where Rosa sends her brief warning.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_3",
+      "evidence": [
+        "typed three words into the thread and sent them"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_3_ent_017",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman conducting the client conversation while checking her phone and preparing to leave.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_4",
+      "evidence": [
+        "Asha's phone, face-down beside the folder",
+        "she did not turn it over",
+        "Asha read it once",
+        "Asha let Mrs. Hatcher finish",
+        "Asha stood",
+        "She picked up the folder"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_006",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_007",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_008",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_4_ent_001",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Mrs. Hatcher",
+        "the client"
+      ],
+      "canonical_name": "Mrs. Hatcher",
+      "description": "The client speaking with Asha about the corner of Twelfth and the school-pickup window.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_4",
+      "evidence": [
+        "asked her to walk through it one more time from the corner of Twelfth",
+        "Mrs. Hatcher started again",
+        "the client across the table",
+        "went on with the school-pickup window",
+        "let Mrs. Hatcher finish"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_006",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_4_ent_002",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The sender of the message telling Asha that the Tuesday gap is hers.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_4",
+      "evidence": [
+        "The screen showed Rosa's second message",
+        "the Tuesday gap is yours"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_4_ent_003",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Location",
+      "surface_forms": [
+        "conference room",
+        "the conference room"
+      ],
+      "canonical_name": "conference room",
+      "description": "The room where Asha and Mrs. Hatcher are meeting.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_4",
+      "evidence": [
+        "he conference room Asha's phone"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_006",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_008",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_4_ent_004",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "corner of Twelfth",
+        "the corner of Twelfth"
+      ],
+      "canonical_name": "corner of Twelfth",
+      "description": "The location from which Mrs. Hatcher restarts her account.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_4",
+      "evidence": [
+        "from the corner of Twelfth",
+        "started again from the corner of Twelfth",
+        "finish the walk from the corner of Twelfth"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_4_ent_005",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "TimePoint",
+      "surface_forms": [
+        "2:48",
+        "two forty-eight"
+      ],
+      "canonical_name": "2:48",
+      "description": "The time noted on Asha's legal pad during the meeting.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_4",
+      "evidence": [
+        "The legal pad in front of Asha still showed two forty-eight",
+        "closed the legal pad over the two forty-eight"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_4_ent_006",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "Asha's phone",
+        "phone"
+      ],
+      "canonical_name": "Asha's phone",
+      "description": "Asha's phone, which vibrates and displays Rosa's message.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_4",
+      "evidence": [
+        "Asha's phone, face-down beside the folder, vibrated once",
+        "turned it face-up on the wood",
+        "set the phone back face-down"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_4_ent_007",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "folder containing the Tuesday report",
+        "folder",
+        "the folder",
+        "the Tuesday report"
+      ],
+      "canonical_name": "folder containing the Tuesday report",
+      "description": "The folder Asha keeps beside her phone and later picks up to leave.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_4",
+      "evidence": [
+        "beside the folder",
+        "beside the folder without any change",
+        "the side of the folder",
+        "picked up the folder with the Tuesday report still face-down at the bottom"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_007",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_4_ent_008",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "legal pad"
+      ],
+      "canonical_name": "legal pad",
+      "description": "The pad in front of Asha that contains the time note and is closed before she stands.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_4",
+      "evidence": [
+        "The legal pad in front of Asha",
+        "closed the legal pad over the two forty-eight"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_4_ent_009",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "coat"
+      ],
+      "canonical_name": "coat",
+      "description": "Asha's coat, which she gathers from the chair before leaving.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_4",
+      "evidence": [
+        "gathered her coat from the back of the chair"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_4_ent_010",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "school-pickup window"
+      ],
+      "canonical_name": "school-pickup window",
+      "description": "The topic Mrs. Hatcher continues discussing during the meeting.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_4",
+      "evidence": [
+        "went on with the school-pickup window"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_4_ent_011",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "Tuesday gap",
+        "the Tuesday gap",
+        "Tuesday line"
+      ],
+      "canonical_name": "Tuesday gap",
+      "description": "The unresolved Tuesday issue that Asha is considering raising in the hearing.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_4",
+      "evidence": [
+        "the Tuesday gap is yours",
+        "whether to be the one to name the Tuesday line in the hearing"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_007",
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_4_ent_012",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Concept",
+      "surface_forms": [
+        "the hearing"
+      ],
+      "canonical_name": "the hearing",
+      "description": "The legal proceeding in which Asha is deciding whether to raise the Tuesday issue.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_4",
+      "evidence": [
+        "in the hearing"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_4_ev_007"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_4_ent_013",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "A composed woman who gathers her things, escorts Mrs. Hatcher, and heads toward the courtroom while resisting a message from Rosa.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "stood. She picked up the folder with the Tuesday report still face-down at the bottom, gathered her coat from the back of the chair, and crossed to the conference room door",
+        "holding it open for Mrs. Hatcher",
+        "Asha shifted the folder under her arm",
+        "walked Mrs. Hatcher toward the courtroom door without speaking",
+        "Asha stopped",
+        "Asha felt the buzz through the wood of the folder"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_006",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_008",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_009"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_001",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Mrs. Hatcher",
+        "Hatcher"
+      ],
+      "canonical_name": "Mrs. Hatcher",
+      "description": "The client whom Asha escorts from the conference room corridor toward the courtroom door.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "holding it open for Mrs. Hatcher",
+        "walked Mrs. Hatcher toward the courtroom door without speaking",
+        "put her free hand on the door for Mrs. Hatcher"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_009"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_002",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "A woman across town who deletes an unsent message to Asha, then later types 'hold the line' without sending it.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "Across town, Rosa lifted her phone off the counter",
+        "opened the thread to Asha, and deleted without sending the half-typed message",
+        "Rosa picked up the phone, opened the thread, and typed hold the line",
+        "set it face-down on the counter"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_007",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_003",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "folder",
+        "the folder",
+        "wood of the folder"
+      ],
+      "canonical_name": "folder",
+      "description": "The folder containing the Tuesday report that Asha carries and uses to hide the phone buzz.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "She picked up the folder with the Tuesday report still face-down at the bottom",
+        "Asha shifted the folder under her arm",
+        "shifted the folder so the Tuesday report sat flat against her ribs",
+        "Asha felt the buzz through the wood of the folder"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_006",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_004",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "Tuesday report",
+        "the Tuesday report"
+      ],
+      "canonical_name": "Tuesday report",
+      "description": "A report in Asha's folder that remains face-down and is referenced as part of her composed silence.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "the folder with the Tuesday report still face-down at the bottom",
+        "the line in the report",
+        "the Tuesday report sat flat against her ribs"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_005",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "coat",
+        "her coat"
+      ],
+      "canonical_name": "coat",
+      "description": "Asha's coat, which she gathers from the back of her chair before leaving.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "gathered her coat from the back of the chair"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_006",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "phone",
+        "her phone"
+      ],
+      "canonical_name": "phone",
+      "description": "Rosa's phone, used to open Asha's thread, delete messages, and leave an unsent text.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "message on her phone",
+        "Rosa lifted her phone off the counter",
+        "opened the thread to Asha",
+        "she set the phone face-down on the counter again",
+        "Rosa picked up the phone, opened the thread, and typed hold the line"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_007",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "message",
+        "half-typed message",
+        "the message",
+        "hold the line"
+      ],
+      "canonical_name": "message",
+      "description": "The unsent text Rosa deletes and later retypes as 'hold the line' without sending.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "deleted without sending the half-typed message",
+        "the message on her phone",
+        "typed hold the line, then set it face-down on the counter without waiting for anything back"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_008",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "thread",
+        "the thread"
+      ],
+      "canonical_name": "thread",
+      "description": "The message thread between Rosa and Asha that Rosa opens while composing unsent texts.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "opened the thread to Asha",
+        "opened the thread"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_009",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "towel",
+        "the towel"
+      ],
+      "canonical_name": "towel",
+      "description": "A towel Rosa folds over the sink edge after setting her phone aside.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "folded the towel over the edge of the sink"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_010",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Location",
+      "surface_forms": [
+        "conference room",
+        "conference room door"
+      ],
+      "canonical_name": "conference room",
+      "description": "The room Asha leaves and whose door she holds open for Mrs. Hatcher.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "crossed to the conference room door",
+        "holding it open for Mrs. Hatcher",
+        "In the corridor outside the conference room"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_011",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Location",
+      "surface_forms": [
+        "corridor"
+      ],
+      "canonical_name": "corridor",
+      "description": "The corridor outside the conference room where Asha walks Mrs. Hatcher toward the courtroom.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "In the corridor outside the conference room"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_012",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Location",
+      "surface_forms": [
+        "courtroom",
+        "courtroom door"
+      ],
+      "canonical_name": "courtroom",
+      "description": "The destination Asha and Mrs. Hatcher approach and where Asha pauses at the door.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "walked Mrs. Hatcher toward the courtroom door",
+        "At the courtroom door Asha stopped",
+        "put her free hand on the door for Mrs. Hatcher"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_006",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_009"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_013",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Location",
+      "surface_forms": [
+        "counter",
+        "the counter"
+      ],
+      "canonical_name": "counter",
+      "description": "The surface where Rosa places her phone face-down and works with the towel.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "Rosa lifted her phone off the counter",
+        "she set the phone face-down on the counter again",
+        "Rosa picked up the phone",
+        "set it face-down on the counter"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_014",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Location",
+      "surface_forms": [
+        "sink",
+        "the sink"
+      ],
+      "canonical_name": "sink",
+      "description": "The sink where Rosa folds the towel over the edge.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "folded the towel over the edge of the sink"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_015",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Concept",
+      "surface_forms": [
+        "Whitfield meeting",
+        "the Whitfield meeting"
+      ],
+      "canonical_name": "Whitfield meeting",
+      "description": "A prior meeting Rosa references as the source of the half-typed message she has been carrying.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_5",
+      "evidence": [
+        "carrying since the Whitfield meeting"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_5_ev_003"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_5_ent_016",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The central character who enters the courtroom, hides the hearing note, and waits for the judge.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "her pocket and did not look; she tightened her grip until the cardstock edge pressed a thin line into the inside of her arm",
+        "Asha followed a half-step behind",
+        "Asha set the legal pad face-down over the folder",
+        "Asha did not feel the absence",
+        "Asha slid the legal pad forwa"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_006",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_001",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Mrs. Hatcher",
+        "Hatcher"
+      ],
+      "canonical_name": "Mrs. Hatcher",
+      "description": "The woman Asha escorts into the courtroom and seats beside her.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "put her free hand on the door for Mrs. Hatcher",
+        "Mrs. Hatcher went past her toward counsel's row",
+        "Asha nodded once for Mrs. Hatcher to take the chair beside her",
+        "Mrs. Hatcher sat, folding her hands in her lap"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_002",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "caseworker"
+      ],
+      "canonical_name": "caseworker",
+      "description": "The caseworker already seated at the far table with an open binder.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "the caseworker was already at the far table with a binder open",
+        "Asha set the legal pad face-down over the folder",
+        "held her gaze a beat longer than greeting required"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_003",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "A person across town who leaves the phone face-down and whose absence Asha senses indirectly.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "Across town Rosa drew the folded towel the rest of the way over the edge of the sink",
+        "leaving the phone face-down behind her",
+        "nothing more was coming through the wood of the folder"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_007",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_004",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "courtroom"
+      ],
+      "canonical_name": "courtroom",
+      "description": "The courtroom where Asha, Mrs. Hatcher, and the caseworker gather.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "Inside, the courtroom smelled of floor polish and old paper",
+        "Asha waited for the judge"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_006",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_005",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "counsel's row",
+        "counsel's table"
+      ],
+      "canonical_name": "counsel's row",
+      "description": "The seating area and table in the courtroom where Asha and Mrs. Hatcher sit.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "Mrs. Hatcher went past her toward counsel's row",
+        "Asha set the legal pad face-down over the folder at counsel's table"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_006",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "far table"
+      ],
+      "canonical_name": "far table",
+      "description": "The table across the courtroom where the caseworker is already seated.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "the caseworker was already at the far table with a binder open"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_003",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_007",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "across town"
+      ],
+      "canonical_name": "across town",
+      "description": "The offscreen location where Rosa is shown leaving the kitchen area.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "Across town Rosa drew the folded towel the rest of the way over the edge of the sink"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_008",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "hallway"
+      ],
+      "canonical_name": "hallway",
+      "description": "The hallway Rosa steps into after leaving the sink area.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "stepped back from the counter into the hallway"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_009",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "cardstock"
+      ],
+      "canonical_name": "cardstock",
+      "description": "The hidden paper item Asha grips tightly in her pocket before entering the courtroom.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "her pocket and did not look; she tightened her grip until the cardstock edge pressed a thin line into the inside of her arm"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_001"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_010",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "binder"
+      ],
+      "canonical_name": "binder",
+      "description": "The open binder the caseworker has at the far table.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "the caseworker was already at the far table with a binder open"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_003"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_011",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "legal pad",
+        "pad"
+      ],
+      "canonical_name": "legal pad",
+      "description": "The pad Asha uses to conceal the hearing note and later slides forward.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "two forty-eight written small and unmarked on the pad under her hand",
+        "Asha set the legal pad face-down over the folder",
+        "Asha slid the legal pad forwa"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_012",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "folder"
+      ],
+      "canonical_name": "folder",
+      "description": "The folder on the counsel table that Asha covers with the legal pad and later feels against her ribs.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "Asha set the legal pad face-down over the folder",
+        "nothing more was coming through the wood of the folder against her ribs"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_004",
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_013",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "two forty-eight"
+      ],
+      "canonical_name": "two forty-eight",
+      "description": "The handwritten note Asha hides beneath the legal pad.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "two forty-eight written small and unmarked on the pad under her hand",
+        "the two forty-eight hidden under blank cardboard"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_014",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Object",
+      "surface_forms": [
+        "phone"
+      ],
+      "canonical_name": "phone",
+      "description": "The phone Rosa leaves face-down behind her.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "leaving the phone face-down behind her"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_015",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Object",
+      "surface_forms": [
+        "folded towel",
+        "towel"
+      ],
+      "canonical_name": "folded towel",
+      "description": "The towel Rosa squares over the sink before leaving the area.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "Rosa drew the folded towel the rest of the way over the edge of the sink",
+        "squared it once with her palm"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_016",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Location",
+      "surface_forms": [
+        "sink"
+      ],
+      "canonical_name": "sink",
+      "description": "The sink area where Rosa adjusts the towel before leaving.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "Rosa drew the folded towel the rest of the way over the edge of the sink"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_017",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Concept",
+      "surface_forms": [
+        "judge"
+      ],
+      "canonical_name": "judge",
+      "description": "The judicial authority Asha waits for at the end of the scene.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_6",
+      "evidence": [
+        "Asha waited for the judge"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_6_ev_008"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_6_ent_018",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman at the center of the scene who hides the number and stops listening for more.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_7",
+      "evidence": [
+        "Asha slid the legal pad forward an inch under her palm",
+        "Asha did not know any of that",
+        "Asha's stillness"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_001",
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_002",
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_005",
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_7_ent_001",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "judge"
+      ],
+      "canonical_name": "judge",
+      "description": "The judge Asha waits for instead of continuing to search for more signals.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_7",
+      "evidence": [
+        "waited for the judge"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_001"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_7_ent_002",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "caseworker"
+      ],
+      "canonical_name": "caseworker",
+      "description": "The caseworker across the aisle who turns a page in the binder.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_7",
+      "evidence": [
+        "the caseworker turned a page in the binder across the aisle"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_003"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_7_ent_003",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The person across town who covers the phone with a folded towel and leaves the kitchen.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_7",
+      "evidence": [
+        "Across town, Rosa lifted the folded towel a final time",
+        "walked out of the kitchen into the hallway"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_7_ent_004",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Mrs. Hatcher"
+      ],
+      "canonical_name": "Mrs. Hatcher",
+      "description": "The woman beside Asha who keeps her hands folded and reads Asha's stillness.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_7",
+      "evidence": [
+        "Beside her, Mrs. Hatcher kept her hands folded in her lap",
+        "reading Asha's stillness"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_006"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_7_ent_005",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "legal pad",
+        "pad"
+      ],
+      "canonical_name": "legal pad",
+      "description": "The pad Asha slides forward and covers with her hand to conceal the number.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_7",
+      "evidence": [
+        "She drew the pad an inch closer under her hand",
+        "Asha slid the legal pad forward an inch under her palm"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_002"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_7_ent_006",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "two forty-eight",
+        "the small two forty-eight",
+        "numbers"
+      ],
+      "canonical_name": "two forty-eight",
+      "description": "The handwritten number on Asha's hand that she covers with the legal pad.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_7",
+      "evidence": [
+        "the small two forty-eight in her own hand",
+        "settling flat across the numbers"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_002"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_7_ent_007",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "folder"
+      ],
+      "canonical_name": "folder",
+      "description": "The folder pressed against Asha's ribs as she senses that nothing more is coming through.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_7",
+      "evidence": [
+        "the wood of the folder against her ribs"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_001"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_7_ent_008",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "binder"
+      ],
+      "canonical_name": "binder",
+      "description": "The binder the caseworker turns a page in across the aisle.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_7",
+      "evidence": [
+        "the caseworker turned a page in the binder across the aisle"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_003"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_7_ent_009",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "folded towel",
+        "towel"
+      ],
+      "canonical_name": "folded towel",
+      "description": "The towel Rosa places over the face-down phone before leaving the kitchen.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_7",
+      "evidence": [
+        "Rosa lifted the folded towel a final time",
+        "set it square over the face-down phone"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_7_ent_010",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "phone",
+        "face-down phone"
+      ],
+      "canonical_name": "phone",
+      "description": "The face-down phone that Rosa covers with a folded towel.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_7",
+      "evidence": [
+        "set it square over the face-down phone"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_7_ent_011",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Location",
+      "surface_forms": [
+        "kitchen"
+      ],
+      "canonical_name": "kitchen",
+      "description": "The room Rosa leaves behind after covering the phone.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_7",
+      "evidence": [
+        "walked out of the kitchen into the hallway"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_7_ent_012",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Location",
+      "surface_forms": [
+        "hallway"
+      ],
+      "canonical_name": "hallway",
+      "description": "The place Rosa walks into after leaving the kitchen.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_7",
+      "evidence": [
+        "walked out of the kitchen into the hallway"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_7_ent_013",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Location",
+      "surface_forms": [
+        "across town"
+      ],
+      "canonical_name": "across town",
+      "description": "The distant location marker indicating Rosa's actions are happening elsewhere from Asha's scene.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_7",
+      "evidence": [
+        "Across town, Rosa"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_7_ent_014",
+      "movie_id": "100_page__scene_13"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Concept",
+      "surface_forms": [
+        "silence",
+        "absence"
+      ],
+      "canonical_name": "silence",
+      "description": "The lack of further signal that Asha interprets as permission to stop listening.",
+      "scene_id": "13",
+      "chunk_id": "doc_12_chunk_0_part_7",
+      "evidence": [
+        "nothing further came",
+        "she took the absence as permission to stop listening for it"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_13_doc_12_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_100_page_13_doc_12_chunk_0_part_7_ent_015",
+      "movie_id": "100_page__scene_13"
+    }
+  ]
+}

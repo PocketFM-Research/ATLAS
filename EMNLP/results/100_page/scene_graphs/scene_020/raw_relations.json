@@ -1,0 +1,1982 @@
+{
+  "20": [
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_0_ev_001",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_0",
+      "evidence": [
+        "\"he was not, this morning, going to tell her what he had decided\""
+      ],
+      "confidence": 0.95,
+      "source_name": "Devin",
+      "target_name": "Devin withholds his decision",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_0_rel_001",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_0",
+      "evidence": [
+        "\"Four-eighteen,\" he said again",
+        "\"I corrected it before she finished her direct, Asha. The intake stamp will show it. The transcript will show it.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Devin",
+      "target_name": "Devin confirms the corrected timestamp",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_0_rel_002",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_0",
+      "evidence": [
+        "\"Whitfield's going to put what you told him next to what I tell them this afternoon, and the gap is going to be the only thing in the room.\""
+      ],
+      "confidence": 0.93,
+      "source_name": "Devin",
+      "target_name": "Devin warns about the evidentiary gap",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_0_rel_003",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_0",
+      "evidence": [
+        "\"Asha set the briefcase on Devin's kitchen table without asking, unlatched it\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha opens the case materials",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_0_rel_004",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_0",
+      "evidence": [
+        "\"and drew out the Hatcher trial record and the clerk's intake log together, laying them side by side\"",
+        "\"so she could read the stamp against her own marginal notation in the same glance\""
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha compares the intake log and trial record",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_0_rel_005",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_0",
+      "evidence": [
+        "\"Four-eighteen sat in the clerk's ink in the upper right corner of the intake page, and her own hand had written five-oh-six in the trial pad two inches away, and the gap between the two numbers was not a\""
+      ],
+      "confidence": 0.92,
+      "source_name": "Asha",
+      "target_name": "Asha discovers the conflicting times",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_0_rel_006",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_0_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_0",
+      "evidence": [
+        "\"Devin did not move from the linoleum\"",
+        "\"a young lawyer doing arithmetic on a kitchen floor\""
+      ],
+      "confidence": 0.9,
+      "source_name": "Devin withholds his decision",
+      "target_name": "Devin's kitchen",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_0_rel_007",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_0_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_0",
+      "evidence": [
+        "\"Devin did not move from the linoleum\"",
+        "\"a young lawyer doing arithmetic on a kitchen floor\""
+      ],
+      "confidence": 0.9,
+      "source_name": "Devin confirms the corrected timestamp",
+      "target_name": "Devin's kitchen",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_0_rel_008",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_0_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_0",
+      "evidence": [
+        "\"Devin did not move from the linoleum\"",
+        "\"a young lawyer doing arithmetic on a kitchen floor\""
+      ],
+      "confidence": 0.9,
+      "source_name": "Devin warns about the evidentiary gap",
+      "target_name": "Devin's kitchen",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_0_rel_009",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_0_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_0",
+      "evidence": [
+        "\"Asha set the briefcase on Devin's kitchen table\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha opens the case materials",
+      "target_name": "Devin's kitchen",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_0_rel_010",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_0_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_0",
+      "evidence": [
+        "\"laying them side by side on the linoleum-bordered formica\""
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha compares the intake log and trial record",
+      "target_name": "Devin's kitchen",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_0_rel_011",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_0_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_0",
+      "evidence": [
+        "\"Asha set the briefcase on Devin's kitchen table\"",
+        "\"on the linoleum-bordered formica\""
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha discovers the conflicting times",
+      "target_name": "Devin's kitchen",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_0_rel_012",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_011",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_012",
+      "target_type": "Concept",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_0",
+      "evidence": [
+        "\"her own marginal notation\"",
+        "\"her own hand had written five-oh-six in the trial pad\""
+      ],
+      "confidence": 0.41,
+      "source_name": "Trial pad",
+      "target_name": "Direct examination",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_0_rel_016",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_001",
+      "target_type": "Character",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_0",
+      "evidence": [
+        "\"Whitfield's going to put what you told him next to what I tell them this afternoon\""
+      ],
+      "confidence": 0.62,
+      "source_name": "Whitfield",
+      "target_name": "Devin",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_0_rel_017",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_010",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_0_ent_008",
+      "target_type": "Object",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_0",
+      "evidence": [
+        "\"The transcript will show it.\""
+      ],
+      "confidence": 0.4,
+      "source_name": "Transcript",
+      "target_name": "Hatcher trial record",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_0_rel_019",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_001",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "r-eighteen sat in the clerk's ink in the upper right corner of the intake page, and her own hand had written five-oh-six in the trial pad two inches away, and the gap between the two numbers was not a thing she could argue with once she had put them on the same surface."
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "compares conflicting document numbers",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_001",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_002",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "Devin watched her do it without moving from the counter, and she did not look up at him;"
+      ],
+      "confidence": 0.98,
+      "source_name": "Devin",
+      "target_name": "Devin observes silently",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_002",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_003",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "she closed the pad over the log, slid both back into the briefcase, and snapped the latch."
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha closes and packs the records",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_003",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_004",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "\"I'm going to Whitfield with this before one,\" she said, and the sentence cost her less than she had expected and more than she wanted Devin to see."
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "Asha decides to bring evidence to Whitfield",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_004",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_005",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "She let herself out of the apartment with the documents under her arm,"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha leaves the apartment with documents",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_005",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_006",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "Asha came up the firm's back corridor with the briefcase against her hip and stopped at Whitfield's door without knocking yet."
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha arrives at Whitfield's office",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_006",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_007",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "Whitfield looked up from his desk when she came through; she set the briefcase on the near chair, unlatched it, and laid the Hatcher trial record and the clerk's intake log on his blotter"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha presents the records to Whitfield",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_007",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_008",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "\"The stamp is four-eighteen,\" she said"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha states the stamp discrepancy",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_008",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_004",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "r-eighteen sat in the clerk's ink in the upper right corner of the intake page"
+      ],
+      "confidence": 0.86,
+      "source_name": "compares conflicting document numbers",
+      "target_name": "the apartment",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_009",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_004",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "Devin watched her do it without moving from the counter"
+      ],
+      "confidence": 0.9,
+      "source_name": "Devin observes silently",
+      "target_name": "the apartment",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_010",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_004",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "she closed the pad over the log, slid both back into the briefcase"
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha closes and packs the records",
+      "target_name": "the apartment",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_011",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_004",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "\"I'm going to Whitfield with this before one,\" she said"
+      ],
+      "confidence": 0.8,
+      "source_name": "Asha decides to bring evidence to Whitfield",
+      "target_name": "the apartment",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_012",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_004",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "She let herself out of the apartment with the documents under her arm"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha leaves the apartment with documents",
+      "target_name": "the apartment",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_013",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_007",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "Asha came up the firm's back corridor with the briefcase against her hip and stopped at Whitfield's door without knocking yet."
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha arrives at Whitfield's office",
+      "target_name": "Whitfield's office",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_014",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_007",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "Whitfield looked up from his desk when she came through; she set the briefcase on the near chair, unlatched it, and laid the Hatcher trial record and the clerk's intake log on his blotter"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha presents the records to Whitfield",
+      "target_name": "Whitfield's office",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_015",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_1_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_007",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "Whitfield looked up from his desk when she came through; she set the briefcase on the near chair, unlatched it, and laid the Hatcher trial record and the clerk's intake log on his blotter"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha states the stamp discrepancy",
+      "target_name": "Whitfield's office",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_016",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_009",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_014",
+      "target_type": "Concept",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "laid the Hatcher trial record and the clerk's intake log on his blotter"
+      ],
+      "confidence": 0.72,
+      "source_name": "intake log",
+      "target_name": "Hatcher trial record",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_017",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_010",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_014",
+      "target_type": "Concept",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "laid the Hatcher trial record and the clerk's intake log on his blotter"
+      ],
+      "confidence": 0.72,
+      "source_name": "trial pad",
+      "target_name": "Hatcher trial record",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_018",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_012",
+      "source_type": "Concept",
+      "relation": "affiliated_with",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_014",
+      "target_type": "Concept",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "r-eighteen sat in the clerk's ink in the upper right corner of the intake page"
+      ],
+      "confidence": 0.7,
+      "source_name": "the clerk's ink",
+      "target_name": "Hatcher trial record",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_020",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_013",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_014",
+      "target_type": "Concept",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "\"The stamp is four-eighteen,\" she said"
+      ],
+      "confidence": 0.66,
+      "source_name": "the stamp discrepancy",
+      "target_name": "Hatcher trial record",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_021",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_004",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "She let herself out of the apartment"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "the apartment",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_022",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_007",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "Asha came up the firm's back corridor with the briefcase against her hip and stopped at Whitfield's door"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Whitfield's office",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_023",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_003",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_007",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "Whitfield looked up from his desk when she came through"
+      ],
+      "confidence": 0.98,
+      "source_name": "Whitfield",
+      "target_name": "Whitfield's office",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_024",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_011",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_1_ent_004",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_1",
+      "evidence": [
+        "slid both back into the briefcase"
+      ],
+      "confidence": 0.9,
+      "source_name": "briefcase",
+      "target_name": "the apartment",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_1_rel_025",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_001",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "laid the Hatcher trial record and the clerk's intake log on his blotter"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "lays out records for comparison",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_001",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_002",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "\"I was wrong about the order this morning, and I'm correcting it before the committee sits.\""
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "corrects the stamp order",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_002",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_003",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "Whitfield did not answer at once; he drew the intake page an inch closer with two fingers and read it without lifting his head"
+      ],
+      "confidence": 0.98,
+      "source_name": "Whitfield",
+      "target_name": "Whitfield silently reviews the intake page",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_003",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_004",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "Asha stood where she was and let him.",
+        "Asha did not sit, and she did not speak. She kept her hands at her sides and her eyes on Whitfield"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Asha holds her ground",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_004",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_005",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "Whitfield turned the intake page a quarter inch with the pad of his index finger, compared it without comment to the line she had written in her own hand"
+      ],
+      "confidence": 0.98,
+      "source_name": "Whitfield",
+      "target_name": "Whitfield compares the records silently",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_005",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_006",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "Asha did not sit, and she did not speak.",
+        "she made herself stand inside that quiet rather than fill it"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "Asha endures the silence",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_006",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_007",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "He read the intake page a second time without speaking"
+      ],
+      "confidence": 0.97,
+      "source_name": "Whitfield",
+      "target_name": "Whitfield rereads without responding",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_007",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_008",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "After a long moment she let her sho"
+      ],
+      "confidence": 0.72,
+      "source_name": "Asha",
+      "target_name": "Asha prepares to move",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_008",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_001",
+      "source_type": "Event",
+      "relation": "references",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_002",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "laid the Hatcher trial record and the clerk's intake log on his blotter so the four-eighteen stamp sat above her own five-oh-six in the same line of sight",
+        "\"I was wrong about the order this morning, and I'm correcting it before the committee sits.\""
+      ],
+      "confidence": 0.84,
+      "source_name": "lays out records for comparison",
+      "target_name": "corrects the stamp order",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_009",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_003",
+      "source_type": "Event",
+      "relation": "references",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_005",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "Whitfield did not answer at once; he drew the intake page an inch closer with two fingers and read it without lifting his head",
+        "Whitfield turned the intake page a quarter inch with the pad of his index finger, compared it without comment to the line she had written in her own hand"
+      ],
+      "confidence": 0.86,
+      "source_name": "Whitfield silently reviews the intake page",
+      "target_name": "Whitfield compares the records silently",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_010",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_005",
+      "source_type": "Event",
+      "relation": "references",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_007",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "compared it without comment",
+        "He read the intake page a second time without speaking"
+      ],
+      "confidence": 0.79,
+      "source_name": "Whitfield compares the records silently",
+      "target_name": "Whitfield rereads without responding",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_011",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_004",
+      "source_type": "Event",
+      "relation": "contrasts_with",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_003",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "Asha stood where she was and let him.",
+        "Whitfield did not answer at once; he drew the intake page an inch closer"
+      ],
+      "confidence": 0.74,
+      "source_name": "Asha holds her ground",
+      "target_name": "Whitfield silently reviews the intake page",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_012",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_006",
+      "source_type": "Event",
+      "relation": "contrasts_with",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_2_ev_007",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "she made herself stand inside that quiet rather than fill it",
+        "He read the intake page a second time without speaking"
+      ],
+      "confidence": 0.7,
+      "source_name": "Asha endures the silence",
+      "target_name": "Whitfield rereads without responding",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_013",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_003",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_005",
+      "target_type": "Object",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "laid the Hatcher trial record and the clerk's intake log on his blotter"
+      ],
+      "confidence": 0.96,
+      "source_name": "Hatcher trial record",
+      "target_name": "Whitfield's blotter",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_014",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_004",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_005",
+      "target_type": "Object",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "laid the Hatcher trial record and the clerk's intake log on his blotter"
+      ],
+      "confidence": 0.96,
+      "source_name": "clerk's intake log",
+      "target_name": "Whitfield's blotter",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_015",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_006",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_004",
+      "target_type": "Object",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "the four-eighteen stamp sat above her own five-oh-six"
+      ],
+      "confidence": 0.88,
+      "source_name": "timestamp stamps",
+      "target_name": "clerk's intake log",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_016",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_007",
+      "source_type": "Concept",
+      "relation": "affiliated_with",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_2_ent_007",
+      "target_type": "Concept",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_2",
+      "evidence": [
+        "before the committee sits"
+      ],
+      "confidence": 0.6,
+      "source_name": "the committee",
+      "target_name": "the committee",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_2_rel_017",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_3_ev_001",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_3",
+      "evidence": [
+        "He read the intake page a second time without speaking"
+      ],
+      "confidence": 0.98,
+      "source_name": "Whitfield",
+      "target_name": "Whitfield rereads intake page silently",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_3_rel_001",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_3_ev_002",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_3",
+      "evidence": [
+        "she stood inside the quiet she had made and let it press against him rather than against her",
+        "Asha held where she was, hands at her sides, weight even"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Asha holds her ground in silence",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_3_rel_002",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_3_ev_003",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_3",
+      "evidence": [
+        "she let her shoulders drop a quarter inch and breathed out through her nose, not in relief but in the small concession"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "Asha concedes slightly",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_3_rel_003",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_3_ev_004",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_3",
+      "evidence": [
+        "whatever Whitfield did with the gap between the two stamps would be his to do first"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "Asha leaves decision to Whitfield",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_3_rel_004",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_3_ev_005",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_3",
+      "evidence": [
+        "The four-eighteen stamp sat where she had put it",
+        "she watched the small muscle at the hinge of Whitfield's jaw and the way his index finger had not yet left the corner of the intake page"
+      ],
+      "confidence": 0.92,
+      "source_name": "Asha",
+      "target_name": "Asha notices the stamps and Whitfield's hesitation",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_3_rel_005",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_3_ent_006",
+      "source_type": "Object",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_3_ev_006",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_3",
+      "evidence": [
+        "The radiator ticked once more behind his chair and did not tick again"
+      ],
+      "confidence": 0.97,
+      "source_name": "radiator",
+      "target_name": "Radiator falls silent",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_3_rel_006",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_3_ev_007",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_3",
+      "evidence": [
+        "She had said the sentence she came to say, and she did not intend to say it twice"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha refuses to repeat herself",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_3_rel_007",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_3_ev_008",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_3",
+      "evidence": [
+        "Asha shifted her weight onto her heels",
+        "let her gaze drop the inch it took to find Whitfield's hand on the corner of the intake page"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha shifts to watch Whitfield's hand",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_3_rel_008",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_3_ev_002",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_3",
+      "evidence": [
+        "she stood inside the quiet she had made and let it press against him rather than against her"
+      ],
+      "confidence": 0.88,
+      "source_name": "Whitfield",
+      "target_name": "Asha holds her ground in silence",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_3_rel_018",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_3_ev_005",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_3",
+      "evidence": [
+        "she watched the small muscle at the hinge of Whitfield's jaw and the way his index finger had not yet left the corner of the intake page"
+      ],
+      "confidence": 0.86,
+      "source_name": "Whitfield",
+      "target_name": "Asha notices the stamps and Whitfield's hesitation",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_3_rel_019",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_3_ev_008",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_3",
+      "evidence": [
+        "let her gaze drop the inch it took to find Whitfield's hand on the corner of the intake page"
+      ],
+      "confidence": 0.84,
+      "source_name": "Whitfield",
+      "target_name": "Asha shifts to watch Whitfield's hand",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_3_rel_020",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_4_ev_001",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_4",
+      "evidence": [
+        "she could see the faint tremor where it hovered",
+        "she had seen"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "Asha notices Whitfield's trembling hand",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_4_rel_001",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_4_ev_002",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_4",
+      "evidence": [
+        "She did not blink.",
+        "she refused to give him the relief of a sound or a shifted foot"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha withholds a response",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_4_rel_002",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_4_ev_003",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_4",
+      "evidence": [
+        "which he had stopped doing"
+      ],
+      "confidence": 0.95,
+      "source_name": "Whitfield",
+      "target_name": "Whitfield stops pressing harder",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_4_rel_003",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_4_ev_004",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_4",
+      "evidence": [
+        "Whitfield's finger settled flat to the page again, but he still did not speak"
+      ],
+      "confidence": 0.98,
+      "source_name": "Whitfield",
+      "target_name": "Whitfield remains silent",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_4_rel_004",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_4_ev_005",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_4",
+      "evidence": [
+        "she drew out the trial record and the intake log"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha retrieves the Hatcher file materials",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_4_rel_005",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_4_ev_006",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_4",
+      "evidence": [
+        "set them on the blotter beside the page he had not yet released"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha places records beside Whitfield's page",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_4_rel_006",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_4_ev_007",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_4",
+      "evidence": [
+        "She aligned the corners against the edge of the desk"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha aligns the documents",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_4_rel_007",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_4_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_008",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_4",
+      "evidence": [
+        "she moved, it was sideways to the low cabinet beside his window, where the Hatcher working file lived in the third drawer"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha retrieves the Hatcher file materials",
+      "target_name": "low cabinet",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_4_rel_012",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_005",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_008",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_4",
+      "evidence": [
+        "where the Hatcher working file lived in the third drawer"
+      ],
+      "confidence": 0.84,
+      "source_name": "Hatcher working file",
+      "target_name": "low cabinet",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_4_rel_015",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_006",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_005",
+      "target_type": "Object",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_4",
+      "evidence": [
+        "she drew out the trial record and the intake log"
+      ],
+      "confidence": 0.86,
+      "source_name": "trial record",
+      "target_name": "Hatcher working file",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_4_rel_016",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_007",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_005",
+      "target_type": "Object",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_4",
+      "evidence": [
+        "she drew out the trial record and the intake log"
+      ],
+      "confidence": 0.86,
+      "source_name": "intake log",
+      "target_name": "Hatcher working file",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_4_rel_017",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_003",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_011",
+      "target_type": "Object",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_4",
+      "evidence": [
+        "Whitfield's hand on the corner of the intake page"
+      ],
+      "confidence": 0.58,
+      "source_name": "intake page",
+      "target_name": "desk",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_4_rel_018",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_004",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_003",
+      "target_type": "Object",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_4",
+      "evidence": [
+        "the four-eighteen stamp sat where she had placed it"
+      ],
+      "confidence": 0.55,
+      "source_name": "stamps",
+      "target_name": "intake page",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_4_rel_019",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_008",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_4",
+      "evidence": [
+        "she moved, it was sideways to the low cabinet beside his window"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "low cabinet",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_4_rel_020",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_4_ent_009",
+      "target_type": "Location",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_4",
+      "evidence": [
+        "the low cabinet beside his window"
+      ],
+      "confidence": 0.74,
+      "source_name": "Whitfield",
+      "target_name": "window",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_4_rel_021",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_001",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "she drew out the trial record and the intake log without asking and set them on the blotter"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha retrieves trial documents",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_001",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_002",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "She aligned the corners against the edge of the desk so the timestamps ran in the order the clerk had stamped them"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha rearranges documents to correct the order",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_002",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_003",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "then she stepped back and put her hands at her sides again",
+        "she stepped back the half pace that turned the desk into something he had to read rather than something she was handing him"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha steps back and lets Whitfield read",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_003",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_004",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "Whitfield looked at the second document and then at the third, and only then at her",
+        "Whitfield's eyes moved across the three pages in the sequence she had laid them in"
+      ],
+      "confidence": 0.98,
+      "source_name": "Whitfield",
+      "target_name": "Whitfield studies the arranged pages",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_004",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_005",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "his finger, which had been flat against the intake sheet, lifted clear of the paper and stayed lifted"
+      ],
+      "confidence": 0.96,
+      "source_name": "Whitfield",
+      "target_name": "Whitfield lifts his finger from the intake sheet",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_005",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_006",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "Asha kept her hands at her sides and her weight even and did not offer the sentence that would have made the correction easier for him to receive"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Asha withholds an easier explanation",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_006",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_007",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "She waited, because the version of her judgment he carried into the one o'clock would be built partly out"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "Asha waits for Whitfield's judgment to settle",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_007",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_004",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_008",
+      "target_type": "Object",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "the trial record",
+        "the page"
+      ],
+      "confidence": 0.72,
+      "source_name": "trial record",
+      "target_name": "page",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_008",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_005",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_008",
+      "target_type": "Object",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "the intake log",
+        "the page"
+      ],
+      "confidence": 0.72,
+      "source_name": "intake log",
+      "target_name": "page",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_009",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_009",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_008",
+      "target_type": "Object",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "She aligned the corners against the edge of the desk"
+      ],
+      "confidence": 0.9,
+      "source_name": "corners",
+      "target_name": "page",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_010",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_010",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_004",
+      "target_type": "Object",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "the timestamps ran in the order the clerk had stamped them"
+      ],
+      "confidence": 0.74,
+      "source_name": "timestamps",
+      "target_name": "trial record",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_018",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_011",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_002",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "the order the clerk had stamped them"
+      ],
+      "confidence": 0.55,
+      "source_name": "clerk",
+      "target_name": "Asha rearranges documents to correct the order",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_019",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_013",
+      "source_type": "Concept",
+      "relation": "possesses",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_5_ent_013",
+      "target_type": "Object",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "the version of her judgment"
+      ],
+      "confidence": 0.5,
+      "source_name": "judgment",
+      "target_name": "judgment",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_020",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_002",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "she drew out the trial record and the intake log",
+        "She aligned the corners"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha retrieves trial documents",
+      "target_name": "Asha rearranges documents to correct the order",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_028",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_002",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_003",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "She aligned the corners",
+        "then she stepped back"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha rearranges documents to correct the order",
+      "target_name": "Asha steps back and lets Whitfield read",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_029",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_030",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_003",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_004",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "then she stepped back",
+        "Whitfield looked at the second document"
+      ],
+      "confidence": 0.86,
+      "source_name": "Asha steps back and lets Whitfield read",
+      "target_name": "Whitfield studies the arranged pages",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_030",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_031",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_004",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_005",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "Whitfield looked at the second document and then at the third, and only then at her",
+        "his finger... lifted clear of the paper"
+      ],
+      "confidence": 0.84,
+      "source_name": "Whitfield studies the arranged pages",
+      "target_name": "Whitfield lifts his finger from the intake sheet",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_031",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_032",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_005",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_006",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "his finger... lifted clear of the paper",
+        "did not offer the sentence"
+      ],
+      "confidence": 0.8,
+      "source_name": "Whitfield lifts his finger from the intake sheet",
+      "target_name": "Asha withholds an easier explanation",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_032",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_033",
+      "source_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_006",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_5_ev_007",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_5",
+      "evidence": [
+        "did not offer the sentence",
+        "She waited"
+      ],
+      "confidence": 0.8,
+      "source_name": "Asha withholds an easier explanation",
+      "target_name": "Asha waits for Whitfield's judgment to settle",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_5_rel_033",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_6_ev_001",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_6",
+      "evidence": [
+        "she would not speak again until he did",
+        "Asha did not move",
+        "she let that distance be the whole of what was happening in the room"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha withholds explanation",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_6_rel_001",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_6_ev_002",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_6",
+      "evidence": [
+        "Asha did not move",
+        "with her hands at her sides"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha remains motionless",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_6_rel_002",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_6_ev_003",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_6",
+      "evidence": [
+        "she would not speak again until he did",
+        "she held to it now"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Asha resolves not to speak",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_6_rel_003",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_6_ev_004",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_6",
+      "evidence": [
+        "Whitfield's eyes returned to the trial record, then to the intake log, then to the page he had been touching"
+      ],
+      "confidence": 0.98,
+      "source_name": "Whitfield",
+      "target_name": "Whitfield reviews the records",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_6_rel_004",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_6_ent_007",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_6_ev_005",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_6",
+      "evidence": [
+        "she held to it now with her hands at her sides and her breath evened against the silence",
+        "The radiator stayed quiet"
+      ],
+      "confidence": 0.84,
+      "source_name": "silence",
+      "target_name": "Silence stretches in the room",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_6_rel_005",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_6_ent_004",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_20_doc_19_chunk_0_part_6_ent_004",
+      "target_type": "Object",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_6",
+      "evidence": [
+        "the trial record, then to the intake log"
+      ],
+      "confidence": 0.4,
+      "source_name": "records and documents",
+      "target_name": "records and documents",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_6_rel_012",
+      "movie_id": "100_page__scene_20"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_100_page_20_doc_19_chunk_0_part_6_ent_005",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_20_doc_19_chunk_0_part_6_ev_004",
+      "target_type": "Event",
+      "scene_id": "20",
+      "chunk_id": "doc_19_chunk_0_part_6",
+      "evidence": [
+        "the order he read them in was the order the clerk had pressed them"
+      ],
+      "confidence": 0.74,
+      "source_name": "the clerk",
+      "target_name": "Whitfield reviews the records",
+      "id": "rel_100_page_20_doc_19_chunk_0_part_6_rel_013",
+      "movie_id": "100_page__scene_20"
+    }
+  ]
+}

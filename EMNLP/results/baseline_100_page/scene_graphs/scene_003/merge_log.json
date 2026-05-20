@@ -1,0 +1,559 @@
+[
+  {
+    "cluster": [
+      "ev_baseline_2_doc_1_chunk_0_part_1_ev_002",
+      "ev_baseline_2_doc_1_chunk_0_part_3_ev_005",
+      "ev_baseline_2_doc_1_chunk_0_part_4_ev_003",
+      "ev_baseline_2_doc_1_chunk_0_part_4_ev_004",
+      "ev_baseline_2_doc_1_chunk_0_part_4_ev_005",
+      "ev_baseline_2_doc_1_chunk_0_part_4_ev_006",
+      "ev_baseline_2_doc_1_chunk_0_part_4_ev_009",
+      "ev_baseline_2_doc_1_chunk_0_part_6_ev_001",
+      "ev_baseline_2_doc_1_chunk_0_part_7_ev_008",
+      "ev_baseline_2_doc_1_chunk_0_part_8_ev_003"
+    ],
+    "max_similarity": 0.6771622110502735,
+    "decision": {
+      "merges": [
+        {
+          "member_indices": [
+            8,
+            9
+          ],
+          "canonical_name": "suspect Lucia took folder",
+          "aliases": [
+            "suspects Lucia took folder"
+          ],
+          "justification": "Both mentions describe the same brief suspicion that Lucia may have taken the missing folder, with identical evidence and no narrative distinction beyond wording."
+        }
+      ],
+      "unmerged": [
+        {
+          "name": "Rosa stores the umbrella away",
+          "justification": "This is a distinct event about the umbrella being put away, unrelated to the missing folder or the interrogation actions."
+        },
+        {
+          "name": "identifies green important papers folder",
+          "justification": "This event identifies the missing green folder and its contents; it is a separate narrative action from the other dialogue events."
+        },
+        {
+          "name": "Daniel suggests his mother moved the papers",
+          "justification": "A separate speculative statement by Daniel about his mother moving the papers."
+        },
+        {
+          "name": "Asha presses Daniel for the papers' location",
+          "justification": "A distinct questioning action by Asha about where the papers were moved."
+        },
+        {
+          "name": "Daniel admits being in the room after the funeral",
+          "justification": "A separate admission about when Daniel was last in the room."
+        },
+        {
+          "name": "Daniel denies opening the desk",
+          "justification": "A distinct denial concerning whether Daniel opened the desk."
+        },
+        {
+          "name": "Daniel insists he stayed only briefly",
+          "justification": "A separate statement elaborating Daniel's brief presence upstairs and denial of touching the papers."
+        },
+        {
+          "name": "accepts the tour",
+          "justification": "A separate conversational action where Asha agrees to continue the tour."
+        }
+      ]
+    }
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_6_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_7_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_6_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_009",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_008"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_003",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_009",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_008"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_003",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_009",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_005",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_008"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_003",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_009",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_008",
+      "ent_baseline_2_doc_1_chunk_0_part_7_ent_004",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_009",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_008"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_009",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_004",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_008"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_009",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_004",
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_004",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_008"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_004",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_008",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_009",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_004",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_004",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_008",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_009",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_004",
+      "ent_baseline_2_doc_1_chunk_0_part_7_ent_003",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_004",
+      "ent_baseline_2_doc_1_chunk_0_part_8_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_008",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_009",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_004",
+      "ent_baseline_2_doc_1_chunk_0_part_7_ent_003",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_006",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_010"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_006",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_010",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_006",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_010",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_010",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_006",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_005",
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_010",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_006",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_003",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_005",
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_6_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_010",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_006",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_003",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_005",
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_6_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_010",
+      "ent_baseline_2_doc_1_chunk_0_part_7_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_006",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_003",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_005",
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "marcus",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_023",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "marcus",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_023",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "marcus",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_023",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "marcus",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_6_ent_003",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_023",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_002",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel serrano",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_004"
+    ]
+  },
+  {
+    "type": "prefix_merge",
+    "canonical_name": "Daniel Serrano",
+    "merged_name": "Daniel",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_008",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_009",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_003",
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_004",
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_001",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_005",
+      "ent_baseline_2_doc_1_chunk_0_part_7_ent_004"
+    ]
+  },
+  {
+    "type": "prefix_merge",
+    "canonical_name": "Daniel's mother",
+    "merged_name": "Daniel",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_008",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_009",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_003",
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_005",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_005",
+      "ent_baseline_2_doc_1_chunk_0_part_7_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "kitchen",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_8_ent_005",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_013"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "house",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_012",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_010"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "house",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_013",
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_012",
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_010"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "hallway",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_015",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_014"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "doorway",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_015",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_028"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "folder",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_8_ent_004",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "key",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_017",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "key",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_017",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_007",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "banker s box",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_003",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_024"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "digital camera",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_004",
+      "ent_baseline_2_doc_1_chunk_0_part_0_ent_025"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "thin cotton gloves",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_1_ent_019",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "desk",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_009",
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "desk",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_009",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_008",
+      "ent_baseline_2_doc_1_chunk_0_part_4_ent_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "sewing machine",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_008",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_031"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "sewing machine",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_008",
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_012",
+      "ent_baseline_2_doc_1_chunk_0_part_2_ent_031"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "green folder",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_011",
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "green folder",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_5_ent_011",
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_006",
+      "ent_baseline_2_doc_1_chunk_0_part_7_ent_013"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "drawer",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_3_ent_007",
+      "ent_baseline_2_doc_1_chunk_0_part_8_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "medical directive",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_6_ent_023",
+      "ent_baseline_2_doc_1_chunk_0_part_7_ent_014"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "coffee",
+    "merged_ids": [
+      "ent_baseline_2_doc_1_chunk_0_part_7_ent_021",
+      "ent_baseline_2_doc_1_chunk_0_part_8_ent_006"
+    ]
+  }
+]

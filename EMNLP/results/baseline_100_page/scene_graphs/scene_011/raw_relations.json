@@ -1,0 +1,2827 @@
+{
+  "10": [
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "She put on her coat in the hall this time without Lucia's help"
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia",
+      "target_name": "put on coat unaided",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_002",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "She did not know whether Lucia would accept Rosa's offer or refuse it on principle and then refuse it again on a different principle until the offer became a wound between them."
+      ],
+      "confidence": 0.94,
+      "source_name": "Lucia",
+      "target_name": "wonder about Lucia's response",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_008",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_009",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "Rosa, having said the largest thing she had said in thirty-one years, would be able to say anything else for a while"
+      ],
+      "confidence": 0.93,
+      "source_name": "Rosa",
+      "target_name": "reflect on speaking openly",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_009",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_005",
+      "target_type": "Object",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "She put it back in her bag."
+      ],
+      "confidence": 0.97,
+      "source_name": "Lucia",
+      "target_name": "bag",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_013",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_006",
+      "target_type": "Object",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "She put on her coat"
+      ],
+      "confidence": 0.96,
+      "source_name": "Lucia",
+      "target_name": "coat",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_014",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_007",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "She put on her coat in the hall"
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "hall",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_015",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_008",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "she said her goodbyes at the front door"
+      ],
+      "confidence": 0.97,
+      "source_name": "Lucia",
+      "target_name": "front door",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_016",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_009",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "without crossing the threshold of the dining room again"
+      ],
+      "confidence": 0.9,
+      "source_name": "Lucia",
+      "target_name": "dining room",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_017",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_010",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "she went down the stoop"
+      ],
+      "confidence": 0.97,
+      "source_name": "Lucia",
+      "target_name": "stoop",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_018",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_013",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "she stood for a moment at the bottom of the steps"
+      ],
+      "confidence": 0.96,
+      "source_name": "Lucia",
+      "target_name": "bottom of the steps",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_019",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_012",
+      "source_type": "Concept",
+      "relation": "present_on",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_011",
+      "target_type": "TimePoint",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "into a Thursday afternoon that had turned, while she was inside, into a thin and surprising sunlight"
+      ],
+      "confidence": 0.84,
+      "source_name": "thin and surprising sunlight",
+      "target_name": "Thursday afternoon",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_020",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_014",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_013",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "with her hand on the iron railing"
+      ],
+      "confidence": 0.95,
+      "source_name": "iron railing",
+      "target_name": "bottom of the steps",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_021",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_015",
+      "source_type": "Concept",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_007",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "what would happen in that house between now and Monday week"
+      ],
+      "confidence": 0.86,
+      "source_name": "the house",
+      "target_name": "hall",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_022",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_017",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_017",
+      "target_type": "Concept",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "the version of himself"
+      ],
+      "confidence": 0.7,
+      "source_name": "version of himself",
+      "target_name": "version of himself",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_024",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_018",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_018",
+      "target_type": "Concept",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "Rosa's offer"
+      ],
+      "confidence": 0.7,
+      "source_name": "Rosa's offer",
+      "target_name": "Rosa's offer",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_025",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_019",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_019",
+      "target_type": "Concept",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "the offer became a wound between them"
+      ],
+      "confidence": 0.7,
+      "source_name": "a wound between them",
+      "target_name": "a wound between them",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_026",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_020",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_020",
+      "target_type": "Concept",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "the largest thing she had said in thirty-one years"
+      ],
+      "confidence": 0.7,
+      "source_name": "the largest thing she had said in thirty-one years",
+      "target_name": "the largest thing she had said in thirty-one years",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_027",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_021",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_021",
+      "target_type": "Concept",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "had opened in her a door"
+      ],
+      "confidence": 0.7,
+      "source_name": "a door",
+      "target_name": "a door",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_028",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_022",
+      "source_type": "Object",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_010",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "the codicil had been filed"
+      ],
+      "confidence": 0.88,
+      "source_name": "codicil",
+      "target_name": "learn codicil filed and buyers gone",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_029",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_030",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_023",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_010",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "the buyers were gone"
+      ],
+      "confidence": 0.82,
+      "source_name": "buyers",
+      "target_name": "learn codicil filed and buyers gone",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_030",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_031",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_025",
+      "source_type": "Object",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_011",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "the appraisal would arrive on Wednesday"
+      ],
+      "confidence": 0.86,
+      "source_name": "appraisal",
+      "target_name": "anticipate appraisal and future meeting",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_031",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_033",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "She put on her coat in the hall this time without Lucia's help"
+      ],
+      "confidence": 0.9,
+      "source_name": "Lucia",
+      "target_name": "put on coat unaided",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_033",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_044",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_007",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "what would happen in that house between now and Monday week"
+      ],
+      "confidence": 0.8,
+      "source_name": "Daniel",
+      "target_name": "hall",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_044",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_045",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_007",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "what would happen in that house between now and Monday week"
+      ],
+      "confidence": 0.8,
+      "source_name": "Rosa",
+      "target_name": "hall",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_045",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_047",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_009",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "the three of them would sit in that dining room again"
+      ],
+      "confidence": 0.82,
+      "source_name": "Daniel",
+      "target_name": "dining room",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_047",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_048",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_009",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "the three of them would sit in that dining room again"
+      ],
+      "confidence": 0.82,
+      "source_name": "Rosa",
+      "target_name": "dining room",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_rel_048",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "synth_ev_baseline_10_doc_9_chunk_0_part_0_ev_007_ent_baseline_10_doc_9_chunk_0_part_0_ent_002",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_007",
+      "target_type": "Event",
+      "evidence": [
+        "She did not know whether Daniel would, in the privacy of the days ahead, find the version of himself he had glimpsed at the table or lose it again."
+      ],
+      "confidence": 0.6,
+      "source_name": "Daniel",
+      "target_name": "wonder about Daniel's change",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_0_synth_ev_baseline_10_doc_9_chunk_0_part_0_ev_007_ent_baseline_10_doc_9_chunk_0_part_0_ent_002",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_001",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"appraisal would arrive on Wednesday, and that on Monday week the three of them would sit in that dining room again and decide...\""
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha",
+      "target_name": "anticipates appraisal and family decision",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_001",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_002",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"whatever they decided would... be a decision they had made and not a decision that had been made for them.\""
+      ],
+      "confidence": 0.84,
+      "source_name": "Asha",
+      "target_name": "recognizes her influence on the decision",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_002",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_003",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"She let go of the railing.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "releases the railing",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_003",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_004",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"She walked to the corner. At the corner she stopped and turned and looked back at the house.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "looks back at the house",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_004",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_005",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"She turned the corner and walked east, toward the office, and toward the week that was about to begin.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "walks toward the office",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_005",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_006",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"The week that began on Friday morning began for Asha with the ordinary problem of a docket.\""
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "starts the workweek with a docket",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_006",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_007",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"She arrived at the office at seven-forty\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "arrives early at the office",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_007",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_003",
+      "target_type": "TimePoint",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"appraisal would arrive on Wednesday\""
+      ],
+      "confidence": 0.99,
+      "source_name": "anticipates appraisal and family decision",
+      "target_name": "Wednesday",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_008",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_002",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"sit in that dining room again and decide\""
+      ],
+      "confidence": 0.62,
+      "source_name": "anticipates appraisal and family decision",
+      "target_name": "the house",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_009",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_002",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"sit in that dining room again and decide\""
+      ],
+      "confidence": 0.58,
+      "source_name": "recognizes her influence on the decision",
+      "target_name": "the house",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_010",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_002",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"She let go of the railing.\""
+      ],
+      "confidence": 0.55,
+      "source_name": "releases the railing",
+      "target_name": "the house",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_011",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_002",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"looked back at the house\""
+      ],
+      "confidence": 0.97,
+      "source_name": "looks back at the house",
+      "target_name": "the house",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_012",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_002",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"walked east, toward the office\""
+      ],
+      "confidence": 0.57,
+      "source_name": "walks toward the office",
+      "target_name": "the house",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_013",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_007",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"The week that began on Friday morning began for Asha with the ordinary problem of a docket.\""
+      ],
+      "confidence": 0.51,
+      "source_name": "starts the workweek with a docket",
+      "target_name": "Bucks County",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_014",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_007",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"She arrived at the office at seven-forty\""
+      ],
+      "confidence": 0.56,
+      "source_name": "arrives early at the office",
+      "target_name": "Bucks County",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_015",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_002",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_007",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"the office\""
+      ],
+      "confidence": 0.99,
+      "source_name": "the house",
+      "target_name": "Bucks County",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_016",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_004",
+      "source_type": "Concept",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_002",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"the appraisal would arrive on Wednesday\""
+      ],
+      "confidence": 0.41,
+      "source_name": "the appraisal",
+      "target_name": "the house",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_017",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_005",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_002",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"She let go of the railing.\""
+      ],
+      "confidence": 0.9,
+      "source_name": "the railing",
+      "target_name": "the house",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_018",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_006",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_1_ent_002",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "\"as if someone inside had touched it in passing\""
+      ],
+      "confidence": 0.63,
+      "source_name": "someone inside the house",
+      "target_name": "the house",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_1_rel_019",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_008",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_006",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "Then she called Marcus."
+      ],
+      "confidence": 0.99,
+      "source_name": "Marcus",
+      "target_name": "call Marcus",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_006",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_008",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_007",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "Marcus had filed the codicil"
+      ],
+      "confidence": 0.88,
+      "source_name": "Marcus",
+      "target_name": "learn Marcus filed codicil",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_007",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_002",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "She arrived at the office at seven-forty"
+      ],
+      "confidence": 0.99,
+      "source_name": "arrive at office early",
+      "target_name": "the office",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_008",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_001",
+      "target_type": "TimePoint",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "at seven-forty"
+      ],
+      "confidence": 0.99,
+      "source_name": "arrive at office early",
+      "target_name": "seven-forty",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_009",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_003",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "she made coffee in the small kitchen"
+      ],
+      "confidence": 0.99,
+      "source_name": "make coffee",
+      "target_name": "the small kitchen",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_010",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_004",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "stood at the window of her office"
+      ],
+      "confidence": 0.99,
+      "source_name": "reflect at office window",
+      "target_name": "the window of her office",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_011",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_002",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "The list was on a yellow pad on her desk"
+      ],
+      "confidence": 0.85,
+      "source_name": "review task list",
+      "target_name": "the office",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_012",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_002",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "Then she called Marcus."
+      ],
+      "confidence": 0.7,
+      "source_name": "call Marcus",
+      "target_name": "the office",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_014",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_002",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "Marcus had filed the codicil on T"
+      ],
+      "confidence": 0.55,
+      "source_name": "learn Marcus filed codicil",
+      "target_name": "the office",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_015",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_002",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "She arrived at the office at seven-forty, ... and she made coffee in the small kitchen"
+      ],
+      "confidence": 0.9,
+      "source_name": "arrive at office early",
+      "target_name": "make coffee",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_016",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_002",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_003",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "she made coffee in the small kitchen and stood at the window of her office"
+      ],
+      "confidence": 0.9,
+      "source_name": "make coffee",
+      "target_name": "reflect at office window",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_017",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_003",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_004",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "stood at the window of her office ... She had made, the night before, a list."
+      ],
+      "confidence": 0.72,
+      "source_name": "reflect at office window",
+      "target_name": "review task list",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_018",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_004",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_005",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "She had made, the night before, a list. ... She looked at the seventh item for some time and then she crossed it out"
+      ],
+      "confidence": 0.86,
+      "source_name": "review task list",
+      "target_name": "confront neutrality note",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_019",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_005",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_006",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "Then she called Marcus."
+      ],
+      "confidence": 0.95,
+      "source_name": "confront neutrality note",
+      "target_name": "call Marcus",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_020",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_006",
+      "source_type": "Event",
+      "relation": "references",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_007",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "call Marcus re: filing confirmation",
+        "Then she called Marcus.",
+        "Marcus had filed the codicil"
+      ],
+      "confidence": 0.92,
+      "source_name": "call Marcus",
+      "target_name": "learn Marcus filed codicil",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_021",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_007",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_004",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "the yellow pad on her desk"
+      ],
+      "confidence": 0.62,
+      "source_name": "yellow pad list",
+      "target_name": "the window of her office",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_022",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_010",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_010",
+      "target_type": "Concept",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "\"neutrality.\""
+      ],
+      "confidence": 0.5,
+      "source_name": "neutrality",
+      "target_name": "neutrality",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_023",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_008",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_002",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "She arrived at the office at seven-forty"
+      ],
+      "confidence": 0.99,
+      "source_name": "Marcus",
+      "target_name": "the office",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_024",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_008",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_003",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "she made coffee in the small kitchen"
+      ],
+      "confidence": 0.98,
+      "source_name": "Marcus",
+      "target_name": "the small kitchen",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_025",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_008",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_004",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "stood at the window of her office"
+      ],
+      "confidence": 0.98,
+      "source_name": "Marcus",
+      "target_name": "the window of her office",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_026",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_007",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_002",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "The list was on a yellow pad on her desk"
+      ],
+      "confidence": 0.9,
+      "source_name": "yellow pad list",
+      "target_name": "the office",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_027",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_008",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_007",
+      "target_type": "Object",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "She had made, the night before, a list. The list was on a yellow pad on her desk"
+      ],
+      "confidence": 0.84,
+      "source_name": "Marcus",
+      "target_name": "yellow pad list",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_028",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_008",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_2_ent_008",
+      "target_type": "Character",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "Then she called Marcus."
+      ],
+      "confidence": 0.4,
+      "source_name": "Marcus",
+      "target_name": "Marcus",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_2_rel_029",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_001",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "She wrote in its place, in the same small handwriting, \"remember why you do this work.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "writes reminder in notebook",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_001",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_002",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "Then she called Marcus."
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "calls Marcus",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_002",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_003",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "Marcus had filed the codicil on Thursday evening at four-fifteen, twenty minutes before the Register of Wills closed."
+      ],
+      "confidence": 0.99,
+      "source_name": "Marcus",
+      "target_name": "files codicil before office closes",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_003",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_004",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "he had filed it under cover of an explanatory letter that Asha had drafted in the car on the way back from the house"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "drafts explanatory letter in car",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_004",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_005",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "and he had paid the filing fee out of the retainer"
+      ],
+      "confidence": 0.99,
+      "source_name": "Marcus",
+      "target_name": "pays filing fee from retainer",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_005",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_006",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "and he had brought back a stamped copy which was now in the file on her desk and a digital scan which was now in the cloud folder she shared with herself"
+      ],
+      "confidence": 0.97,
+      "source_name": "Marcus",
+      "target_name": "secures stamped copy and scan",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_006",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_007",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "which was as close to permanence as any document achieved in this profession"
+      ],
+      "confidence": 0.84,
+      "source_name": "Asha",
+      "target_name": "reflects on document permanence",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_007",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_008",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "\"They will contest it,\" Marcus said, by way of greeting"
+      ],
+      "confidence": 0.99,
+      "source_name": "Marcus",
+      "target_name": "warns that codicil will be contested",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_008",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_009",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "\"The brother is not going to contest it.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "denies brother will contest",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_009",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_010",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "\"I am not certain. I am hopeful. There is a difference and I am holding onto it because it is Friday morning and I have not had enough coffee.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "admits uncertainty and hopes",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_010",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_011",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "\"You are not their friend.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Marcus",
+      "target_name": "Marcus reminds Asha she is not their friend",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_011",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_012",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "\"I know,\" she said."
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "acknowledges professional distance",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_012",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_003",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "Marcus had filed the codicil on Thursday evening at four-fifteen, twenty minutes before the Register of Wills closed."
+      ],
+      "confidence": 0.9,
+      "source_name": "codicil",
+      "target_name": "Register of Wills",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_014",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_004",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_013",
+      "target_type": "Vehicle",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "Asha had drafted in the car on the way back from the house"
+      ],
+      "confidence": 0.93,
+      "source_name": "explanatory letter",
+      "target_name": "car",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_015",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_009",
+      "source_type": "Concept",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "out of the retainer"
+      ],
+      "confidence": 0.4,
+      "source_name": "retainer",
+      "target_name": "Register of Wills",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_018",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_014",
+      "source_type": "Concept",
+      "relation": "affiliated_with",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_014",
+      "target_type": "Concept",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "Whoever is going to. The buyers, if they come back and find out the contingency they were depending on is gone. The brother, eventually, if he reverts to type. The IRS, conceivably, if the valuation comes in higher than the basis we are going to claim."
+      ],
+      "confidence": 0.31,
+      "source_name": "potential challengers",
+      "target_name": "potential challengers",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_019",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_012",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "from the house"
+      ],
+      "confidence": 0.52,
+      "source_name": "Asha",
+      "target_name": "house",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_020",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "Register of Wills closed"
+      ],
+      "confidence": 0.95,
+      "source_name": "files codicil before office closes",
+      "target_name": "Register of Wills",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_021",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_013",
+      "target_type": "Vehicle",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "Asha had drafted in the car"
+      ],
+      "confidence": 0.98,
+      "source_name": "drafts explanatory letter in car",
+      "target_name": "car",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_022",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "Marcus had filed the codicil on Thursday evening at four-fifteen, twenty minutes before the Register of Wills closed"
+      ],
+      "confidence": 0.9,
+      "source_name": "pays filing fee from retainer",
+      "target_name": "Register of Wills",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_3_rel_023",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_4_ev_001",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "evidence": [
+        "\"You are not their friend.\"",
+        "\"I am not saying this to reprimand you. I am saying this because I have watched you for three years...\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Marcus",
+      "target_name": "Marcus warns Asha about emotional involvement",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_4_rel_001",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_4_ev_002",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "evidence": [
+        "\"...I have also seen the cases where you came close to mistaking the people for the work, and this one has all the markings.\"",
+        "\"The daughter who looks at you a certain way. The housekeeper who has decided to trust you. The son who has, against the odds, started to behave.\""
+      ],
+      "confidence": 0.97,
+      "source_name": "Marcus",
+      "target_name": "Marcus identifies warning signs in the case",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_4_rel_002",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_4_ev_003",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "evidence": [
+        "\"I have not made any decisions on their behalf.\"",
+        "\"I know you have not.\""
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha denies acting for clients",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_4_rel_003",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_4_ev_004",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "evidence": [
+        "\"Do not thank me. Buy me lunch.\"",
+        "\"Tuesday.\""
+      ],
+      "confidence": 0.9,
+      "source_name": "Marcus",
+      "target_name": "Marcus softens warning and ends call",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_4_rel_004",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_4_ev_005",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "evidence": [
+        "\"She hung up and sat for some time with her hand on the receiver, and then she picked up the yellow pad and wrote, beneath the items already there, an eighth item: 'Marcus — Tuesday lunch — listen.'\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha records Marcus's warning",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_4_rel_005",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_4_ev_006",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "evidence": [
+        "\"The day went the way days went. The guardianship matter required two telephone calls and a memo. The affidavit took an hour. The intake calls were bo...\""
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha",
+      "target_name": "Asha continues her workday",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_4_rel_006",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_4_ev_001",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "evidence": [
+        "\"You are not their friend.\"",
+        "\"I know,\" she said."
+      ],
+      "confidence": 0.84,
+      "source_name": "Asha",
+      "target_name": "Marcus warns Asha about emotional involvement",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_4_rel_007",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_4_ev_002",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "evidence": [
+        "\"...I have watched you for three years and I have seen you do this work better than anyone I know and I have also seen the cases where you came close to mistaking the people for the work...\""
+      ],
+      "confidence": 0.86,
+      "source_name": "Asha",
+      "target_name": "Marcus identifies warning signs in the case",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_4_rel_008",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_4_ev_005",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "evidence": [
+        "\"Marcus — Tuesday lunch — listen.\""
+      ],
+      "confidence": 0.72,
+      "source_name": "Marcus",
+      "target_name": "Asha records Marcus's warning",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_4_rel_010",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_006",
+      "target_type": "Object",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "evidence": [
+        "\"She hung up and sat for some time with her hand on the receiver...\""
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "phone receiver",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_4_rel_012",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_007",
+      "target_type": "Object",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "evidence": [
+        "\"...then she picked up the yellow pad and wrote...\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "yellow pad",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_4_rel_013",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_008",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_008",
+      "target_type": "Concept",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "evidence": [
+        "\"The guardianship matter required two telephone calls and a memo.\""
+      ],
+      "confidence": 0.5,
+      "source_name": "the guardianship matter",
+      "target_name": "the guardianship matter",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_4_rel_014",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_011",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_4_ent_011",
+      "target_type": "Concept",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "evidence": [
+        "\"The intake calls were bo...\""
+      ],
+      "confidence": 0.5,
+      "source_name": "intake calls",
+      "target_name": "intake calls",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_4_rel_017",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_001",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "The day went the way days went. The guardianship matter required two telephone calls and a memo. The affidavit took an hour."
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "handles routine legal work",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_001",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_002",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "one of them a man whose father had died intestate in 2019 and whose siblings had decided five years later that this was finally the moment to discuss it"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "hears intestacy dispute call",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_002",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_003",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "the other a woman who wanted to know whether she could disinherit a son who had not spoken to her in eleven years"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "hears disinheritance inquiry",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_003",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_004",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "underneath these two activities the other part of her, the part she did not have a name for, was thinking about the second-floor window and the curtain that had moved."
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "fixates on moving curtain",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_004",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_005",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_005",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "At two in the afternoon her assistant put through a call from Lucia."
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha's assistant",
+      "target_name": "receives call from Lucia",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_005",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_006",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "\"I am sorry to call you at work,\" Lucia said."
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia",
+      "target_name": "Lucia apologizes for calling at work",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_006",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_007",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "\"It is what the office line is for. Are you all right.\""
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha reassures Lucia",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_007",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_008",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "\"I am all right. I am calling because Daniel came over this morning and we had breakfast together for the first time in I cannot remember how long\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Lucia reports breakfast with Daniel",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_008",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_009",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "\"I did not want to tell you that on your cell because I remembered you said the office line was for office things\""
+      ],
+      "confidence": 0.97,
+      "source_name": "Lucia",
+      "target_name": "Lucia explains office-line choice",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_009",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_010",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "\"and this is, I suppose, an office thing, because it concerns the\""
+      ],
+      "confidence": 0.95,
+      "source_name": "Lucia",
+      "target_name": "Lucia frames personal news as office matter",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_010",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_001",
+      "target_type": "Character",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "At two in the afternoon her assistant put through a call from Lucia.",
+        "\"I am sorry to call you at work,\" Lucia said.",
+        "\"It is what the office line is for. Are you all right.\""
+      ],
+      "confidence": 0.84,
+      "source_name": "Lucia",
+      "target_name": "Asha",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_011",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_003",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_002",
+      "target_type": "Character",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "Daniel came over this morning and we had breakfast together"
+      ],
+      "confidence": 0.88,
+      "source_name": "Daniel",
+      "target_name": "Lucia",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_012",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_005",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_001",
+      "target_type": "Character",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "her assistant put through a call from Lucia"
+      ],
+      "confidence": 0.7,
+      "source_name": "Asha's assistant",
+      "target_name": "Asha",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_013",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_017",
+      "target_type": "Object",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "\"I did not want to tell you that on your cell because I remembered you said the office line was for office things\""
+      ],
+      "confidence": 0.93,
+      "source_name": "Lucia",
+      "target_name": "office line",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_015",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_018",
+      "target_type": "Object",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "I did not want to tell you that on your cell"
+      ],
+      "confidence": 0.82,
+      "source_name": "Lucia",
+      "target_name": "cell phone",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_016",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_019",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_019",
+      "target_type": "Object",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "the second-floor window and the curtain that had moved"
+      ],
+      "confidence": 0.99,
+      "source_name": "second-floor window and curtain",
+      "target_name": "second-floor window and curtain",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_017",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_020",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_021",
+      "target_type": "Concept",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "the office line was for office things"
+      ],
+      "confidence": 0.55,
+      "source_name": "intestacy",
+      "target_name": "office things",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_018",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_5_ent_010",
+      "target_type": "TimePoint",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "At two in the afternoon"
+      ],
+      "confidence": 0.99,
+      "source_name": "receives call from Lucia",
+      "target_name": "two in the afternoon",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_5_rel_024",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_001",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "to tell you that, and I did not want to tell you that on your cell because I remembered you said the office line was for office things",
+        "this is, I suppose, an office thing, because it concerns the estate"
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "calls office line about estate",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_001",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_001",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"I am glad you called the office line.\""
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "calls office line about estate",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_002",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_002",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"I am glad you called the office line.\""
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "Asha approves office-line call",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_003",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_003",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"He brought bagels.\"",
+        "\"He brought bagels and lox and cream cheese and capers and the small red onion sliced very thin\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Daniel",
+      "target_name": "Daniel brings breakfast",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_004",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_004",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "the small red onion sliced very thin, which is the way our mother used to slice it"
+      ],
+      "confidence": 0.84,
+      "source_name": "Lucia",
+      "target_name": "Lucia recalls mother-like onion slicing",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_005",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_005",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "he set the table in the kitchen, not the dining room, and we ate breakfast and we did not talk about the house for the first forty minutes and then we talked about the house for two hours"
+      ],
+      "confidence": 0.9,
+      "source_name": "Daniel",
+      "target_name": "breakfast shifts to house discussion",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_007",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_005",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "we ate breakfast and we did not talk about the house for the first forty minutes and then we talked about the house for two hours"
+      ],
+      "confidence": 0.92,
+      "source_name": "Lucia",
+      "target_name": "breakfast shifts to house discussion",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_008",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_006",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "now he is gone"
+      ],
+      "confidence": 0.86,
+      "source_name": "Daniel",
+      "target_name": "Daniel leaves after breakfast",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_009",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_007",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "I wanted to tell someone, and the someone I wanted to tell was you, and I am aware of what that means and I am telling you anyway"
+      ],
+      "confidence": 0.97,
+      "source_name": "Lucia",
+      "target_name": "Lucia confides in Asha",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_010",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_007",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "I wanted to tell someone, and the someone I wanted to tell was you"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "Lucia confides in Asha",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_011",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_008",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "I am aware of what that means"
+      ],
+      "confidence": 0.82,
+      "source_name": "Lucia",
+      "target_name": "Lucia acknowledges feelings for Asha",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_012",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_009",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "I cannot be the person you tell about it. Not yet. Not while I am the lawyer on this estate. After. If you want to, after."
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha sets professional boundary",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_013",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_010",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"All right,\" Lucia said."
+      ],
+      "confidence": 0.95,
+      "source_name": "Lucia",
+      "target_name": "Lucia accepts boundary",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_014",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_011",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"I am sorry.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha apologizes",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_015",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_008",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "he set the table in the kitchen"
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "kitchen",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_016",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_003",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_008",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "he set the table in the kitchen"
+      ],
+      "confidence": 0.98,
+      "source_name": "Daniel",
+      "target_name": "kitchen",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_017",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_009",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_007",
+      "target_type": "Object",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "He brought bagels and lox and cream cheese and capers and the small red onion sliced very thin"
+      ],
+      "confidence": 0.72,
+      "source_name": "plates",
+      "target_name": "breakfast items",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_018",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_007",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_010",
+      "target_type": "Concept",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "we talked about the house for two hours"
+      ],
+      "confidence": 0.55,
+      "source_name": "breakfast items",
+      "target_name": "the house",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_019",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_005",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_010",
+      "target_type": "Concept",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "it concerns the estate"
+      ],
+      "confidence": 0.6,
+      "source_name": "the estate",
+      "target_name": "the house",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_020",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_006",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_008",
+      "target_type": "Location",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "the office line was for office things"
+      ],
+      "confidence": 0.58,
+      "source_name": "office line",
+      "target_name": "kitchen",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_021",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_6_ent_002",
+      "target_type": "Character",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "the someone I wanted to tell was you",
+        "\"I am glad you called the office line.\"",
+        "\"I am sorry.\""
+      ],
+      "confidence": 0.74,
+      "source_name": "Lucia",
+      "target_name": "Asha",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_6_rel_022",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_001",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "\"All right,\" Lucia said.",
+        "It was the silence of a person absorbing something she had half-expected."
+      ],
+      "confidence": 0.95,
+      "source_name": "Lucia",
+      "target_name": "Lucia accepts the news calmly",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_7_rel_001",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_002",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "\"I am sorry.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha apologizes",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_7_rel_002",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_003",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "\"Yes. He asked me whether I would consider, if he bought out my share of the house at fair market value, staying in it for a year while he decided what he wanted to do with it.\""
+      ],
+      "confidence": 0.96,
+      "source_name": "Lucia",
+      "target_name": "Lucia reveals estate proposal",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_7_rel_003",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_004",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "\"He said he was not asking me to decide today. He said he was telling me he was considering asking me, and he wanted to know whether the question was one I would be willing to receive in two weeks.\""
+      ],
+      "confidence": 0.97,
+      "source_name": "Lucia",
+      "target_name": "Lucia postpones answering the proposal",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_7_rel_004",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_005",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "\"I told him I would be willing to receive the question. I told him I had not yet decided what I wanted either, and that I would not pretend to have decided in order to give him an answer, and that if he asked me in two weeks I would tell him what I knew then and not before.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Lucia answers the question carefully",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_7_rel_005",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_006",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "\"That was well said.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha praises Lucia's phrasing",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_7_rel_006",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_007",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "\"Is it improper of me to tell you that I am — that I am grateful to you. In an estate sense. As a client. Is that a thing a client is permitted to say.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha expresses estate gratitude",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_7_rel_007",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_008",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "\"In an estate sense, received and noted.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia",
+      "target_name": "Lucia acknowledges gratitude",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_7_rel_008",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_002",
+      "target_type": "Character",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "\"That was well said.\"",
+        "\"You are welcome to it.\""
+      ],
+      "confidence": 0.72,
+      "source_name": "Lucia",
+      "target_name": "Asha",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_7_rel_009",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_005",
+      "target_type": "Object",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "\"if he bought out my share of the house at fair market value\""
+      ],
+      "confidence": 0.9,
+      "source_name": "Lucia",
+      "target_name": "house",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_7_rel_011",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_005",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_004",
+      "target_type": "Concept",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "\"the house at fair market value\""
+      ],
+      "confidence": 0.88,
+      "source_name": "house",
+      "target_name": "estate",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_7_rel_012",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_006",
+      "source_type": "Concept",
+      "relation": "part_of",
+      "target_id": "ent_baseline_10_doc_9_chunk_0_part_7_ent_004",
+      "target_type": "Concept",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "\"at fair market value\""
+      ],
+      "confidence": 0.86,
+      "source_name": "fair market value",
+      "target_name": "estate",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_7_rel_013",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_003",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_004",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "\"He said he was not asking me to decide today. He said he was telling me he was considering asking me\""
+      ],
+      "confidence": 0.9,
+      "source_name": "Lucia reveals estate proposal",
+      "target_name": "Lucia postpones answering the proposal",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_7_rel_015",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_005",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_006",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "\"That was well said.\""
+      ],
+      "confidence": 0.81,
+      "source_name": "Lucia answers the question carefully",
+      "target_name": "Asha praises Lucia's phrasing",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_7_rel_016",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_007",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_008",
+      "target_type": "Event",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "\"Thank you.\" \"Good. Then I am saying it.\" \"In an estate sense, received and noted.\""
+      ],
+      "confidence": 0.89,
+      "source_name": "Asha expresses estate gratitude",
+      "target_name": "Lucia acknowledges gratitude",
+      "id": "rel_baseline_10_doc_9_chunk_0_part_7_rel_017",
+      "movie_id": "baseline_100_page__scene_10"
+    }
+  ]
+}

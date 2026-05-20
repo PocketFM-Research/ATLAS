@@ -1,0 +1,2907 @@
+{
+  "7": [
+    {
+      "temp_id": "ent_001",
+      "type": "Location",
+      "surface_forms": [
+        "Rittenhouse Square"
+      ],
+      "canonical_name": "Rittenhouse Square",
+      "description": "The city square where she ends up sitting on a bench and observing the scene around her.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "she ended up, without quite intending to, in Rittenhouse Square",
+        "She sat on a bench."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_004"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_0_ent_001",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Location",
+      "surface_forms": [
+        "Eighteenth"
+      ],
+      "canonical_name": "Eighteenth",
+      "description": "The street she walks north on before reaching Rittenhouse Square.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She walked north on Eighteenth"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_002"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_0_ent_002",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Location",
+      "surface_forms": [
+        "Walnut"
+      ],
+      "canonical_name": "Walnut",
+      "description": "The street she walks west on before ending up in Rittenhouse Square.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "and west on Walnut"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_002"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_0_ent_003",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "phone"
+      ],
+      "canonical_name": "phone",
+      "description": "The phone she deliberately does not take out while sitting on the bench.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She did not take out her phone."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_003"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_0_ent_004",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "small boy",
+        "boy"
+      ],
+      "canonical_name": "small boy",
+      "description": "The child in a red coat who repeatedly tries to feed a pigeon a piece of pretzel.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She watched a small boy in a red coat try to feed a pigeon a piece of pretzel and fail and try again."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_004"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_0_ent_005",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Character",
+      "surface_forms": [
+        "pigeon"
+      ],
+      "canonical_name": "pigeon",
+      "description": "The bird the small boy tries to feed with a piece of pretzel.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "try to feed a pigeon a piece of pretzel"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_004"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_0_ent_006",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Character",
+      "surface_forms": [
+        "mother"
+      ],
+      "canonical_name": "mother",
+      "description": "Her deceased mother, whom she remembers while sitting in the square.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She thought about her mother, who had been dead for eleven years"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_0_ent_007",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "Serrano",
+        "Serrano dining room",
+        "Serrano house"
+      ],
+      "canonical_name": "Serrano",
+      "description": "The Serrano family and their associated home, which frame her feelings of envy and later her engagement rules.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "the Serrano dining room",
+        "RULES OF ENGAGEMENT, SERRANO",
+        "Do not eat at the house."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_006",
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_012"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_0_ent_008",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Character",
+      "surface_forms": [
+        "buyers' attorney"
+      ],
+      "canonical_name": "buyers' attorney",
+      "description": "The attorney to whom she drafts a firm letter as part of her work.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She drafted a letter to the buyers' attorney"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_0_ent_009",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "TimePoint",
+      "surface_forms": [
+        "seven"
+      ],
+      "canonical_name": "seven",
+      "description": "The time until which she continues working at the office.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She worked until seven."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_008"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_0_ent_010",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "memorandum to the file",
+        "memorandum"
+      ],
+      "canonical_name": "memorandum to the file",
+      "description": "A work memorandum she drafts for the file.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She drafted a memorandum to the file."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_0_ent_011",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "RULES OF ENGAGEMENT, SERRANO",
+        "note",
+        "one-paragraph note"
+      ],
+      "canonical_name": "RULES OF ENGAGEMENT, SERRANO",
+      "description": "The private note to herself about boundaries that she drafts, deletes, redrafts, and saves.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "a one-paragraph note to herself about boundaries",
+        "she titled ... RULES OF ENGAGEMENT, SERRANO"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_011",
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_012"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_0_ent_012",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "A person mentioned in the engagement rules, whom she is instructed not to address by his first name in front of his sister.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "Do not address Daniel by his first name in the presence of his sister."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_012"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_0_ent_013",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "A person named in the engagement rules, likely the sister referenced in the instructions.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "Do not address Lucia"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_0_ev_012"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_0_ent_014",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who drafts and enforces the house rules and arrives at the house the next morning.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "She read the rules over once.",
+        "She felt the small administrative satisfaction of having made them.",
+        "She closed the document. She went home.",
+        "In the morning she was at the house at nine."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_004",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_005",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_006",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_001",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The family member whose name appears in the house rules and who arrives early with croissants.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "Do not address Daniel by his first name in the presence of his sister.",
+        "\"Daniel.\"",
+        "\"He's already here.\"",
+        "\"He came at eight. He brought croissants.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_002",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The woman who answers the door, greets Asha, and explains that Daniel has already arrived.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "Do not address Lucia by her first name in the presence of her brother.",
+        "Lucia answered the door.",
+        "\"Good morning,\" Lucia said.",
+        "\"He's already here.\"",
+        "\"He came at eight. He brought croissants.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_006",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_003",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The person who is forbidden from serving Asha and who puts the croissants in the kitchen.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "Do not allow Rosa to serve you anything.",
+        "Rosa put them in the kitchen and is pretending the"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_004",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "the house",
+        "house"
+      ],
+      "canonical_name": "the house",
+      "description": "The family home where Asha arrives for the morning visit.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "Do not eat at the house.",
+        "She went home.",
+        "In the morning she was at the house at nine.",
+        "Lucia answered the door."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_004",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_005",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_006",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_009",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_005",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "the apartment",
+        "apartment"
+      ],
+      "canonical_name": "the apartment",
+      "description": "The place where Asha is instructed not to take personal evening phone calls alone.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "Do not, under any circumstances, take a phone call from any of the three at a personal number, in the evening, alone in the apartment."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_006",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "the kitchen",
+        "kitchen"
+      ],
+      "canonical_name": "the kitchen",
+      "description": "The room where Rosa puts the croissants.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "Rosa put them in the kitchen"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_007",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "TimePoint",
+      "surface_forms": [
+        "fifteen years",
+        "in fifteen years"
+      ],
+      "canonical_name": "fifteen years",
+      "description": "The span of time Asha says has passed since she last wrote rules of engagement for another case.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "she had not, in fifteen years, written rules of engagement for any other case."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_008",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "TimePoint",
+      "surface_forms": [
+        "the morning",
+        "In the morning",
+        "morning"
+      ],
+      "canonical_name": "the morning",
+      "description": "The time period when Asha returns to the house and Lucia greets her.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "In the morning she was at the house at nine.",
+        "\"Good morning,\" Lucia said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_005",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_006",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_007"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_009",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "TimePoint",
+      "surface_forms": [
+        "nine"
+      ],
+      "canonical_name": "nine",
+      "description": "The specific time Asha arrives at the house.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "In the morning she was at the house at nine."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_010",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "TimePoint",
+      "surface_forms": [
+        "eight"
+      ],
+      "canonical_name": "eight",
+      "description": "The time Daniel arrived before Asha.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "He came at eight."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_011",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "rules of engagement",
+        "the rules",
+        "rules"
+      ],
+      "canonical_name": "rules of engagement",
+      "description": "The strict set of behavioral rules Asha drafts for interacting with the family.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "She read the rules over once.",
+        "she had not, in fifteen years, written rules of engagement for any other case."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_012",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "the document",
+        "document"
+      ],
+      "canonical_name": "the document",
+      "description": "The written document containing Asha's rules that she closes before leaving.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "She closed the document."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_004"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_013",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "croissants"
+      ],
+      "canonical_name": "croissants",
+      "description": "The pastries Daniel brings to the house, likely as an apology, and Rosa puts in the kitchen.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "He brought croissants.",
+        "\"Croissants.\"",
+        "\"He came at eight. He brought croissants.\"",
+        "Rosa put them in the kitchen"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_009",
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_014",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Location",
+      "surface_forms": [
+        "the place on Twentieth"
+      ],
+      "canonical_name": "the place on Twentieth",
+      "description": "The place from which Daniel brings the croissants.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "From the place on Twentieth."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_015",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Concept",
+      "surface_forms": [
+        "business hours"
+      ],
+      "canonical_name": "business hours",
+      "description": "The time window after which Asha is instructed not to remain at the house unless required.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "Do not stay past business hours unless a specific document or conversation requires it."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_016",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Concept",
+      "surface_forms": [
+        "specific document or conversation",
+        "a specific document",
+        "document",
+        "conversation"
+      ],
+      "canonical_name": "specific document or conversation",
+      "description": "The condition that permits Asha to stay past business hours.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "unless a specific document or conversation requires it."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_017",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Concept",
+      "surface_forms": [
+        "personal number"
+      ],
+      "canonical_name": "personal number",
+      "description": "The private phone number Asha is forbidden to use for evening calls from the family.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "take a phone call from any of the three at a personal number"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_018",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Concept",
+      "surface_forms": [
+        "the three"
+      ],
+      "canonical_name": "the three",
+      "description": "The three family members referenced together in the phone-call rule.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "from any of the three"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_1_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_1_ent_019",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The person who receives the apology croissants, speaks with Lucia, and notices the dining room has been rearranged.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"How is Rosa.\"",
+        "\"And you,\" Asha said.",
+        "They went down the hall together.",
+        "The dining room had been rearranged in a small but deliberate way."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_005",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_009",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_001",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The woman who reports Rosa's sleepless night, comforts her in Spanish, and confesses her feelings about him and her mother.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "Lucia paused in the act of taking Asha's coat.",
+        "\"She didn't sleep,\" Lucia said.",
+        "\"I went down. I sat with her.\"",
+        "\"I'm angry,\" Lucia said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_004",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_005",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_006",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_009",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_002",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman who hides the croissants, cannot sleep, and is heard polishing silver in the kitchen at four in the morning.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "Rosa put them in the kitchen and is pretending they are not there.",
+        "\"She didn't sleep,\" Lucia said.",
+        "\"I heard her in the kitchen at four.\"",
+        "\"she was polishing the silver.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_004"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_003",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "he",
+        "him"
+      ],
+      "canonical_name": "he",
+      "description": "The unnamed man who arrives at eight with croissants as an apology.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"He came at eight. He brought croissants.\"",
+        "\"I think it's his way of apologizing without using words.\"",
+        "\"I'm angry at him in a way I didn't know I had room for.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_005"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_004",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia's mother",
+        "mother",
+        "my mother"
+      ],
+      "canonical_name": "Lucia's mother",
+      "description": "Lucia's mother, whom Lucia wants to call about what Asha found and who would say it took them long enough.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"I keep wanting to call my mother and tell her you found it.\"",
+        "\"She would say it took us long enough.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_005",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "TimePoint",
+      "surface_forms": [
+        "eight",
+        "at eight"
+      ],
+      "canonical_name": "eight",
+      "description": "The time when the man arrives with croissants.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"He came at eight. He brought croissants.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_006",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "croissants"
+      ],
+      "canonical_name": "croissants",
+      "description": "The pastries brought as a wordless apology and then hidden in the kitchen.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"He came at eight. He brought croissants.\"",
+        "\"Croissants.\"",
+        "\"Rosa put them in the kitchen and is pretending they are not there.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_002"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_007",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "the place on Twentieth"
+      ],
+      "canonical_name": "the place on Twentieth",
+      "description": "The place where the croissants came from.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"From the place on Twentieth.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_008",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "the kitchen"
+      ],
+      "canonical_name": "the kitchen",
+      "description": "The room where Rosa hides the croissants and where Lucia hears her at four in the morning.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"Rosa put them in the kitchen\"",
+        "\"I heard her in the kitchen at four.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_009",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "TimePoint",
+      "surface_forms": [
+        "four in the morning",
+        "four"
+      ],
+      "canonical_name": "four in the morning",
+      "description": "The time Lucia heard Rosa in the kitchen polishing silver.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"I heard her in the kitchen at four.\"",
+        "\"At four in the morning.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_010",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "silver",
+        "the silver"
+      ],
+      "canonical_name": "silver",
+      "description": "The silver that Rosa was polishing in the kitchen.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"She was — I think she was polishing the silver.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_011",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "Spanish",
+        "in Spanish"
+      ],
+      "canonical_name": "Spanish",
+      "description": "The language Lucia and Rosa use to agree to figure out living in the house slowly.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"she said in Spanish that she did not know how to be in this house and not work in it.\"",
+        "\"I said in Spanish that I did not know either.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_004"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_012",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Location",
+      "surface_forms": [
+        "this house"
+      ],
+      "canonical_name": "this house",
+      "description": "The house where Lucia and Rosa are trying to learn how to live together.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"she did not know how to be in this house and not work in it.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_004"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_013",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Location",
+      "surface_forms": [
+        "the hall"
+      ],
+      "canonical_name": "the hall",
+      "description": "The hallway Asha and Lucia walk down together.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "They went down the hall together."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_014",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Location",
+      "surface_forms": [
+        "the dining room"
+      ],
+      "canonical_name": "the dining room",
+      "description": "The room that has been deliberately rearranged with boxes removed and legal pads set out.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "The dining room had been rearranged in a small but deliberate way."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_015",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Object",
+      "surface_forms": [
+        "seven boxes",
+        "the seven boxes",
+        "boxes",
+        "the boxes"
+      ],
+      "canonical_name": "seven boxes",
+      "description": "The boxes from yesterday that were removed from the dining room.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "The seven boxes from yesterday were gone — moved, Asha guessed, to the back parlor —"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_016",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Location",
+      "surface_forms": [
+        "the back parlor"
+      ],
+      "canonical_name": "the back parlor",
+      "description": "The place Asha guesses the boxes were moved to.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "moved, Asha guessed, to the back parlor"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_017",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Object",
+      "surface_forms": [
+        "legal pad",
+        "a single legal pad"
+      ],
+      "canonical_name": "legal pad",
+      "description": "One of the writing pads placed in the rearranged dining room.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "in their place was a single legal pad and a pen at each of four se"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_018",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Object",
+      "surface_forms": [
+        "pen",
+        "a pen"
+      ],
+      "canonical_name": "pen",
+      "description": "A writing instrument placed beside each legal pad in the dining room.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "in their place was a single legal pad and a pen at each of four se"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_2_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_2_ent_019",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The attorney who enters the meeting room, takes the head seat, and announces the codicil filing.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "Asha guessed",
+        "when she came in",
+        "Asha sat down at the head of the table",
+        "\"Before we begin,\" she said"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_004",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_005",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_006",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_3_ent_001",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel Serrano",
+        "Daniel",
+        "Mr. Serrano"
+      ],
+      "canonical_name": "Daniel Serrano",
+      "description": "The seated man who stands to greet Asha and exchanges formal greetings with her.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "Daniel was already at the table.",
+        "He stood up when she came in.",
+        "\"Mr. Serrano.\"",
+        "\"Good morning,\" Daniel said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_3_ent_002",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa Serrano",
+        "Rosa",
+        "Ms. Serrano"
+      ],
+      "canonical_name": "Rosa Serrano",
+      "description": "The woman who remains seated, nods to Asha, and greets her formally.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "Rosa was sitting at the far end",
+        "She did not stand.",
+        "\"Ms. Serrano.\"",
+        "\"Good morning,\" Rosa said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_3_ent_003",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia Maldonado",
+        "Lucia",
+        "Ms. Maldonado"
+      ],
+      "canonical_name": "Lucia Maldonado",
+      "description": "The woman who remains silent and takes her seat across from Daniel.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "Lucia said nothing, only took her seat across from Daniel.",
+        "\"Ms. Maldonado.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_3_ent_004",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "meeting room",
+        "the table"
+      ],
+      "canonical_name": "meeting room",
+      "description": "The room where the meeting is held and where the table is set up for the participants.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "en rearranged in a small but deliberate way.",
+        "Daniel was already at the table.",
+        "Asha sat down at the head of the table"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_004",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_3_ent_005",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "back parlor"
+      ],
+      "canonical_name": "back parlor",
+      "description": "The place where the seven boxes were moved after being removed from the room.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "moved, Asha guessed, to the back parlor"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_3_ent_006",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "TimePoint",
+      "surface_forms": [
+        "time references in the meeting",
+        "yesterday",
+        "four a.m.",
+        "this morning",
+        "eight forty-five"
+      ],
+      "canonical_name": "time references in the meeting",
+      "description": "The explicit time references marking when the room was reset, when Rosa decided not to stand, and when the codicil was lodged.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "from yesterday were gone",
+        "between four a.m. and now",
+        "lodged this morning at eight forty-five"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_3_ent_007",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "meeting and legal documents",
+        "boxes",
+        "legal pad",
+        "pen",
+        "pitcher of water",
+        "glasses",
+        "plate",
+        "croissants",
+        "bag",
+        "folder",
+        "codicil",
+        "petition"
+      ],
+      "canonical_name": "meeting and legal documents",
+      "description": "The physical items arranged for the meeting and the legal papers central to Asha's announcement.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "The seven boxes from yesterday were gone",
+        "a single legal pad and a pen at each of four seats",
+        "a pitcher of water and four glasses",
+        "a small plate at the center of the table with four croissants on it",
+        "She put her bag on the floor beside her.",
+        "She took out a slim folder",
+        "the codicil was lodged this morning",
+        "the petition to admit it has been docketed"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_005",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_006",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_3_ent_008",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Concept",
+      "surface_forms": [
+        "legal filing and estate proceedings",
+        "Register of Wills",
+        "estate",
+        "petition to admit it",
+        "docketed",
+        "legal purposes"
+      ],
+      "canonical_name": "legal filing and estate proceedings",
+      "description": "The legal process and estate matter that Asha says has been formally filed and changed.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "the codicil was lodged this morning at eight forty-five with the Register of Wills",
+        "the petition to admit it has been docketed",
+        "The estate is now, for all legal purposes"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_006",
+        "ev_baseline_7_doc_6_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_3_ent_009",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Object",
+      "surface_forms": [
+        "codicil"
+      ],
+      "canonical_name": "codicil",
+      "description": "The testamentary document whose filing is announced in the scene.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "the codicil was lodged this morning at eight forty-five"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_001",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Concept",
+      "surface_forms": [
+        "Register of Wills"
+      ],
+      "canonical_name": "Register of Wills",
+      "description": "The probate office where the codicil is filed.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "with the Register of Wills"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_002",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Concept",
+      "surface_forms": [
+        "petition to admit the codicil",
+        "petition to admit it"
+      ],
+      "canonical_name": "petition to admit the codicil",
+      "description": "The legal petition docketed along with the codicil.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "the petition to admit it has been docketed"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_003",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Concept",
+      "surface_forms": [
+        "estate"
+      ],
+      "canonical_name": "estate",
+      "description": "The estate being administered under the February 11 will.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "The estate is now, for all legal purposes, being administered under the will of February eleventh."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_003"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_004",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "TimePoint",
+      "surface_forms": [
+        "8:45 this morning",
+        "this morning at eight forty-five",
+        "eight forty-five"
+      ],
+      "canonical_name": "8:45 this morning",
+      "description": "The time when the codicil was lodged.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "lodged this morning at eight forty-five"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_005",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "TimePoint",
+      "surface_forms": [
+        "February 11",
+        "February eleventh"
+      ],
+      "canonical_name": "February 11",
+      "description": "The date of the will under which the estate is being administered.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "under the will of February eleventh"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_006",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "notice"
+      ],
+      "canonical_name": "notice",
+      "description": "The notice sent to the buyers' attorney about the sale.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "I sent the notice to the buyers' attorney at nine last evening"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_002"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_007",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Character",
+      "surface_forms": [
+        "buyers' attorney",
+        "him"
+      ],
+      "canonical_name": "buyers' attorney",
+      "description": "The attorney representing the buyers who briefly called back after receiving notice.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "the buyers' attorney",
+        "a brief and civil call from him"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_002"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_008",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "TimePoint",
+      "surface_forms": [
+        "9:00 last evening",
+        "nine last evening",
+        "last evening"
+      ],
+      "canonical_name": "9:00 last evening",
+      "description": "The time when the notice was sent.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "at nine last evening"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_002"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_009",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "TimePoint",
+      "surface_forms": [
+        "7:30 this morning",
+        "seven thirty this morning",
+        "this morning"
+      ],
+      "canonical_name": "7:30 this morning",
+      "description": "The time when the brief call from the buyers' attorney occurred.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "at seven thirty this morning"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_002"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_010",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Concept",
+      "surface_forms": [
+        "contemplated sale",
+        "sale"
+      ],
+      "canonical_name": "contemplated sale",
+      "description": "The proposed sale that is withdrawn.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "the contemplated sale is, as of last night, withdrawn"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_002"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_011",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "TimePoint",
+      "surface_forms": [
+        "last night"
+      ],
+      "canonical_name": "last night",
+      "description": "The time reference used for the withdrawal of the contemplated sale.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "as of last night, withdrawn"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_002"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_012",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Character",
+      "surface_forms": [
+        "Mr. Halloran",
+        "Halloran",
+        "he"
+      ],
+      "canonical_name": "Mr. Halloran",
+      "description": "The person who reviewed the file, is satisfied with the estate's posture, and sends condolences and regards.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "Mr. Halloran has reviewed the file",
+        "He has a good memory",
+        "He mentioned the lamb"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_004",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_013",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Character",
+      "surface_forms": [
+        "Ms. Maldonado"
+      ],
+      "canonical_name": "Ms. Maldonado",
+      "description": "The person to whom Mr. Halloran sends his particular regards.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "his particular regards to Ms. Maldonado"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_003"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_014",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Concept",
+      "surface_forms": [
+        "family"
+      ],
+      "canonical_name": "family",
+      "description": "The family receiving Mr. Halloran's condolences.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "He sends his condolences to the family"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_003"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_015",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "TimePoint",
+      "surface_forms": [
+        "some years ago"
+      ],
+      "canonical_name": "some years ago",
+      "description": "The earlier time when Mr. Halloran met Ms. Maldonado at the Christmas event.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "whom he met some years ago at a Christmas event"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_004"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_016",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Concept",
+      "surface_forms": [
+        "Christmas event"
+      ],
+      "canonical_name": "Christmas event",
+      "description": "The holiday gathering where Mr. Halloran met Ms. Maldonado and remembered the lamb meal.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "at a Christmas event he describes as, quote, the best meal he has been served in this city"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_004"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_017",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Object",
+      "surface_forms": [
+        "lamb",
+        "the lamb"
+      ],
+      "canonical_name": "lamb",
+      "description": "The meal item remembered from the Christmas event.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "That was the year we did the lamb.",
+        "He mentioned the lamb."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_004",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_018",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Object",
+      "surface_forms": [
+        "folder"
+      ],
+      "canonical_name": "folder",
+      "description": "The folder Asha opens to begin discussing the house settlement process.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "Asha opened the folder."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_019",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_020",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The speaker who explains the estate process and drafts the memorandum for the co-owned house.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "Asha opened the folder.",
+        "\"What I would like to do this morning,\" she said"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_005",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_006",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_020",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_021",
+      "type": "Concept",
+      "surface_forms": [
+        "process"
+      ],
+      "canonical_name": "process",
+      "description": "The procedural approach Asha wants the group to discuss instead of immediate outcome.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "is talk about process. Not yet about outcome."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_006",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_021",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_022",
+      "type": "Concept",
+      "surface_forms": [
+        "outcome"
+      ],
+      "canonical_name": "outcome",
+      "description": "The final resolution Asha says is not yet the focus of discussion.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "Not yet about outcome."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_022",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_023",
+      "type": "Concept",
+      "surface_forms": [
+        "the three of you"
+      ],
+      "canonical_name": "the three of you",
+      "description": "The three co-owners of the house addressed by Asha.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "The three of you now own this house together."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_023",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_024",
+      "type": "Object",
+      "surface_forms": [
+        "house",
+        "this house"
+      ],
+      "canonical_name": "house",
+      "description": "The co-owned house whose ownership will be resolved through a process.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "The three of you now own this house together."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_024",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_025",
+      "type": "Concept",
+      "surface_forms": [
+        "ownership"
+      ],
+      "canonical_name": "ownership",
+      "description": "The shared ownership of the house that Asha says can be resolved in different ways.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "there are a number of ways that ownership can be resolved"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_025",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_026",
+      "type": "TimePoint",
+      "surface_forms": [
+        "today",
+        "this morning"
+      ],
+      "canonical_name": "today",
+      "description": "The day on which Asha proposes agreeing on the next two weeks.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "there is no reason to choose among them today",
+        "agree on the next two weeks"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_026",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_027",
+      "type": "TimePoint",
+      "surface_forms": [
+        "the next two weeks",
+        "two weeks from today"
+      ],
+      "canonical_name": "the next two weeks",
+      "description": "The planning period Asha proposes for the group.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "agree on the next two weeks",
+        "A meeting two weeks from today"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_027",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_028",
+      "type": "Object",
+      "surface_forms": [
+        "memorandum",
+        "short document"
+      ],
+      "canonical_name": "memorandum",
+      "description": "The document Asha drafted to lay out the sequence of next steps.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "I have drafted a short document — it is not a contract, it is a memorandum"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_028",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_029",
+      "type": "Concept",
+      "surface_forms": [
+        "contract"
+      ],
+      "canonical_name": "contract",
+      "description": "The legal form Asha explicitly says the document is not.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "it is not a contract"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_029",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_030",
+      "type": "Concept",
+      "surface_forms": [
+        "sequence"
+      ],
+      "canonical_name": "sequence",
+      "description": "The ordered set of next steps laid out in the memorandum.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "that lays out a sequence"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_030",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_031",
+      "type": "Concept",
+      "surface_forms": [
+        "independent appraisal",
+        "Independent appraisal"
+      ],
+      "canonical_name": "independent appraisal",
+      "description": "The first step in Asha's proposed sequence.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "Independent appraisal."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_031",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_032",
+      "type": "Concept",
+      "surface_forms": [
+        "inventory of contents",
+        "Inventory of contents"
+      ],
+      "canonical_name": "inventory of contents",
+      "description": "The second step in Asha's proposed sequence.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "Inventory of contents."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_032",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_033",
+      "type": "TimePoint",
+      "surface_forms": [
+        "two weeks from today meeting",
+        "two weeks from today"
+      ],
+      "canonical_name": "two weeks from today meeting",
+      "description": "The scheduled meeting time mentioned as part of the proposed sequence.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "A meeting two weeks from today"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_4_ent_033",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The person presenting the memorandum and observing the family members read it.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "I would like to walk through the memorandum with you",
+        "She slid three copies across the table.",
+        "Asha watched them read"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_009",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_5_ent_001",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "One of the family members who receives and reads the memorandum.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "Daniel took his.",
+        "Daniel read fast."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_004",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_5_ent_002",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "One of the family members who receives and reads the memorandum carefully.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "Lucia took hers.",
+        "Lucia read slowly"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_005",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_009"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_5_ent_003",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "One of the family members who hesitates before taking and reading the memorandum.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "Rosa looked at hers for a moment without touching it",
+        "Rosa read at the pace of a woman who had not been asked"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_006",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_5_ent_004",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "memorandum",
+        "document",
+        "copies"
+      ],
+      "canonical_name": "memorandum",
+      "description": "The short document outlining the inheritance dispute process and next steps.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "I have drafted a short document — it is not a contract, it is a memorandum",
+        "She slid three copies across the table.",
+        "They read."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_004",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_005",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_006",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_009",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_5_ent_005",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Concept",
+      "surface_forms": [
+        "contract"
+      ],
+      "canonical_name": "contract",
+      "description": "The legal form Asha explicitly distinguishes the memorandum from.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "it is not a contract, it is a memorandum"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_5_ent_006",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Concept",
+      "surface_forms": [
+        "Independent appraisal",
+        "appraisal"
+      ],
+      "canonical_name": "Independent appraisal",
+      "description": "The first step in the memorandum's sequence for resolving the inheritance dispute.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "Independent appraisal."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_5_ent_007",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "Inventory of contents",
+        "Inventory"
+      ],
+      "canonical_name": "Inventory of contents",
+      "description": "The second step in the memorandum's sequence for resolving the inheritance dispute.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "Inventory of contents."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_5_ent_008",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "TimePoint",
+      "surface_forms": [
+        "two weeks from today",
+        "the next two weeks",
+        "an additional thirty days",
+        "today"
+      ],
+      "canonical_name": "two weeks from today",
+      "description": "The time frame referenced for the meeting and possible deferral in the memorandum.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "the next two weeks",
+        "A meeting two weeks from today",
+        "defer the decision for an additional thirty days",
+        "I do not need a signature today"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_002"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_5_ent_009",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Concept",
+      "surface_forms": [
+        "inheritance dispute options",
+        "right of first refusal",
+        "codicil",
+        "sell",
+        "buy out",
+        "defer the decision"
+      ],
+      "canonical_name": "inheritance dispute options",
+      "description": "The set of legal options described in the memorandum for resolving the family inheritance dispute.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "any one of you may exercise the right of first refusal under the codicil",
+        "all three of you may elect to sell",
+        "any two of you may buy out the third",
+        "you may agree to defer the decision"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_5_ent_010",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Concept",
+      "surface_forms": [
+        "signature"
+      ],
+      "canonical_name": "signature",
+      "description": "The formal approval Asha says is not needed on the day of the meeting.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "I do not need a signature today."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_002"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_5_ent_011",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "table"
+      ],
+      "canonical_name": "table",
+      "description": "The surface where the memorandum copies are placed and read.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "leave it on the table",
+        "She slid three copies across the table"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_5_ent_012",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Concept",
+      "surface_forms": [
+        "formal English"
+      ],
+      "canonical_name": "formal English",
+      "description": "The style of language Rosa is portrayed as being less accustomed to reading.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "Rosa read at the pace of a woman who had not been asked, often, to read formal English"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_5_ent_013",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "One of the people reading the memorandum and later acknowledging Asha with a nod.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "Lucia read slowly, going back over phrases",
+        "Lucia finished second. She looked up at Asha and nodded once."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_005"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_6_ent_001",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "One of the people reading the memorandum and asking about the right of first refusal and buyout terms.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "Rosa read at the pace of a woman who had not been asked, often, to read formal English",
+        "\"The right of first refusal. If I wanted to keep the house\"",
+        "\"Which would be a number I cannot pay.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_006",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_009",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_6_ent_002",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The person who finishes reading the memorandum first and silently waits.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "Daniel finished first. He set the memorandum down. He did not speak."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_004"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_6_ent_003",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The person who observes the others reading and explains the buyout and financing options.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "Asha noted, with a small flicker of professional approval",
+        "\"Yes.\"",
+        "\"It might be,\" Asha said carefully."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_004",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_005",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_6_ent_004",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "memorandum"
+      ],
+      "canonical_name": "memorandum",
+      "description": "The document the characters read and discuss in the scene.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "Lucia read slowly",
+        "He set the memorandum down.",
+        "When she reached the end she went back to the beginning and read the first paragraph again."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_006"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_6_ent_005",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Concept",
+      "surface_forms": [
+        "right of first refusal"
+      ],
+      "canonical_name": "right of first refusal",
+      "description": "The legal concept Rosa asks about in relation to keeping the house.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "\"The right of first refusal.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_6_ent_006",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "house"
+      ],
+      "canonical_name": "house",
+      "description": "The property Rosa is discussing keeping through a buyout.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "\"If I wanted to keep the house\"",
+        "\"I would have to pay the other two for their shares.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_009",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_6_ent_007",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "fair market value"
+      ],
+      "canonical_name": "fair market value",
+      "description": "The valuation standard Asha says will be used for the buyout.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "\"At fair market value.\"",
+        "\"As established by the appraisal, yes.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_008"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_6_ent_008",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Concept",
+      "surface_forms": [
+        "appraisal"
+      ],
+      "canonical_name": "appraisal",
+      "description": "The valuation process that determines the fair market value for the buyout.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "\"As established by the appraisal, yes.\"",
+        "\"It depends on the appraisal\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_008",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_6_ent_009",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Concept",
+      "surface_forms": [
+        "financing options"
+      ],
+      "canonical_name": "financing options",
+      "description": "The possible funding arrangements Asha says could make the buyout feasible.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "\"on the financing options available to you\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_6_ent_010",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Concept",
+      "surface_forms": [
+        "other beneficiaries",
+        "the other two"
+      ],
+      "canonical_name": "other beneficiaries",
+      "description": "The other parties who would need to be paid for their shares if Rosa kept the house.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "\"I would have to pay the other two for their shares.\"",
+        "\"whether the other beneficiaries are willing to accept a payment over time\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_007",
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_6_ent_011",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "payment over time"
+      ],
+      "canonical_name": "payment over time",
+      "description": "The installment arrangement Asha mentions as a possible way to structure the buyout.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "\"whether the other beneficiaries are willing to accept a payment over time secured by the property itself.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_6_ent_012",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "property itself"
+      ],
+      "canonical_name": "property itself",
+      "description": "The property used as security for a possible installment buyout.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "\"secured by the property itself.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_6_ev_010"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_6_ent_013",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa Maldonado",
+        "Rosa",
+        "Ms. Maldonado"
+      ],
+      "canonical_name": "Rosa Maldonado",
+      "description": "The woman being advised about whether to investigate keeping the house.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "\"Ms. Maldonado.\"",
+        "\"Yes.\"",
+        "\"You do not have to decide today whether you want to keep the house.",
+        "Rosa looked at her for a long moment.",
+        "\"I am willing,\" she said, \"to find out.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_7_ent_001",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man who asks about the financing structure and interest rate for keeping the house.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "Daniel cleared his throat.",
+        "\"I have a question,\" he said.",
+        "\"If — \" He stopped.",
+        "\"At what interest rate.\"",
+        "\"It could be zero.\"",
+        "Daniel was qu"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_004",
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_006",
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_008"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_7_ent_002",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The other beneficiary mentioned as a party to the proposed payment arrangement.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "\"If Rosa wants to keep the house.",
+        "And if Lucia and I were to — were to be willing to accept a payment over time.",
+        "\"In effect, yes. A purchase-money obligation, secured by the house, payable on terms the three of you would negotiate.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_004",
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_005",
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_7_ent_003",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "the house",
+        "property",
+        "property itself",
+        "house"
+      ],
+      "canonical_name": "the house",
+      "description": "The property at the center of the proposed deferred payment arrangement and Rosa's decision.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "a payment over time secured by the property itself",
+        "\"You do not have to decide today whether you want to keep the house.\"",
+        "\"If Rosa wants to keep the house.\"",
+        "\"In effect, yes. A purchase-money obligation, secured by the house\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_004",
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_005",
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_7_ent_004",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Concept",
+      "surface_forms": [
+        "purchase-money obligation",
+        "payment over time",
+        "payment over time secured by the property itself"
+      ],
+      "canonical_name": "purchase-money obligation",
+      "description": "The proposed deferred financing arrangement secured by the house.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "the other beneficiaries are willing to accept a payment over time secured by the property itself.",
+        "\"In effect, yes. A purchase-money obligation, secured by the house, payable on terms the three of you would negotiate.\"",
+        "\"At whatever rate the three of you agree.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_005",
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_7_ent_005",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Concept",
+      "surface_forms": [
+        "the memorandum"
+      ],
+      "canonical_name": "the memorandum",
+      "description": "The document describing the secured payment arrangement that Daniel references.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "The memorandum says secured by the property itself."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_7_ent_006",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Concept",
+      "surface_forms": [
+        "IRS",
+        "the IRS"
+      ],
+      "canonical_name": "IRS",
+      "description": "The tax authority mentioned in connection with low interest rates.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "The IRS has views about very low rates among related parties"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_7_ent_007",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "related parties"
+      ],
+      "canonical_name": "related parties",
+      "description": "The legal/tax concept discussed when explaining interest-rate concerns.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "you are not, in the technical sense, related parties"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_7_ent_008",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Concept",
+      "surface_forms": [
+        "applicable federal rate"
+      ],
+      "canonical_name": "applicable federal rate",
+      "description": "A possible interest rate referenced as an example for the proposed obligation.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "It could also be the applicable federal rate."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_7_ent_009",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man who silently studies the memorandum and hesitates before agreeing to the proposal.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_8",
+      "evidence": [
+        "Daniel was quiet.",
+        "\"I am not saying,\" he said, \"that I would agree to that.\"",
+        "\"I am saying that I would consider it.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_8_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_8_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_8_ev_003",
+        "ev_baseline_7_doc_6_chunk_0_part_8_ev_004",
+        "ev_baseline_7_doc_6_chunk_0_part_8_ev_006"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_8_ent_001",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The person who presents the proposal and tells Daniel he does not need to decide immediately.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_8",
+      "evidence": [
+        "He looked at Rosa.",
+        "\"You don't have to say that today.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_8_ev_002",
+        "ev_baseline_7_doc_6_chunk_0_part_8_ev_005"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_8_ent_002",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel's sister",
+        "his sister",
+        "sister"
+      ],
+      "canonical_name": "Daniel's sister",
+      "description": "Daniel's sister, whom he looks at while considering the proposal.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_8",
+      "evidence": [
+        "He looked at his sister."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_8_ev_002"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_8_ent_003",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "memorandum"
+      ],
+      "canonical_name": "memorandum",
+      "description": "The document Daniel studies while weighing the proposal.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_8",
+      "evidence": [
+        "He looked at the memorandum.",
+        "He looked, finally, back at the memorandum."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_7_doc_6_chunk_0_part_8_ev_001",
+        "ev_baseline_7_doc_6_chunk_0_part_8_ev_003"
+      ],
+      "id": "ent_baseline_7_doc_6_chunk_0_part_8_ent_004",
+      "movie_id": "baseline_100_page__scene_7"
+    }
+  ]
+}

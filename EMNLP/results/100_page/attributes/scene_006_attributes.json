@@ -1,0 +1,46 @@
+{
+  "Marcus": {
+    "kinship": "Asha's brother",
+    "has_siblings": "Asha Daniel Lucia",
+    "price": "half Bridgepoint rate",
+    "holds": "father's healthcare proxy no",
+    "uses": "laptop",
+    "money_amount": "half deposit"
+  },
+  "Asha": {
+    "kinship": "Marcus Daniel Lucia sibling",
+    "has_siblings": "Marcus Daniel Lucia",
+    "affiliated_with": "father's transfer to Bridgepoint"
+  },
+  "Bridgepoint": {
+    "identity_type": "care facility",
+    "uses": "signed transfer packet",
+    "holds": "bed",
+    "price": "full rate",
+    "day": "Friday",
+    "time": "five",
+    "requires": "physician's order deposit wire proxy name"
+  },
+  "Daniel": {
+    "kinship": "Asha's brother",
+    "has_siblings": "Asha Marcus Lucia",
+    "holds": "father's healthcare proxy no",
+    "uses": "email with three PDFs",
+    "count": "3"
+  },
+  "Lucia": {
+    "kinship": "Asha's sister",
+    "has_siblings": "Asha Marcus Daniel",
+    "holds": "father's healthcare proxy",
+    "uses": "ID",
+    "duration": "decade"
+  },
+  "Rosa": {
+    "drives": "car",
+    "uses": "expressway"
+  },
+  "Trenton": {
+    "identity_type": "facility",
+    "uses": "original admission packet"
+  }
+}

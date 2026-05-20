@@ -1,0 +1,1644 @@
+{
+  "7": [
+    {
+      "temp_id": "ev_001",
+      "name": "walks instead of going home",
+      "description": "She chooses not to go home and begins walking through the city.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She did not go home. She walked."
+      ],
+      "participants": [],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_0_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "wanders to Rittenhouse Square",
+      "description": "Without intending to, she ends up in Rittenhouse Square after walking north on Eighteenth and west on Walnut.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She walked north on Eighteenth and west on Walnut and she ended up, without quite intending to, in Rittenhouse Square"
+      ],
+      "participants": [],
+      "location_hint": "Rittenhouse Square",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_0_ev_002",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "sits alone on a bench",
+      "description": "She sits on a cold bench in the square and remains there without using her phone.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She sat on a bench. She did not take out her phone."
+      ],
+      "participants": [],
+      "location_hint": "Rittenhouse Square",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_0_ev_003",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "watches boy feed pigeon",
+      "description": "She watches a small boy repeatedly try and fail to feed a pigeon a piece of pretzel.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She watched a small boy in a red coat try to feed a pigeon a piece of pretzel and fail and try again."
+      ],
+      "participants": [
+        "small boy",
+        "pigeon"
+      ],
+      "location_hint": "Rittenhouse Square",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_0_ev_004",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "reflects on dead mother",
+      "description": "She thinks about her mother, who has been dead for eleven years and left no house behind.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She thought about her mother, who had been dead for eleven years and who had not left a house to anyone because she had not owned one"
+      ],
+      "participants": [
+        "mother"
+      ],
+      "location_hint": "Rittenhouse Square",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_0_ev_005",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "feels envy at Serrano grief dispute",
+      "description": "She examines her envy of the Serrano family's property-bound grief and recognizes it as sadness.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "she thought about the strange envy she had felt, sitting in the Serrano dining room, of a family whose grief had property to argue over, and she made herself examine that envy honestly until it stopped being interesting and became merely sad"
+      ],
+      "participants": [
+        "Serrano family"
+      ],
+      "location_hint": "Serrano dining room",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_0_ev_006",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "returns to office",
+      "description": "After confronting her feelings, she gets up and walks back to the office.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "at which point she got up from the bench and walked back to the office"
+      ],
+      "participants": [],
+      "location_hint": "office",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_0_ev_007",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "works until seven",
+      "description": "She continues working at the office until seven o'clock.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She worked until seven."
+      ],
+      "participants": [],
+      "location_hint": "office",
+      "time_hint": "seven",
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_0_ev_008",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_009",
+      "name": "drafts firm letter to buyers' attorney",
+      "description": "She writes a letter to the buyers' attorney that is firm but not celebratory.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She drafted a letter to the buyers' attorney that was firm without being triumphant."
+      ],
+      "participants": [
+        "buyers' attorney"
+      ],
+      "location_hint": "office",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_0_ev_009",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_010",
+      "name": "drafts memorandum to file",
+      "description": "She prepares a memorandum for the file as part of her work.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She drafted a memorandum to the file."
+      ],
+      "participants": [],
+      "location_hint": "office",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_0_ev_010",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_011",
+      "name": "creates boundaries note",
+      "description": "She drafts, deletes, and redrafts a private note to herself about boundaries, then saves it under a joking title.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "She drafted, and then deleted, and then drafted again and saved, a one-paragraph note to herself about boundaries, which she titled, with the small humor she allowed herself when no one was watching, RULES OF ENGAGEMENT, SERRANO."
+      ],
+      "participants": [],
+      "location_hint": "office",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_0_ev_011",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_012",
+      "name": "sets engagement rules",
+      "description": "She records short rules for how to behave at the Serrano house, including not eating there and not staying late.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_0",
+      "evidence": [
+        "The rules were short. Do not eat at the house. Do not stay past business hours unless a specific document or conversation requires it. Do not address Daniel by his first name in the presence of his sister. Do not address Lucia"
+      ],
+      "participants": [
+        "Daniel",
+        "Lucia"
+      ],
+      "location_hint": "office",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_0_ev_012",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_001",
+      "name": "writes house rules",
+      "description": "Asha drafts a set of strict rules governing how she must interact with the family.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "evidence": [
+        "Do not stay past business hours unless a specific document or conversation requires it. Do not address Daniel by his first name in the presence of his sister. Do not address Lucia by her first name in the presence of her brother. Do not allow Rosa to serve you anything. Do not, under any circumstances, take a phone call from any of the three at a personal number, in the evening, alone in the apartment."
+      ],
+      "participants": [
+        "Asha",
+        "Daniel",
+        "Lucia",
+        "Rosa"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_1_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "reflects on rulemaking",
+      "description": "Asha feels satisfied with the rules but also recognizes they exist because the situation is difficult to manage.",
+      "evidence": [
+        "She read the rules over once. She felt the small administrative satisfaction of having made them. She also felt, beneath the satisfaction, the precise and familiar pressure of the fact that rules existed because they were difficult to keep"
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_1_ev_002",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "notes unusual case duration",
+      "description": "Asha realizes she has not written rules of engagement for any other case in fifteen years.",
+      "evidence": [
+        "she had not, in fifteen years, written rules of engagement for any other case."
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_1_ev_003",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "goes home",
+      "description": "After closing the document, Asha leaves and goes home.",
+      "evidence": [
+        "She closed the document. She went home."
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": "home",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_1_ev_004",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "arrives at house in morning",
+      "description": "The next morning, Asha arrives at the house at nine.",
+      "evidence": [
+        "In the morning she was at the house at nine."
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": "the house",
+      "time_hint": "morning / nine",
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_1_ev_005",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "Lucia opens the door",
+      "description": "Lucia answers the door and appears casually dressed but clean, suggesting a strained morning routine.",
+      "evidence": [
+        "Lucia answered the door. She had washed her hair. She was wearing a dark sweater that Asha suspected had belonged to her mother and a pair of jeans that did not match the sweater in any season"
+      ],
+      "participants": [
+        "Lucia",
+        "Asha"
+      ],
+      "location_hint": "house door",
+      "time_hint": "morning",
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_1_ev_006",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "Lucia greets Asha",
+      "description": "Lucia and Asha exchange a brief morning greeting.",
+      "evidence": [
+        "\"Good morning,\" Lucia said.",
+        "\"Good morning.\""
+      ],
+      "participants": [
+        "Lucia",
+        "Asha"
+      ],
+      "location_hint": "house door",
+      "time_hint": "morning",
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_1_ev_007",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "Lucia says Daniel is already there",
+      "description": "Lucia tells Asha that Daniel has already arrived.",
+      "evidence": [
+        "\"He's already here.\"",
+        "\"Daniel.\""
+      ],
+      "participants": [
+        "Lucia",
+        "Asha",
+        "Daniel"
+      ],
+      "location_hint": "house",
+      "time_hint": "morning",
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_1_ev_008",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_009",
+      "name": "Daniel arrives early with croissants",
+      "description": "Lucia explains that Daniel came at eight and brought croissants as a likely apology.",
+      "evidence": [
+        "\"He came at eight. He brought croissants.\"",
+        "\"From the place on Twentieth. I think it's his way of apologizing without using words.\""
+      ],
+      "participants": [
+        "Daniel",
+        "Lucia",
+        "Asha"
+      ],
+      "location_hint": "house",
+      "time_hint": "eight",
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_1_ev_009",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_010",
+      "name": "Rosa puts croissants in kitchen",
+      "description": "Rosa takes the croissants into the kitchen and pretends not to notice them.",
+      "evidence": [
+        "Rosa put them in the kitchen and is pretending the"
+      ],
+      "participants": [
+        "Rosa"
+      ],
+      "location_hint": "kitchen",
+      "time_hint": "morning",
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_1_ev_010",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_1",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_001",
+      "name": "man brings apology croissants",
+      "description": "A man arrives at eight with croissants, apparently as a wordless apology.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"He came at eight. He brought croissants.\"",
+        "\"From the place on Twentieth. I think it's his way of apologizing without using words.\""
+      ],
+      "participants": [
+        "Asha",
+        "Lucia",
+        "Rosa",
+        "he"
+      ],
+      "location_hint": null,
+      "time_hint": "eight",
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_2_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "Rosa hides the croissants",
+      "description": "Rosa puts the croissants in the kitchen and pretends they are not there.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"Rosa put them in the kitchen and is pretending they are not there.\""
+      ],
+      "participants": [
+        "Rosa"
+      ],
+      "location_hint": "kitchen",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_2_ev_002",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "Lucia reports Rosa's sleepless night",
+      "description": "Lucia explains that Rosa did not sleep and was heard polishing silver at four in the morning.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"She didn't sleep,\" Lucia said.",
+        "\"I heard her in the kitchen at four. She was — I think she was polishing the silver.\"",
+        "\"At four in the morning.\""
+      ],
+      "participants": [
+        "Lucia",
+        "Rosa"
+      ],
+      "location_hint": "kitchen",
+      "time_hint": "four in the morning",
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_2_ev_003",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "Lucia comforts Rosa in Spanish",
+      "description": "Lucia sits with Rosa, says nothing at first, and they agree in Spanish to figure out living in the house slowly.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"I went down. I sat with her. I didn't say anything. After a while she said in Spanish that she did not know how to be in this house and not work in it. I said in Spanish that I did not know either. We agreed to figure it out slowly.\""
+      ],
+      "participants": [
+        "Lucia",
+        "Rosa"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_2_ev_004",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "Lucia admits anger and relief",
+      "description": "Lucia confesses that she is angry at him, relieved, and ashamed of how relieved she feels.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"I'm angry,\" Lucia said. \"I'm angry at him in a way I didn't know I had room for. I'm also — I don't know. Relieved. A little ashamed of how relieved.\""
+      ],
+      "participants": [
+        "Lucia",
+        "Asha",
+        "he"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_2_ev_005",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "Lucia feels burden lifted",
+      "description": "Lucia says she feels as if she has put down something she did not know she was carrying.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"Like I get to put down something I didn't know I'd been carrying.\""
+      ],
+      "participants": [
+        "Lucia"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_2_ev_006",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "Lucia wants to tell her mother",
+      "description": "Lucia says she keeps wanting to call her mother and tell her Asha found it.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"I keep wanting to call my mother and tell her you found it.\""
+      ],
+      "participants": [
+        "Lucia",
+        "Asha",
+        "Lucia's mother"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_2_ev_007",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "Asha agrees with Lucia",
+      "description": "Asha unexpectedly agrees that Lucia's mother would say it took them long enough.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "\"She would,\" Asha said, surprising herself, \"yes.\""
+      ],
+      "participants": [
+        "Asha",
+        "Lucia",
+        "Lucia's mother"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_2_ev_008",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_009",
+      "name": "Asha and Lucia walk to dining room",
+      "description": "Asha and Lucia go down the hall together toward the dining room.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "They went down the hall together."
+      ],
+      "participants": [
+        "Asha",
+        "Lucia"
+      ],
+      "location_hint": "hall",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_2_ev_009",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_010",
+      "name": "dining room is rearranged",
+      "description": "Asha sees that the dining room has been deliberately rearranged, with the boxes removed and legal pads set out.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_2",
+      "evidence": [
+        "The dining room had been rearranged in a small but deliberate way.",
+        "The seven boxes from yesterday were gone — moved, Asha guessed, to the back parlor — and in their place was a single legal pad and a pen at each of four se"
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": "dining room",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_2_ev_010",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_001",
+      "name": "meeting room is rearranged",
+      "description": "The room has been deliberately reset overnight, with the boxes removed and legal pads, water, and croissants placed for the meeting.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "The seven boxes from yesterday were gone — moved, Asha guessed, to the back parlor — and in their place was a single legal pad and a pen at each of four seats, and a pitcher of water and four glasses, and a small plate at the center of the table with four croissants on it, untouched."
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": "yesterday / this morning",
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_3_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "Daniel rises to greet Asha",
+      "description": "Daniel is already seated at the table and stands when Asha enters, signaling formal respect.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "Daniel was already at the table. He stood up when she came in.",
+        "\"Counselor,\" Daniel said."
+      ],
+      "participants": [
+        "Daniel",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_3_ev_002",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "Rosa refuses to stand",
+      "description": "Rosa remains seated and gives Asha a slight nod, a deliberate break from expected etiquette that shows resolve.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "Rosa was sitting at the far end in the chair she had taken yesterday after Asha had asked her to sit. She did not stand. She looked at Asha and nodded once, slightly, and Asha understood that the nod was a piece of work — that Rosa had decided, sometime between four a.m. and now, that she would not stand up when the attorney came into the room, and that this small refusal of an old habit was, today, the largest thing she could do."
+      ],
+      "participants": [
+        "Rosa",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": "between four a.m. and now",
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_3_ev_003",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "formal greetings are exchanged",
+      "description": "Daniel and Rosa greet Asha, while Lucia remains silent and simply takes her seat.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "\"Good morning,\" Daniel said.",
+        "\"Good morning,\" Rosa said.",
+        "Lucia said nothing, only took her seat across from Daniel."
+      ],
+      "participants": [
+        "Daniel",
+        "Rosa",
+        "Lucia",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_3_ev_004",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "Asha takes her seat and prepares documents",
+      "description": "Asha sits at the head of the table, sets down her bag, and places a folder before her without opening it yet.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "Asha sat down at the head of the table where she had sat yesterday. She put her bag on the floor beside her. She took out a slim folder and laid it on the table in front of her and did not yet open it."
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_3_ev_005",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "Asha announces codicil filing",
+      "description": "Asha begins the meeting by stating that the codicil has been filed with the Register of Wills and docketed.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "\"Before we begin,\" she said, \"I want to say three things. The first is that the codicil was lodged this morning at eight forty-five with the Register of Wills, and the petition to admit it has been docketed.\""
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": "this morning at eight forty-five",
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_3_ev_006",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "Asha declares estate legally changed",
+      "description": "Asha states that the estate is now legally altered, indicating a major shift in the case.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_3",
+      "evidence": [
+        "The estate is now, for all legal purposes, bei"
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_3_ev_007",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_001",
+      "name": "announce codicil filing",
+      "description": "Asha reports that the codicil was lodged with the Register of Wills and the petition to admit it has been docketed, making the estate legally administered under the February 11 will.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "the codicil was lodged this morning at eight forty-five with the Register of Wills, and the petition to admit it has been docketed.",
+        "The estate is now, for all legal purposes, being administered under the will of February eleventh."
+      ],
+      "participants": [
+        "Asha",
+        "Register of Wills",
+        "estate"
+      ],
+      "location_hint": null,
+      "time_hint": "this morning at eight forty-five",
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_4_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "withdraw sale after notice",
+      "description": "Asha says she notified the buyers' attorney the previous evening, received a brief call back this morning, and the contemplated sale has been withdrawn.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "I sent the notice to the buyers' attorney at nine last evening, and I had a brief and civil call from him at seven thirty this morning, and the contemplated sale is, as of last night, withdrawn."
+      ],
+      "participants": [
+        "Asha",
+        "buyers' attorney"
+      ],
+      "location_hint": null,
+      "time_hint": "nine last evening / seven thirty this morning / as of last night",
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_4_ev_002",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "report halloran approval",
+      "description": "Asha relays that Mr. Halloran reviewed the file, is satisfied with the estate's posture, and sends condolences and personal regards to Ms. Maldonado.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "Mr. Halloran has reviewed the file and is satisfied with the posture of the estate, and he sends his condolences to the family and his particular regards to Ms. Maldonado"
+      ],
+      "participants": [
+        "Mr. Halloran",
+        "Ms. Maldonado",
+        "Asha",
+        "family"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_4_ev_003",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "recall christmas dinner",
+      "description": "Rosa reacts to Halloran's memory by noting that he has a good memory and identifying the Christmas event as the year they did the lamb.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "\"He has a good memory,\" she said.",
+        "\"That was the year we did the lamb.\""
+      ],
+      "participants": [
+        "Rosa",
+        "Mr. Halloran"
+      ],
+      "location_hint": null,
+      "time_hint": "some years ago",
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_4_ev_004",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "acknowledge lamb memory",
+      "description": "Asha confirms that Halloran mentioned the lamb, and Rosa accepts the exchange with a brief assent.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "\"He mentioned the lamb.\"",
+        "\"All right,\" Rosa said."
+      ],
+      "participants": [
+        "Asha",
+        "Rosa",
+        "Mr. Halloran"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_4_ev_005",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "open settlement folder",
+      "description": "Asha opens the folder to begin discussing how the co-owned house will be handled.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "Asha opened the folder."
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": "this morning",
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_4_ev_006",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "outline ownership process",
+      "description": "Asha tells the three owners that they now own the house together and proposes focusing on process rather than immediate outcome.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "\"What I would like to do this morning,\" she said, \"is talk about process. Not yet about outcome. The three of you now own this house together.\""
+      ],
+      "participants": [
+        "Asha",
+        "Rosa",
+        "the three of you"
+      ],
+      "location_hint": null,
+      "time_hint": "this morning",
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_4_ev_007",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "propose two-week plan",
+      "description": "Asha proposes that the group agree on the next two weeks instead of choosing a final resolution immediately.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "there is no reason to choose among them today.",
+        "What there is reason to do today is agree on the next two weeks."
+      ],
+      "participants": [
+        "Asha",
+        "Rosa",
+        "the three of you"
+      ],
+      "location_hint": null,
+      "time_hint": "today",
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_4_ev_008",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_009",
+      "name": "present memorandum sequence",
+      "description": "Asha explains that she has drafted a memorandum laying out the next steps, including an independent appraisal, an inventory of contents, and a meeting two weeks later.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_4",
+      "evidence": [
+        "I have drafted a short document — it is not a contract, it is a memorandum — that lays out a sequence.",
+        "Independent appraisal. Inventory of contents. A meeting two weeks from today"
+      ],
+      "participants": [
+        "Asha",
+        "Rosa",
+        "the three of you"
+      ],
+      "location_hint": null,
+      "time_hint": "two weeks from today",
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_4_ev_009",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_001",
+      "name": "present memorandum terms",
+      "description": "Asha explains a short memorandum outlining the next steps for the inheritance dispute, including appraisal, inventory, and possible buyout or sale options.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "I have drafted a short document — it is not a contract, it is a memorandum — that lays out a sequence. Independent appraisal. Inventory of contents. A meeting two weeks from today at which any one of you may exercise the right of first refusal under the codicil, or all three of you may elect to sell, or any two of you may buy out the third, or you may agree to defer the decision for an additional thirty days."
+      ],
+      "participants": [
+        "Asha",
+        "Daniel",
+        "Lucia",
+        "Rosa"
+      ],
+      "location_hint": null,
+      "time_hint": "two weeks from today",
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_5_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "request review without signature",
+      "description": "Asha asks the others to read the memorandum and says she does not need a signature today, only their willingness to review it.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "I would like to walk through the memorandum with you and then leave it on the table for the rest of the day. I do not need a signature today. I need only your willingness to read it."
+      ],
+      "participants": [
+        "Asha",
+        "Daniel",
+        "Lucia",
+        "Rosa"
+      ],
+      "location_hint": null,
+      "time_hint": "today",
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_5_ev_002",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "distribute memorandum copies",
+      "description": "Asha slides three copies of the memorandum across the table to the three family members.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "She slid three copies across the table."
+      ],
+      "participants": [
+        "Asha",
+        "Daniel",
+        "Lucia",
+        "Rosa"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_5_ev_003",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "Daniel accepts memorandum",
+      "description": "Daniel takes his copy of the memorandum.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "Daniel took his."
+      ],
+      "participants": [
+        "Daniel"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_5_ev_004",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "Lucia accepts memorandum",
+      "description": "Lucia takes her copy of the memorandum.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "Lucia took hers."
+      ],
+      "participants": [
+        "Lucia"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_5_ev_005",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "Rosa hesitates before taking memorandum",
+      "description": "Rosa hesitates over the copy before pulling it toward herself cautiously with two fingers.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "Rosa looked at hers for a moment without touching it, then drew it toward her with two fingers, as if testing whether it was hot."
+      ],
+      "participants": [
+        "Rosa"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_5_ev_006",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "family reads memorandum",
+      "description": "Daniel, Lucia, and Rosa begin reading the memorandum while Asha observes them.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "They read.",
+        "Asha watched them read without watching them read."
+      ],
+      "participants": [
+        "Asha",
+        "Daniel",
+        "Lucia",
+        "Rosa"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_5_ev_007",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "Daniel reads quickly",
+      "description": "Asha notices Daniel reading quickly, partly from habit and partly to preserve his sense of primacy.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "Daniel read fast. He had always read fast, she suspected, and he was reading fast now partly out of habit and partly out of the need to be seen reading fast, to be the first one finished, to retain some small primacy in a room in which his primacy had been considerably reduced."
+      ],
+      "participants": [
+        "Daniel",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_5_ev_008",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_009",
+      "name": "Lucia reads carefully",
+      "description": "Asha observes Lucia reading slowly, revisiting phrases and silently mouthing technical terms.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "Lucia read slowly, going back over phrases, her lips moving very faintly on the technical terms."
+      ],
+      "participants": [
+        "Lucia",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_5_ev_009",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_010",
+      "name": "Rosa reads formal English cautiously",
+      "description": "Asha notices Rosa reading at the pace of someone unaccustomed to formal English.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_5",
+      "evidence": [
+        "Rosa read at the pace of a woman who had not been asked, often, to read formal Englis"
+      ],
+      "participants": [
+        "Rosa",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_5_ev_010",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_001",
+      "name": "Lucia reads memorandum slowly",
+      "description": "Lucia reads the memorandum carefully and laboriously, pausing over technical terms as she works through the text.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "Lucia read slowly, going back over phrases, her lips moving very faintly on the technical terms."
+      ],
+      "participants": [
+        "Lucia"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_6_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "Rosa reads memorandum cautiously",
+      "description": "Rosa reads the memorandum at a deliberate pace, showing unfamiliarity with formal English but no embarrassment about it.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "Rosa read at the pace of a woman who had not been asked, often, to read formal English, and who was not embarrassed by her pace but who was conserving herself, taking the words one at a time, deciding about each one."
+      ],
+      "participants": [
+        "Rosa"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_6_ev_002",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "Daniel finishes reading first",
+      "description": "Daniel completes the memorandum before the others and silently sets it down, waiting for what comes next.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "Daniel finished first.",
+        "He set the memorandum down.",
+        "He did not speak. He waited."
+      ],
+      "participants": [
+        "Daniel"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_6_ev_003",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "Asha notes Daniel's progress",
+      "description": "Asha privately recognizes that Daniel has learned from the previous day and is applying that lesson now.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "Asha noted, with a small flicker of professional approval she did not let show, that he had learned something yesterday and was using it today."
+      ],
+      "participants": [
+        "Asha",
+        "Daniel"
+      ],
+      "location_hint": null,
+      "time_hint": "yesterday",
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_6_ev_004",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "Lucia finishes and acknowledges Asha",
+      "description": "Lucia finishes reading second and silently signals acknowledgment to Asha with a nod.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "Lucia finished second.",
+        "She looked up at Asha and nodded once."
+      ],
+      "participants": [
+        "Lucia",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_6_ev_005",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "Rosa rereads the opening paragraph",
+      "description": "After finishing, Rosa returns to the beginning of the memorandum and rereads the first paragraph before speaking.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "Rosa took another four minutes.",
+        "When she reached the end she went back to the beginning and read the first paragraph again."
+      ],
+      "participants": [
+        "Rosa"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_6_ev_006",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "Rosa asks about right of first refusal",
+      "description": "Rosa raises a question about whether keeping the house would require buying out the other beneficiaries' shares.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "\"I have a question,\" she said.",
+        "\"The right of first refusal. If I wanted to keep the house — I am only asking. I do not say that I do. If I wanted to keep the house, I would have to pay the other two for their shares.\""
+      ],
+      "participants": [
+        "Rosa",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_6_ev_007",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "Asha confirms fair market valuation",
+      "description": "Asha confirms that the buyout would be based on the appraisal's fair market value.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "\"Yes.\"",
+        "\"At fair market value.\"",
+        "\"As established by the appraisal, yes.\""
+      ],
+      "participants": [
+        "Asha",
+        "Rosa"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_6_ev_008",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_009",
+      "name": "Rosa recognizes she cannot afford buyout",
+      "description": "Rosa concludes that the amount required to keep the house would be beyond her means.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "\"Which would be a number I cannot pay.\""
+      ],
+      "participants": [
+        "Rosa"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_6_ev_009",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_010",
+      "name": "Asha explains possible financing options",
+      "description": "Asha carefully explains that the buyout might still be possible depending on appraisal results, financing, and whether the others accept installment payments secured by the property.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_6",
+      "evidence": [
+        "\"It might be,\" Asha said carefully.",
+        "\"It depends on the appraisal, on the financing options available to you, on whether the other beneficiaries are willing to accept a payment over time secured by the property itself.",
+        "There are configurations in which it would be possible.",
+        "There are configurations in which it would not"
+      ],
+      "participants": [
+        "Asha",
+        "Rosa"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_6_ev_010",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_001",
+      "name": "explains deferred payment options",
+      "description": "The speaker explains that the beneficiaries may accept payment over time secured by the property, but that the applicable configuration is still uncertain.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "the other beneficiaries are willing to accept a payment over time secured by the property itself.",
+        "There are configurations in which it would be possible. There are configurations in which it would not. I cannot tell you today which configuration applies."
+      ],
+      "participants": [],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_7_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "advises Rosa to decide only whether to investigate",
+      "description": "The speaker tells Rosa she does not need to decide today whether to keep the house, only whether she is willing to find out what would be required.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "\"Ms. Maldonado.\"",
+        "\"You do not have to decide today whether you want to keep the house. You have to decide today only whether you are willing to find out what would be required.\""
+      ],
+      "participants": [
+        "Rosa Maldonado"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_7_ev_002",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "Rosa agrees to investigate",
+      "description": "After a long pause, Rosa says she is willing to find out what would be required to keep the house.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "Rosa looked at her for a long moment.",
+        "\"I am willing,\" she said, \"to find out.\""
+      ],
+      "participants": [
+        "Rosa Maldonado"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_7_ev_003",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "Daniel asks about financing structure",
+      "description": "Daniel asks whether a payment arrangement secured by the house would effectively be a mortgage from Rosa to him and Lucia.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "\"I have a question,\" he said.",
+        "\"If Rosa wants to keep the house. And if the appraisal comes in at a number she cannot pay outright. And if Lucia and I were to — were to be willing to accept a payment over time. The memorandum says secured by the property itself. Does that mean a mortgage. From her to us.\""
+      ],
+      "participants": [
+        "Daniel",
+        "Rosa Maldonado",
+        "Lucia"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_7_ev_004",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "lawyer confirms purchase-money obligation",
+      "description": "The lawyer confirms that the arrangement would be a purchase-money obligation secured by the house and negotiated among the three of them.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "\"In effect, yes. A purchase-money obligation, secured by the house, payable on terms the three of you would negotiate.\""
+      ],
+      "participants": [],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_7_ev_005",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "Daniel asks about interest rate",
+      "description": "Daniel presses further and asks what interest rate would apply to the proposed obligation.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "\"At what interest rate.\""
+      ],
+      "participants": [
+        "Daniel"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_7_ev_006",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "lawyer says parties can set any rate",
+      "description": "The lawyer explains that the three parties could agree to any interest rate, including zero, though tax issues would need careful structuring.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "\"At whatever rate the three of you agree.\"",
+        "\"It could be zero.\"",
+        "\"It could be zero. It could also be the applicable federal rate. It could be anything in between. The IRS has views about very low rates among related parties, but you are not, in the technical sense, related parties, and even where the views apply they are manageable. We would structure it carefully.\""
+      ],
+      "participants": [],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_7_ev_007",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "Daniel is interrupted mid-thought",
+      "description": "Daniel begins to react but is cut off before he can finish speaking.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_7",
+      "evidence": [
+        "Daniel was qu"
+      ],
+      "participants": [
+        "Daniel"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_7_ev_008",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_001",
+      "name": "Daniel studies the memorandum",
+      "description": "Daniel silently considers the memorandum after hearing the proposal, indicating he is weighing its implications.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_8",
+      "evidence": [
+        "Daniel was quiet. He looked at the memorandum."
+      ],
+      "participants": [
+        "Daniel",
+        "memorandum"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_8_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "Daniel looks to Rosa and his sister",
+      "description": "Daniel shifts his attention from the memorandum to Rosa and then to his sister, showing he is considering the people involved as well as the document.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_8",
+      "evidence": [
+        "He looked at Rosa. He looked at his sister."
+      ],
+      "participants": [
+        "Daniel",
+        "Rosa",
+        "sister"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_8_ev_002",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "Daniel returns to the memorandum",
+      "description": "Daniel finally looks back at the memorandum, suggesting continued deliberation.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_8",
+      "evidence": [
+        "He looked, finally, back at the memorandum."
+      ],
+      "participants": [
+        "Daniel",
+        "memorandum"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_8_ev_003",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "Daniel declines immediate agreement",
+      "description": "Daniel says he is not agreeing to the proposal at this moment, signaling hesitation rather than acceptance.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_8",
+      "evidence": [
+        "\"I am not saying,\" he said, \"that I would agree to that.\""
+      ],
+      "participants": [
+        "Daniel"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_8_ev_004",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "Rosa postpones the decision",
+      "description": "Rosa tells Daniel he does not need to decide immediately, easing pressure on him.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_8",
+      "evidence": [
+        "\"You don't have to say that today.\""
+      ],
+      "participants": [
+        "Rosa",
+        "Daniel"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_8_ev_005",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "Daniel agrees to consider proposal",
+      "description": "Daniel softens his stance by saying he would consider the proposal, leaving the outcome open.",
+      "scene_id": "7",
+      "chunk_id": "doc_6_chunk_0_part_8",
+      "evidence": [
+        "\"I am saying that I would consider it.\""
+      ],
+      "participants": [
+        "Daniel"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_7_doc_6_chunk_0_part_8_ev_006",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_7"
+    }
+  ]
+}

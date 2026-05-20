@@ -1,0 +1,40 @@
+{
+  "movie_id": "baseline_20_page__scene_2",
+  "title": "",
+  "node_count_total": 138,
+  "node_count_by_type": {
+    "Event": 67,
+    "Character": 16,
+    "Location": 9,
+    "TimePoint": 9,
+    "Object": 27,
+    "Concept": 10
+  },
+  "edge_count_total": 251,
+  "edge_count_by_relation": {
+    "performs": 90,
+    "experiences": 11,
+    "located_at": 21,
+    "occurs_at": 44,
+    "occurs_on": 6,
+    "affinity_with": 14,
+    "part_of": 11,
+    "possesses": 3,
+    "references": 3,
+    "undergoes": 18,
+    "is_a": 6,
+    "kinship_with": 4,
+    "affiliated_with": 3,
+    "present_on": 1,
+    "precedes": 7,
+    "uses": 2,
+    "occurs_after": 7
+  },
+  "nodes_with_evidence_pct": 100.0,
+  "edges_with_evidence_pct": 100.0,
+  "schema_violation_count": 0,
+  "avg_degree": 3.64,
+  "disconnected_component_count": 19,
+  "avg_aliases_per_node": 1.38,
+  "avg_edge_confidence": 0.815
+}

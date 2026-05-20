@@ -1,0 +1,2905 @@
+{
+  "1": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "A woman who confronts Mr. Serrano about the housekeeper and challenges his decisions about the house sale.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "\"You fired her,\" Lucia said.",
+        "\"You gave her notice the day after the funeral.\"",
+        "\"You could have asked me.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_0_ent_001",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Mr. Serrano",
+        "you"
+      ],
+      "canonical_name": "Mr. Serrano",
+      "description": "The man defending his decision to give the housekeeper notice and pushing to proceed with the house sale.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "\"I didn't fire her. I told her we couldn't keep her on once the house sold. Which it is going to. I gave her notice. I gave her severance. I —\"",
+        "\"What was I supposed to do, Lucia, keep her on payroll for a house no one is going to live in?\"",
+        "\"There is no later instrument.\"",
+        "\"We don't have a few days.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_008",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_009",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_010"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_0_ent_002",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The attorney handling probate who stops the argument and refuses to accept the sale offer that day.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "Asha said the word quietly, and they both stopped,",
+        "\"Here is what we are going to do,\" she said.",
+        "\"We are not going to accept the offer today.\"",
+        "\"as the attorney handling probate\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_005",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_0_ent_003",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "the house",
+        "house"
+      ],
+      "canonical_name": "the house",
+      "description": "The property being sold and discussed as the principal asset of the estate.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "once the house sold",
+        "\"house no one is going to live in?\"",
+        "\"the principal asset\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_0_ent_004",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Concept",
+      "surface_forms": [
+        "the will"
+      ],
+      "canonical_name": "the will",
+      "description": "The testament Lucia cites as authority for her share in the decision-making.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "\"It's exactly half my decision, according to the will you keep waving around.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_004"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_0_ent_005",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Concept",
+      "surface_forms": [
+        "the offer"
+      ],
+      "canonical_name": "the offer",
+      "description": "The sale offer that Asha says will not be accepted that day.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "\"We are not going to accept the offer today.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_006"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_0_ent_006",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Concept",
+      "surface_forms": [
+        "probate"
+      ],
+      "canonical_name": "probate",
+      "description": "The legal process Asha invokes as the reason for delaying the sale.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "\"as the attorney handling probate\"",
+        "\"I am refusing on the estate's behalf\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_0_ent_007",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "the estate"
+      ],
+      "canonical_name": "the estate",
+      "description": "The estate whose interests Asha says she is protecting during probate.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "\"I am refusing on the estate's behalf\"",
+        "\"the estate is exposed\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_0_ent_008",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Concept",
+      "surface_forms": [
+        "the governing document",
+        "the document",
+        "later instrument"
+      ],
+      "canonical_name": "the governing document",
+      "description": "The legal document whose status Asha wants to verify before the sale closes.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "\"the document governing that asset is the operative one\"",
+        "\"If a later instrument exists\"",
+        "\"There is no later instrument.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_008",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_0_ent_009",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Concept",
+      "surface_forms": [
+        "the buyer's title",
+        "title"
+      ],
+      "canonical_name": "the buyer's title",
+      "description": "The title Asha warns could be clouded if the sale closes before the paperwork is confirmed.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "\"the buyer's title is clouded\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_0_ent_010",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Concept",
+      "surface_forms": [
+        "executor"
+      ],
+      "canonical_name": "executor",
+      "description": "The estate role Asha says Mr. Serrano personally occupies and could be exposed as.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "\"you personally as executor are exposed\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_0_ent_011",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "TimePoint",
+      "surface_forms": [
+        "time references in the scene",
+        "today",
+        "the day after the funeral",
+        "a few days"
+      ],
+      "canonical_name": "time references in the scene",
+      "description": "The explicit timing references used in the argument and probate delay.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "\"the day after the funeral\"",
+        "\"today\"",
+        "\"a few days\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_009",
+        "ev_baseline_1_doc_0_chunk_0_part_0_ev_010"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_0_ent_012",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel Serrano",
+        "Daniel",
+        "Mr. Serrano"
+      ],
+      "canonical_name": "Daniel Serrano",
+      "description": "The man resisting delay and asking to be present for the house search.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"We don't have a few days. The buyer's agent has been very clear.\"",
+        "\"I would like to be present for any search.\"",
+        "\"Fine,\" he said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_005",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_008",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_001",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The speaker who insists on confirming whether a codicil exists and orders the search and attorney call.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"Then helping me confirm that costs you nothing but a few days.\"",
+        "\"I am not asking your permission, Mr. Serrano. I am telling you what my office is going to do.\"",
+        "\"Good.\"",
+        "\"Tomorrow morning. Ten o'clock. I'll bring a paralegal.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_005",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_008",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_002",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The person who described the document and remembered the attorney on the phone, and who will be present for the search.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"We are going to search the house for the document Rosa describes.\"",
+        "\"We are going to call the attorney she remembers being on the phone.\"",
+        "\"So will Rosa.\"",
+        "\"Rosa was a witness. Rosa will be present.\"",
+        "\"Rosa, can you be here?\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_003",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel's sister",
+        "your sister"
+      ],
+      "canonical_name": "Daniel's sister",
+      "description": "Daniel's sister, who is allowed to be present during the search.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"So will your sister.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_004",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "the buyer's agent"
+      ],
+      "canonical_name": "the buyer's agent",
+      "description": "The buyer representative whose deadline makes Daniel insist there is no time to wait.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"The buyer's agent has been very clear.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_002"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_005",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "Spring Garden"
+      ],
+      "canonical_name": "Spring Garden",
+      "description": "The neighborhood where the row house is located.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"this is a row house in Spring Garden\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_006",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "the house"
+      ],
+      "canonical_name": "the house",
+      "description": "The property that Lucia's office plans to search for the document.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"We are going to search the house for the document Rosa describes.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_007",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "row house"
+      ],
+      "canonical_name": "row house",
+      "description": "The valuable property being discussed as the subject of the sale and search.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"this is a row house in Spring Garden and you know what it's worth.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_008",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Tomorrow morning at ten o'clock",
+        "tomorrow morning",
+        "Ten o'clock"
+      ],
+      "canonical_name": "Tomorrow morning at ten o'clock",
+      "description": "The scheduled time for the house search with a paralegal and Rosa present.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"Tomorrow morning. Ten o'clock. I'll bring a paralegal.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_009",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "codicil"
+      ],
+      "canonical_name": "codicil",
+      "description": "The later testamentary document whose existence Lucia wants to confirm or eliminate.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"There is no later instrument.\"",
+        "\"We are going to confirm or eliminate the existence of a codicil.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_004"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_010",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "document"
+      ],
+      "canonical_name": "document",
+      "description": "The paper item Rosa described that the house search is intended to find.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"We are going to search the house for the document Rosa describes.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_004"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_011",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "pen"
+      ],
+      "canonical_name": "pen",
+      "description": "Daniel's pen, which he picks up after agreeing to proceed.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"He picked up his pen.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_012",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Concept",
+      "surface_forms": [
+        "Lucia's office",
+        "my office",
+        "office"
+      ],
+      "canonical_name": "Lucia's office",
+      "description": "The office that Lucia says will carry out the search and proceed with the matter.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"I am telling you what my office is going to do.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_004"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_013",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Concept",
+      "surface_forms": [
+        "executor"
+      ],
+      "canonical_name": "executor",
+      "description": "The legal role referenced when Daniel's authority as executor is discussed.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"nally as executor are exposed.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_001"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_014",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Concept",
+      "surface_forms": [
+        "later instrument"
+      ],
+      "canonical_name": "later instrument",
+      "description": "The alleged later testamentary instrument that Lucia is trying to confirm does not exist.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"There is no later instrument.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_001"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_015",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Concept",
+      "surface_forms": [
+        "paralegal"
+      ],
+      "canonical_name": "paralegal",
+      "description": "The legal assistant Lucia says she will bring to the search.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"I'll bring a paralegal.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_016",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Concept",
+      "surface_forms": [
+        "witness",
+        "a witness"
+      ],
+      "canonical_name": "witness",
+      "description": "The evidentiary role Rosa is identified as for the search and related proceedings.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "\"Rosa was a witness.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_1_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_1_ent_017",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who agrees to the meeting, requests a house walkthrough, reassures Lucia, and questions her privately.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "\"All right.\" Asha closed the portfolio",
+        "\"I'd like a few minutes to walk through the house this afternoon",
+        "\"You were calm,\" Asha said.",
+        "\"Lucia. Is there anything you want to tell me without your brother in the room.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_2_ent_001",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man who offers to guide Asha, then leaves the house after the discussion.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "\"I'll show you around,\" Daniel said quickly.",
+        "A muscle moved in Daniel's jaw.",
+        "He stood. He gathered his pad and his pen and his phone and his keys",
+        "\"I have a call at noon. I'll see you tomorrow,\" and he left"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_005",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_2_ent_002",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman Asha prefers as a guide and who is asked to be present for the meeting.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "\"Rosa, can you be here?\"",
+        "\"Thank you, but I'd prefer Rosa, since she knows the rooms.\"",
+        "Lucia looked at Rosa."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_2_ent_003",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The woman who confirms she has not left, breaks down in apology, and is later questioned privately by Asha.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "\"Lucia, you'll be here?\"",
+        "\"I haven't left.\"",
+        "Lucia exhaled.",
+        "\"I'm sorry,\" she said into her hands.",
+        "\"Lucia. Is there anything you want to tell me without your brother in the room.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_008",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_2_ent_004",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Tomorrow morning",
+        "Ten o'clock",
+        "this afternoon",
+        "noon",
+        "tomorrow"
+      ],
+      "canonical_name": "Tomorrow morning",
+      "description": "The scheduled time for the meeting and related actions in the scene.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "\"Tomorrow morning. Ten o'clock.",
+        "\"I'd like a few minutes to walk through the house this afternoon",
+        "\"I have a call at noon. I'll see you tomorrow,\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_2_ent_005",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "Portfolio",
+        "portfolio",
+        "pad",
+        "pen",
+        "phone",
+        "keys",
+        "brass clapper"
+      ],
+      "canonical_name": "Portfolio",
+      "description": "The portfolio Asha closes and the personal items Daniel gathers before leaving, including the house's brass clapper that rings after he exits.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "Asha closed the portfolio without putting anything into it.",
+        "He gathered his pad and his pen and his phone and his keys",
+        "the brass clapper rang once, faintly, in sympathy."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_2_ent_006",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "House",
+        "house",
+        "room",
+        "rooms",
+        "front door",
+        "pocket doors"
+      ],
+      "canonical_name": "House",
+      "description": "The house where the meeting takes place and which Asha wants to walk through.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "\"I'd like a few minutes to walk through the house this afternoon",
+        "\"I'd prefer Rosa, since she knows the rooms.\"",
+        "he left through the pocket doors and a moment later the front door opened and closed"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_005",
+        "ev_baseline_1_doc_0_chunk_0_part_2_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_2_ent_007",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "A woman who refuses to reveal more and says she is not hiding anything important.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "\"Not yet,\" Lucia said.",
+        "\"I'm not — I'm not hiding anything that matters. I just want to think.\"",
+        "Lucia's old room, where Lucia was currently sleeping, the door closed."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_001",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman who listens to Lucia and then leads Asha through the house.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "Lucia looked at Rosa.",
+        "Rosa looked back at her without expression,",
+        "Rosa led Asha up the front stairs slowly"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_002",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The listener who questions Lucia, doubts her answer, and follows Rosa through the house.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "\"there anything you want to tell me without your brother in the room.\"",
+        "\"All right,\" Asha said again, and meant it, and did not believe her.",
+        "Rosa led Asha up the front stairs slowly",
+        "Asha stepped inside and stopped."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_003",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "the señor",
+        "the señor's"
+      ],
+      "canonical_name": "the señor",
+      "description": "The deceased former owner associated with the study in the house.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "the señor's study, though the señor had been dead since 1998"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_004",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Estela Serrano",
+        "Estela"
+      ],
+      "canonical_name": "Estela Serrano",
+      "description": "A person whose correspondence now fills the former study and whose bedroom is identified in the house tour.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "full of Estela Serrano's correspondence",
+        "the front bedroom, which had been Estela's"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_005",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "A person whose old bedroom is mentioned during the house tour.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "the back bedroom, which had been Daniel's growing up"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_006",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "the house",
+        "a center-hall Italianate",
+        "the old Italianate house"
+      ],
+      "canonical_name": "the house",
+      "description": "The old Italianate house where Rosa guides Asha through the rooms.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "The house was a center-hall Italianate",
+        "Rosa led Asha up the front stairs slowly",
+        "the old Italianate house"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_007",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "double parlor"
+      ],
+      "canonical_name": "double parlor",
+      "description": "A room on the first floor of the house mentioned in the layout description.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "a double parlor on the first floor"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_008",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "first floor"
+      ],
+      "canonical_name": "first floor",
+      "description": "The lower level of the house where the double parlor is located.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "a double parlor on the first floor"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_009",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "dining room"
+      ],
+      "canonical_name": "dining room",
+      "description": "A room on the first floor of the house.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "a dining room and butler's pantry and kitchen running along the back"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_010",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Location",
+      "surface_forms": [
+        "butler's pantry"
+      ],
+      "canonical_name": "butler's pantry",
+      "description": "A pantry space running along the back of the house.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "a dining room and butler's pantry and kitchen running along the back"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_011",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Location",
+      "surface_forms": [
+        "kitchen"
+      ],
+      "canonical_name": "kitchen",
+      "description": "The kitchen at the back of the house.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "a dining room and butler's pantry and kitchen running along the back"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_012",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Location",
+      "surface_forms": [
+        "three stories above"
+      ],
+      "canonical_name": "three stories above",
+      "description": "The upper levels of the house mentioned in the layout description.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "and three stories above."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_013",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Location",
+      "surface_forms": [
+        "front stairs"
+      ],
+      "canonical_name": "front stairs",
+      "description": "The staircase Rosa uses to lead Asha upstairs.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "Rosa led Asha up the front stairs slowly"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_014",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Location",
+      "surface_forms": [
+        "the señor's study"
+      ],
+      "canonical_name": "the señor's study",
+      "description": "The former study in the house, now filled with Estela Serrano's correspondence.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "the señor's study, though the señor had been dead since 1998 and the room was now full of Estela Serrano's correspondence"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_015",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Location",
+      "surface_forms": [
+        "front bedroom"
+      ],
+      "canonical_name": "front bedroom",
+      "description": "The bedroom in the house that used to belong to Estela.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "the front bedroom, which had been Estela's"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_016",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Location",
+      "surface_forms": [
+        "back bedroom"
+      ],
+      "canonical_name": "back bedroom",
+      "description": "The bedroom in the house that used to belong to Daniel and is now an unused guest room.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "the back bedroom, which had been Daniel's growing up and was now an unused guest room with a stripped bed"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_017",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Location",
+      "surface_forms": [
+        "Lucia's old room"
+      ],
+      "canonical_name": "Lucia's old room",
+      "description": "The room where Lucia is currently sleeping with the door closed.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "Lucia's old room, where Lucia was currently sleeping, the door closed."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_018",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Location",
+      "surface_forms": [
+        "sewing room"
+      ],
+      "canonical_name": "sewing room",
+      "description": "The small room at the end of the hall where Asha enters and sees the sewing setup.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "The sewing room was at the end of the hall",
+        "Asha stepped inside and stopped."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_019",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_020",
+      "type": "Location",
+      "surface_forms": [
+        "the hall"
+      ],
+      "canonical_name": "the hall",
+      "description": "The hallway leading to the sewing room.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "The sewing room was at the end of the hall"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_020",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_021",
+      "type": "Location",
+      "surface_forms": [
+        "brick wall"
+      ],
+      "canonical_name": "brick wall",
+      "description": "The wall visible from the sewing room window.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "with a single window that looked out onto a brick wall"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_021",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_022",
+      "type": "Location",
+      "surface_forms": [
+        "fire escape"
+      ],
+      "canonical_name": "fire escape",
+      "description": "The fire escape visible from the sewing room window.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "and a fire escape."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_022",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_023",
+      "type": "Object",
+      "surface_forms": [
+        "black Singer machine",
+        "Singer machine"
+      ],
+      "canonical_name": "black Singer machine",
+      "description": "The sewing machine sitting on a small table in the tidy sewing room.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "A black Singer machine sat on a small table under the window."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_023",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_024",
+      "type": "Object",
+      "surface_forms": [
+        "small table"
+      ],
+      "canonical_name": "small table",
+      "description": "The table under the window holding the Singer machine.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "sat on a small table under the window"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_024",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_025",
+      "type": "Object",
+      "surface_forms": [
+        "window"
+      ],
+      "canonical_name": "window",
+      "description": "The window in the sewing room that looks out onto the brick wall and fire escape.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "with a single window that looked out onto a brick wall and a fire escape",
+        "under the window"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_3_ent_025",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who enters the sewing room, inspects the desk, and questions Rosa about access to the room and desk.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "Asha stepped inside and stopped.",
+        "\"Has anyone been in this room since she died?\"",
+        "\"Daniel?\"",
+        "\"I'd like to come back tomorrow with everyone present before this is opened.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_4_ent_001",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman who explains Lucia's bills and papers, answers Asha's questions, and describes who has been in the room.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "\"This is where she did her bills,\" Rosa said.",
+        "\"I have. To dust. Miss Lucia has. She sits in here sometimes.\"",
+        "\"I do not know for certain.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_005",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_008",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_4_ent_002",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia",
+        "Miss Lucia",
+        "the señora"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The deceased woman associated with the sewing room, its bills and papers, and the desk key.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "\"This is where she did her bills,\" Rosa said.",
+        "\"I have. To dust. Miss Lucia has. She sits in here sometimes.\"",
+        "\"The key was always in the lock. The señora was not afraid of her children reading her papers.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_005",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_4_ent_003",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The person Asha asks about as a possible visitor to the room.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "\"Daniel?\"",
+        "\"I do not know for certain.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_4_ent_004",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "Sewing room",
+        "this room",
+        "the room",
+        "sewing room"
+      ],
+      "canonical_name": "Sewing room",
+      "description": "The tidy room where Asha and Rosa discuss Lucia's papers and who has entered since Lucia died.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "Asha stepped inside and stopped.",
+        "\"Has anyone been in this room since she died?\"",
+        "\"I came on Saturday to bring food and the door to this room was closed\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_005",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_4_ent_005",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "Singer machine",
+        "black Singer machine"
+      ],
+      "canonical_name": "Singer machine",
+      "description": "The sewing machine sitting in the room under the window.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "A black Singer machine sat on a small table under the window."
+      ],
+      "linked_event_ids": [],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_4_ent_006",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "Writing desk",
+        "writing desk",
+        "desk"
+      ],
+      "canonical_name": "Writing desk",
+      "description": "The roll-top desk against the far wall that Asha studies but does not open.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "against the far wall a writing desk",
+        "\"And the folder you mentioned. The bottom drawer.\"",
+        "Asha did not open the desk.",
+        "\"I'd like to come back tomorrow with everyone present before this is opened.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_4_ent_007",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "Roll-top desk cover",
+        "roll top",
+        "roll-top"
+      ],
+      "canonical_name": "Roll-top desk cover",
+      "description": "The roll-top cover of the writing desk, shown as closed in the room.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "with a roll top and three drawers down each side. The roll top was down."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_003"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_4_ent_008",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "Desk key",
+        "small key",
+        "key"
+      ],
+      "canonical_name": "Desk key",
+      "description": "The key left in the desk lock, which Rosa says was always kept there.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "A small key was in the lock.",
+        "\"The key was always in the lock.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_4_ent_009",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "Folder",
+        "folder"
+      ],
+      "canonical_name": "Folder",
+      "description": "The folder Rosa mentions as being in the bottom drawer of the desk.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "\"And the folder you mentioned. The bottom drawer.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_002"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_4_ent_010",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "Papers",
+        "papers",
+        "her papers"
+      ],
+      "canonical_name": "Papers",
+      "description": "Lucia's important papers that are kept in the desk and discussed as private reading material.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "\"This is where she did her bills,\" Rosa said.",
+        "\"The señora was not afraid of her children reading her papers.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_4_ent_011",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "Bills",
+        "bills"
+      ],
+      "canonical_name": "Bills",
+      "description": "The bills Lucia handled in the sewing room.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "\"This is where she did her bills,\" Rosa said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_002"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_4_ent_012",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "Sewing room door",
+        "door",
+        "sewing room door"
+      ],
+      "canonical_name": "Sewing room door",
+      "description": "The door to the sewing room that Rosa found closed on Saturday and that Asha closes behind her.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "the door to this room was closed",
+        "pulled the sewing room door gently closed behind her"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_4_ent_013",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Saturday",
+        "earlier in the week",
+        "tomorrow"
+      ],
+      "canonical_name": "Saturday",
+      "description": "The time reference Rosa gives for when she came to bring food and found the room door closed.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "\"I came on Saturday to bring food and the door to this room was closed, and earlier in the week it had been open.\"",
+        "\"I'd like to come back tomorrow with everyone present before this is opened.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_4_ent_014",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha Patel",
+        "Asha",
+        "Ms. Patel"
+      ],
+      "canonical_name": "Asha Patel",
+      "description": "The woman who asks to return the next day, thanks Rosa, and later leaves the house and reflects alone.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"I'd like to come back tomorrow with everyone present before this is opened.\"",
+        "\"Thank you, Rosa.\"",
+        "\"Ms. Patel. The boy is not a bad boy.\"",
+        "Asha left the house at twenty past one."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_005",
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_001",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman who answers Asha's questions, explains the October attorney, and warns Asha about the boy.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"Rosa. One more thing.\"",
+        "\"Stein. Or Stine.\"",
+        "\"Thank you, Rosa.\"",
+        "Rosa nodded once.",
+        "\"The boy is not a bad boy.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_002",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Mr. Halloran"
+      ],
+      "canonical_name": "Mr. Halloran",
+      "description": "The attorney Rosa says was not chosen because the family wanted fresh eyes.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"He was younger than Mr. Halloran.\"",
+        "\"she did not want to use Mr. Halloran for the change\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_002"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_003",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Mr. Serrano"
+      ],
+      "canonical_name": "Mr. Serrano",
+      "description": "The parish friend of Mr. Halloran mentioned by Rosa in explaining the family's choice.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"Mr. Serrano's friend from the parish\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_002"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_004",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "the señora"
+      ],
+      "canonical_name": "the señora",
+      "description": "The woman who preferred not to use Mr. Halloran and wanted fresh eyes.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"The señora said she did not want to use Mr. Halloran\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_002"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_005",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Character",
+      "surface_forms": [
+        "the boy"
+      ],
+      "canonical_name": "the boy",
+      "description": "The boy Rosa defends as burdened by being made the man of the house too young.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"The boy is not a bad boy.\"",
+        "\"He is a boy who was told he was the man of the house when he was twelve years old\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_004"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_006",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Character",
+      "surface_forms": [
+        "his mother",
+        "my mother"
+      ],
+      "canonical_name": "his mother",
+      "description": "The boy's mother, mentioned as someone who did not always know how to take the burden back from him.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"and his mother did not always know how to take it back from him\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_004"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_007",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "TimePoint",
+      "surface_forms": [
+        "October"
+      ],
+      "canonical_name": "October",
+      "description": "The month when the other attorney called.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"the one on the phone in October\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_002"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_008",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "sewing room door"
+      ],
+      "canonical_name": "sewing room door",
+      "description": "The door Asha closes after stepping back into the hallway.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"pulled the sewing room door gently closed behind her\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_009",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "phone"
+      ],
+      "canonical_name": "phone",
+      "description": "The phone Asha holds while delaying a call in the coffee shop.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"sat with her phone in her hand and did not call anyone for ten minutes\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_010",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "flat white"
+      ],
+      "canonical_name": "flat white",
+      "description": "The coffee drink Asha orders but does not drink.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"ordered a flat white she did not drink\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_011",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "father's portfolio"
+      ],
+      "canonical_name": "father's portfolio",
+      "description": "The portfolio Asha thinks about while sitting alone in the coffee shop.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"She was thinking about her father's portfolio.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_012",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The person whose statement about there being no later Asha remembers while thinking alone.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"the way Daniel had said there is no later\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_013",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "TimePoint",
+      "surface_forms": [
+        "tomorrow",
+        "the next day"
+      ],
+      "canonical_name": "tomorrow",
+      "description": "The time Asha proposes returning with everyone present.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"I'd like to come back tomorrow with everyone present before this is opened.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_014",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "TimePoint",
+      "surface_forms": [
+        "1:20 p.m.",
+        "twenty past one"
+      ],
+      "canonical_name": "1:20 p.m.",
+      "description": "The time Asha leaves the house.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"Asha left the house at twenty past one.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_006"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_015",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Location",
+      "surface_forms": [
+        "hallway"
+      ],
+      "canonical_name": "hallway",
+      "description": "The hallway Asha steps back into after closing the sewing room door.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"Then she stepped back into the hallway\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_004"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_016",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Location",
+      "surface_forms": [
+        "sewing room"
+      ],
+      "canonical_name": "sewing room",
+      "description": "The room whose opening Asha wants delayed until everyone is present.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"before this is opened\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_017",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Location",
+      "surface_forms": [
+        "house"
+      ],
+      "canonical_name": "house",
+      "description": "The house Asha leaves before walking into the neighborhood.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"Asha left the house at twenty past one.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_006"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_018",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Location",
+      "surface_forms": [
+        "coffee shop"
+      ],
+      "canonical_name": "coffee shop",
+      "description": "The place where Asha sits alone with an untouched drink and does not call anyone.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "\"She walked two blocks before she found a coffee shop with a window seat\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_007",
+        "ev_baseline_1_doc_0_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_5_ent_019",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "A man whose absolute denial about a later instrument is being remembered and judged.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "Daniel had said *there is no later instrument*",
+        "even Daniel, behind his offense, had been visibly terrified"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_001",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "A woman remembered for her hands on the table and for seeming to need an adult in the room.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "Lucia's hands flat on the table",
+        "Lucia had looked at her like a person who needed an adult in the room"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_002",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "A woman remembered for her reddened knuckles and for speaking as if she trusted Asha.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "Rosa's reddened knuckles",
+        "Rosa had spoken to her like a person who had decided... that she might be trustworthy"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_003",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman reflecting on the others and on her own tendency to feel compassion for frightened people.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "Asha had a long-standing weakness for terrified people who would not admit it"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_004",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Asha's father",
+        "father",
+        "father's"
+      ],
+      "canonical_name": "Asha's father",
+      "description": "Asha's father, whose portfolio she is thinking about.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "She was thinking about her father's portfolio."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_002"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_005",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Character",
+      "surface_forms": [
+        "Asha's supervisor",
+        "supervisor"
+      ],
+      "canonical_name": "Asha's supervisor",
+      "description": "The supervisor whose evaluation note criticized her for confusing compassion with neutrality.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "Her supervisor's words, written in the margin of an evaluation seven years ago."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_008"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_006",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "phone"
+      ],
+      "canonical_name": "phone",
+      "description": "The phone Asha sits holding without calling anyone.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "sat with her phone in her hand and did not call anyone for ten minutes"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_001"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_007",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "father's portfolio",
+        "portfolio"
+      ],
+      "canonical_name": "father's portfolio",
+      "description": "The portfolio Asha is thinking about while reflecting on the conversation.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "She was thinking about her father's portfolio."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_002"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_008",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "later instrument"
+      ],
+      "canonical_name": "later instrument",
+      "description": "The disputed instrument Daniel denies exists.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "there is no later instrument"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_003"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_009",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "WHYY mug"
+      ],
+      "canonical_name": "WHYY mug",
+      "description": "A mug remembered as part of Lucia's earlier gesture at the table.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "the WHYY mug"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_004"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_010",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "roll-top desk"
+      ],
+      "canonical_name": "roll-top desk",
+      "description": "A desk imagined with a key in the lock, suggesting hidden information.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "a roll-top desk with a key in the lock"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_011",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "key"
+      ],
+      "canonical_name": "key",
+      "description": "The key imagined as being in the lock of the roll-top desk.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "with a key in the lock"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_012",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "door"
+      ],
+      "canonical_name": "door",
+      "description": "The door remembered as having been open and then closed.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "a door that had been open and was now closed"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_013",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Concept",
+      "surface_forms": [
+        "compassion with neutrality",
+        "compassion",
+        "neutrality"
+      ],
+      "canonical_name": "compassion with neutrality",
+      "description": "The evaluative concept Asha's supervisor accused her of confusing.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "Confusing compassion with neutrality."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_008"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_014",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "TimePoint",
+      "surface_forms": [
+        "ten minutes"
+      ],
+      "canonical_name": "ten minutes",
+      "description": "The duration Asha sits with her phone without calling anyone.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "did not call anyone for ten minutes"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_001"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_015",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "TimePoint",
+      "surface_forms": [
+        "seven years ago"
+      ],
+      "canonical_name": "seven years ago",
+      "description": "The time reference for the evaluation note written by Asha's supervisor.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "an evaluation seven years ago"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_6_ev_008"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_6_ent_016",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha Patel",
+        "Asha"
+      ],
+      "canonical_name": "Asha Patel",
+      "description": "The protagonist who recalls her supervisor's criticism, calls Halloran's office, and later reviews the Serrano file at home.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "She picked up her phone and called Halloran's office.",
+        "\"Tell him Asha Patel called about the Serrano matter.",
+        "That evening, in her own apartment in Fairmount, Asha sat at her kitchen table with the Serrano file open in front of her"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_001",
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_003",
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_004",
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_005",
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_006",
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_001",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Halloran"
+      ],
+      "canonical_name": "Halloran",
+      "description": "The person at the office who is unavailable because he is in a deposition until three.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "She picked up her phone and called Halloran's office.",
+        "\"He's in a deposition until three,\" the receptionist said.",
+        "\"Tell him Asha Patel called about the Serrano matter."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_003"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_002",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "receptionist",
+        "the receptionist"
+      ],
+      "canonical_name": "receptionist",
+      "description": "The office receptionist who tells Asha that Halloran is in a deposition and agrees to pass along the message.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "\"He's in a deposition until three,\" the receptionist said.",
+        "\"I'll let him know.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_003"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_003",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Mrs. Serrano"
+      ],
+      "canonical_name": "Mrs. Serrano",
+      "description": "The Serrano matter's client or subject whom Asha asks about in relation to a possible colleague named Stein or Stine.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "Tell him I'm asking whether his office has any record of a colleague named Stein or Stine who may have advised Mrs. Serrano in October."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_002"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_004",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Stein/Stine",
+        "Stein",
+        "Stine"
+      ],
+      "canonical_name": "Stein/Stine",
+      "description": "A colleague Asha is trying to identify as someone who may have advised Mrs. Serrano in October.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "a colleague named Stein or Stine who may have advised Mrs. Serrano in October"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_002"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_005",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "A man Asha thinks may be carrying hidden financial pressure related to the house sale.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "the bridge loan Daniel was almost certainly carrying on something"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_006",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "A woman Asha remembers sitting at a long table and saying she just wants to think.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "She thought about Lucia in a black sweater at the end of a long table, holding a mug from a public radio fundraiser, saying *I just want to think.*"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_007",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "Halloran's office"
+      ],
+      "canonical_name": "Halloran's office",
+      "description": "The office Asha calls to inquire about the Serrano matter.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "She picked up her phone and called Halloran's office."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_003"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_008",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "Fairmount"
+      ],
+      "canonical_name": "Fairmount",
+      "description": "The neighborhood where Asha's apartment is located.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "That evening, in her own apartment in Fairmount, Asha sat at her kitchen table"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_009",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "Asha's apartment",
+        "her own apartment"
+      ],
+      "canonical_name": "Asha's apartment",
+      "description": "Asha's apartment where she reviews the Serrano file that evening.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "That evening, in her own apartment in Fairmount, Asha sat at her kitchen table with the Serrano file open in front of her"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_010",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "TimePoint",
+      "surface_forms": [
+        "seven years ago"
+      ],
+      "canonical_name": "seven years ago",
+      "description": "The time when Asha's supervisor wrote the evaluation note.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "Her supervisor's words, written in the margin of an evaluation seven years ago."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_001"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_011",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "TimePoint",
+      "surface_forms": [
+        "until three"
+      ],
+      "canonical_name": "until three",
+      "description": "The time until which Halloran is said to be in a deposition.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "\"He's in a deposition until three,\" the receptionist said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_003"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_012",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "TimePoint",
+      "surface_forms": [
+        "October"
+      ],
+      "canonical_name": "October",
+      "description": "The month when Mrs. Serrano may have been advised by Stein or Stine.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "a colleague named Stein or Stine who may have advised Mrs. Serrano in October"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_002"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_013",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "TimePoint",
+      "surface_forms": [
+        "That evening"
+      ],
+      "canonical_name": "That evening",
+      "description": "The time when Asha returns to her apartment and begins reviewing the Serrano file.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "That evening, in her own apartment in Fairmount, Asha sat at her kitchen table with the Serrano file open in front of her"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_014",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Object",
+      "surface_forms": [
+        "phone",
+        "her phone"
+      ],
+      "canonical_name": "phone",
+      "description": "The phone Asha uses to call Halloran's office.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "She picked up her phone and called Halloran's office."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_002"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_015",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Object",
+      "surface_forms": [
+        "flat white"
+      ],
+      "canonical_name": "flat white",
+      "description": "The coffee Asha drinks after making the call.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "She drank an inch of the flat white. It had gone cool."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_006"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_016",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Object",
+      "surface_forms": [
+        "bridge loan"
+      ],
+      "canonical_name": "bridge loan",
+      "description": "The loan Asha suspects Daniel is carrying as part of the house-sale pressure.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "the bridge loan Daniel was almost certainly carrying on something"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_017",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Object",
+      "surface_forms": [
+        "mug"
+      ],
+      "canonical_name": "mug",
+      "description": "The mug Lucia is holding in Asha's memory.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "holding a mug from a public radio fundraiser"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_018",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Object",
+      "surface_forms": [
+        "Serrano file"
+      ],
+      "canonical_name": "Serrano file",
+      "description": "The case file Asha opens and begins reviewing at home.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "Asha sat at her kitchen table with the Serrano file open in front of her"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_019",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_020",
+      "type": "Object",
+      "surface_forms": [
+        "yellow pad",
+        "yellow pad of her own"
+      ],
+      "canonical_name": "yellow pad",
+      "description": "The notepad Asha uses to write her notes while reviewing the file.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "and a yellow pad of her own, and she wrote"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_020",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_021",
+      "type": "Concept",
+      "surface_forms": [
+        "evaluation"
+      ],
+      "canonical_name": "evaluation",
+      "description": "The performance review document containing the supervisor's criticism of Asha.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "written in the margin of an evaluation seven years ago"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_001"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_021",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_022",
+      "type": "Concept",
+      "surface_forms": [
+        "the Serrano matter"
+      ],
+      "canonical_name": "the Serrano matter",
+      "description": "The case or issue Asha is calling about and investigating.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "Tell him Asha Patel called about the Serrano matter."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_002",
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_022",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_023",
+      "type": "Concept",
+      "surface_forms": [
+        "compassion vs. neutrality",
+        "compassion",
+        "neutrality"
+      ],
+      "canonical_name": "compassion vs. neutrality",
+      "description": "The tension in the supervisor's criticism of Asha's professional judgment.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "*Confusing compassion with neutrality.*"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_001"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_023",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_024",
+      "type": "Concept",
+      "surface_forms": [
+        "deposition"
+      ],
+      "canonical_name": "deposition",
+      "description": "The legal proceeding that keeps Halloran unavailable until three.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "\"He's in a deposition until three,\" the receptionist said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_003"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_024",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_025",
+      "type": "Concept",
+      "surface_forms": [
+        "buyer's agent"
+      ],
+      "canonical_name": "buyer's agent",
+      "description": "The real-estate agent whose pressure Asha considers while thinking about the house sale.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "She thought about the buyer's agent, whose pressure was real"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_025",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_026",
+      "type": "Concept",
+      "surface_forms": [
+        "tax bill"
+      ],
+      "canonical_name": "tax bill",
+      "description": "The financial obligation Asha considers as part of the house-sale pressure.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "and the tax bill, which was also real"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_026",
+      "movie_id": "baseline_100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_027",
+      "type": "Concept",
+      "surface_forms": [
+        "public radio fundraiser"
+      ],
+      "canonical_name": "public radio fundraiser",
+      "description": "The fundraiser associated with the mug Lucia is holding in Asha's memory.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "holding a mug from a public radio fundraiser"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_1_doc_0_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_baseline_1_doc_0_chunk_0_part_7_ent_027",
+      "movie_id": "baseline_100_page__scene_1"
+    }
+  ]
+}

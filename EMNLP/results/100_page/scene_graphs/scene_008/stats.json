@@ -1,0 +1,40 @@
+{
+  "movie_id": "100_page__scene_8",
+  "title": "",
+  "node_count_total": 149,
+  "node_count_by_type": {
+    "Event": 68,
+    "Character": 4,
+    "Location": 22,
+    "TimePoint": 10,
+    "Object": 36,
+    "Vehicle": 2,
+    "Concept": 7
+  },
+  "edge_count_total": 227,
+  "edge_count_by_relation": {
+    "performs": 53,
+    "experiences": 16,
+    "undergoes": 8,
+    "occurs_at": 50,
+    "located_at": 26,
+    "part_of": 24,
+    "is_a": 6,
+    "affinity_with": 4,
+    "possesses": 12,
+    "uses": 6,
+    "precedes": 8,
+    "present_on": 1,
+    "occurs_on": 2,
+    "references": 2,
+    "causes": 1,
+    "occurs_after": 8
+  },
+  "nodes_with_evidence_pct": 100.0,
+  "edges_with_evidence_pct": 100.0,
+  "schema_violation_count": 0,
+  "avg_degree": 3.05,
+  "disconnected_component_count": 20,
+  "avg_aliases_per_node": 1.52,
+  "avg_edge_confidence": 0.895
+}

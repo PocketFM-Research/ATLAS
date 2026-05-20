@@ -1,0 +1,53 @@
+{
+  "Daniel": {
+    "uses": "attorney",
+    "role": "contestant to codicil",
+    "caused": "withdrew challenge"
+  },
+  "Rosa": {
+    "uses": "sworn page",
+    "knows_about": "father's fall",
+    "offers": "ride tomorrow",
+    "has_time_free": "morning",
+    "knows_form": "MDS-discharge addendum",
+    "advises": "request nursing notes",
+    "advises_also": "request medication logs"
+  },
+  "Lucia": {
+    "holds": "brass key"
+  },
+  "Asha": {
+    "occupation": "lawyer",
+    "kinship": "father's daughter",
+    "uses": "phone",
+    "uses_also": "laptop",
+    "booked": "Thursday evening departure",
+    "payment_method": "own card",
+    "drives": "car",
+    "carries": "bag",
+    "holds": "printed itinerary",
+    "has_missed_calls": "4",
+    "has_depositions": "Thursday",
+    "has_filing": "Friday"
+  },
+  "Trenton": {
+    "identity_type": "place"
+  },
+  "Asha's father": {
+    "kinship": "Asha's father",
+    "is_alive": "yes",
+    "is_injured": "bruised",
+    "cause_of_injury": "fall getting out of bed"
+  },
+  "Friday": {
+    "day": "Friday"
+  },
+  "Thursday": {
+    "day": "Thursday"
+  },
+  "MDS-discharge addendum": {
+    "identity_type": "form",
+    "uses": "discharge paperwork",
+    "day": "before Friday"
+  }
+}

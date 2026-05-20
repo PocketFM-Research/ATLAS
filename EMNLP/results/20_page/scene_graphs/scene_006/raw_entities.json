@@ -1,0 +1,2567 @@
+{
+  "6": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "A woman who realizes the current arrangement has failed and presses Lucia for information about who knows the staffing has dropped.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "Asha understood that the question of whether the arrangement could hold had already been answered by the report itself.",
+        "Asha did not have an answer.",
+        "Asha let her hand slide from Lucia's sleeve",
+        "She asked who else knew the staffing had dropped"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_006"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_001",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "Asha's sister who asks where to place the person they are discussing and then produces a second document.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "Lucia lifted her eyes finally",
+        "asked ... where they were supposed to put her",
+        "Lucia, instead of answering, reached back into her bag and drew out a second"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_002",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Location",
+      "surface_forms": [
+        "corridor",
+        "hallway"
+      ],
+      "canonical_name": "corridor",
+      "description": "The hallway where Asha and Lucia stand and speak privately.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "They stood in the corridor a moment longer",
+        "would have to leave this hallway pretending the problem had been handled"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_003",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "stapled pages",
+        "report",
+        "pages"
+      ],
+      "canonical_name": "stapled pages",
+      "description": "The report or packet of pages that has already shown the arrangement cannot hold.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "with the stapled pages between them",
+        "the report itself",
+        "the question of whether the arrangement could hold had already been answered by the report itself"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_004",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "laundry cart"
+      ],
+      "canonical_name": "laundry cart",
+      "description": "A cart receding down the hall in the background of the corridor scene.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "the laundry cart receding toward the far end of the hall"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_005",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Concept",
+      "surface_forms": [
+        "arrangement"
+      ],
+      "canonical_name": "arrangement",
+      "description": "The existing setup whose failure Asha recognizes from the report.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "whether the arrangement could hold",
+        "Whatever they decided tonight would not be a renegotiation of what existed"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_002"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_006",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Concept",
+      "surface_forms": [
+        "staffing",
+        "staffing had dropped"
+      ],
+      "canonical_name": "staffing",
+      "description": "The staffing situation that has already fallen apart and is known to Lucia and Asha.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "The staffing was gone.",
+        "she asked who else knew the staffing had dropped"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_006"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_007",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "specialized care"
+      ],
+      "canonical_name": "specialized care",
+      "description": "The specialized care that is no longer available in the current arrangement.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "The specialized care was gone."
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_008",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "TimePoint",
+      "surface_forms": [
+        "tonight"
+      ],
+      "canonical_name": "tonight",
+      "description": "The immediate deadline by which Asha and Lucia must build a new plan.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "Whatever they decided tonight",
+        "it would have to be built before her phone alarm went off at six",
+        "finding, tonight, a place and a plan"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_002"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_009",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "TimePoint",
+      "surface_forms": [
+        "six"
+      ],
+      "canonical_name": "six",
+      "description": "The time when Asha's phone alarm will go off and pull her back to work.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "before her phone alarm went off at six"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_002"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_010",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Location",
+      "surface_forms": [
+        "Serrano closing"
+      ],
+      "canonical_name": "Serrano closing",
+      "description": "The work setting Asha must return to when her alarm goes off.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "pulled her back to the Serrano closing"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_002"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_011",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "phone alarm"
+      ],
+      "canonical_name": "phone alarm",
+      "description": "Asha's alarm that marks the deadline for finishing the night's planning.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "before her phone alarm went off at six"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_002"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_012",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase"
+      ],
+      "canonical_name": "briefcase",
+      "description": "Asha's briefcase containing signed affidavits.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "She had a briefcase in the car with signed affidavits in it"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_013",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "signed affidavits"
+      ],
+      "canonical_name": "signed affidavits",
+      "description": "Legal documents carried by Asha in her briefcase.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "a briefcase in the car with signed affidavits in it"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_014",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Character",
+      "surface_forms": [
+        "Asha's sister",
+        "sister"
+      ],
+      "canonical_name": "Asha's sister",
+      "description": "The person Lucia is identified as, carrying the burden of the situation alone for a month.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "a sister in front of her who had been carrying this alone for a month"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_004"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_015",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "TimePoint",
+      "surface_forms": [
+        "a month"
+      ],
+      "canonical_name": "a month",
+      "description": "The period during which the burden has been carried alone.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "had been carrying this alone for a month"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_004"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_016",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Concept",
+      "surface_forms": [
+        "place and plan",
+        "place",
+        "plan"
+      ],
+      "canonical_name": "place and plan",
+      "description": "The concrete solution Asha and Lucia need to find tonight.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "finding, tonight, a place and a plan concrete enough"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_017",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Object",
+      "surface_forms": [
+        "bag"
+      ],
+      "canonical_name": "bag",
+      "description": "Lucia's bag, which she reaches into to retrieve a second document.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "reached back into her bag and drew out a second"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_018",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Object",
+      "surface_forms": [
+        "second document"
+      ],
+      "canonical_name": "second document",
+      "description": "A document Lucia retrieves from her bag instead of answering Asha.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_0",
+      "evidence": [
+        "drew out a second"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_0_ent_019",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The person pressing Lucia for information and taking the facility list to act on it.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_1",
+      "evidence": [
+        "her voice until it would not carry past the doorframe behind her",
+        "Asha took it without looking at the names yet",
+        "Asha unfolded the half-page the rest of the way"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_008",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_009",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_010"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_1_ent_001",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The person who reveals a separately kept list of facilities and confirms the Wynnewood respite bed.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_1",
+      "evidence": [
+        "Lucia, instead of answering, reached back into her bag and drew out a second, shorter list",
+        "Her hand shook as she held it out",
+        "Lucia took a small step closer"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_008",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_009",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_010"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_1_ent_002",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Location",
+      "surface_forms": [
+        "Wynnewood"
+      ],
+      "canonical_name": "Wynnewood",
+      "description": "The place named on the facility list where a respite bed is available.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_1",
+      "evidence": [
+        "a place in Wynnewood Asha had never heard of",
+        "the Wynnewood place had a respite bed open through Sunday"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_009",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_010"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_1_ent_003",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "facility list",
+        "second, shorter list",
+        "list",
+        "half page",
+        "page",
+        "half-page"
+      ],
+      "canonical_name": "facility list",
+      "description": "The folded list of facilities that Lucia kept separate from the report and handed to Asha.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_1",
+      "evidence": [
+        "drew out a second, shorter list",
+        "three or four facilities printed on a half page",
+        "Asha took it without looking at the names yet",
+        "She folded the page once more",
+        "Asha unfolded the half-page the rest of the way"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_008",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_009"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_1_ent_004",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "report"
+      ],
+      "canonical_name": "report",
+      "description": "The report from which Lucia's separate list was kept apart.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_1",
+      "evidence": [
+        "not stapled to the report"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_1_ent_005",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Sunday"
+      ],
+      "canonical_name": "Sunday",
+      "description": "The deadline through which the Wynnewood respite bed remains open.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_1",
+      "evidence": [
+        "a respite bed open through Sunday"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_010"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_1_ent_006",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "respite bed"
+      ],
+      "canonical_name": "respite bed",
+      "description": "The available bed at Wynnewood that Lucia says is open through Sunday.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_1",
+      "evidence": [
+        "the Wynnewood place had a respite bed open through Sunday"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_010"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_1_ent_007",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Character",
+      "surface_forms": [
+        "the woman on the phone"
+      ],
+      "canonical_name": "the woman on the phone",
+      "description": "The unnamed woman who called Lucia back about the Wynnewood bed.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_1",
+      "evidence": [
+        "the woman on the phone had actually called her back"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_010"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_1_ent_008",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "corridor",
+        "hallway"
+      ],
+      "canonical_name": "corridor",
+      "description": "The hallway space where Asha and Lucia exchange the list and speak privately.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_1",
+      "evidence": [
+        "the corridor light caught the top entry",
+        "waiting in this hallway for someone to ask"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_008",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_009",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_010"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_1_ent_009",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "doorframe",
+        "door"
+      ],
+      "canonical_name": "doorframe",
+      "description": "The threshold Asha keeps her voice from carrying past while speaking privately.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_1",
+      "evidence": [
+        "it would not carry past the doorframe behind her"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_001"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_1_ent_010",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The woman reviewing placement options and asking Asha to make the intake calls.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_2",
+      "evidence": [
+        "Lucia said, the Wynnewood place had a respite bed open through Sunday",
+        "Lucia sat without resistance",
+        "Lucia only looked at the page",
+        "Lucia, I can't do the talking today"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_2_ent_001",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The person who helps Lucia sit, agrees to take over the calls, and will drive out to inspect the room.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_2",
+      "evidence": [
+        "Asha understood that Wynnewood was the one they were going to start with",
+        "Asha stepped past the doorframe into the room",
+        "Asha crouched",
+        "Asha said she would take the calls"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_2_ent_002",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Location",
+      "surface_forms": [
+        "Wynnewood"
+      ],
+      "canonical_name": "Wynnewood",
+      "description": "The placement facility with a respite bed open through Sunday and a required callback by nine.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_2",
+      "evidence": [
+        "the Wynnewood place had a respite bed open through Sunday",
+        "Wynnewood was the one they were going to start with",
+        "Wynnewood would want a callback by nine"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_005"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_2_ent_003",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "page",
+        "half-page"
+      ],
+      "canonical_name": "page",
+      "description": "The paper containing placement notes that Lucia keeps on her knee and smooths.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_2",
+      "evidence": [
+        "her eyes went briefly to the page",
+        "she did not refold the page either",
+        "kept the half-page on her knee",
+        "smoothing the crease with her thumb"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_004"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_2_ent_004",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "the room"
+      ],
+      "canonical_name": "the room",
+      "description": "The room Lucia is guided into and later expected to inspect before proceeding.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_2",
+      "evidence": [
+        "steering her to the upholstered chair near the window",
+        "Lucia would be the one to drive out and see the room"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_2_ent_005",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "the window"
+      ],
+      "canonical_name": "the window",
+      "description": "The window beside the upholstered chair where Lucia is seated.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_2",
+      "evidence": [
+        "the upholstered chair near the window"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_2_ent_006",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "upholstered chair",
+        "chair"
+      ],
+      "canonical_name": "upholstered chair",
+      "description": "The chair by the window where Lucia sits during the conversation.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_2",
+      "evidence": [
+        "steering her to the upholstered chair near the window",
+        "Lucia sat without resistance"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_2_ent_007",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "intake calls",
+        "the calling"
+      ],
+      "canonical_name": "intake calls",
+      "description": "The phone calls to facilities that Asha agrees to handle for the placement process.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_2",
+      "evidence": [
+        "asked who was going to handle the intake calls in the morning",
+        "the calling, when it resumed",
+        "I can't do the talking today",
+        "she would take the calls"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_007"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_2_ent_008",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "TimePoint",
+      "surface_forms": [
+        "time references",
+        "through Sunday",
+        "at six",
+        "in the morning",
+        "by nine"
+      ],
+      "canonical_name": "time references",
+      "description": "The explicit timing references governing the respite bed, the start time, the morning calls, and the callback deadline.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_2",
+      "evidence": [
+        "open through Sunday",
+        "going to start with at six",
+        "handle the intake calls in the morning",
+        "callback by nine"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_005"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_2_ent_009",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Character",
+      "surface_forms": [
+        "the woman on the phone"
+      ],
+      "canonical_name": "the woman on the phone",
+      "description": "The person at Wynnewood who called Lucia back twice.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_2",
+      "evidence": [
+        "the woman on the phone had actually called her back twice"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_001"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_2_ent_010",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Character",
+      "surface_forms": [
+        "their mother",
+        "mother's"
+      ],
+      "canonical_name": "their mother",
+      "description": "The person whose care level affects whether facilities will accept placement without a fresh assessment.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_2",
+      "evidence": [
+        "wouldn't take someone at their mother's level without a fresh assessment"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_001"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_2_ent_011",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "waitlist status",
+        "waitlisted",
+        "waitlists"
+      ],
+      "canonical_name": "waitlist status",
+      "description": "The placement status of the other facilities that still require follow-up.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_2",
+      "evidence": [
+        "The other three ... were either waitlisted",
+        "there were two waitlists to push on"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_005"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_2_ent_012",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Concept",
+      "surface_forms": [
+        "fresh assessment"
+      ],
+      "canonical_name": "fresh assessment",
+      "description": "The additional evaluation required by some facilities before they will accept the placement.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_2",
+      "evidence": [
+        "wouldn't take someone at their mother's level without a fresh assessment"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_001"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_2_ent_013",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Concept",
+      "surface_forms": [
+        "night aide"
+      ],
+      "canonical_name": "night aide",
+      "description": "The aide who usually charts near the window where Lucia is seated.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_2",
+      "evidence": [
+        "where the night aide usually charted"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_2_ent_014",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The woman handling the calls and paperwork while preparing to drive out and inspect the room.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_3",
+      "evidence": [
+        "for Lucia to know",
+        "Lucia would be the one to drive out and see the room",
+        "Lucia's knee",
+        "Lucia having to chase a fax"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_3_ent_001",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who takes over call handling, writes the intake note, requests records, and retrieves the binder.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_3",
+      "evidence": [
+        "she said she would take the calls",
+        "Asha took a pen",
+        "Asha — Intake 9 a.m.",
+        "Asha nodded once",
+        "Asha crossed to the night aide's small desk"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_3_ent_002",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Concept",
+      "surface_forms": [
+        "Wynnewood"
+      ],
+      "canonical_name": "Wynnewood",
+      "description": "The facility or intake destination that needs records before holding the bed.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_3",
+      "evidence": [
+        "Wynnewood — Intake 9 a.m.",
+        "Wynnewood would want a current med list",
+        "have the records to them by seven"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_3_ent_003",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "TimePoint",
+      "surface_forms": [
+        "9 a.m.",
+        "seven",
+        "noon"
+      ],
+      "canonical_name": "9 a.m.",
+      "description": "The intake appointment time written on the paper, with records promised by seven and the bed held past noon.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_3",
+      "evidence": [
+        "Intake 9 a.m.",
+        "by seven",
+        "past noon"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_3_ent_004",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "Paper",
+        "paper",
+        "half-page",
+        "page"
+      ],
+      "canonical_name": "Paper",
+      "description": "The sheet on which Asha writes the Wynnewood intake note and returns it to Lucia.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_3",
+      "evidence": [
+        "wrote Wynnewood — Intake 9 a.m. along the white margin of the half-page",
+        "She slid the paper back onto Lucia's knee",
+        "the page on her knee"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_3_ent_005",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "Pen",
+        "pen"
+      ],
+      "canonical_name": "Pen",
+      "description": "The writing instrument Asha uses to note the intake appointment.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_3",
+      "evidence": [
+        "Asha took a pen from her inside pocket"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_002"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_3_ent_006",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "Medical records binder",
+        "medical records",
+        "records",
+        "current med list",
+        "last two incident reports",
+        "binder"
+      ],
+      "canonical_name": "Medical records binder",
+      "description": "The binder containing the medical records, medication list, and incident reports needed for Wynnewood.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_3",
+      "evidence": [
+        "who had the medical records",
+        "Wynnewood would want a current med list and the last two incident reports",
+        "the binder was in the night aide's drawer",
+        "The binder was where Lucia had said it would be"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_3_ent_007",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "Night aide's drawer",
+        "night aide's drawer",
+        "night aide's small desk by the door",
+        "night aide's small desk"
+      ],
+      "canonical_name": "Night aide's drawer",
+      "description": "The drawer where Lucia says the binder is kept and where Asha retrieves it.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_3",
+      "evidence": [
+        "the binder was in the night aide's drawer",
+        "Asha crossed to the night aide's small desk by the door and slid open the drawer"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_3_ent_008",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "Kitchen at home",
+        "kitchen at home",
+        "home"
+      ],
+      "canonical_name": "Kitchen at home",
+      "description": "The place from which Lucia says she can scan the binder pages.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_3",
+      "evidence": [
+        "scan the pages from the kitchen at home"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_3_ent_009",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "Room",
+        "room"
+      ],
+      "canonical_name": "Room",
+      "description": "The room Lucia is assigned to inspect before any signing takes place.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_3",
+      "evidence": [
+        "drive out and see the room before they signed anything",
+        "see the room"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_3_ev_001"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_3_ent_010",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The character who retrieves the binder, reassures Lucia about the move, and promises to follow to Wynnewood.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "Asha crossed to the night aide's small desk by the door and slid open the drawer.",
+        "she lifted it out and brought it back to the chair, setting it across Lucia's knee",
+        "Asha understood the question was not really about the van or the morning route",
+        "she would drive out after the closing and follow Lucia to Wynnewood"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_008",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_001",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The character who has been carrying the binder, asks about transport, and silently accepts Asha's answer.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "Lucia had been carrying alone",
+        "the binder was where Lucia had said it would be",
+        "setting it across Lucia's knee",
+        "Lucia rested her hand flat on the cover",
+        "Lucia ... asked, almost too quietly to carry, who handles the transport",
+        "Lucia's hand stayed on the binder",
+        "Lucia let her hands stay where Asha had placed them"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_008",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_002",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "their mother",
+        "mother"
+      ],
+      "canonical_name": "their mother",
+      "description": "The mother being moved, whose transport and ride arrangements are discussed by Asha and Lucia.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "whether she would be in the car when their mother was moved",
+        "she would be the one to ride with their mother on the day of the move"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_003",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Location",
+      "surface_forms": [
+        "Wynnewood"
+      ],
+      "canonical_name": "Wynnewood",
+      "description": "The destination Asha says she will follow Lucia to during the move.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "the Wynnewood line still showed at the edge",
+        "follow Lucia to Wynnewood",
+        "the Wynnewood line was no longer visible at the edge"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_004",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "night aide's desk",
+        "night aide's small desk",
+        "aide's desk"
+      ],
+      "canonical_name": "night aide's desk",
+      "description": "The desk by the door where Asha finds the binder in the drawer.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "Asha crossed to the night aide's small desk by the door",
+        "glanced past her at the wall clock above the aide's desk"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_005",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "binder"
+      ],
+      "canonical_name": "binder",
+      "description": "The binder containing the half-page and the visible Wynnewood line that Asha retrieves, closes, and presses flat.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "The binder was where Lucia had said it would be",
+        "setting it across Lucia's knee on top of the half-page",
+        "Asha reached down and folded the binder shut over the half-page",
+        "Lucia let her hands stay where Asha had placed them"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_008",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_006",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "half-page"
+      ],
+      "canonical_name": "half-page",
+      "description": "The partially visible page beneath the binder that keeps the Wynnewood line exposed until Asha closes it.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "setting it across Lucia's knee on top of the half-page",
+        "Asha reached down and folded the binder shut over the half-page"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_007",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "Wynnewood line"
+      ],
+      "canonical_name": "Wynnewood line",
+      "description": "The visible line on the page that remains exposed, then is hidden when Asha closes the binder.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "so that the Wynnewood line still showed at the edge",
+        "the Wynnewood line was no longer visible at the edge"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_008",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "drawer"
+      ],
+      "canonical_name": "drawer",
+      "description": "The drawer in the night aide's desk where the binder is kept.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "Asha crossed to the night aide's small desk by the door and slid open the drawer"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_001"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_009",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "wall clock"
+      ],
+      "canonical_name": "wall clock",
+      "description": "The clock Lucia glances at after the binder is moved aside.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "glanced past her at the wall clock above the aide's desk"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_010",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Vehicle",
+      "surface_forms": [
+        "van"
+      ],
+      "canonical_name": "van",
+      "description": "The vehicle Lucia's question initially seems to concern when asking about transport.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "Asha understood the question was not really about the van or the morning route"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_004"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_011",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "transport"
+      ],
+      "canonical_name": "transport",
+      "description": "The arrangement for moving their mother that Lucia asks about.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "asked, almost too quietly to carry, who handles the transport",
+        "Asha understood the question was not really about the van or the morning route"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_004"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_012",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Concept",
+      "surface_forms": [
+        "morning route"
+      ],
+      "canonical_name": "morning route",
+      "description": "The route Lucia's transport question briefly appears to reference.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "Asha understood the question was not really about the van or the morning route"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_004"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_013",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "TimePoint",
+      "surface_forms": [
+        "after the closing"
+      ],
+      "canonical_name": "after the closing",
+      "description": "The time Asha says she will drive out to follow Lucia.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "she would drive out after the closing and follow Lucia to Wynnewood"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_014",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Sunday"
+      ],
+      "canonical_name": "Sunday",
+      "description": "The day by which Asha says the bed may still last.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "if the bed held past Sunday"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_015",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Object",
+      "surface_forms": [
+        "bed"
+      ],
+      "canonical_name": "bed",
+      "description": "The bed whose condition determines whether Asha will ride with their mother on move day.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_4",
+      "evidence": [
+        "if the bed held past Sunday"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_4_ent_016",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "A woman coordinating the placement and overnight plan, who questions the backup options and hands over the binder.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_5",
+      "evidence": [
+        "What happens if the bed doesn't hold, she said",
+        "Lucia nodded",
+        "Lucia slid the binder the rest of the way off her lap",
+        "Who stays here tonight, Lucia said"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_008",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_009",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_5_ent_001",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman managing the placement list and overnight coverage, who reassures Lucia and takes the binder.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_5",
+      "evidence": [
+        "Asha heard underneath it the older question",
+        "Asha did not reach for the binder back",
+        "she would put Bryn Mawr Extended Care on the list",
+        "Asha took it without comment",
+        "I'll stay until the night aide turns over at five"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_008",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_009",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_5_ent_002",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Location",
+      "surface_forms": [
+        "Wynnewood"
+      ],
+      "canonical_name": "Wynnewood",
+      "description": "The current placement option being discussed as the primary fallback that may fall through.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_5",
+      "evidence": [
+        "if Wynnewood fell through",
+        "found the page that listed Bryn Mawr Extended Care under Wynnewood",
+        "if Wynnewood pushes us past Tuesday"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_008",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_5_ent_003",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Location",
+      "surface_forms": [
+        "Bryn Mawr Extended Care"
+      ],
+      "canonical_name": "Bryn Mawr Extended Care",
+      "description": "A backup care placement that Asha adds to the list if Wynnewood fails.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_5",
+      "evidence": [
+        "she would put Bryn Mawr Extended Care on the list",
+        "the page that listed Bryn Mawr Extended Care under Wynnewood"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_5_ent_004",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "the kitchen"
+      ],
+      "canonical_name": "the kitchen",
+      "description": "The place where Lucia would otherwise be phoning waitlists while the coffee went cold.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_5",
+      "evidence": [
+        "phoning waitlists from the kitchen while the coffee went cold"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_003"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_5_ent_005",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "binder"
+      ],
+      "canonical_name": "binder",
+      "description": "The binder containing the placement list and index that Lucia passes to Asha.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_5",
+      "evidence": [
+        "slid the binder a few inches toward Asha's side",
+        "Lucia slid the binder the rest of the way off her lap",
+        "Asha took it without comment",
+        "thumbed through to the index"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_006"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_5_ent_006",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "index"
+      ],
+      "canonical_name": "index",
+      "description": "The binder index that Asha flips to after receiving the binder.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_5",
+      "evidence": [
+        "thumbed through to the index Lucia had tabbed weeks earlier"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_5_ent_007",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "Haverford In-Home Respite",
+        "Haverford"
+      ],
+      "canonical_name": "Haverford In-Home Respite",
+      "description": "A backup respite option that is circled in the binder and may be called if Wynnewood runs late.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_5",
+      "evidence": [
+        "Haverford In-Home Respite, that Lucia had circled and not mentioned",
+        "I'll call Haverford myself"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_008",
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_5_ent_008",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Character",
+      "surface_forms": [
+        "night aide"
+      ],
+      "canonical_name": "night aide",
+      "description": "The unnamed aide whose shift ends at five and who hands overnight coverage over.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_5",
+      "evidence": [
+        "until the night aide turns over at five"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_009"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_5_ent_009",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "TimePoint",
+      "surface_forms": [
+        "five",
+        "Tuesday"
+      ],
+      "canonical_name": "five",
+      "description": "The time when the night aide turns over and Asha's overnight coverage ends.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_5",
+      "evidence": [
+        "turns over at five"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_009"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_5_ent_010",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "TimePoint",
+      "surface_forms": [
+        "the closing"
+      ],
+      "canonical_name": "the closing",
+      "description": "The upcoming closing deadline before which Asha plans to add the backup placement.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_5",
+      "evidence": [
+        "before she left for the closing"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_002"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_5_ent_011",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Tuesday"
+      ],
+      "canonical_name": "Tuesday",
+      "description": "The cutoff day after which Asha says she will call Haverford herself if needed.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_5",
+      "evidence": [
+        "if Wynnewood pushes us past Tuesday"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_5_ent_012",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Location",
+      "surface_forms": [
+        "the wall clock"
+      ],
+      "canonical_name": "the wall clock",
+      "description": "The clock Lucia glances at before deciding to trust Asha's plan.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_5",
+      "evidence": [
+        "glanced past her at the wall clock above the aide's desk",
+        "Lucia nodded, and her hands came back to rest on the cover, and for the first time that night she did not look at the clock again"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_5_ev_004"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_5_ent_013",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman coordinating the placement plan and pressing Lucia for details about the available respite bed.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_6",
+      "evidence": [
+        "Asha tipped the binder open",
+        "Asha did not answer right away",
+        "Asha closed the binder the rest of the way"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_008",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_009",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_010",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_6_ent_001",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The person who has been tracking placement options and reporting on the respite bed situation.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_6",
+      "evidence": [
+        "Lucia's hands, freed of the binder",
+        "Lucia drew her palms together",
+        "Lucia was not asking about the bed at Wynnewood anymore"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_008",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_009",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_010",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_6_ent_002",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Location",
+      "surface_forms": [
+        "Wynnewood"
+      ],
+      "canonical_name": "Wynnewood",
+      "description": "The facility with a respite bed that is being used as the immediate placement option.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_6",
+      "evidence": [
+        "if Wynnewood pushes us past Tuesday",
+        "the bed at Wynnewood anymore"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_010",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_002"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_6_ent_003",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Location",
+      "surface_forms": [
+        "Haverford In-Home Respite",
+        "Haverford"
+      ],
+      "canonical_name": "Haverford In-Home Respite",
+      "description": "A named respite placement option referenced on Lucia's list and discussed as a backup if Wynnewood fails.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_6",
+      "evidence": [
+        "I'll call Haverford myself",
+        "Haverford In-Home Respite sat circled"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_008",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_009"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_6_ent_004",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "binder"
+      ],
+      "canonical_name": "binder",
+      "description": "The folder holding the placement information that Asha opens and closes during the conversation.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_6",
+      "evidence": [
+        "Lucia's hands, freed of the binder",
+        "Asha tipped the binder open",
+        "Asha closed the binder"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_6_ent_005",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "trial"
+      ],
+      "canonical_name": "trial",
+      "description": "The placement trial Lucia had been tracking in the margins and that Asha asks about.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_6",
+      "evidence": [
+        "What happened with the trial, she said",
+        "you stopped writing it in the margins after the second week"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_004"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_6_ent_006",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Tuesday",
+        "the second week",
+        "the third day",
+        "tomorrow",
+        "the sun came up",
+        "five"
+      ],
+      "canonical_name": "Tuesday",
+      "description": "The time references that frame the urgency of the placement plan and the caregiving schedule.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_6",
+      "evidence": [
+        "past Tuesday",
+        "after the second week",
+        "on the third day",
+        "what about tomorrow",
+        "by the time the sun came up",
+        "turns over at five"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_0_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_1_ev_010",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_002"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_6_ent_007",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "caregiving shift division",
+        "night aide",
+        "morning"
+      ],
+      "canonical_name": "caregiving shift division",
+      "description": "The handoff between night and morning caregiving coverage that Asha is trying to manage.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_6",
+      "evidence": [
+        "I'll stay until the night aide turns over at five",
+        "you take the morning"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_2_ev_002"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_6_ent_008",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The sister who stays with Lucia, manages the binder, and proposes the call-and-signing plan.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_7",
+      "evidence": [
+        "Asha closed the binder the rest of the way",
+        "\"I'm staying,\" she said",
+        "Asha leaned forward and folded her hands over Lucia's upturned palms"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_008"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_7_ent_001",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "Asha's sister who silently accepts the terms, touches the binder, and asks whether they will both sign.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_7",
+      "evidence": [
+        "Lucia did not speak",
+        "her fingertips on the edge of the binder",
+        "\"So we both sign,\" she said"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_008"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_7_ent_002",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "their mother",
+        "their mother's",
+        "mother's"
+      ],
+      "canonical_name": "their mother",
+      "description": "The sisters' mother, referenced in Lucia's touch and described as someone not to wake.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_7",
+      "evidence": [
+        "the way she had touched their mother's wrist earlier without waking her"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_003"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_7_ent_003",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Concept",
+      "surface_forms": [
+        "Haverford"
+      ],
+      "canonical_name": "Haverford",
+      "description": "The institution or contact point that Asha and Lucia discuss calling and signing for.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_7",
+      "evidence": [
+        "if Haverford answers before seven I take that call",
+        "Let's decide who calls Haverford first thing tomorrow"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_006"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_7_ent_004",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "binder"
+      ],
+      "canonical_name": "binder",
+      "description": "The binder containing the intake paperwork that Asha closes, sets aside, and reaches for the pen clipped to.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_7",
+      "evidence": [
+        "Asha closed the binder the rest of the way",
+        "laid her fingertips on the edge of the binder",
+        "the binder's spine"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_005",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_008"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_7_ent_005",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "phone"
+      ],
+      "canonical_name": "phone",
+      "description": "Asha's phone, which she says will stay on until Lucia wakes up.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_7",
+      "evidence": [
+        "my phone stays on until you wake up"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_002"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_7_ent_006",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "TimePoint",
+      "surface_forms": [
+        "before seven",
+        "six",
+        "first thing tomorrow"
+      ],
+      "canonical_name": "before seven",
+      "description": "The time window discussed for taking the Haverford call and deciding who will call first.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_7",
+      "evidence": [
+        "if Haverford answers before seven",
+        "before I leave, so neither of us is guessing at six",
+        "first thing tomorrow"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_006"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_7_ent_007",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "Wynnewood"
+      ],
+      "canonical_name": "Wynnewood",
+      "description": "A place referenced as the location where Asha is no longer staying at bed.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_7",
+      "evidence": [
+        "bed at Wynnewood anymore"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_7_ent_008",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "hallway"
+      ],
+      "canonical_name": "hallway",
+      "description": "The hallway used as a comparison for Lucia's effort not to cry.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_7",
+      "evidence": [
+        "the way she did when she was trying not to cry in a hallway"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_7_ent_009",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "aide's desk"
+      ],
+      "canonical_name": "aide's desk",
+      "description": "The desk in the room where the clock is located.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_7",
+      "evidence": [
+        "the clock above the aide's desk"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_003"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_7_ent_010",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "clock"
+      ],
+      "canonical_name": "clock",
+      "description": "The clock above the aide's desk that Lucia glances at.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_7",
+      "evidence": [
+        "her eyes went once to the clock above the aide's desk"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_003"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_7_ent_011",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "radiator"
+      ],
+      "canonical_name": "radiator",
+      "description": "The radiator under the window that cycles off and creates the quiet in the scene.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_7",
+      "evidence": [
+        "The radiator under the window cycled off"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_7_ent_012",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "window"
+      ],
+      "canonical_name": "window",
+      "description": "The window beneath which the radiator sits.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_7",
+      "evidence": [
+        "The radiator under the window"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_7_ent_013",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "blank intake page",
+        "intake page"
+      ],
+      "canonical_name": "blank intake page",
+      "description": "The blank intake page that Asha paperclips to the front and Lucia looks at before asking about signing.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_7",
+      "evidence": [
+        "looked once at the blank intake page Asha had paperclipped to the front"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_007",
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_008"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_7_ent_014",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Object",
+      "surface_forms": [
+        "pen"
+      ],
+      "canonical_name": "pen",
+      "description": "The pen clipped to the binder's spine that Asha reaches for to sign.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_7",
+      "evidence": [
+        "reached for the pen clipped to the binder's spine"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_7_ev_008"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_7_ent_015",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "A person who prepares to sign the intake page while holding Lucia's hand.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_8",
+      "evidence": [
+        "Asha had paperclipped to the front.",
+        "Asha nodded and reached for the pen clipped to the binder's spine without letting go of Lucia's other hand."
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_004"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_8_ent_001",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "A person who proposes that they both sign and then avoids looking toward the cart in the hall.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_8",
+      "evidence": [
+        "So we both sign, she said, almost a question,",
+        "without letting go of Lucia's other hand.",
+        "Lucia did not look toward it."
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_002",
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_004",
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_007"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_8_ent_002",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Object",
+      "surface_forms": [
+        "intake page",
+        "k intake page"
+      ],
+      "canonical_name": "intake page",
+      "description": "A form clipped to the front of the binder for signing.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_8",
+      "evidence": [
+        "k intake page Asha had paperclipped to the front.",
+        "Asha had paperclipped to the front."
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_002"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_8_ent_003",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "binder",
+        "binder's spine"
+      ],
+      "canonical_name": "binder",
+      "description": "The binder holding the intake page and the clipped pen.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_8",
+      "evidence": [
+        "paperclipped to the front.",
+        "the pen clipped to the binder's spine"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_001",
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_003"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_8_ent_004",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "pen"
+      ],
+      "canonical_name": "pen",
+      "description": "The pen clipped to the binder that Asha reaches for to sign.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_8",
+      "evidence": [
+        "reached for the pen clipped to the binder's spine"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_003",
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_004"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_8_ent_005",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "radiator"
+      ],
+      "canonical_name": "radiator",
+      "description": "The radiator in the room that remains off.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_8",
+      "evidence": [
+        "The radiator stayed off"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_005"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_8_ent_006",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Vehicle",
+      "surface_forms": [
+        "cart"
+      ],
+      "canonical_name": "cart",
+      "description": "A cart that rolls past in the hallway and stops at the next door.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_8",
+      "evidence": [
+        "a cart rolled past and stopped at the next door"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_007"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_8_ent_007",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "hall",
+        "down the hall"
+      ],
+      "canonical_name": "hall",
+      "description": "The hallway where the cart rolls past.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_8",
+      "evidence": [
+        "down the hall a cart rolled past"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_006",
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_007"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_8_ent_008",
+      "movie_id": "20_page__scene_6"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "next door"
+      ],
+      "canonical_name": "next door",
+      "description": "The door at the end of the hallway where the cart stops.",
+      "scene_id": "6",
+      "chunk_id": "doc_5_chunk_0_part_8",
+      "evidence": [
+        "stopped at the next door"
+      ],
+      "linked_event_ids": [
+        "ev_20_page__6_doc_5_chunk_0_part_8_ev_006"
+      ],
+      "id": "ent_20_page__6_doc_5_chunk_0_part_8_ent_009",
+      "movie_id": "20_page__scene_6"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "Asha": {
+    "uses": "phone",
+    "kinship": "Marcus's sibling",
+    "has_siblings": "yes"
+  },
+  "Marcus": {
+    "kinship": "Asha's sibling",
+    "has_siblings": "yes"
+  },
+  "Bridgepoint": {
+    "identity_type": "facility",
+    "holds": "bed for Asha's father",
+    "day": "Wednesday"
+  },
+  "Asha's father": {
+    "kinship": "Asha's father"
+  },
+  "county step-down bed": {
+    "type": "step-down bed",
+    "affiliated_with": "county"
+  },
+  "Friday": {
+    "day": "Friday"
+  },
+  "Wednesday": {
+    "day": "Wednesday"
+  },
+  "forty-eight hours": {
+    "duration": "48 hours"
+  },
+  "two o'clock": {
+    "measurement": "2:00"
+  },
+  "three on Wednesday": {
+    "measurement": "3:00 Wednesday"
+  },
+  "Trenton": {
+    "identity_type": "place"
+  },
+  "Claire": {
+    "uses": "phone number"
+  }
+}

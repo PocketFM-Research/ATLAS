@@ -1,0 +1,3783 @@
+{
+  "19": [
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_001",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "Whitfield looked up from the page he had been turning and set it down without marking his place"
+      ],
+      "confidence": 0.96,
+      "source_name": "Whitfield",
+      "target_name": "Whitfield ends his reading",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_001",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "Whitfield looked up from the page ...",
+        "Whitfield's office"
+      ],
+      "confidence": 0.9,
+      "source_name": "Whitfield ends his reading",
+      "target_name": "Whitfield's office",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_002",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "Asha crossed to the chair across from him and laid the briefcase flat on her knees"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha enters and sits across from Whitfield",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_003",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "Asha crossed to the chair across from him"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha enters and sits across from Whitfield",
+      "target_name": "the chair across from Whitfield",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_004",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "Devin's text was still on the phone in her coat pocket, unanswered"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Asha ignores Devin's unanswered text",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_005",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "whatever she told Whitfield in the next half hour would now reach Devin as a thing already said"
+      ],
+      "confidence": 0.72,
+      "source_name": "Asha ignores Devin's unanswered text",
+      "target_name": "Whitfield's office",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_006",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "she understood as she sat down that the choice she had made by not stepping into the stairwell had not closed the question of Devin so much as moved it",
+        "whatever she told Whitfield in the next half hour would now reach Devin as a thing already said"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha realizes her words will reach Devin secondhand",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_007",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "whatever she told Whitfield in the next half hour would now reach Devin as a thing already said"
+      ],
+      "confidence": 0.7,
+      "source_name": "Asha realizes her words will reach Devin secondhand",
+      "target_name": "Whitfield's office",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_008",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "Whitfield asked her, in the level voice he used when he already knew the meeting was not routine, what she had come in to tell him"
+      ],
+      "confidence": 0.98,
+      "source_name": "Whitfield",
+      "target_name": "Whitfield asks what Asha came to say",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_009",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "Whitfield asked her ... what she had come in to tell him"
+      ],
+      "confidence": 0.96,
+      "source_name": "Whitfield asks what Asha came to say",
+      "target_name": "Whitfield's office",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_010",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "Asha, hearing the question land in the room, knew that the harder problem was not what she said to him now but what she would have to say to Devin after"
+      ],
+      "confidence": 0.94,
+      "source_name": "Asha",
+      "target_name": "Asha anticipates explaining herself to Devin",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_011",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "what she would have to say to Devin after"
+      ],
+      "confidence": 0.68,
+      "source_name": "Asha anticipates explaining herself to Devin",
+      "target_name": "Whitfield's office",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_012",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_007",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "Asha left Whitfield's office with the briefcase lighter in her hand"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha leaves Whitfield's office",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_013",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "Asha left Whitfield's office"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha leaves Whitfield's office",
+      "target_name": "Whitfield's office",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_014",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "In the elevator down to the garage she finally turned the phone face up"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha checks her phone in the elevator",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_015",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_0_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_010",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "In the elevator down to the garage"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha checks her phone in the elevator",
+      "target_name": "the elevator to the garage",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_016",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "Whitfield's office"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "Whitfield's office",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_017",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "Whitfield looked up from the page"
+      ],
+      "confidence": 0.9,
+      "source_name": "Whitfield",
+      "target_name": "Whitfield's office",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_018",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_009",
+      "target_type": "Object",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "Devin's text was still on the phone in her coat pocket"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "phone",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_020",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_009",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_010",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "In the elevator down to the garage she finally turned the phone face up"
+      ],
+      "confidence": 0.8,
+      "source_name": "phone",
+      "target_name": "the elevator to the garage",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_021",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_002",
+      "target_type": "Character",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "Devin's text was still on the phone in her coat pocket, unanswered",
+        "what she would have to say to Devin after"
+      ],
+      "confidence": 0.72,
+      "source_name": "Devin",
+      "target_name": "Asha",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_022",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "affiliated_with",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_0_ent_007",
+      "target_type": "Concept",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_0",
+      "evidence": [
+        "whatever Devin had been calling to tell her at five forty-three would reach the firm through a door she no longer controlled"
+      ],
+      "confidence": 0.7,
+      "source_name": "Asha",
+      "target_name": "the firm",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_0_rel_023",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_001",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "she finally turned the phone face up and saw that Devin had not written again after the three words at five forty-three; the silence on the screen"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "notices phone silence",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_001",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_002",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "She drove east toward his apartment on Spring Garden"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "drives to Devin's apartment",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_002",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_003",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "rather than calling from the car, because what she had to say to him ... was not something she was going to deliver through a speaker"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "decides to speak in person",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_003",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_004",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "it occurred to her that the firm's ethics intake opened at eight, which gave her roughly forty minutes"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "realizes ethics intake deadline",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_004",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_005",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "and she did not speed up"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "refuses to speed",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_005",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "Asha found a space half a block from Devin's building and cut the engine"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "parks near Devin's building",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_006",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_007",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "for a moment she stayed with both hands on the wheel, counting the breaths it took to bring her pulse down"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "composes herself before climbing stairs",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_007",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_008",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "The briefcase rode in her left hand on the walk over"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "walks to the vestibule with briefcase",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_008",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_009",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "At the vestibule she pressed the buzzer for 3B and waited"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "buzzes Devin's apartment",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_009",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "She drove east toward his apartment on Spring Garden"
+      ],
+      "confidence": 0.96,
+      "source_name": "drives to Devin's apartment",
+      "target_name": "Spring Garden",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_011",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_011",
+      "target_type": "Vehicle",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "not something she was going to deliver through a speaker while merging"
+      ],
+      "confidence": 0.84,
+      "source_name": "decides to speak in person",
+      "target_name": "the car",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_012",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_007",
+      "target_type": "TimePoint",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "the firm's ethics intake opened at eight"
+      ],
+      "confidence": 0.99,
+      "source_name": "realizes ethics intake deadline",
+      "target_name": "8:00",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_013",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_011",
+      "target_type": "Vehicle",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "she did not speed up"
+      ],
+      "confidence": 0.9,
+      "source_name": "refuses to speed",
+      "target_name": "the car",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_014",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_015",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "Asha found a space half a block from Devin's building"
+      ],
+      "confidence": 0.98,
+      "source_name": "parks near Devin's building",
+      "target_name": "Devin's building",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_015",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_015",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "before climbing stairs"
+      ],
+      "confidence": 0.82,
+      "source_name": "composes herself before climbing stairs",
+      "target_name": "Devin's building",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_016",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_016",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "At the vestibule she pressed the buzzer for 3B"
+      ],
+      "confidence": 0.99,
+      "source_name": "walks to the vestibule with briefcase",
+      "target_name": "the vestibule",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_017",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_1_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_016",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "At the vestibule she pressed the buzzer for 3B and waited"
+      ],
+      "confidence": 0.99,
+      "source_name": "buzzes Devin's apartment",
+      "target_name": "the vestibule",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_018",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_014",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "Devin's apartment",
+        "Devin's building"
+      ],
+      "confidence": 0.72,
+      "source_name": "Devin",
+      "target_name": "Devin's apartment",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_019",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_003",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_003",
+      "target_type": "Concept",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "the firm's ethics intake"
+      ],
+      "confidence": 0.5,
+      "source_name": "the firm's ethics intake",
+      "target_name": "the firm's ethics intake",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_020",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_011",
+      "source_type": "Vehicle",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_009",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "Asha found a space half a block from Devin's building and cut the engine"
+      ],
+      "confidence": 0.8,
+      "source_name": "the car",
+      "target_name": "the garage",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_022",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_017",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_1_ent_016",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_1",
+      "evidence": [
+        "At the vestibule she pressed the buzzer for 3B"
+      ],
+      "confidence": 0.9,
+      "source_name": "the buzzer",
+      "target_name": "the vestibule",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_1_rel_023",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_001",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "she did not want to arrive looking like she had come to argue a position",
+        "Asha"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Asha arrives unprepared",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_001",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_002",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "she pressed the buzzer for 3B"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha rings Devin's buzzer",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_002",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_003",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "she took the stairs at an ordinary pace",
+        "by the time she reached his landing"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha climbs to Devin's landing",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_003",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_004",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "Asha knocked once, firm enough to carry through the door, and stepped back the small distance the landing allowed",
+        "Standing in the doorway"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha knocks and waits in the doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_004",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_005",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "When Devin opened it",
+        "she could see behind him the kitchen light still on"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "Asha finds Devin at home",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_005",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "she told him she had just come from Whitfield, that she had said the correction to the Tuesday filing went onto Devin's desk Monday morning before the caseworker took the stand and not after"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha delivers Whitfield correction",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_006",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_007",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "Then she stopped talking and stayed where she was, and watched his jaw set"
+      ],
+      "confidence": 0.84,
+      "source_name": "Devin",
+      "target_name": "Devin reacts silently",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_007",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_005",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "When Devin opened it"
+      ],
+      "confidence": 0.96,
+      "source_name": "Devin",
+      "target_name": "Asha finds Devin at home",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_008",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_007",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "Then she stopped talking and stayed where she was, and watched his jaw set in the way it d"
+      ],
+      "confidence": 0.9,
+      "source_name": "Devin",
+      "target_name": "Devin reacts silently",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_009",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_006",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "At the vestibule",
+        "Standing in the doorway"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Vestibule / landing / doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_010",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_005",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "When Devin opened it he was in yesterday's shirt",
+        "behind him the kitchen light still on"
+      ],
+      "confidence": 0.95,
+      "source_name": "Devin",
+      "target_name": "Apartment 3B",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_011",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_008",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_006",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "Standing in the doorway with the briefcase loose at her side"
+      ],
+      "confidence": 0.97,
+      "source_name": "Briefcase",
+      "target_name": "Vestibule / landing / doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_012",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_009",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_005",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "she pressed the buzzer for 3B"
+      ],
+      "confidence": 0.9,
+      "source_name": "Buzzer",
+      "target_name": "Apartment 3B",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_013",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_010",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_006",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "When the door released",
+        "Asha knocked once, firm enough to carry through the door"
+      ],
+      "confidence": 0.9,
+      "source_name": "Door",
+      "target_name": "Vestibule / landing / doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_014",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_011",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_005",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "the kitchen light still on"
+      ],
+      "confidence": 0.96,
+      "source_name": "Kitchen light",
+      "target_name": "Apartment 3B",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_015",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_012",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_005",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "over a mug he had not finished"
+      ],
+      "confidence": 0.9,
+      "source_name": "Mug",
+      "target_name": "Apartment 3B",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_016",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_017",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "she had said the correction to the Tuesday filing"
+      ],
+      "confidence": 0.88,
+      "source_name": "the correction",
+      "target_name": "Asha delivers Whitfield correction",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_017",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_018",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "the correction to the Tuesday filing went onto Devin's desk Monday morning"
+      ],
+      "confidence": 0.86,
+      "source_name": "the Tuesday filing",
+      "target_name": "Asha delivers Whitfield correction",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_018",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_019",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "before the caseworker took the stand"
+      ],
+      "confidence": 0.84,
+      "source_name": "the stand",
+      "target_name": "Asha delivers Whitfield correction",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_019",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_020",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "she had wanted the account to land without the two of them having spoken first"
+      ],
+      "confidence": 0.83,
+      "source_name": "the account",
+      "target_name": "Asha delivers Whitfield correction",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_020",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_006",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "At the vestibule"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha arrives unprepared",
+      "target_name": "Vestibule / landing / doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_021",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_006",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "At the vestibule she pressed the buzzer for 3B"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha rings Devin's buzzer",
+      "target_name": "Vestibule / landing / doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_022",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_007",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "she took the stairs at an ordinary pace"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha climbs to Devin's landing",
+      "target_name": "Stairs",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_023",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_006",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "Asha knocked once, firm enough to carry through the door, and stepped back the small distance the landing allowed"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha knocks and waits in the doorway",
+      "target_name": "Vestibule / landing / doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_024",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_005",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "When Devin opened it he was in yesterday's shirt with the cuffs pushed up, and she could see behind him the kitchen light still on"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha finds Devin at home",
+      "target_name": "Apartment 3B",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_025",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_006",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "Standing in the doorway with the briefcase loose at her side, she told him"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha delivers Whitfield correction",
+      "target_name": "Vestibule / landing / doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_026",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_2_ent_006",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "Then she stopped talking and stayed where she was, and watched his jaw set"
+      ],
+      "confidence": 0.94,
+      "source_name": "Devin reacts silently",
+      "target_name": "Vestibule / landing / doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_027",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_002",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "At the vestibule she pressed the buzzer for 3B"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha arrives unprepared",
+      "target_name": "Asha rings Devin's buzzer",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_028",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_002",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_003",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "When the door released she took the stairs"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha rings Devin's buzzer",
+      "target_name": "Asha climbs to Devin's landing",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_029",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_030",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_003",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_004",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "by the time she reached his landing... Asha knocked once"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha climbs to Devin's landing",
+      "target_name": "Asha knocks and waits in the doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_030",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_031",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_004",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_005",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "When Devin opened it"
+      ],
+      "confidence": 0.94,
+      "source_name": "Asha knocks and waits in the doorway",
+      "target_name": "Asha finds Devin at home",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_031",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_032",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_005",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "When Devin opened it... Standing in the doorway... she told him"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha finds Devin at home",
+      "target_name": "Asha delivers Whitfield correction",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_032",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_033",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_006",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_2_ev_007",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_2",
+      "evidence": [
+        "Then she stopped talking and stayed where she was, and watched his jaw set"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha delivers Whitfield correction",
+      "target_name": "Devin reacts silently",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_2_rel_033",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_001",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "Asha did not move from the doorway.",
+        "she did not soften what she had just said with any of the qualifications"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha withholds her explanation",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_001",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_002",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "watched his jaw set in the way it did when he was deciding whether what he knew matched what he had just been handed.",
+        "Devin's hand was still on the edge of the door",
+        "After a moment his throat worked"
+      ],
+      "confidence": 0.93,
+      "source_name": "Devin",
+      "target_name": "Devin silently assesses the news",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_002",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_003",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "Asha did not move from the doorway.",
+        "she had not come to be answered quickly"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha holds her ground in the doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_003",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_004",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "Behind him the kitchen light laid a flat yellow square on the floorboards, and the mug on the counter had gone the color of cooling tea; she registered both without looking away from his face."
+      ],
+      "confidence": 0.84,
+      "source_name": "Asha",
+      "target_name": "Asha notices the kitchen and waits",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_004",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_005",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "Devin's hand was still on the edge of the door"
+      ],
+      "confidence": 0.98,
+      "source_name": "Devin",
+      "target_name": "Devin keeps the door blocked",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_005",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "she let the landing be quiet long enough for him to understand that she had not come to be answered quickly"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Asha lets the silence pressure Devin",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_006",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_007",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "she did not soften what she had just said with any of the qualifications that were already arranging themselves at the back of her throat.",
+        "She did not fill the air with the qualifications she had rehearsed on the stairs"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha resists rehearsed qualifications",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_007",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_008",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "After a moment his throat worked",
+        "he was going to hand back to her"
+      ],
+      "confidence": 0.9,
+      "source_name": "Devin",
+      "target_name": "Devin begins to respond internally",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_008",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_004",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "Behind him the kitchen light laid a flat yellow square on the floorboards"
+      ],
+      "confidence": 0.72,
+      "source_name": "doorway",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_009",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "Asha did not move from the doorway."
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_010",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "Devin's hand was still on the edge of the door"
+      ],
+      "confidence": 0.95,
+      "source_name": "Devin",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_011",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_003",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "Asha did not move from the doorway. She kept the briefcase loose at her side"
+      ],
+      "confidence": 0.9,
+      "source_name": "briefcase",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_012",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_006",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "Behind him the kitchen light laid a flat yellow square on the floorboards"
+      ],
+      "confidence": 0.98,
+      "source_name": "kitchen light",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_013",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_007",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "the mug on the counter had gone the color of cooling tea"
+      ],
+      "confidence": 0.97,
+      "source_name": "mug",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_014",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_009",
+      "source_type": "Concept",
+      "relation": "present_on",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_008",
+      "target_type": "TimePoint",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "Monday morning"
+      ],
+      "confidence": 0.88,
+      "source_name": "Monday morning",
+      "target_name": "five forty-three",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_016",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "Asha did not move from the doorway."
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha withholds her explanation",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_017",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "watched his jaw set"
+      ],
+      "confidence": 0.82,
+      "source_name": "Devin silently assesses the news",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_018",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "Asha did not move from the doorway."
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha holds her ground in the doorway",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_019",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "Behind him the kitchen light laid a flat yellow square on the floorboards"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha notices the kitchen and waits",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_020",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "Devin's hand was still on the edge of the door"
+      ],
+      "confidence": 0.94,
+      "source_name": "Devin keeps the door blocked",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_021",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "she let the landing be quiet long enough"
+      ],
+      "confidence": 0.86,
+      "source_name": "Asha lets the silence pressure Devin",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_022",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "she had rehearsed on the stairs"
+      ],
+      "confidence": 0.8,
+      "source_name": "Asha resists rehearsed qualifications",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_023",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_3_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_3_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_3",
+      "evidence": [
+        "After a moment his throat worked"
+      ],
+      "confidence": 0.78,
+      "source_name": "Devin begins to respond internally",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_3_rel_024",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_4_ev_001",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_4",
+      "evidence": [
+        "she understood that he had already done the arithmetic on his own and was now trying to decide which version of Monday morning he was going to hand back to her",
+        "she had given up the standing to argue with"
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha",
+      "target_name": "recognize Devin's decision",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_4_rel_001",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_4_ev_002",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_4",
+      "evidence": [
+        "Asha let the briefcase slide an inch lower in her grip",
+        "She kept her eyes on Devin's and did not blink"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "lower briefcase and hold Devin's gaze",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_4_rel_002",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_4_ev_003",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_4",
+      "evidence": [
+        "she had given up the right to help him answer",
+        "did not reach for any of the softening clauses she had practiced on the stairs"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "withhold help from Devin",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_4_rel_003",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_4_ent_003",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_4_ev_004",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_4",
+      "evidence": [
+        "Asha let the briefcase settle against her thigh",
+        "the leather giving up the last of the tension she had been holding in her grip"
+      ],
+      "confidence": 0.97,
+      "source_name": "briefcase",
+      "target_name": "let briefcase settle at her side",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_4_rel_004",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_4_ev_005",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_4",
+      "evidence": [
+        "whatever Devin said next would have to come into a space she had already cleared for it"
+      ],
+      "confidence": 0.91,
+      "source_name": "Asha",
+      "target_name": "clear space for Devin's response",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_4_rel_005",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_4_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_4",
+      "evidence": [
+        "counted nothing, only waited",
+        "the only thing left to offer him was the time to decide without her shaping it"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "wait for Devin to speak",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_4_rel_006",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_4_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_4_ev_002",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_4",
+      "evidence": [
+        "he was now trying to decide",
+        "Asha let the briefcase slide an inch lower in her grip"
+      ],
+      "confidence": 0.72,
+      "source_name": "recognize Devin's decision",
+      "target_name": "lower briefcase and hold Devin's gaze",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_4_rel_007",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_4_ev_002",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_4_ev_004",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_4",
+      "evidence": [
+        "let the briefcase slide an inch lower in her grip",
+        "Asha let the briefcase settle against her thigh"
+      ],
+      "confidence": 0.95,
+      "source_name": "lower briefcase and hold Devin's gaze",
+      "target_name": "let briefcase settle at her side",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_4_rel_008",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_4_ev_004",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_4_ev_005",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_4",
+      "evidence": [
+        "whatever Devin said next would have to come into a space she had already cleared for it"
+      ],
+      "confidence": 0.84,
+      "source_name": "let briefcase settle at her side",
+      "target_name": "clear space for Devin's response",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_4_rel_009",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_4_ev_005",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_4_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_4",
+      "evidence": [
+        "whatever Devin said next would have to come into a space she had already cleared for it",
+        "only waited"
+      ],
+      "confidence": 0.79,
+      "source_name": "clear space for Devin's response",
+      "target_name": "wait for Devin to speak",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_4_rel_010",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_5_ev_001",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "Asha kept her weight where she had set it and did not move.",
+        "She let her eyes stay on Devin's without searching them, without softening at the corners"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Asha withholds her reaction",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_001",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_5_ev_002",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "she had handed him the last say on a piece of her work for the first time since he had come to her two years ago"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "Asha realizes she ceded final say",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_002",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_5_ev_003",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "she would have to stand here and learn what he did with it",
+        "the time it would take him to find his own answer inside it"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "Asha waits for Devin's decision",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_003",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_5_ev_004",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "Devin's hand stayed on the edge of the door",
+        "for a long moment the only sound was the refrigerator cycling somewhere behind him"
+      ],
+      "confidence": 0.88,
+      "source_name": "Devin",
+      "target_name": "Devin remains silent and still",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_004",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_5_ev_005",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "Then he drew a short breath and said, \"I remember it differently.\""
+      ],
+      "confidence": 0.97,
+      "source_name": "Devin",
+      "target_name": "Devin challenges Asha's memory",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_005",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_5_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "She did not move, did not ask which part, did not offer him the opening to soften what came next"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha refuses to open the argument",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_006",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_5_ev_007",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "she only let the four words stand in the yellow square of kitchen light between them"
+      ],
+      "confidence": 0.94,
+      "source_name": "Asha",
+      "target_name": "Asha lets the statement stand",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_007",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_5_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_003",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "The kitchen light behind him kept its flat yellow square on the boards"
+      ],
+      "confidence": 0.84,
+      "source_name": "Asha withholds her reaction",
+      "target_name": "the kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_008",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_5_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_003",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "she had handed him the last say on a piece of her work",
+        "standing there"
+      ],
+      "confidence": 0.8,
+      "source_name": "Asha realizes she ceded final say",
+      "target_name": "the kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_009",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_5_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_003",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "she would have to stand here and learn what he did with it"
+      ],
+      "confidence": 0.82,
+      "source_name": "Asha waits for Devin's decision",
+      "target_name": "the kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_010",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_5_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_003",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "for a long moment the only sound was the refrigerator cycling somewhere behind him"
+      ],
+      "confidence": 0.83,
+      "source_name": "Devin remains silent and still",
+      "target_name": "the kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_011",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_5_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_003",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "\"I remember it differently.\""
+      ],
+      "confidence": 0.86,
+      "source_name": "Devin challenges Asha's memory",
+      "target_name": "the kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_012",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_5_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_003",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "She did not move, did not ask which part, did not offer him the opening"
+      ],
+      "confidence": 0.84,
+      "source_name": "Asha refuses to open the argument",
+      "target_name": "the kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_013",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_5_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_003",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "she only let the four words stand in the yellow square of kitchen light between them"
+      ],
+      "confidence": 0.85,
+      "source_name": "Asha lets the statement stand",
+      "target_name": "the kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_014",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_004",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_003",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "the mug on the counter went on cooling"
+      ],
+      "confidence": 0.98,
+      "source_name": "mug",
+      "target_name": "the kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_015",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_005",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_003",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "the briefcase against her thigh"
+      ],
+      "confidence": 0.9,
+      "source_name": "briefcase",
+      "target_name": "the kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_016",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_006",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_003",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "the door under his hand did not shift"
+      ],
+      "confidence": 0.9,
+      "source_name": "door",
+      "target_name": "the kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_017",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_007",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_003",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "the kitchen light behind him"
+      ],
+      "confidence": 0.99,
+      "source_name": "kitchen light",
+      "target_name": "the kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_018",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_008",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_003",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "the refrigerator cycling somewhere behind him"
+      ],
+      "confidence": 0.98,
+      "source_name": "refrigerator",
+      "target_name": "the kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_019",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_005",
+      "target_type": "Object",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "the briefcase against her thigh"
+      ],
+      "confidence": 0.74,
+      "source_name": "Asha",
+      "target_name": "briefcase",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_021",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_003",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "Asha held her place in the doorway"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "the kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_022",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_5_ent_003",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_5",
+      "evidence": [
+        "Devin's hand stayed on the edge of the door",
+        "the refrigerator cycling somewhere behind him"
+      ],
+      "confidence": 0.95,
+      "source_name": "Devin",
+      "target_name": "the kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_5_rel_023",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_001",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "she understood, without needing him to say more, that the timing he had been calling about at five forty-three was not the timing she had given Whitfield twenty minutes ago"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "Asha infers conflicting timing",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_001",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_002",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "Asha did not move when the four words settled. She kept her weight where it was and her face where it was"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha refuses to react",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_002",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_003",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "she said, \"Which part?\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha asks for clarification",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_003",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_004",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "Devin's hand stayed on the edge of the door"
+      ],
+      "confidence": 0.9,
+      "source_name": "Devin",
+      "target_name": "Devin hesitates at the doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_004",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_005",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "she understood that she had just asked him for the one thing she had spent the drive over deciding she no longer had the standing to ask for"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Asha realizes she has lost standing",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_005",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "she watched his jaw set and then ease and then set again, and she understood that ... he had heard it that way too"
+      ],
+      "confidence": 0.91,
+      "source_name": "Devin",
+      "target_name": "Devin recognizes her challenge",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_006",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_007",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "Asha kept her weight exactly where it was and did not let her eyes leave his"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha holds Devin's gaze",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_007",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_008",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "in the small mechanical hum she heard the room narrow to the breadth of the doorway"
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha",
+      "target_name": "Room tension narrows around the doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_008",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_009",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "she watched him understand that she was not going to spare h"
+      ],
+      "confidence": 0.86,
+      "source_name": "Asha",
+      "target_name": "Asha refuses to spare Devin",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_009",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_007",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "the yellow square of kitchen light between them"
+      ],
+      "confidence": 0.92,
+      "source_name": "Asha infers conflicting timing",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_010",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_007",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "Asha did not move when the four words settled"
+      ],
+      "confidence": 0.84,
+      "source_name": "Asha refuses to react",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_011",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_007",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "\"Which part?\""
+      ],
+      "confidence": 0.84,
+      "source_name": "Asha asks for clarification",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_012",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_008",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "Devin's hand stayed on the edge of the door"
+      ],
+      "confidence": 0.95,
+      "source_name": "Devin hesitates at the doorway",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_013",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_007",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "the yellow square of kitchen light between them"
+      ],
+      "confidence": 0.82,
+      "source_name": "Asha realizes she has lost standing",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_014",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_008",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "Devin's hand stayed on the edge of the door"
+      ],
+      "confidence": 0.8,
+      "source_name": "Devin recognizes her challenge",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_015",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_007",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "the yellow square of kitchen light between them"
+      ],
+      "confidence": 0.83,
+      "source_name": "Asha holds Devin's gaze",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_016",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_008",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "the room narrow to the breadth of the doorway"
+      ],
+      "confidence": 0.96,
+      "source_name": "Room tension narrows around the doorway",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_017",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_6_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_008",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "the breadth of the doorway"
+      ],
+      "confidence": 0.79,
+      "source_name": "Asha refuses to spare Devin",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_018",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_007",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "the yellow square of kitchen light between them"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_019",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_008",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "Devin's hand stayed on the edge of the door"
+      ],
+      "confidence": 0.88,
+      "source_name": "Devin",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_020",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_005",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_007",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "the briefcase down against her thigh"
+      ],
+      "confidence": 0.86,
+      "source_name": "briefcase",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_021",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_006",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_007",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "the refrigerator to cycle off behind him"
+      ],
+      "confidence": 0.9,
+      "source_name": "refrigerator",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_022",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_003",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_6_ent_001",
+      "target_type": "Character",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_6",
+      "evidence": [
+        "the timing she had given Whitfield twenty minutes ago"
+      ],
+      "confidence": 0.55,
+      "source_name": "Whitfield",
+      "target_name": "Asha",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_6_rel_024",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_001",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "Asha held her stillness and let him work.",
+        "she was not going to make either question easier by speaking."
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha withholds response",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_001",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_002",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "His jaw set once more, and she watched him understand that she was not going to spare him the work of saying which timestamp...",
+        "she could see him understand..."
+      ],
+      "confidence": 0.95,
+      "source_name": "Devin",
+      "target_name": "Devin realizes he must answer",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_002",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_003",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "Devin's jaw set and eased and set again, and she could see him weighing whether to put the minute down between them or whether to ask her first what she had given Whitfield"
+      ],
+      "confidence": 0.97,
+      "source_name": "Devin",
+      "target_name": "Devin hesitates over the discrepancy",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_003",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_004",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "after another short breath Devin let go of the door, stepped past the threshold into the kitchen light"
+      ],
+      "confidence": 0.99,
+      "source_name": "Devin",
+      "target_name": "Devin steps into the kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_004",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_005",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "and said, \"Four-eighteen.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Devin",
+      "target_name": "Devin states the earlier timestamp",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_005",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "she registered it without moving her face."
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha registers the discrepancy",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_006",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_002",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "Asha held the silence and did not help him into it.",
+        "Devin let go of the door, stepped past the threshold into the kitchen light, and said, \"Four-eighteen.\""
+      ],
+      "confidence": 0.84,
+      "source_name": "Asha withholds response",
+      "target_name": "Devin realizes he must answer",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_007",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_004",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_005",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "stepped past the threshold into the kitchen light, and said, \"Four-eighteen.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Devin steps into the kitchen",
+      "target_name": "Devin states the earlier timestamp",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_008",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_005",
+      "source_type": "Event",
+      "relation": "causes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "The number landed flat between them on the linoleum, earlier than the version she had given Whitfield by nearly forty minutes, and she registered it without moving her face."
+      ],
+      "confidence": 0.9,
+      "source_name": "Devin states the earlier timestamp",
+      "target_name": "Asha registers the discrepancy",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_009",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "the room narrow to the breadth of the doorway"
+      ],
+      "confidence": 0.72,
+      "source_name": "Asha withholds response",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_010",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "the breadth of the doorway"
+      ],
+      "confidence": 0.7,
+      "source_name": "Devin realizes he must answer",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_011",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "the breadth of the doorway"
+      ],
+      "confidence": 0.7,
+      "source_name": "Devin hesitates over the discrepancy",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_012",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_005",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "stepped past the threshold into the kitchen light"
+      ],
+      "confidence": 0.99,
+      "source_name": "Devin steps into the kitchen",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_013",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_7_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_005",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "stepped past the threshold into the kitchen light, and said, \"Four-eighteen.\""
+      ],
+      "confidence": 0.93,
+      "source_name": "Devin states the earlier timestamp",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_014",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "the breadth of the doorway"
+      ],
+      "confidence": 0.74,
+      "source_name": "Asha",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_016",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_005",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "stepped past the threshold into the kitchen light"
+      ],
+      "confidence": 0.98,
+      "source_name": "Devin",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_017",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_008",
+      "target_type": "Object",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "her hand on the briefcase"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "briefcase",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_018",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_008",
+      "target_type": "Object",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "her hand on the briefcase shift its grip"
+      ],
+      "confidence": 0.86,
+      "source_name": "Asha",
+      "target_name": "briefcase",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_019",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_009",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_004",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "the seam of the door"
+      ],
+      "confidence": 0.8,
+      "source_name": "door",
+      "target_name": "doorway",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_020",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_011",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_005",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "The refrigerator cycled off."
+      ],
+      "confidence": 0.9,
+      "source_name": "refrigerator",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_021",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_003",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_002",
+      "target_type": "Character",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "the version she had handed Whitfield a half hour ago",
+        "what she had given Whitfield"
+      ],
+      "confidence": 0.55,
+      "source_name": "Whitfield",
+      "target_name": "Devin",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_022",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_7_ent_003",
+      "target_type": "Character",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_7",
+      "evidence": [
+        "the version she had handed Whitfield a half hour ago"
+      ],
+      "confidence": 0.52,
+      "source_name": "Asha",
+      "target_name": "Whitfield",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_7_rel_023",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_8_ev_001",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "she registered it without moving her face",
+        "Asha notices earlier timestamp"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha notices earlier timestamp",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_001",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_003",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_8_ev_002",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "He watched her register it",
+        "he had not been sure, until he said it aloud, whether she had come here to be told that or to be spared it"
+      ],
+      "confidence": 0.9,
+      "source_name": "Devin",
+      "target_name": "Devin realizes Asha came prepared",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_002",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_8_ev_003",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "Asha let her fingers loosen on the briefcase handle one at a time",
+        "\"Five-oh-six,\" she said."
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha releases briefcase and speaks",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_003",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_8_ev_004",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "\"That's what I gave Whitfield half an hour ago. I told him you corrected the document at five-oh-six Monday afternoon\"",
+        "the nearly forty minutes between them visible now"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha exposes the forty-minute gap",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_004",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_003",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_8_ev_005",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "she had not come to ask him to close the gap",
+        "he watched his face register that she had not come to ask him to close the gap"
+      ],
+      "confidence": 0.95,
+      "source_name": "Devin",
+      "target_name": "Devin accepts the gap cannot be closed",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_005",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_8_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "she did not fill the space she had just opened",
+        "she was not going to ask him anything"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "Asha withholds further engagement",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_006",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_8_ev_007",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "she had already used the part of the morning",
+        "she was not going to ask him anything"
+      ],
+      "confidence": 0.84,
+      "source_name": "Asha",
+      "target_name": "Asha asserts control over the morning",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_007",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_007",
+      "target_type": "Object",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "her fingers loosen on the briefcase handle",
+        "the leather settling against her thigh"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "briefcase",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_008",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_007",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_009",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "the leather settling against her thigh",
+        "on the linoleum"
+      ],
+      "confidence": 0.88,
+      "source_name": "briefcase",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_009",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_009",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "on the linoleum",
+        "she did not fill the space she had just opened"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_010",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_003",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_009",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "He did not move from where he stood on the linoleum"
+      ],
+      "confidence": 0.95,
+      "source_name": "Devin",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_011",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_8_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_009",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "on the linoleum",
+        "earlier than the version she had given Whitfield by nearly forty minutes"
+      ],
+      "confidence": 0.86,
+      "source_name": "Asha notices earlier timestamp",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_012",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_8_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_009",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "on the linoleum",
+        "He watched her register it"
+      ],
+      "confidence": 0.84,
+      "source_name": "Devin realizes Asha came prepared",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_013",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_8_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_009",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "the leather settling against her thigh",
+        "she said"
+      ],
+      "confidence": 0.82,
+      "source_name": "Asha releases briefcase and speaks",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_014",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_8_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_009",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "the nearly forty minutes between them visible now",
+        "in the kitchen"
+      ],
+      "confidence": 0.83,
+      "source_name": "Asha exposes the forty-minute gap",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_015",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_8_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_009",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "on the linoleum between them",
+        "he watched his face register that she had not come to ask him to close the gap"
+      ],
+      "confidence": 0.8,
+      "source_name": "Devin accepts the gap cannot be closed",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_016",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_8_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_009",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "she did not fill the space she had just opened",
+        "on the linoleum"
+      ],
+      "confidence": 0.79,
+      "source_name": "Asha withholds further engagement",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_017",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ev_100_page_19_doc_18_chunk_0_part_8_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_009",
+      "target_type": "Location",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "the morning",
+        "on the linoleum between them"
+      ],
+      "confidence": 0.75,
+      "source_name": "Asha asserts control over the morning",
+      "target_name": "kitchen",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_018",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_011",
+      "source_type": "Concept",
+      "relation": "part_of",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_010",
+      "target_type": "Concept",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "I wanted the account to land",
+        "the nearly forty minutes between them"
+      ],
+      "confidence": 0.7,
+      "source_name": "the forty-minute gap",
+      "target_name": "the account",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_022",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_002",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_100_page_19_doc_18_chunk_0_part_8_ent_003",
+      "target_type": "Character",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_8",
+      "evidence": [
+        "He watched her register it",
+        "she had not come to ask him to close the gap"
+      ],
+      "confidence": 0.55,
+      "source_name": "Whitfield",
+      "target_name": "Devin",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_8_rel_023",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_9_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_9_ev_001",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_9",
+      "evidence": [
+        "tween them like a thing she had set down and would not pick back up."
+      ],
+      "confidence": 0.88,
+      "source_name": "woman",
+      "target_name": "woman withholds the object",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_9_rel_001",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_9_ev_002",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_9",
+      "evidence": [
+        "She watched him understand that she was not going to ask him anything"
+      ],
+      "confidence": 0.84,
+      "source_name": "Devin",
+      "target_name": "she lets Devin realize her refusal",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_9_rel_002",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_9_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_9_ev_003",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_9",
+      "evidence": [
+        "she had already used the part of the morning in which asking was available to her"
+      ],
+      "confidence": 0.8,
+      "source_name": "woman",
+      "target_name": "morning opportunity passes",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_9_rel_004",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_9_ent_005",
+      "source_type": "Object",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_9_ev_004",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_9",
+      "evidence": [
+        "The refrigerator stayed quiet."
+      ],
+      "confidence": 0.97,
+      "source_name": "refrigerator",
+      "target_name": "refrigerator remains silent",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_9_rel_005",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_9_ev_005",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_9",
+      "evidence": [
+        "Devin's mouth moved once, the start of a word he did not yet have"
+      ],
+      "confidence": 0.93,
+      "source_name": "Devin",
+      "target_name": "Devin begins to speak",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_9_rel_006",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_9_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_9_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_9",
+      "evidence": [
+        "and she let him keep it."
+      ],
+      "confidence": 0.9,
+      "source_name": "woman",
+      "target_name": "woman allows silence",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_9_rel_007",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_9_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_9_ev_001",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_9",
+      "evidence": [
+        "she had set down and would not pick back up"
+      ],
+      "confidence": 0.72,
+      "source_name": "woman",
+      "target_name": "woman withholds the object",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_9_rel_008",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_9_ev_005",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_9",
+      "evidence": [
+        "Devin's mouth moved once, the start of a word he did not yet have"
+      ],
+      "confidence": 0.86,
+      "source_name": "Devin",
+      "target_name": "Devin begins to speak",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_9_rel_009",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_9_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_9_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_9",
+      "evidence": [
+        "and she let him keep it"
+      ],
+      "confidence": 0.78,
+      "source_name": "Devin",
+      "target_name": "woman allows silence",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_9_rel_010",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_9_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_9_ev_006",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_9",
+      "evidence": [
+        "and she let him keep it"
+      ],
+      "confidence": 0.7,
+      "source_name": "woman",
+      "target_name": "woman allows silence",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_9_rel_011",
+      "movie_id": "100_page__scene_19"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_100_page_19_doc_18_chunk_0_part_9_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_19_doc_18_chunk_0_part_9_ev_001",
+      "target_type": "Event",
+      "scene_id": "19",
+      "chunk_id": "doc_18_chunk_0_part_9",
+      "evidence": [
+        "would not pick back up"
+      ],
+      "confidence": 0.66,
+      "source_name": "woman",
+      "target_name": "woman withholds the object",
+      "id": "rel_100_page_19_doc_18_chunk_0_part_9_rel_012",
+      "movie_id": "100_page__scene_19"
+    }
+  ]
+}

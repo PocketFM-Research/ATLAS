@@ -1,0 +1,30 @@
+{
+  "movie_id": "100_page__scene_21",
+  "title": "",
+  "node_count_total": 38,
+  "node_count_by_type": {
+    "Event": 15,
+    "Character": 7,
+    "Location": 5,
+    "TimePoint": 2,
+    "Object": 5,
+    "Concept": 4
+  },
+  "edge_count_total": 35,
+  "edge_count_by_relation": {
+    "performs": 12,
+    "undergoes": 3,
+    "experiences": 6,
+    "located_at": 7,
+    "part_of": 2,
+    "kinship_with": 4,
+    "affiliated_with": 1
+  },
+  "nodes_with_evidence_pct": 100.0,
+  "edges_with_evidence_pct": 100.0,
+  "schema_violation_count": 0,
+  "avg_degree": 1.84,
+  "disconnected_component_count": 8,
+  "avg_aliases_per_node": 1.63,
+  "avg_edge_confidence": 0.909
+}

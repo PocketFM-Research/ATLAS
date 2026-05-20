@@ -1,0 +1,575 @@
+{
+  "21": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Whitfield"
+      ],
+      "canonical_name": "Whitfield",
+      "description": "The person who stamps the corrected sequence, excludes Asha from Devin's conversation, and sends her home.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "Whitfield's finger came down on the four-eighteen stamp at last",
+        "he would carry the corrected sequence into the one o'clock himself",
+        "she was not to be in the room when Devin spoke",
+        "she should go home for the four hours she had left"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_001",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_002",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_003"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_001",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The office worker who is dismissed, leaves the office, goes home, and later checks her messages and considers replying to Claire and the social worker.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "she should go home for the four hours she had left",
+        "Asha gathered the trial record and the intake log",
+        "Asha picked up the phone",
+        "Asha opened the social worker's thread"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_002",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_003",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_004",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_005",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_006",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_007",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_008",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_002",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Devin"
+      ],
+      "canonical_name": "Devin",
+      "description": "The person whose conversation Whitfield says Asha should not be present for.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "when Devin spoke"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_002"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_003",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Claire"
+      ],
+      "canonical_name": "Claire",
+      "description": "The contact who has called Asha three times and whose home life Asha imagines before deciding not to call.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "three missed calls from Claire",
+        "pulled Claire's contact onto the screen",
+        "Claire's name brighten"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_007",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_008"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_004",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Marcus"
+      ],
+      "canonical_name": "Marcus",
+      "description": "The person referenced in the social worker's discharge planning message and in Asha's thoughts about not putting him through the call.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "a text from Marcus's hospital social worker",
+        "asked her to confirm by noon who would be picking him up",
+        "she could not put Marcus through that door in a voice"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_007",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_008",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_005",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Character",
+      "surface_forms": [
+        "Marcus's hospital social worker",
+        "the social worker"
+      ],
+      "canonical_name": "Marcus's hospital social worker",
+      "description": "The hospital social worker who sends Asha a discharge planning text and asks for confirmation about pickup.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "a text from Marcus's hospital social worker",
+        "opened the social worker's thread"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_007",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_006",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Concept",
+      "surface_forms": [
+        "Bridgepoint's billing office",
+        "Bridgepoint billing office"
+      ],
+      "canonical_name": "Bridgepoint's billing office",
+      "description": "The billing office that leaves Asha a voicemail.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "a voicemail from Bridgepoint's billing office"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_007",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "the office"
+      ],
+      "canonical_name": "the office",
+      "description": "The workplace Asha leaves after being sent home.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "walked out past the assistants",
+        "She did not go to the office"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_004",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_006"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_008",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "the curb"
+      ],
+      "canonical_name": "the curb",
+      "description": "The place outside the office where Asha feels the cold through her coat.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "by the time she reached the curb"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_009",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "the apartment"
+      ],
+      "canonical_name": "the apartment",
+      "description": "Asha's destination after deciding not to return to the office.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "She drove to the apartment"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_006"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_010",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Location",
+      "surface_forms": [
+        "Asha's kitchen",
+        "her own kitchen",
+        "the kitchen"
+      ],
+      "canonical_name": "Asha's kitchen",
+      "description": "The quiet kitchen where Asha reviews her missed calls and messages.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "the silence of her own kitchen",
+        "when she finally set it on the counter and looked at it"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_007",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_008",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_011",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "TimePoint",
+      "surface_forms": [
+        "four-eighteen / one o'clock / four hours / noon",
+        "four-eighteen",
+        "one o'clock",
+        "four hours",
+        "by noon"
+      ],
+      "canonical_name": "four-eighteen / one o'clock / four hours / noon",
+      "description": "The explicit times and time span referenced in the scene, including the stamp time, meeting time, remaining shift, and response deadline.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "the four-eighteen stamp",
+        "the one o'clock himself",
+        "the four hours she had left",
+        "confirm by noon"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_001",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_003",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_012",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "corrected sequence"
+      ],
+      "canonical_name": "corrected sequence",
+      "description": "The sequence Whitfield stamps and says he will carry into the one o'clock meeting.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "he would carry the corrected sequence into the one o'clock himself"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_013",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "four-eighteen stamp",
+        "stamp"
+      ],
+      "canonical_name": "four-eighteen stamp",
+      "description": "The stamp Whitfield uses to approve the corrected sequence.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "Whitfield's finger came down on the four-eighteen stamp at last"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_014",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Object",
+      "surface_forms": [
+        "trial record"
+      ],
+      "canonical_name": "trial record",
+      "description": "One of the documents Asha gathers before leaving the office.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "Asha gathered the trial record"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_004"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_015",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Object",
+      "surface_forms": [
+        "intake log"
+      ],
+      "canonical_name": "intake log",
+      "description": "One of the documents Asha gathers before leaving the office.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "and the intake log into the crook of her arm"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_004"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_016",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Object",
+      "surface_forms": [
+        "phone"
+      ],
+      "canonical_name": "phone",
+      "description": "Asha's phone, which contains missed calls, voicemail, and a text thread she opens.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_0",
+      "evidence": [
+        "her phone",
+        "Asha picked up the phone"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_007",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_008",
+        "ev_100_page_21_doc_20_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_0_ent_017",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Marcus",
+        "him",
+        "brother"
+      ],
+      "canonical_name": "Marcus",
+      "description": "The person she is unwilling to call and whom she has just routed into the same institutional track as her father.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_1",
+      "evidence": [
+        "she could not put Marcus through that door in a voice",
+        "she would not be picking him up",
+        "she had just routed her brother onto the same track"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_001",
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_002",
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_1_ent_001",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "She",
+        "she",
+        "her"
+      ],
+      "canonical_name": "She",
+      "description": "The unnamed woman who sends the message, offers to call the unit, and reflects on the consequences for Marcus and her father.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_1",
+      "evidence": [
+        "she could not put Marcus through that door in a voice",
+        "she would not be picking him up",
+        "she would call the unit herself",
+        "she had just routed her brother"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_001",
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_002",
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_003",
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_004",
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_005",
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_006"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_1_ent_002",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Father",
+        "father"
+      ],
+      "canonical_name": "Father",
+      "description": "Her father, whom she recently pulled off the same institutional track she now fears Marcus is on.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_1",
+      "evidence": [
+        "she had spent a week pulling her father off of"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_1_ent_003",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Concept",
+      "surface_forms": [
+        "Social Worker",
+        "social worker's thread",
+        "social worker"
+      ],
+      "canonical_name": "Social Worker",
+      "description": "The social worker whose message thread she opens to send the pickup update.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_1",
+      "evidence": [
+        "opened the social worker's thread",
+        "typed that she would not be picking him up"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_002"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_1_ent_004",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Concept",
+      "surface_forms": [
+        "County Step-Down Bed",
+        "county step-down bed"
+      ],
+      "canonical_name": "County Step-Down Bed",
+      "description": "The county step-down bed she asks the social worker to confirm for Marcus.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_1",
+      "evidence": [
+        "that the county step-down bed should be confirmed"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_002"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_1_ent_005",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Concept",
+      "surface_forms": [
+        "Unit",
+        "unit"
+      ],
+      "canonical_name": "Unit",
+      "description": "The unit she says she will call to release any consent needed from her end.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_1",
+      "evidence": [
+        "she would call the unit herself to release whatever consent they needed from her end"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_1_ent_006",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "Phone",
+        "phone"
+      ],
+      "canonical_name": "Phone",
+      "description": "The phone she uses to send the message and then sets face down on the counter.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_1",
+      "evidence": [
+        "She tapped back out without dialing",
+        "She set the phone face down on the counter after it sent"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_001",
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_002",
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_004"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_1_ent_007",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "Apartment",
+        "apartment",
+        "the room"
+      ],
+      "canonical_name": "Apartment",
+      "description": "The apartment behind her, which she recognizes as unchanged from an hour earlier.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_1",
+      "evidence": [
+        "the apartment behind her was still the room she had walked into an hour ago"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_006"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_1_ent_008",
+      "movie_id": "100_page__scene_21"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Time References",
+        "an hour ago",
+        "by noon"
+      ],
+      "canonical_name": "Time References",
+      "description": "The explicit time references used to emphasize that the apartment has not changed since an hour earlier and will not be different by noon.",
+      "scene_id": "21",
+      "chunk_id": "doc_20_chunk_0_part_1",
+      "evidence": [
+        "she had walked into an hour ago",
+        "would not be anything else by noon"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_21_doc_20_chunk_0_part_1_ev_006"
+      ],
+      "id": "ent_100_page_21_doc_20_chunk_0_part_1_ent_009",
+      "movie_id": "100_page__scene_21"
+    }
+  ]
+}

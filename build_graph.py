@@ -204,7 +204,7 @@ def main() -> None:
                     if csv_path.exists():
                         with csv_path.open() as f:
                             for row in csv.DictReader(f):
-                                if row["movie_id"] == mid:
+                                if row.get("movie_id") == mid:
                                     title = row.get("title", "")
                                     break
                     movie = load_movie(movie_dir, mid, title, lang)

@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "kinship",
+      "prior_quote": "Daniel was searching \"his mother's writing desk\" and later asks about \"his mother's room.\"",
+      "later_quote": "Scene 2 says, \"the same shaky hand from the codicil downstairs\" and later identifies \"Lucia's own\" witness signature; it does not call Daniel Lucia's brother.",
+      "reason": "fails C: there is no later quote in scene 2 stating Daniel is Lucia's brother, so no contradictory kinship value is asserted."
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "identity of Daniel's sister",
+      "prior_quote": "The codicil says \"Daniel to receive the remainder of the estate in equal share with his sister.\"",
+      "later_quote": "Scene 2 introduces Lucia: \"Lucia stepped out holding a folded sheet of paper\" and later \"Lucia's own, witnessed and dated the same afternoon.\"",
+      "reason": "fails C: scene 2 never states that Lucia is the unnamed sister, so no conflicting identity value is asserted."
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "life-status / witness role",
+      "prior_quote": "Rosa appears physically in scene 1: \"Rosa stepped from the dim end of the hall\" and later speaks in person.",
+      "later_quote": "The codicil page is \"signed in a hand that had gone shakier than the will downstairs,\" and scene 2 says the witness name was Rosa's.",
+      "reason": "fails B: being alive in the house and being a witness on a codicil are different attributes, not contradictory values of the same attribute."
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "document handwriting/typing",
+      "prior_quote": "In scene 1 the folder contains \"a single loose page typed in a different machine.\"",
+      "later_quote": "In scene 2 Lucia brings \"a folded sheet of paper... written, not typed,\" with \"the same shaky hand from the codicil downstairs.\"",
+      "reason": "fails B: the prior quote is about the loose typed codicil page, while the later quote is about a different handwritten folded page; they are not the same document attribute."
+    },
+    {
+      "index": 5,
+      "decision": "reject",
+      "attribute": "locked_state",
+      "prior_quote": "At the top of the stairs there was \"a low door already unlatched.\"",
+      "later_quote": "Lucia says the rest was \"upstairs behind a lock,\" and the silver key opens \"a flat blue velvet case\" in the sewing room.",
+      "reason": "fails B: the prior quote concerns the attic door's state, while the later quote concerns a locked container in the sewing room."
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "key ownership/use",
+      "prior_quote": "Asha entered the house \"with the key the executor had given her.\"",
+      "later_quote": "Lucia \"pressed it into Asha's palm\"—\"the cold tarnish of a silver key\" for the velvet case.",
+      "reason": "fails B: these are two different keys for different locks, so there is no contradiction on the same specific attribute."
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "location",
+      "prior_quote": "In scene 1, \"Below, at the foot of the stairs, Rosa had not moved.\"",
+      "later_quote": "Scene 2: \"Asha's phone buzzed once... Rosa's message: he's fishing...\"",
+      "reason": "fails C: the later quote does not place Rosa elsewhere; sending a text is compatible with Rosa being in the house."
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "possession of folder/journal",
+      "prior_quote": "Scene 1 ends with Asha carrying the folder: \"the blue folder pressed flat against the bank statements at her side.\"",
+      "later_quote": "Scene 2 explicitly transfers possession: \"Lucia's hand came across her arm and closed on the folder's edge... taking the weight of it from Asha's fingers.\"",
+      "reason": "fails D: the later scene explicitly shows and explains the change of possession on-screen."
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "date",
+      "prior_quote": "The loose page in scene 1 is \"dated four months before the death.\"",
+      "later_quote": "Scene 2 says the journal half-sheet had \"the same date\" as the codicil downstairs.",
+      "reason": "fails C: the later quote matches the earlier date rather than contradicting it."
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "document form",
+      "prior_quote": "Scene 2: \"the codicil downstairs\" is \"the loose page\" naming Rosa for the house.",
+      "later_quote": "Scene 3 refers to \"the typed page of the codicil pale beside it.\"",
+      "reason": "fails C: a loose page can also be a typed page; these descriptions are compatible, not contradictory."
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "witness identity",
+      "prior_quote": "Scene 2 says the journal half-sheet bore \"a second name in a steadier script — Lucia's own, witnessed and dated the same afternoon.\"",
+      "later_quote": "Scene 3 says of the codicil, \"read the witness line, where Rosa's name sat in her own careful hand.\"",
+      "reason": "fails B: the prior quote is about the witness/signer on the journal half-sheet, while the later quote is about the witness line on the codicil; different documents, different attributes."
+    },
+    {
+      "index": 12,
+      "decision": "reject",
+      "attribute": "document identity",
+      "prior_quote": "Scene 2: Asha and Lucia bring down \"a small leather-bound journal.\"",
+      "later_quote": "Scene 3: Daniel asks, \"Where is the original log?\" and Rosa taps \"the cover of the journal\" in response.",
+      "reason": "fails C: the later quote does not contradict the earlier one; 'original log' is answered by and appears to refer to the same journal."
+    }
+  ]
+}

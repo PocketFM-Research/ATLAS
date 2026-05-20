@@ -1,0 +1,337 @@
+[
+  {
+    "cluster": [
+      "ev_baseline_4_doc_3_chunk_0_part_1_ev_004",
+      "ev_baseline_4_doc_3_chunk_0_part_1_ev_005",
+      "ev_baseline_4_doc_3_chunk_0_part_1_ev_006",
+      "ev_baseline_4_doc_3_chunk_0_part_1_ev_007",
+      "ev_baseline_4_doc_3_chunk_0_part_2_ev_001",
+      "ev_baseline_4_doc_3_chunk_0_part_2_ev_002",
+      "ev_baseline_4_doc_3_chunk_0_part_2_ev_006",
+      "ev_baseline_4_doc_3_chunk_0_part_3_ev_002",
+      "ev_baseline_4_doc_3_chunk_0_part_3_ev_003",
+      "ev_baseline_4_doc_3_chunk_0_part_3_ev_004",
+      "ev_baseline_4_doc_3_chunk_0_part_3_ev_005",
+      "ev_baseline_4_doc_3_chunk_0_part_3_ev_006",
+      "ev_baseline_4_doc_3_chunk_0_part_3_ev_007",
+      "ev_baseline_4_doc_3_chunk_0_part_4_ev_003",
+      "ev_baseline_4_doc_3_chunk_0_part_4_ev_005",
+      "ev_baseline_4_doc_3_chunk_0_part_4_ev_006",
+      "ev_baseline_4_doc_3_chunk_0_part_4_ev_009",
+      "ev_baseline_4_doc_3_chunk_0_part_4_ev_011",
+      "ev_baseline_4_doc_3_chunk_0_part_5_ev_001",
+      "ev_baseline_4_doc_3_chunk_0_part_5_ev_003",
+      "ev_baseline_4_doc_3_chunk_0_part_5_ev_005",
+      "ev_baseline_4_doc_3_chunk_0_part_5_ev_010",
+      "ev_baseline_4_doc_3_chunk_0_part_6_ev_003",
+      "ev_baseline_4_doc_3_chunk_0_part_6_ev_005"
+    ],
+    "max_similarity": 0.7751257063686241,
+    "decision": {
+      "merges": [
+        {
+          "member_indices": [
+            0,
+            2
+          ],
+          "canonical_name": "daniel declines to contest",
+          "aliases": [
+            "daniel explains his decision"
+          ],
+          "justification": "Both clusters describe Daniel deciding not to contest the codicil in scene 4 and give the same underlying reason: he is not giving up, but choosing not to challenge it after rereading the letter and believing his mother."
+        },
+        {
+          "member_indices": [
+            3,
+            5
+          ],
+          "canonical_name": "plans to sell possessions",
+          "aliases": [
+            "daniel plans to sell possessions"
+          ],
+          "justification": "These are the same event: Daniel says he will need to sell some things and rely on the money his mother left him if he is careful. The wording and scene evidence match exactly."
+        },
+        {
+          "member_indices": [
+            4,
+            7
+          ],
+          "canonical_name": "accepts her reasoning",
+          "aliases": [
+            "reveals codicil exists"
+          ],
+          "justification": "Both refer to the same exchange in which Asha explains that the codicil exists and Daniel responds that he believes her, with Asha calling that the better reason."
+        },
+        {
+          "member_indices": [
+            8,
+            9
+          ],
+          "canonical_name": "Daniel thanks her",
+          "aliases": [
+            "she rejects his self-abasement"
+          ],
+          "justification": "These are consecutive parts of the same interaction in scene 4: Daniel begins to protest that he does not deserve help, Asha cuts him off, and he then says thank you. They are not separate narrative events."
+        },
+        {
+          "member_indices": [
+            11,
+            12
+          ],
+          "canonical_name": "asks to see her again",
+          "aliases": [
+            "she declines future contact"
+          ],
+          "justification": "This is one dialogue exchange about future contact: Daniel asks if he will see her again, and Asha answers that she does not think so. The two clusters describe the same event from opposite sides."
+        },
+        {
+          "member_indices": [
+            13,
+            21
+          ],
+          "canonical_name": "Lucia and Rosa begin talking comfortably",
+          "aliases": [
+            "Lucia appears in her own clothes",
+            "Rosa resumes making coffee"
+          ],
+          "justification": "Both clusters describe the same post-conflict domestic scene in which Lucia and Rosa are at ease in the house again. The clothing and coffee details are part of that broader moment of normalcy and comfort, not separate events."
+        },
+        {
+          "member_indices": [
+            15,
+            17,
+            18
+          ],
+          "canonical_name": "Lucia sets new household terms",
+          "aliases": [
+            "Lucia keeps Rosa on privately",
+            "Lucia agrees to Sunday dinners"
+          ],
+          "justification": "These clusters all concern Lucia establishing the new household arrangement after the estate matter: Rosa stays on privately, Daniel may come for Sunday dinner, and Rosa must be treated politely. They are facets of one household-terms event."
+        },
+        {
+          "member_indices": [
+            16,
+            19,
+            20
+          ],
+          "canonical_name": "Lucia confirms ownership",
+          "aliases": [
+            "Lucia thanks Asha for letting them decide",
+            "Lucia challenges lawyers' behavior"
+          ],
+          "justification": "These clusters belong to Lucia's closing conversation with Asha about the house and the estate. Lucia acknowledges ownership, thanks Asha for letting them decide for themselves, and comments on lawyers' behavior as part of the same exchange."
+        },
+        {
+          "member_indices": [
+            22,
+            23
+          ],
+          "canonical_name": "turn toward Walnut Street",
+          "aliases": [
+            "reflect on estate's dual outcome"
+          ],
+          "justification": "Both describe Asha's departure from the house: she turns toward Walnut Street and reflects on the estate's outcome while walking away. The reflection is part of the same leaving scene."
+        }
+      ],
+      "unmerged": [
+        {
+          "name": "daniel signs codicil acknowledgment",
+          "justification": "This is a distinct action in scene 4: Daniel physically signs the codicil acknowledgment papers. It is related to, but not the same as, his decision not to contest the codicil."
+        },
+        {
+          "name": "rejects duty to protect him",
+          "justification": "This is a separate dialogue beat in which Daniel tells Asha protecting him is not her job and she responds. It is not identical to the signing/decision events."
+        },
+        {
+          "name": "Daniel leaves office",
+          "justification": "Daniel standing up and leaving the office is a distinct narrative step after the conversation, separate from the earlier dialogue and signing events."
+        }
+      ]
+    }
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_0_ent_001",
+      "ent_baseline_4_doc_3_chunk_0_part_1_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_0_ent_001",
+      "ent_baseline_4_doc_3_chunk_0_part_1_ent_002",
+      "ent_baseline_4_doc_3_chunk_0_part_2_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_0_ent_001",
+      "ent_baseline_4_doc_3_chunk_0_part_1_ent_002",
+      "ent_baseline_4_doc_3_chunk_0_part_2_ent_001",
+      "ent_baseline_4_doc_3_chunk_0_part_4_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_1_ent_002",
+      "ent_baseline_4_doc_3_chunk_0_part_5_ent_003",
+      "ent_baseline_4_doc_3_chunk_0_part_4_ent_004",
+      "ent_baseline_4_doc_3_chunk_0_part_0_ent_001",
+      "ent_baseline_4_doc_3_chunk_0_part_2_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_0_ent_003",
+      "ent_baseline_4_doc_3_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_4_ent_009",
+      "ent_baseline_4_doc_3_chunk_0_part_0_ent_003",
+      "ent_baseline_4_doc_3_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_4_ent_009",
+      "ent_baseline_4_doc_3_chunk_0_part_5_ent_002",
+      "ent_baseline_4_doc_3_chunk_0_part_0_ent_003",
+      "ent_baseline_4_doc_3_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_1_ent_003",
+      "ent_baseline_4_doc_3_chunk_0_part_3_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_4_ent_011",
+      "ent_baseline_4_doc_3_chunk_0_part_1_ent_003",
+      "ent_baseline_4_doc_3_chunk_0_part_3_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_2_ent_003",
+      "ent_baseline_4_doc_3_chunk_0_part_3_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_2_ent_003",
+      "ent_baseline_4_doc_3_chunk_0_part_4_ent_003",
+      "ent_baseline_4_doc_3_chunk_0_part_3_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_2_ent_003",
+      "ent_baseline_4_doc_3_chunk_0_part_4_ent_003",
+      "ent_baseline_4_doc_3_chunk_0_part_5_ent_001",
+      "ent_baseline_4_doc_3_chunk_0_part_3_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "she",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_6_ent_001",
+      "ent_baseline_4_doc_3_chunk_0_part_3_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "helena",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_4_ent_002",
+      "ent_baseline_4_doc_3_chunk_0_part_3_ent_005"
+    ]
+  },
+  {
+    "type": "prefix_merge",
+    "canonical_name": "Helena Serrano",
+    "merged_name": "Helena",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_0_ent_002",
+      "ent_baseline_4_doc_3_chunk_0_part_3_ent_005",
+      "ent_baseline_4_doc_3_chunk_0_part_4_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "walnut street",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_5_ent_006",
+      "ent_baseline_4_doc_3_chunk_0_part_6_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "late april",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_3_ent_016",
+      "ent_baseline_4_doc_3_chunk_0_part_4_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "codicil",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_0_ent_007",
+      "ent_baseline_4_doc_3_chunk_0_part_1_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "codicil",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_0_ent_007",
+      "ent_baseline_4_doc_3_chunk_0_part_3_ent_007",
+      "ent_baseline_4_doc_3_chunk_0_part_1_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "letter",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_0_ent_008",
+      "ent_baseline_4_doc_3_chunk_0_part_1_ent_008"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "the file",
+    "merged_ids": [
+      "ent_baseline_4_doc_3_chunk_0_part_5_ent_008",
+      "ent_baseline_4_doc_3_chunk_0_part_6_ent_003"
+    ]
+  }
+]

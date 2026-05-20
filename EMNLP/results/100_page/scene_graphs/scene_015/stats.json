@@ -1,0 +1,39 @@
+{
+  "movie_id": "100_page__scene_15",
+  "title": "",
+  "node_count_total": 197,
+  "node_count_by_type": {
+    "Event": 98,
+    "Character": 16,
+    "Location": 13,
+    "TimePoint": 6,
+    "Object": 34,
+    "Concept": 30
+  },
+  "edge_count_total": 206,
+  "edge_count_by_relation": {
+    "experiences": 19,
+    "performs": 78,
+    "occurs_at": 42,
+    "uses": 6,
+    "located_at": 11,
+    "occurs_on": 1,
+    "part_of": 11,
+    "precedes": 5,
+    "references": 1,
+    "undergoes": 6,
+    "possesses": 8,
+    "affiliated_with": 2,
+    "is_a": 8,
+    "causes": 1,
+    "affinity_with": 2,
+    "occurs_after": 5
+  },
+  "nodes_with_evidence_pct": 100.0,
+  "edges_with_evidence_pct": 100.0,
+  "schema_violation_count": 0,
+  "avg_degree": 2.09,
+  "disconnected_component_count": 47,
+  "avg_aliases_per_node": 1.32,
+  "avg_edge_confidence": 0.875
+}

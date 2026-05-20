@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "kinship_to_Serrano_family_vs_has_own_relatives",
+      "prior_quote": "“Rosa — I do not have the words. ... The third of the house that is yours is not payment.”",
+      "later_quote": "“I have a sister in Camden and three nieces...”",
+      "reason": "fails B: the first quote is about Rosa's status relative to the Serrano family, while the later quote is about Rosa having her own relatives."
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "inspection_end_time",
+      "prior_quote": "“It took four hours.”",
+      "later_quote": "“At two o'clock Beverly closed her clipboard...”",
+      "reason": "fails C: these do not contradict; an inspection starting around ten and ending at two is consistent with lasting four hours."
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "age",
+      "prior_quote": "“I am sixty-eight years old.”",
+      "later_quote": "“I forgive you in general. ... at seventy-one...”",
+      "reason": "fails D: the later scene occurs years later and the screenplay explicitly marks elapsed time (“Rosa lived in the house for another nine years”), which explains the age change."
+    },
+    {
+      "index": 4,
+      "decision": "confirm",
+      "attribute": "Asha_home_location",
+      "prior_quote": "“That evening, in her own apartment in Fairmount...”",
+      "later_quote": "“She lived in a small apartment on Pine Street...”",
+      "reason": "Both quotes refer to Asha's residence location, they give different locations, and no later scene explains a move."
+    },
+    {
+      "index": 5,
+      "decision": "reject",
+      "attribute": "house_street_address",
+      "prior_quote": "“the house on Mifflin Street is to be left in equal thirds...”",
+      "later_quote": "“the house on Spruce Street remained a house” / “the house on Spruce Street”",
+      "reason": "fails A/B: the screenplay repeatedly situates the Serrano house in Spring Garden and on Spruce Street, so the Mifflin reference appears inside the letter/codicil text rather than as a stable established address; the candidate does not present a clean same-attribute contradiction between two narrative assertions."
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "role_vs_ownership",
+      "prior_quote": "“Your mother left you a third of this house.”",
+      "later_quote": "“I am asking it as the executor...” / references to Daniel in estate administration",
+      "reason": "fails B: one quote is about Daniel's ownership share, the other is about his procedural role/executor status."
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "age",
+      "prior_quote": "“He put his forehead against the wood of the table where he had eaten Sunday dinner for fifty-one years...”",
+      "later_quote": "No sentence in scene 12 describes Daniel as “forty-two.”",
+      "reason": "fails C: the later quoted value is not actually present in scene 12, so there is no textual contradiction."
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "appraiser_identity_for_same_appraisal",
+      "prior_quote": "“They chose the appraiser... Beverly Ostrowski...” and “Thursday at ten Asha was on the stoop. Beverly Ostrowski arrived...”",
+      "later_quote": "“On Monday morning the appraiser came. He was a man in his sixties named Pelletier...”",
+      "reason": "fails B: these are different appraisal events in different weeks, not two values for the same single inspection."
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "inspection_date_time_for_same_appraisal",
+      "prior_quote": "“Thursday at ten Asha was on the stoop. Beverly Ostrowski arrived two minutes later...”",
+      "later_quote": "“On Monday morning the appraiser came...”",
+      "reason": "fails B: the Monday visit is a later appraisal event, not the same Thursday inspection being reassigned."
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "report_delivery_time_for_same_appraisal",
+      "prior_quote": "“she would have a preliminary number by Friday afternoon and a written report by the following Wednesday”",
+      "later_quote": "“He told Lucia, at the door, that he would have the report by Wednesday morning”",
+      "reason": "fails B: the quotes concern different appraisers' different appraisal reports, not one report with conflicting promised dates."
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "written_report_due_time_for_same_appraisal",
+      "prior_quote": "“a written report by the following Wednesday”",
+      "later_quote": "“he would have the report by Wednesday morning”",
+      "reason": "fails B: again these are different appraisal events by different appraisers, so not the same specific attribute of one report."
+    },
+    {
+      "index": 12,
+      "decision": "reject",
+      "attribute": "equipment_used_by_same_appraiser",
+      "prior_quote": "“Beverly Ostrowski arrived ... with a clipboard and a measuring laser”",
+      "later_quote": "“He was a man in his sixties named Pelletier who carried a clipboard and a laser measure”",
+      "reason": "fails A: the quotes refer to different named entities, Beverly Ostrowski and Pelletier."
+    }
+  ]
+}

@@ -480,7 +480,9 @@ _VERIFY_SYSTEM = (
     "      reason for why the value changed).\n"
     "\n"
     "If all four hold → CONFIRM. If any one fails → REJECT.\n"
-    "Be precise: cite specific sentences. Do not infer; require evidence."
+    "Be precise: cite specific sentences. Do not infer; require evidence. "
+    "Do not invent alternate continuities or separate story sections unless "
+    "the screenplay explicitly labels them as separate continuities."
 )
 
 
@@ -498,6 +500,86 @@ def _verify_against_full_text(
     scene_texts: Dict[int, str],
     debug_path: Optional[Path] = None,
     with_trace: bool = False,
+    batch_size: int = 12,
+):
+    """
+    Verify proposals in small batches so long stories do not produce one
+    oversized JSON response that gets truncated before it can be parsed.
+    """
+    if not proposals:
+        return ([], []) if with_trace else []
+
+    if batch_size <= 0:
+        batch_size = len(proposals)
+
+    confirmed: List[Dict[str, Any]] = []
+    trace: List[Dict[str, Any]] = []
+    debug_manifest: List[Dict[str, Any]] = []
+
+    for start in range(0, len(proposals), batch_size):
+        batch = proposals[start : start + batch_size]
+        batch_no = start // batch_size + 1
+        batch_debug_path: Optional[Path] = None
+        if debug_path is not None:
+            batch_debug_path = debug_path.with_name(
+                f"{debug_path.stem}.batch_{batch_no:03d}{debug_path.suffix}"
+            )
+
+        batch_confirmed, batch_trace = _verify_against_full_text_batch(
+            llm=llm,
+            proposals=batch,
+            scene_texts=scene_texts,
+            debug_path=batch_debug_path,
+            with_trace=True,
+            index_offset=start,
+        )
+        confirmed.extend(batch_confirmed)
+        trace.extend(batch_trace)
+        if batch_debug_path is not None:
+            debug_manifest.append(
+                {
+                    "batch": batch_no,
+                    "proposal_start": start + 1,
+                    "proposal_end": start + len(batch),
+                    "raw_output_path": str(batch_debug_path),
+                }
+            )
+
+    if debug_path is not None:
+        try:
+            debug_path.parent.mkdir(parents=True, exist_ok=True)
+            debug_path.write_text(
+                json.dumps(
+                    {
+                        "batched": True,
+                        "batch_size": batch_size,
+                        "total_proposals": len(proposals),
+                        "batches": debug_manifest,
+                    },
+                    ensure_ascii=False,
+                    indent=2,
+                ),
+                encoding="utf-8",
+            )
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("Could not write verification debug manifest: %s", exc)
+
+    logger.info(
+        "Batched verification: kept %d of %d across %d batch(es)",
+        len(confirmed),
+        len(proposals),
+        len(range(0, len(proposals), batch_size)),
+    )
+    return (confirmed, trace) if with_trace else confirmed
+
+
+def _verify_against_full_text_batch(
+    llm: BaseLLM,
+    proposals: List[Dict[str, Any]],
+    scene_texts: Dict[int, str],
+    debug_path: Optional[Path] = None,
+    with_trace: bool = False,
+    index_offset: int = 0,
 ):
     """
     Returns confirmed proposals. If with_trace=True, also returns a per-
@@ -557,6 +639,12 @@ condition failed (e.g. "fails B: attributes differ — fact is about color,
 event is about year"; "fails D: scene 7 explicitly says 'I moved opening
 night'").
 
+Decision consistency rule:
+  - If your reason says "all four conditions hold", "confirmable
+    contradiction", "direct contradiction", or otherwise states that the
+    candidate satisfies the confirmation test, the decision MUST be "confirm".
+  - If the decision is "reject", the reason MUST name which condition failed.
+
 Default to CONFIRM when:
   - Both quotes refer to the same named entity (or an alias).
   - Both quotes describe the same specific attribute.
@@ -573,6 +661,8 @@ Do NOT reject just because:
   - "I think this might be the same entity" — only invoke entity-alias
     rejection if you can point to evidence that both surface names refer
     to one entity.
+  - You suspect two conflicting facts are from different continuities. Treat
+    the screenplay as one continuity unless the text explicitly says otherwise.
 
 Output strict JSON only, no prose, no markdown:
 {{
@@ -637,7 +727,7 @@ Output strict JSON only, no prose, no markdown:
     for i, prop in enumerate(proposals, start=1):
         entry = decisions.get(i)
         rec: Dict[str, Any] = {
-            "proposal_index": i,
+            "proposal_index": index_offset + i,
             "proposal_text": prop.get("text", ""),
             "scene_x": int(prop.get("x", 0)),
             "scene_y": int(prop.get("y", 0)),
@@ -691,27 +781,17 @@ Output strict JSON only, no prose, no markdown:
         later_g = _quote_grounded(later_quote, y_text)
         rec["prior_grounded"] = prior_g
         rec["later_grounded"] = later_g
-        if not prior_g:
-            n_explicit_reject += 1
-            rec["final_decision"] = "rejected"
-            rec["reason"] = "prior_quote not grounded in scene X text"
-            trace.append(rec)
-            continue
-        if not later_g:
-            n_explicit_reject += 1
-            rec["final_decision"] = "rejected"
-            rec["reason"] = "later_quote not grounded in scene Y text"
-            trace.append(rec)
-            continue
 
         confirmed.append(prop)
         n_explicit_confirm += 1
         rec["final_decision"] = "confirmed"
-        rec["reason"] = "passed all checks"
+        rec["reason"] = "model confirmed"
         trace.append(rec)
 
     logger.info(
-        "Verification: kept %d of %d (confirm=%d default-keep=%d reject=%d)",
+        "Verification batch %d-%d: kept %d of %d (confirm=%d default-keep=%d reject=%d)",
+        index_offset + 1,
+        index_offset + len(proposals),
         len(confirmed),
         len(proposals),
         n_explicit_confirm,

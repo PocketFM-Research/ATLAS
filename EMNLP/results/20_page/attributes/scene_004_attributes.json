@@ -1,0 +1,56 @@
+{
+  "Asha": {
+    "carries": "bag at hip",
+    "uses": "notary's seal",
+    "holds": "signed affidavits and letter"
+  },
+  "Rosa": {
+    "uses": "garden gate key",
+    "duration": "thirty years",
+    "holds": "garden gate key",
+    "signed": "affidavit",
+    "signature_style": "blockier steadier hand"
+  },
+  "Lucia": {
+    "drives": "Lucia's car",
+    "wears": "cardigan",
+    "signed": "affidavit",
+    "signature_style": "heavy uneven hand",
+    "wrote": "the letter",
+    "holds": "pen"
+  },
+  "Daniel": {
+    "role": "closing meeting participant"
+  },
+  "Lucia's car": {
+    "identity_type": "car",
+    "locked_state": "door handle clicked"
+  },
+  "garden gate": {
+    "locked_state": "locked"
+  },
+  "briefcase": {
+    "holds": "documents, letter, affidavits",
+    "intact_state": "seams strained",
+    "locked_state": "clicked locks down"
+  },
+  "notary's seal": {
+    "identity_type": "seal",
+    "type": "notary's seal",
+    "material": "embossed disc"
+  },
+  "affidavits": {
+    "count": "three",
+    "type": "blank affidavits"
+  },
+  "letter": {
+    "written_by": "Lucia",
+    "hidden_location": "cardigan pocket for months"
+  },
+  "closing meeting": {
+    "time": "nine"
+  },
+  "funeral": {
+    "identity_type": "funeral"
+  }
+}
