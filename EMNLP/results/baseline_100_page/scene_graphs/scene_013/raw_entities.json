@@ -1,0 +1,2227 @@
+{
+  "12": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The speaker who explains the codicil and recounts her conversations with the woman.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_0",
+      "evidence": [
+        "\"I will say it again,\" Rosa said",
+        "the conversations I had with her in the kitchen",
+        "Rosa had seen him do once before"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_007",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_008"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_0_ent_001",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel",
+        "he"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man Rosa addresses, who reacts emotionally to her explanation of the codicil.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_0",
+      "evidence": [
+        "She loved you, Daniel.",
+        "you had built a life elsewhere",
+        "He was crying.",
+        "\"She was wrong,\" he said"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_004",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_007",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_008"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_0_ent_002",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "A family member mentioned as living in the house and visiting often.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_0",
+      "evidence": [
+        "that Lucia visited often",
+        "the house had become a place she lived in with me and that Lucia visited often"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_003"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_0_ent_003",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "the woman",
+        "She",
+        "her"
+      ],
+      "canonical_name": "the woman",
+      "description": "The deceased woman whose intentions behind the codicil Rosa explains.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_0",
+      "evidence": [
+        "She saw through it.",
+        "She loved you, Daniel.",
+        "the conversations I had with her in the kitchen",
+        "she was telling me what she was thinking"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_004",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_0_ent_004",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "codicil"
+      ],
+      "canonical_name": "codicil",
+      "description": "The testamentary document Rosa says was intended as a recognition rather than a punishment.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_0",
+      "evidence": [
+        "The codicil was not a punishment.",
+        "It was not even a correction.",
+        "She thought she was being kind to you."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_004",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_008"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_0_ent_005",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "the house"
+      ],
+      "canonical_name": "the house",
+      "description": "The family house whose disposition is central to the codicil discussion.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_0",
+      "evidence": [
+        "there was no one else in the house to tell",
+        "the house had become a place she lived in with me",
+        "leaving the house to you"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_004"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_0_ent_006",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "the kitchen"
+      ],
+      "canonical_name": "the kitchen",
+      "description": "The place where Rosa says she had private conversations with the woman.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_0",
+      "evidence": [
+        "the conversations I had with her in the kitchen"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_002"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_0_ent_007",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "TimePoint",
+      "surface_forms": [
+        "the afternoons"
+      ],
+      "canonical_name": "the afternoons",
+      "description": "The time period when Rosa says the woman told her what she was thinking.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_0",
+      "evidence": [
+        "on the afternoons when she was telling me what she was thinking"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_002"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_0_ent_008",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "TimePoint",
+      "surface_forms": [
+        "when he was eleven"
+      ],
+      "canonical_name": "when he was eleven",
+      "description": "The earlier time Rosa recalls seeing Daniel cry silently.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_0",
+      "evidence": [
+        "when he was eleven and had failed to make a team"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_0_ent_009",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "a team"
+      ],
+      "canonical_name": "a team",
+      "description": "The team Daniel failed to make in Rosa's recollection of his earlier crying.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_0",
+      "evidence": [
+        "had failed to make a team he had wanted to make"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_0_ent_010",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman speaking with him about his emotions and the house.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_1",
+      "evidence": [
+        "Rosa had seen him do once before",
+        "\"Rosa.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_004",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_008",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_009",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_010",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_011"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_1_ent_001",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "He",
+        "he",
+        "you"
+      ],
+      "canonical_name": "He",
+      "description": "The man speaking with Rosa about his childhood, his feelings, and whether to sell the house.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_1",
+      "evidence": [
+        "when he was eleven",
+        "\"She was wrong,\" he said",
+        "\"I do not want to sell the house.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_004",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_007",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_008",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_009",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_010",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_011"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_1_ent_002",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa's mother",
+        "she",
+        "her mother",
+        "their mother",
+        "mother"
+      ],
+      "canonical_name": "Rosa's mother",
+      "description": "The mother Rosa refers to when discussing how she judged him and what would be kind.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_1",
+      "evidence": [
+        "She was wrong about what would be kind.",
+        "She was often wrong about you."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_1_ent_003",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "the house"
+      ],
+      "canonical_name": "the house",
+      "description": "The house that he does not want to sell and that Rosa argues can outlast the debts.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_1",
+      "evidence": [
+        "I do not want to sell the house.",
+        "The house has been there for a hundred and forty years"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_009",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_010",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_011"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_1_ent_004",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Wednesday afternoon",
+        "eleven"
+      ],
+      "canonical_name": "Wednesday afternoon",
+      "description": "The time reference for when he realized he did not want to sell the house.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_1",
+      "evidence": [
+        "when he was eleven",
+        "since Wednesday afternoon"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_006"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_1_ent_005",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Concept",
+      "surface_forms": [
+        "Debts",
+        "the debts",
+        "debts",
+        "the taxes",
+        "practicality",
+        "second mortgages",
+        "equity arrangements"
+      ],
+      "canonical_name": "Debts",
+      "description": "The financial obligations discussed as the main obstacle to keeping the house.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_1",
+      "evidence": [
+        "because of the debts and the taxes and the practicality",
+        "There are still the debts.",
+        "There are second mortgages, and there are equity arrangements"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_007",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_009",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_010",
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_011"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_1_ent_006",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Concept",
+      "surface_forms": [
+        "a team"
+      ],
+      "canonical_name": "a team",
+      "description": "The team he failed to make when he was eleven, which Rosa recalls as the occasion of his earlier crying.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_1",
+      "evidence": [
+        "when he was eleven and had failed to make a team he had wanted to make"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_1_ev_001"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_1_ent_007",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman being addressed about the house, the lawyer, and the separate room agreement.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_2",
+      "evidence": [
+        "\"You have a lawyer. Ask her.\"",
+        "\"Rosa,\" he said. \"About the room. About what was in the document. About your room.\"",
+        "\"Would you let me do that.\"",
+        "\"Rosa looked at him for a long time.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_004",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_007",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_2_ent_001",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "speaker",
+        "he",
+        "him"
+      ],
+      "canonical_name": "speaker",
+      "description": "The male speaker who explains the house arrangements, mentions Rosa's lawyer, and proposes the separate room agreement.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_2",
+      "evidence": [
+        "\"You have a lawyer. Ask her.\"",
+        "\"You can ask her about the structures.\"",
+        "He laughed again.",
+        "\"Rosa,\" he said.",
+        "\"I would like, if you are willing, to draw up a separate agreement\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_004",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_007",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_2_ent_002",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "lawyer",
+        "her"
+      ],
+      "canonical_name": "lawyer",
+      "description": "Rosa's lawyer, whom the speaker says she should ask about the financial structures.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_2",
+      "evidence": [
+        "\"You have a lawyer. Ask her.\"",
+        "\"You can ask her about the structures.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_002"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_2_ent_003",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "mother",
+        "my mother"
+      ],
+      "canonical_name": "mother",
+      "description": "The speaker's mother, cited as the person who intended Rosa's room arrangement.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_2",
+      "evidence": [
+        "\"because my mother intended it\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_2_ent_004",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "the house",
+        "house"
+      ],
+      "canonical_name": "the house",
+      "description": "The family house whose survival, ownership, and future are central to the discussion.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_2",
+      "evidence": [
+        "\"it has outlasted every debt anyone in it ever had. It will outlast yours.\"",
+        "\"the house stay a house\"",
+        "\"the house will stand regardless.\"",
+        "\"The house does not require you to work out the other things.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_2_ent_005",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "second mortgages"
+      ],
+      "canonical_name": "second mortgages",
+      "description": "A financial arrangement mentioned as one way to preserve the house.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_2",
+      "evidence": [
+        "\"There are second mortgages\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_001"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_2_ent_006",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "equity arrangements"
+      ],
+      "canonical_name": "equity arrangements",
+      "description": "A financial structure mentioned as another way to keep the house.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_2",
+      "evidence": [
+        "\"there are equity arrangements\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_001"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_2_ent_007",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "third-floor apartment",
+        "renters in the third-floor apartment"
+      ],
+      "canonical_name": "third-floor apartment",
+      "description": "The apartment in the house that has renters, mentioned as part of the house's financial structure.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_2",
+      "evidence": [
+        "\"there are renters in the third-floor apartment\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_001"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_2_ent_008",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "Rosa's room",
+        "the room",
+        "your room"
+      ],
+      "canonical_name": "Rosa's room",
+      "description": "The room in the house that the speaker wants to secure for Rosa through a separate agreement.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_2",
+      "evidence": [
+        "\"About the room. About what was in the document. About your room.\"",
+        "\"that gives you that room for the rest of your life\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_007",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_2_ent_009",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "the document"
+      ],
+      "canonical_name": "the document",
+      "description": "The document that mentions Rosa's room and is referenced in the proposed agreement.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_2",
+      "evidence": [
+        "\"About what was in the document.\"",
+        "\"because the document only operates if we keep the house\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_2_ent_010",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Concept",
+      "surface_forms": [
+        "the estate"
+      ],
+      "canonical_name": "the estate",
+      "description": "The estate that the speaker wants the separate room agreement to exist outside of.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_2",
+      "evidence": [
+        "\"outside the estate\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_2_ent_011",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "financial structures",
+        "the structures"
+      ],
+      "canonical_name": "financial structures",
+      "description": "The financial arrangements Rosa is told to ask her lawyer about.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_2",
+      "evidence": [
+        "\"You can ask her about the structures.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_2_ev_002"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_2_ent_012",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man offering Rosa an arrangement to secure her future and later agreeing to her condition.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_3",
+      "evidence": [
+        "Would you let me do that.",
+        "\"Agreed.\"",
+        "\"You can have the week.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_004",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_007",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_008",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_009"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_3_ent_001",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman considering Daniel's offer while insisting on an open, lawyer-mediated agreement and asking for time to think.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_3",
+      "evidence": [
+        "Rosa looked at him for a long time.",
+        "\"I would let you do that,\" she said.",
+        "\"Thank you. For the offer.",
+        "\"I am asking you for the week.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_004",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_007",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_008",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_009"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_3_ent_002",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "Daniel's sister, whose approval is required for the lawyer handling the agreement.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_3",
+      "evidence": [
+        "I do not mean Asha.",
+        "one your sister approves of"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_003"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_3_ent_003",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "A family member Rosa wants to know about the agreement from the start rather than have it kept secret.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_3",
+      "evidence": [
+        "so that Lucia knows from the start that it exists and what it says.",
+        "being a secret between members of this family"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_3_ent_004",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "Catharine Street"
+      ],
+      "canonical_name": "Catharine Street",
+      "description": "The street where Rosa has lived in her own apartment for thirty-one years.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_3",
+      "evidence": [
+        "I have lived in my own apartment on Catharine Street for thirty-one years"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_3_ent_005",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "Rosa's apartment",
+        "my own apartment"
+      ],
+      "canonical_name": "Rosa's apartment",
+      "description": "Rosa's long-time home on Catharine Street where she has built her own life.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_3",
+      "evidence": [
+        "I have lived in my own apartment on Catharine Street for thirty-one years"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_3_ent_006",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "the house"
+      ],
+      "canonical_name": "the house",
+      "description": "The unresolved family house whose future affects Rosa's security.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_3",
+      "evidence": [
+        "whether we will keep the house",
+        "your security to depend on a question that has not been answered"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_001"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_3_ent_007",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "the room"
+      ],
+      "canonical_name": "the room",
+      "description": "The room Daniel offers Rosa, which she asks for time to consider.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_3",
+      "evidence": [
+        "the offer to come and live in the room",
+        "\"You can have the week.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_3_ent_008",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "TimePoint",
+      "surface_forms": [
+        "thirty-one years"
+      ],
+      "canonical_name": "thirty-one years",
+      "description": "The span of time Rosa cites to describe how long she has been kept secret and how long she has lived independently.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_3",
+      "evidence": [
+        "I have spent thirty-one years being a secret",
+        "I have lived in my own apartment on Catharine Street for thirty-one years"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_004",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_3_ent_009",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "TimePoint",
+      "surface_forms": [
+        "the week"
+      ],
+      "canonical_name": "the week",
+      "description": "The period of time Rosa requests to think about Daniel's offer and that Daniel grants her.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_3",
+      "evidence": [
+        "I am asking you for the week.",
+        "\"You can have the week.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_3_ent_010",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "TimePoint",
+      "surface_forms": [
+        "ten to four"
+      ],
+      "canonical_name": "ten to four",
+      "description": "The time when Daniel stands up, puts on his coat, and prepares to leave.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_3",
+      "evidence": [
+        "At ten to four Daniel stood and put on his coat"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_3_ev_009"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_3_ent_011",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man speaking with Rosa, who accepts her advice and leaves the bakery.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_4",
+      "evidence": [
+        "\"Thank you.\"",
+        "\"Rosa,\" he said.",
+        "\"Go home, Daniel. Or go to your sister. Or go for a walk. Do not go back to the house tonight. Give her the evening.\"",
+        "He left."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_004",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_4_ent_001",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman who gives Daniel the week, drinks coffee with him, and later reflects alone after he leaves.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_4",
+      "evidence": [
+        "\"You can have the week.\"",
+        "\"Rosa,\" he said.",
+        "\"You were not a different kind of man for the last twenty years.\"",
+        "\"Go home, Daniel. Or go to your sister. Or go for a walk. Do not go back to the house tonight. Give her the evening.\"",
+        "Rosa sat at the table for another twenty minutes.",
+        "She walked home along Tenth Street and turned east on Pine and went the long way past the small park"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_004",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_007",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_008",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_009",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_010"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_4_ent_002",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Location",
+      "surface_forms": [
+        "the bakery"
+      ],
+      "canonical_name": "the bakery",
+      "description": "The place where Daniel and Rosa share coffee and where Rosa remains after Daniel leaves.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_4",
+      "evidence": [
+        "They drank their coffee.",
+        "He left.",
+        "Rosa sat at the table for another twenty minutes.",
+        "she watched the door of the bakery open and close several times"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_007"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_4_ent_003",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "TimePoint",
+      "surface_forms": [
+        "ten to four"
+      ],
+      "canonical_name": "ten to four",
+      "description": "The time when Daniel stands up to leave the bakery.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_4",
+      "evidence": [
+        "At ten to four Daniel stood and put on his coat"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_4_ent_004",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "coffee"
+      ],
+      "canonical_name": "coffee",
+      "description": "The drink Daniel and Rosa share in silence at the bakery.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_4",
+      "evidence": [
+        "\"You can have the week.\"",
+        "They drank their coffee.",
+        "Rosa sat at the table for another twenty minutes. She finished her coffee"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_007"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_4_ent_005",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "biscotto"
+      ],
+      "canonical_name": "biscotto",
+      "description": "The pastry Rosa finishes while sitting alone after Daniel leaves.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_4",
+      "evidence": [
+        "She finished her coffee and she ate the biscotto"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_007"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_4_ent_006",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "Tenth Street"
+      ],
+      "canonical_name": "Tenth Street",
+      "description": "The street Rosa walks along on her way home.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_4",
+      "evidence": [
+        "She walked home along Tenth Street"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_4_ent_007",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "Pine"
+      ],
+      "canonical_name": "Pine",
+      "description": "The street Rosa turns onto as she takes the long way home.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_4",
+      "evidence": [
+        "turned east on Pine"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_4_ent_008",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "the small park"
+      ],
+      "canonical_name": "the small park",
+      "description": "The park Rosa passes and stops beside while walking home.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_4",
+      "evidence": [
+        "went the long way past the small park",
+        "she stopped for a moment to watch them"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_008",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_009",
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_010"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_4_ent_009",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Character",
+      "surface_forms": [
+        "unknown child",
+        "a child"
+      ],
+      "canonical_name": "unknown child",
+      "description": "An unnamed child at the park who throws a tennis ball for a dog.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_4",
+      "evidence": [
+        "a child she did not know was throwing",
+        "the child threw the ball badly"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_4_ent_010",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Character",
+      "surface_forms": [
+        "unknown dog",
+        "a dog"
+      ],
+      "canonical_name": "unknown dog",
+      "description": "An unnamed dog at the park that catches the tennis ball despite the bad throw.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_4",
+      "evidence": [
+        "a dog she did not know was chasing a tennis ball",
+        "the dog caught it anyway"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_4_ent_011",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "tennis ball",
+        "the ball"
+      ],
+      "canonical_name": "tennis ball",
+      "description": "The ball the child throws and the dog catches in the park.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_4",
+      "evidence": [
+        "was chasing a tennis ball",
+        "the child threw the ball badly",
+        "the dog caught it anyway"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_4_ent_012",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman who watches the child and dog, becomes emotional in public, then goes home to make and eat dinner.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "Rosa was surprised to find that she was, herself, almost crying",
+        "She went home. She made dinner. She ate it sitting at the table"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_004"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_001",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The woman who visits her brother, spends the afternoon with him, returns home alone, and later watches the street while making decisions.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "On Sunday Lucia took the train to her brother's apartment in Fitler Square",
+        "Lucia sat that night in the sewing room",
+        "Lucia returning to the house alone"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_007",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_008",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_002",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "Lucia's brother, whom she visits in Fitler Square and who later returns to his own apartment in the evening.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "her brother's apartment in Fitler Square",
+        "Daniel returning to his own apartment in the evening"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_003",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The person who is not told what Lucia and Daniel said and who observes Pelletier as an appraiser.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "What they said to each other Asha would not know and did not need to know",
+        "which was, in Asha's experience, what one wanted in an appraiser"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_009",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_004",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Pelletier"
+      ],
+      "canonical_name": "Pelletier",
+      "description": "The experienced appraiser who comes to evaluate the house and inspects it for hours.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "the appraiser came",
+        "named Pelletier",
+        "He spent three hours in the house"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_009",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_010",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_011"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_005",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Character",
+      "surface_forms": [
+        "the child"
+      ],
+      "canonical_name": "the child",
+      "description": "The unnamed child who throws the ball badly for the dog to catch.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "the child threw the ball badly"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_006",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Character",
+      "surface_forms": [
+        "the dog"
+      ],
+      "canonical_name": "the dog",
+      "description": "The dog that catches the badly thrown ball anyway.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "the dog caught it anyway"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_007",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "Fitler Square"
+      ],
+      "canonical_name": "Fitler Square",
+      "description": "The neighborhood where Daniel's apartment is located and where Lucia visits on Sunday.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "her brother's apartment in Fitler Square"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_005"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_008",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "the house on Spruce Street",
+        "the house"
+      ],
+      "canonical_name": "the house on Spruce Street",
+      "description": "The house where Lucia returns, where the afternoon and evening transitions occur, and where Pelletier appraises the property.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "They came back to the house on Spruce Street separately",
+        "He spent three hours in the house"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_007",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_008",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_009",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_010",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_011"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_009",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "Spruce Street"
+      ],
+      "canonical_name": "Spruce Street",
+      "description": "The street where the house is located.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "the house on Spruce Street"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_007",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_010",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Location",
+      "surface_forms": [
+        "the sewing room"
+      ],
+      "canonical_name": "the sewing room",
+      "description": "The room where Lucia sits at night watching the street.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "Lucia sat that night in the sewing room"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_011",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Location",
+      "surface_forms": [
+        "the street"
+      ],
+      "canonical_name": "the street",
+      "description": "The street Lucia watches from the sewing room at night.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "watched the street"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_012",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Sunday"
+      ],
+      "canonical_name": "Sunday",
+      "description": "The day Lucia visits her brother and spends the afternoon with him.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "On Sunday Lucia took the train"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_013",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "TimePoint",
+      "surface_forms": [
+        "that night"
+      ],
+      "canonical_name": "that night",
+      "description": "The night Lucia sits in the sewing room and makes decisions.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "Lucia sat that night in the sewing room"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_014",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Monday morning"
+      ],
+      "canonical_name": "Monday morning",
+      "description": "The time when Pelletier arrives to appraise the house.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "On Monday morning the appraiser came"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_009",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_010",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_011"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_015",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Object",
+      "surface_forms": [
+        "the train"
+      ],
+      "canonical_name": "the train",
+      "description": "The train Lucia takes to visit her brother in Fitler Square.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "Lucia took the train to her brother's apartment"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_005"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_016",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Object",
+      "surface_forms": [
+        "the ball"
+      ],
+      "canonical_name": "the ball",
+      "description": "The ball thrown badly by the child and caught by the dog.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "the child threw the ball badly and the dog caught it anyway"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_017",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Object",
+      "surface_forms": [
+        "clipboard",
+        "a clipboard"
+      ],
+      "canonical_name": "clipboard",
+      "description": "The clipboard carried by Pelletier during the appraisal.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "He was a man in his sixties named Pelletier who had appraised houses in this neighborhood for thirty years and who carried a clipboard"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_009",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_018",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Object",
+      "surface_forms": [
+        "laser measure",
+        "a laser measure"
+      ],
+      "canonical_name": "laser measure",
+      "description": "The measuring device Pelletier carries while appraising the house.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "and a laser measure"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_019",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_020",
+      "type": "Object",
+      "surface_forms": [
+        "the light"
+      ],
+      "canonical_name": "the light",
+      "description": "The light in the sewing room that Lucia leaves off while watching the street.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "with the light off"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_020",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_021",
+      "type": "Object",
+      "surface_forms": [
+        "the curtain"
+      ],
+      "canonical_name": "the curtain",
+      "description": "The curtain in the sewing room that Lucia leaves not quite closed.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "and the curtain not quite closed"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_021",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_022",
+      "type": "Concept",
+      "surface_forms": [
+        "Asha's experience"
+      ],
+      "canonical_name": "Asha's experience",
+      "description": "Asha's perspective on what one wants in an appraiser.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_5",
+      "evidence": [
+        "which was, in Asha's experience, what one wanted in an appraiser"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_009",
+        "ev_baseline_12_doc_11_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_5_ent_022",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The homeowner who speaks with the inspector and later calls Asha to discuss the decision not to sell the house.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "with Lucia",
+        "He told Lucia",
+        "Lucia thanked him.",
+        "She called Asha from the kitchen",
+        "\"My brother and I are not going to sell the house.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_007",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_008",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_009",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_010",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_011",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_012"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_001",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The person Lucia calls to explain the report timing and the decision not to sell the house.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "She called Asha from the kitchen after he left.",
+        "\"Asha.\"",
+        "\"Yes.\"",
+        "\"Tell me,\" she said.",
+        "\"We have agreed that the structures will require you\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_007",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_008",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_009",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_010",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_011",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_012"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_002",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "A person Lucia says must be included in the discussion about the house's future and structures.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "We have agreed that Rosa is part of the conversation about the structures"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_011"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_003",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "the inspector",
+        "inspector"
+      ],
+      "canonical_name": "the inspector",
+      "description": "The inspector who examines the house and promises to deliver the report by Wednesday morning.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "He measured the rooms and photographed the moldings",
+        "He told Lucia, at the door, that he would have the report by Wednesday morning",
+        "Lucia thanked him."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_004",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_005"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_004",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia's brother",
+        "my brother",
+        "brother"
+      ],
+      "canonical_name": "Lucia's brother",
+      "description": "Lucia's brother, who is part of the decision not to sell the house and the later discussion about structures.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "My brother and I are not going to sell the house.",
+        "We have agreed that we are not going to sell."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_008",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_010",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_011",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_012"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_005",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "the basement"
+      ],
+      "canonical_name": "the basement",
+      "description": "The lower part of the house that the inspector inspects with Lucia.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "went down into the basement with Lucia"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_001"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_006",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "the roof"
+      ],
+      "canonical_name": "the roof",
+      "description": "The roof of the house that the inspector inspects during his examination.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "up onto the roof"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_001"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_007",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "the kitchen"
+      ],
+      "canonical_name": "the kitchen",
+      "description": "The place from which Lucia calls Asha after the inspector leaves.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "She called Asha from the kitchen after he left."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_006"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_008",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Wednesday morning"
+      ],
+      "canonical_name": "Wednesday morning",
+      "description": "The time by which the inspector says the report will be ready.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "he would have the report by Wednesday morning",
+        "\"He says it will be by Wednesday morning.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_009",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Monday week"
+      ],
+      "canonical_name": "Monday week",
+      "description": "The planned meeting time when Lucia, Asha, and Lucia's brother will discuss the structures.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "we will come on Monday week prepared to discuss the structures"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_010"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_010",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "clipboard"
+      ],
+      "canonical_name": "clipboard",
+      "description": "The inspector's clipboard, which he fills while examining the house.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "his clipboard full"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_001"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_011",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "the report"
+      ],
+      "canonical_name": "the report",
+      "description": "The inspection report that will be delivered by Wednesday morning and whose valuation differs from the buyers' offer.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "he would have the report by Wednesday morning",
+        "the number would not be the number the buyers had offered"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_012",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Concept",
+      "surface_forms": [
+        "the buyers' offer",
+        "the buyers had offered"
+      ],
+      "canonical_name": "the buyers' offer",
+      "description": "The purchase offer whose amount the inspector says will not match the report's number.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "the number would not be the number the buyers had offered"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_003"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_013",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Concept",
+      "surface_forms": [
+        "the difference"
+      ],
+      "canonical_name": "the difference",
+      "description": "The gap between the report's number and the buyers' offer that the inspector refuses to advise on.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "the question of what to do with the difference was not his question to answer"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_004"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_014",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Concept",
+      "surface_forms": [
+        "structures"
+      ],
+      "canonical_name": "structures",
+      "description": "The arrangements Lucia says will be needed instead of selling the house and that require Asha's help.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "the things we are going to do instead will require structures",
+        "prepared to discuss the structures rather than the question of whether to sell"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_010",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_011",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_012"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_015",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Concept",
+      "surface_forms": [
+        "the house"
+      ],
+      "canonical_name": "the house",
+      "description": "The house being inspected and discussed as the property Lucia and her brother have decided not to sell.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_6",
+      "evidence": [
+        "He measured the rooms",
+        "My brother and I are not going to sell the house.",
+        "the presence in the house is, in our shared view, not negotiable"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_008",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_010",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_011",
+        "ev_baseline_12_doc_11_chunk_0_part_6_ev_012"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_6_ent_016",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The speaker who discloses the family's position, revises the agenda, and later calls Marcus to say they are keeping the house.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_7",
+      "evidence": [
+        "Asha hung up.",
+        "Then she called Marcus.",
+        "\"They are keeping the house,\" she said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_004",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_7_ent_001",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The person on the office line who receives Asha's disclosure and reassures her that it is permissible to say.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_7",
+      "evidence": [
+        "\"Lucia.\"",
+        "\"Yes.\"",
+        "\"Thank you for being someone we wanted to tell.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_002",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_003",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_7_ent_002",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Marcus"
+      ],
+      "canonical_name": "Marcus",
+      "description": "The person Asha calls to inform that the house is being kept.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_7",
+      "evidence": [
+        "Then she called Marcus.",
+        "\"They are keeping the house,\" she said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_7_ent_003",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "agenda",
+        "the agenda she had drafted on Friday"
+      ],
+      "canonical_name": "agenda",
+      "description": "The drafted agenda that Asha edits by changing items about the residence and financing.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_7",
+      "evidence": [
+        "She picked up the agenda she had drafted on Friday",
+        "she crossed out the third item",
+        "She left the fifth item as it was."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_006"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_7_ent_004",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "office line",
+        "the office line"
+      ],
+      "canonical_name": "office line",
+      "description": "The professional phone line used for Asha's disclosure to Lucia.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_7",
+      "evidence": [
+        "\"permissible to tell you on the office line.\"",
+        "\"permissible to tell me on the office line.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_002"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_7_ent_005",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "the house",
+        "the residence"
+      ],
+      "canonical_name": "the house",
+      "description": "The family residence whose retention and financing are being discussed and confirmed.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_7",
+      "evidence": [
+        "\"presence in the house is, in our shared view, not negotiable.\"",
+        "\"discussion of options re: disposition of the residence,\"",
+        "\"discussion of structures for retention of the residence.\"",
+        "\"They are keeping the house,\" she said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_004",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_006",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_7_ent_006",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Concept",
+      "surface_forms": [
+        "professional setting"
+      ],
+      "canonical_name": "professional setting",
+      "description": "The formal context in which Asha and Lucia discuss what can be disclosed.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_7",
+      "evidence": [
+        "\"in any other professional setting\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_001",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_002"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_7_ent_007",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "remaining disagreements"
+      ],
+      "canonical_name": "remaining disagreements",
+      "description": "The unresolved issues that Asha says will be brought to the table later.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_7",
+      "evidence": [
+        "\"we will bring our remaining disagreements to the table on Monday week\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_001"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_7_ent_008",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Monday week"
+      ],
+      "canonical_name": "Monday week",
+      "description": "The future time when the remaining disagreements will be addressed.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_7",
+      "evidence": [
+        "\"on Monday week rather than try to resolve them privately first.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_001"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_7_ent_009",
+      "movie_id": "baseline_100_page__scene_12"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Friday"
+      ],
+      "canonical_name": "Friday",
+      "description": "The day on which Asha drafted the agenda she later revises.",
+      "scene_id": "12",
+      "chunk_id": "doc_11_chunk_0_part_7",
+      "evidence": [
+        "\"the agenda she had drafted on Friday\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_005",
+        "ev_baseline_12_doc_11_chunk_0_part_7_ev_006"
+      ],
+      "id": "ent_baseline_12_doc_11_chunk_0_part_7_ent_010",
+      "movie_id": "baseline_100_page__scene_12"
+    }
+  ]
+}

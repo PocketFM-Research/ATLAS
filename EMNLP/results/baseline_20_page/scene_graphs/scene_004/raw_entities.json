@@ -1,0 +1,1750 @@
+{
+  "4": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who reflects on Helena Serrano, debates whether to report the destroyed evidence, and questions Rosa about the bequest.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Asha stood at the kitchen window",
+        "\"He destroyed evidence,\" Asha said.",
+        "\"Will you report it.\"",
+        "\"Mrs. Serrano left you a bequest in the original will.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_001",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_003",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_004",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_005",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_006",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_007",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_008",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_0_ent_001",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Helena Serrano",
+        "Mrs. Serrano"
+      ],
+      "canonical_name": "Helena Serrano",
+      "description": "The deceased woman whose hidden will, letter, and bequest shape the scene's revelations.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "She thought about Helena Serrano.",
+        "She thought about a woman who had hidden her own will in her own sewing machine",
+        "because she had also written a letter to her daughter",
+        "\"Mrs. Serrano left you a bequest in the original will.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_001",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_007",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_0_ent_002",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman who asks about the note, the report, and her inheritance from Mrs. Serrano.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Rosa came into the kitchen.",
+        "\"Will he be in trouble,\" Rosa said.",
+        "\"Will you report it.\"",
+        "\"I know what she left me.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_003",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_004",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_005",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_006",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_007",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_008",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_0_ent_003",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "will",
+        "own will",
+        "original will"
+      ],
+      "canonical_name": "will",
+      "description": "The legal document Helena hid and later referenced in relation to the bequest.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "had hidden her own will in her own sewing machine",
+        "\"Mrs. Serrano left you a bequest in the original will.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_001",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_0_ent_004",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "sewing machine"
+      ],
+      "canonical_name": "sewing machine",
+      "description": "The hiding place Helena used for her will.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "had hidden her own will in her own sewing machine"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_0_ent_005",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "note"
+      ],
+      "canonical_name": "note",
+      "description": "The note in the man's pocket that was burned and later discussed as evidence.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "She thought about the note in his pocket.",
+        "\"Will he be in trouble,\" Rosa said. \"For the note.\"",
+        "\"He destroyed evidence,\" Asha said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_001",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_003",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_004",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_0_ent_006",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "codicil"
+      ],
+      "canonical_name": "codicil",
+      "description": "The legal document Asha says is intact and central to the decision about reporting.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "\"The codicil is intact.\"",
+        "\"The note that pointed to it is gone, but the document it pointed to is in my hand.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_0_ent_007",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "letter"
+      ],
+      "canonical_name": "letter",
+      "description": "The letter Helena wrote to her daughter, mentioned as part of her planning.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "she had also written a letter to her daughter"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_0_ent_008",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "bequest"
+      ],
+      "canonical_name": "bequest",
+      "description": "The inheritance Helena left Rosa in the original will.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "\"Mrs. Serrano left you a bequest in the original will.\"",
+        "\"I know what she left me.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_007",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_008",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_0_ent_009",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "kitchen",
+        "kitchen window"
+      ],
+      "canonical_name": "kitchen",
+      "description": "The room where Asha and Rosa speak during the scene.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Asha stood at the kitchen window",
+        "Rosa came into the kitchen."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_001",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_003",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_004",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_005",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_006",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_007",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_008",
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_0_ent_010",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Location",
+      "surface_forms": [
+        "small brick yard"
+      ],
+      "canonical_name": "small brick yard",
+      "description": "The yard outside the kitchen window that Asha looks out on while reflecting.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "looked out at the small brick yard with the wisteria over it"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_0_ent_011",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "wisteria"
+      ],
+      "canonical_name": "wisteria",
+      "description": "The plant growing over the brick yard outside the kitchen window.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "the small brick yard with the wisteria over it"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_0_ent_012",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman speaking with Asha about what was left to her in the codicil.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "Rosa looked at her with that long measuring look",
+        "\"It was kind,\" she said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_001"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_1_ent_001",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The person who files the codicil, withholds mention of the burned note, and meets Daniel at her office.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "Asha filed it with the register of wills.",
+        "She did not, in her filings, mention a burned note in a bathroom sink.",
+        "\"I want you to know I am not signing because I have given up.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_001",
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_003",
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_004",
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_005",
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_006"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_1_ent_002",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man who chooses not to contest the codicil and later signs the acknowledgment papers.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "Daniel did not contest.",
+        "He signed the papers acknowledging the codicil.",
+        "\"I am going to need to sell some things,\" he said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_004",
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_005",
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_006",
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_007"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_1_ent_003",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Pinsky",
+        "Pinsky's"
+      ],
+      "canonical_name": "Pinsky",
+      "description": "The person whose notes are submitted with the codicil filing.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "She submitted Pinsky's notes"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_002"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_1_ent_004",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Mrs. Adelman",
+        "Mrs. Adelman's"
+      ],
+      "canonical_name": "Mrs. Adelman",
+      "description": "The person whose affidavit is submitted as supporting documentation for the codicil.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "Mrs. Adelman's affidavit"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_002"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_1_ent_005",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "codicil"
+      ],
+      "canonical_name": "codicil",
+      "description": "The recovered legal document that Asha files and Daniel later acknowledges.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "They buried the codicil, so to speak, in the proper way",
+        "Asha filed it with the register of wills.",
+        "He signed the papers acknowledging the codicil."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_004",
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_005",
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_006"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_1_ent_006",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "burned note"
+      ],
+      "canonical_name": "burned note",
+      "description": "The note Asha found in a bathroom sink that she deliberately does not mention in her filings.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "She did not, in her filings, mention a burned note in a bathroom sink."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_1_ent_007",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "letter"
+      ],
+      "canonical_name": "letter",
+      "description": "The letter Daniel rereads and believes before deciding to sign the codicil acknowledgment.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "I read the letter twice more after you left, and I believe her."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_006"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_1_ent_008",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "pen"
+      ],
+      "canonical_name": "pen",
+      "description": "The pen Asha lends Daniel so he can sign the acknowledgment papers.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "signed them with a pen she lent him"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_1_ent_009",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "register of wills"
+      ],
+      "canonical_name": "register of wills",
+      "description": "The office where Asha formally files the codicil.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "Asha filed it with the register of wills."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_002"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_1_ent_010",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Location",
+      "surface_forms": [
+        "bathroom sink"
+      ],
+      "canonical_name": "bathroom sink",
+      "description": "The place where the burned note was found.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "a burned note in a bathroom sink"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_1_ent_011",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Location",
+      "surface_forms": [
+        "Asha's office",
+        "her office"
+      ],
+      "canonical_name": "Asha's office",
+      "description": "The office where Daniel meets Asha and signs the codicil acknowledgment papers.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "He sat across from her at her office and signed them"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_1_ent_012",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Concept",
+      "surface_forms": [
+        "testator"
+      ],
+      "canonical_name": "testator",
+      "description": "The legal role of the person who directed where the document was to be kept.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "the testator had directed it to be kept"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_002"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_1_ent_013",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Concept",
+      "surface_forms": [
+        "the firm",
+        "firm"
+      ],
+      "canonical_name": "the firm",
+      "description": "The legal firm Daniel could have used to challenge the ruling.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "He had grounds, on paper, to make the firm work for the ruling"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_1_ev_004"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_1_ent_014",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman speaking with the man about trust, the burned note, and her decision not to report it.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "\"That is the better reason,\" Asha said.",
+        "\"Because the codicil is filed,\" she said.",
+        "\"Because my mother died six years ago..."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_001",
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_004",
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_005",
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_006",
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_007"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_2_ent_001",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "the man",
+        "he",
+        "him",
+        "his"
+      ],
+      "canonical_name": "the man",
+      "description": "The man speaking with Asha about selling possessions, Lucia's permission, the burned note, and his inheritance.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "\"I am going to need to sell some things,\" he said.",
+        "\"Lucia has said I can keep some things from the house.\"",
+        "\"The note. The one I burned.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_001",
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_003",
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_004",
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_005",
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_2_ent_002",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The person who has allowed the man to keep some items from the house and is negotiating with him over what he may retain.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "\"Lucia has said I can keep some things from the house.\"",
+        "\"She said I should have the chair Mom sat in.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_2_ent_003",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Dad"
+      ],
+      "canonical_name": "Dad",
+      "description": "The man's father, referenced through the watch that belonged to him.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "\"The watch that was Dad's.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_2_ent_004",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Mom"
+      ],
+      "canonical_name": "Mom",
+      "description": "The man's mother, referenced as having sat in the chair and as the source of the money he will use.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "\"My mother left me money.\"",
+        "\"She said I should have the chair Mom sat in.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_003",
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_005"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_2_ent_005",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "the note"
+      ],
+      "canonical_name": "the note",
+      "description": "The note the man says he burned and that Asha is questioned about not reporting.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "\"The note. The one I burned.\"",
+        "\"You have not asked me to put it in writing.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_004"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_2_ent_006",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "the codicil"
+      ],
+      "canonical_name": "the codicil",
+      "description": "The filed legal document that Asha says has already undone the harm.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "\"Because the codicil is filed,\" she said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_005"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_2_ent_007",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "the document"
+      ],
+      "canonical_name": "the document",
+      "description": "The document Asha says was found and caused the harm to be undone.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "\"...has already been undone by the document itself being found.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_005"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_2_ent_008",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Concept",
+      "surface_forms": [
+        "the house"
+      ],
+      "canonical_name": "the house",
+      "description": "The house from which the man is keeping some items during the inheritance negotiation.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "\"Lucia has said I can keep some things from the house.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_2_ent_009",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Concept",
+      "surface_forms": [
+        "witnesses"
+      ],
+      "canonical_name": "witnesses",
+      "description": "The witnesses present when the man says he told Asha about the burned note.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "\"I told you about that in front of witnesses.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_2_ev_004"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_2_ent_010",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man being addressed who learns about the codicil and then leaves the office.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"Daniel. Don't.\"",
+        "\"Will I see you again.\"",
+        "He nodded again, and went."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_001",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_003",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_004",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_005",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_006",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_001",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "She",
+        "her"
+      ],
+      "canonical_name": "She",
+      "description": "The woman in the office who explains the codicil and declines future contact with Daniel.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "She almost did not answer.",
+        "\"Because my mother died six years ago...\"",
+        "\"No,\" she said. \"I don't think so.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_001",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_003",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_004",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_005",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_006",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_002",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Mother",
+        "mother",
+        "my mother",
+        "your mother"
+      ],
+      "canonical_name": "Mother",
+      "description": "Daniel's mother, whose decision is confirmed by the codicil and whose apartment is referenced in the woman's explanation.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"Because my mother died six years ago\"",
+        "\"You will know what your mother decided.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_001",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_002"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_003",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Sister",
+        "sister",
+        "your sister"
+      ],
+      "canonical_name": "Sister",
+      "description": "Daniel's sister, mentioned as the person who did not invent the codicil's contents.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"You will know it is not a thing your sister invented.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_002"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_004",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "Helena"
+      ],
+      "canonical_name": "Helena",
+      "description": "A person whose earlier description is recalled by the smell of the air at the back door.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "the way Helena had told Lucia,"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_010"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_005",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "A person to whom Helena had previously described the smell of the air.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "the way Helena had told Lucia,"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_010"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_006",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "Codicil",
+        "codicil"
+      ],
+      "canonical_name": "Codicil",
+      "description": "The legal document whose existence is revealed to Daniel and which confirms his mother's decision.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"The codicil exists.\""
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_002"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_007",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "Nightstand Drawer",
+        "drawer",
+        "the drawer of her nightstand",
+        "nightstand"
+      ],
+      "canonical_name": "Nightstand Drawer",
+      "description": "The drawer the woman says she failed to inspect after her mother's death.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "whether there was anything in the drawer of her nightstand"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_001"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_008",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "Apartment",
+        "apartment",
+        "her apartment"
+      ],
+      "canonical_name": "Apartment",
+      "description": "The mother's apartment that the woman emptied by herself after the death.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "I emptied her apartment by myself in a weekend"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_001"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_009",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "Office",
+        "office",
+        "her office"
+      ],
+      "canonical_name": "Office",
+      "description": "The office where the conversation takes place and where Daniel pauses at the door before leaving.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "At the door of her office he stopped."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_005",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_006",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_010",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Location",
+      "surface_forms": [
+        "Estate",
+        "estate"
+      ],
+      "canonical_name": "Estate",
+      "description": "The estate whose closing marks the end of the legal process and the point at which Daniel may see her again.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "At the closing of the estate.",
+        "The estate closed in late April."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_006",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_007",
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_008"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_011",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Location",
+      "surface_forms": [
+        "Back Garden",
+        "back garden"
+      ],
+      "canonical_name": "Back Garden",
+      "description": "The garden behind the house where the wisteria is in bloom at the estate closing.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "The wisteria over the back garden had come into bloom"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_009"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_012",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Location",
+      "surface_forms": [
+        "Back Door",
+        "back door",
+        "open back door"
+      ],
+      "canonical_name": "Back Door",
+      "description": "The open back door through which the air carries a remembered smell.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "the air through the open back door smelled"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_010"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_013",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Six Years Ago",
+        "six years ago"
+      ],
+      "canonical_name": "Six Years Ago",
+      "description": "The time reference for when the woman's mother died.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "my mother died six years ago"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_001"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_014",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "TimePoint",
+      "surface_forms": [
+        "A Weekend",
+        "in a weekend"
+      ],
+      "canonical_name": "A Weekend",
+      "description": "The short period during which she emptied her mother's apartment.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "I emptied her apartment by myself in a weekend"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_001"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_015",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Late April",
+        "late April"
+      ],
+      "canonical_name": "Late April",
+      "description": "The time when the estate is finalized.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "The estate closed in late April."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_3_ev_008"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_3_ent_016",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "TimePoint",
+      "surface_forms": [
+        "late April"
+      ],
+      "canonical_name": "late April",
+      "description": "The time when the house is described as having closed.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "closed in late April"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_001"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_4_ent_001",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Helena"
+      ],
+      "canonical_name": "Helena",
+      "description": "A person from Lucia's past whose memory is evoked through the smell of the garden.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the way Helena had told Lucia"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_4_ent_002",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The new owner of the house who receives the papers, changes into her own clothes, and sets the terms for living there.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "Lucia opened the door.",
+        "She was wearing her own clothes now, not her mother's.",
+        "\"You own this house.\"",
+        "\"I own this house.\"",
+        "\"I am going to live in it,\" she said."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_003",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_004",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_006",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_008",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_009",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_010",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_011"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_4_ent_003",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The person who brings the final papers and confirms that the transfer is complete.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "Asha came to the house one last time to deliver the final papers.",
+        "\"It's done,\" Asha said, sliding the papers across."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_007",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_008",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_009"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_4_ent_004",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "final papers",
+        "papers"
+      ],
+      "canonical_name": "final papers",
+      "description": "The documents Asha brings to complete the house transfer.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "deliver the final papers",
+        "\"It's done,\" Asha said, sliding the papers across."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_4_ent_005",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "Lucia's mother's clothes",
+        "mother's clothes",
+        "her mother's"
+      ],
+      "canonical_name": "Lucia's mother's clothes",
+      "description": "The clothes Lucia is no longer wearing when she opens the door in her own clothes.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "not her mother's"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_003"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_4_ent_006",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "camel coat"
+      ],
+      "canonical_name": "camel coat",
+      "description": "The coat that is removed from the foyer rack and given to a neighbor.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "The camel coat was gone from the rack in the foyer",
+        "given, Lucia said, to a woman down the block"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_004"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_4_ent_007",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Character",
+      "surface_forms": [
+        "woman down the block"
+      ],
+      "canonical_name": "woman down the block",
+      "description": "The neighbor who had admired Lucia's camel coat for years and receives it.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "to a woman down the block who had admired it for fifteen years"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_004"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_4_ent_008",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The house worker who resumes making coffee and agrees to stay on privately for Lucia.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "Rosa was at the stove, making coffee",
+        "Lucia had asked her to stay on, two afternoons a week"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_005",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_006",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_010",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_011"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_4_ent_009",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Concept",
+      "surface_forms": [
+        "the family's estate",
+        "the family's",
+        "the estate's"
+      ],
+      "canonical_name": "the family's estate",
+      "description": "The payment source Rosa distinguishes from Lucia's personal pocket in the arrangement to stay on.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "not the family's",
+        "not the estate's"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_006",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_007"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_4_ent_010",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The person Lucia tells about moving her work into the house and about household expectations.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "I told Daniel yesterday.",
+        "I told him he can come for dinner on Sundays."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_010",
+        "ev_baseline_4_doc_3_chunk_0_part_4_ev_011"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_4_ent_011",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The woman who discusses the Sunday dinner arrangement and thanks Asha for letting them decide for themselves.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "\"k here. I told him he can come for dinner on Sundays.",
+        "\"Asha.\" Lucia hesitated. \"Thank you.",
+        "\"It is not always the job. I have watched lawyers before.",
+        "through it she could hear Lucia and Rosa beginning to talk"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_001",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_003",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_005",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_006",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_5_ent_001",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman who is mentioned in the dinner arrangement and serves Asha coffee in the kitchen.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "I told him Rosa will sometimes be here and he will have to be polite to her",
+        "Rosa set a cup of coffee in front of her.",
+        "she could hear Lucia and Rosa beginning to talk"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_001",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_007",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_008",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_5_ent_002",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The listener and departing visitor who approves the arrangement, receives coffee, and leaves feeling lighter.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "\"Good.\"",
+        "\"Asha.\" Lucia hesitated.",
+        "\"That is the job.\"",
+        "Asha did not know what to say to that, so she said nothing.",
+        "Asha drank the coffee.",
+        "At the door, on her way out, she stopped on the stoop",
+        "She went down the three stone steps and turned toward Walnut Street"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_003",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_004",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_005",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_006",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_007",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_008",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_009",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_011"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_5_ent_003",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "him"
+      ],
+      "canonical_name": "him",
+      "description": "The unnamed man who is allowed to come for Sunday dinner if he is polite to Rosa.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "I told him he can come for dinner on Sundays.",
+        "he said he would be."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_5_ent_004",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "lawyers"
+      ],
+      "canonical_name": "lawyers",
+      "description": "The professional group Lucia contrasts with Asha's unusual behavior.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "I have watched lawyers before."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_005"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_5_ent_005",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "Walnut Street"
+      ],
+      "canonical_name": "Walnut Street",
+      "description": "The street Asha walks toward as she leaves the house.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "turned toward Walnut Street"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_011"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_5_ent_006",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "coffee"
+      ],
+      "canonical_name": "coffee",
+      "description": "The cup of coffee Rosa makes and serves to Asha.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Rosa set a cup of coffee in front of her.",
+        "Asha drank the coffee.",
+        "It was very good."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_007",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_008"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_5_ent_007",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "the file"
+      ],
+      "canonical_name": "the file",
+      "description": "The file Asha carries under her arm as she leaves.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "the file under her arm gone light"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_011"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_5_ent_008",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "the stoop"
+      ],
+      "canonical_name": "the stoop",
+      "description": "The front step where Asha pauses on her way out.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "she stopped on the stoop the way she had stopped on her first day"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_009"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_5_ent_009",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "the block"
+      ],
+      "canonical_name": "the block",
+      "description": "The neighborhood block outside the house, described as lively on a spring afternoon.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "The block was full of the small loud sounds of an afternoon in spring"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_009"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_5_ent_010",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "TimePoint",
+      "surface_forms": [
+        "Sundays",
+        "every Sunday",
+        "an afternoon in spring",
+        "spring",
+        "the first day",
+        "thirty-one years",
+        "a long winter"
+      ],
+      "canonical_name": "Sundays",
+      "description": "The recurring time reference for the dinner arrangement and the scene's seasonal and retrospective time markers.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "come for dinner on Sundays",
+        "He may not be, every Sunday.",
+        "the small loud sounds of an afternoon in spring",
+        "the way she had stopped on her first day",
+        "for thirty-one years",
+        "after a long winter"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_001",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_007",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_009",
+        "ev_baseline_4_doc_3_chunk_0_part_5_ev_010"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_5_ent_011",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "She"
+      ],
+      "canonical_name": "She",
+      "description": "The woman who leaves the place, walks home, and reflects on the estate's outcome.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "She went down the three stone steps",
+        "she walked home",
+        "thinking..."
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_6_ev_002",
+        "ev_baseline_4_doc_3_chunk_0_part_6_ev_003",
+        "ev_baseline_4_doc_3_chunk_0_part_6_ev_004",
+        "ev_baseline_4_doc_3_chunk_0_part_6_ev_005"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_6_ent_001",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Location",
+      "surface_forms": [
+        "Walnut Street"
+      ],
+      "canonical_name": "Walnut Street",
+      "description": "The street she turns toward as she departs.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "turned toward Walnut Street"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_6_ev_003"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_6_ent_002",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Object",
+      "surface_forms": [
+        "the file",
+        "file"
+      ],
+      "canonical_name": "the file",
+      "description": "The file carried under her arm that feels light as she walks home.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "the file under her arm gone light",
+        "the file now feeling light under her arm"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_6_ev_004"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_6_ent_003",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "TimePoint",
+      "surface_forms": [
+        "a long winter",
+        "the late afternoon"
+      ],
+      "canonical_name": "a long winter",
+      "description": "The extended winter period after which fear has ended; the scene also occurs in the late afternoon.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "after a long winter",
+        "the long slant of the late afternoon"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_6_ev_001",
+        "ev_baseline_4_doc_3_chunk_0_part_6_ev_004",
+        "ev_baseline_4_doc_3_chunk_0_part_6_ev_005"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_6_ent_004",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Concept",
+      "surface_forms": [
+        "fearing each other",
+        "afraid of each other"
+      ],
+      "canonical_name": "fearing each other",
+      "description": "The mutual fear that ends after the long winter.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "stopped being afraid of each other"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_6_ev_001"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_6_ent_005",
+      "movie_id": "baseline_20_page__scene_4"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Concept",
+      "surface_forms": [
+        "estate",
+        "estates"
+      ],
+      "canonical_name": "estate",
+      "description": "The estate being reflected on as something that can both close and open.",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "some estates closed and some opened",
+        "this one... had managed to do both"
+      ],
+      "linked_event_ids": [
+        "ev_baseline_4_doc_3_chunk_0_part_6_ev_005"
+      ],
+      "id": "ent_baseline_4_doc_3_chunk_0_part_6_ent_006",
+      "movie_id": "baseline_20_page__scene_4"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "Asha": {
+    "holds": "bank statements",
+    "carries": "blue folder"
+  },
+  "Daniel": {
+    "kinship": "Rosa's son",
+    "has_siblings": "yes",
+    "holds": "bank statements"
+  },
+  "Rosa": {
+    "name_form": "Rosa Delacruz",
+    "role": "housekeeper",
+    "life_status": "alive",
+    "duration": "30 years",
+    "provided_care": "for Daniel's mother",
+    "remained_in_residence": "yes"
+  },
+  "Rosa's mother": {
+    "role": "matriarch",
+    "life_status": "dead",
+    "uses": "eucalyptus oil",
+    "kinship": "Daniel's mother",
+    "duration": "2 years"
+  },
+  "Serrano row house": {
+    "type": "row house",
+    "hidden_location": "Spruce"
+  },
+  "blue folder": {
+    "color": "blue",
+    "hidden_location": "attic shelf above winter coats"
+  },
+  "attic": {
+    "holds": "blue folder"
+  },
+  "funeral": {
+    "duration": "1 week ago"
+  },
+  "will change": {
+    "date": "4 months before death"
+  }
+}

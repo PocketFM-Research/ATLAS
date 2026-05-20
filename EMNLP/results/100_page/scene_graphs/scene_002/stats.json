@@ -1,0 +1,33 @@
+{
+  "movie_id": "100_page__scene_2",
+  "title": "",
+  "node_count_total": 173,
+  "node_count_by_type": {
+    "Event": 100,
+    "Character": 5,
+    "Location": 19,
+    "TimePoint": 2,
+    "Object": 39,
+    "Concept": 8
+  },
+  "edge_count_total": 278,
+  "edge_count_by_relation": {
+    "performs": 89,
+    "experiences": 14,
+    "occurs_at": 83,
+    "part_of": 24,
+    "is_a": 3,
+    "located_at": 24,
+    "undergoes": 17,
+    "possesses": 14,
+    "uses": 6,
+    "kinship_with": 4
+  },
+  "nodes_with_evidence_pct": 100.0,
+  "edges_with_evidence_pct": 100.0,
+  "schema_violation_count": 0,
+  "avg_degree": 3.21,
+  "disconnected_component_count": 19,
+  "avg_aliases_per_node": 1.41,
+  "avg_edge_confidence": 0.891
+}

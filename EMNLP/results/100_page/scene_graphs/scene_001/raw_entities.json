@@ -1,0 +1,3300 @@
+{
+  "1": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The daughter-in-law who enters the house with the executor's key and searches Rosa's room for a hidden codicil.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "Asha let herself in with the key the executor had given her",
+        "went straight upstairs",
+        "if a codicil existed, this was the room a woman would hide it in for the daughter-in-law who had stayed",
+        "Asha came down the hall before Daniel could finish framing the question"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_001",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "executor"
+      ],
+      "canonical_name": "executor",
+      "description": "The person who provided Asha with the key to enter the house.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "the key the executor had given her"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_002"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_002",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa",
+        "mother",
+        "matriarch"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The deceased family matriarch whose house, bedroom, and desk are being searched after her funeral.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "A week after the funeral",
+        "the matriarch had rubbed into her wrists each morning",
+        "toward the narrow back bedroom where Rosa had slept the last two years",
+        "his mother's writing desk",
+        "nothing in his mother's hand addressed to him",
+        "in Rosa's part of the house"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_003",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "Rosa's son who searches his mother's desk and reacts silently to Asha's presence upstairs.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "Daniel was already at his mother's writing desk",
+        "He found insurance receipts, a Mass card, a rubber-banded stack of unopened bank statements",
+        "When he heard Asha's step overhead",
+        "he did not call up to ask what she was looking for"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_004",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "Serrano row house",
+        "house",
+        "Rosa's part of the house"
+      ],
+      "canonical_name": "Serrano row house",
+      "description": "The family home on Spruce where Asha and Daniel search for Rosa's hidden papers after the funeral.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "the Serrano row house on Spruce",
+        "Asha let herself in",
+        "in Rosa's part of the house"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_005",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "Spruce"
+      ],
+      "canonical_name": "Spruce",
+      "description": "The street where the Serrano row house is located.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "the Serrano row house on Spruce"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_006",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "front parlor"
+      ],
+      "canonical_name": "front parlor",
+      "description": "The room in the house that buyers have already walked through.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "past the front parlor where buyers had already walked through twice"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_007",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "narrow back bedroom",
+        "bedroom",
+        "Rosa's room"
+      ],
+      "canonical_name": "narrow back bedroom",
+      "description": "The bedroom where Rosa slept and where Asha searches for a hidden codicil.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "toward the narrow back bedroom where Rosa had slept the last two years",
+        "Asha's step overhead",
+        "Rosa's room"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_008",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "hall",
+        "down the hall"
+      ],
+      "canonical_name": "hall",
+      "description": "The hallway where Daniel hears Asha and where she later approaches him.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "Down the hall, Daniel was already at his mother's writing desk",
+        "Asha came down the hall before Daniel could finish framing the question"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_009",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "mother's writing desk",
+        "writing desk",
+        "desk"
+      ],
+      "canonical_name": "mother's writing desk",
+      "description": "Rosa's desk that Daniel empties and inspects for hidden papers.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "Daniel was already at his mother's writing desk",
+        "pulling each drawer fully out and turning it over",
+        "nothing in his mother's hand addressed to him"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_010",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "TimePoint",
+      "surface_forms": [
+        "A week after the funeral"
+      ],
+      "canonical_name": "A week after the funeral",
+      "description": "The time point establishing when the scene occurs relative to Rosa's funeral.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "A week after the funeral"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_011",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "key"
+      ],
+      "canonical_name": "key",
+      "description": "The key the executor gives Asha so she can enter the house.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "Asha let herself in with the key the executor had given her"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_002"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_012",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "eucalyptus oil"
+      ],
+      "canonical_name": "eucalyptus oil",
+      "description": "The scent associated with Rosa's daily routine and lingering presence in the house.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "still smelled faintly of the eucalyptus oil the matriarch had rubbed into her wrists each morning"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_013",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "kitchen calendar",
+        "calendar"
+      ],
+      "canonical_name": "kitchen calendar",
+      "description": "The calendar in the kitchen turned to a month Rosa did not live to see.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "the kitchen calendar was turned to a month she had not lived to see"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_014",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Object",
+      "surface_forms": [
+        "codicil"
+      ],
+      "canonical_name": "codicil",
+      "description": "The hidden legal document Asha is searching for in Rosa's room.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "if a codicil existed",
+        "searches Rosa's room for a hidden codicil"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_003"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_015",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Object",
+      "surface_forms": [
+        "nightstand"
+      ],
+      "canonical_name": "nightstand",
+      "description": "The bedside table Asha opens while searching Rosa's bedroom.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "opening the nightstand"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_003"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_016",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Object",
+      "surface_forms": [
+        "altar cloth"
+      ],
+      "canonical_name": "altar cloth",
+      "description": "A folded cloth on the dresser that Asha lifts during her search.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "lifting the folded altar cloth from the top of the dresser"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_003"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_017",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Object",
+      "surface_forms": [
+        "dresser"
+      ],
+      "canonical_name": "dresser",
+      "description": "The bedroom furniture where Asha checks for hidden papers.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "from the top of the dresser"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_003"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_018",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Object",
+      "surface_forms": [
+        "framed photograph",
+        "photograph"
+      ],
+      "canonical_name": "framed photograph",
+      "description": "A framed photo whose backing Asha checks for anything hidden behind it.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "checking the underside of a framed photograph for anything tucked behind the backing"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_003"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_019",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_020",
+      "type": "Object",
+      "surface_forms": [
+        "insurance receipts"
+      ],
+      "canonical_name": "insurance receipts",
+      "description": "One of the papers Daniel finds in Rosa's desk.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "He found insurance receipts"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_020",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_021",
+      "type": "Object",
+      "surface_forms": [
+        "Mass card"
+      ],
+      "canonical_name": "Mass card",
+      "description": "A religious card found among the papers in Rosa's desk.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "a Mass card"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_021",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_022",
+      "type": "Object",
+      "surface_forms": [
+        "rubber-banded stack of unopened bank statements",
+        "bank statements"
+      ],
+      "canonical_name": "rubber-banded stack of unopened bank statements",
+      "description": "A stack of unopened bank statements found in Rosa's desk.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "a rubber-banded stack of unopened bank statements"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_005"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_022",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_023",
+      "type": "Concept",
+      "surface_forms": [
+        "buyers"
+      ],
+      "canonical_name": "buyers",
+      "description": "Potential purchasers who have already toured the house.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "where buyers had already walked through twice"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_0_ent_023",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man searching the drawer and asking about old papers in his mother's room.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "before Daniel could finish framing the question for himself",
+        "Daniel did not look up at once",
+        "Daniel stepped back from the desk"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_1_ent_001",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who confronts Daniel at the desk and answers his questions about the upstairs search.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "Asha came down the hall",
+        "she asked him why he was searching it quite so thoroughly",
+        "Asha said evenly that she hadn't found anything upstairs"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_1_ent_002",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Location",
+      "surface_forms": [
+        "the writing desk",
+        "the desk"
+      ],
+      "canonical_name": "the writing desk",
+      "description": "The desk in the room where Daniel is searching the bottom drawer and where the bank statements are stacked.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "the writing desk where the bottom drawer lay overturned on the rug",
+        "Between them the desk sat half-disassembled",
+        "Daniel stepped back from the desk"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_1_ent_003",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "the bottom drawer",
+        "the drawer"
+      ],
+      "canonical_name": "the bottom drawer",
+      "description": "The drawer Daniel has been searching and then slides back onto its runners.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "the bottom drawer lay overturned on the rug",
+        "He kept his voice level and asked him why he was searching it quite so thoroughly",
+        "he slid the drawer back onto its runners"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_1_ent_004",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "his mother's room upstairs",
+        "upstairs",
+        "his mother's room"
+      ],
+      "canonical_name": "his mother's room upstairs",
+      "description": "The upstairs room associated with Daniel's mother, where Daniel asks whether old papers might be found.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "whether she'd come across any old papers upstairs in his mother's room",
+        "nothing upstairs",
+        "whether she'd come across anything specifically old in his mother's room"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_1_ent_005",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "old papers",
+        "papers"
+      ],
+      "canonical_name": "old papers",
+      "description": "The papers Daniel is trying to locate and that Asha says she has not found upstairs.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "whether she'd come across any old papers upstairs in his mother's room",
+        "she hadn't found anything upstairs",
+        "whether she'd come across anything specifically old in his mother's room"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_1_ent_006",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "bank statements",
+        "the rubber-banded bank statements"
+      ],
+      "canonical_name": "bank statements",
+      "description": "A stack of bank statements resting at the corner of the desk.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "the rubber-banded bank statements stacked at its corner",
+        "one hand still resting on the corner where the bank statements were stacked"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_1_ent_007",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "drawer liner"
+      ],
+      "canonical_name": "drawer liner",
+      "description": "The liner inside a drawer where Asha says nothing was hidden.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "nothing folded into a book or slid under a drawer liner"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_1_ent_008",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "book",
+        "a book"
+      ],
+      "canonical_name": "book",
+      "description": "An object Asha mentions as a possible hiding place for papers.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "nothing folded into a book"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_1_ent_009",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman questioning Daniel about what old document he is looking for and observing his evasiveness.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "Asha kept her face still and asked him which old paper, exactly, he expected to find.",
+        "Asha noted the smile, and the bank statements moved out of her reach"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_007",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_008",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_009"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_2_ent_001",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man searching for a specific old document and avoiding direct answers about what he wants.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "he was looking for a particular document and believed she might already be holding it.",
+        "Daniel did not answer it directly.",
+        "He asked, with the same careful lightness he had used before, whether there were other rooms upstairs"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_007",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_008",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_009"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_2_ent_002",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa",
+        "Rosa's"
+      ],
+      "canonical_name": "Rosa",
+      "description": "A person associated with the upstairs part of the house, mentioned through the smell reaching down the hall.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "the eucalyptus smell from upstairs reached down the hall as if Rosa's part of the house were listening too."
+      ],
+      "linked_event_ids": [],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_2_ent_003",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "Overturned drawer",
+        "overturned drawer",
+        "drawer"
+      ],
+      "canonical_name": "Overturned drawer",
+      "description": "A disturbed drawer lying on the rug, serving as evidence that something has been searched or moved.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "Between them the overturned drawer lay on the rug like evidence",
+        "the overturned drawer lay on the rug"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_004"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_2_ent_004",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "Old paper",
+        "old paper",
+        "paper"
+      ],
+      "canonical_name": "Old paper",
+      "description": "The specific old document Daniel is believed to be seeking.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "he was looking for a particular document",
+        "Asha kept her face still and asked him which old paper, exactly, he expected to find."
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_2_ent_005",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "Bank statements",
+        "bank statements",
+        "statements",
+        "stacked statements",
+        "rubber-banded bundle"
+      ],
+      "canonical_name": "Bank statements",
+      "description": "A rubber-banded bundle of bank statements that Daniel moves out of Asha's reach.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "the stacked statements",
+        "he gathered the rubber-banded bundle off the corner of the desk, set it on the chair behind him",
+        "the bank statements moved out of her reach"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_007",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_009"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_2_ent_006",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "Upstairs",
+        "upstairs",
+        "other rooms upstairs"
+      ],
+      "canonical_name": "Upstairs",
+      "description": "The upper part of the house that Daniel asks Asha about searching.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "the eucalyptus smell from upstairs reached down the hall",
+        "whether there were other rooms upstairs she hadn't gone through yet"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_2_ent_007",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "Linen closet",
+        "linen closet"
+      ],
+      "canonical_name": "Linen closet",
+      "description": "One of the upstairs rooms Daniel asks whether Asha has searched.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "the linen closet maybe"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_2_ent_008",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "Cedar chest",
+        "cedar chest"
+      ],
+      "canonical_name": "Cedar chest",
+      "description": "A chest at the foot of the bed that Daniel suggests Asha may not have searched.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "the cedar chest at the foot of the bed"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_2_ent_009",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "Hallway",
+        "hallway",
+        "hall"
+      ],
+      "canonical_name": "Hallway",
+      "description": "The hall between Asha and Daniel where the tension and evidence are held in place.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "the overturned drawer lay on the rug",
+        "the eucalyptus smell from upstairs reached down the hall",
+        "she let the hallway hold all three thing"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_009"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_2_ent_010",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Location",
+      "surface_forms": [
+        "Desk",
+        "desk"
+      ],
+      "canonical_name": "Desk",
+      "description": "The piece of furniture near the stacked bank statements and the corner where Daniel picks up the bundle.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "the stacked statements",
+        "he gathered the rubber-banded bundle off the corner of the desk"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_007",
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_2_ent_011",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Location",
+      "surface_forms": [
+        "Chair",
+        "chair"
+      ],
+      "canonical_name": "Chair",
+      "description": "The chair behind Daniel where he places the bank statements to keep them away from Asha.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "set it on the chair behind him"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_2_ent_012",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Location",
+      "surface_forms": [
+        "Rug",
+        "rug"
+      ],
+      "canonical_name": "Rug",
+      "description": "The rug where the overturned drawer lies as visible evidence.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "the overturned drawer lay on the rug"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_004"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_2_ent_013",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Location",
+      "surface_forms": [
+        "Foot of the bed",
+        "foot of the bed"
+      ],
+      "canonical_name": "Foot of the bed",
+      "description": "The place where the cedar chest is located.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "the cedar chest at the foot of the bed"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_2_ent_014",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Concept",
+      "surface_forms": [
+        "Eucalyptus smell",
+        "eucalyptus smell"
+      ],
+      "canonical_name": "Eucalyptus smell",
+      "description": "The scent drifting from upstairs that adds to the scene's uneasy atmosphere.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "the eucalyptus smell from upstairs reached down the hall"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_2_ent_015",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who confronts Daniel, denies searching hidden rooms, and reaches for the bank statements.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "Asha noted the smile",
+        "Asha did not move toward the stairs",
+        "Asha took one slow step toward the chair"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_3_ent_001",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man who is evasive about what he is looking for, explains his suspicion about hidden places, and blocks Asha from taking the statements.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "he had again declined to name what he was looking for",
+        "Daniel held his smile a beat too long",
+        "Daniel's weight shifted to intercept her"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_3_ent_002",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman who steps in from the hallway carrying a folded dish towel and interrupts the confrontation.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "Rosa stepped from the dim end of the hall",
+        "a folded dish towel still in her hands"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_3_ent_003",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "bank statements",
+        "the statements",
+        "rubber-banded statements"
+      ],
+      "canonical_name": "bank statements",
+      "description": "A set of bank statements that Daniel has moved out of Asha's reach and that she tries to retrieve.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "the bank statements moved out of her reach",
+        "the chair where Daniel had set the rubber-banded statements"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_3_ent_004",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "hallway",
+        "the hallway",
+        "the dim end of the hall"
+      ],
+      "canonical_name": "hallway",
+      "description": "The corridor where Asha leaves the confrontation unremarked and where Rosa emerges to interrupt.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "she let the hallway hold all three things",
+        "Rosa stepped from the dim end of the hall"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_3_ent_005",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "linen closet"
+      ],
+      "canonical_name": "linen closet",
+      "description": "One of the hidden storage places Asha denies having searched.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "she hadn't been in the linen closet"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_3_ent_006",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "cedar chest"
+      ],
+      "canonical_name": "cedar chest",
+      "description": "Another hidden storage place Asha denies having searched.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "or the cedar chest"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_002"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_3_ent_007",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "desk",
+        "the desk"
+      ],
+      "canonical_name": "desk",
+      "description": "The desk Daniel had already overturned while searching.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "the desk he'd already overturned"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_3_ent_008",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "chair",
+        "the chair"
+      ],
+      "canonical_name": "chair",
+      "description": "The chair where Daniel has placed the rubber-banded bank statements.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "the chair where Daniel had set the rubber-banded statements"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_3_ent_009",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "dish towel",
+        "folded dish towel"
+      ],
+      "canonical_name": "dish towel",
+      "description": "The folded towel Rosa carries when she interrupts the scene.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "a folded dish towel still in her hands"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_3_ent_010",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "drawer",
+        "the drawer",
+        "bottom drawer"
+      ],
+      "canonical_name": "drawer",
+      "description": "The drawer whose overturned state is referenced as part of the search.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "the drawer",
+        "the desk he'd already overturned",
+        "the rectangular print where the bottom drawer had sat"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_3_ent_011",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "eucalyptus smell"
+      ],
+      "canonical_name": "eucalyptus smell",
+      "description": "The strong smell in the hallway that marks Rosa's entrance.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "where the eucalyptus smell was thickest"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_3_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_3_ent_012",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The daughter who confronts Daniel about his sudden interest in the linen closet and accuses him of lying.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "Rosa stepped from the dim end of the hall",
+        "asked Daniel, plainly, why the linen closet had become so interesting to him",
+        "asked him who had taught him to lie with such a polite smile"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_4_ent_001",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man being questioned about the linen closet who hesitates, blocks Asha, and then falls silent under pressure.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "asked Daniel, plainly, why the linen closet had become so interesting to him",
+        "Daniel's hand stopped halfway to the chair",
+        "Daniel's weight had been set to step into her path",
+        "Daniel did not answer"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_4_ent_002",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who watches Daniel, takes the bundle from the chair, and opens it.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "Asha did not pick up the bundle yet",
+        "Asha closed the last few inches of distance to the chair and lifted the rubber-banded bundle off the seat",
+        "Asha slid the rubber band off with her thumb"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_007",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_4_ent_003",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "linen closet"
+      ],
+      "canonical_name": "linen closet",
+      "description": "The closet Daniel has suddenly become interested in, which Rosa questions him about.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "why the linen closet had become so interesting to him this week"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_001"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_4_ent_004",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "dish towel",
+        "folded dish towel"
+      ],
+      "canonical_name": "dish towel",
+      "description": "The towel Rosa holds and folds while watching Daniel.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "a folded dish towel still in her hands",
+        "Rosa folded the dish towel slowly over her knuckles"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_4_ent_005",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "chair"
+      ],
+      "canonical_name": "chair",
+      "description": "The chair holding the rubber-banded bundle before Asha lifts it.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "Asha did not pick up the bundle yet",
+        "lifted the rubber-banded bundle off the seat",
+        "let it drop onto the chair seat"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_4_ent_006",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "rubber-banded bundle",
+        "bundle"
+      ],
+      "canonical_name": "rubber-banded bundle",
+      "description": "The bundle of papers Asha takes from the chair and begins to open.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "the rubber-banded bundle off the seat",
+        "whatever was inside would matter less than the seconds he had just spent trying to keep it from her",
+        "Asha slid the rubber band off with her thumb"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_007",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_4_ent_007",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "rubber band"
+      ],
+      "canonical_name": "rubber band",
+      "description": "The band securing the bundle before Asha removes it.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "Asha slid the rubber band off with her thumb"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_4_ent_008",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Concept",
+      "surface_forms": [
+        "housekeeper"
+      ],
+      "canonical_name": "housekeeper",
+      "description": "The role Rosa is identified with when Daniel is deciding whether to answer her or Rosa first.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "whether to answer the housekeeper or the daughter first"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_4_ent_009",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Concept",
+      "surface_forms": [
+        "the daughter"
+      ],
+      "canonical_name": "the daughter",
+      "description": "The role Rosa is identified with in contrast to the housekeeper during the confrontation.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "whether to answer the housekeeper or the daughter first"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_4_ent_010",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Concept",
+      "surface_forms": [
+        "Daniel's mother",
+        "his mother"
+      ],
+      "canonical_name": "Daniel's mother",
+      "description": "The deceased mother referenced as the period during which Daniel had not opened the linen closet.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "in the years his mother was alive"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_001"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_4_ent_011",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "the statements"
+      ],
+      "canonical_name": "the statements",
+      "description": "The papers or contents in Asha's hand that she does not focus on while watching Daniel.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "her eyes on Daniel rather than on the statements in her hand"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_003"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_4_ent_012",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Concept",
+      "surface_forms": [
+        "the state"
+      ],
+      "canonical_name": "the state",
+      "description": "The papers Asha begins to fan through at the end of the scene.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "fanning the state"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_4_ent_013",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Concept",
+      "surface_forms": [
+        "eucalyptus smell"
+      ],
+      "canonical_name": "eucalyptus smell",
+      "description": "The strong smell filling the hallway and framing the confrontation.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "the eucalyptus smell was thickest",
+        "The eucalyptus smell sat between the three of them"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_4_ent_014",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman examining the bank statements and pressing Daniel for answers about the blue folder.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "Asha slid the rubber band off with her thumb and let it drop onto the chair seat, fanning the statements",
+        "\"The blue folder,\" she said, flat as a clerk reading a docket. \"Where exactly in the attic?\""
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_5_ent_001",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The tense man watching Asha and responding defensively to Rosa's question about the blue folder.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "Daniel watched her do it with the stillness of a man who has decided that moving will only make it worse",
+        "The hand at the back of his neck came down slowly",
+        "Daniel let out a short laugh that didn't reach anywhere near his eyes"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_5_ent_002",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman who enters the light, sets down a dish towel, and asks Daniel about the blue folder in the attic.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "Rosa stepped further into the light, set the folded dish towel down on the small table by the hall mirror, and asked him",
+        "Daniel let out a short laugh that didn't reach anywhere near his eyes and turned his head toward Rosa"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_5_ent_003",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "rubber band",
+        "the rubber band"
+      ],
+      "canonical_name": "rubber band",
+      "description": "The band Asha removes from the statements and drops onto the chair seat.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "Asha slid the rubber band off with her thumb and let it drop onto the chair seat",
+        "the rubber band still curled on the chair seat between them"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_5_ent_004",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "bank statements",
+        "the statements"
+      ],
+      "canonical_name": "bank statements",
+      "description": "The papers Asha fans through while searching for missing months and unfamiliar handwriting.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "Asha slid the rubber band off with her thumb and let it drop onto the chair seat, fanning the statements",
+        "Asha did not look up from the statements"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_005"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_5_ent_005",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "blue folder",
+        "the blue folder"
+      ],
+      "canonical_name": "blue folder",
+      "description": "The folder in the attic that Rosa asks about and Asha presses Daniel to locate.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "whether he remembered the blue folder in the attic",
+        "\"The blue folder,\" she said, flat as a clerk reading a docket. \"Where exactly in the attic?\""
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_5_ent_006",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "attic",
+        "the attic"
+      ],
+      "canonical_name": "attic",
+      "description": "The storage space where the blue folder is said to be kept.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "whether he remembered the blue folder in the attic",
+        "\"Where exactly in the attic?\""
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_5_ent_007",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "dish towel",
+        "the folded dish towel"
+      ],
+      "canonical_name": "dish towel",
+      "description": "The folded towel Rosa sets down on the small table when she enters the scene.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "set the folded dish towel down on the small table by the hall mirror"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_003"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_5_ent_008",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "chair seat"
+      ],
+      "canonical_name": "chair seat",
+      "description": "The seat where Asha drops the rubber band.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "let it drop onto the chair seat",
+        "the rubber band still curled on the chair seat between them"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_5_ent_009",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "small table",
+        "the small table"
+      ],
+      "canonical_name": "small table",
+      "description": "The table by the hall mirror where Rosa places the dish towel.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "set the folded dish towel down on the small table by the hall mirror"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_003"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_5_ent_010",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "hall mirror",
+        "the hall mirror"
+      ],
+      "canonical_name": "hall mirror",
+      "description": "The mirror beside the small table in the hall.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "on the small table by the hall mirror"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_003"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_5_ent_011",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "winter coats",
+        "the winter coats"
+      ],
+      "canonical_name": "winter coats",
+      "description": "The coats on the shelf above which the blue folder is said to have been kept.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "the one his mother kept on the shelf above the winter coats"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_5_ent_012",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel's mother",
+        "his mother",
+        "mother"
+      ],
+      "canonical_name": "Daniel's mother",
+      "description": "Daniel's mother, who is referenced as having kept the blue folder on a shelf above the winter coats.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "the one his mother kept on the shelf above the winter coats",
+        "his mother had kept so"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_5_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_5_ent_013",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "A man in the house who tries to deflect attention from Rosa and loses control of the exchange.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "turned his head toward Rosa",
+        "his weight shifted again toward Rosa",
+        "Daniel started to angle his face back toward Rosa",
+        "Daniel's hand went back to his neck"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_009"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_6_ent_001",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "A woman in the house who confirms the attic location of the blue folder and stays silent when challenged.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "Rosa did not answer",
+        "turned his head toward Rosa",
+        "Rosa looked only at Asha and tipped her chin once toward the ceiling"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_007",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_008"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_6_ent_002",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who tracks the missing statement, questions Daniel about the blue folder, and accepts Rosa's confirmation.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "Asha noted the second small movement",
+        "Asha's thumb on the page where the March statement should have been",
+        "\"Is the blue folder still in the attic?\" Asha asked",
+        "Asha caught the nod and held it",
+        "Asha tucked the bank statements under her arm"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_007",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_008",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_010"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_6_ent_003",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "March statement",
+        "statement"
+      ],
+      "canonical_name": "March statement",
+      "description": "The missing financial statement Asha is waiting for on the page in front of her.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "the page where the March statement should have been"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_004"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_6_ent_004",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "blue folder",
+        "folder"
+      ],
+      "canonical_name": "blue folder",
+      "description": "A folder whose location in the attic is being confirmed during the exchange.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "some other shelf, some other year, his mother had kept so many folders",
+        "\"Is the blue folder still in the attic?\"",
+        "the blue folder is in the attic above the winter coats"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_6_ent_005",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "attic"
+      ],
+      "canonical_name": "attic",
+      "description": "The storage space above the house where the blue folder is said to be kept.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "\"Is the blue folder still in the attic?\"",
+        "the blue folder is in the attic above the winter coats"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_6_ent_006",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "bank statements",
+        "statements"
+      ],
+      "canonical_name": "bank statements",
+      "description": "The financial papers Asha gathers before moving on.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "Asha tucked the bank statements under her arm"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_010"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_6_ent_007",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "folded towel"
+      ],
+      "canonical_name": "folded towel",
+      "description": "The towel by the mirror where Rosa rests her hand while staying silent.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "she only let her hand rest on the folded towel by the mirror"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_002"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_6_ent_008",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "mirror"
+      ],
+      "canonical_name": "mirror",
+      "description": "The mirror beside the folded towel in the room.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "the folded towel by the mirror"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_002"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_6_ent_009",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "winter coats"
+      ],
+      "canonical_name": "winter coats",
+      "description": "The coats beneath which the attic shelf is located.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "above the winter coats"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_6_ent_010",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "eucalyptus smell"
+      ],
+      "canonical_name": "eucalyptus smell",
+      "description": "The lingering scent in the hallway that remains unchanged throughout the scene.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "The eucalyptus smell had not moved",
+        "The eucalyptus smell stayed where it was"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_6_ev_010"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_6_ent_011",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman carrying the bank statements who goes upstairs into the attic.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "Asha tucked the bank statements under her arm and turned toward the stairs.",
+        "Asha went up without looking at Daniel",
+        "Asha rose",
+        "Asha ducked under the slope of the ceiling and went straight to the shelf above the winter coats"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_001",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man left behind at the stairs who steps back to let Asha pass.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "Daniel's hand went back to his neck",
+        "Daniel stepped back against the wainscoting to let her past",
+        "whether to follow or to stay and explain",
+        "Daniel did not try the smile on her again"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_003"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_002",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The woman who follows Asha to the foot of the stairs and whose height is used as a reference for the attic shelf.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "Rosa moved after Asha to the foot of the stairs and stopped there",
+        "the shelf sat at eye level for someone Rosa's height"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_003",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "bank statements"
+      ],
+      "canonical_name": "bank statements",
+      "description": "The papers Asha carries under her arm as she heads upstairs.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "Asha tucked the bank statements under her arm",
+        "the bank statements pressed flat under her arm",
+        "the bank statements still flat under her arm"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_004",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "folded towel"
+      ],
+      "canonical_name": "folded towel",
+      "description": "The towel Rosa leaves behind on the table as she follows Asha to the stairs.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "the folded towel left behind on the table"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_003"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_005",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "stairs",
+        "stairwell",
+        "narrow stairwell"
+      ],
+      "canonical_name": "stairs",
+      "description": "The stairway Asha climbs while Daniel and Rosa remain below.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "turned toward the stairs",
+        "on the third tread",
+        "The narrow stairwell smelled less of eucalyptus and more of old wood"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_006",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "wainscoting"
+      ],
+      "canonical_name": "wainscoting",
+      "description": "The wall paneling Daniel leans back against to let Asha pass.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "he stepped back against the wainscoting to let her past"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_002"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_007",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "foot of the stairs"
+      ],
+      "canonical_name": "foot of the stairs",
+      "description": "The bottom of the stairway where Rosa stops and watches Daniel.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "Rosa moved after Asha to the foot of the stairs and stopped there"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_003"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_008",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "half-landing"
+      ],
+      "canonical_name": "half-landing",
+      "description": "The intermediate landing Asha reaches before the second flight of stairs.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "She found the half-landing, the second flight"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_009",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "attic",
+        "attic ceiling"
+      ],
+      "canonical_name": "attic",
+      "description": "The low-ceilinged upper room Asha enters after climbing the stairs.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "at the top a low door already unlatched; through it the slope of the attic ceiling",
+        "Asha ducked under the slope of the ceiling"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_010",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "attic door",
+        "door",
+        "low door",
+        "unlatched"
+      ],
+      "canonical_name": "attic door",
+      "description": "The already unlatched door at the top of the stairs leading into the attic.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "at the top a low door already unlatched"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_011",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "shelf"
+      ],
+      "canonical_name": "shelf",
+      "description": "The shelf above the winter coats that Asha reaches for in the attic.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "the shelf above a rod of heavy winter coats",
+        "went straight to the shelf above the winter coats",
+        "The shelf sat at eye level for someone Rosa's height"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_012",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "winter coats",
+        "heavy winter coats"
+      ],
+      "canonical_name": "winter coats",
+      "description": "The coats hanging in the attic beneath the shelf Asha approaches.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "a rod of heavy winter coats",
+        "the shelf above the winter coats"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_013",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "hatbox"
+      ],
+      "canonical_name": "hatbox",
+      "description": "The box Asha reaches past to get to the shelf.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "reaching past a hatbox"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_014",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Concept",
+      "surface_forms": [
+        "laundry baskets"
+      ],
+      "canonical_name": "laundry baskets",
+      "description": "The recurring household activity referenced by the worn stair runner.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "where thirty years of laundry baskets had gone up and come down"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_015",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Concept",
+      "surface_forms": [
+        "eucalyptus smell",
+        "eucalyptus"
+      ],
+      "canonical_name": "eucalyptus smell",
+      "description": "The lingering scent in the house and stairwell.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "The eucalyptus smell stayed where it was",
+        "smelled less of eucalyptus and more of old wood"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_016",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Concept",
+      "surface_forms": [
+        "old wood"
+      ],
+      "canonical_name": "old wood",
+      "description": "The smell associated with the stairwell and attic.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "smelled less of eucalyptus and more of old wood"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_017",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Concept",
+      "surface_forms": [
+        "dust"
+      ],
+      "canonical_name": "dust",
+      "description": "The dust on the attic boards that muffles Asha's steps.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "the dust on the boards muffling her steps"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_7_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_7_ent_018",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman in the attic who finds and reads the hidden blue folder.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "Asha it meant lifting onto the balls of her feet and reaching past a hatbox",
+        "Asha drew the folder out into the light",
+        "Asha glanced once toward the low attic door before she opened the folder",
+        "She read the loose page twice"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_8_ent_001",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa Delacruz",
+        "Rosa"
+      ],
+      "canonical_name": "Rosa Delacruz",
+      "description": "The woman downstairs who watches Daniel and is named as the recipient of the house in the document.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "the shelf sat at eye level for someone Rosa's height",
+        "Below, at the foot of the stairs, Rosa had not moved",
+        "Rosa Delacruz, who had remained in residence and provided care"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_8_ent_002",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man in the hallway who is watched by Rosa and named in the estate document.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "her eyes set on Daniel in the hallway",
+        "Daniel felt the look enough that his hand stayed at his neck",
+        "with Daniel to receive the remainder of the estate"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_8_ent_003",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "hatbox"
+      ],
+      "canonical_name": "hatbox",
+      "description": "The box on the attic shelf that Asha reaches past to find the hidden folder.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "reaching past a hatbox to the stack behind it"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_001"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_8_ent_004",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "blue folder",
+        "folder"
+      ],
+      "canonical_name": "blue folder",
+      "description": "The stiff blue folder hidden on the attic shelf that contains the estate papers.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "something stiffer than cardboard",
+        "it was, in fact, blue",
+        "Asha drew the folder out into the light",
+        "Before she opened the folder"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_8_ent_005",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "estate document",
+        "papers",
+        "two stapled sheets",
+        "single loose page",
+        "loose page"
+      ],
+      "canonical_name": "estate document",
+      "description": "The typed estate papers in the folder that reveal the house's inheritance terms.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "The papers inside were thinner than she had expected",
+        "two stapled sheets clipped over a single loose page typed in a different machine",
+        "dated four months before the death",
+        "the line that mattered was plain"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_8_ent_006",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "TimePoint",
+      "surface_forms": [
+        "four months before the death"
+      ],
+      "canonical_name": "four months before the death",
+      "description": "The date reference printed on the document Asha reads.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "dated four months before the death"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_8_ent_007",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "attic"
+      ],
+      "canonical_name": "attic",
+      "description": "The cold, quiet room where Asha finds and reads the folder.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "The attic was quieter than the hall had been",
+        "Asha glanced once toward the low attic door",
+        "standing in the cold draft off the coats"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_8_ent_008",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "hallway",
+        "hall"
+      ],
+      "canonical_name": "hallway",
+      "description": "The area below the attic where Daniel stands and Rosa watches him.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "at the foot of the stairs",
+        "her eyes set on Daniel in the hallway",
+        "The attic was quieter than the hall had been"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_003"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_8_ent_009",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "stairs",
+        "stair",
+        "half-landing"
+      ],
+      "canonical_name": "stairs",
+      "description": "The stairway between the attic and the lower floor that Asha listens toward for interruption.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "at the foot of the stairs",
+        "listening for a foot on the half-landing"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_005"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_8_ent_010",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "towel"
+      ],
+      "canonical_name": "towel",
+      "description": "The towel Rosa has left behind while standing at the foot of the stairs.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "with the towel left behind on the table"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_002"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_8_ent_011",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "table"
+      ],
+      "canonical_name": "table",
+      "description": "The table where Rosa leaves the towel behind.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "the towel left behind on the table"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_002"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_8_ent_012",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "coats"
+      ],
+      "canonical_name": "coats",
+      "description": "The coats in the attic that frame Asha as she reads the document.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "standing in the cold draft off the coats"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_8_ent_013",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Concept",
+      "surface_forms": [
+        "estate",
+        "remainder of the estate"
+      ],
+      "canonical_name": "estate",
+      "description": "The property and assets whose distribution is described in the document.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "the remainder of the estate in equal share with his sister"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_007"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_8_ent_014",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Concept",
+      "surface_forms": [
+        "death"
+      ],
+      "canonical_name": "death",
+      "description": "The death referenced as the point before which the document was dated.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "dated four months before the death"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_8_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_8_ent_015",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa Delacruz",
+        "Rosa"
+      ],
+      "canonical_name": "Rosa Delacruz",
+      "description": "The woman who remained in the house, cared for it, and stands at the foot of the stairs watching Daniel.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_9",
+      "evidence": [
+        "the house was to go to Rosa Delacruz",
+        "Below, at the foot of the stairs, Rosa had not shifted her weight or her eyes",
+        "Rosa held her place, her eyes still on Daniel"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_007",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_008"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_9_ent_001",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The heir who is due the remainder of the estate and remains tense at the stairs while watching Rosa and Asha.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_9",
+      "evidence": [
+        "Daniel to receive the remainder of the estate in equal share with his sister",
+        "Daniel, his hand still at his neck, did not try to step around her toward the climb",
+        "Daniel waiting in the hall",
+        "Daniel saw the folder under Asha's arm"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_008"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_9_ent_002",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman carrying a blue folder and bank statements who descends from the attic and pauses at the half-landing.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_9",
+      "evidence": [
+        "Asha closed the blue folder over the loose page",
+        "She came down the second flight evenly",
+        "At the half-landing Asha stopped"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_008",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_009"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_9_ent_003",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "blue folder",
+        "folder"
+      ],
+      "canonical_name": "blue folder",
+      "description": "The folder Asha closes and carries with the bank statements.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_9",
+      "evidence": [
+        "Asha closed the blue folder over the loose page",
+        "pressed it flat against the bank statements",
+        "the folder under Asha's arm"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_008",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_009"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_9_ent_004",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "bank statements"
+      ],
+      "canonical_name": "bank statements",
+      "description": "The financial papers Asha carries under her arm with the blue folder.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_9",
+      "evidence": [
+        "pressed it flat against the bank statements under her arm",
+        "the blue folder pressed flat against the bank statements at her side"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_009"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_9_ent_005",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "towel"
+      ],
+      "canonical_name": "towel",
+      "description": "The towel Rosa retrieves from the table and folds carefully along its old creases.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_9",
+      "evidence": [
+        "reach back to the table for the towel she had left there",
+        "folding it once and then again along its old creases"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_007",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_008"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_9_ent_006",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "stairs",
+        "foot of the stairs",
+        "the stairs"
+      ],
+      "canonical_name": "stairs",
+      "description": "The staircase area where Rosa blocks Daniel and where Asha descends and pauses.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_9",
+      "evidence": [
+        "Below, at the foot of the stairs",
+        "did not try to step around her toward the climb",
+        "came down the second flight",
+        "At the foot of the stairs Rosa held her place"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_006",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_009"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_9_ent_007",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "attic",
+        "attic door"
+      ],
+      "canonical_name": "attic",
+      "description": "The attic area Asha comes down from and avoids looking back toward.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_9",
+      "evidence": [
+        "ducked back beneath the slope of the ceiling",
+        "did not look up at the attic door behind her"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_005",
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_9_ent_008",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "hall"
+      ],
+      "canonical_name": "hall",
+      "description": "The hall where Daniel is waiting as Asha descends.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_9",
+      "evidence": [
+        "Daniel waiting in the hall"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_006"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_9_ent_009",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "half-landing"
+      ],
+      "canonical_name": "half-landing",
+      "description": "The landing where Asha pauses with the folder and bank statements at her side.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_9",
+      "evidence": [
+        "did not look up at the attic door behind her or down at Daniel waiting in the hall",
+        "when Asha reached the half-landing",
+        "At the half-landing Asha stopped"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_9_ev_009"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_9_ent_010",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "A woman on the stair landing who confronts Daniel about a changed will or document.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_10",
+      "evidence": [
+        "At the half-landing Asha stopped",
+        "\"Why didn't you tell me she changed it four months before she died,\" she said"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_002"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_10_ent_001",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man on the stairs who is confronted by Asha and then falls silent.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_10",
+      "evidence": [
+        "where Daniel still stood with his back not quite to the wall",
+        "Daniel's hand twitched at his neck and did not lower",
+        "\"The time for smiles is over, Daniel.\""
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_002",
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_003",
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_005"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_10_ent_002",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "A woman who folds a towel, sets it on the table, and rebukes Daniel.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_10",
+      "evidence": [
+        "Rosa, without turning her head, finished the second fold of the towel and laid it on the table",
+        "\"The time for smiles is over, Daniel.\""
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_004",
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_005"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_10_ent_003",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "blue folder",
+        "folder"
+      ],
+      "canonical_name": "blue folder",
+      "description": "A blue folder Asha holds against the bank statements while speaking to Daniel.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_10",
+      "evidence": [
+        "the blue folder pressed flat against the bank statements at her side"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_002"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_10_ent_004",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "bank statements"
+      ],
+      "canonical_name": "bank statements",
+      "description": "Financial papers that Asha carries with the blue folder.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_10",
+      "evidence": [
+        "the blue folder pressed flat against the bank statements at her side"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_001",
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_002"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_10_ent_005",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "runner"
+      ],
+      "canonical_name": "runner",
+      "description": "A stair runner mentioned as Asha looks down toward Daniel.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_10",
+      "evidence": [
+        "looked down past the runner to where Daniel still stood"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_001"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_10_ent_006",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "half-landing"
+      ],
+      "canonical_name": "half-landing",
+      "description": "The stair landing where Asha stops before confronting Daniel.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_10",
+      "evidence": [
+        "At the half-landing Asha stopped"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_001"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_10_ent_007",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "attic door"
+      ],
+      "canonical_name": "attic door",
+      "description": "The door above from which a cold draft is coming down into the stairwell.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_10",
+      "evidence": [
+        "the cold draft sliding down from the attic door"
+      ],
+      "linked_event_ids": [],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_10_ent_008",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "towel"
+      ],
+      "canonical_name": "towel",
+      "description": "The towel Rosa folds and places on the table before speaking.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_10",
+      "evidence": [
+        "finished the second fold of the towel and laid it on the table"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_004"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_10_ent_009",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "table"
+      ],
+      "canonical_name": "table",
+      "description": "The table where Rosa sets the folded towel.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_10",
+      "evidence": [
+        "laid it on the table"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_004"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_10_ent_010",
+      "movie_id": "100_page__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Concept",
+      "surface_forms": [
+        "smiles"
+      ],
+      "canonical_name": "smiles",
+      "description": "A concept Rosa invokes to signal that the lightness or pretense in the situation is over.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_10",
+      "evidence": [
+        "\"The time for smiles is over, Daniel.\""
+      ],
+      "linked_event_ids": [
+        "ev_100_page_1_doc_0_chunk_0_part_10_ev_005"
+      ],
+      "id": "ent_100_page_1_doc_0_chunk_0_part_10_ent_011",
+      "movie_id": "100_page__scene_1"
+    }
+  ]
+}

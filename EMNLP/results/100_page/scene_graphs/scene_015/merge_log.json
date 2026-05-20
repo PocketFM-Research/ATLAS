@@ -1,0 +1,918 @@
+[
+  {
+    "type": "exact_merge",
+    "key": "asha listens for movement upstairs",
+    "merged_ids": [
+      "ev_100_page_15_doc_14_chunk_0_part_6_ev_002",
+      "ev_100_page_15_doc_14_chunk_0_part_4_ev_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha listens for movement upstairs",
+    "merged_ids": [
+      "ev_100_page_15_doc_14_chunk_0_part_6_ev_002",
+      "ev_100_page_15_doc_14_chunk_0_part_4_ev_007",
+      "ev_100_page_15_doc_14_chunk_0_part_8_ev_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha checks the stair landing",
+    "merged_ids": [
+      "ev_100_page_15_doc_14_chunk_0_part_9_ev_005",
+      "ev_100_page_15_doc_14_chunk_0_part_11_ev_005"
+    ]
+  },
+  {
+    "cluster": [
+      "ev_100_page_15_doc_14_chunk_0_part_1_ev_003",
+      "ev_100_page_15_doc_14_chunk_0_part_2_ev_003",
+      "ev_100_page_15_doc_14_chunk_0_part_3_ev_005",
+      "ev_100_page_15_doc_14_chunk_0_part_7_ev_007",
+      "ev_100_page_15_doc_14_chunk_0_part_8_ev_001"
+    ],
+    "max_similarity": 0.7153581729843266,
+    "decision": {
+      "merges": [
+        {
+          "member_indices": [
+            3,
+            4
+          ],
+          "canonical_name": "Asha calls psychiatric admissions",
+          "aliases": [
+            "calls psychiatric admissions"
+          ],
+          "justification": "Both mentions describe the same event in scene 15: Asha uses the county hospital's psychiatric admissions extension that Rosa texted her and places the call."
+        }
+      ],
+      "unmerged": [
+        {
+          "name": "calls county hospital",
+          "justification": "This is a separate call to the county hospital's main line, described as the first safe call Asha can make aloud in front of Claire."
+        },
+        {
+          "name": "Asha infers hidden history",
+          "justification": "This is a distinct cognitive/interpretive event where Asha realizes the implications of Rosa's message; it is not the phone call itself."
+        },
+        {
+          "name": "Asha calls detox center",
+          "justification": "This is a different call to the detox center's main line about Marcus Devereaux and admission logs, not the psychiatric admissions call."
+        }
+      ]
+    }
+  },
+  {
+    "type": "exact_merge",
+    "key": "claire",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "claire",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "claire",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "claire",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "claire",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "claire",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "claire",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "claire",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "claire",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "claire",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "claire",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_11_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "claire",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_12_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_11_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_11_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_12_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_11_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_001",
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_11_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_002",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "marcus devereaux",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "marcus devereaux",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_006",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "admissions clerk",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_005",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "hospital clerk",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "intake worker",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "clerk",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_003",
+      "ent_100_page_15_doc_14_chunk_0_part_12_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "the clerk",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_11_ent_004"
+    ]
+  },
+  {
+    "type": "prefix_merge",
+    "canonical_name": "Marcus Devereaux",
+    "merged_name": "Marcus",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_006",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "county hospital",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_006",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_011"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "detox center",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_007",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "stairwell",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_007",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "landing",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_012",
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_008"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "kitchen",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_009",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "kitchen",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_009",
+      "ent_100_page_15_doc_14_chunk_0_part_11_ent_008",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "stair landing",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_007",
+      "ent_100_page_15_doc_14_chunk_0_part_11_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "thursday night",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_007",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_008"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "thursday night",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_007",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_008",
+      "ent_100_page_15_doc_14_chunk_0_part_3_ent_013"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "wallet",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_018",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_010"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "phone",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_015",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "phone",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_017",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_015",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "phone",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_017",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_015",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_009",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "phone",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_017",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_006",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_015",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_009",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "phone",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_017",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_006",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_015",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_009",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "phone",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_017",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_006",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_015",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_009",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_005",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "phone",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_017",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_006",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_007",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_015",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_009",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_005",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "phone",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_017",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_006",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_007",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_015",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_005",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_009",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_005",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "phone",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_017",
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_008",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_006",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_007",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_015",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_005",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_009",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_005",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "phone",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_017",
+      "ent_100_page_15_doc_14_chunk_0_part_11_ent_007",
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_008",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_006",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_007",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_015",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_005",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_009",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_005",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "phone",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_017",
+      "ent_100_page_15_doc_14_chunk_0_part_11_ent_007",
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_008",
+      "ent_100_page_15_doc_14_chunk_0_part_4_ent_006",
+      "ent_100_page_15_doc_14_chunk_0_part_6_ent_004",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_007",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_015",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_005",
+      "ent_100_page_15_doc_14_chunk_0_part_5_ent_009",
+      "ent_100_page_15_doc_14_chunk_0_part_12_ent_005",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_005",
+      "ent_100_page_15_doc_14_chunk_0_part_1_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "legal pad",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_011",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "legal pad",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_011",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_008",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "legal pad",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_011",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_008",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_007",
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "table",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_010",
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "pen",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_009",
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "pen",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_9_ent_009",
+      "ent_100_page_15_doc_14_chunk_0_part_11_ent_005",
+      "ent_100_page_15_doc_14_chunk_0_part_10_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "pad",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_11_ent_006",
+      "ent_100_page_15_doc_14_chunk_0_part_12_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "detox center",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_2_ent_015",
+      "ent_100_page_15_doc_14_chunk_0_part_0_ent_017"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "diversion",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_008",
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_013"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "the kids",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_010",
+      "ent_100_page_15_doc_14_chunk_0_part_12_ent_008"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "psychiatric admissions",
+    "merged_ids": [
+      "ent_100_page_15_doc_14_chunk_0_part_8_ent_012",
+      "ent_100_page_15_doc_14_chunk_0_part_7_ent_012"
+    ]
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "next_action_after_Whitfield_meeting",
+      "prior_quote": "“she had stopped rehearsing what she would say to Devin and started, instead, rehearsing what she would say in Whitfield's office without him.”",
+      "later_quote": "“She drove east toward his apartment on Spring Garden rather than calling from the car”",
+      "reason": "fails B: the prior quote is about what Asha was rehearsing mentally, not a fixed claim that she would face Whitfield with evidence alone or not go to Devin afterward."
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "whether_Asha_called_anyone_that_night",
+      "prior_quote": "“she had stopped rehearsing what she would say to Devin and started, instead, rehearsing what she would say in Whitfield's office without him.”",
+      "later_quote": "“Devin had not written again after the three words at five forty-three”",
+      "reason": "fails B: the prior scene does not assert that Asha chose not to call anyone that night, and the later quote is about receiving Devin's earlier text, not about Asha making or not making calls."
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "Devin_clothing_at_door",
+      "prior_quote": "“Devin filled the gap in the doorway in a sweatshirt with the sleeves pushed up”",
+      "later_quote": "“When Devin opened it he was in yesterday's shirt with the cuffs pushed up”",
+      "reason": "fails C: these are different visits at different times, so the screenplay does not require the same clothing value to persist; no contradiction is asserted."
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "object_in_Devin_hand_at_door",
+      "prior_quote": "“Devin filled the gap in the doorway in a sweatshirt with the sleeves pushed up, a dish towel still in one hand”",
+      "later_quote": "“she could see behind him the kitchen light still on over a mug he had not finished”",
+      "reason": "fails B: the prior quote is about what Devin is holding, while the later quote is about a mug visible behind him; they are different attributes."
+    },
+    {
+      "index": 5,
+      "decision": "confirm",
+      "attribute": "timing_of_correction_relative_to_testimony",
+      "prior_quote": "“the sequence on the desk was the sequence she had been afraid it would be: the correction had gone through after she had stood up, not before”",
+      "later_quote": "“she had said the correction to the Tuesday filing went onto Devin's desk Monday morning before the caseworker took the stand and not after”",
+      "reason": "all four conditions hold: both quotes concern the same correction's timing, the values are opposite (after vs before), and no later on-screen explanation justifies the mismatch."
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "whether_Asha_brought_documents_to_Whitfield",
+      "prior_quote": "“the page with the circled marks was now between her and the windshield instead of between her and the lamp, which meant she had already chosen to carry it the rest of the way as paper”",
+      "later_quote": "“nothing had come out of it that had not gone back”",
+      "reason": "fails C: there is no contradiction; scene 19 says nothing had come out of the briefcase that did not go back, which is compatible with her having brought documents and used them in the meeting."
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "time_of_Whitfield_meeting",
+      "prior_quote": "“Whitfield's voice... had asked her to come by his office Tuesday morning before the partners' meeting” and “before seven”",
+      "later_quote": "“the firm's ethics intake opened at eight, which gave her roughly forty minutes to reach his door”",
+      "reason": "fails B: the later quote is about the deadline for reaching Devin before ethics intake opened, not about the scheduled time of the Whitfield meeting."
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "Devin_location_in_apartment",
+      "prior_quote": "“When Devin opened it he was in yesterday's shirt with the cuffs pushed up”",
+      "later_quote": "“Devin did not move from the linoleum”",
+      "reason": "fails C: these are successive moments in the same encounter, and scene 19 already has him stepping back from the doorway into the kitchen, so standing on linoleum is not contradictory."
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "Devin_position_relative_to_door",
+      "prior_quote": "“Standing in the doorway... she told him...”",
+      "later_quote": "“Devin did not move from the linoleum” / “Devin watched her do it without moving from the counter”",
+      "reason": "fails D: scene 19 itself explicitly shows movement from the doorway into the kitchen (“she could see behind him the kitchen light...”), so the later position is explained on-screen."
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "briefcase_position",
+      "prior_quote": "“Standing in the doorway with the briefcase loose at her side”",
+      "later_quote": "“Asha set the briefcase on Devin's kitchen table without asking, unlatched it”",
+      "reason": "fails D: the later scene explicitly shows the change in position when she sets the briefcase on the table and opens it."
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "document_containing_five-oh-six_note",
+      "prior_quote": "“her own legal pad from Monday with the cross of the caseworker running down two pages in her left-handed shorthand”",
+      "later_quote": "“the four-eighteen stamp sat above her own five-oh-six in the same line of sight”",
+      "reason": "fails C: scene 20 does not say five-oh-six was written in the trial record; it only says the stamp sat above her own five-oh-six, which is consistent with the note being on her own page."
+    },
+    {
+      "index": 12,
+      "decision": "reject",
+      "attribute": "time_of_next_Whitfield_visit",
+      "prior_quote": "“she had already chosen to carry this into Whitfield's office tomorrow as paper” and earlier “Tuesday morning before seven”",
+      "later_quote": "“I'm going to Whitfield with this before one”",
+      "reason": "fails D: the later quote refers to a second corrective visit after the earlier morning meeting; the screenplay explicitly shows she already met Whitfield in the morning and is now returning before the one o'clock committee."
+    }
+  ]
+}

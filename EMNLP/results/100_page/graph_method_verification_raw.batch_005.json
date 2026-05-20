@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "facility_name",
+      "prior_quote": "Scene 5: \"The cheapest one on here is Bridgeview, out past Levittown,\" she said...",
+      "later_quote": "Scene 11: \"She typed the full deposit into the field, read it back once, and authorized the wire to Bridgepoint...\"",
+      "reason": "fails B: the prior quote is about the facility discussed with Marcus as the cheapest option, while the later quote is about the facility receiving Asha's wire; scene 6 onward consistently uses Bridgepoint for the chosen transfer."
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "document_container_contents",
+      "prior_quote": "Scene 7: \"Rosa was through the door with the manila envelope of notarized papers in her hand...\"",
+      "later_quote": "Scene 11: \"the rate sheet Rosa had marked up sat next to her own bank app\"",
+      "reason": "fails B: one quote identifies papers in a manila envelope, the other identifies a separate rate sheet Rosa marked up; no same attribute is asserted."
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "kinship",
+      "prior_quote": "Scene 10: \"the email beneath them from a woman named Claire Donato, who had written that she was Marcus's wife\"",
+      "later_quote": "Scene 12 contains no sentence describing Claire as Asha's daughter.",
+      "reason": "fails C: there is no later quote in scene 12 asserting Claire is Asha's daughter."
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "kinship",
+      "prior_quote": "Scene 11: \"Marcus's second sentence... that Claire had found out two days ago\"",
+      "later_quote": "Scene 12 contains no sentence describing Claire as Asha's mother.",
+      "reason": "fails A and B: the prior quote is about when Claire learned of Marcus's lie, not kinship, and scene 12 does not assert Claire is Asha's mother."
+    },
+    {
+      "index": 5,
+      "decision": "reject",
+      "attribute": "kinship",
+      "prior_quote": "Scene 8: Rosa is texting and later physically present with Asha, but scene 8 does not identify Rosa as Asha's mother.",
+      "later_quote": "Scene 12 contains no sentence describing Claire as Asha's mother.",
+      "reason": "fails A, B, and C: the entities differ (Rosa vs. Claire), scene 8 does not establish Rosa as Asha's mother, and scene 12 does not assert Claire is Asha's mother."
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "professional_role",
+      "prior_quote": "Scene 7: \"she had effectively vanished from a contested custody mediation she was lead on\"",
+      "later_quote": "Scene 12 does not describe Asha as a firm associate.",
+      "reason": "fails C: there is no later quote in scene 12 contradicting her role by calling her a firm associate."
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "carried_item_type",
+      "prior_quote": "Scene 8: \"Asha lifted the top folder off the stack... and slid it into her briefcase\" / \"Asha closed the briefcase latches\"",
+      "later_quote": "Scene 12: \"the leather case felt heavier on the way up\" / \"the page she had driven across a river to get still riding at her hip\"",
+      "reason": "fails C: a briefcase is a leather case here, so the later wording is a paraphrase, not a different value."
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "signed_document",
+      "prior_quote": "Scene 10: \"Devin's corrected filing with its electronic stamp along the header\" and \"Devin signed the line\"",
+      "later_quote": "Scene 12: \"Devin's signature had set clean on the line\" on \"the corrected page\"",
+      "reason": "fails C: both quotes refer to Devin signing the corrected filing page; there is no mismatch."
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "financial_status",
+      "prior_quote": "Scene 11: \"the four years of untouched savings had just become the shape of the next part of her life\"",
+      "later_quote": "Scene 12: \"a decade of birthdays she had let pass without dialing\" / \"ten years of distance\"",
+      "reason": "fails B: the prior quote is about savings history, while the later quote is about elapsed family estrangement."
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "savings_amount",
+      "prior_quote": "Scene 12: \"the savings line on the app behind her had collapsed into four figures\"",
+      "later_quote": "Scene 13: \"with a night of no sleep behind her and an empty savings account\"",
+      "reason": "fails C: \"empty savings account\" is figurative summary, not a precise contradictory amount against the earlier four figures."
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "owner_of_empty_savings",
+      "prior_quote": "Scene 12: \"she had wired the full deposit\" and \"the savings line on the app behind her had collapsed into four figures\"",
+      "later_quote": "Scene 13: \"with a night of no sleep behind her and an empty savings account\"",
+      "reason": "fails B: the later quote still refers to Asha's depleted finances, not to Mrs. Hatcher's; no attribute change about ownership occurs."
+    },
+    {
+      "index": 12,
+      "decision": "reject",
+      "attribute": "case_type",
+      "prior_quote": "Scene 7: \"The Hatcher hearing was Monday at nine\" and \"a contested custody mediation she was lead on\"",
+      "later_quote": "Scene 13: \"the firm's strategy for the Hatcher placement still held\" / \"the interim order keeping Mrs. Hatcher's children where they were\"",
+      "reason": "fails C: these are compatible descriptions of the same custody matter involving child placement, not contradictory values."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "deadline/day for required paperwork",
+      "prior_quote": "Scene 4: \"the form was called an MDS-discharge addendum, and the social worker would need it signed before Friday.\"",
+      "later_quote": "Scene 6: \"Bridgepoint would need that name on the packet by tomorrow.\"",
+      "reason": "Fails A/B: the prior quote is about the Trenton facility's MDS-discharge addendum, while the later quote is about Bridgepoint's transfer packet/proxy field, not the same document or specific attribute."
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "whether Asha had spoken to Marcus recently",
+      "prior_quote": "Scene 5: \"she was about to speak to his son for the first time in ten years.\"",
+      "later_quote": "Scene 6: \"Daniel's already on me, give me a sec.\"",
+      "reason": "Fails B/C: the later quote says Daniel is contacting Marcus, not that Asha has spoken to Marcus; no contradiction on the same attribute of the same entity."
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "healthcare proxy identity",
+      "prior_quote": "Scene 5: \"the number she had not yet let herself dial\" / no proxy holder is stated there.",
+      "later_quote": "Scene 6: \"the original Trenton admission packet that named the proxy... Lucia, not Daniel, not Marcus.\"",
+      "reason": "Fails C: scene 5 does not assert any value for who the proxy is, so there is no earlier conflicting value."
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "Bridgepoint bed/deposit timing",
+      "prior_quote": "Scene 6: \"Bridgepoint needed... a deposit wired before Friday at five.\"",
+      "later_quote": "Scene 7: \"Bridgepoint's intake coordinator confirmed the bed at four-forty-one.\"",
+      "reason": "Fails B/C: one quote gives the deposit deadline, the other gives the time bed confirmation arrived; those are different attributes and not contradictory."
+    },
+    {
+      "index": 5,
+      "decision": "reject",
+      "attribute": "Asha's work attendance timeline",
+      "prior_quote": "Scene 4: \"the gap between Thursday's depositions and the Friday filing\" and \"a Thursday evening departure.\"",
+      "later_quote": "Scene 7: \"she had effectively vanished from a contested custody mediation she was lead on... a junior associate had signed something Tuesday afternoon.\"",
+      "reason": "Fails C: scene 4 only shows she had Thursday/Friday work obligations; it does not assert she was present at work after Tuesday, so the later statement does not directly contradict it."
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "identity of notarized papers",
+      "prior_quote": "Scene 6: \"Lucia needed to be at a notary in the next ninety minutes\" and \"Lucia held the proxy.\"",
+      "later_quote": "Scene 7: \"Rosa... with the manila envelope of notarized papers in her hand.\"",
+      "reason": "Fails C: scene 7 does not contradict scene 6; the notarized papers can be the same proxy-related papers, and no different value is asserted."
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "duration of Asha's stay at her father's bedside",
+      "prior_quote": "Scene 6: Asha remains with her father while arranging transfer: \"she would wait there for confirmation\" and continues bedside calls.",
+      "later_quote": "Scene 7: \"By the time the discharge order landed... Asha had been at her father's bedside for almost six hours.\"",
+      "reason": "Fails C: the later quote is consistent with the earlier bedside-arrangement sequence and does not assert a conflicting duration."
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "Asha's contact with Marcus vs work absence",
+      "prior_quote": "Scene 5: \"she was about to speak to his son for the first time in ten years.\"",
+      "later_quote": "Scene 7: \"she had effectively vanished from a contested custody mediation... since Tuesday.\"",
+      "reason": "Fails B: the prior quote is about Asha's relationship/contact with Marcus; the later quote is about her work attendance, a different attribute."
+    },
+    {
+      "index": 9,
+      "decision": "confirm",
+      "attribute": "Tuesday filing time",
+      "prior_quote": "Scene 7: \"the Hatcher motion filed Tuesday at 2:14 p.m.\"",
+      "later_quote": "Scene 8: \"Filed at 4:51, signature block attached.\"",
+      "reason": "All four conditions hold: both quotes refer to the same Tuesday Hatcher filing, assert different filing times, and no on-screen explanation reconciles the discrepancy."
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "kinship/role of Rosa to Asha",
+      "prior_quote": "Scene 7: Rosa is a separate person texting Asha and later arriving with papers; no maternal role is asserted.",
+      "later_quote": "Scene 8: \"the towel that had been hanging by the faucet since Asha was a child.\"",
+      "reason": "Fails C: the later quote does not say Rosa is Asha's mother; it only describes a towel in Rosa's kitchen, so there is no direct contradiction on kinship."
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "whose residence/key is being used",
+      "prior_quote": "Scene 7: \"Rosa's key in the lock\" refers to Rosa entering Asha's place with a key.",
+      "later_quote": "Scene 8: \"Asha stopped on the landing... fitted the key into the lock\" of her own apartment.",
+      "reason": "Fails B/C: these quotes concern different people using keys to enter Asha's apartment; they do not assert conflicting values for the same entity's attribute."
+    },
+    {
+      "index": 12,
+      "decision": "reject",
+      "attribute": "Whitfield's role",
+      "prior_quote": "Scene 7: \"the managing partner's message... asking... for her to come in Sunday afternoon\" and later \"Whitfield's office\".",
+      "later_quote": "Scene 8: Whitfield appears directly in his office as the partner she must face.",
+      "reason": "Fails C: Whitfield is already established in scene 7 as the managing partner with an office; scene 8 is consistent with that role."
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "per_scene_proposal_stats": [
+    {
+      "scene_number": 2,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 6,
+      "proposals_added": 6,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 3,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 3,
+      "proposals_added": 3,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 4,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 4,
+      "proposals_added": 4,
+      "exact_duplicates_dropped": 0
+    }
+  ],
+  "raw_proposals": [
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Mrs. Adelman lives two doors down",
+      "event": "she is placed on Pemberton Street without prior setup",
+      "text": "In scene 1, Mrs. Adelman lives two doors down was established, yet in scene 2, she is placed on Pemberton Street without prior setup happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Rosa was the named codicil witness",
+      "event": "Mrs. Marquez is newly identified as a witness",
+      "text": "In scene 1, Rosa was the named codicil witness was established, yet in scene 2, Mrs. Marquez is newly identified as a witness happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Rosa was introduced as Rosa Marquez",
+      "event": "Mrs. Marquez appears without prior naming setup",
+      "text": "In scene 1, Rosa was introduced as Rosa Marquez was established, yet in scene 2, Mrs. Marquez appears without prior naming setup happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Daniel was to receive the house under the will",
+      "event": "he is described as receiving a cash bequest",
+      "text": "In scene 1, Daniel was to receive the house under the will was established, yet in scene 2, he is described as receiving a cash bequest happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Daniel stayed seven months after returning in May",
+      "event": "Lucia is assigned the seven-month stay duration",
+      "text": "In scene 1, Daniel stayed seven months after returning in May was established, yet in scene 2, Lucia is assigned the seven-month stay duration happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "the mother was sick for a long time",
+      "event": "her illness duration is fixed at two years",
+      "text": "In scene 1, the mother was sick for a long time was established, yet in scene 2, her illness duration is fixed at two years happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "fact": "Asha is an attorney",
+      "event": "Asha is described as a probate attorney",
+      "text": "In scene 1, Asha is an attorney was established, yet in scene 3, Asha is described as a probate attorney happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "fact": "Asha is an attorney",
+      "event": "Asha is given fourteen years as an age-like attribute",
+      "text": "In scene 1, Asha is an attorney was established, yet in scene 3, Asha is given fourteen years as an age-like attribute happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "fact": "Rosa is a caregiver",
+      "event": "Rosa is identified as a codicil witness",
+      "text": "In scene 2, Rosa is a caregiver was established, yet in scene 3, Rosa is identified as a codicil witness happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "fact": "Asha is a probate attorney",
+      "event": "Asha is described only as a lawyer",
+      "text": "In scene 3, Asha is a probate attorney was established, yet in scene 4, Asha is described only as a lawyer happens",
+      "proposed_at_scene_y": 4
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "fact": "Asha holds the codicil after the search",
+      "event": "Asha still holds the codicil after filing it",
+      "text": "In scene 3, Asha holds the codicil after the search was established, yet in scene 4, Asha still holds the codicil after filing it happens",
+      "proposed_at_scene_y": 4
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "fact": "Rosa is Helena's caregiver and estate beneficiary",
+      "event": "Rosa is treated as Lucia's employee",
+      "text": "In scene 1, Rosa is Helena's caregiver and estate beneficiary was established, yet in scene 4, Rosa is treated as Lucia's employee happens",
+      "proposed_at_scene_y": 4
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "fact": "Rosa is past sixty",
+      "event": "Rosa is said to have worked there thirty-one years",
+      "text": "In scene 1, Rosa is past sixty was established, yet in scene 4, Rosa is said to have worked there thirty-one years happens",
+      "proposed_at_scene_y": 4
+    }
+  ],
+  "dedupe_log": [
+    {
+      "raw_proposal_index": 0,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Mrs. Adelman lives two doors down was established, yet in scene 2, she is placed on Pemberton Street without prior setup happens"
+    },
+    {
+      "raw_proposal_index": 1,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Rosa was the named codicil witness was established, yet in scene 2, Mrs. Marquez is newly identified as a witness happens"
+    },
+    {
+      "raw_proposal_index": 2,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Rosa was introduced as Rosa Marquez was established, yet in scene 2, Mrs. Marquez appears without prior naming setup happens"
+    },
+    {
+      "raw_proposal_index": 3,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Daniel was to receive the house under the will was established, yet in scene 2, he is described as receiving a cash bequest happens"
+    },
+    {
+      "raw_proposal_index": 4,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Daniel stayed seven months after returning in May was established, yet in scene 2, Lucia is assigned the seven-month stay duration happens"
+    },
+    {
+      "raw_proposal_index": 5,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, the mother was sick for a long time was established, yet in scene 2, her illness duration is fixed at two years happens"
+    },
+    {
+      "raw_proposal_index": 6,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Asha is an attorney was established, yet in scene 3, Asha is described as a probate attorney happens"
+    },
+    {
+      "raw_proposal_index": 7,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Asha is an attorney was established, yet in scene 3, Asha is given fourteen years as an age-like attribute happens"
+    },
+    {
+      "raw_proposal_index": 8,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Rosa is a caregiver was established, yet in scene 3, Rosa is identified as a codicil witness happens"
+    },
+    {
+      "raw_proposal_index": 9,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, Asha is a probate attorney was established, yet in scene 4, Asha is described only as a lawyer happens"
+    },
+    {
+      "raw_proposal_index": 10,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, Asha holds the codicil after the search was established, yet in scene 4, Asha still holds the codicil after filing it happens"
+    },
+    {
+      "raw_proposal_index": 11,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Rosa is Helena's caregiver and estate beneficiary was established, yet in scene 4, Rosa is treated as Lucia's employee happens"
+    },
+    {
+      "raw_proposal_index": 12,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Rosa is past sixty was established, yet in scene 4, Rosa is said to have worked there thirty-one years happens"
+    }
+  ],
+  "verification_log": [
+    {
+      "proposal_index": 1,
+      "proposal_text": "In scene 1, Mrs. Adelman lives two doors down was established, yet in scene 2, she is placed on Pemberton Street without prior setup happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails C: these are consistent, not different values; the later quote specifies the same location more precisely.",
+      "attribute": "location/address",
+      "prior_quote": "“Mrs. Adelman from two doors down”",
+      "later_quote": "“Asha then called Mrs. Adelman, two doors down on Pemberton Street”",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: these are consistent, not different values; the later quote specifies the same location more precisely."
+    },
+    {
+      "proposal_index": 2,
+      "proposal_text": "In scene 1, Rosa was the named codicil witness was established, yet in scene 2, Mrs. Marquez is newly identified as a witness happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails C: Rosa was already introduced as Rosa Marquez, so “me” and “Mrs. Marquez” are the same witness.",
+      "attribute": "witness identity",
+      "prior_quote": "“Mrs. Adelman and me.”",
+      "later_quote": "“And the witness names. Mrs. Marquez and Mrs. Adelman.”",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: Rosa was already introduced as Rosa Marquez, so “me” and “Mrs. Marquez” are the same witness."
+    },
+    {
+      "proposal_index": 3,
+      "proposal_text": "In scene 1, Rosa was introduced as Rosa Marquez was established, yet in scene 2, Mrs. Marquez appears without prior naming setup happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails C: “Mrs. Marquez” is not a new conflicting identity; it is the same person previously named Rosa Marquez.",
+      "attribute": "name/identity",
+      "prior_quote": "“There were small bequests, including a sum to Rosa Marquez”",
+      "later_quote": "“And the witness names. Mrs. Marquez and Mrs. Adelman.”",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: “Mrs. Marquez” is not a new conflicting identity; it is the same person previously named Rosa Marquez."
+    },
+    {
+      "proposal_index": 4,
+      "proposal_text": "In scene 1, Daniel was to receive the house under the will was established, yet in scene 2, he is described as receiving a cash bequest happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails B: the quotes refer to different instruments and different dispositions, not contradictory values of the same single attribute.",
+      "attribute": "beneficiary share under testamentary instrument",
+      "prior_quote": "“the house specifically devised to Daniel and a corresponding cash gift to Lucia”",
+      "later_quote": "“There was a sentence about Daniel. It said the cash bequest to him was being increased”",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the quotes refer to different instruments and different dispositions, not contradictory values of the same single attribute."
+    },
+    {
+      "proposal_index": 5,
+      "proposal_text": "In scene 1, Daniel stayed seven months after returning in May was established, yet in scene 2, Lucia is assigned the seven-month stay duration happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails C: there is no contradiction; Scene 1 already states Lucia stayed seven months.",
+      "attribute": "duration of stay",
+      "prior_quote": "“You came home for two weeks in May and you stayed seven months.”",
+      "later_quote": "“Lucia is assigned the seven-month stay duration”",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: there is no contradiction; Scene 1 already states Lucia stayed seven months."
+    },
+    {
+      "proposal_index": 6,
+      "proposal_text": "In scene 1, the mother was sick for a long time was established, yet in scene 2, her illness duration is fixed at two years happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails C: “a long time” and “two years” are compatible, not conflicting values.",
+      "attribute": "illness duration",
+      "prior_quote": "“Your mother was sick for a long time before anyone admitted she was sick”",
+      "later_quote": "“Helena Serrano had then, six months later, died in her own bed of an illness she had known about for two years”",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: “a long time” and “two years” are compatible, not conflicting values."
+    },
+    {
+      "proposal_index": 7,
+      "proposal_text": "In scene 1, Asha is an attorney was established, yet in scene 3, Asha is described as a probate attorney happens",
+      "scene_x": 1,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails C: “probate attorney” is a more specific version of “attorney,” not a different value.",
+      "attribute": "profession/specialty",
+      "prior_quote": "“This is Mrs. Devi. The attorney.”",
+      "later_quote": "“Asha had been a probate attorney for fourteen years”",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: “probate attorney” is a more specific version of “attorney,” not a different value."
+    },
+    {
+      "proposal_index": 8,
+      "proposal_text": "In scene 1, Asha is an attorney was established, yet in scene 3, Asha is given fourteen years as an age-like attribute happens",
+      "scene_x": 1,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails B: the prior quote gives occupation, while the later quote gives duration of experience.",
+      "attribute": "profession vs. years of experience",
+      "prior_quote": "“The attorney.”",
+      "later_quote": "“Asha had been a probate attorney for fourteen years”",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the prior quote gives occupation, while the later quote gives duration of experience."
+    },
+    {
+      "proposal_index": 9,
+      "proposal_text": "In scene 2, Rosa is a caregiver was established, yet in scene 3, Rosa is identified as a codicil witness happens",
+      "scene_x": 2,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails B: caregiver and witness are different attributes/roles that can both be true.",
+      "attribute": "role",
+      "prior_quote": "“including a sum to Rosa Marquez ‘in gratitude for her care’”",
+      "later_quote": "“And the witness names. Mrs. Marquez and Mrs. Adelman.”",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: caregiver and witness are different attributes/roles that can both be true."
+    },
+    {
+      "proposal_index": 10,
+      "proposal_text": "In scene 3, Asha is a probate attorney was established, yet in scene 4, Asha is described only as a lawyer happens",
+      "scene_x": 3,
+      "scene_y": 4,
+      "model_decision": "reject",
+      "model_reason": "fails C: “lawyer” and “probate attorney” are compatible labels for the same profession.",
+      "attribute": "profession label",
+      "prior_quote": "“Asha had been a probate attorney for fourteen years”",
+      "later_quote": "“It is not always the job. I have watched lawyers before.”",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: “lawyer” and “probate attorney” are compatible labels for the same profession."
+    },
+    {
+      "proposal_index": 11,
+      "proposal_text": "In scene 3, Asha holds the codicil after the search was established, yet in scene 4, Asha still holds the codicil after filing it happens",
+      "scene_x": 3,
+      "scene_y": 4,
+      "model_decision": "reject",
+      "model_reason": "fails C: there is no contradiction; she can hold the codicil earlier and later have filed it.",
+      "attribute": "possession of codicil",
+      "prior_quote": "“Asha stepped quietly out of the sewing room with the codicil in her hand”",
+      "later_quote": "“The codicil is filed”",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: there is no contradiction; she can hold the codicil earlier and later have filed it."
+    },
+    {
+      "proposal_index": 12,
+      "proposal_text": "In scene 1, Rosa is Helena's caregiver and estate beneficiary was established, yet in scene 4, Rosa is treated as Lucia's employee happens",
+      "scene_x": 1,
+      "scene_y": 4,
+      "model_decision": "reject",
+      "model_reason": "fails C: Rosa can have been Helena's caregiver/beneficiary and later be retained by Lucia; no conflicting value is asserted.",
+      "attribute": "employment relationship",
+      "prior_quote": "“including a sum to Rosa Marquez ‘in gratitude for her care’”",
+      "later_quote": "“Lucia had asked her to stay on, two afternoons a week, for as long as she wanted”",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: Rosa can have been Helena's caregiver/beneficiary and later be retained by Lucia; no conflicting value is asserted."
+    },
+    {
+      "proposal_index": 13,
+      "proposal_text": "In scene 1, Rosa is past sixty was established, yet in scene 4, Rosa is said to have worked there thirty-one years happens",
+      "scene_x": 1,
+      "scene_y": 4,
+      "model_decision": "reject",
+      "model_reason": "fails B: age and length of service are different attributes, and they are not inconsistent.",
+      "attribute": "age vs. years worked",
+      "prior_quote": "“She was somewhere past sixty”",
+      "later_quote": "“the way she had made coffee in this kitchen for thirty-one years”",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: age and length of service are different attributes, and they are not inconsistent."
+    }
+  ],
+  "summary": {
+    "raw_proposals": 13,
+    "after_dedupe": 13,
+    "confirmed": 0,
+    "final_detections": 0
+  }
+}

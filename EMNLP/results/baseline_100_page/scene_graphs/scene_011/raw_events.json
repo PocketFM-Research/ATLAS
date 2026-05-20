@@ -1,0 +1,1426 @@
+{
+  "10": [
+    {
+      "temp_id": "ev_001",
+      "name": "gather paper and leave",
+      "description": "She collects the single sheet of paper, puts it back in her bag, and prepares to depart.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "She gathered the single sheet of paper. She put it back in her bag."
+      ],
+      "participants": [],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "put on coat unaided",
+      "description": "In the hall, she puts on her coat without Lucia's help, signaling a small shift in independence.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "She put on her coat in the hall this time without Lucia's help"
+      ],
+      "participants": [
+        "Lucia"
+      ],
+      "location_hint": "hall",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_002",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "say goodbye at front door",
+      "description": "She says her goodbyes at the front door and leaves the dining room behind without reentering it.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "she said her goodbyes at the front door without crossing the threshold of the dining room again"
+      ],
+      "participants": [],
+      "location_hint": "front door",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_003",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "step into changed afternoon",
+      "description": "She goes down the stoop into a Thursday afternoon that has turned into thin, surprising sunlight while she was inside.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "she went down the stoop into a Thursday afternoon that had turned, while she was inside, into a thin and surprising sunlight"
+      ],
+      "participants": [],
+      "location_hint": "stoop",
+      "time_hint": "Thursday afternoon",
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_004",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "pause at bottom of steps",
+      "description": "She pauses at the bottom of the steps with her hand on the iron railing, lingering before moving on.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "she stood for a moment at the bottom of the steps with her hand on the iron railing"
+      ],
+      "participants": [],
+      "location_hint": "bottom of the steps",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_005",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "realize uncertainty about house",
+      "description": "She realizes she does not yet know what will happen in the house between now and Monday week.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "She did not yet know, she realized, what would happen in that house between now and Monday week."
+      ],
+      "participants": [],
+      "location_hint": "that house",
+      "time_hint": "between now and Monday week",
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_006",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "wonder about Daniel's change",
+      "description": "She considers whether Daniel will keep or lose the version of himself he revealed at the table.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "She did not know whether Daniel would, in the privacy of the days ahead, find the version of himself he had glimpsed at the table or lose it again."
+      ],
+      "participants": [
+        "Daniel"
+      ],
+      "location_hint": "that house",
+      "time_hint": "the days ahead",
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_007",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "wonder about Lucia's response",
+      "description": "She considers whether Lucia will accept Rosa's offer or reject it repeatedly until it becomes a wound between them.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "She did not know whether Lucia would accept Rosa's offer or refuse it on principle and then refuse it again on a different principle until the offer became a wound between them."
+      ],
+      "participants": [
+        "Lucia",
+        "Rosa"
+      ],
+      "location_hint": null,
+      "time_hint": "the days ahead",
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_008",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_009",
+      "name": "reflect on speaking openly",
+      "description": "She wonders whether saying the largest thing she has said in thirty-one years has opened a door she can no longer easily close.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "She did not know whether Rosa, having said the largest thing she had said in thirty-one years, would be able to say anything else for a while, or whether the saying of it had opened in her a door she had kept closed for very good reasons and could not now easily close again."
+      ],
+      "participants": [
+        "Rosa"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_009",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_010",
+      "name": "learn codicil filed and buyers gone",
+      "description": "She knows the codicil has been filed and the buyers have left, confirming the immediate transaction is complete.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "She knew only that the codicil had been filed, and that the buyers were gone"
+      ],
+      "participants": [
+        "buyers"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_010",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_011",
+      "name": "anticipate appraisal and future meeting",
+      "description": "She knows the appraisal will arrive on Wednesday and that on Monday week the three of them will meet again to decide their future.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_0",
+      "evidence": [
+        "and that the appraisal would arrive on Wednesday, and that on Monday week the three of them would sit in that dining room again and decide, in front of her or without her, what the rest of their lives in relation t"
+      ],
+      "participants": [],
+      "location_hint": "that dining room",
+      "time_hint": "Wednesday; Monday week",
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_0_ev_011",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_001",
+      "name": "anticipates appraisal and family decision",
+      "description": "Asha reflects that the appraisal will arrive Wednesday and that the three of them will soon decide the future of the building and their relationship to it and each other.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "the appraisal would arrive on Wednesday, and that on Monday week the three of them would sit in that dining room again and decide, in front of her or without her, what the rest of their lives in relation to this building and to each other was going to look like"
+      ],
+      "participants": [
+        "Asha",
+        "the three of them"
+      ],
+      "location_hint": "dining room",
+      "time_hint": "Wednesday; Monday week",
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "recognizes her influence on the decision",
+      "description": "Asha understands that her drafting, mediation, and careful refusals have shaped the coming decision as one they made themselves.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "whatever they decided would, by the operation of the documents she had drafted and the conversations she had presided over and the small careful refusals she had made of lunches and first names and evening telephone calls, be a decision they had made and not a decision that had been made for them"
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_002",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "releases the railing",
+      "description": "Asha lets go of the railing, ending her moment of pause.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "She let go of the railing."
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_003",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "looks back at the house",
+      "description": "At the corner, Asha stops, turns, and looks back at the house, noticing its renewed appearance and a slight movement at the sewing-room window.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "She walked to the corner. At the corner she stopped and turned and looked back at the house.",
+        "From this angle, in the afternoon light, the brick was the color it must have been when it was new, and the cornice line was clean against the pale sky, and a single curtain in the second-floor window — the sewing-room window, she realized — moved very slightly, as if someone inside had touched it in passing and not meant to."
+      ],
+      "participants": [
+        "Asha",
+        "someone inside the house"
+      ],
+      "location_hint": "corner by the house",
+      "time_hint": "afternoon",
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_004",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "walks toward the office",
+      "description": "Asha turns the corner and heads east toward her office and the week ahead.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "She turned the corner and walked east, toward the office, and toward the week that was about to begin."
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": "toward the office",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_005",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "starts the workweek with a docket",
+      "description": "The narrative shifts to Asha's Friday morning, when she begins the week facing an ordinary docket and multiple pending legal tasks.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "The week that began on Friday morning began for Asha with the ordinary problem of a docket.",
+        "She had, besides the Serrano estate, a small contested guardianship in Bucks County, a will whose witnessing she needed to defend by affidavit, two intake calls she had postponed twice, and a partner's meeting at four."
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": "Friday morning",
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_006",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "arrives early at the office",
+      "description": "Asha gets to the office at 7:40 in the morning.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_1",
+      "evidence": [
+        "She arrived at the office at seven-forty"
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": "office",
+      "time_hint": "seven-forty",
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_1_ev_007",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_001",
+      "name": "arrive at office early",
+      "description": "She arrives at the office earlier than usual and earlier than she had planned to, despite a full day of obligations ahead.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "She arrived at the office at seven-forty, which was earlier than she usually arrived and earlier than she had told herself she would arrive"
+      ],
+      "participants": [],
+      "location_hint": "the office",
+      "time_hint": "seven-forty",
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "make coffee",
+      "description": "She makes coffee in the office kitchen as part of settling into the day.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "and she made coffee in the small kitchen"
+      ],
+      "participants": [],
+      "location_hint": "small kitchen",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_002",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "reflect at office window",
+      "description": "She stands at her office window looking out at the neighboring brick building, which triggers a comparison to the Serrano house.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "and stood at the window of her office looking at the brick of the building opposite, which was not the brick of the Serrano house but resembled it"
+      ],
+      "participants": [],
+      "location_hint": "office window",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_003",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "review task list",
+      "description": "She looks over the seven-item list she made the night before, taking stock of her pending work and personal concerns.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "She had made, the night before, a list.",
+        "The list was on a yellow pad on her desk and it had seven items on it"
+      ],
+      "participants": [],
+      "location_hint": "desk",
+      "time_hint": "the night before",
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_004",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "confront neutrality note",
+      "description": "She stares at the underlined word 'neutrality,' then crosses it out and replaces it with a reminder about why she does the work.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "the seventh, written in smaller handwriting and underlined twice, was the single word \"neutrality.\"",
+        "She looked at the seventh item for some time and then she crossed it out",
+        "She wrote in its place, in the same small handwriting, \"remember why you do this work.\""
+      ],
+      "participants": [],
+      "location_hint": "desk",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_005",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "call Marcus",
+      "description": "She begins her workday by calling Marcus.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "Then she called Marcus."
+      ],
+      "participants": [
+        "Marcus"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_006",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "learn Marcus filed codicil",
+      "description": "The call reveals that Marcus has already filed the codicil, confirming progress on the matter.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_2",
+      "evidence": [
+        "Marcus had filed the codicil on T"
+      ],
+      "participants": [
+        "Marcus"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_2_ev_007",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_001",
+      "name": "writes reminder in notebook",
+      "description": "She replaces an old note with a new reminder about why she does the work.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "She wrote in its place, in the same small handwriting, \"remember why you do this work.\""
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "calls Marcus",
+      "description": "Asha phones Marcus after making the note.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "Then she called Marcus."
+      ],
+      "participants": [
+        "Asha",
+        "Marcus"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_002",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "files codicil before office closes",
+      "description": "Marcus files the codicil at the Register of Wills shortly before closing time.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "Marcus had filed the codicil on Thursday evening at four-fifteen, twenty minutes before the Register of Wills closed."
+      ],
+      "participants": [
+        "Marcus"
+      ],
+      "location_hint": "Register of Wills",
+      "time_hint": "Thursday evening at four-fifteen",
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_003",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "drafts explanatory letter in car",
+      "description": "Asha drafts the explanatory letter that accompanies the filing while riding back from the house.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "he had filed it under cover of an explanatory letter that Asha had drafted in the car on the way back from the house"
+      ],
+      "participants": [
+        "Asha",
+        "Marcus"
+      ],
+      "location_hint": "car",
+      "time_hint": "on the way back from the house",
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_004",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "pays filing fee from retainer",
+      "description": "Marcus uses the retainer to pay the filing fee for the codicil.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "he had paid the filing fee out of the retainer"
+      ],
+      "participants": [
+        "Marcus"
+      ],
+      "location_hint": null,
+      "time_hint": "Thursday evening at four-fifteen",
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_005",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "secures stamped copy and scan",
+      "description": "Marcus returns with both a stamped paper copy and a digital scan of the filed codicil.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "he had brought back a stamped copy which was now in the file on her desk and a digital scan which was now in the cloud folder she shared with herself"
+      ],
+      "participants": [
+        "Marcus",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_006",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "reflects on document permanence",
+      "description": "The narration frames the codicil as existing in multiple places, emphasizing its practical permanence.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "The codicil existed, in other words, in the world in three places at once, which was as close to permanence as any document achieved in this profession."
+      ],
+      "participants": [
+        "Asha",
+        "Marcus",
+        "codicil"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_007",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "warns that codicil will be contested",
+      "description": "Marcus tells Asha that multiple parties may challenge the codicil.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "\"They will contest it,\" Marcus said, by way of greeting, when he picked up.",
+        "\"Who will.\"",
+        "\"Whoever is going to. The buyers, if they come back and find out the contingency they were depending on is gone. The brother, eventually, if he reverts to type. The IRS, conceivably, if the valuation comes in higher than the basis we are going to claim.\""
+      ],
+      "participants": [
+        "Marcus",
+        "Asha",
+        "buyers",
+        "brother",
+        "IRS"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_008",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_009",
+      "name": "denies brother will contest",
+      "description": "Asha insists that the brother will not challenge the codicil.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "\"The brother is not going to contest it.\""
+      ],
+      "participants": [
+        "Asha",
+        "brother"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_009",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_010",
+      "name": "admits uncertainty and hopes",
+      "description": "Asha concedes she is not certain but is choosing hope despite her lack of coffee.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "\"I am not certain. I am hopeful. There is a difference and I am holding onto it because it is Friday morning and I have not had enough coffee.\""
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": "Friday morning",
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_010",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_011",
+      "name": "Marcus reminds Asha she is not their friend",
+      "description": "Marcus cautions Asha that she is not personally aligned with the people involved.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "\"Asha.\"",
+        "\"What.\"",
+        "\"You are not their friend.\""
+      ],
+      "participants": [
+        "Marcus",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_011",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_012",
+      "name": "acknowledges professional distance",
+      "description": "Asha briefly reacts to Marcus's warning and acknowledges it.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_3",
+      "evidence": [
+        "She held the phone away from her ear for a moment and then brought it back.",
+        "\"I know,\" she said."
+      ],
+      "participants": [
+        "Asha",
+        "Marcus"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_3_ev_012",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_001",
+      "name": "Marcus warns Asha about emotional involvement",
+      "description": "Marcus tells Asha she is not the family's friend and warns her that she is getting too personally attached to the people in the case.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "evidence": [
+        "\"Asha.\"",
+        "\"What.\"",
+        "\"You are not their friend.\"",
+        "\"I am not saying this to reprimand you. I am saying this because I have watched you for three years and I have seen you do this work better than anyone I know and I have also seen the cases where you came close to mistaking the people for the work, and this one has all the markings.\""
+      ],
+      "participants": [
+        "Asha",
+        "Marcus"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_4_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "Marcus identifies warning signs in the case",
+      "description": "Marcus points to specific family dynamics that make Asha vulnerable to overidentifying with the clients and making decisions for them.",
+      "evidence": [
+        "\"The daughter who looks at you a certain way. The housekeeper who has decided to trust you. The son who has, against the odds, started to behave. You like them. You like that they are starting to behave because of something you did. That is the dangerous part. That is the part where lawyers begin to make decisions on behalf of clients instead of for clients.\""
+      ],
+      "participants": [
+        "Marcus",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_4_ev_002",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "Asha denies acting for clients",
+      "description": "Asha insists that she has not made any decisions on the family's behalf.",
+      "evidence": [
+        "\"I have not made any decisions on their behalf.\""
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_4_ev_003",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "Marcus softens warning and ends call",
+      "description": "Marcus clarifies that he is only cautioning Asha before the situation becomes irreversible, then jokingly asks her to buy him lunch and the call ends with a Tuesday lunch plan.",
+      "evidence": [
+        "\"I know you have not. I am saying that the conditions for it exist. I am saying it now while it is still possible to say it.\"",
+        "\"Thank you, Marcus.\"",
+        "\"Do not thank me. Buy me lunch.\"",
+        "\"I will buy you lunch on Friday of next week. After Monday.\"",
+        "\"Tuesday.\"",
+        "\"Tuesday.\""
+      ],
+      "participants": [
+        "Asha",
+        "Marcus"
+      ],
+      "location_hint": null,
+      "time_hint": "Friday of next week / Tuesday",
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_4_ev_004",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "Asha records Marcus's warning",
+      "description": "After hanging up, Asha sits with the receiver and adds Marcus's lunch reminder and warning to her yellow pad notes.",
+      "evidence": [
+        "She hung up and sat for some time with her hand on the receiver, and then she picked up the yellow pad and wrote, beneath the items already there, an eighth item: \"Marcus — Tuesday lunch — listen.\""
+      ],
+      "participants": [
+        "Asha",
+        "Marcus"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_4_ev_005",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "Asha continues her workday",
+      "description": "The scene shifts into a routine workday as Asha handles the guardianship matter, writes a memo, and begins intake calls.",
+      "evidence": [
+        "\"The day went the way days went. The guardianship matter required two telephone calls and a memo. The affidavit took an hour. The intake calls were bo\""
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_4_ev_006",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_4",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_001",
+      "name": "handles routine legal work",
+      "description": "Asha spends the day on guardianship paperwork, an affidavit, and difficult intake calls that consume her attention.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "The guardianship matter required two telephone calls and a memo. The affidavit took an hour.",
+        "The intake calls were both, as intake calls tended to be, longer and stranger than they had appeared on her schedule"
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": "The day",
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "hears intestacy dispute call",
+      "description": "Asha takes a call from a man whose father died intestate and whose siblings are only now discussing the inheritance.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "one of them a man whose father had died intestate in 2019 and whose siblings had decided five years later that this was finally the moment to discuss it"
+      ],
+      "participants": [
+        "Asha",
+        "man"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_002",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "hears disinheritance inquiry",
+      "description": "Asha takes a call from a woman asking whether she can disinherit her estranged son.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "the other a woman who wanted to know whether she could disinherit a son who had not spoken to her in eleven years and whose name she could not, during the call, bring herself to say aloud"
+      ],
+      "participants": [
+        "Asha",
+        "woman"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_003",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "fixates on moving curtain",
+      "description": "While working, Asha keeps thinking about the second-floor window and the curtain that moved.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "underneath these two activities the other part of her, the part she did not have a name for, was thinking about the second-floor window and the curtain that had moved"
+      ],
+      "participants": [
+        "Asha"
+      ],
+      "location_hint": "second-floor window",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_004",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "receives call from Lucia",
+      "description": "At two in the afternoon, Asha's assistant connects a call from Lucia.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "At two in the afternoon her assistant put through a call from Lucia."
+      ],
+      "participants": [
+        "Asha",
+        "Lucia",
+        "assistant"
+      ],
+      "location_hint": null,
+      "time_hint": "two in the afternoon",
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_005",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "Lucia apologizes for calling at work",
+      "description": "Lucia opens the conversation by apologizing for interrupting Asha at work.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "\"I am sorry to call you at work,\" Lucia said."
+      ],
+      "participants": [
+        "Lucia",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_006",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "Asha reassures Lucia",
+      "description": "Asha tells Lucia that the office line exists for calls like this and asks if she is all right.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "\"It is what the office line is for. Are you all right.\""
+      ],
+      "participants": [
+        "Asha",
+        "Lucia"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_007",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "Lucia reports breakfast with Daniel",
+      "description": "Lucia says Daniel came over that morning and they had breakfast together for the first time in a long while.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "\"I am all right. I am calling because Daniel came over this morning and we had breakfast together for the first time in I cannot remember how long\""
+      ],
+      "participants": [
+        "Lucia",
+        "Daniel"
+      ],
+      "location_hint": null,
+      "time_hint": "this morning",
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_008",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_009",
+      "name": "Lucia explains office-line choice",
+      "description": "Lucia explains she called the office line because she remembered Asha's rule about using the cell only for non-office matters.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "\"and I did not want to tell you that on your cell because I remembered you said the office line was for office things\""
+      ],
+      "participants": [
+        "Lucia",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_009",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_010",
+      "name": "Lucia frames personal news as office matter",
+      "description": "Lucia begins to justify her call as an office matter because it concerns something important, but the thought trails off mid-sentence.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_5",
+      "evidence": [
+        "\"and this is, I suppose, an office thing, because it concerns the\""
+      ],
+      "participants": [
+        "Lucia"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_5_ev_010",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_001",
+      "name": "calls office line about estate",
+      "description": "Lucia explains that she called Asha on the office line because the matter concerns the estate and she wanted to respect Asha's boundary about office calls.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"I did not want to tell you that on your cell because I remembered you said the office line was for office things, and this is, I suppose, an office thing, because it concerns the estate, although it does not concern any particular item of the estate.\""
+      ],
+      "participants": [
+        "Lucia",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "Asha approves office-line call",
+      "description": "Asha reassures Lucia that calling the office line was appropriate.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"I am glad you called the office line.\""
+      ],
+      "participants": [
+        "Asha",
+        "Lucia"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_002",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "Daniel brings breakfast",
+      "description": "Lucia reports that Daniel arrived with bagels and breakfast fixings.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"He brought bagels.\"",
+        "\"It is. He brought bagels and lox and cream cheese and capers and the small red onion sliced very thin\""
+      ],
+      "participants": [
+        "Daniel",
+        "Lucia"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_003",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "Lucia recalls mother-like onion slicing",
+      "description": "Lucia notices Daniel sliced the onion the way their mother used to, linking the breakfast to family memory.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"the small red onion sliced very thin, which is the way our mother used to slice it\""
+      ],
+      "participants": [
+        "Lucia",
+        "Daniel",
+        "their mother"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_004",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "breakfast shifts to house discussion",
+      "description": "Lucia says she and Daniel ate breakfast in the kitchen, avoided the house topic at first, then spent two hours discussing it.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"he set the table in the kitchen, not the dining room, and we ate breakfast and we did not talk about the house for the first forty minutes and then we talked about the house for two hours\""
+      ],
+      "participants": [
+        "Lucia",
+        "Daniel"
+      ],
+      "location_hint": "kitchen",
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_005",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "Daniel leaves after breakfast",
+      "description": "After the long conversation, Daniel departs and Lucia remains alone in the kitchen with the dishes.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"and now he is gone and I am sitting in the kitchen looking at the plates\""
+      ],
+      "participants": [
+        "Daniel",
+        "Lucia"
+      ],
+      "location_hint": "kitchen",
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_006",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "Lucia confides in Asha",
+      "description": "Lucia admits she wanted to tell Asha about the breakfast and conversation because Asha is the person she most wanted to tell.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"I wanted to tell someone, and the someone I wanted to tell was you\""
+      ],
+      "participants": [
+        "Lucia",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_007",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "Lucia acknowledges feelings for Asha",
+      "description": "Lucia recognizes that wanting to tell Asha carries emotional meaning and says so openly.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"I am aware of what that means and I am telling you anyway because you said to be honest with you and I am being honest with you.\""
+      ],
+      "participants": [
+        "Lucia",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_008",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_009",
+      "name": "Asha sets professional boundary",
+      "description": "Asha responds gently but firmly that she cannot be Lucia's confidante while serving as the estate lawyer.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"I am glad you and your brother had breakfast. I am glad you talked. I cannot be the person you tell about it. Not yet. Not while I am the lawyer on this estate. After. If you want to, after.\""
+      ],
+      "participants": [
+        "Asha",
+        "Lucia"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_009",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_010",
+      "name": "Lucia accepts boundary",
+      "description": "Lucia absorbs Asha's refusal without anger and agrees to it.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"There was a silence on the line that was not, Asha could tell, an angry silence. It was the silence of a person absorbing something she had half-expected.\"",
+        "\"All right,\" Lucia said."
+      ],
+      "participants": [
+        "Lucia",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_010",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_011",
+      "name": "Asha apologizes",
+      "description": "Asha apologizes for setting the boundary, signaling regret even as she maintains it.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_6",
+      "evidence": [
+        "\"I am sorry.\""
+      ],
+      "participants": [
+        "Asha",
+        "Lucia"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_6_ev_011",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_001",
+      "name": "Lucia accepts the news calmly",
+      "description": "Lucia responds with a calm, non-angry silence and then says she understands what she has heard.",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "evidence": [
+        "an angry silence. It was the silence of a person absorbing something she had half-expected.",
+        "\"All right,\" Lucia said."
+      ],
+      "participants": [
+        "Lucia",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_001",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_002",
+      "name": "Asha apologizes",
+      "description": "Asha apologizes for what has been said or done, prompting Lucia to reject the apology.",
+      "evidence": [
+        "\"I am sorry.\"",
+        "\"Do not be sorry. I would have been disappointed if you had said anything else.\""
+      ],
+      "participants": [
+        "Asha",
+        "Lucia"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_002",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_003",
+      "name": "Lucia reveals estate proposal",
+      "description": "Lucia explains that he asked whether she would consider being bought out of her share of the house and staying for a year while he decides what to do with it.",
+      "evidence": [
+        "\"Yes. He asked me whether I would consider, if he bought out my share of the house at fair market value, staying in it for a year while he decided what he wanted to do with it.\""
+      ],
+      "participants": [
+        "Lucia",
+        "Asha",
+        "he"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_003",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_004",
+      "name": "Lucia postpones answering the proposal",
+      "description": "Lucia says he is not asking for an immediate decision and is only testing whether she can receive the question in two weeks.",
+      "evidence": [
+        "\"He said he was not asking me to decide today.\"",
+        "\"He said he was telling me he was considering asking me, and he wanted to know whether the question was one I would be willing to receive in two weeks.\""
+      ],
+      "participants": [
+        "Lucia",
+        "he"
+      ],
+      "location_hint": null,
+      "time_hint": "in two weeks",
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_004",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_005",
+      "name": "Lucia answers the question carefully",
+      "description": "Lucia tells him she is willing to receive the question later and will answer honestly based on what she knows then.",
+      "evidence": [
+        "\"I told him I would be willing to receive the question.\"",
+        "\"I told him I had not yet decided what I wanted either, and that I would not pretend to have decided in order to give him an answer, and that if he asked me in two weeks I would tell him what I knew then and not before.\""
+      ],
+      "participants": [
+        "Lucia",
+        "he"
+      ],
+      "location_hint": null,
+      "time_hint": "in two weeks",
+      "scope": "global",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_005",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_006",
+      "name": "Asha praises Lucia's phrasing",
+      "description": "Asha compliments Lucia on how well she handled the exchange and admits she borrowed his phrasing.",
+      "evidence": [
+        "\"That was well said.\"",
+        "\"It was your phrasing. I borrowed it.\""
+      ],
+      "participants": [
+        "Asha",
+        "Lucia"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_006",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_007",
+      "name": "Asha expresses estate gratitude",
+      "description": "Asha asks whether it is improper to thank Lucia in an estate-client sense and then states her gratitude.",
+      "evidence": [
+        "\"Is it improper of me to tell you that I am — that I am grateful to you. In an estate sense. As a client. Is that a thing a client is permitted to say.\"",
+        "\"Good. Then I am saying it. In an estate sense.\""
+      ],
+      "participants": [
+        "Asha",
+        "Lucia"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_007",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    },
+    {
+      "temp_id": "ev_008",
+      "name": "Lucia acknowledges gratitude",
+      "description": "Lucia confirms that the gratitude is acceptable and formally receives it as part of the estate matter.",
+      "evidence": [
+        "\"That is a thing a client is permitted to say. Thank you.\"",
+        "\"In an estate sense, received and noted.\""
+      ],
+      "participants": [
+        "Lucia",
+        "Asha"
+      ],
+      "location_hint": null,
+      "time_hint": null,
+      "scope": "local",
+      "id": "ev_baseline_10_doc_9_chunk_0_part_7_ev_008",
+      "scene_id": "10",
+      "chunk_id": "doc_9_chunk_0_part_7",
+      "type": "Event",
+      "movie_id": "baseline_100_page__scene_10"
+    }
+  ]
+}

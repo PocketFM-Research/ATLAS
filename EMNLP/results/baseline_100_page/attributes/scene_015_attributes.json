@@ -1,0 +1,89 @@
+{
+  "Asha": {
+    "role": "estate lawyer",
+    "carries": "agenda in bag",
+    "uses": "numbered agendas",
+    "holds": "yellow pad"
+  },
+  "Daniel": {
+    "kinship": "Lucia's brother",
+    "has_siblings": "Lucia",
+    "holds": "yellow pad",
+    "drinks": "coffee",
+    "is_beneficiary": "under codicil",
+    "inherits": "estate residue half",
+    "benefits_from": "one-third house charge",
+    "does_not_contest": "codicil",
+    "does_not_contest_life_tenancy": "Rosa",
+    "needs": "money"
+  },
+  "Lucia": {
+    "kinship": "Daniel's sister",
+    "has_siblings": "Daniel",
+    "wears": "mother's gold earrings",
+    "holds": "yellow pad",
+    "is_beneficiary": "under codicil",
+    "inherits": "house",
+    "inherits_residue": "estate half",
+    "owes": "one-third appraised value",
+    "does_not_contest": "codicil",
+    "bank_location": "New York",
+    "owns": "New York apartment",
+    "occupation": "editor",
+    "editing_from": "hotels and spare rooms",
+    "editing_duration": "3 years",
+    "intends": "sell apartment",
+    "does_not_contest_life_tenancy": "Rosa"
+  },
+  "Rosa": {
+    "role": "housekeeper",
+    "employer": "Mrs. Serrano",
+    "employment_ended": "at Mrs. Serrano's death",
+    "is_witness": "codicil witness",
+    "is_beneficiary": "not under codicil",
+    "inherits": "third-floor life tenancy",
+    "accepts": "life tenancy",
+    "age_years": "71",
+    "lived_with": "Mrs. Serrano 31 years"
+  },
+  "Mrs. Serrano": {
+    "life_status": "dead",
+    "has_children": "Daniel and Lucia",
+    "employed": "Rosa",
+    "signed": "codicil",
+    "owed": "credit card balance",
+    "owed_gas_company": "unpaid sum"
+  },
+  "codicil": {
+    "type": "operative testamentary instrument",
+    "filed_status": "filed",
+    "leaves_house_to": "Lucia",
+    "creates_charge_for": "Daniel",
+    "charge_amount": "one-third appraised value",
+    "creates_life_tenancy_for": "Rosa",
+    "life_tenancy_location": "third-floor rooms",
+    "residue_divides_between": "Daniel and Lucia equally"
+  },
+  "agenda": {
+    "count": "3 pages",
+    "condition": "single-spaced",
+    "numbered_items": "every item"
+  },
+  "Mrs. Serrano's house": {
+    "has_credit_line": "small line",
+    "appraisal_relation": "higher than Daniel hoped",
+    "appraisal_relation_2": "lower than Lucia feared"
+  },
+  "Rosa's life tenancy": {
+    "type": "life tenancy",
+    "location": "third-floor rooms",
+    "terminable": "at Rosa's election only",
+    "requires_residence": "no",
+    "requires_rent": "no",
+    "requires_service": "no",
+    "contingent_on_employment": "no"
+  },
+  "New York": {
+    "has": "Lucia's apartment"
+  }
+}

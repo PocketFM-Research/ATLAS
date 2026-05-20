@@ -1,0 +1,49 @@
+{
+  "Asha": {
+    "role": "probate evaluator",
+    "holds": "codicil and journal"
+  },
+  "Rosa": {
+    "role": "witness",
+    "holds": "brass key",
+    "uses": "journal",
+    "witnessed": "codicil signing"
+  },
+  "Daniel": {
+    "role": "contestant",
+    "kinship": "Lucia's brother"
+  },
+  "Lucia": {
+    "holds": "codicil page",
+    "uses": "kept codicil"
+  },
+  "codicil": {
+    "type": "typed page",
+    "condition": "contested",
+    "origin_of_object": "kept by Lucia"
+  },
+  "journal": {
+    "type": "cloth-bound journal",
+    "physical": "leather-edged",
+    "contains": "mother's entries"
+  },
+  "brass key": {
+    "material": "brass",
+    "locked_state": "fits locked door"
+  },
+  "buyers' hold": {
+    "duration": "lapses in days"
+  },
+  "probate judge": {
+    "role": "probate judge"
+  },
+  "notary": {
+    "role": "notary"
+  },
+  "their mother": {
+    "life_status": "dead",
+    "uses": "journal",
+    "signed": "codicil",
+    "date": "same as codicil"
+  }
+}

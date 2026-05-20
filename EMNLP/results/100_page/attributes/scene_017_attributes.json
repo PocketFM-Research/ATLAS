@@ -1,0 +1,123 @@
+{
+  "Asha": {
+    "occupation": "lawyer",
+    "uses": "briefcase",
+    "uses_2": "phone",
+    "uses_3": "legal pad",
+    "drives": "car",
+    "writes_with": "ballpoint pen",
+    "shorthand_style": "left-handed shorthand",
+    "scheduled_meeting": "Whitfield Tuesday morning",
+    "scheduled_meeting_2": "before partners' meeting",
+    "decision": "will meet Whitfield without Devin",
+    "carries": "briefcase to Whitfield office"
+  },
+  "Whitfield": {
+    "occupation": "lawyer",
+    "has_office": "yes",
+    "scheduled_meeting_with": "Asha Tuesday morning",
+    "scheduled_meeting_time": "before seven",
+    "affiliated_with": "partners' meeting",
+    "source_of_warning": "voicemail about Hatcher record"
+  },
+  "Devin": {
+    "occupation": "lawyer",
+    "associated_with": "corrected filing",
+    "phone_contact_status": "untouched number",
+    "message_thread_with": "Asha"
+  },
+  "Hatcher": {
+    "associated_with": "Hatcher record",
+    "associated_with_2": "Hatcher corrected filing"
+  },
+  "hospital": {
+    "identity_type": "hospital"
+  },
+  "Whitfield's office": {
+    "identity_type": "office",
+    "owner": "Whitfield"
+  },
+  "partners' meeting": {
+    "identity_type": "meeting",
+    "day": "Tuesday"
+  },
+  "Friday": {
+    "identity_type": "day",
+    "relative_time": "Friday afternoon"
+  },
+  "Tuesday": {
+    "identity_type": "day"
+  },
+  "Monday": {
+    "identity_type": "day"
+  },
+  "Devin's corrected filing": {
+    "identity_type": "legal filing",
+    "condition": "corrected",
+    "owner_association": "Devin",
+    "has": "electronic intake stamp",
+    "day": "Monday"
+  },
+  "Hatcher corrected filing": {
+    "identity_type": "legal filing",
+    "condition": "corrected",
+    "associated_with": "Hatcher",
+    "has": "electronic intake stamp"
+  },
+  "Whitfield's voicemail": {
+    "identity_type": "voicemail",
+    "owner": "Whitfield",
+    "date": "Friday afternoon",
+    "count": "played twice",
+    "scheduled_request": "Tuesday morning",
+    "scheduled_request_2": "before seven",
+    "subject": "Hatcher record discrepancy"
+  },
+  "Asha's briefcase": {
+    "identity_type": "briefcase",
+    "owner": "Asha",
+    "locked_state": "latched shut",
+    "material": "leather",
+    "has": "small brass lock"
+  },
+  "Asha's legal pad": {
+    "identity_type": "legal pad",
+    "owner": "Asha",
+    "content": "Monday trial notes",
+    "content_2": "caseworker cross",
+    "mark_count": "three ticks",
+    "marking_style": "left-handed shorthand",
+    "has": "circled margin marks"
+  },
+  "court's intake confirmation": {
+    "identity_type": "court document",
+    "source": "docket"
+  },
+  "caseworker": {
+    "role": "caseworker",
+    "sworn_status": "was sworn Monday afternoon"
+  },
+  "courthouse clerk": {
+    "occupation": "clerk",
+    "affiliated_with": "courthouse"
+  },
+  "night clerk": {
+    "occupation": "clerk",
+    "title": "night clerk"
+  },
+  "study": {
+    "identity_type": "room"
+  },
+  "green-shaded lamp": {
+    "identity_type": "lamp",
+    "color": "green-shaded",
+    "use": "late reading"
+  },
+  "desk clock": {
+    "identity_type": "clock",
+    "location_type": "desk"
+  },
+  "Asha's car": {
+    "identity_type": "car"
+  }
+}

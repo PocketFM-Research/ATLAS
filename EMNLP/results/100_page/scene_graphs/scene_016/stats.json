@@ -1,0 +1,34 @@
+{
+  "movie_id": "100_page__scene_16",
+  "title": "",
+  "node_count_total": 119,
+  "node_count_by_type": {
+    "Event": 44,
+    "Character": 8,
+    "Location": 12,
+    "TimePoint": 4,
+    "Object": 46,
+    "Vehicle": 3,
+    "Concept": 2
+  },
+  "edge_count_total": 155,
+  "edge_count_by_relation": {
+    "performs": 48,
+    "located_at": 22,
+    "part_of": 27,
+    "affinity_with": 4,
+    "kinship_with": 6,
+    "occurs_at": 22,
+    "experiences": 6,
+    "undergoes": 17,
+    "uses": 1,
+    "possesses": 2
+  },
+  "nodes_with_evidence_pct": 100.0,
+  "edges_with_evidence_pct": 100.0,
+  "schema_violation_count": 0,
+  "avg_degree": 2.61,
+  "disconnected_component_count": 17,
+  "avg_aliases_per_node": 1.57,
+  "avg_edge_confidence": 0.888
+}

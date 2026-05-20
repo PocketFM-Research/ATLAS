@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "confirm",
+      "attribute": "journal material",
+      "prior_quote": "Scene 2: \"a small leather-bound journal that had been pressed flat beneath it.\"",
+      "later_quote": "Scene 3: \"Rosa reached out and tapped the cover of the journal ... the flat sound of a fingernail on cloth-bound board.\"",
+      "reason": "All four conditions hold: the same journal is described first as leather-bound and later as cloth-bound, with no on-screen explanation."
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "key identity/material",
+      "prior_quote": "Scene 2: \"Lucia's hand went into the pocket of her cardigan ... Asha felt the cold tarnish of a silver key ... and fitted it into the small brass lock on the long edge of the case.\"",
+      "later_quote": "Scene 3: \"Rosa ... laid a heavy brass key down on the wood beside the codicil.\"",
+      "reason": "Fails A: these quotes do not establish the same key; scene 2's silver key opens the velvet case, while scene 3 introduces a different brass key without saying it is the same object."
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "custody/possession of document",
+      "prior_quote": "Scene 2: \"Lucia went down the stairs first, the folder pressed flat to the front of her cardigan, the leather corner of the journal denting the wool.\"",
+      "later_quote": "Scene 3: \"It was the page Lucia had been keeping.\"",
+      "reason": "Fails B: the first quote is about Lucia physically carrying the folder/journal, while the later quote is about her having kept the page; those are not contradictory values for the same specific attribute."
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "kinship",
+      "prior_quote": "Scene 1: Daniel is searching \"his mother's writing desk\" and asks about papers in \"his mother's room.\"",
+      "later_quote": "Scene 4: \"Daniel had named his ground and then, under the weight of Rosa's sworn page and the journal beside it, had let his attorney write the withdrawal in the kitchen.\"",
+      "reason": "Fails B: the first quote establishes Daniel as the dead woman's son, not Rosa's son; the later quote concerns legal representation, not kinship."
+    },
+    {
+      "index": 5,
+      "decision": "reject",
+      "attribute": "transport plan to Trenton",
+      "prior_quote": "Scene 2: \"Asha ... looked at the gap between Thursday's depositions and the Friday filing, measuring it against the timetable for the regional line into Trenton.\"",
+      "later_quote": "Scene 4: \"Rosa: I have the morning free...\" / \"Asha typed back, I have the schedule. I will drive myself\" and later \"Asha walked the half block to her car.\"",
+      "reason": "Fails C: considering the train timetable is not a committed plan, and scene 4 explicitly shows she decides to drive herself instead."
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "Rosa's knowledge scope",
+      "prior_quote": "Scene 2: Rosa texts, \"he's fishing, don't let him talk you into a misunderstanding, bring the journal and Lucia down now.\"",
+      "later_quote": "Scene 4: Rosa texts, \"the form was called an MDS-discharge addendum, and the social worker would need it signed before Friday\" and advises on nursing notes and medication logs.",
+      "reason": "Fails B: the earlier quote does not assert that Rosa knows only house-paper matters; it merely shows one message about Daniel, so there is no contradictory value for the same attribute."
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "kinship",
+      "prior_quote": "Scene 2: \"Daniel stood three steps back from the threshold ... and his face changed when he saw Lucia beside her\" and later \"Daniel watched his sister hold the folder.\"",
+      "later_quote": "Scene 5: \"the closest one to Daniel—her brother Daniel, not Lucia's—was the cheapest\"",
+      "reason": "Fails A: scene 5 distinguishes Asha's brother Daniel from Lucia's family context; it does not identify the same Daniel as Lucia's sibling, so the entity match is not established."
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "mode of travel",
+      "prior_quote": "Scene 4: \"she found a Thursday evening departure\" and \"She booked the seat under her own card.\"",
+      "later_quote": "Scene 5: \"she had spent the cab ride composing softer versions\"",
+      "reason": "Fails B: the first quote is about booking a train to Trenton, while the later quote refers to a cab ride at a different time; these are not contradictory values for the same trip attribute."
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "sibling relationship",
+      "prior_quote": "Scene 5: \"the closest one to Daniel—her brother Daniel, not Lucia's\" and later she calls \"Marcus's name\" as \"his son\".",
+      "later_quote": "Scene 6: \"Lucia held the proxy, the signature was already on its way to a notary\" and \"Lucia's name once, quietly, as though placing it where it belonged.\"",
+      "reason": "Fails B: scene 6 does not treat Asha as Lucia's sibling; it concerns Lucia's proxy role, not Asha's kinship."
+    },
+    {
+      "index": 10,
+      "decision": "confirm",
+      "attribute": "facility name",
+      "prior_quote": "Scene 5: \"The cheapest one on here is Bridgeview, out past Levittown.\"",
+      "later_quote": "Scene 6: \"Bridgepoint needed a signed transfer packet, a physician's order, and a deposit wired before Friday at five\" and \"the family had chosen Bridgepoint.\"",
+      "reason": "All four conditions hold: the chosen facility is named Bridgeview in scene 5 and Bridgepoint in scene 6, with no on-screen explanation for the name change."
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "facility preference/selection",
+      "prior_quote": "Scene 5: \"She thought about the closer two ... and did the arithmetic\" and then called Marcus because the cheapest option was near him.",
+      "later_quote": "Scene 6: \"Marcus's swallow turned ... into a sentence: he could do half of the Bridgepoint rate, not the closer place.\"",
+      "reason": "Fails C: scene 5 does not assert that Asha chose a closer place; it says she considered those options before discussing costs with Marcus."
+    },
+    {
+      "index": 12,
+      "decision": "reject",
+      "attribute": "deadline type",
+      "prior_quote": "Scene 5: \"the family would need to choose by Friday.\"",
+      "later_quote": "Scene 6: \"Bridgepoint needed ... a deposit wired before Friday at five.\"",
+      "reason": "Fails B: these quotes concern different attributes—scene 5 gives the facility-choice deadline, while scene 6 gives the deposit/payment deadline."
+    }
+  ]
+}

@@ -1,0 +1,4126 @@
+{
+  "8": [
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_001",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "Lucia made a small noise. It was not a laugh and not a sound of contempt.",
+        "she was making, in real time, an adjustment to a story she had been telling herself about him"
+      ],
+      "confidence": 0.93,
+      "source_name": "Lucia",
+      "target_name": "Lucia reacts to Daniel's remark",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_001",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"Daniel,\" she said.",
+        "\"All right.\""
+      ],
+      "confidence": 0.96,
+      "source_name": "Lucia",
+      "target_name": "Lucia addresses Daniel cautiously",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_002",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"Don't.\"",
+        "\"Don't, Lucia.\"",
+        "He put his hand flat on the memorandum.",
+        "\"What do you need from us today,\" he said."
+      ],
+      "confidence": 0.97,
+      "source_name": "Daniel",
+      "target_name": "Daniel demands the memorandum",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_003",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"I need you to agree to the appraisal. I have three names of independent appraisers. Any one of them is acceptable to my office and to the Register of Wills.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha requests appraisal agreement",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_004",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"I will arrange the inspection. The report should be available within ten days. We will meet again on the day the report is delivered.\""
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha schedules inspection and report",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_005",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"Between now and then I would like the three of you to live in this house, or visit this house, or stay out of this house, as you each prefer, and to refrain from removing any item from the premises without notice to the other two and to my office.\""
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Asha imposes house restrictions",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_006",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"...and to refrain from removing any item from the premises without notice to the other two and to my office.\"",
+        "\"Including objects you believe to be personally yours. Including objects of sentimental rather than financial value.\""
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha forbids removing personal items",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_007",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"Including, Mr. Serrano, the watch in the upstairs study that I noticed yesterday you were looking at while we spoke...\""
+      ],
+      "confidence": 0.94,
+      "source_name": "Asha",
+      "target_name": "Asha singles out Serrano's watch",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_008",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_012",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"Between now and then I would like the three of you to live in this house, or visit this house, or stay out of this house...\""
+      ],
+      "confidence": 0.72,
+      "source_name": "Lucia reacts to Daniel's remark",
+      "target_name": "the house",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_009",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_012",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"Between now and then I would like the three of you to live in this house, or visit this house, or stay out of this house...\""
+      ],
+      "confidence": 0.72,
+      "source_name": "Lucia addresses Daniel cautiously",
+      "target_name": "the house",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_010",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_012",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "He put his hand flat on the memorandum.",
+        "\"What do you need from us today,\" he said."
+      ],
+      "confidence": 0.55,
+      "source_name": "Daniel demands the memorandum",
+      "target_name": "the house",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_011",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_012",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"I need you to agree to the appraisal. I have three names of independent appraisers.\""
+      ],
+      "confidence": 0.55,
+      "source_name": "Asha requests appraisal agreement",
+      "target_name": "the house",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_012",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_012",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"I will arrange the inspection.\""
+      ],
+      "confidence": 0.55,
+      "source_name": "Asha schedules inspection and report",
+      "target_name": "the house",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_013",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_012",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"Between now and then I would like the three of you to live in this house, or visit this house, or stay out of this house...\""
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha imposes house restrictions",
+      "target_name": "the house",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_014",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_012",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"...refrain from removing any item from the premises without notice to the other two and to my office.\""
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha forbids removing personal items",
+      "target_name": "the house",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_015",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_016",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"Including, Mr. Serrano, the watch in the upstairs study...\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha singles out Serrano's watch",
+      "target_name": "upstairs study",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_016",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_005",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_005",
+      "target_type": "Object",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "He put his hand flat on the memorandum."
+      ],
+      "confidence": 0.2,
+      "source_name": "memorandum",
+      "target_name": "memorandum",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_017",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"Including, Mr. Serrano, the watch in the upstairs study that I noticed yesterday you were looking at while we spoke...\""
+      ],
+      "confidence": 0.88,
+      "source_name": "Mr. Serrano",
+      "target_name": "Asha singles out Serrano's watch",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_018",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_015",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_0_ent_016",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_0",
+      "evidence": [
+        "\"the watch in the upstairs study\""
+      ],
+      "confidence": 0.99,
+      "source_name": "the watch",
+      "target_name": "upstairs study",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_0_rel_020",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_011",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_001",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "Including, Mr. Serrano, the watch in the upstairs study that I noticed yesterday you were looking at while we spoke about the dining room."
+      ],
+      "confidence": 0.93,
+      "source_name": "attorney",
+      "target_name": "attorney identifies sentimental property",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_001",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_003",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_001",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "Including, Mr. Serrano, the watch in the upstairs study that I noticed yesterday you were looking at while we spoke about the dining room."
+      ],
+      "confidence": 0.88,
+      "source_name": "watch",
+      "target_name": "attorney identifies sentimental property",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_002",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "\"It was my grandfather's,\" he said."
+      ],
+      "confidence": 0.98,
+      "source_name": "Daniel",
+      "target_name": "Daniel claims grandfather's watch",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_003",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_003",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_003",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "But it will be yours by agreement among the three of you, recorded in the inventory, and not by removal in the meantime."
+      ],
+      "confidence": 0.95,
+      "source_name": "watch",
+      "target_name": "attorney instructs watch remain in inventory",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_004",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_011",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_003",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "But it will be yours by agreement among the three of you, recorded in the inventory, and not by removal in the meantime."
+      ],
+      "confidence": 0.96,
+      "source_name": "attorney",
+      "target_name": "attorney instructs watch remain in inventory",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_005",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_011",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "I am asking this of all of you. I am not singling you out."
+      ],
+      "confidence": 0.97,
+      "source_name": "attorney",
+      "target_name": "attorney asks all siblings to comply",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_006",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_005",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "Ms. Serrano, the same applies to the letter, which I would like you to leave in the sewing room where you found it for the remainder of the inventory period"
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia Serrano",
+      "target_name": "attorney directs Lucia to leave letter",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_007",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_006",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "Ms. Serrano, the same applies to the letter, which I would like you to leave in the sewing room where you found it for the remainder of the inventory period"
+      ],
+      "confidence": 0.97,
+      "source_name": "letter",
+      "target_name": "attorney directs Lucia to leave letter",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_008",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_011",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "Ms. Serrano, the same applies to the letter, which I would like you to leave in the sewing room where you found it for the remainder of the inventory period"
+      ],
+      "confidence": 0.96,
+      "source_name": "attorney",
+      "target_name": "attorney directs Lucia to leave letter",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_009",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_008",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "Ms. Maldonado, the same applies to the books in the second-floor hallway."
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa Maldonado",
+      "target_name": "attorney directs Rosa to leave books",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_010",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_009",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "Ms. Maldonado, the same applies to the books in the second-floor hallway."
+      ],
+      "confidence": 0.97,
+      "source_name": "books",
+      "target_name": "attorney directs Rosa to leave books",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_011",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_011",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "Ms. Maldonado, the same applies to the books in the second-floor hallway."
+      ],
+      "confidence": 0.96,
+      "source_name": "attorney",
+      "target_name": "attorney directs Rosa to leave books",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_012",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_008",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "\"How did you know,\" she said."
+      ],
+      "confidence": 0.95,
+      "source_name": "Rosa Maldonado",
+      "target_name": "Rosa questions attorney's knowledge",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_013",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_011",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "\"You were looking at them yesterday when we came down from the sewing room.\""
+      ],
+      "confidence": 0.94,
+      "source_name": "attorney",
+      "target_name": "attorney explains he observed Rosa",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_014",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_008",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_009",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "\"They are inscribed.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Rosa Maldonado",
+      "target_name": "Rosa confirms books are inscribed",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_015",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_008",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_010",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "\"Yes,\" Rosa said. \"I understand.\""
+      ],
+      "confidence": 0.96,
+      "source_name": "Rosa Maldonado",
+      "target_name": "Rosa accepts inventory restriction",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_016",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_011",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "They chose the appraiser."
+      ],
+      "confidence": 0.9,
+      "source_name": "Daniel",
+      "target_name": "siblings choose appraiser",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_017",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_005",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_011",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "They chose the appraiser."
+      ],
+      "confidence": 0.9,
+      "source_name": "Lucia Serrano",
+      "target_name": "siblings choose appraiser",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_018",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_008",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_011",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "They chose the appraiser."
+      ],
+      "confidence": 0.9,
+      "source_name": "Rosa Maldonado",
+      "target_name": "siblings choose appraiser",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_019",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_012",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "Daniel suggested the one whose name he recognized from a real-estate transaction he had handled at his firm;"
+      ],
+      "confidence": 0.98,
+      "source_name": "Daniel",
+      "target_name": "Daniel proposes familiar appraiser",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_020",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_005",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_013",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "Lucia objected on principle;"
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia Serrano",
+      "target_name": "Lucia objects to appraiser choice",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_021",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_008",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_014",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "Rosa, asked her opinion, said she had no opinion about appraisers"
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa Maldonado",
+      "target_name": "Rosa declines appraiser opinion",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_022",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_011",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_004",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "the watch in the upstairs study"
+      ],
+      "confidence": 0.72,
+      "source_name": "attorney",
+      "target_name": "upstairs study",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_023",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_004",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "the watch in the upstairs study"
+      ],
+      "confidence": 0.9,
+      "source_name": "attorney identifies sentimental property",
+      "target_name": "upstairs study",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_024",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_007",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "leave in the sewing room where you found it"
+      ],
+      "confidence": 0.96,
+      "source_name": "attorney directs Lucia to leave letter",
+      "target_name": "sewing room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_025",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_1_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_010",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "the books in the second-floor hallway"
+      ],
+      "confidence": 0.96,
+      "source_name": "attorney directs Rosa to leave books",
+      "target_name": "second-floor hallway",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_026",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_012",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_012",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "recorded in the inventory"
+      ],
+      "confidence": 0.5,
+      "source_name": "inventory",
+      "target_name": "inventory",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_027",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_013",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_1_ent_013",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_1",
+      "evidence": [
+        "appraiser"
+      ],
+      "confidence": 0.5,
+      "source_name": "appraiser",
+      "target_name": "appraiser",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_1_rel_028",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_001",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "they took the second name on the list",
+        "which was a woman named Beverly Ostrowski"
+      ],
+      "confidence": 0.84,
+      "source_name": "Lucia",
+      "target_name": "select appraiser from list",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_001",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "Rosa, asked her opinion, said she had no opinion about appraisers but that she trusted the counselor to know who was honest",
+        "and ... was ... fair"
+      ],
+      "confidence": 0.78,
+      "source_name": "Rosa",
+      "target_name": "confirm appraiser's reputation",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_002",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "\"There is one more thing,\" she said, \"that I would like to say, and then I will leave you to your morning. It is not legal advice. It is a request.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha announces final request",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_004",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "The three of them looked at her."
+      ],
+      "confidence": 0.74,
+      "source_name": "Lucia",
+      "target_name": "family listens to Asha",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_005",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "The three of them looked at her."
+      ],
+      "confidence": 0.74,
+      "source_name": "Rosa",
+      "target_name": "family listens to Asha",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_006",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "\"You are now,\" she said, \"the co-owners of a building. ... Those two facts are going to be in tension over the next two weeks.\""
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha frames co-ownership tension",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_008",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "\"The legal frame I have given you is designed to keep that tension productive. It is not designed to resolve it.\""
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha defines legal frame as temporary",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_009",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "\"The resolution will happen, if it happens, in this room, without me, and possibly without any document at all.\""
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Asha predicts private resolution",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_010",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_009",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "\"I would like to ask each of you — and I am asking this as a person who has watched many families do this badly and a few do it w\""
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "Asha asks for personal commitment",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_011",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "they took the second name on the list, which was a woman named Beverly Ostrowski ... and was, by Rosa's recollection of neighborhood gossip, fair"
+      ],
+      "confidence": 0.7,
+      "source_name": "select appraiser from list",
+      "target_name": "confirm appraiser's reputation",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_012",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_003",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "By eleven they were done with the formal work of the morning. Asha closed her folder. She did not yet stand up. \"There is one more thing,\" she said"
+      ],
+      "confidence": 0.92,
+      "source_name": "finish morning formalities",
+      "target_name": "Asha announces final request",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_013",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_004",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "\"There is one more thing,\" she said ... \"You are now,\" she said, \"the co-owners of a building.\""
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha announces final request",
+      "target_name": "Asha frames co-ownership tension",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_014",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_006",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "Those two facts are going to be in tension over the next two weeks. The legal frame I have given you is designed to keep that tension productive."
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha frames co-ownership tension",
+      "target_name": "Asha defines legal frame as temporary",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_015",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_007",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "\"It is not designed to resolve it. It cannot resolve it. The resolution will happen, if it happens, in this room, without me\""
+      ],
+      "confidence": 0.91,
+      "source_name": "Asha defines legal frame as temporary",
+      "target_name": "Asha predicts private resolution",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_016",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_008",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_009",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "\"The resolution will happen, if it happens, in this room, without me, and possibly without any document at all. I would like to ask each of you\""
+      ],
+      "confidence": 0.86,
+      "source_name": "Asha predicts private resolution",
+      "target_name": "Asha asks for personal commitment",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_017",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_009",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "The resolution will happen, if it happens, in this room, without me"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha predicts private resolution",
+      "target_name": "this room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_018",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_009",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "\"The resolution will happen, if it happens, in this room, without me, and possibly without any document at all. I would like to ask each of you\""
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha asks for personal commitment",
+      "target_name": "this room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_019",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_010",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "By eleven they were done with the formal work of the morning."
+      ],
+      "confidence": 0.98,
+      "source_name": "finish morning formalities",
+      "target_name": "By eleven",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_020",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_001",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "which was a woman named Beverly Ostrowski who had appraised the house across the street the previous spring"
+      ],
+      "confidence": 0.9,
+      "source_name": "Beverly Ostrowski",
+      "target_name": "select appraiser from list",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_021",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "which was a woman named Beverly Ostrowski who had appraised the house across the street the previous spring and was, by Rosa's recollection of neighborhood gossip, fair"
+      ],
+      "confidence": 0.86,
+      "source_name": "Beverly Ostrowski",
+      "target_name": "confirm appraiser's reputation",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_022",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "The three of them looked at her."
+      ],
+      "confidence": 0.8,
+      "source_name": "Asha",
+      "target_name": "family listens to Asha",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_023",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_006",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_008",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "\"The legal frame I have given you is designed to keep that tension productive.\""
+      ],
+      "confidence": 0.89,
+      "source_name": "co-ownership of a building",
+      "target_name": "the legal frame",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_024",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_007",
+      "source_type": "Concept",
+      "relation": "part_of",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_006",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "\"You are also, separately and not by my doing and not by anything that will appear in the file, the three people who loved your mother most closely in the last decade of her life.\""
+      ],
+      "confidence": 0.55,
+      "source_name": "family bond to their mother",
+      "target_name": "co-ownership of a building",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_025",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_001",
+      "target_type": "Character",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "the three people who loved your mother most closely in the last decade of her life"
+      ],
+      "confidence": 0.52,
+      "source_name": "Asha",
+      "target_name": "Lucia",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_026",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_002",
+      "target_type": "Character",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "the three people who loved your mother most closely in the last decade of her life"
+      ],
+      "confidence": 0.52,
+      "source_name": "Asha",
+      "target_name": "Rosa",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_027",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_003",
+      "target_type": "Character",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "the three people who loved your mother most closely in the last decade of her life"
+      ],
+      "confidence": 0.52,
+      "source_name": "Asha",
+      "target_name": "the counselor",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_028",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_009",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "evidence": [
+        "in this room"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "this room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_rel_029",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "synth_ev_baseline_8_doc_7_chunk_0_part_2_ev_003_ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_2_ev_003",
+      "target_type": "Event",
+      "evidence": [
+        "By eleven they were done with the formal work of the morning. Asha closed her folder. She did not yet stand up."
+      ],
+      "confidence": 0.6,
+      "source_name": "Asha",
+      "target_name": "finish morning formalities",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_2_synth_ev_baseline_8_doc_7_chunk_0_part_2_ev_003_ent_baseline_8_doc_7_chunk_0_part_2_ent_005",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_2",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_001",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"I would like to ask each of you — ... — to give each other, for the next two weeks, the benefit of a doubt you do not yet feel like extending.\""
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "counselor urges temporary restraint",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_001",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"I will see myself out,\" she said.",
+        "She picked up her bag. She walked to the dining room door."
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "counselor ends meeting and leaves",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_002",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_003",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "when Daniel said her name.",
+        "\"Counselor.\""
+      ],
+      "confidence": 0.96,
+      "source_name": "Daniel Serrano",
+      "target_name": "Daniel stops counselor at the door",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_003",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"I want to ask you something,\" he said, \"and I want you to answer it as my attorney and not as — not as anything else.\""
+      ],
+      "confidence": 0.97,
+      "source_name": "Daniel Serrano",
+      "target_name": "Daniel asks for legal advice",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_004",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"I am not your attorney, Mr. Serrano. I am the attorney for the estate. There is a difference.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha clarifies her role",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_005",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"Answer me as the attorney for the estate.\"",
+        "\"Should I get my own lawyer.\""
+      ],
+      "confidence": 0.95,
+      "source_name": "Daniel Serrano",
+      "target_name": "Daniel insists on estate counsel",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_006",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"Should I get my own lawyer.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Daniel Serrano",
+      "target_name": "Daniel asks whether he needs a lawyer",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_007",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_003",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "Lucia made another small noise, different from the first."
+      ],
+      "confidence": 0.88,
+      "source_name": "Lucia",
+      "target_name": "Lucia reacts to legal question",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_008",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_009",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "Asha considered the question. She considered it with the care it deserved, which was considerable,"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha weighs her answer carefully",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_009",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"She walked to the dining room door.\""
+      ],
+      "confidence": 0.84,
+      "source_name": "counselor urges temporary restraint",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_010",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"She walked to the dining room door.\""
+      ],
+      "confidence": 0.9,
+      "source_name": "counselor ends meeting and leaves",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_011",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"He was standing now. He had pushed his chair back.\""
+      ],
+      "confidence": 0.9,
+      "source_name": "Daniel stops counselor at the door",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_012",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"He was standing now. He had pushed his chair back.\""
+      ],
+      "confidence": 0.9,
+      "source_name": "Daniel asks for legal advice",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_013",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"I am not your attorney, Mr. Serrano. I am the attorney for the estate. There is a difference.\""
+      ],
+      "confidence": 0.82,
+      "source_name": "Asha clarifies her role",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_014",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"Answer me as the attorney for the estate.\"",
+        "\"Should I get my own lawyer.\""
+      ],
+      "confidence": 0.82,
+      "source_name": "Daniel insists on estate counsel",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_015",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"Should I get my own lawyer.\""
+      ],
+      "confidence": 0.82,
+      "source_name": "Daniel asks whether he needs a lawyer",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_016",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "Lucia made another small noise, different from the first."
+      ],
+      "confidence": 0.8,
+      "source_name": "Lucia reacts to legal question",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_017",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_3_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "Asha considered the question."
+      ],
+      "confidence": 0.8,
+      "source_name": "Asha weighs her answer carefully",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_018",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"She walked to the dining room door.\""
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_019",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"He was standing now. He had pushed his chair back.\""
+      ],
+      "confidence": 0.95,
+      "source_name": "Daniel Serrano",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_020",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_003",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "Lucia made another small noise, different from the first."
+      ],
+      "confidence": 0.9,
+      "source_name": "Lucia",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_021",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_004",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"The appraiser will call this afternoon to arrange access.\""
+      ],
+      "confidence": 0.72,
+      "source_name": "the appraiser",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_022",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_006",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"The memorandum is on the table.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "memorandum",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_023",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_008",
+      "source_type": "Concept",
+      "relation": "part_of",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_009",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"the family's relationship with itself\""
+      ],
+      "confidence": 0.74,
+      "source_name": "the estate",
+      "target_name": "the family",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_025",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_3_ent_002",
+      "target_type": "Character",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_3",
+      "evidence": [
+        "\"I want you to answer it as my attorney and not as — not as anything else.\""
+      ],
+      "confidence": 0.55,
+      "source_name": "Asha",
+      "target_name": "Daniel Serrano",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_3_rel_026",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_4_ev_001",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_4",
+      "evidence": [
+        "She considered it with the care it deserved",
+        "she was not yet sure which"
+      ],
+      "confidence": 0.98,
+      "source_name": "She",
+      "target_name": "she weighs his question carefully",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_4_rel_001",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_4_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_4",
+      "evidence": [
+        "\"If you intend to contest the codicil, you should retain counsel today.\"",
+        "\"If you intend to contest the disposition of any specific item, you should retain counsel today.\"",
+        "\"If you intend, in any respect, to take a position adverse to your sister or to Ms. Maldonado in the next two weeks, you should retain counsel today\""
+      ],
+      "confidence": 0.99,
+      "source_name": "She",
+      "target_name": "she warns him to hire counsel",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_4_rel_002",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_4_ev_003",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_4",
+      "evidence": [
+        "\"If you do not intend any of those things — if you intend, instead, to participate in the appraisal, to listen to the result, to consider in good faith whether to exercise your right of first refusal or to allow another beneficiary to exercise hers, and to settle this estate without litigation — then you do not need your own lawyer.\"",
+        "\"You need a tax advisor, possibly\""
+      ],
+      "confidence": 0.97,
+      "source_name": "She",
+      "target_name": "she outlines a nonlitigious path",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_4_rel_003",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_4_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_4",
+      "evidence": [
+        "\"What you need to decide is which of those two persons you are going to be.\""
+      ],
+      "confidence": 0.93,
+      "source_name": "She",
+      "target_name": "she forces him to choose a role",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_4_rel_004",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_4_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_4",
+      "evidence": [
+        "\"I don't know yet,\" he said."
+      ],
+      "confidence": 0.99,
+      "source_name": "Mr. Serrano",
+      "target_name": "he admits uncertainty",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_4_rel_005",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_4_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_4",
+      "evidence": [
+        "\"That is an honest answer.\"",
+        "\"It is the only one,\" she said, \"that I will accept from you today.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "She",
+      "target_name": "she validates his honesty",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_4_rel_006",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_003",
+      "target_type": "Character",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_4",
+      "evidence": [
+        "your sister",
+        "take a position adverse to your sister"
+      ],
+      "confidence": 0.99,
+      "source_name": "Mr. Serrano",
+      "target_name": "Mr. Serrano's sister",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_4_rel_008",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_005",
+      "target_type": "Character",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_4",
+      "evidence": [
+        "to take a position adverse to your sister or to Ms. Maldonado"
+      ],
+      "confidence": 0.88,
+      "source_name": "Mr. Serrano",
+      "target_name": "Ms. Maldonado",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_4_rel_009",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_007",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_014",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_4",
+      "evidence": [
+        "If you intend ... to take a position adverse to your sister or to Ms. Maldonado",
+        "you should retain counsel today"
+      ],
+      "confidence": 0.54,
+      "source_name": "counsel",
+      "target_name": "adversary vs. cooperation",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_4_rel_010",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_010",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_014",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_4",
+      "evidence": [
+        "settle this estate without litigation",
+        "you do not need counsel adverse to the estate"
+      ],
+      "confidence": 0.52,
+      "source_name": "litigation",
+      "target_name": "adversary vs. cooperation",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_4_rel_011",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_006",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_009",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_4",
+      "evidence": [
+        "contest the codicil",
+        "counsel adverse to the estate"
+      ],
+      "confidence": 0.86,
+      "source_name": "codicil",
+      "target_name": "the estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_4_rel_012",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_008",
+      "source_type": "Concept",
+      "relation": "part_of",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_009",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_4",
+      "evidence": [
+        "participate in the appraisal",
+        "depending on which way the disposition goes"
+      ],
+      "confidence": 0.74,
+      "source_name": "the appraisal",
+      "target_name": "the estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_4_rel_013",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_011",
+      "source_type": "Concept",
+      "relation": "part_of",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_009",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_4",
+      "evidence": [
+        "You need a tax advisor, possibly, depending on which way the disposition goes"
+      ],
+      "confidence": 0.7,
+      "source_name": "tax advisor",
+      "target_name": "the estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_4_rel_014",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_012",
+      "source_type": "Concept",
+      "relation": "part_of",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_4_ent_009",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_4",
+      "evidence": [
+        "whether to exercise your right of first refusal or to allow another beneficiary to exercise hers"
+      ],
+      "confidence": 0.77,
+      "source_name": "right of first refusal",
+      "target_name": "the estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_4_rel_015",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_5_ev_001",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "\"I don't know yet,\" he said.",
+        "\"That is an honest answer.\""
+      ],
+      "confidence": 0.93,
+      "source_name": "Mr. Serrano",
+      "target_name": "answers uncertainty honestly",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_001",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_5_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "\"It is the only one,\" she said, \"that I will accept from you today.\""
+      ],
+      "confidence": 0.9,
+      "source_name": "Mr. Serrano",
+      "target_name": "accepts honest answer",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_002",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_5_ev_003",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "\"Whichever you decide, decide it because it is what you want and not because it is what you think I want.\""
+      ],
+      "confidence": 0.95,
+      "source_name": "Mr. Serrano",
+      "target_name": "urges independent decision",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_003",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_5_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "She nodded once. She turned. She walked out of the dining room and down the hall and she let herself out the front door and she went down the stoop into the February morning"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "leaves dining room quietly",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_004",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_5_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "In the office that afternoon she had three other matters to attend to and she attended to them with the efficient and slightly elevated concentration of a person trying to prove to herself that she was still a working attorney with a practice"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "throws herself into work",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_005",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_5_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "She returned calls. She reviewed a settlement statement in an unrelated matter."
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "handles routine legal matters",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_006",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_5_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "At four-thirty she got a call from Beverly Ostrowski confirming the inspection for Thursday at ten."
+      ],
+      "confidence": 0.98,
+      "source_name": "Beverly Ostrowski",
+      "target_name": "confirms inspection appointment",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_007",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_5_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "At five-fifteen she got an email from Daniel."
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "receives email from Daniel",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_008",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_5_ev_009",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "The email was three lines long.",
+        "\"Counselor — I have thought about your question. I will not be retaining sepa"
+      ],
+      "confidence": 0.92,
+      "source_name": "Asha",
+      "target_name": "reads Daniel's decision",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_009",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_017",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_018",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "\"I was still a working attorney with a practice\""
+      ],
+      "confidence": 0.55,
+      "source_name": "legal practice",
+      "target_name": "new client",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_014",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_005",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_006",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "She walked out of the dining room and down the hall"
+      ],
+      "confidence": 0.84,
+      "source_name": "dining room",
+      "target_name": "hall",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_015",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_006",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_007",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "she let herself out the front door"
+      ],
+      "confidence": 0.84,
+      "source_name": "hall",
+      "target_name": "front door",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_016",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_007",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_008",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "she went down the stoop"
+      ],
+      "confidence": 0.84,
+      "source_name": "front door",
+      "target_name": "stoop",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_017",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "She walked out of the dining room"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_018",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_006",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "She walked out of the dining room and down the hall"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "hall",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_019",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_007",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "she let herself out the front door"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "front door",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_020",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_008",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "she went down the stoop"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "stoop",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_021",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "present_on",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_009",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "into the February morning"
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha",
+      "target_name": "February morning",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_022",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "present_on",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_010",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "In the office that afternoon"
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha",
+      "target_name": "that afternoon",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_023",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "present_on",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_012",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "At four-thirty she got a call from Beverly Ostrowski"
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha",
+      "target_name": "four-thirty",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_024",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "present_on",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_015",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "At five-fifteen she got an email from Daniel."
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha",
+      "target_name": "five-fifteen",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_025",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_003",
+      "source_type": "Character",
+      "relation": "present_on",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_012",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "At four-thirty she got a call from Beverly Ostrowski confirming the inspection for Thursday at ten."
+      ],
+      "confidence": 0.9,
+      "source_name": "Beverly Ostrowski",
+      "target_name": "four-thirty",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_026",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_004",
+      "source_type": "Character",
+      "relation": "present_on",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_015",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "At five-fifteen she got an email from Daniel."
+      ],
+      "confidence": 0.9,
+      "source_name": "Daniel",
+      "target_name": "five-fifteen",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_027",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_003",
+      "target_type": "Character",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "At four-thirty she got a call from Beverly Ostrowski confirming the inspection"
+      ],
+      "confidence": 0.58,
+      "source_name": "Asha",
+      "target_name": "Beverly Ostrowski",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_028",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_004",
+      "target_type": "Character",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "At five-fifteen she got an email from Daniel."
+      ],
+      "confidence": 0.58,
+      "source_name": "Asha",
+      "target_name": "Daniel",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_029",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_030",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_005",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "He looked at her.",
+        "\"I don't know yet,\" he said."
+      ],
+      "confidence": 0.7,
+      "source_name": "Mr. Serrano",
+      "target_name": "dining room",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_030",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_031",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "present_on",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_009",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "\"Tell me by Friday.\""
+      ],
+      "confidence": 0.7,
+      "source_name": "Mr. Serrano",
+      "target_name": "February morning",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_031",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_032",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_004",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_5_ev_009",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "\"Counselor — I have thought about your question. I will not be retaining sepa"
+      ],
+      "confidence": 0.96,
+      "source_name": "Daniel",
+      "target_name": "reads Daniel's decision",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_032",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_034",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_019",
+      "source_type": "Concept",
+      "relation": "part_of",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_5_ent_017",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_5",
+      "evidence": [
+        "She reviewed a settlement statement in an unrelated matter."
+      ],
+      "confidence": 0.5,
+      "source_name": "settlement statement",
+      "target_name": "legal practice",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_5_rel_034",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_001",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "At five-fifteen she got an email from Daniel."
+      ],
+      "confidence": 0.98,
+      "source_name": "A. Mensah",
+      "target_name": "receives Daniel's email",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_001",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "She did not reply immediately.",
+        "She closed the email and opened it again half an hour later"
+      ],
+      "confidence": 0.62,
+      "source_name": "receives Daniel's email",
+      "target_name": "the office",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_002",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "She closed the email and opened it again half an hour later and read it a third time."
+      ],
+      "confidence": 0.99,
+      "source_name": "A. Mensah",
+      "target_name": "re-reads email repeatedly",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_003",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "She closed the email and opened it again half an hour later and read it a third time."
+      ],
+      "confidence": 0.58,
+      "source_name": "re-reads email repeatedly",
+      "target_name": "the office",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_004",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_003",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "she suspected it had been placed and then cut and then replaced, possibly more than once, and that the version she was reading was the version he had decided, after some deliberation, he could stand to have written."
+      ],
+      "confidence": 0.91,
+      "source_name": "A. Mensah",
+      "target_name": "infers Daniel's deliberation",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_005",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_003",
+      "source_type": "Event",
+      "relation": "references",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "she suspected it had been placed and then cut and then replaced, possibly more than once, and that the version she was reading was the version he had decided, after some deliberation, he could stand to have written."
+      ],
+      "confidence": 0.84,
+      "source_name": "infers Daniel's deliberation",
+      "target_name": "re-reads email repeatedly",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_006",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "She replied at six.",
+        "\"Mr. Serrano — Received. I will see you Thursday at the inspection. — A. Mensah.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "A. Mensah",
+      "target_name": "sends restrained reply",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_007",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "She replied at six."
+      ],
+      "confidence": 0.55,
+      "source_name": "sends restrained reply",
+      "target_name": "the office",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_008",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "At seven she left the office."
+      ],
+      "confidence": 0.99,
+      "source_name": "A. Mensah",
+      "target_name": "leaves office for home",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_009",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "At seven she left the office."
+      ],
+      "confidence": 0.97,
+      "source_name": "leaves office for home",
+      "target_name": "the office",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_010",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "she stopped at the little place on Pine for soup, and she ate the soup alone at a small table"
+      ],
+      "confidence": 0.98,
+      "source_name": "A. Mensah",
+      "target_name": "stops for soup alone",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_011",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_006",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "she stopped at the little place on Pine for soup"
+      ],
+      "confidence": 0.72,
+      "source_name": "stops for soup alone",
+      "target_name": "Pine",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_012",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "she thought, with the careful and somewhat melancholy attention she gave to such thoughts"
+      ],
+      "confidence": 0.96,
+      "source_name": "A. Mensah",
+      "target_name": "reflects melancholically",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_013",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "she ate the soup alone at a small table with her phone face-down beside the bowl, and she thought"
+      ],
+      "confidence": 0.54,
+      "source_name": "reflects melancholically",
+      "target_name": "the office",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_014",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_001",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "At five-fifteen she got an email from Daniel."
+      ],
+      "confidence": 0.88,
+      "source_name": "Daniel Serrano",
+      "target_name": "receives Daniel's email",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_015",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_003",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "he had decided, after some deliberation, he could stand to have written."
+      ],
+      "confidence": 0.86,
+      "source_name": "Daniel Serrano",
+      "target_name": "infers Daniel's deliberation",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_016",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_6_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "\"Counselor — I have thought about your question. I will not be retaining separate counsel. I will see you Thursday. Thank you for yesterday and today. — D. Serrano.\""
+      ],
+      "confidence": 0.93,
+      "source_name": "Daniel Serrano",
+      "target_name": "sends restrained reply",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_017",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_007",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "She closed the email and opened it again half an hour later"
+      ],
+      "confidence": 0.51,
+      "source_name": "email",
+      "target_name": "the office",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_021",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_008",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "with her phone face-down beside the bowl"
+      ],
+      "confidence": 0.57,
+      "source_name": "phone",
+      "target_name": "the office",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_022",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_009",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_006",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "she stopped at the little place on Pine for soup"
+      ],
+      "confidence": 0.6,
+      "source_name": "soup",
+      "target_name": "Pine",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_023",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_014",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_014",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "separate counsel"
+      ],
+      "confidence": 0.5,
+      "source_name": "separate counsel",
+      "target_name": "separate counsel",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_024",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_015",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_6_ent_015",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_6",
+      "evidence": [
+        "the inspection"
+      ],
+      "confidence": 0.5,
+      "source_name": "inspection",
+      "target_name": "inspection",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_6_rel_025",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "she thought, with the careful and somewhat melancholy attention she gave to such thoughts when she gave them attention at all, about the difference between being moved and being compromised"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "reflects on compromise",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_001",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_001",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "she ate the soup alone at a small table"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "eats soup alone",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_002",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_003",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "She finished the soup. She paid. She walked home."
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "finishes meal and leaves",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_003",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Tuesday she did not go to the house."
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "skips house visit Tuesday",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_004",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Wednesday she did not go to the house."
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "skips house visit Wednesday",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_005",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_006",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Wednesday afternoon Lucia called the office, not Asha's cell, which Asha noted with approval, and asked through Marcus whether it would be appropriate for her to send Asha a photograph of an object in the upstairs hall closet whose provenance she could not establish and whose presence in the inventory she wanted to flag"
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Lucia requests inventory guidance",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_006",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Asha replied through Marcus that a photograph and a one-paragraph description would be sufficient, and that the inventory would handle it."
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha approves office communication",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_007",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Asha replied through Marcus that a photograph and a one-paragraph description would be sufficient"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha requests photo and description",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_008",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_012",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_009",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Wednesday evening Rosa called the office, also not Asha's cell, and asked Marcus whether the appraiser would need access to the third floor or only the first two"
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "Rosa asks about appraiser access",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_009",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_007",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_010",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Marcus told her all three and the cellar"
+      ],
+      "confidence": 0.98,
+      "source_name": "Marcus",
+      "target_name": "Marcus specifies full access",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_010",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_012",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_011",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "and Rosa thanked him and asked, almost as an afterthought, whether the counselor would be present at the inspection"
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "Rosa asks about counselor presence",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_011",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_004",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "the weather over the Serrano estate"
+      ],
+      "confidence": 0.72,
+      "source_name": "soup",
+      "target_name": "Serrano estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_012",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_005",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "her phone face-down beside the bowl"
+      ],
+      "confidence": 0.9,
+      "source_name": "phone",
+      "target_name": "Serrano estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_013",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_008",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_010",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "a photograph of an object in the upstairs hall closet"
+      ],
+      "confidence": 0.95,
+      "source_name": "photograph",
+      "target_name": "upstairs hall closet",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_014",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_009",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_010",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "an object in the upstairs hall closet whose provenance she could not establish"
+      ],
+      "confidence": 0.96,
+      "source_name": "unidentified object",
+      "target_name": "upstairs hall closet",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_015",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_011",
+      "source_type": "Concept",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "the inventory would handle it"
+      ],
+      "confidence": 0.62,
+      "source_name": "inventory",
+      "target_name": "Serrano estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_016",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_013",
+      "source_type": "Concept",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_014",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "the appraiser would need access to the third floor or only the first two, and Marcus told her all three and the cellar"
+      ],
+      "confidence": 0.9,
+      "source_name": "appraiser",
+      "target_name": "house floors and cellar",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_017",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_015",
+      "source_type": "Concept",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_014",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "whether the counselor would be present at the inspection"
+      ],
+      "confidence": 0.58,
+      "source_name": "counselor",
+      "target_name": "house floors and cellar",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_018",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_016",
+      "source_type": "Concept",
+      "relation": "located_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_014",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "whether the counselor would be present at the inspection"
+      ],
+      "confidence": 0.58,
+      "source_name": "inspection",
+      "target_name": "house floors and cellar",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_019",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_017",
+      "source_type": "Character",
+      "relation": "present_on",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_017",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Wednesday afternoon",
+        "Wednesday evening"
+      ],
+      "confidence": 0.99,
+      "source_name": "Wednesday",
+      "target_name": "Wednesday",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_020",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "the Serrano estate"
+      ],
+      "confidence": 0.74,
+      "source_name": "eats soup alone",
+      "target_name": "Serrano estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_021",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "the weather over the Serrano estate"
+      ],
+      "confidence": 0.7,
+      "source_name": "reflects on compromise",
+      "target_name": "Serrano estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_022",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "She finished the soup. She paid. She walked home."
+      ],
+      "confidence": 0.55,
+      "source_name": "finishes meal and leaves",
+      "target_name": "Serrano estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_023",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "she did not go to the house"
+      ],
+      "confidence": 0.6,
+      "source_name": "skips house visit Tuesday",
+      "target_name": "Serrano estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_024",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "she did not go to the house"
+      ],
+      "confidence": 0.6,
+      "source_name": "skips house visit Wednesday",
+      "target_name": "Serrano estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_025",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "called the office"
+      ],
+      "confidence": 0.52,
+      "source_name": "Lucia requests inventory guidance",
+      "target_name": "Serrano estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_026",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Asha replied through Marcus"
+      ],
+      "confidence": 0.5,
+      "source_name": "Asha approves office communication",
+      "target_name": "Serrano estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_027",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Asha replied through Marcus that a photograph and a one-paragraph description would be sufficient"
+      ],
+      "confidence": 0.5,
+      "source_name": "Asha requests photo and description",
+      "target_name": "Serrano estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_028",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "called the office"
+      ],
+      "confidence": 0.5,
+      "source_name": "Rosa asks about appraiser access",
+      "target_name": "Serrano estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_029",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_030",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_010",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Marcus told her all three and the cellar"
+      ],
+      "confidence": 0.5,
+      "source_name": "Marcus specifies full access",
+      "target_name": "Serrano estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_030",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_031",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_011",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_003",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "whether the counselor would be present at the inspection"
+      ],
+      "confidence": 0.5,
+      "source_name": "Rosa asks about counselor presence",
+      "target_name": "Serrano estate",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_031",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_032",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_017",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Tuesday she did not go to the house"
+      ],
+      "confidence": 0.99,
+      "source_name": "skips house visit Tuesday",
+      "target_name": "Wednesday",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_032",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_033",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_017",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Wednesday she did not go to the house"
+      ],
+      "confidence": 0.99,
+      "source_name": "skips house visit Wednesday",
+      "target_name": "Wednesday",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_033",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_034",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_017",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Wednesday afternoon Lucia called the office"
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia requests inventory guidance",
+      "target_name": "Wednesday",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_034",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_035",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_011",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_7_ent_017",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Wednesday evening Rosa called the office"
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa asks about counselor presence",
+      "target_name": "Wednesday",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_035",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_036",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "she ate the soup alone... and she thought"
+      ],
+      "confidence": 0.72,
+      "source_name": "eats soup alone",
+      "target_name": "reflects on compromise",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_036",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_037",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_002",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_003",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "She finished the soup. She paid. She walked home."
+      ],
+      "confidence": 0.9,
+      "source_name": "reflects on compromise",
+      "target_name": "finishes meal and leaves",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_037",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_038",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_004",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Tuesday she did not go to the house. Wednesday she did not go to the house."
+      ],
+      "confidence": 0.95,
+      "source_name": "skips house visit Tuesday",
+      "target_name": "skips house visit Wednesday",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_038",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_039",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_006",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Lucia called the office... and Asha replied through Marcus"
+      ],
+      "confidence": 0.84,
+      "source_name": "Lucia requests inventory guidance",
+      "target_name": "Asha approves office communication",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_039",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_040",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_007",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Asha replied through Marcus that a photograph and a one-paragraph description would be sufficient"
+      ],
+      "confidence": 0.88,
+      "source_name": "Asha approves office communication",
+      "target_name": "Asha requests photo and description",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_040",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_041",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_009",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_010",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "asked Marcus whether the appraiser would need access... and Marcus told her all three and the cellar"
+      ],
+      "confidence": 0.9,
+      "source_name": "Rosa asks about appraiser access",
+      "target_name": "Marcus specifies full access",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_041",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_042",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_010",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_7_ev_011",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_7",
+      "evidence": [
+        "Marcus told her all three and the cellar, and Rosa thanked him and asked... whether the counselor would be present"
+      ],
+      "confidence": 0.9,
+      "source_name": "Marcus specifies full access",
+      "target_name": "Rosa asks about counselor presence",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_7_rel_042",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_001",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Marcus told her all three and the cellar",
+        "Marcus said yes"
+      ],
+      "confidence": 0.98,
+      "source_name": "Marcus",
+      "target_name": "Marcus answers Rosa's inspection question",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_001",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_006",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Rosa was already in the kitchen."
+      ],
+      "confidence": 0.9,
+      "source_name": "Rosa",
+      "target_name": "Rosa waits in the kitchen",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_002",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_002",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Thursday at ten Asha was on the stoop."
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha waits on the stoop",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_003",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_005",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_003",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Beverly Ostrowski arrived two minutes later with a clipboard and a measuring laser"
+      ],
+      "confidence": 0.99,
+      "source_name": "Beverly Ostrowski",
+      "target_name": "Beverly arrives for inspection",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_004",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_008",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Daniel arrived three minutes after that."
+      ],
+      "confidence": 0.99,
+      "source_name": "Daniel",
+      "target_name": "Daniel arrives",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_005",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_009",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Lucia opened the door."
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia",
+      "target_name": "Lucia opens the door",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_006",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "The inspection began."
+      ],
+      "confidence": 0.72,
+      "source_name": "Rosa",
+      "target_name": "Inspection begins",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_007",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_010",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Asha was on the stoop.",
+        "Rosa was already in the kitchen.",
+        "Lucia opened the door."
+      ],
+      "confidence": 0.84,
+      "source_name": "Inspection begins",
+      "target_name": "stoop",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_009",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_011",
+      "target_type": "TimePoint",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Thursday at ten Asha was on the stoop."
+      ],
+      "confidence": 0.98,
+      "source_name": "Inspection begins",
+      "target_name": "Thursday at ten",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_010",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_010",
+      "target_type": "Location",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Asha was on the stoop.",
+        "Rosa was already in the kitchen.",
+        "Lucia opened the door."
+      ],
+      "confidence": 0.8,
+      "source_name": "Inspection lasts four hours",
+      "target_name": "stoop",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_011",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_005",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_006",
+      "target_type": "Object",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Beverly Ostrowski arrived two minutes later with a clipboard"
+      ],
+      "confidence": 0.96,
+      "source_name": "Beverly Ostrowski",
+      "target_name": "clipboard",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_013",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_005",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_007",
+      "target_type": "Object",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Beverly Ostrowski arrived two minutes later with a ... measuring laser"
+      ],
+      "confidence": 0.96,
+      "source_name": "Beverly Ostrowski",
+      "target_name": "measuring laser",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_014",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_003",
+      "source_type": "Character",
+      "relation": "is_a",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_003",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "whether the counselor would be present at the inspection"
+      ],
+      "confidence": 0.5,
+      "source_name": "counselor",
+      "target_name": "counselor",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_015",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_012",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_012",
+      "target_type": "Concept",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "the inspection"
+      ],
+      "confidence": 0.99,
+      "source_name": "inspection",
+      "target_name": "inspection",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_016",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Marcus said yes, and Rosa said good, and hung up.",
+        "The inspection began."
+      ],
+      "confidence": 0.74,
+      "source_name": "Marcus answers Rosa's inspection question",
+      "target_name": "Inspection begins",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_017",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_003",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_004",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Beverly Ostrowski arrived two minutes later",
+        "Daniel arrived three minutes after that"
+      ],
+      "confidence": 0.95,
+      "source_name": "Beverly arrives for inspection",
+      "target_name": "Daniel arrives",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_018",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_004",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_005",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Daniel arrived three minutes after that. Lucia opened the door."
+      ],
+      "confidence": 0.86,
+      "source_name": "Daniel arrives",
+      "target_name": "Lucia opens the door",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_019",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_005",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_007",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Lucia opened the door. Rosa was already in the kitchen. The inspection began."
+      ],
+      "confidence": 0.8,
+      "source_name": "Lucia opens the door",
+      "target_name": "Inspection begins",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_020",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_007",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_baseline_8_doc_7_chunk_0_part_8_ev_008",
+      "target_type": "Event",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "The inspection began. It took four hours."
+      ],
+      "confidence": 0.97,
+      "source_name": "Inspection begins",
+      "target_name": "Inspection lasts four hours",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_021",
+      "movie_id": "baseline_100_page__scene_8"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_baseline_8_doc_7_chunk_0_part_8_ent_002",
+      "target_type": "Character",
+      "scene_id": "8",
+      "chunk_id": "doc_7_chunk_0_part_8",
+      "evidence": [
+        "Marcus told her all three and the cellar, and Rosa thanked him"
+      ],
+      "confidence": 0.62,
+      "source_name": "Marcus",
+      "target_name": "Rosa",
+      "id": "rel_baseline_8_doc_7_chunk_0_part_8_rel_022",
+      "movie_id": "baseline_100_page__scene_8"
+    }
+  ]
+}

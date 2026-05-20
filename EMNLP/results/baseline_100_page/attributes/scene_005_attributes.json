@@ -1,0 +1,82 @@
+{
+  "Esperanza Serrano Maldonado": {
+    "name_form": "Esperanza Serrano Maldonado",
+    "life_status": "dead",
+    "date": "February 14, 2024",
+    "uses": "pincushion hiding place",
+    "duration": "forty years",
+    "has_children": "yes",
+    "kinship": "mother of Daniel and Lucia",
+    "is_married": "no",
+    "marital_status": "widowed",
+    "owns": "house on Mifflin Street",
+    "holds": "changed will",
+    "date_changed_will": "February 11",
+    "affiliated_with": "Mr. Halloran"
+  },
+  "Lucia": {
+    "kinship": "daughter of Esperanza",
+    "has_siblings": "Daniel",
+    "affiliated_with": "house on Mifflin Street",
+    "holds": "one-third of house"
+  },
+  "Daniel": {
+    "kinship": "son of Esperanza",
+    "has_siblings": "Lucia",
+    "age_years": "51",
+    "holds": "green folder",
+    "carries": "codicil in car",
+    "uses": "glove compartment",
+    "quantity": "one-third of house"
+  },
+  "Rosa Maldonado": {
+    "name_form": "Rosa Maldonado",
+    "affiliated_with": "house on Mifflin Street",
+    "holds": "one-third of house",
+    "uses": "back bedroom",
+    "kinship": "not family",
+    "employer": "Esperanza",
+    "duration": "lived there longer than children"
+  },
+  "Mr. Halloran": {
+    "title": "Mr.",
+    "occupation": "lawyer",
+    "holds": "original codicil",
+    "affiliated_with": "Esperanza will amendment"
+  },
+  "Asha": {
+    "occupation": "document reader",
+    "duration": "fifteen years"
+  },
+  "Marcus": {
+    "holds": "camera"
+  },
+  "house on Mifflin Street": {
+    "type": "house",
+    "quantity": "equal thirds",
+    "owns": "Esperanza estate",
+    "affiliated_with": "Lucia Daniel Rosa Maldonado",
+    "locked_state": "cannot be sold unilaterally"
+  },
+  "Mifflin Street": {
+    "type": "street"
+  },
+  "codicil": {
+    "type": "will amendment",
+    "hidden_location": "green folder",
+    "holds": "receipt of filing",
+    "origin_of_object": "Mr. Halloran original"
+  },
+  "green folder": {
+    "color": "green",
+    "hidden_location": "bottom right desk drawer",
+    "holds": "copy of codicil"
+  },
+  "desk in the sewing room": {
+    "type": "desk",
+    "holds": "green folder"
+  },
+  "sewing room": {
+    "type": "room"
+  }
+}

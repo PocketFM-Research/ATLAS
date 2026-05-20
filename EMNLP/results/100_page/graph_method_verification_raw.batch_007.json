@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "last_seen_time / time_missing_began",
+      "prior_quote": "Claire's text ... read only \"please call me when you can, it's about Marcus, he didn't come home last night.\"",
+      "later_quote": "Claire's answer came in pieces ... \"since the boots came off Thursday night ... since the lunch pail was packed for a Friday shift he never walked out the door to take.\"",
+      "reason": "fails C: these are not contradictory values; \"didn't come home last night\" can be true even if he has been gone since Thursday night."
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "object_possession",
+      "prior_quote": "Asha arrived at Claire's house with \"the phone in her coat pocket\" and had left \"the folder on the passenger seat.\"",
+      "later_quote": "Asha \"copied onto the legal pad\" and later \"wrote them across the legal pad.\"",
+      "reason": "fails B: the quotes are about different attributes and different objects; carrying a phone/folder does not contradict later using a legal pad."
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "wallet_location",
+      "prior_quote": "\"on the small shelf above, his wallet sat flat against the wood\" in the mudroom closet.",
+      "later_quote": "\"Asha set her keys down on the table next to the wallet\"",
+      "reason": "fails C: there is no contradiction because scene 15 does not say the wallet remained in the closet; Asha could have moved it, and the later quote does not assert the prior closet location still held."
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "status/location",
+      "prior_quote": "Claire's text said \"it's about Marcus, he didn't come home last night,\" and Asha asks \"Where is Marcus.\"",
+      "later_quote": "The clerk gives \"the address and the receiving facility\" and later \"the word sedated.\"",
+      "reason": "fails C: these are not contradictory values; a missing person can later be located at a facility and be sedated."
+    },
+    {
+      "index": 5,
+      "decision": "reject",
+      "attribute": "hospitalization_status",
+      "prior_quote": "Claire Donato wrote that \"Marcus had been in the hospital since Friday morning.\"",
+      "later_quote": "Asha calls the county hospital and detox center asking whether Marcus Devereaux had come through since Thursday night.",
+      "reason": "fails C: later searching hospitals does not contradict the earlier claim that Claire said he had been hospitalized; it reflects Asha verifying or locating him."
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "marital_status / visitation-rights basis",
+      "prior_quote": "Claire Donato wrote that she was \"Marcus's wife.\"",
+      "later_quote": "\"the unit would not let a non-spouse onto the floor without paperwork Claire had not signed\"",
+      "reason": "fails A/B: the later quote is not asserting Claire is a non-spouse; it states a general rule about non-spouses and paperwork while discussing access logistics."
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "marital_status / visitation-rights basis",
+      "prior_quote": "Claire wrote that she was \"Marcus's wife.\"",
+      "later_quote": "\"the unit would not let a non-spouse onto the floor without paperwork Claire had not signed\"",
+      "reason": "fails A/B: same issue as candidate 6; the later line does not assign Claire the value non-spouse, it states a conditional access rule."
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "hospital_distance_from_Claire_house",
+      "prior_quote": "Asha calls \"the county hospital\" and later psychiatric admissions there.",
+      "later_quote": "\"The hospital was a forty-minute drive at this hour\"",
+      "reason": "fails B: the earlier quote identifies the hospital type/ownership, while the later quote gives travel time; these are different attributes and not contradictory."
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "where_contact_information_is_written",
+      "prior_quote": "Asha \"wrote them across the legal pad\" and later wrote \"the direct line and the attending's name onto the pad.\"",
+      "later_quote": "\"the fax number for the unit was written on the inside of her wrist in ballpoint\"",
+      "reason": "fails C: no contradiction is shown; different pieces of information can be written in different places, and the later quote concerns a fax number, not necessarily the same room number/attending name."
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "has_siblings",
+      "prior_quote": "The house contains children: e.g. \"the older one—a boy in mismatched pajama pants\" and references to \"his brother.\"",
+      "later_quote": "No line in scene 16 says Claire has no siblings.",
+      "reason": "fails C: there is no later quote asserting a contradictory value about Claire's siblings."
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "scheduled_meeting_day/time",
+      "prior_quote": "The Monday-morning context includes \"the Monday seven a.m. partners' meeting\" and Asha heading to Whitfield's office.",
+      "later_quote": "Whitfield's voicemail asked her \"to come by his office Tuesday morning before the partners' meeting.\"",
+      "reason": "fails B: the earlier quote is about the Monday partners' meeting Asha is attending; the later quote is a separate Tuesday meeting request from Whitfield, not the same scheduled event."
+    },
+    {
+      "index": 12,
+      "decision": "reject",
+      "attribute": "day_of_week / timeline position",
+      "prior_quote": "Scene 12 places Asha on Monday morning: \"the Monday seven a.m. partners' meeting—Devin's signed page, Whitfield's office, the Hatcher hearing at ten.\"",
+      "later_quote": "Scene 17 says, after hospital-related driving, \"she sat in the parked car with the engine off and the form on the seat beside her\" and references Whitfield's voicemail about Tuesday morning.",
+      "reason": "fails B: the later quote does not assert that the hospital lot scene is Monday midmorning; it occurs later in the chronology and references a future Tuesday meeting."
+    }
+  ]
+}

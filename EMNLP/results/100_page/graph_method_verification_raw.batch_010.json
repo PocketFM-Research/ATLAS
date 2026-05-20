@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "time_of_Whitfield_visit",
+      "prior_quote": "Scene 19: \"Asha left Whitfield's office...\"",
+      "later_quote": "Scene 20: \"I'm going to Whitfield with this before one,\" she said.",
+      "reason": "fails C: these are not two asserted values for the same visit; scene 20 refers to a later return visit to Whitfield, not the already-completed morning meeting."
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "time_of_Whitfield_review",
+      "prior_quote": "Scene 17: \"Whitfield's voice... had asked her to come by his office Tuesday morning before the partners' meeting\"",
+      "later_quote": "Scene 20: \"I was wrong about the order this morning, and I'm correcting it before the committee sits.\"",
+      "reason": "fails B: the prior quote is about when Whitfield asked to meet; the later quote is about when Asha is correcting the record before a committee session, not the same specific attribute."
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "items_carried_by_Asha",
+      "prior_quote": "Scene 17: \"she would walk into Whitfield's office in the morning with what was on the desk\" and \"the briefcase...\"",
+      "later_quote": "Scene 20: \"She let herself out of the apartment with the documents under her arm\"",
+      "reason": "fails C: carrying a briefcase earlier and carrying documents under her arm later are not contradictory values; she can carry documents after removing them from the briefcase."
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "existence_of_clerk_intake_log",
+      "prior_quote": "Scene 17: \"she dug under it for the legal pad with her Monday trial notes\" and later \"the clerk's intake confirmation\" / \"the exact intake stamp\"",
+      "later_quote": "Scene 20: \"she set the briefcase on the near chair, unlatched it, and laid the Hatcher trial record and the clerk's intake log on his blotter\"",
+      "reason": "fails C: scene 17 already establishes clerk-provided intake timing information; scene 20's intake log is not a contradiction of that attribute."
+    },
+    {
+      "index": 5,
+      "decision": "reject",
+      "attribute": "location_of_Hatcher_file_materials",
+      "prior_quote": "Scene 17: \"She set the envelope from the door pocket beside them... and went through them line by line\"",
+      "later_quote": "Scene 20: \"she drew out the trial record and the intake log without asking\" from \"the Hatcher working file... in the third drawer\"",
+      "reason": "fails B: the prior quote is about evidence Asha assembled in her study; the later quote is about a separate working file in Whitfield's office, not the same specific attribute."
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "type_of_later_meeting",
+      "prior_quote": "Scene 13: \"the Monday seven a.m. partners' meeting\" and \"before the meeting\"",
+      "later_quote": "Scene 20: \"I'm correcting it before the committee sits.\"",
+      "reason": "fails B: 'partners' meeting' and 'committee' are not established as the same named event, so the quotes do not assert values for the same specific attribute."
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "Devin_beverage_type",
+      "prior_quote": "Scene 19: \"the mug on the counter had gone the color of cooling tea\"",
+      "later_quote": "Scene 20: \"He picked up his coffee from the counter\"",
+      "reason": "fails C: the earlier line describes the mug's color, not an explicit assertion that the drink was tea; there is no direct value mismatch."
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "Asha_and_Devin_location",
+      "prior_quote": "Scene 19: \"Asha did not move from the doorway.\"",
+      "later_quote": "Scene 20: \"Asha set the briefcase on Devin's kitchen table...\"",
+      "reason": "fails D: the later scene explicitly shows a change of location by narrative action; it is not unexplained contradiction but progression."
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "Whitfield_response_to_correction",
+      "prior_quote": "Scene 20: \"Whitfield's finger came down on the four-eighteen stamp...\" / he reads in silence.",
+      "later_quote": "Scene 21: \"Whitfield's finger came down on the four-eighteen stamp at last, and he said only that he would carry the corrected sequence into the one o'clock himself\"",
+      "reason": "fails C: scene 21 continues and resolves the silent review from scene 20; there is no contradictory value."
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "document_bearing_four-eighteen_stamp",
+      "prior_quote": "Scene 20: \"laid the Hatcher trial record and the clerk's intake log on his blotter so the four-eighteen stamp sat above her own five-oh-six\"",
+      "later_quote": "Scene 21: \"Whitfield's finger came down on the four-eighteen stamp at last\"",
+      "reason": "fails B: the later quote does not newly assign the stamp to the trial record; it just refers back to the already-present four-eighteen stamp without changing the attribute."
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "Claire_identity",
+      "prior_quote": "Scene 12: \"an email beneath them from a woman named Claire Donato, who had written that she was Marcus's wife\"",
+      "later_quote": "Scene 21: \"three missed calls from Claire\"",
+      "reason": "fails C: the later quote still refers to Claire and does not contradict her being Marcus's wife."
+    },
+    {
+      "index": 12,
+      "decision": "reject",
+      "attribute": "count",
+      "prior_quote": "Scene 10: Claire says, \"Three,\" and then, \"the youngest is four months.\"",
+      "later_quote": "Scene 21: \"had three missed calls from Claire\"",
+      "reason": "fails B: the prior quote is about Claire's number of children; the later quote is about number of missed calls, not the same attribute."
+    }
+  ]
+}

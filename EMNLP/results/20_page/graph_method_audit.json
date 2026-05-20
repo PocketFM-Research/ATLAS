@@ -1,0 +1,809 @@
+{
+  "per_scene_proposal_stats": [
+    {
+      "scene_number": 2,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 7,
+      "proposals_added": 7,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 3,
+      "candidate_facts_count": 16,
+      "raw_findings_count": 4,
+      "proposals_added": 4,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 4,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 4,
+      "proposals_added": 4,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 5,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 3,
+      "proposals_added": 3,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 6,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 10,
+      "proposals_added": 10,
+      "exact_duplicates_dropped": 0
+    }
+  ],
+  "raw_proposals": [
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Inez was the buried dead woman",
+      "event": "Lucia identifies another buried woman as her mother",
+      "text": "In scene 1, Inez was the buried dead woman was established, yet in scene 2, Lucia identifies another buried woman as her mother happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Inez owned the Serrano row house",
+      "event": "a letter says the house should pass to Rosa",
+      "text": "In scene 1, Inez owned the Serrano row house was established, yet in scene 2, a letter says the house should pass to Rosa happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Rosa was only affiliated with the row house",
+      "event": "Rosa is treated as a longtime servant",
+      "text": "In scene 1, Rosa was only affiliated with the row house was established, yet in scene 2, Rosa is treated as a longtime servant happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "no Lucia had been introduced earlier",
+      "event": "Asha and Rosa act on Lucia's concealed upstairs secret",
+      "text": "In scene 1, no Lucia had been introduced earlier was established, yet in scene 2, Asha and Rosa act on Lucia's concealed upstairs secret happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "no service stairs or kitchen route were established",
+      "event": "Rosa uses service stairs through the kitchen",
+      "text": "In scene 1, no service stairs or kitchen route were established was established, yet in scene 2, Rosa uses service stairs through the kitchen happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Daniel only suspected Asha took papers",
+      "event": "Daniel is said to know something concealed",
+      "text": "In scene 1, Daniel only suspected Asha took papers was established, yet in scene 2, Daniel is said to know something concealed happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "their mother wrote the pages on the desk",
+      "event": "Lucia attributes the firmer hand to her father",
+      "text": "In scene 1, their mother wrote the pages on the desk was established, yet in scene 2, Lucia attributes the firmer hand to her father happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "fact": "Asha carries a jacket with inside pocket",
+      "event": "Asha stores the papers in a briefcase sleeve",
+      "text": "In scene 1, Asha carries a jacket with inside pocket was established, yet in scene 3, Asha stores the papers in a briefcase sleeve happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "fact": "Lucia carried a folded letter in her cardigan pocket",
+      "event": "Lucia checks an empty cardigan pocket after surrendering it",
+      "text": "In scene 2, Lucia carried a folded letter in her cardigan pocket was established, yet in scene 3, Lucia checks an empty cardigan pocket after surrendering it happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "fact": "Daniel listens outside the study door",
+      "event": "they plan to confront him before a morning closing meeting",
+      "text": "In scene 2, Daniel listens outside the study door was established, yet in scene 3, they plan to confront him before a morning closing meeting happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "fact": "buyers wanted a walkthrough on Thursday",
+      "event": "a closing meeting is set for tomorrow morning",
+      "text": "In scene 1, buyers wanted a walkthrough on Thursday was established, yet in scene 3, a closing meeting is set for tomorrow morning happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "fact": "Lucia's father wrote the letter",
+      "event": "Lucia says she wrote the letter",
+      "text": "In scene 2, Lucia's father wrote the letter was established, yet in scene 4, Lucia says she wrote the letter happens",
+      "proposed_at_scene_y": 4
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "fact": "closing meeting is in the morning",
+      "event": "Daniel returns to the study within the hour at night",
+      "text": "In scene 3, closing meeting is in the morning was established, yet in scene 4, Daniel returns to the study within the hour at night happens",
+      "proposed_at_scene_y": 4
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "fact": "Asha carries a briefcase",
+      "event": "Asha opens a bag at her hip",
+      "text": "In scene 3, Asha carries a briefcase was established, yet in scene 4, Asha opens a bag at her hip happens",
+      "proposed_at_scene_y": 4
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "fact": "Asha left the study through the service passage",
+      "event": "Daniel is expected to walk back into the study later",
+      "text": "In scene 3, Asha left the study through the service passage was established, yet in scene 4, Daniel is expected to walk back into the study later happens",
+      "proposed_at_scene_y": 4
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "fact": "Rosa is the house servant",
+      "event": "Rosa is treated as Asha's sister",
+      "text": "In scene 2, Rosa is the house servant was established, yet in scene 5, Rosa is treated as Asha's sister happens",
+      "proposed_at_scene_y": 5
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "fact": "Lucia wrote the letter",
+      "event": "the letter is tied to Asha's sister instead",
+      "text": "In scene 4, Lucia wrote the letter was established, yet in scene 5, the letter is tied to Asha's sister instead happens",
+      "proposed_at_scene_y": 5
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "fact": "Asha carried a bag at her hip",
+      "event": "Asha is treated as owning and driving a car",
+      "text": "In scene 4, Asha carried a bag at her hip was established, yet in scene 5, Asha is treated as owning and driving a car happens",
+      "proposed_at_scene_y": 5
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "fact": "closing meeting is at nine",
+      "event": "Asha expects a six alarm for the Serrano closing",
+      "text": "In scene 4, closing meeting is at nine was established, yet in scene 6, Asha expects a six alarm for the Serrano closing happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "fact": "affidavits were locked in the firm's overnight safe",
+      "event": "Asha says signed affidavits are in her car briefcase",
+      "text": "In scene 5, affidavits were locked in the firm's overnight safe was established, yet in scene 6, Asha says signed affidavits are in her car briefcase happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "fact": "Rosa is identified as Asha's mother's sister",
+      "event": "Lucia is treated as Asha's sister",
+      "text": "In scene 5, Rosa is identified as Asha's mother's sister was established, yet in scene 6, Lucia is treated as Asha's sister happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "fact": "Asha's sister is affiliated with the group home",
+      "event": "Lucia is treated as Asha's sister",
+      "text": "In scene 5, Asha's sister is affiliated with the group home was established, yet in scene 6, Lucia is treated as Asha's sister happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "fact": "Asha left her briefcase inside the group home",
+      "event": "Asha refers to the briefcase in her car",
+      "text": "In scene 5, Asha left her briefcase inside the group home was established, yet in scene 6, Asha refers to the briefcase in her car happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "fact": "updated reports came from the previous week",
+      "event": "Lucia carried this burden alone for a month",
+      "text": "In scene 5, updated reports came from the previous week was established, yet in scene 6, Lucia carried this burden alone for a month happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "fact": "Asha's mother is in a group home",
+      "event": "Lucia plans to scan records from home",
+      "text": "In scene 5, Asha's mother is in a group home was established, yet in scene 6, Lucia plans to scan records from home happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "fact": "Asha arrived after 11:40 and midnight",
+      "event": "Asha plans calls before six that same morning",
+      "text": "In scene 5, Asha arrived after 11:40 and midnight was established, yet in scene 6, Asha plans calls before six that same morning happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "fact": "the hallway conversation used facility reports only",
+      "event": "a separate half-page facility list is already in Lucia's bag",
+      "text": "In scene 5, the hallway conversation used facility reports only was established, yet in scene 6, a separate half-page facility list is already in Lucia's bag happens",
+      "proposed_at_scene_y": 6
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "fact": "Lucia handed Asha stapled facility pages in the corridor",
+      "event": "Lucia also has a tabbed binder index prepared weeks earlier",
+      "text": "In scene 5, Lucia handed Asha stapled facility pages in the corridor was established, yet in scene 6, Lucia also has a tabbed binder index prepared weeks earlier happens",
+      "proposed_at_scene_y": 6
+    }
+  ],
+  "dedupe_log": [
+    {
+      "raw_proposal_index": 0,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Inez was the buried dead woman was established, yet in scene 2, Lucia identifies another buried woman as her mother happens"
+    },
+    {
+      "raw_proposal_index": 1,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Inez owned the Serrano row house was established, yet in scene 2, a letter says the house should pass to Rosa happens"
+    },
+    {
+      "raw_proposal_index": 2,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Rosa was only affiliated with the row house was established, yet in scene 2, Rosa is treated as a longtime servant happens"
+    },
+    {
+      "raw_proposal_index": 3,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, no Lucia had been introduced earlier was established, yet in scene 2, Asha and Rosa act on Lucia's concealed upstairs secret happens"
+    },
+    {
+      "raw_proposal_index": 4,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, no service stairs or kitchen route were established was established, yet in scene 2, Rosa uses service stairs through the kitchen happens"
+    },
+    {
+      "raw_proposal_index": 5,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Daniel only suspected Asha took papers was established, yet in scene 2, Daniel is said to know something concealed happens"
+    },
+    {
+      "raw_proposal_index": 6,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, their mother wrote the pages on the desk was established, yet in scene 2, Lucia attributes the firmer hand to her father happens"
+    },
+    {
+      "raw_proposal_index": 7,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Asha carries a jacket with inside pocket was established, yet in scene 3, Asha stores the papers in a briefcase sleeve happens"
+    },
+    {
+      "raw_proposal_index": 8,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Lucia carried a folded letter in her cardigan pocket was established, yet in scene 3, Lucia checks an empty cardigan pocket after surrendering it happens"
+    },
+    {
+      "raw_proposal_index": 9,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Daniel listens outside the study door was established, yet in scene 3, they plan to confront him before a morning closing meeting happens"
+    },
+    {
+      "raw_proposal_index": 10,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, buyers wanted a walkthrough on Thursday was established, yet in scene 3, a closing meeting is set for tomorrow morning happens"
+    },
+    {
+      "raw_proposal_index": 11,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Lucia's father wrote the letter was established, yet in scene 4, Lucia says she wrote the letter happens"
+    },
+    {
+      "raw_proposal_index": 12,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, closing meeting is in the morning was established, yet in scene 4, Daniel returns to the study within the hour at night happens"
+    },
+    {
+      "raw_proposal_index": 13,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, Asha carries a briefcase was established, yet in scene 4, Asha opens a bag at her hip happens"
+    },
+    {
+      "raw_proposal_index": 14,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, Asha left the study through the service passage was established, yet in scene 4, Daniel is expected to walk back into the study later happens"
+    },
+    {
+      "raw_proposal_index": 15,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Rosa is the house servant was established, yet in scene 5, Rosa is treated as Asha's sister happens"
+    },
+    {
+      "raw_proposal_index": 16,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 4, Lucia wrote the letter was established, yet in scene 5, the letter is tied to Asha's sister instead happens"
+    },
+    {
+      "raw_proposal_index": 17,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 4, Asha carried a bag at her hip was established, yet in scene 5, Asha is treated as owning and driving a car happens"
+    },
+    {
+      "raw_proposal_index": 18,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 4, closing meeting is at nine was established, yet in scene 6, Asha expects a six alarm for the Serrano closing happens"
+    },
+    {
+      "raw_proposal_index": 19,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 5, affidavits were locked in the firm's overnight safe was established, yet in scene 6, Asha says signed affidavits are in her car briefcase happens"
+    },
+    {
+      "raw_proposal_index": 20,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 5, Rosa is identified as Asha's mother's sister was established, yet in scene 6, Lucia is treated as Asha's sister happens"
+    },
+    {
+      "raw_proposal_index": 21,
+      "decision": "drop",
+      "duplicate_of_raw_index": 20,
+      "reason": "shared entity ['asha', 'lucia'] + jaccard 0.45",
+      "text": "In scene 5, Asha's sister is affiliated with the group home was established, yet in scene 6, Lucia is treated as Asha's sister happens"
+    },
+    {
+      "raw_proposal_index": 22,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 5, Asha left her briefcase inside the group home was established, yet in scene 6, Asha refers to the briefcase in her car happens"
+    },
+    {
+      "raw_proposal_index": 23,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 5, updated reports came from the previous week was established, yet in scene 6, Lucia carried this burden alone for a month happens"
+    },
+    {
+      "raw_proposal_index": 24,
+      "decision": "drop",
+      "duplicate_of_raw_index": 20,
+      "reason": "shared entity ['asha', 'lucia'] + jaccard 0.31",
+      "text": "In scene 5, Asha's mother is in a group home was established, yet in scene 6, Lucia plans to scan records from home happens"
+    },
+    {
+      "raw_proposal_index": 25,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 5, Asha arrived after 11:40 and midnight was established, yet in scene 6, Asha plans calls before six that same morning happens"
+    },
+    {
+      "raw_proposal_index": 26,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 5, the hallway conversation used facility reports only was established, yet in scene 6, a separate half-page facility list is already in Lucia's bag happens"
+    },
+    {
+      "raw_proposal_index": 27,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 5, Lucia handed Asha stapled facility pages in the corridor was established, yet in scene 6, Lucia also has a tabbed binder index prepared weeks earlier happens"
+    }
+  ],
+  "verification_log": [
+    {
+      "proposal_index": 1,
+      "proposal_text": "In scene 1, Inez was the buried dead woman was established, yet in scene 2, Lucia identifies another buried woman as her mother happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails A: scene 1's mother is Daniel's/Inez, while scene 2's \"my mother's\" refers to Lucia's mother; the screenplay does not establish they are the same named entity.",
+      "attribute": "identity of 'her mother'",
+      "prior_quote": "Daniel came through \"with his coat still on\" at \"his mother's furniture,\" and later Asha saw \"the first visible line of their mother's handwriting.\"",
+      "later_quote": "Lucia said, \"The looser one... that was my mother's.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails A: scene 1's mother is Daniel's/Inez, while scene 2's \"my mother's\" refers to Lucia's mother; the screenplay does not establish they are the same named entity."
+    },
+    {
+      "proposal_index": 2,
+      "proposal_text": "In scene 1, Inez owned the Serrano row house was established, yet in scene 2, a letter says the house should pass to Rosa happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails D: the later scene explicitly introduces a different document (the letter) as the basis for a competing disposition, explaining why a different recipient is asserted.",
+      "attribute": "ownership / intended recipient of the house",
+      "prior_quote": "Asha asked Daniel about \"updates to the property deeds... before the sale went forward,\" and he read \"the entry aloud... about the house and its conveyance to him.\"",
+      "later_quote": "Lucia produced \"a short letter... naming Rosa as the one to whom the house should pass for staying.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails D: the later scene explicitly introduces a different document (the letter) as the basis for a competing disposition, explaining why a different recipient is asserted."
+    },
+    {
+      "proposal_index": 3,
+      "proposal_text": "In scene 1, Rosa was only affiliated with the row house was established, yet in scene 2, Rosa is treated as a longtime servant happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails B: the earlier quote does not assert a specific role value for Rosa, so there is no same-attribute contradiction.",
+      "attribute": "Rosa's role",
+      "prior_quote": "Scene 1 shows Rosa \"polishing\" the sideboard and later saying, \"There's a water mark under the leaf, Daniel,\" but does not label her role.",
+      "later_quote": "Scene 2 says Rosa knew \"the house's shortcuts for thirty years\" and guided Lucia \"the way she might have guided her through a hot kitchen.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the earlier quote does not assert a specific role value for Rosa, so there is no same-attribute contradiction."
+    },
+    {
+      "proposal_index": 4,
+      "proposal_text": "In scene 1, no Lucia had been introduced earlier was established, yet in scene 2, Asha and Rosa act on Lucia's concealed upstairs secret happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails C: there is no mismatch; scene 1 already introduces Lucia as present in the house, and scene 2 specifies she is upstairs.",
+      "attribute": "existence/location of Lucia",
+      "prior_quote": "Scene 1 states, \"Asha remembered that Lucia was still in the house, still holding back whatever she had been holding back.\"",
+      "later_quote": "Asha asked Rosa \"where Lucia was,\" and Rosa answered \"that the girl was upstairs.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: there is no mismatch; scene 1 already introduces Lucia as present in the house, and scene 2 specifies she is upstairs."
+    },
+    {
+      "proposal_index": 5,
+      "proposal_text": "In scene 1, no service stairs or kitchen route were established was established, yet in scene 2, Rosa uses service stairs through the kitchen happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails C: the later route is consistent with the earlier kitchen doorway; no contradictory value is asserted.",
+      "attribute": "existence of service stairs / kitchen route",
+      "prior_quote": "Scene 1 mentions \"the inner doorway that gave onto the back of the kitchen.\"",
+      "later_quote": "Rosa said \"the service stairs were faster\" and then moved \"toward the inner doorway that gave onto the back of the kitchen.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: the later route is consistent with the earlier kitchen doorway; no contradictory value is asserted."
+    },
+    {
+      "proposal_index": 6,
+      "proposal_text": "In scene 1, Daniel only suspected Asha took papers was established, yet in scene 2, Daniel is said to know something concealed happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails B: the earlier quote is about Daniel's suspicion/realization process, while the later quote is an unspecified claim that he knows something; they do not assert the same specific attribute value.",
+      "attribute": "Daniel's knowledge",
+      "prior_quote": "Scene 1 says Daniel's attention \"had begun to circle something it had not yet named,\" and Asha thought she had \"a few hours before he thought back through the morning and realized what he had not seen.\"",
+      "later_quote": "Lucia said, \"He knows.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the earlier quote is about Daniel's suspicion/realization process, while the later quote is an unspecified claim that he knows something; they do not assert the same specific attribute value."
+    },
+    {
+      "proposal_index": 7,
+      "proposal_text": "In scene 1, their mother wrote the pages on the desk was established, yet in scene 2, Lucia attributes the firmer hand to her father happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails D: scene 2 explicitly distinguishes two different hands on two different sheets, explaining why one hand is attributed to the father.",
+      "attribute": "author of the desk pages",
+      "prior_quote": "Asha asked Daniel \"whether the hand on the page looked familiar to him\" and saw \"the first visible line of their mother's handwriting.\"",
+      "later_quote": "Lucia said of the compared scripts, \"The looser one... was my mother's\" and \"This one... this was my father's.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails D: scene 2 explicitly distinguishes two different hands on two different sheets, explaining why one hand is attributed to the father."
+    },
+    {
+      "proposal_index": 8,
+      "proposal_text": "In scene 1, Asha carries a jacket with inside pocket was established, yet in scene 3, Asha stores the papers in a briefcase sleeve happens",
+      "scene_x": 1,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails D: the later scene shows an explicit transfer of the papers from jacket to briefcase, so the change is explained on-screen.",
+      "attribute": "storage location of papers",
+      "prior_quote": "Asha \"tucked them into the inside pocket of her jacket.\"",
+      "later_quote": "Asha \"folded the small stack into the inner sleeve of her briefcase.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails D: the later scene shows an explicit transfer of the papers from jacket to briefcase, so the change is explained on-screen."
+    },
+    {
+      "proposal_index": 9,
+      "proposal_text": "In scene 2, Lucia carried a folded letter in her cardigan pocket was established, yet in scene 3, Lucia checks an empty cardigan pocket after surrendering it happens",
+      "scene_x": 2,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails D: the later scene explicitly notes the pocket is empty because she had already surrendered the item.",
+      "attribute": "contents of Lucia's cardigan pocket",
+      "prior_quote": "Lucia's hand \"came out with a folded sheet\" from \"the pocket of her cardigan.\"",
+      "later_quote": "In scene 3, \"Lucia's hand went again to the empty pocket of her cardigan as if checking for something she had already given away.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails D: the later scene explicitly notes the pocket is empty because she had already surrendered the item."
+    },
+    {
+      "proposal_index": 10,
+      "proposal_text": "In scene 2, Daniel listens outside the study door was established, yet in scene 3, they plan to confront him before a morning closing meeting happens",
+      "scene_x": 2,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails B: the first quote is about Daniel listening outside the door; the second is about a planned confrontation before a future meeting, not the same attribute.",
+      "attribute": "Daniel's location / timing relative to confrontation",
+      "prior_quote": "Scene 2: \"On the other side of that door Daniel had set his ear close to the wood...\"",
+      "later_quote": "Scene 3: they must decide \"whether to open the door themselves and put the aligned pages... in front of Daniel before the closing meeting at the attorney's office in the morning.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the first quote is about Daniel listening outside the door; the second is about a planned confrontation before a future meeting, not the same attribute."
+    },
+    {
+      "proposal_index": 11,
+      "proposal_text": "In scene 1, buyers wanted a walkthrough on Thursday was established, yet in scene 3, a closing meeting is set for tomorrow morning happens",
+      "scene_x": 1,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails B: a buyer walkthrough and an attorney closing meeting are different events, so the quotes do not assert values for the same attribute.",
+      "attribute": "scheduled event time",
+      "prior_quote": "\"The buyers want a walkthrough Thursday.\"",
+      "later_quote": "\"the closing meeting at the attorney's office in the morning\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: a buyer walkthrough and an attorney closing meeting are different events, so the quotes do not assert values for the same attribute."
+    },
+    {
+      "proposal_index": 12,
+      "proposal_text": "In scene 2, Lucia's father wrote the letter was established, yet in scene 4, Lucia says she wrote the letter happens",
+      "scene_x": 2,
+      "scene_y": 4,
+      "model_decision": "reject",
+      "model_reason": "fails B: the earlier quote identifies the handwriting of the letter, while the later quote refers to Lucia's written statement in the letter's contents/effect; it does not clearly assert she authored the letter itself.",
+      "attribute": "author of the letter",
+      "prior_quote": "Lucia said, \"This one... this was my father's,\" referring to the firmer hand, and the short letter is described as being \"in the firmer hand.\"",
+      "later_quote": "Lucia asked, \"If I sign this, does it bind what I wrote in the letter to the rest of these pages\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the earlier quote identifies the handwriting of the letter, while the later quote refers to Lucia's written statement in the letter's contents/effect; it does not clearly assert she authored the letter itself."
+    },
+    {
+      "proposal_index": 13,
+      "proposal_text": "In scene 3, closing meeting is in the morning was established, yet in scene 4, Daniel returns to the study within the hour at night happens",
+      "scene_x": 3,
+      "scene_y": 4,
+      "model_decision": "reject",
+      "model_reason": "fails B: the earlier quote gives the time of the closing meeting, not the time Daniel returns to the study; different attributes.",
+      "attribute": "time of Daniel's return to the study",
+      "prior_quote": "Scene 3 says any confrontation must happen \"before the closing meeting at the attorney's office in the morning.\"",
+      "later_quote": "Scene 4 says the dashboard clock advanced \"another minute toward the hour Daniel would walk back into the study.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the earlier quote gives the time of the closing meeting, not the time Daniel returns to the study; different attributes."
+    },
+    {
+      "proposal_index": 14,
+      "proposal_text": "In scene 3, Asha carries a briefcase was established, yet in scene 4, Asha opens a bag at her hip happens",
+      "scene_x": 3,
+      "scene_y": 4,
+      "model_decision": "reject",
+      "model_reason": "fails B: a briefcase and a bag at her hip are different items; the screenplay does not assert they are the same entity.",
+      "attribute": "Asha's carried container",
+      "prior_quote": "Scene 3: \"Asha lifted the briefcase from the desk by its handle.\"",
+      "later_quote": "Scene 4: \"she opened the bag at her hip and laid a notary's seal and three blank affidavits across the dashboard.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: a briefcase and a bag at her hip are different items; the screenplay does not assert they are the same entity."
+    },
+    {
+      "proposal_index": 15,
+      "proposal_text": "In scene 3, Asha left the study through the service passage was established, yet in scene 4, Daniel is expected to walk back into the study later happens",
+      "scene_x": 3,
+      "scene_y": 4,
+      "model_decision": "reject",
+      "model_reason": "fails C: these are consistent; leaving through the service passage does not contradict Daniel later returning to the study.",
+      "attribute": "whether Daniel returns to the study after they leave",
+      "prior_quote": "They \"went out... into the back passage\" through the service door.",
+      "later_quote": "Scene 4 refers to \"the hour Daniel would walk back into the study and find it empty.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: these are consistent; leaving through the service passage does not contradict Daniel later returning to the study."
+    },
+    {
+      "proposal_index": 16,
+      "proposal_text": "In scene 2, Rosa is the house servant was established, yet in scene 5, Rosa is treated as Asha's sister happens",
+      "scene_x": 2,
+      "scene_y": 5,
+      "model_decision": "reject",
+      "model_reason": "fails A: the later quote refers to Lucia, not Rosa; not the same named entity.",
+      "attribute": "Rosa's kinship to Asha",
+      "prior_quote": "Scene 2 presents Rosa as a household insider who knew shortcuts \"for thirty years,\" but does not define kinship.",
+      "later_quote": "Scene 5 says the message light was blinking \"the slow double pulse her sister used,\" and later identifies Lucia as \"her sister.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails A: the later quote refers to Lucia, not Rosa; not the same named entity."
+    },
+    {
+      "proposal_index": 17,
+      "proposal_text": "In scene 4, Lucia wrote the letter was established, yet in scene 5, the letter is tied to Asha's sister instead happens",
+      "scene_x": 4,
+      "scene_y": 5,
+      "model_decision": "reject",
+      "model_reason": "fails B: neither cited scene asserts the specific value 'Lucia wrote the letter,' so there is no same-attribute contradiction.",
+      "attribute": "author of the letter",
+      "prior_quote": "Scene 4 concerns the letter among the papers and affidavits; no line there states Lucia wrote it.",
+      "later_quote": "Scene 5: Lucia sat with \"the cardigan pocket sagging at her hip where the letter had lived for months,\" but no quote says she authored it.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: neither cited scene asserts the specific value 'Lucia wrote the letter,' so there is no same-attribute contradiction."
+    },
+    {
+      "proposal_index": 18,
+      "proposal_text": "In scene 4, Asha carried a bag at her hip was established, yet in scene 5, Asha is treated as owning and driving a car happens",
+      "scene_x": 4,
+      "scene_y": 5,
+      "model_decision": "reject",
+      "model_reason": "fails B: carrying a bag and owning/driving a car are different attributes, not contradictory values of one attribute.",
+      "attribute": "Asha's possessions/transport",
+      "prior_quote": "Scene 4: \"she opened the bag at her hip\" in Lucia's car.",
+      "later_quote": "Scene 5: \"her car started on the first turn of the key\" and she drove it.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: carrying a bag and owning/driving a car are different attributes, not contradictory values of one attribute."
+    },
+    {
+      "proposal_index": 19,
+      "proposal_text": "In scene 4, closing meeting is at nine was established, yet in scene 6, Asha expects a six alarm for the Serrano closing happens",
+      "scene_x": 4,
+      "scene_y": 6,
+      "model_decision": "reject",
+      "model_reason": "fails C: a six o'clock alarm before a nine o'clock closing is not contradictory.",
+      "attribute": "time of the Serrano closing",
+      "prior_quote": "Scene 4: \"the closing meeting opened the file at nine.\"",
+      "later_quote": "Scene 6: \"before her phone alarm went off at six and pulled her back to the Serrano closing.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: a six o'clock alarm before a nine o'clock closing is not contradictory."
+    },
+    {
+      "proposal_index": 20,
+      "proposal_text": "In scene 5, affidavits were locked in the firm's overnight safe was established, yet in scene 6, Asha says signed affidavits are in her car briefcase happens",
+      "scene_x": 5,
+      "scene_y": 6,
+      "model_decision": "reject",
+      "model_reason": "fails C: scene 6 refers to signed affidavits generally, not necessarily the same Serrano affidavits; no direct contradiction is established.",
+      "attribute": "location of signed affidavits",
+      "prior_quote": "Scene 5: \"the affidavits were notarized and locked into the firm's overnight safe.\"",
+      "later_quote": "Scene 6: Asha says, \"She had a briefcase in the car with signed affidavits in it.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: scene 6 refers to signed affidavits generally, not necessarily the same Serrano affidavits; no direct contradiction is established."
+    },
+    {
+      "proposal_index": 21,
+      "proposal_text": "In scene 5, Rosa is identified as Asha's mother's sister was established, yet in scene 6, Lucia is treated as Asha's sister happens",
+      "scene_x": 5,
+      "scene_y": 6,
+      "model_decision": "reject",
+      "model_reason": "fails B: the prior fact is not actually asserted in the screenplay.",
+      "attribute": "kinship",
+      "prior_quote": "Scene 5 never identifies Rosa as Asha's mother's sister.",
+      "later_quote": "Scene 6 continues with Lucia as Asha's sister.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the prior fact is not actually asserted in the screenplay."
+    },
+    {
+      "proposal_index": 22,
+      "proposal_text": "In scene 5, Asha left her briefcase inside the group home was established, yet in scene 6, Asha refers to the briefcase in her car happens",
+      "scene_x": 5,
+      "scene_y": 6,
+      "model_decision": "reject",
+      "model_reason": "fails C: scene 5 does not say the briefcase remained inside permanently; no direct contradiction is shown.",
+      "attribute": "location of Asha's briefcase",
+      "prior_quote": "Scene 5: Asha \"set the briefcase down against the wainscoting\" and later followed the aide, leaving it there.",
+      "later_quote": "Scene 6 mentions \"a briefcase in the car with signed affidavits in it.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: scene 5 does not say the briefcase remained inside permanently; no direct contradiction is shown."
+    },
+    {
+      "proposal_index": 23,
+      "proposal_text": "In scene 5, updated reports came from the previous week was established, yet in scene 6, Lucia carried this burden alone for a month happens",
+      "scene_x": 5,
+      "scene_y": 6,
+      "model_decision": "reject",
+      "model_reason": "fails B: the earlier quote dates the reports; the later quote describes how long Lucia had been carrying the broader care problem alone, not the same specific attribute.",
+      "attribute": "duration of Lucia's burden",
+      "prior_quote": "Lucia asked whether Asha had seen \"the updated reports... the ones that had come in the week before.\"",
+      "later_quote": "Scene 6 says Lucia was \"a sister in front of her who had been carrying this alone for a month.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the earlier quote dates the reports; the later quote describes how long Lucia had been carrying the broader care problem alone, not the same specific attribute."
+    },
+    {
+      "proposal_index": 24,
+      "proposal_text": "In scene 5, Asha arrived after 11:40 and midnight was established, yet in scene 6, Asha plans calls before six that same morning happens",
+      "scene_x": 5,
+      "scene_y": 6,
+      "model_decision": "reject",
+      "model_reason": "fails C: planning calls before six the same morning is consistent with arriving around midnight.",
+      "attribute": "timeline overnight to morning",
+      "prior_quote": "Scene 5 places Asha at the group home around midnight: she did not want to leave the photo \"alone in an empty car at midnight.\"",
+      "later_quote": "Scene 6 plans calls \"before her phone alarm went off at six.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: planning calls before six the same morning is consistent with arriving around midnight."
+    },
+    {
+      "proposal_index": 25,
+      "proposal_text": "In scene 5, the hallway conversation used facility reports only was established, yet in scene 6, a separate half-page facility list is already in Lucia's bag happens",
+      "scene_x": 5,
+      "scene_y": 6,
+      "model_decision": "reject",
+      "model_reason": "fails C: the later quote explicitly presents a separate second document, not a contradiction.",
+      "attribute": "documents Lucia carried",
+      "prior_quote": "Scene 5: Lucia drew out \"a thin sheaf of stapled pages\" with the facility header.",
+      "later_quote": "Scene 6: Lucia \"reached back into her bag and drew out a second, shorter list.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: the later quote explicitly presents a separate second document, not a contradiction."
+    },
+    {
+      "proposal_index": 26,
+      "proposal_text": "In scene 5, Lucia handed Asha stapled facility pages in the corridor was established, yet in scene 6, Lucia also has a tabbed binder index prepared weeks earlier happens",
+      "scene_x": 5,
+      "scene_y": 6,
+      "model_decision": "reject",
+      "model_reason": "fails C: having stapled pages earlier does not contradict also having prepared a binder index earlier.",
+      "attribute": "documents in Lucia's possession",
+      "prior_quote": "Scene 5: Lucia handed over \"a thin sheaf of stapled pages.\"",
+      "later_quote": "Scene 6: Asha later thumbs through \"the index Lucia had tabbed weeks earlier\" in a binder.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: having stapled pages earlier does not contradict also having prepared a binder index earlier."
+    }
+  ],
+  "summary": {
+    "raw_proposals": 28,
+    "after_dedupe": 26,
+    "confirmed": 0,
+    "final_detections": 0
+  }
+}

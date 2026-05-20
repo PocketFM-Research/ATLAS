@@ -1,0 +1,39 @@
+{
+  "movie_id": "baseline_100_page__scene_9",
+  "title": "",
+  "node_count_total": 114,
+  "node_count_by_type": {
+    "Event": 65,
+    "Character": 14,
+    "Location": 5,
+    "TimePoint": 7,
+    "Object": 17,
+    "Concept": 6
+  },
+  "edge_count_total": 163,
+  "edge_count_by_relation": {
+    "performs": 58,
+    "experiences": 5,
+    "undergoes": 10,
+    "precedes": 17,
+    "affinity_with": 6,
+    "references": 2,
+    "contrasts_with": 2,
+    "located_at": 5,
+    "present_on": 1,
+    "kinship_with": 18,
+    "possesses": 9,
+    "occurs_on": 1,
+    "part_of": 2,
+    "causes": 2,
+    "occurs_at": 8,
+    "occurs_after": 17
+  },
+  "nodes_with_evidence_pct": 100.0,
+  "edges_with_evidence_pct": 100.0,
+  "schema_violation_count": 0,
+  "avg_degree": 2.86,
+  "disconnected_component_count": 23,
+  "avg_aliases_per_node": 1.62,
+  "avg_edge_confidence": 0.853
+}

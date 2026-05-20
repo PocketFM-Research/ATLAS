@@ -1,0 +1,33 @@
+{
+  "Marcus": {
+    "role": "deposit payer",
+    "money_amount": "half of deposit",
+    "uses": "promised account",
+    "hidden_location": "deposit money never in account",
+    "duration": "nine days",
+    "source_of_warning": "Claire found out two days ago"
+  },
+  "Claire": {
+    "source_of_warning": "discovered missing deposit money",
+    "day": "two days ago"
+  },
+  "Asha": {
+    "owns": "savings line",
+    "age_years": "four years untouched savings",
+    "uses": "bank app",
+    "holds": "rate sheet",
+    "money_amount": "full deposit",
+    "uses_organization": "authorized wire to Bridgepoint",
+    "state_change": "covered Marcus's half"
+  },
+  "Bridgepoint": {
+    "type": "organization",
+    "locked_state": "noon hold still running",
+    "holds": "wire deposit"
+  },
+  "Rosa": {
+    "uses": "rate sheet",
+    "distinguishing_feature": "marked up rate sheet",
+    "count": "circled figure twice"
+  }
+}

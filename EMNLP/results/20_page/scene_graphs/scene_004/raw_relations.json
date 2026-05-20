@@ -1,0 +1,2177 @@
+{
+  "4": [
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_0_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "The service stair let them down past the pantry and out through the kitchen garden door"
+      ],
+      "confidence": 0.88,
+      "source_name": "Rosa",
+      "target_name": "escape through service stair",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_001",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_0_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_005",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "The service stair let them down past the pantry and out through the kitchen garden door"
+      ],
+      "confidence": 0.96,
+      "source_name": "escape through service stair",
+      "target_name": "service stair",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_002",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Rosa locked the garden gate behind them with the key she had carried for thirty years"
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "Rosa secures the garden gate",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_003",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_0_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_008",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Rosa locked the garden gate behind them"
+      ],
+      "confidence": 0.99,
+      "source_name": "Rosa secures the garden gate",
+      "target_name": "garden gate",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_004",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "they reached it without anyone calling from the front steps",
+        "Asha settled the briefcase between her feet on the passenger floor"
+      ],
+      "confidence": 0.84,
+      "source_name": "Asha",
+      "target_name": "reach Lucia's parked car",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_005",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_0_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_010",
+      "target_type": "Vehicle",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Lucia's car was at the curb two houses down",
+        "they reached it"
+      ],
+      "confidence": 0.97,
+      "source_name": "reach Lucia's parked car",
+      "target_name": "Lucia's car",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_006",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Asha understood that getting the pages out of the house was only the first half of the night"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Asha recognizes the next step",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_007",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_0_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_010",
+      "target_type": "Vehicle",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Asha settled the briefcase between her feet on the passenger floor"
+      ],
+      "confidence": 0.72,
+      "source_name": "Asha recognizes the next step",
+      "target_name": "Lucia's car",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_008",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Rosa caught Lucia's wrist as she reached for the handle"
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "Rosa restrains Lucia",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_009",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Rosa caught Lucia's wrist as she reached for the handle"
+      ],
+      "confidence": 0.97,
+      "source_name": "Lucia",
+      "target_name": "Rosa restrains Lucia",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_010",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_0_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_010",
+      "target_type": "Vehicle",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Lucia's car was at the curb",
+        "as she reached for the handle"
+      ],
+      "confidence": 0.9,
+      "source_name": "Rosa restrains Lucia",
+      "target_name": "Lucia's car",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_011",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Asha slid into the passenger side, set the briefcase between her feet, and waited until the dome light dimmed before she opened the bag at her hip and laid a notary's seal and three blank affidavits across the dashboard"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha prepares affidavits",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_012",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_0_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_010",
+      "target_type": "Vehicle",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "laid a notary's seal and three blank affidavits across the dashboard"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha prepares affidavits",
+      "target_name": "Lucia's car",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_013",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_011",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_0_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "the briefcase stayed pressed against her ribs",
+        "she set the briefcase between her feet"
+      ],
+      "confidence": 0.9,
+      "source_name": "briefcase",
+      "target_name": "briefcase remains secured",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_014",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_0_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_010",
+      "target_type": "Vehicle",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Asha settled the briefcase between her feet on the passenger floor"
+      ],
+      "confidence": 0.89,
+      "source_name": "briefcase remains secured",
+      "target_name": "Lucia's car",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_015",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_009",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Rosa locked the garden gate behind them with the key she had carried for thirty years"
+      ],
+      "confidence": 0.96,
+      "source_name": "Rosa",
+      "target_name": "key",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_016",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_012",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_013",
+      "target_type": "Concept",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "the pages out of the house",
+        "the documents had to exist somewhere"
+      ],
+      "confidence": 0.7,
+      "source_name": "pages",
+      "target_name": "documents",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_018",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_021",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_013",
+      "target_type": "Concept",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "laid a notary's seal and three blank affidavits across the dashboard"
+      ],
+      "confidence": 0.88,
+      "source_name": "affidavits",
+      "target_name": "documents",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_019",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_020",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_021",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "laid a notary's seal and three blank affidavits across the dashboard"
+      ],
+      "confidence": 0.66,
+      "source_name": "notary's seal",
+      "target_name": "affidavits",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_020",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_004",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_001",
+      "target_type": "Character",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Lucia and Rosa, who had carried the truth in their bodies for longer than any page had carried it on paper"
+      ],
+      "confidence": 0.62,
+      "source_name": "Daniel",
+      "target_name": "Asha",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_021",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_0_ent_003",
+      "target_type": "Character",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_0",
+      "evidence": [
+        "Lucia and Rosa, who had carried the truth in their bodies"
+      ],
+      "confidence": 0.62,
+      "source_name": "Rosa",
+      "target_name": "Lucia",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_0_rel_022",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_1_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "Asha ... waited until the dome light dimmed before she opened the bag at her hip"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha waits before opening bag",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_1_rel_001",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_1_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "she opened the bag at her hip and laid a notary's seal and three blank affidavits across the dashboard"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha presents notary materials",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_1_rel_002",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_1_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "Neither Lucia nor Rosa reached for the pages."
+      ],
+      "confidence": 0.93,
+      "source_name": "Lucia",
+      "target_name": "Lucia and Rosa hesitate",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_1_rel_003",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_003",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_1_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "Neither Lucia nor Rosa reached for the pages."
+      ],
+      "confidence": 0.93,
+      "source_name": "Rosa",
+      "target_name": "Lucia and Rosa hesitate",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_1_rel_004",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_1_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "Lucia's hand returned to the empty pocket of her cardigan"
+      ],
+      "confidence": 0.95,
+      "source_name": "Lucia",
+      "target_name": "Lucia withdraws into herself",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_1_rel_005",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_1_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "Rosa, in the back seat now, looked at the seal"
+      ],
+      "confidence": 0.97,
+      "source_name": "Rosa",
+      "target_name": "Rosa studies the seal",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_1_rel_006",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_1_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "\"Tonight,\" Asha said, low, \"not tomorrow,\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha insists on acting tonight",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_1_rel_007",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_1_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "\"Who wants to start?\" she asked"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha invites someone to begin",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_1_rel_008",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_1_ev_008",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "Lucia drew her hand out of the empty pocket at last and laid two fingers on the top page"
+      ],
+      "confidence": 0.97,
+      "source_name": "Lucia",
+      "target_name": "Lucia tests the papers",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_1_rel_009",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_1_ev_009",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "she said, \"Is this everything,\" without the lift of a question"
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Lucia questions completeness",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_1_rel_010",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_1_ev_010",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "Rosa leaned forward between them and set her palm flat over the notary's seal, pressing it down against the dashboard"
+      ],
+      "confidence": 0.99,
+      "source_name": "Rosa",
+      "target_name": "Rosa presses seal down",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_1_rel_011",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_004",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_005",
+      "target_type": "Vehicle",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "across the dashboard"
+      ],
+      "confidence": 0.72,
+      "source_name": "Notary materials",
+      "target_name": "Car interior",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_1_rel_022",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_009",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_005",
+      "target_type": "Vehicle",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "the sodium light from the streetlamp three cars up"
+      ],
+      "confidence": 0.88,
+      "source_name": "Streetlamp",
+      "target_name": "Car interior",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_1_rel_024",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_1_ent_010",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_1_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_1",
+      "evidence": [
+        "as if it were something that had been waiting in Asha's bag the whole evening they had been deciding what to do"
+      ],
+      "confidence": 0.8,
+      "source_name": "The whole evening",
+      "target_name": "Rosa studies the seal",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_1_rel_026",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_2_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "Rosa leaned forward between them and set her palm flat over the notary's seal, pressing it down against the dashboard"
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "Rosa presses seal flat",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_2_rel_001",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_2_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "\"It is everything we can prove,\" Asha said"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha states evidence is all they can prove",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_2_rel_002",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_003",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_2_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "Lucia did not take it."
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Lucia refuses the pen",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_2_rel_003",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_2_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "\"The ink doesn't dry until we sign,\" she said"
+      ],
+      "confidence": 0.97,
+      "source_name": "Rosa",
+      "target_name": "Rosa urges signing",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_2_rel_004",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_2_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "Asha laid her hand over Lucia's where it rested at the edge of the affidavit"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha physically supports Lucia",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_2_rel_005",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_003",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_2_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "Lucia did not move for a long moment; then she drew her hand"
+      ],
+      "confidence": 0.96,
+      "source_name": "Lucia",
+      "target_name": "Lucia hesitates before yielding",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_2_rel_006",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_004",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_006",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "the notary's seal"
+      ],
+      "confidence": 0.72,
+      "source_name": "notary's seal",
+      "target_name": "affidavit",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_2_rel_013",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_005",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_006",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "slid a pen across the dashboard until it stopped against Lucia's fingertips"
+      ],
+      "confidence": 0.7,
+      "source_name": "pen",
+      "target_name": "affidavit",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_2_rel_014",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_011",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_008",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "across the vinyl"
+      ],
+      "confidence": 0.84,
+      "source_name": "vinyl",
+      "target_name": "dashboard",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_2_rel_016",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_002",
+      "target_type": "Character",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "Rosa leaned forward between them",
+        "Asha looked at her"
+      ],
+      "confidence": 0.62,
+      "source_name": "Rosa",
+      "target_name": "Asha",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_2_rel_017",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_2_ent_003",
+      "target_type": "Character",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_2",
+      "evidence": [
+        "Asha laid her hand over Lucia's where it rested at the edge of the affidavit"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "Lucia",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_2_rel_018",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_3_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"Yes,\" Asha said... \"She moved her hand back to Lucia's and guided the gripped pen down the page until the nib hovered above the first signature line.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha guides Lucia to sign",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_3_rel_001",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_3_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "Asha... guided the gripped pen down the page until the nib hovered above the first signature line."
+      ],
+      "confidence": 0.95,
+      "source_name": "Lucia",
+      "target_name": "Asha guides Lucia to sign",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_3_rel_002",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_3_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"Lucia did not move for a long moment; then she drew her hand out from under Asha's and closed her fingers around the pen\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Lucia hesitates before taking the pen",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_3_rel_003",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_3_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"If I sign this,\" she said... \"does it bind what I wrote in the letter to the rest of these pages, in front of a court.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia",
+      "target_name": "Lucia asks about legal binding",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_3_rel_004",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_3_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"Rosa reached forward between the seats and pressed Lucia's fist closed more firmly around the barrel of the pen\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Rosa",
+      "target_name": "Rosa steadies Lucia's hand",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_3_rel_005",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_3_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "Rosa reached forward between the seats and pressed Lucia's fist closed more firmly around the barrel of the pen"
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Rosa steadies Lucia's hand",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_3_rel_006",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_3_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"Yes,\" Asha said... \"It binds them.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha confirms the signature's legal effect",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_3_rel_007",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_3_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"She moved her hand back to Lucia's and guided the gripped pen down the page until the nib hovered above the first signature line.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha guides pen to signature line",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_3_rel_008",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_3_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"It binds everything,\" and tipped her chin once toward the line."
+      ],
+      "confidence": 0.9,
+      "source_name": "Rosa",
+      "target_name": "Rosa urges Lucia to sign",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_3_rel_009",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_3_ev_008",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"then bore down, and the pen scratched out her name in a heavy, uneven hand\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia",
+      "target_name": "Lucia signs the document",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_3_rel_010",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_3_ev_009",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"the cardigan pocket gaping empty at her hip\""
+      ],
+      "confidence": 0.88,
+      "source_name": "Lucia",
+      "target_name": "Lucia's hidden pocket remains empty",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_3_rel_011",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_004",
+      "source_type": "Object",
+      "relation": "uses",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_009",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"guided the gripped pen down the page until the nib hovered above the first signature line\""
+      ],
+      "confidence": 0.86,
+      "source_name": "pen",
+      "target_name": "signature line",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_3_rel_013",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_005",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_006",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"what I wrote in the letter to the rest of these pages\""
+      ],
+      "confidence": 0.95,
+      "source_name": "letter",
+      "target_name": "pages",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_3_rel_014",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_007",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_3_ent_007",
+      "target_type": "Concept",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_3",
+      "evidence": [
+        "\"in front of a court\""
+      ],
+      "confidence": 0.5,
+      "source_name": "court",
+      "target_name": "court",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_3_rel_027",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "Lucia signs affidavit",
+        "atched out her name in a heavy, uneven hand"
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia",
+      "target_name": "Lucia signs affidavit",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_001",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "Asha eased the pen out of Lucia's grip"
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Asha takes pen from Lucia",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_002",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "Asha eased the pen out of Lucia's grip"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha takes pen from Lucia",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_003",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "Rosa took the pen without ceremony, braced the affidavit against her thigh, and signed her own name"
+      ],
+      "confidence": 0.99,
+      "source_name": "Rosa",
+      "target_name": "Rosa signs affidavit",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_004",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "When she was done she flattened the sheet against Lucia's signature so the two names sat in the same column"
+      ],
+      "confidence": 0.96,
+      "source_name": "Rosa",
+      "target_name": "Rosa aligns signatures",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_005",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "Lucia watched the transfer without speaking"
+      ],
+      "confidence": 0.9,
+      "source_name": "Lucia",
+      "target_name": "Lucia withdraws into silence",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_006",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the dashboard clock advanced another minute toward the hour Daniel would walk back into the study"
+      ],
+      "confidence": 0.88,
+      "source_name": "Daniel",
+      "target_name": "Daniel's return approaches",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_007",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "Rosa drew the loose pages together against her thigh, squared the edges with two firm taps, and pressed the stack flat before sliding it back across the seat"
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "Rosa squares and returns papers",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_008",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_008",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "Asha took them without speaking and laid her palm over the top sheet, holding it"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha secures documents",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_009",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_013",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the study"
+      ],
+      "confidence": 0.72,
+      "source_name": "Lucia signs affidavit",
+      "target_name": "study",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_010",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_013",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the study"
+      ],
+      "confidence": 0.72,
+      "source_name": "Asha takes pen from Lucia",
+      "target_name": "study",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_011",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_013",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the study"
+      ],
+      "confidence": 0.72,
+      "source_name": "Rosa signs affidavit",
+      "target_name": "study",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_012",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_013",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the study"
+      ],
+      "confidence": 0.72,
+      "source_name": "Rosa aligns signatures",
+      "target_name": "study",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_013",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_013",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the study"
+      ],
+      "confidence": 0.72,
+      "source_name": "Lucia withdraws into silence",
+      "target_name": "study",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_014",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_013",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the study"
+      ],
+      "confidence": 0.72,
+      "source_name": "Daniel's return approaches",
+      "target_name": "study",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_015",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_013",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the study"
+      ],
+      "confidence": 0.72,
+      "source_name": "Rosa squares and returns papers",
+      "target_name": "study",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_016",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_4_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_013",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the study"
+      ],
+      "confidence": 0.72,
+      "source_name": "Asha secures documents",
+      "target_name": "study",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_017",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_005",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_008",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the letter had been",
+        "the letter went on top, the two signed affidavits beneath"
+      ],
+      "confidence": 0.74,
+      "source_name": "affidavit",
+      "target_name": "letter",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_018",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_006",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_005",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the pen"
+      ],
+      "confidence": 0.55,
+      "source_name": "pen",
+      "target_name": "affidavit",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_019",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_007",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_005",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the page"
+      ],
+      "confidence": 0.52,
+      "source_name": "page",
+      "target_name": "affidavit",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_020",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_011",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_013",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the dashboard clock"
+      ],
+      "confidence": 0.6,
+      "source_name": "dashboard clock",
+      "target_name": "study",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_022",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_012",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_013",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the windshield"
+      ],
+      "confidence": 0.6,
+      "source_name": "windshield",
+      "target_name": "study",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_023",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_014",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_013",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "the vinyl"
+      ],
+      "confidence": 0.6,
+      "source_name": "vinyl",
+      "target_name": "study",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_024",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_015",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_013",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "her thigh"
+      ],
+      "confidence": 0.51,
+      "source_name": "thigh",
+      "target_name": "study",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_025",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_002",
+      "target_type": "Character",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "Asha eased the pen out of Lucia's grip with the care of someone lifting a splinter"
+      ],
+      "confidence": 0.58,
+      "source_name": "Lucia",
+      "target_name": "Asha",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_026",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_4_ent_003",
+      "target_type": "Character",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_4",
+      "evidence": [
+        "Rosa took the pen without ceremony"
+      ],
+      "confidence": 0.55,
+      "source_name": "Asha",
+      "target_name": "Rosa",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_4_rel_027",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Asha took them without speaking and laid her palm over the top sheet",
+        "Asha laid the stack into her briefcase with the letter still on top"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha receives affidavits and letter",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_001",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Lucia let out a long, uneven breath and leaned her head back against the headrest",
+        "She did not look at the pages again"
+      ],
+      "confidence": 0.96,
+      "source_name": "Lucia",
+      "target_name": "Lucia absorbs the moment in silence",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_002",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_003",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Rosa watched her a moment longer, then turned her face forward and put her hands flat on her knees"
+      ],
+      "confidence": 0.95,
+      "source_name": "Rosa",
+      "target_name": "Rosa watches and settles herself",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_003",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Asha laid the stack into her briefcase with the letter still on top, clicked the locks down one after the other"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha secures documents in briefcase",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_004",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "On Lucia's side the handle clicked but did not move; she sat a moment longer ... then pushed the door open and stepped down onto the curb"
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Lucia exits car reluctantly",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_005",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_003",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Rosa came out on her own side in the same breath, shoes finding the wet pavement with a flat sound, and shut the door behind her without slamming it"
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "Rosa exits car quietly",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_006",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Asha came around the hood with the briefcase pressed close against her ribcoat, took Lucia lightly at the elbow, and started them toward the lit glass of the attorney's vestibule"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha guides Lucia toward attorney's office",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_007",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_004",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_006",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Asha laid the stack into her briefcase with the letter still on top"
+      ],
+      "confidence": 0.9,
+      "source_name": "Signed affidavits",
+      "target_name": "Briefcase",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_008",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_005",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_004",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "the letter still on top",
+        "the empty cardigan pocket sagging at her hip where the letter had lived for months"
+      ],
+      "confidence": 0.88,
+      "source_name": "Letter",
+      "target_name": "Signed affidavits",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_009",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "possesses",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_006",
+      "target_type": "Object",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Asha laid the stack into her briefcase",
+        "Asha came around the hood with the briefcase pressed close against her ribcoat"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Briefcase",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_010",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_007",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "stepped down onto the curb"
+      ],
+      "confidence": 0.96,
+      "source_name": "Lucia",
+      "target_name": "Curb",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_011",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_008",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_007",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "stepped down onto the curb",
+        "without looking back at the house they had left"
+      ],
+      "confidence": 0.84,
+      "source_name": "House",
+      "target_name": "Curb",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_012",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_009",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "started them toward the lit glass of the attorney's vestibule"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "Attorney's vestibule",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_013",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_008",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "the house they had left"
+      ],
+      "confidence": 0.72,
+      "source_name": "Asha receives affidavits and letter",
+      "target_name": "House",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_015",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_008",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "the empty cardigan pocket sagging at her hip where the letter had lived for months"
+      ],
+      "confidence": 0.68,
+      "source_name": "Lucia absorbs the moment in silence",
+      "target_name": "House",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_016",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_008",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Rosa watched her a moment longer"
+      ],
+      "confidence": 0.68,
+      "source_name": "Rosa watches and settles herself",
+      "target_name": "House",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_017",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_008",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Asha laid the stack into her briefcase"
+      ],
+      "confidence": 0.7,
+      "source_name": "Asha secures documents in briefcase",
+      "target_name": "House",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_018",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_007",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "stepped down onto the curb"
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia exits car reluctantly",
+      "target_name": "Curb",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_019",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_007",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "shoes finding the wet pavement"
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa exits car quietly",
+      "target_name": "Curb",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_020",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_5_ent_009",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "started them toward the lit glass of the attorney's vestibule"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha guides Lucia toward attorney's office",
+      "target_name": "Attorney's vestibule",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_021",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Asha took them without speaking... Asha laid the stack into her briefcase"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha receives affidavits and letter",
+      "target_name": "Asha secures documents in briefcase",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_022",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_004",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_005",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "clicked the locks down one after the other, and set the case flat across her knees before reaching for her door"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha secures documents in briefcase",
+      "target_name": "Lucia exits car reluctantly",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_023",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_005",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_006",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "On Lucia's side... Rosa came out on her own side in the same breath"
+      ],
+      "confidence": 0.86,
+      "source_name": "Lucia exits car reluctantly",
+      "target_name": "Rosa exits car quietly",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_024",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_006",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_5_ev_007",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_5",
+      "evidence": [
+        "Rosa came out on her own side... Asha came around the hood... and started them toward the lit glass of the attorney's vestibule"
+      ],
+      "confidence": 0.9,
+      "source_name": "Rosa exits car quietly",
+      "target_name": "Asha guides Lucia toward attorney's office",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_5_rel_025",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_6_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "took Lucia lightly at the elbow"
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "take Lucia by the elbow",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_6_rel_001",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_6_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "started them toward the lit glass of the attorney's vestibule"
+      ],
+      "confidence": 0.95,
+      "source_name": "Lucia",
+      "target_name": "lead Lucia toward attorney vestibule",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_6_rel_002",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_6_ent_001",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_6_ev_001",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "with the briefcase pressed close against her ribcoat"
+      ],
+      "confidence": 0.93,
+      "source_name": "briefcase",
+      "target_name": "carry briefcase close",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_6_rel_003",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_6_ent_004",
+      "source_type": "Object",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_6_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "the dashboard clock, still visible through the beaded windshield, gave up another minute toward the hour Daniel would walk back into the study"
+      ],
+      "confidence": 0.88,
+      "source_name": "dashboard clock",
+      "target_name": "clock counts down to Daniel's return",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_6_rel_004",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_6_ent_007",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_6_ent_006",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "through the beaded windshield"
+      ],
+      "confidence": 0.72,
+      "source_name": "beaded windshield",
+      "target_name": "study",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_6_rel_007",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_6_ent_005",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_6_ev_004",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "toward the hour Daniel would walk back into the study"
+      ],
+      "confidence": 0.9,
+      "source_name": "Daniel",
+      "target_name": "clock counts down to Daniel's return",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_6_rel_008",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_6_ev_003",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "started them toward the lit glass of the attorney's vestibule"
+      ],
+      "confidence": 0.86,
+      "source_name": "Lucia",
+      "target_name": "lead Lucia toward attorney vestibule",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_6_rel_010",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_20_page__4_doc_3_chunk_0_part_6_ev_002",
+      "target_type": "Event",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "took Lucia lightly at the elbow"
+      ],
+      "confidence": 0.97,
+      "source_name": "Lucia",
+      "target_name": "take Lucia by the elbow",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_6_rel_011",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_6_ent_003",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "toward the lit glass of the attorney's vestibule"
+      ],
+      "confidence": 0.74,
+      "source_name": "Lucia",
+      "target_name": "attorney's vestibule",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_6_rel_012",
+      "movie_id": "20_page__scene_4"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_20_page__4_doc_3_chunk_0_part_6_ent_005",
+      "source_type": "Character",
+      "relation": "located_at",
+      "target_id": "ent_20_page__4_doc_3_chunk_0_part_6_ent_006",
+      "target_type": "Location",
+      "scene_id": "4",
+      "chunk_id": "doc_3_chunk_0_part_6",
+      "evidence": [
+        "Daniel would walk back into the study"
+      ],
+      "confidence": 0.8,
+      "source_name": "Daniel",
+      "target_name": "study",
+      "id": "rel_20_page__4_doc_3_chunk_0_part_6_rel_013",
+      "movie_id": "20_page__scene_4"
+    }
+  ]
+}

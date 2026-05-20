@@ -1,0 +1,75 @@
+{
+  "Asha": {
+    "role": "handles probate papers",
+    "holds": "blue folder",
+    "holds_also": "bank statements",
+    "carries": "silver key",
+    "carries_also": "journal",
+    "uses": "phone",
+    "source_of_warning": "Rosa message"
+  },
+  "Rosa": {
+    "named_in": "codicil for house",
+    "witnessed": "codicil",
+    "source_of_warning": "texted Asha"
+  },
+  "Daniel": {
+    "kinship": "Lucia's brother"
+  },
+  "Lucia": {
+    "holds": "folder with journal",
+    "wears": "cardigan",
+    "witnessed": "half-sheet",
+    "has_siblings": "Daniel",
+    "guarded_duration": "all week"
+  },
+  "blue folder": {
+    "color": "blue",
+    "holds": "bank statements and papers"
+  },
+  "codicil": {
+    "type": "loose page",
+    "named_for": "Rosa gets house",
+    "condition": "not enough alone",
+    "witnessed_by": "Rosa",
+    "handwriting": "shaky hand"
+  },
+  "sewing room": {
+    "type": "room"
+  },
+  "silver key": {
+    "material": "silver",
+    "condition": "tarnished",
+    "opens": "blue velvet case"
+  },
+  "blue velvet case": {
+    "color": "blue",
+    "material": "velvet",
+    "locked_state": "locked",
+    "hidden_location": "drawer under machine",
+    "contains": "jewelry and journal",
+    "condition": "oiled within memory"
+  },
+  "journal": {
+    "material": "leather-bound",
+    "hidden_under": "garnets and earrings",
+    "contains": "loose half-sheet"
+  },
+  "loose half-sheet": {
+    "handwriting": "same shaky hand",
+    "date": "same date as codicil",
+    "witnessed_by": "Lucia"
+  },
+  "garnets": {
+    "type": "thin string"
+  },
+  "earrings": {
+    "count": "pair"
+  },
+  "funeral": {
+    "type": "past event"
+  },
+  "sitting room": {
+    "type": "room"
+  }
+}

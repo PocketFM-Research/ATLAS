@@ -1,0 +1,38 @@
+{
+  "movie_id": "baseline_100_page__scene_2",
+  "title": "",
+  "node_count_total": 194,
+  "node_count_by_type": {
+    "Event": 72,
+    "Character": 16,
+    "Location": 34,
+    "TimePoint": 10,
+    "Object": 52,
+    "Vehicle": 1,
+    "Concept": 9
+  },
+  "edge_count_total": 230,
+  "edge_count_by_relation": {
+    "performs": 75,
+    "experiences": 3,
+    "occurs_at": 35,
+    "affinity_with": 12,
+    "located_at": 42,
+    "uses": 4,
+    "possesses": 4,
+    "undergoes": 17,
+    "part_of": 22,
+    "is_a": 2,
+    "occurs_on": 2,
+    "kinship_with": 2,
+    "precedes": 5,
+    "occurs_after": 5
+  },
+  "nodes_with_evidence_pct": 100.0,
+  "edges_with_evidence_pct": 100.0,
+  "schema_violation_count": 0,
+  "avg_degree": 2.37,
+  "disconnected_component_count": 38,
+  "avg_aliases_per_node": 1.56,
+  "avg_edge_confidence": 0.875
+}

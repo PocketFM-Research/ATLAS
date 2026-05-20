@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "message_sent_state",
+      "prior_quote": "Scene 13: \"Rosa, two words, Go. Win.\"",
+      "later_quote": "Scene 13: \"Rosa picked up her phone, opened the thread, and deleted the two words she had sent at six-forty\"",
+      "reason": "fails C: deleting a sent message from her own thread does not contradict that she previously sent it"
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "day_of_week",
+      "prior_quote": "Scene 12: \"the Monday seven a.m. partners' meeting\"",
+      "later_quote": "Scene 14: \"By the time the judge signed the interim order...\"",
+      "reason": "fails B: the later quote does not state Friday or any day-of-week, so it does not assert the same attribute"
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "whereabouts_status",
+      "prior_quote": "Scene 10: \"Claire Donato... had written that she was Marcus's wife, that Marcus had been in the hospital since Friday morning\"",
+      "later_quote": "Scene 14: \"a text from Claire that read only please call me when you can, it's about Marcus, he didn't come home last night\"",
+      "reason": "fails C: not coming home last night is compatible with already being hospitalized since Friday morning"
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "identity_linkage",
+      "prior_quote": "Scene 10: \"a woman named Claire Donato, who had written that she was Marcus's wife\"",
+      "later_quote": "Scene 14: \"The chain slid back and the door opened... Claire nodded once\"",
+      "reason": "fails C: the later scene does not contradict Claire's identity as Marcus's wife; it simply refers to her by first name"
+    },
+    {
+      "index": 5,
+      "decision": "reject",
+      "attribute": "kinship",
+      "prior_quote": "Scene 12 contains no quote identifying Claire as Asha's mother; it says \"she heard Claire breathing on the line\"",
+      "later_quote": "Scene 14: \"Claire nodded once... and turned toward the back of the house\"",
+      "reason": "fails B: there is no prior assertion in scene 12 that Claire was Asha's mother, so no same-attribute contradiction exists"
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "items_carried",
+      "prior_quote": "Scene 13: \"Asha's phone, face-down beside the folder, vibrated once against the wood\"",
+      "later_quote": "Scene 14: \"She walked the two blocks to the lot with the folder still under her arm\"",
+      "reason": "fails B: the quotes do not assert conflicting values for the same attribute; one concerns possession of a phone earlier, the other mentions carrying a folder later"
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "life_status_or_missing_status",
+      "prior_quote": "Scene 10: \"Marcus had been in the hospital since Friday morning\"",
+      "later_quote": "Scene 14: \"please call me when you can, it's about Marcus, he didn't come home last night\"",
+      "reason": "fails B: hospitalized status and being reported as not coming home are different attributes, not a direct contradiction about life-status"
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "call_count",
+      "prior_quote": "Scene 10: \"the three voicemails from a 609 number she had been ignoring since Wednesday\"",
+      "later_quote": "Scene 14: \"Three missed calls from a 609 number, one voicemail\"",
+      "reason": "fails C: these are not clearly contradictory because scene 14 reports the current phone state at that moment, not necessarily the total historical count from scene 10"
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "hearing_stage",
+      "prior_quote": "Scene 13: \"Asha followed a half-step behind... toward the courtroom door\" and \"Asha did not know any of that, only that nothing further came, and she took the absence as permission to stop listening for it\"",
+      "later_quote": "Scene 14: \"By the time the judge signed the interim order keeping Mrs. Hatcher's children where they were\"",
+      "reason": "fails C: scene 14 is a later outcome of the same hearing, not a contradictory value for the same attribute"
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "hearing_outcome_state",
+      "prior_quote": "Scene 13: \"Inside, the courtroom smelled of floor polish and old paper... and Asha waited for the judge\"",
+      "later_quote": "Scene 14: \"By the time the judge signed the interim order keeping Mrs. Hatcher's children where they were\"",
+      "reason": "fails C: waiting for the judge and later having the judge sign an order are sequentially compatible, not contradictory"
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "marital_role",
+      "prior_quote": "Scene 10: \"a woman named Claire Donato, who had written that she was Marcus's wife\"",
+      "later_quote": "Scene 15: \"Claire's hand left the chair edge... Claire had told the children Daddy was working doubles\"",
+      "reason": "fails C: scene 15 treats Claire consistently as Marcus's household partner/wife, not contradictorily"
+    },
+    {
+      "index": 12,
+      "decision": "reject",
+      "attribute": "children_count",
+      "prior_quote": "Scene 10: \"How many children do you have?\" ... \"Three,\" and then, \"the youngest is four months.\"",
+      "later_quote": "Scene 15: \"three nights... with a coat in a closet and two children upstairs\"",
+      "reason": "fails C: \"two children upstairs\" does not contradict having three children total; the third child can be elsewhere in the house, and no total count is asserted in the later quote"
+    }
+  ]
+}

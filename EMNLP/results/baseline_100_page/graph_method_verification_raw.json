@@ -1,0 +1,49 @@
+{
+  "batched": true,
+  "batch_size": 12,
+  "total_proposals": 75,
+  "batches": [
+    {
+      "batch": 1,
+      "proposal_start": 1,
+      "proposal_end": 12,
+      "raw_output_path": "EMNLP/graphs/baseline_100_page/graph_method_verification_raw.batch_001.json"
+    },
+    {
+      "batch": 2,
+      "proposal_start": 13,
+      "proposal_end": 24,
+      "raw_output_path": "EMNLP/graphs/baseline_100_page/graph_method_verification_raw.batch_002.json"
+    },
+    {
+      "batch": 3,
+      "proposal_start": 25,
+      "proposal_end": 36,
+      "raw_output_path": "EMNLP/graphs/baseline_100_page/graph_method_verification_raw.batch_003.json"
+    },
+    {
+      "batch": 4,
+      "proposal_start": 37,
+      "proposal_end": 48,
+      "raw_output_path": "EMNLP/graphs/baseline_100_page/graph_method_verification_raw.batch_004.json"
+    },
+    {
+      "batch": 5,
+      "proposal_start": 49,
+      "proposal_end": 60,
+      "raw_output_path": "EMNLP/graphs/baseline_100_page/graph_method_verification_raw.batch_005.json"
+    },
+    {
+      "batch": 6,
+      "proposal_start": 61,
+      "proposal_end": 72,
+      "raw_output_path": "EMNLP/graphs/baseline_100_page/graph_method_verification_raw.batch_006.json"
+    },
+    {
+      "batch": 7,
+      "proposal_start": 73,
+      "proposal_end": 75,
+      "raw_output_path": "EMNLP/graphs/baseline_100_page/graph_method_verification_raw.batch_007.json"
+    }
+  ]
+}

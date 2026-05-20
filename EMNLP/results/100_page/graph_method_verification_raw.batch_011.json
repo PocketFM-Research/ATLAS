@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "scheduled_time_of_one_o'clock_event",
+      "prior_quote": "Scene 20: \"I'm going to Whitfield with this before one.\"",
+      "later_quote": "Scene 21: \"Whitfield's finger came down on the four-eighteen stamp at last, and he said only that he would carry the corrected sequence into the one o'clock himself\"",
+      "reason": "fails B: the prior quote is about Asha going to Whitfield before one, while the later quote is about Whitfield carrying the sequence into a one o'clock proceeding; they do not assert different values for the same specific attribute."
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "who_will_pick_up_Marcus_vs_who_must_cosign_father's_placement",
+      "prior_quote": "Scene 21: Asha texted \"that she would not be picking him up, that the county step-down bed should be confirmed\"",
+      "later_quote": "Scene 22: \"the admissions packet had come back without the co-signer's notarized signature and the facility could not place him on Wednesday without it\"",
+      "reason": "fails A/B: the prior quote concerns Marcus and whether Asha will pick him up, while the later quote concerns Asha's father and a missing co-signer signature for Bridgepoint placement."
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "father's_placement_destination",
+      "prior_quote": "Scene 21: the social worker text said \"the county step-down bed should be confirmed\"",
+      "later_quote": "Scene 22: \"Bridgepoint's billing line was on the other end asking whether the deposit she had wired on Friday should be held against the bed they were still holding for her father\"",
+      "reason": "fails C: these quotes do not directly contradict; one confirms a county step-down bed for Marcus, the other says Bridgepoint is still holding Asha's father's bed, and both can coexist."
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "which_signature_is_on_which_document",
+      "prior_quote": "Scene 16: \"Claire's hand moved; the pen tracked the line at the bottom of the form...\" and Asha took \"the signed form\"",
+      "later_quote": "Scene 22: \"the admissions packet had come back without the co-signer's notarized signature\"",
+      "reason": "fails B/C: scene 16 establishes Claire signed an authorization form, but scene 22 refers to a missing co-signer's notarized signature on the admissions packet; the screenplay does not state these are the same document or same signature requirement."
+    },
+    {
+      "index": 5,
+      "decision": "reject",
+      "attribute": "proxy_for_father_vs_cosigner_for_Bridgepoint_packet",
+      "prior_quote": "Scene 6: \"Asha typed Lucia's name into the proxy field on the Bridgepoint portal\"",
+      "later_quote": "Scene 22: \"the admissions packet had come back without the co-signer's notarized signature\" and later Asha reads \"Marcus's name... the blank line beneath his printed name\"",
+      "reason": "fails B: being the father's healthcare proxy is a different attribute from being the co-signer on the admissions packet."
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "Bridgepoint_deadline",
+      "prior_quote": "Scene 10: Claire said \"Bridgepoint had said noon on Monday\"",
+      "later_quote": "Scene 22: \"the facility could not place him on Wednesday without it\"",
+      "reason": "fails C/D: these are not contradictory values for the same attribute; Monday noon is the hold/deposit deadline, while Wednesday is the placement date contingent on signature, and the later scene explicitly explains the condition."
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "timing_of_county_step-down_confirmation",
+      "prior_quote": "Scene 21: \"She tapped back out without dialing, opened the social worker's thread, and typed that she would not be picking him up, that the county step-down bed should be confirmed\"",
+      "later_quote": "Scene 22: \"the social worker's reply... the county step-down bed had been confirmed for two o'clock\"",
+      "reason": "fails C: there is no contradiction; scene 21 shows Asha requesting/authorizing the step-down bed, and scene 22 shows the social worker later confirming it."
+    }
+  ]
+}

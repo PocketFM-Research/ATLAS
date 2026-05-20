@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "day/date of scene event",
+      "prior_quote": "Scene 14: \"Three missed calls from a 609 number, one voicemail...\"",
+      "later_quote": "Scene 17: \"the timestamp was from Friday afternoon and the name above it was Whitfield's\"",
+      "reason": "fails C: scene 14 does not state that scene 14 itself occurs on Friday; the later quote only dates the voicemail, not the scene day."
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "destination of Asha's drive",
+      "prior_quote": "Scene 16: \"the hour to the hospital began\" and \"the fax number for the unit was written on the inside of her wrist\"",
+      "later_quote": "Scene 17: \"The hour to the hospital gave her the kind of empty driving that did not stay empty... By the time she pulled into the hospital lot\"",
+      "reason": "fails C: there is no contradiction; scene 17 explicitly continues the hospital drive and says she reaches the hospital lot."
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "professional role",
+      "prior_quote": "Scene 8: \"Devin—the second-year who had signed Tuesday's page in good faith\"",
+      "later_quote": "Scene 17: \"whether the corrected filing she had walked in with Monday had been corrected before or after the cross she had run\"",
+      "reason": "fails B: the prior quote is about Devin being a junior associate, while the later quote concerns the timing/effect of a filing, not a contradictory role."
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "professional role/title",
+      "prior_quote": "Scene 12: \"the Monday seven a.m. partners' meeting\" and Whitfield's office at the firm",
+      "later_quote": "Scene 17: \"Whitfield's voice... had asked her to come by his office Tuesday morning before the partners' meeting\"",
+      "reason": "fails C: calling Whitfield a lawyer/officeholder does not contradict his being a partner; both can be true."
+    },
+    {
+      "index": 5,
+      "decision": "reject",
+      "attribute": "location of Claire's signed form",
+      "prior_quote": "Scene 16: \"the folded form a flat weight against the inside lining\" and \"the folded form on the passenger seat still flat against the canvas lining\"",
+      "later_quote": "Scene 17: \"the form on the seat beside her\"",
+      "reason": "fails C: the later quote is consistent with the form being on the passenger seat; no contradictory location is asserted."
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "Rosa contact during drive",
+      "prior_quote": "Scene 16: \"Asha... thumbed out a single line to Rosa: paper in hand, moving now.\"",
+      "later_quote": "Scene 17: \"her phone... lit with a voicemail icon... the name above it was Whitfield's\"",
+      "reason": "fails B: the prior quote is about Asha sending Rosa a text, while the later quote is about receiving Whitfield's voicemail; absence of Rosa in scene 17 is not a contradictory value."
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "Asha's intended destination",
+      "prior_quote": "Scene 16: \"the hour to the hospital began\" with \"the number on her wrist and the paper at her side\"",
+      "later_quote": "Scene 17: \"By the time she pulled into the hospital lot\" and then she investigates Whitfield timing there",
+      "reason": "fails C: scene 17 does not contradict the hospital trip; it says she arrives at the hospital lot before turning to the Whitfield timing issue."
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "Whitfield's role",
+      "prior_quote": "Scene 17: \"Whitfield's voice... had asked her to come by his office Tuesday morning before the partners' meeting\"",
+      "later_quote": "Scene 18: \"The hallway outside Whitfield's office... he was already there\"",
+      "reason": "fails C: being a lawyer/partner is consistent with being in his firm office; no conflicting role or status is asserted."
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "meeting time",
+      "prior_quote": "Scene 17: \"Whitfield's voice... had asked her to come by his office Tuesday morning before the partners' meeting\"",
+      "later_quote": "Scene 18: \"Devin, at five forty-three in the morning, the message only three words long\"",
+      "reason": "fails B: the later quote timestamps Devin's text, not Asha's arrival at Whitfield's office; it does not contradict the scheduled meeting time."
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "mentorship direction",
+      "prior_quote": "Scene 8: \"the junior associate she had been mentoring for two years\"",
+      "later_quote": "Scene 19: \"the protege she had refused to call first\"",
+      "reason": "fails C: 'the protege' refers to Devin as Asha's protege, which is consistent with Asha mentoring him; no reversal is stated."
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "day of Whitfield meeting",
+      "prior_quote": "Scene 17: \"Whitfield's voice... had asked her to come by his office Tuesday morning before the partners' meeting\"",
+      "later_quote": "Scene 19: \"whatever she told Whitfield in the next half hour\" after scene 18's early-morning arrival",
+      "reason": "fails C: scene 19 continues the Tuesday-morning Whitfield meeting; it does not state or imply that the meeting day is Monday."
+    },
+    {
+      "index": 12,
+      "decision": "reject",
+      "attribute": "whether Asha would speak to Devin before Whitfield",
+      "prior_quote": "Scene 17: \"she had stopped rehearsing what she would say to Devin and started... what she would say in Whitfield's office without him\"",
+      "later_quote": "Scene 19: \"the choice she had made by not stepping into the stairwell had not closed the question of Devin\"",
+      "reason": "fails C: the later quote is consistent with her earlier plan to meet Whitfield without Devin first; it reflects consequences of that choice, not a contradiction."
+    }
+  ]
+}

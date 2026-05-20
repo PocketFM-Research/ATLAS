@@ -1,0 +1,108 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "location/address",
+      "prior_quote": "“Mrs. Adelman from two doors down”",
+      "later_quote": "“Asha then called Mrs. Adelman, two doors down on Pemberton Street”",
+      "reason": "fails C: these are consistent, not different values; the later quote specifies the same location more precisely."
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "witness identity",
+      "prior_quote": "“Mrs. Adelman and me.”",
+      "later_quote": "“And the witness names. Mrs. Marquez and Mrs. Adelman.”",
+      "reason": "fails C: Rosa was already introduced as Rosa Marquez, so “me” and “Mrs. Marquez” are the same witness."
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "name/identity",
+      "prior_quote": "“There were small bequests, including a sum to Rosa Marquez”",
+      "later_quote": "“And the witness names. Mrs. Marquez and Mrs. Adelman.”",
+      "reason": "fails C: “Mrs. Marquez” is not a new conflicting identity; it is the same person previously named Rosa Marquez."
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "beneficiary share under testamentary instrument",
+      "prior_quote": "“the house specifically devised to Daniel and a corresponding cash gift to Lucia”",
+      "later_quote": "“There was a sentence about Daniel. It said the cash bequest to him was being increased”",
+      "reason": "fails B: the quotes refer to different instruments and different dispositions, not contradictory values of the same single attribute."
+    },
+    {
+      "index": 5,
+      "decision": "reject",
+      "attribute": "duration of stay",
+      "prior_quote": "“You came home for two weeks in May and you stayed seven months.”",
+      "later_quote": "“Lucia is assigned the seven-month stay duration”",
+      "reason": "fails C: there is no contradiction; Scene 1 already states Lucia stayed seven months."
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "illness duration",
+      "prior_quote": "“Your mother was sick for a long time before anyone admitted she was sick”",
+      "later_quote": "“Helena Serrano had then, six months later, died in her own bed of an illness she had known about for two years”",
+      "reason": "fails C: “a long time” and “two years” are compatible, not conflicting values."
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "profession/specialty",
+      "prior_quote": "“This is Mrs. Devi. The attorney.”",
+      "later_quote": "“Asha had been a probate attorney for fourteen years”",
+      "reason": "fails C: “probate attorney” is a more specific version of “attorney,” not a different value."
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "profession vs. years of experience",
+      "prior_quote": "“The attorney.”",
+      "later_quote": "“Asha had been a probate attorney for fourteen years”",
+      "reason": "fails B: the prior quote gives occupation, while the later quote gives duration of experience."
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "role",
+      "prior_quote": "“including a sum to Rosa Marquez ‘in gratitude for her care’”",
+      "later_quote": "“And the witness names. Mrs. Marquez and Mrs. Adelman.”",
+      "reason": "fails B: caregiver and witness are different attributes/roles that can both be true."
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "profession label",
+      "prior_quote": "“Asha had been a probate attorney for fourteen years”",
+      "later_quote": "“It is not always the job. I have watched lawyers before.”",
+      "reason": "fails C: “lawyer” and “probate attorney” are compatible labels for the same profession."
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "possession of codicil",
+      "prior_quote": "“Asha stepped quietly out of the sewing room with the codicil in her hand”",
+      "later_quote": "“The codicil is filed”",
+      "reason": "fails C: there is no contradiction; she can hold the codicil earlier and later have filed it."
+    },
+    {
+      "index": 12,
+      "decision": "reject",
+      "attribute": "employment relationship",
+      "prior_quote": "“including a sum to Rosa Marquez ‘in gratitude for her care’”",
+      "later_quote": "“Lucia had asked her to stay on, two afternoons a week, for as long as she wanted”",
+      "reason": "fails C: Rosa can have been Helena's caregiver/beneficiary and later be retained by Lucia; no conflicting value is asserted."
+    },
+    {
+      "index": 13,
+      "decision": "reject",
+      "attribute": "age vs. years worked",
+      "prior_quote": "“She was somewhere past sixty”",
+      "later_quote": "“the way she had made coffee in this kitchen for thirty-one years”",
+      "reason": "fails B: age and length of service are different attributes, and they are not inconsistent."
+    }
+  ]
+}

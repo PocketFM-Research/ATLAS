@@ -1,0 +1,462 @@
+{
+  "11": [
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_001",
+      "target_type": "Event",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "Marcus's second sentence, when it came, was the truth he had not prepared: that the deposit money had never been in the account he'd promised it from"
+      ],
+      "confidence": 0.98,
+      "source_name": "Marcus",
+      "target_name": "Marcus confesses the deposit lie",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_001",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "he had spent the nine days believing he could move pieces around fast enough to make the lie temporary"
+      ],
+      "confidence": 0.93,
+      "source_name": "Marcus",
+      "target_name": "Marcus admits he delayed the truth",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_002",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "Asha listened all the way through without interrupting",
+        "she said only that she would call back in an hour"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha withholds immediate response",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_003",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "She set the phone on the counter, kept her shoulder against the laminate a moment longer, and let the kitchen go quiet"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha",
+      "target_name": "Asha waits in tense silence",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_004",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "the gap between the two numbers was smaller than she had let herself see all week",
+        "the cursor blinked over the transfer field as if waiting for her to admit what she had already decided to consider"
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "Asha weighs the transfer amount",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_005",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "She typed the full deposit into the field, read it back once, and authorized the wire to Bridgepoint"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha initiates the wire transfer",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_006",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "Marcus's second sentence, when it came, was the truth he had not prepared",
+        "he had spent the nine days believing he could move pieces around fast enough to make the lie temporary"
+      ],
+      "confidence": 0.84,
+      "source_name": "Marcus confesses the deposit lie",
+      "target_name": "Marcus admits he delayed the truth",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_007",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_002",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "Marcus's second sentence, when it came, was the truth he had not prepared",
+        "Asha listened all the way through without interrupting"
+      ],
+      "confidence": 0.8,
+      "source_name": "Marcus admits he delayed the truth",
+      "target_name": "Asha withholds immediate response",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_008",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_003",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "Asha listened all the way through without interrupting",
+        "She set the phone on the counter, kept her shoulder against the laminate a moment longer"
+      ],
+      "confidence": 0.86,
+      "source_name": "Asha withholds immediate response",
+      "target_name": "Asha waits in tense silence",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_009",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_004",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "She stayed against the laminate a moment longer",
+        "her eyes moving from the savings line to the figure Rosa had circled twice on the rate sheet"
+      ],
+      "confidence": 0.82,
+      "source_name": "Asha waits in tense silence",
+      "target_name": "Asha weighs the transfer amount",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_010",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_005",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_100_page_11_doc_10_chunk_0_part_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "the gap between the two numbers was smaller than she had let herself see all week",
+        "She typed the full deposit into the field"
+      ],
+      "confidence": 0.9,
+      "source_name": "Asha weighs the transfer amount",
+      "target_name": "Asha initiates the wire transfer",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_011",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_002",
+      "target_type": "Character",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "that Claire had found out two days ago"
+      ],
+      "confidence": 0.55,
+      "source_name": "Marcus",
+      "target_name": "Claire",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_012",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_003",
+      "target_type": "Character",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "Asha listened all the way through without interrupting",
+        "she said only that she would call back in an hour"
+      ],
+      "confidence": 0.52,
+      "source_name": "Marcus",
+      "target_name": "Asha",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_013",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_006",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_003",
+      "target_type": "Character",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "the rate sheet Rosa had marked up sat next to her own bank app"
+      ],
+      "confidence": 0.58,
+      "source_name": "Rosa",
+      "target_name": "Asha",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_014",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_004",
+      "source_type": "Concept",
+      "relation": "affiliated_with",
+      "target_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_004",
+      "target_type": "Concept",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "Bridgepoint's noon hold was still running"
+      ],
+      "confidence": 0.99,
+      "source_name": "Bridgepoint",
+      "target_name": "Bridgepoint",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_015",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_005",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_005",
+      "target_type": "Object",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "the rate sheet Rosa had marked up"
+      ],
+      "confidence": 0.9,
+      "source_name": "rate sheet",
+      "target_name": "rate sheet",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_016",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_007",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_007",
+      "target_type": "Object",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "her own bank app"
+      ],
+      "confidence": 0.88,
+      "source_name": "bank app",
+      "target_name": "bank app",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_017",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_008",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_11_doc_10_chunk_0_part_0_ent_008",
+      "target_type": "Object",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_0",
+      "evidence": [
+        "the savings line"
+      ],
+      "confidence": 0.88,
+      "source_name": "savings line",
+      "target_name": "savings line",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_0_rel_018",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_1_ent_009",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_100_page_11_doc_10_chunk_0_part_1_ev_006",
+      "target_type": "Event",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_1",
+      "evidence": [
+        "Marcus's half was now a number she would carry without asking him about again"
+      ],
+      "confidence": 0.92,
+      "source_name": "Marcus",
+      "target_name": "accept Marcus's share as fixed",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_1_rel_006",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_100_page_11_doc_10_chunk_0_part_1_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_100_page_11_doc_10_chunk_0_part_1_ent_008",
+      "target_type": "TimePoint",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_1",
+      "evidence": [
+        "the four years of untouched savings"
+      ],
+      "confidence": 0.98,
+      "source_name": "realize savings are committed",
+      "target_name": "four years",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_1_rel_011",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_100_page_11_doc_10_chunk_0_part_1_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_on",
+      "target_id": "ent_100_page_11_doc_10_chunk_0_part_1_ent_008",
+      "target_type": "TimePoint",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_1",
+      "evidence": [
+        "the four years of untouched savings"
+      ],
+      "confidence": 0.9,
+      "source_name": "accept Marcus's share as fixed",
+      "target_name": "four years",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_1_rel_012",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_1_ent_009",
+      "source_type": "Character",
+      "relation": "uses",
+      "target_id": "ent_100_page_11_doc_10_chunk_0_part_1_ent_001",
+      "target_type": "Object",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_1",
+      "evidence": [
+        "sat down in front of the laptop"
+      ],
+      "confidence": 0.86,
+      "source_name": "Marcus",
+      "target_name": "laptop",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_1_rel_015",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_1_ent_002",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_100_page_11_doc_10_chunk_0_part_1_ent_003",
+      "target_type": "Concept",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_1",
+      "evidence": [
+        "authorized the wire to Bridgepoint"
+      ],
+      "confidence": 0.72,
+      "source_name": "wire transfer",
+      "target_name": "Bridgepoint",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_1_rel_016",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_1_ent_005",
+      "source_type": "Object",
+      "relation": "part_of",
+      "target_id": "ent_100_page_11_doc_10_chunk_0_part_1_ent_004",
+      "target_type": "Object",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_1",
+      "evidence": [
+        "without writing anything in the memo line"
+      ],
+      "confidence": 0.84,
+      "source_name": "confirmation screen reference number",
+      "target_name": "memo line",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_1_rel_019",
+      "movie_id": "100_page__scene_11"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_100_page_11_doc_10_chunk_0_part_1_ent_010",
+      "source_type": "Concept",
+      "relation": "part_of",
+      "target_id": "ent_100_page_11_doc_10_chunk_0_part_1_ent_007",
+      "target_type": "Concept",
+      "scene_id": "11",
+      "chunk_id": "doc_10_chunk_0_part_1",
+      "evidence": [
+        "Marcus's half was now a number she would carry"
+      ],
+      "confidence": 0.8,
+      "source_name": "Marcus's half",
+      "target_name": "untouched savings",
+      "id": "rel_100_page_11_doc_10_chunk_0_part_1_rel_020",
+      "movie_id": "100_page__scene_11"
+    }
+  ]
+}

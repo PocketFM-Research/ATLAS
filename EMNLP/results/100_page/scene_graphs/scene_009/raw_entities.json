@@ -1,0 +1,1460 @@
+{
+  "9": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman at the door who brings the filing and decides to press for a signature immediately.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_0",
+      "evidence": [
+        "On the top step Asha stopped with her knuckles an inch from the door",
+        "she was going to ask him to sign it tonight",
+        "She pressed the bell",
+        "Asha let her hand drop back to the briefcase handle",
+        "Asha read it once"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_003",
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_006",
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_0_ent_001",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Whitfield"
+      ],
+      "canonical_name": "Whitfield",
+      "description": "The person who is expected to read the Monday packet before the filing can be docketed.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_0",
+      "evidence": [
+        "before Whitfield read his Monday packet"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_002"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_0_ent_002",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The sender of the text message telling Asha to go in without coaching.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_0",
+      "evidence": [
+        "Rosa, three short lines",
+        "Rosa had named the thing"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_006",
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_0_ent_003",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "the filing",
+        "the page",
+        "a filing",
+        "his name in the signature block",
+        "the briefcase",
+        "the bell",
+        "the brass number",
+        "the peephole"
+      ],
+      "canonical_name": "the filing",
+      "description": "The document Asha brings to be signed and docketed as a correction.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_0",
+      "evidence": [
+        "bringing him the page",
+        "hand him a filing with his name in the signature block",
+        "ask him to sign it tonight",
+        "Asha let her hand drop back to the briefcase handle",
+        "She pressed the bell",
+        "Her phone buzzed once against her hip",
+        "the brass number above the peephole"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_003",
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_0_ent_004",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Concept",
+      "surface_forms": [
+        "the disclosure",
+        "a correction",
+        "No coaching"
+      ],
+      "canonical_name": "the disclosure",
+      "description": "The legal or procedural matter Asha intends to explain and have signed before it is docketed.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_0",
+      "evidence": [
+        "walk him through the disclosure he would have to make in the morning",
+        "it could be docketed as a correction",
+        "No coaching"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_006",
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_0_ent_005",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "TimePoint",
+      "surface_forms": [
+        "tonight",
+        "the morning",
+        "Monday",
+        "the drive over"
+      ],
+      "canonical_name": "tonight",
+      "description": "The immediate time frame in which Asha wants the signature before the Monday packet is read.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_0",
+      "evidence": [
+        "sign it tonight",
+        "in the morning",
+        "his Monday packet",
+        "on the drive over"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_006",
+        "ev_100_page_9_doc_8_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_0_ent_006",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman waiting at the apartment door, bracing herself to confront Devin and deliver the page.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "the only honest place left to put that recognition was on the other side of the door when it opened",
+        "Asha shifted her weight forward over the top step",
+        "Asha took a half step forward into the band of warm air coming out of the hallway",
+        "\"Hello, Devin. I brought you the page.\""
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_003",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_006",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_007"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_001",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The person whose call and imagined text message push Asha toward confronting the situation.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "without answering, because Rosa had named the thing",
+        "Rosa would have written something short"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_002"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_002",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Devin"
+      ],
+      "canonical_name": "Devin",
+      "description": "The man who opens the apartment door and silently studies Asha before receiving the page.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "waited for Devin to be the one to speak first",
+        "Devin filled the gap in the doorway",
+        "\"Hello, Devin. I brought you the page.\""
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_006",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_007"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_003",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "phone",
+        "Her phone"
+      ],
+      "canonical_name": "phone",
+      "description": "Asha's phone, which buzzes with Rosa's call and message while she refuses to answer it.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "the phone back into her coat pocket without answering",
+        "Her phone buzzed a second time against her hip"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_002"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_004",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase"
+      ],
+      "canonical_name": "briefcase",
+      "description": "The briefcase Asha grips tightly while preparing to confront Devin.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "tightened her grip on the briefcase handle until the leather creased under her thumb"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_005",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "the page",
+        "page"
+      ],
+      "canonical_name": "the page",
+      "description": "The page Asha intends to hand over to Devin at the door.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "hand him the page",
+        "\"Hello, Devin. I brought you the page.\""
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_006",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "apartment door",
+        "door",
+        "the door"
+      ],
+      "canonical_name": "apartment door",
+      "description": "The door Asha waits at and that opens to reveal Devin in the hallway.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "on the other side of the door when it opened",
+        "while she was still listening for footsteps on the other side of the door",
+        "the door pulled inward a few inches",
+        "the apartment door"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_003",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_007",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "hallway"
+      ],
+      "canonical_name": "hallway",
+      "description": "The warmer interior space beyond the apartment door where Devin stands.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "the warmer air of the hallway",
+        "Devin filled the gap in the doorway",
+        "coming out of the hallway"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_008",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "top step"
+      ],
+      "canonical_name": "top step",
+      "description": "The step where Asha stands while gathering herself before the door opens.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "Asha shifted her weight forward over the top step"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_009",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "upstairs window",
+        "lit window upstairs"
+      ],
+      "canonical_name": "upstairs window",
+      "description": "The upstairs window Asha deliberately avoids looking at while waiting at the door.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "keeping her eyes on the brass number above the peephole rather than the lit window upstairs"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_010",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "brass number"
+      ],
+      "canonical_name": "brass number",
+      "description": "The brass number above the peephole that Asha focuses on instead of the upstairs window.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "keeping her eyes on the brass number above the peephole"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_011",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "peephole"
+      ],
+      "canonical_name": "peephole",
+      "description": "The peephole above the door that Asha stares at while waiting.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "the brass number above the peephole"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_012",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Object",
+      "surface_forms": [
+        "deadbolt",
+        "bolt"
+      ],
+      "canonical_name": "deadbolt",
+      "description": "The locking mechanism that slides open before the apartment door opens.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "A bolt slid, then the deadbolt"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_004"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_013",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Object",
+      "surface_forms": [
+        "sweatshirt"
+      ],
+      "canonical_name": "sweatshirt",
+      "description": "The sweatshirt Devin is wearing when he appears in the doorway.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "Devin filled the gap in the doorway in a sweatshirt with the sleeves pushed up"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_014",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Object",
+      "surface_forms": [
+        "dish towel"
+      ],
+      "canonical_name": "dish towel",
+      "description": "The dish towel Devin is still holding when he opens the door.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "a dish towel still in one hand"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_005"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_015",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Concept",
+      "surface_forms": [
+        "recognition"
+      ],
+      "canonical_name": "recognition",
+      "description": "Asha's unspoken realization that Rosa has named and that she must confront at the door.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_1",
+      "evidence": [
+        "Rosa had named the thing she had been intending not to name to herself",
+        "the only honest place left to put that recognition"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_1_ent_016",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who arrives at Devin's apartment carrying the corrected filing and tries to be more honest with him.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_2",
+      "evidence": [
+        "\"Hello, Devin. I brought you the page.\"",
+        "Asha set the briefcase flat on the table",
+        "She lifted the corrected filing out by its edges"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_003",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_006",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_007"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_2_ent_001",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Devin"
+      ],
+      "canonical_name": "Devin",
+      "description": "The man who receives Asha at the threshold, silently lets her in, and waits in the kitchen while she hands over the filing.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_2",
+      "evidence": [
+        "\"Hello, Devin. I brought you the page.\"",
+        "He stepped back from the threshold without answering",
+        "Devin moved the basket onto the counter without a word"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_2_ent_002",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Location",
+      "surface_forms": [
+        "Devin's apartment",
+        "hallway",
+        "threshold",
+        "kitchen",
+        "apartment"
+      ],
+      "canonical_name": "Devin's apartment",
+      "description": "The apartment interior where Asha enters, is guided toward the kitchen, and presents the corrected filing.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_2",
+      "evidence": [
+        "coming out of the hallway",
+        "He stepped back from the threshold",
+        "his apartment",
+        "The kitchen was narrower than she'd pictured"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_003",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_006",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_007"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_2_ent_003",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "the page",
+        "page"
+      ],
+      "canonical_name": "the page",
+      "description": "The document Asha brings to Devin and later places on the table between them.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_2",
+      "evidence": [
+        "\"Hello, Devin. I brought you the page.\"",
+        "just the page",
+        "She lifted the corrected filing out by its edges and laid it on the table between them"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_006",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_007"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_2_ent_004",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase"
+      ],
+      "canonical_name": "briefcase",
+      "description": "The case Asha carries, sets on the table, and opens before removing the filing.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_2",
+      "evidence": [
+        "with the briefcase pulled close to her hip",
+        "Asha set the briefcase flat on the table",
+        "worked the latches one at a time"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_2_ent_005",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "corrected filing"
+      ],
+      "canonical_name": "corrected filing",
+      "description": "The revised document Asha removes from the briefcase and presents to Devin.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_2",
+      "evidence": [
+        "She lifted the corrected filing out by its edges",
+        "laid it on the table between them"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_006",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_007"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_2_ent_006",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "signature block"
+      ],
+      "canonical_name": "signature block",
+      "description": "The part of the filing showing Devin's name where Asha's would normally appear.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_2",
+      "evidence": [
+        "the signature block turned so he could read his own name where hers would normally have been"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_2_ent_007",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "dish towel"
+      ],
+      "canonical_name": "dish towel",
+      "description": "The towel Devin drops beside the sink while clearing space in the kitchen.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_2",
+      "evidence": [
+        "dropped the dish towel beside the sink"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_004"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_2_ent_008",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "laundry basket"
+      ],
+      "canonical_name": "laundry basket",
+      "description": "The basket Devin moves off a chair to clear the kitchen space.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_2",
+      "evidence": [
+        "a half-folded laundry basket on one of them",
+        "Devin moved the basket onto the counter"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_004"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_2_ent_009",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "table"
+      ],
+      "canonical_name": "table",
+      "description": "The small kitchen table where Asha places the briefcase and the corrected filing.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_2",
+      "evidence": [
+        "a small square table pushed against the wall",
+        "Asha set the briefcase flat on the table",
+        "laid it on the table between them"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_006",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_007"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_2_ent_010",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "mat"
+      ],
+      "canonical_name": "mat",
+      "description": "The mat Asha crosses as she enters Devin's apartment.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_2",
+      "evidence": [
+        "she crossed in over the mat"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_003"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_2_ent_011",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "hanging lamp"
+      ],
+      "canonical_name": "hanging lamp",
+      "description": "The lamp above the kitchen table illuminating the narrow kitchen.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_2",
+      "evidence": [
+        "under a hanging lamp"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_2_ev_004"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_2_ent_012",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who withholds help and keeps Devin facing the signature block on the page.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_3",
+      "evidence": [
+        "Asha drew her fingers fully off the page",
+        "she kept her eyes on Devin",
+        "Asha did not move"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_003",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_3_ent_001",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Devin",
+        "he",
+        "him",
+        "his"
+      ],
+      "canonical_name": "Devin",
+      "description": "The man being shown the signature block and left to decide without further prompting.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_3",
+      "evidence": [
+        "he could read his own name",
+        "looked at him",
+        "Devin looked down at the page",
+        "Devin's gaze went down to the signature block"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_3_ent_002",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Object",
+      "surface_forms": [
+        "signature block"
+      ],
+      "canonical_name": "signature block",
+      "description": "The part of the page where Devin's name appears instead of Asha's.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_3",
+      "evidence": [
+        "the signature block turned so he could read his own name",
+        "on the signature block under the lamp",
+        "Devin's gaze went down to the signature block"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_3_ent_003",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "page"
+      ],
+      "canonical_name": "page",
+      "description": "The document being turned and held in place during the signing moment.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_3",
+      "evidence": [
+        "the signature block turned",
+        "her fingers on the top corner of the page",
+        "Asha drew her fingers fully off the page"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_3_ent_004",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "pen"
+      ],
+      "canonical_name": "pen",
+      "description": "The pen Asha refuses to slide toward Devin.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_3",
+      "evidence": [
+        "She did not slide the pen toward him",
+        "she did not reach for the pen lying near the edge of the briefcase"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_003",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_3_ent_005",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase"
+      ],
+      "canonical_name": "briefcase",
+      "description": "The briefcase beside the pen near the edge of the scene's workspace.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_3",
+      "evidence": [
+        "the pen lying near the edge of the briefcase"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_3_ent_006",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "lamp"
+      ],
+      "canonical_name": "lamp",
+      "description": "The lamp illuminating the page and signature block.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_3",
+      "evidence": [
+        "under the lamp",
+        "closer to him under the lamp"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_3_ent_007",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "refrigerator"
+      ],
+      "canonical_name": "refrigerator",
+      "description": "The refrigerator that clicks off and contributes to the silence in the room.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_3",
+      "evidence": [
+        "The refrigerator clicked off again",
+        "The refrigerator stayed off"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_3_ent_008",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "pipe"
+      ],
+      "canonical_name": "pipe",
+      "description": "A pipe in the building that ticks once during the silence.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_3",
+      "evidence": [
+        "somewhere in the building a pipe ticked once and went quiet"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_3_ent_009",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Location",
+      "surface_forms": [
+        "galley"
+      ],
+      "canonical_name": "galley",
+      "description": "The small room where Asha and Devin stand in silence.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_3",
+      "evidence": [
+        "the galley went quiet enough",
+        "The refrigerator stayed off"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_005"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_3_ent_010",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Concept",
+      "surface_forms": [
+        "deadline"
+      ],
+      "canonical_name": "deadline",
+      "description": "The time pressure Asha considers naming again but chooses not to emphasize.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_3",
+      "evidence": [
+        "naming the deadline again"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_3_ent_011",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who deliberately stays still and withholds help while watching Devin struggle with the silence.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_4",
+      "evidence": [
+        "Asha held where she was.",
+        "Asha let out a breath she had not realized she was holding so tight",
+        "Asha kept her eyes on Devin and did not move."
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_003",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_4_ent_001",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Devin"
+      ],
+      "canonical_name": "Devin",
+      "description": "The man Asha watches as he hesitates over the signature block and the blank page.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_4",
+      "evidence": [
+        "Devin's gaze stayed on the signature block",
+        "she watched him watch the page",
+        "she waited inside the quiet and let him be the one who had to move first"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_003",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_4_ent_002",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Object",
+      "surface_forms": [
+        "pen",
+        "the pen"
+      ],
+      "canonical_name": "pen",
+      "description": "The pen Asha leaves near her side of the table so Devin must reach for it.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_4",
+      "evidence": [
+        "sliding the pen",
+        "The pen lay where she had set it down, near the briefcase"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_003"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_4_ent_003",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "briefcase",
+        "the briefcase"
+      ],
+      "canonical_name": "briefcase",
+      "description": "The briefcase sitting near Asha's side of the table beside the pen.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_4",
+      "evidence": [
+        "near the briefcase",
+        "closer to her side of the table than to his"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_003"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_4_ent_004",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "signature block"
+      ],
+      "canonical_name": "signature block",
+      "description": "The place on the page where Devin's signature is expected to go.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_4",
+      "evidence": [
+        "Devin's gaze stayed on the signature block"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_4_ent_005",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "page",
+        "the page",
+        "blank page"
+      ],
+      "canonical_name": "page",
+      "description": "The document on the table that Devin studies and must reach across to sign.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_4",
+      "evidence": [
+        "reach across the page",
+        "she watched him watch the page",
+        "the blank line look longer than it was"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_003",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_4_ent_006",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "deadline"
+      ],
+      "canonical_name": "deadline",
+      "description": "The deadline Asha considers naming again but chooses not to mention.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_4",
+      "evidence": [
+        "naming the deadline again"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_001"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_4_ent_007",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "car",
+        "the car"
+      ],
+      "canonical_name": "car",
+      "description": "The vehicle where Asha previously made choices for Devin on the way over.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_4",
+      "evidence": [
+        "she had already used up her allowance of choosing for him in the car on the way over"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_001"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_4_ent_008",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Object",
+      "surface_forms": [
+        "jacket",
+        "her jacket"
+      ],
+      "canonical_name": "jacket",
+      "description": "Asha's jacket, which shifts slightly as her shoulders drop.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_4",
+      "evidence": [
+        "her shoulders dropped a quarter inch against the line of her jacket"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_004"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_4_ent_009",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Object",
+      "surface_forms": [
+        "table",
+        "the table",
+        "table edge"
+      ],
+      "canonical_name": "table",
+      "description": "The table beside which Asha stands motionless while the pen and briefcase rest near her side.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_4",
+      "evidence": [
+        "Asha held where she was.",
+        "against the table edge",
+        "closer to her side of the table than to his"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_003",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_4_ent_010",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Object",
+      "surface_forms": [
+        "lamp",
+        "the lamp"
+      ],
+      "canonical_name": "lamp",
+      "description": "The lamp whose angle catches the filing corner and makes the blank line seem longer.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_4",
+      "evidence": [
+        "catching the lamp at an angle"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_4_ent_011",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Object",
+      "surface_forms": [
+        "refrigerator",
+        "The refrigerator"
+      ],
+      "canonical_name": "refrigerator",
+      "description": "The refrigerator that remains silent and does not click back on during the tense pause.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_4",
+      "evidence": [
+        "The refrigerator did not click back on."
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_4_ent_012",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Concept",
+      "surface_forms": [
+        "silence",
+        "the silence",
+        "quiet"
+      ],
+      "canonical_name": "silence",
+      "description": "The tense quiet Asha refuses to break while waiting for Devin to act.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_4",
+      "evidence": [
+        "standing inside that silence",
+        "she did not fill the space",
+        "She waited inside the quiet"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_005",
+        "ev_100_page_9_doc_8_chunk_0_part_4_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_4_ent_013",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman who remains silent, holds eye contact, and refuses to soften the moment.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_5",
+      "evidence": [
+        "She waited inside the quiet and let him be the one who had to move first.",
+        "Asha kept her eyes on Devin and did not move.",
+        "she would normally have softened it"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_5_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_5_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_5_ev_003",
+        "ev_100_page_9_doc_8_chunk_0_part_5_ev_004"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_5_ent_001",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Devin"
+      ],
+      "canonical_name": "Devin",
+      "description": "The man opposite Asha whose hesitation is shown by a slight hand movement.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_5",
+      "evidence": [
+        "let him be the one who had to move first",
+        "Asha kept her eyes on Devin",
+        "Devin's hand, which had been flat against the table edge, lifted half an inch and settled again"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_5_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_5_ev_002",
+        "ev_100_page_9_doc_8_chunk_0_part_5_ev_003",
+        "ev_100_page_9_doc_8_chunk_0_part_5_ev_004",
+        "ev_100_page_9_doc_8_chunk_0_part_5_ev_006"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_5_ent_002",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Object",
+      "surface_forms": [
+        "the page",
+        "page"
+      ],
+      "canonical_name": "the page",
+      "description": "The corrected page lying between Asha and Devin, left unadjusted.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_5",
+      "evidence": [
+        "The page lay between them in the lamp's circle, the corrected language stark above the blank line, and she did not adjust it.",
+        "The corrected page remains between them"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_5_ev_004"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_5_ent_003",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "the refrigerator"
+      ],
+      "canonical_name": "the refrigerator",
+      "description": "The refrigerator that does not click back on, contributing to the scene's silence.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_5",
+      "evidence": [
+        "The refrigerator did not click back on."
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_5_ev_001"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_5_ent_004",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "the lamp",
+        "the lamp's circle",
+        "lamp"
+      ],
+      "canonical_name": "the lamp",
+      "description": "The lamp casting a circle of light where the page lies between Asha and Devin.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_5",
+      "evidence": [
+        "The page lay between them in the lamp's circle"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_5_ev_004"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_5_ent_005",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "the blank line",
+        "blank line"
+      ],
+      "canonical_name": "the blank line",
+      "description": "The blank line on the corrected page that Asha refuses to fill in.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_5",
+      "evidence": [
+        "the corrected language stark above the blank line",
+        "she did not adjust it"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_5_ev_004"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_5_ent_006",
+      "movie_id": "100_page__scene_9"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Concept",
+      "surface_forms": [
+        "the kindness"
+      ],
+      "canonical_name": "the kindness",
+      "description": "The softened rapport Asha has built with Devin over two years and now withholds.",
+      "scene_id": "9",
+      "chunk_id": "doc_8_chunk_0_part_5",
+      "evidence": [
+        "the kindness she had spent two years building with him would have asked her to speak"
+      ],
+      "linked_event_ids": [
+        "ev_100_page_9_doc_8_chunk_0_part_5_ev_001",
+        "ev_100_page_9_doc_8_chunk_0_part_5_ev_003"
+      ],
+      "id": "ent_100_page_9_doc_8_chunk_0_part_5_ent_007",
+      "movie_id": "100_page__scene_9"
+    }
+  ]
+}

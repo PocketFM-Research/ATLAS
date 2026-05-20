@@ -1,0 +1,40 @@
+{
+  "movie_id": "20_page__scene_5",
+  "title": "",
+  "node_count_total": 194,
+  "node_count_by_type": {
+    "Event": 80,
+    "Character": 9,
+    "Location": 36,
+    "TimePoint": 8,
+    "Object": 41,
+    "Vehicle": 5,
+    "Concept": 15
+  },
+  "edge_count_total": 245,
+  "edge_count_by_relation": {
+    "performs": 65,
+    "undergoes": 12,
+    "located_at": 35,
+    "occurs_at": 63,
+    "experiences": 15,
+    "references": 2,
+    "part_of": 18,
+    "kinship_with": 12,
+    "possesses": 4,
+    "occurs_on": 4,
+    "is_a": 7,
+    "affiliated_with": 2,
+    "affinity_with": 2,
+    "precedes": 1,
+    "causes": 2,
+    "occurs_after": 1
+  },
+  "nodes_with_evidence_pct": 100.0,
+  "edges_with_evidence_pct": 100.0,
+  "schema_violation_count": 0,
+  "avg_degree": 2.53,
+  "disconnected_component_count": 38,
+  "avg_aliases_per_node": 1.59,
+  "avg_edge_confidence": 0.893
+}

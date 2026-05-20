@@ -1,0 +1,131 @@
+{
+  "Asha": {
+    "occupation": "attorney",
+    "employer": "Mr. Halloran",
+    "affiliated_with": "Mr. Halloran",
+    "age_years": "worked under him years",
+    "duration": "fifteen years",
+    "holds": "banker's box",
+    "uses": "phone",
+    "wears": "coat",
+    "drinks": "coffee"
+  },
+  "Mr. Halloran": {
+    "title": "Mr.",
+    "occupation": "attorney",
+    "affiliated_with": "Asha",
+    "uses": "reading glasses"
+  },
+  "Rosa": {
+    "name_form": "Rosa",
+    "occupation": "housekeeper",
+    "life_status": "alive",
+    "drinks": "coffee"
+  },
+  "Rosa Maldonado": {
+    "occupation": "housekeeper",
+    "role": "codicil witness",
+    "holds": "one-third house interest",
+    "uses": "Spanish",
+    "duration": "thirty-one years"
+  },
+  "Daniel": {
+    "name_form": "Daniel",
+    "has_siblings": "Lucia",
+    "holds": "one-third house interest"
+  },
+  "Lucia": {
+    "name_form": "Lucia",
+    "has_siblings": "Daniel",
+    "holds": "one-third house interest"
+  },
+  "Mrs. Inez Carrasquillo": {
+    "title": "Mrs.",
+    "role": "codicil witness",
+    "occupation": "neighbor",
+    "affiliated_with": "block"
+  },
+  "Marcus": {
+    "occupation": "paralegal",
+    "employer": "Asha",
+    "duration": "six years",
+    "has_children": "yes",
+    "drives": "car",
+    "holds": "banker's box",
+    "uses": "radio",
+    "drinks": "coffee"
+  },
+  "Marcus's child": {
+    "count": "1",
+    "age": "middle school"
+  },
+  "Marcus's husband": {
+    "occupation": "eighth-grade history teacher",
+    "is_married": "yes",
+    "marital_status": "married to Marcus"
+  },
+  "Filbert Street": {
+    "type": "street"
+  },
+  "February": {
+    "type": "month"
+  },
+  "February eleventh": {
+    "type": "date",
+    "date": "February 11"
+  },
+  "Spruce": {
+    "type": "street"
+  },
+  "buyers' attorney": {
+    "occupation": "attorney",
+    "affiliated_with": "buyers"
+  },
+  "codicil": {
+    "type": "codicil",
+    "date": "February eleventh",
+    "count": "2 signatures",
+    "condition": "witnessed",
+    "intact_state": "original exists",
+    "hidden_location": "missing from file"
+  },
+  "house": {
+    "type": "house",
+    "quantity": "equal thirds",
+    "price": "fair market value",
+    "uses": "independent appraisal"
+  },
+  "banker's box": {
+    "type": "box",
+    "holds": "letter and codicil"
+  },
+  "letter": {
+    "type": "letter",
+    "date": "February"
+  },
+  "petition": {
+    "type": "petition",
+    "role": "lodge codicil"
+  },
+  "probate": {
+    "type": "probate"
+  },
+  "Decedent": {
+    "life_status": "dead",
+    "holds": "house final intent"
+  },
+  "courthouse": {
+    "type": "courthouse",
+    "affiliated_with": "Filbert Street"
+  },
+  "delivery truck": {
+    "type": "truck",
+    "measurement": "three doors down"
+  },
+  "car": {
+    "type": "car"
+  },
+  "office": {
+    "type": "office"
+  }
+}
