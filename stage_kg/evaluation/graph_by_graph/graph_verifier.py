@@ -640,10 +640,17 @@ event is about year"; "fails D: scene 7 explicitly says 'I moved opening
 night'").
 
 Decision consistency rule:
+  - The structured "decision" is authoritative for downstream code, so it MUST
+    match the "reason" you write.
   - If your reason says "all four conditions hold", "confirmable
     contradiction", "direct contradiction", or otherwise states that the
     candidate satisfies the confirmation test, the decision MUST be "confirm".
-  - If the decision is "reject", the reason MUST name which condition failed.
+  - If your reason says "fails A/B/C/D", "compatible", "not a contradiction",
+    "different attributes", "different entities", "explained by the text", or
+    "reasonable story progression", the decision MUST be "reject".
+  - Before finalizing each entry, re-read the decision and reason together:
+    "confirm" reasons must explain why all four conditions hold; "reject"
+    reasons must name which condition failed.
 
 Default to CONFIRM when:
   - Both quotes refer to the same named entity (or an alias).
@@ -653,6 +660,24 @@ Default to CONFIRM when:
 
 Default to REJECT only when one specific condition is clearly violated and
 you can cite the textual evidence for it.
+
+Special continuity rules:
+  - For locations, reject when one value is only a broader area/neighborhood
+    and the other is a street/address within that area. Confirm only when the
+    two values are the same granularity and mutually exclusive, or the text
+    makes them incompatible.
+  - For recurring process threads (appointments, inspections, appraisals,
+    reports, filings, calls, deliveries), do NOT reject as "different events"
+    merely because the later scene names a different person, day, or deadline.
+    Confirm if the story presents the later item as fulfilling the same
+    unresolved process and gives no explicit explanation for replacement,
+    rescheduling, or a second separate occurrence.
+  - For ages, durations, or elapsed-time attributes, reject when the screenplay
+    explicitly moves forward enough in time to explain the changed value, OR
+    when the change is a reasonable amount across non-adjacent scenes and the
+    story timeline plausibly allows time to pass. Use the full scene context,
+    not only the quoted sentence. Confirm age/duration changes only when the
+    values are impossible or unreasonable for the story timeline.
 
 Do NOT reject just because:
   - "This is normal narrative progression" — characters legitimately
@@ -753,7 +778,7 @@ Output strict JSON only, no prose, no markdown:
         model_reason = str(entry.get("reason", "")).strip()
         rec.update(
             {
-                "model_decision": decision,
+                "model_decision": str(entry.get("decision", "")).lower(),
                 "model_reason": model_reason,
                 "attribute": attribute,
                 "prior_quote": prior_quote,

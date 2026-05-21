@@ -1,8 +1,8 @@
 {
   "raw_proposals": 75,
   "after_dedupe": 75,
-  "confirmed": 13,
-  "final_detections": 13,
+  "confirmed": 12,
+  "final_detections": 12,
   "verification_only": true,
   "verification_log": [
     {
@@ -11,12 +11,12 @@
       "scene_x": 1,
       "scene_y": 2,
       "model_decision": "reject",
-      "model_reason": "fails C: these are not clearly different values, because if the funeral was earlier in the week, 'last Friday' could be 'the day after the funeral.'",
-      "attribute": "date Rosa's employment ended / notice timing",
-      "prior_quote": "Rosa said, \"Mr. Serrano informed me last Friday that my services would not be required after the funeral.\"",
-      "later_quote": "Lucia said, \"You gave her notice the day after the funeral.\"",
+      "model_reason": "fails C: these can both be true if last Friday was the day after the funeral; no direct contradiction is established",
+      "attribute": "employment end date / notice timing",
+      "prior_quote": "“Mr. Serrano informed me last Friday that my services would not be required after the funeral.”",
+      "later_quote": "“You gave her notice the day after the funeral.”",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: these are not clearly different values, because if the funeral was earlier in the week, 'last Friday' could be 'the day after the funeral.'"
+      "reason": "model rejected: fails C: these can both be true if last Friday was the day after the funeral; no direct contradiction is established"
     },
     {
       "proposal_index": 2,
@@ -24,12 +24,12 @@
       "scene_x": 1,
       "scene_y": 2,
       "model_decision": "reject",
-      "model_reason": "fails C: a house can have a second-floor bay window and also have three stories above; no contradiction.",
-      "attribute": "house architecture",
-      "prior_quote": "Asha could see \"the bay window on the second floor.\"",
-      "later_quote": "The house was \"a center-hall Italianate with ... three stories above.\"",
+      "model_reason": "fails B/C: a second-floor bay window is compatible with a house having three stories above the first floor",
+      "attribute": "house layout",
+      "prior_quote": "“the bay window on the second floor”",
+      "later_quote": "“a dining room and butler's pantry and kitchen running along the back, and three stories above”",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: a house can have a second-floor bay window and also have three stories above; no contradiction."
+      "reason": "model rejected: fails B/C: a second-floor bay window is compatible with a house having three stories above the first floor"
     },
     {
       "proposal_index": 3,
@@ -37,12 +37,12 @@
       "scene_x": 1,
       "scene_y": 2,
       "model_decision": "reject",
-      "model_reason": "fails C: these are consistent, since a desk with three drawers on each side has bottom drawers, including one on the right.",
+      "model_reason": "fails C: a desk can have a bottom drawer and also three drawers down each side; these descriptions are compatible",
       "attribute": "desk drawer configuration",
-      "prior_quote": "Rosa said the folder was in \"the bottom drawer\" and then clarified, \"Yes. On the right.\"",
-      "later_quote": "The desk was \"a roll top and three drawers down each side.\"",
+      "prior_quote": "“the folder in the bottom drawer of her desk in the sewing room” / “The bottom drawer.”",
+      "later_quote": "“a roll top and three drawers down each side”",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: these are consistent, since a desk with three drawers on each side has bottom drawers, including one on the right."
+      "reason": "model rejected: fails C: a desk can have a bottom drawer and also three drawers down each side; these descriptions are compatible"
     },
     {
       "proposal_index": 4,
@@ -50,12 +50,12 @@
       "scene_x": 1,
       "scene_y": 2,
       "model_decision": "reject",
-      "model_reason": "fails B: the prior quote is about where the folder was stored, while the later quote is about the sequence in which Asha opened parts of the desk.",
-      "attribute": "location/access point of the paper in the desk",
-      "prior_quote": "Rosa said, \"The señora put the paper in a folder and the folder in the bottom drawer of her desk in the sewing room.\"",
-      "later_quote": "Asha \"did not open the desk\" then later opened the roll top before opening \"the bottom right drawer.\"",
+      "model_reason": "fails B/C: the later quote is about Asha's immediate action, not a contradictory claim about where the paper was hidden",
+      "attribute": "location of hidden paper",
+      "prior_quote": "“The señora put the paper in a folder and the folder in the bottom drawer of her desk in the sewing room.”",
+      "later_quote": "“Asha did not open the desk... The roll top was down.”",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B: the prior quote is about where the folder was stored, while the later quote is about the sequence in which Asha opened parts of the desk."
+      "reason": "model rejected: fails B/C: the later quote is about Asha's immediate action, not a contradictory claim about where the paper was hidden"
     },
     {
       "proposal_index": 5,
@@ -63,12 +63,12 @@
       "scene_x": 1,
       "scene_y": 2,
       "model_decision": "reject",
-      "model_reason": "fails C: closing the portfolio without adding anything does not contradict having brought the file in it.",
+      "model_reason": "fails B/C: carrying a file in a portfolio does not conflict with later closing it without adding anything",
       "attribute": "portfolio contents/state",
-      "prior_quote": "Asha \"had brought the file in a leather portfolio.\"",
-      "later_quote": "\"Asha closed the portfolio without putting anything into it.\"",
+      "prior_quote": "“Asha had brought the file in a leather portfolio”",
+      "later_quote": "“Asha closed the portfolio without putting anything into it.”",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: closing the portfolio without adding anything does not contradict having brought the file in it."
+      "reason": "model rejected: fails B/C: carrying a file in a portfolio does not conflict with later closing it without adding anything"
     },
     {
       "proposal_index": 6,
@@ -76,12 +76,12 @@
       "scene_x": 1,
       "scene_y": 2,
       "model_decision": "reject",
-      "model_reason": "fails B: being present since seven and leaving at noon are different time points, not conflicting values of the same attribute.",
-      "attribute": "Daniel's schedule/presence",
-      "prior_quote": "Rosa said, \"He has been here since seven. Walking the rooms. Counting.\"",
-      "later_quote": "Daniel said, \"I have a call at noon... I'll see you tomorrow,\" and left.",
+      "model_reason": "fails C: being at the house since seven is compatible with leaving later for a noon call",
+      "attribute": "Daniel's presence/time at house",
+      "prior_quote": "“He has been here since seven.”",
+      "later_quote": "“I have a call at noon... I'll see you tomorrow,” and he leaves.",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B: being present since seven and leaving at noon are different time points, not conflicting values of the same attribute."
+      "reason": "model rejected: fails C: being at the house since seven is compatible with leaving later for a noon call"
     },
     {
       "proposal_index": 7,
@@ -89,12 +89,12 @@
       "scene_x": 1,
       "scene_y": 3,
       "model_decision": "reject",
-      "model_reason": "fails C: Daniel treating Rosa as someone whose services he can terminate after Estela's death does not contradict that Rosa worked for Estela.",
-      "attribute": "Rosa's employer/role",
-      "prior_quote": "Rosa was introduced as \"the housekeeper\" and said, \"How long did you work for Mrs. Serrano?\" / \"Thirty-one years in June.\"",
-      "later_quote": "Rosa said, \"Mr. Serrano informed me last Friday that my services would not be required after the funeral.\"",
+      "model_reason": "fails B/C: Rosa worked for Mrs. Serrano, and Daniel later speaks as someone managing post-death household staffing; no direct contradiction of employer identity is stated",
+      "attribute": "employment relationship",
+      "prior_quote": "“How long did you work for Mrs. Serrano?” / “Thirty-one years in June.”",
+      "later_quote": "“I told her we couldn't keep her on once the house sold.”",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: Daniel treating Rosa as someone whose services he can terminate after Estela's death does not contradict that Rosa worked for Estela."
+      "reason": "model rejected: fails B/C: Rosa worked for Mrs. Serrano, and Daniel later speaks as someone managing post-death household staffing; no direct contradiction of employer identity is stated"
     },
     {
       "proposal_index": 8,
@@ -102,12 +102,12 @@
       "scene_x": 1,
       "scene_y": 4,
       "model_decision": "reject",
-      "model_reason": "fails C: witnessing the later will change and having seen the codicil are consistent; Rosa never claimed she had not seen it, only that she had not read it carefully.",
-      "attribute": "Rosa's knowledge of the codicil",
-      "prior_quote": "Rosa said, \"I did not read it carefully... The señora told me it was a change to her will.\"",
-      "later_quote": "Later scenes identify Rosa as a witness and Asha says, \"Rosa has seen it.\"",
+      "model_reason": "fails B: the prior quote concerns whether Rosa read/understood the contents; the later quote only says she saw the document",
+      "attribute": "Rosa's knowledge of codicil contents",
+      "prior_quote": "“I did not read it carefully... The señora told me it was a change to her will.”",
+      "later_quote": "“Rosa has seen it.”",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: witnessing the later will change and having seen the codicil are consistent; Rosa never claimed she had not seen it, only that she had not read it carefully."
+      "reason": "model rejected: fails B: the prior quote concerns whether Rosa read/understood the contents; the later quote only says she saw the document"
     },
     {
       "proposal_index": 9,
@@ -115,12 +115,12 @@
       "scene_x": 2,
       "scene_y": 4,
       "model_decision": "reject",
-      "model_reason": "fails C: 'attorney' and 'counselor/counsel' are compatible titles, not different values.",
-      "attribute": "Asha's profession/title",
-      "prior_quote": "Asha is described as having been \"an attorney.\"",
-      "later_quote": "Daniel says, \"Counselor.\"",
+      "model_reason": "fails C: 'attorney' and 'counselor/counselor-at-law' are compatible titles for the same role, not different values",
+      "attribute": "professional role/title",
+      "prior_quote": "“as the attorney handling probate”",
+      "later_quote": "“Counselor,” he said",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: 'attorney' and 'counselor/counsel' are compatible titles, not different values."
+      "reason": "model rejected: fails C: 'attorney' and 'counselor/counselor-at-law' are compatible titles for the same role, not different values"
     },
     {
       "proposal_index": 10,
@@ -128,12 +128,12 @@
       "scene_x": 1,
       "scene_y": 4,
       "model_decision": "reject",
-      "model_reason": "fails C: an oral/preliminary increased offer can later become a written offer; no contradiction.",
-      "attribute": "status/form of buyer offer",
-      "prior_quote": "Daniel said, \"The buyer's agent has been in touch again. They're prepared to come up to seven-twenty.\"",
-      "later_quote": "Daniel later says, \"I have an offer in writing as of yesterday afternoon.\"",
+      "model_reason": "fails C: a verbal/prepared offer can later become a written offer; this is progression, not contradiction",
+      "attribute": "buyer offer status",
+      "prior_quote": "“The buyer's agent has been in touch again. They're prepared to come up to seven-twenty.”",
+      "later_quote": "“I have an offer in writing as of yesterday afternoon.”",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: an oral/preliminary increased offer can later become a written offer; no contradiction."
+      "reason": "model rejected: fails C: a verbal/prepared offer can later become a written offer; this is progression, not contradiction"
     },
     {
       "proposal_index": 11,
@@ -141,12 +141,12 @@
       "scene_x": 1,
       "scene_y": 4,
       "model_decision": "reject",
-      "model_reason": "fails B: the prior quote gives Daniel's current age, while the later quote refers to his age in childhood.",
+      "model_reason": "fails B/C: the later quote refers to Daniel's childhood starting age for family meals, not his current age",
       "attribute": "Daniel's age",
-      "prior_quote": "Daniel was \"a tall man in his early forties.\"",
-      "later_quote": "He sat at the head of the table because he had been sitting there \"since he was nine years old.\"",
+      "prior_quote": "“He was a tall man in his early forties”",
+      "later_quote": "“he had been sitting there at every meal in this house since he was nine years old”",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B: the prior quote gives Daniel's current age, while the later quote refers to his age in childhood."
+      "reason": "model rejected: fails B/C: the later quote refers to Daniel's childhood starting age for family meals, not his current age"
     },
     {
       "proposal_index": 12,
@@ -154,11 +154,11 @@
       "scene_x": 1,
       "scene_y": 5,
       "model_decision": "confirm",
-      "model_reason": "all four conditions hold: both refer to the same deceased mother, both give her name, the values 'Estela' and 'Esperanza' differ, and no scene explains the change.",
-      "attribute": "deceased mother's given name",
-      "prior_quote": "Scene 1 identifies the deceased as \"Estela Serrano\" and repeatedly refers to \"Mrs. Serrano\" / \"the señora\" as that mother.",
-      "later_quote": "The letter is signed, \"— Esperanza Serrano Maldonado, February 14, 2024.\"",
-      "prior_grounded": false,
+      "model_reason": "all four conditions hold: both refer to the deceased mother, both assert her given name, the values Estela and Esperanza differ, and no scene explicitly explains them as aliases or dual names",
+      "attribute": "mother's given name / identity",
+      "prior_quote": "“according to the obituary, Estela Serrano had liked to read in the afternoons” and repeated references to “Mrs. Serrano” as the deceased mother",
+      "later_quote": "The letter is signed “— Esperanza Serrano Maldonado, February 14, 2024.”",
+      "prior_grounded": true,
       "later_grounded": true,
       "final_decision": "confirmed",
       "reason": "model confirmed"
@@ -168,15 +168,13 @@
       "proposal_text": "In scene 1, the Serrano house is in Spring Garden was established, yet in scene 5, the house is identified as on Mifflin Street happens",
       "scene_x": 1,
       "scene_y": 5,
-      "model_decision": "confirm",
-      "model_reason": "All four conditions hold: both refer to the Serrano house's location, the values differ (Spring Garden vs Mifflin Street), and no on-screen explanation reconciles them.",
-      "attribute": "house street/location",
-      "prior_quote": "Scene 1: \"The Serrano house stood on a block in Spring Garden\"",
-      "later_quote": "Scene 5: \"the amendment says that the house on Mifflin Street is to be left in equal thirds\"",
-      "prior_grounded": true,
-      "later_grounded": true,
-      "final_decision": "confirmed",
-      "reason": "model confirmed"
+      "model_decision": "reject",
+      "model_reason": "fails C: Spring Garden is a neighborhood and Mifflin Street is a street address; by the location rule these are different granularities, not a direct contradiction.",
+      "attribute": "location",
+      "prior_quote": "Scene 1: \"The Serrano house stood on a block in Spring Garden...\"",
+      "later_quote": "Scene 5: \"the amendment says that the house on Mifflin Street is to be left...\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: Spring Garden is a neighborhood and Mifflin Street is a street address; by the location rule these are different granularities, not a direct contradiction."
     },
     {
       "proposal_index": 14,
@@ -184,12 +182,12 @@
       "scene_x": 4,
       "scene_y": 5,
       "model_decision": "reject",
-      "model_reason": "Fails B: the first quote is about the matriarch's residence duration, the second about Daniel's duration of eating Sunday dinner there.",
-      "attribute": "years associated with house",
-      "prior_quote": "Scene 4: \"the house their mother had lived in for fifty-one years\"",
+      "model_reason": "fails B: the first quote is about Esperanza's years living in the house, the second about Daniel's years eating there; different entities/attributes.",
+      "attribute": "duration of residence vs duration of attending dinners",
+      "prior_quote": "Scene 4: \"in the front hall of the house their mother had lived in for fifty-one years\"",
       "later_quote": "Scene 5: \"the wood of the table where he had eaten Sunday dinner for fifty-one years\"",
       "final_decision": "rejected",
-      "reason": "model rejected: Fails B: the first quote is about the matriarch's residence duration, the second about Daniel's duration of eating Sunday dinner there."
+      "reason": "model rejected: fails B: the first quote is about Esperanza's years living in the house, the second about Daniel's years eating there; different entities/attributes."
     },
     {
       "proposal_index": 15,
@@ -197,12 +195,12 @@
       "scene_x": 3,
       "scene_y": 5,
       "model_decision": "reject",
-      "model_reason": "Fails C: there is no prior asserted value contradicting \"Maldonado\"; earlier scenes simply had not yet stated her surname.",
-      "attribute": "Rosa's surname",
-      "prior_quote": "Scene 3: Rosa is referred to only as \"Rosa\"; no sentence states that her surname was unknown or absent.",
+      "model_reason": "fails B: there is no prior asserted value for Rosa's surname in scene 3, so no contradiction can be established.",
+      "attribute": "surname",
+      "prior_quote": "Scene 3 contains no statement that Rosa's surname was unknown or absent; it only refers to her as \"Rosa.\"",
       "later_quote": "Scene 5: \"one-third to Rosa Maldonado\"",
       "final_decision": "rejected",
-      "reason": "model rejected: Fails C: there is no prior asserted value contradicting \"Maldonado\"; earlier scenes simply had not yet stated her surname."
+      "reason": "model rejected: fails B: there is no prior asserted value for Rosa's surname in scene 3, so no contradiction can be established."
     },
     {
       "proposal_index": 16,
@@ -210,12 +208,12 @@
       "scene_x": 4,
       "scene_y": 6,
       "model_decision": "reject",
-      "model_reason": "Fails C: \"mi'ja\" is a term of address/endearment, not a direct assertion that Lucia is Rosa's daughter.",
+      "model_reason": "fails C: \"Mi'ja\" is an affectionate form of address, not an assertion that Lucia is Rosa's daughter.",
       "attribute": "kinship",
-      "prior_quote": "Scene 4: Daniel and Lucia are repeatedly treated as siblings, e.g. \"brother and sister\" and \"one of her children\".",
+      "prior_quote": "Scene 4 repeatedly establishes Lucia as Daniel's sister, e.g. \"brother and sister\" and Daniel addresses her as his sister.",
       "later_quote": "Scene 6: Rosa says, \"Lucia. Mi'ja.\"",
       "final_decision": "rejected",
-      "reason": "model rejected: Fails C: \"mi'ja\" is a term of address/endearment, not a direct assertion that Lucia is Rosa's daughter."
+      "reason": "model rejected: fails C: \"Mi'ja\" is an affectionate form of address, not an assertion that Lucia is Rosa's daughter."
     },
     {
       "proposal_index": 17,
@@ -223,12 +221,12 @@
       "scene_x": 5,
       "scene_y": 6,
       "model_decision": "reject",
-      "model_reason": "Fails C: the later quote does not assert that Rosa is Lucia's mother or that Rosa is legally family; it is only an affectionate address.",
-      "attribute": "family status / kinship",
-      "prior_quote": "Scene 5: the letter says, \"Rosa — ... The third of the house that is yours is not payment,\" and earlier Rosa is the housekeeper.",
-      "later_quote": "Scene 6: Rosa says, \"Lucia. Mi'ja.\"",
+      "model_reason": "fails B: the alleged later quote does not exist as an assertion of motherhood, so there is no conflicting attribute value.",
+      "attribute": "family relationship",
+      "prior_quote": "Scene 5: the letter says Rosa is \"also mine\" and elsewhere Rosa is treated as outside the sibling line, not literally one of the children.",
+      "later_quote": "Scene 6 contains no line identifying Rosa as Lucia's mother.",
       "final_decision": "rejected",
-      "reason": "model rejected: Fails C: the later quote does not assert that Rosa is Lucia's mother or that Rosa is legally family; it is only an affectionate address."
+      "reason": "model rejected: fails B: the alleged later quote does not exist as an assertion of motherhood, so there is no conflicting attribute value."
     },
     {
       "proposal_index": 18,
@@ -236,12 +234,12 @@
       "scene_x": 5,
       "scene_y": 6,
       "model_decision": "reject",
-      "model_reason": "Fails C: no later quote asserts that Asha was employed by the mother; the screenplay consistently presents her as estate/probate counsel.",
+      "model_reason": "fails C: nothing in scene 6 says Asha was employed by the mother personally; advising on the estate is consistent with representing the estate.",
       "attribute": "who employs/retains Asha",
       "prior_quote": "Scene 6: \"I am your mother's estate's attorney. I am not your attorney.\"",
-      "later_quote": "Scene 6: \"what your mother wanted\" / Scene 6-7 treat Asha as handling the estate's affairs, not as employed by the mother personally.",
+      "later_quote": "Scene 6: \"your mother left you a third of this house...\" and related advice to the heirs",
       "final_decision": "rejected",
-      "reason": "model rejected: Fails C: no later quote asserts that Asha was employed by the mother; the screenplay consistently presents her as estate/probate counsel."
+      "reason": "model rejected: fails C: nothing in scene 6 says Asha was employed by the mother personally; advising on the estate is consistent with representing the estate."
     },
     {
       "proposal_index": 19,
@@ -249,12 +247,12 @@
       "scene_x": 4,
       "scene_y": 6,
       "model_decision": "reject",
-      "model_reason": "Fails C: these quotes concern different events (death timing vs theft timing), and the screenplay never states a conflicting exact death date.",
+      "model_reason": "fails B: these quotes concern different attributes; one is relative timing after death, the other is a calendar date for the theft, and they are compatible.",
       "attribute": "date of death vs date of theft",
-      "prior_quote": "Scene 4: \"the morning after she died I went to the desk and the drawer was already open\" and earlier the meeting occurs the week after the funeral.",
+      "prior_quote": "Scene 4: Lucia says of the letter, \"You have had it for a week.\" Daniel later says he took the folder \"on the morning after she died.\"",
       "later_quote": "Scene 6: Daniel says he took it \"on the morning of February twenty-third. At approximately six fifteen in the morning.\"",
       "final_decision": "rejected",
-      "reason": "model rejected: Fails C: these quotes concern different events (death timing vs theft timing), and the screenplay never states a conflicting exact death date."
+      "reason": "model rejected: fails B: these quotes concern different attributes; one is relative timing after death, the other is a calendar date for the theft, and they are compatible."
     },
     {
       "proposal_index": 20,
@@ -262,12 +260,12 @@
       "scene_x": 5,
       "scene_y": 6,
       "model_decision": "reject",
-      "model_reason": "Fails B: the first quote gives the codicil's execution date; the second gives the later date Daniel removed it from the desk.",
-      "attribute": "codicil date vs removal date",
+      "model_reason": "fails B: execution date of the codicil and date Daniel removed it are different attributes, not contradictory values of the same attribute.",
+      "attribute": "codicil execution date vs theft date",
       "prior_quote": "Scene 6: \"Inside was a codicil dated February 11, 2024\"",
-      "later_quote": "Scene 6: Daniel says, \"I took it ... on the morning of February twenty-third at approximately six fifteen in the morning.\"",
+      "later_quote": "Scene 6: Daniel says he took it \"on February twenty-third at approximately six fifteen in the morning\"",
       "final_decision": "rejected",
-      "reason": "model rejected: Fails B: the first quote gives the codicil's execution date; the second gives the later date Daniel removed it from the desk."
+      "reason": "model rejected: fails B: execution date of the codicil and date Daniel removed it are different attributes, not contradictory values of the same attribute."
     },
     {
       "proposal_index": 21,
@@ -275,12 +273,12 @@
       "scene_x": 6,
       "scene_y": 7,
       "model_decision": "reject",
-      "model_reason": "Fails B: the first quote concerns whom Asha represents in the estate; the later quote concerns her employment history with Halloran.",
+      "model_reason": "fails B: representing the estate and having previously worked under Halloran are different attributes and can both be true.",
       "attribute": "professional relationship to Halloran",
       "prior_quote": "Scene 6: \"I am your mother's estate's attorney. I am not your attorney.\"",
-      "later_quote": "Scene 7: Halloran says, \"over the years she had worked under him\" / \"Asha had learned, over the years she had worked under him\"",
+      "later_quote": "Scene 7: Halloran says, \"Asha had learned, over the years she had worked under him...\"",
       "final_decision": "rejected",
-      "reason": "model rejected: Fails B: the first quote concerns whom Asha represents in the estate; the later quote concerns her employment history with Halloran."
+      "reason": "model rejected: fails B: representing the estate and having previously worked under Halloran are different attributes and can both be true."
     },
     {
       "proposal_index": 22,
@@ -288,12 +286,12 @@
       "scene_x": 6,
       "scene_y": 7,
       "model_decision": "reject",
-      "model_reason": "Fails C: owning one-third of the house does not contradict being described by her longstanding occupation/role as the housekeeper.",
+      "model_reason": "fails C: being an owner does not contradict being the longtime housekeeper; the later quote uses her longstanding role descriptively, not as an exclusive current status.",
       "attribute": "role/status in house",
-      "prior_quote": "Scene 6: the codicil gives Rosa a third share of the house.",
-      "later_quote": "Scene 7: Halloran says, \"the witness — the housekeeper. She's reliable.\"",
+      "prior_quote": "Scene 6: the codicil gives Rosa \"one-third owner of this house\"",
+      "later_quote": "Scene 7: Halloran refers to her as \"the housekeeper\" and Asha says, \"She's the most reliable person in the house.\"",
       "final_decision": "rejected",
-      "reason": "model rejected: Fails C: owning one-third of the house does not contradict being described by her longstanding occupation/role as the housekeeper."
+      "reason": "model rejected: fails C: being an owner does not contradict being the longtime housekeeper; the later quote uses her longstanding role descriptively, not as an exclusive current status."
     },
     {
       "proposal_index": 23,
@@ -301,12 +299,12 @@
       "scene_x": 1,
       "scene_y": 7,
       "model_decision": "reject",
-      "model_reason": "Fails C: there is no later quote in scene 7 asserting a different number of years.",
+      "model_reason": "fails C: these are compatible; later scenes still describe the tenure as thirty-one years, and the timeline plausibly remains within the same year.",
       "attribute": "length of Rosa's service",
       "prior_quote": "Scene 1: Rosa says, \"Thirty-one years in June.\"",
-      "later_quote": "Scene 7: no scene-7 sentence states a different tenure; Halloran only refers to her as \"the housekeeper.\"",
+      "later_quote": "Scene 7: \"Rosa had put them to rights for thirty-one years\" / similar references to thirty-one years",
       "final_decision": "rejected",
-      "reason": "model rejected: Fails C: there is no later quote in scene 7 asserting a different number of years."
+      "reason": "model rejected: fails C: these are compatible; later scenes still describe the tenure as thirty-one years, and the timeline plausibly remains within the same year."
     },
     {
       "proposal_index": 24,
@@ -314,12 +312,12 @@
       "scene_x": 6,
       "scene_y": 8,
       "model_decision": "reject",
-      "model_reason": "Fails B: the later quote is about clothing provenance, not Lucia's parentage; it does not contradict her being Esperanza's daughter.",
+      "model_reason": "fails C: describing Lucia as her mother's daughter is consistent with Esperanza being that mother; no conflicting value is asserted.",
       "attribute": "parentage",
-      "prior_quote": "Scene 6: the letter addresses \"Lucia\" as one of Esperanza's children: \"my daughter\" / \"my children.\"",
-      "later_quote": "Scene 8: Lucia is described as wearing \"a dark sweater that Asha suspected had belonged to her mother\"",
+      "prior_quote": "Scene 6/5 establishes Lucia as Esperanza's daughter, e.g. the letter addresses \"Lucia\" as one of \"Mis hijos.\"",
+      "later_quote": "Scene 8 refers to Lucia in relation to \"your mother\" but does not deny Esperanza is that mother.",
       "final_decision": "rejected",
-      "reason": "model rejected: Fails B: the later quote is about clothing provenance, not Lucia's parentage; it does not contradict her being Esperanza's daughter."
+      "reason": "model rejected: fails C: describing Lucia as her mother's daughter is consistent with Esperanza being that mother; no conflicting value is asserted."
     },
     {
       "proposal_index": 25,
@@ -327,12 +325,12 @@
       "scene_x": 7,
       "scene_y": 8,
       "model_decision": "reject",
-      "model_reason": "fails B: the later quote is about Daniel receiving a monetary charge/payment right, not a house ownership share.",
-      "attribute": "Daniel's share of the house",
-      "prior_quote": "Scene 7 / embedded story: \"The house in equal thirds. Daniel, Lucia, Rosa.\"",
-      "later_quote": "Scene 8 / embedded story: \"The codicil leaves the house to Lucia, with a charge upon the property in favor of Daniel in the amount of one-third of the appraised value\"",
+      "model_reason": "fails C: the later quote does not assign Daniel a different share; it discusses a possible future arrangement without contradicting his one-third interest",
+      "attribute": "Daniel's ownership share of the house",
+      "prior_quote": "Scene 7 / embedded letter: \"the house on Mifflin Street is to be left in equal thirds to my daughter, my son, and to Rosa Maldonado\"",
+      "later_quote": "Scene 8: Daniel says, \"If Rosa wants to keep the house... and if Lucia and I were to be willing to accept a payment over time\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B: the later quote is about Daniel receiving a monetary charge/payment right, not a house ownership share."
+      "reason": "model rejected: fails C: the later quote does not assign Daniel a different share; it discusses a possible future arrangement without contradicting his one-third interest"
     },
     {
       "proposal_index": 26,
@@ -340,12 +338,12 @@
       "scene_x": 7,
       "scene_y": 8,
       "model_decision": "reject",
-      "model_reason": "fails D: the later scene explicitly presents a new legal arrangement after later negotiations and signed documents, so any change is explained on-screen.",
-      "attribute": "Lucia's share of the house",
-      "prior_quote": "Scene 7 / embedded story: \"The house in equal thirds. Daniel, Lucia, Rosa.\"",
-      "later_quote": "Scene 8 / embedded story: \"The codicil leaves the house to Lucia\"",
+      "model_reason": "fails B/C: the later quote is about possible future possession/retention, not Lucia's current ownership share, so there is no contradictory value",
+      "attribute": "Lucia's ownership share of the house",
+      "prior_quote": "Scene 7 / embedded letter: \"the house on Mifflin Street is to be left in equal thirds to my daughter, my son, and to Rosa Maldonado\"",
+      "later_quote": "Scene 8: Rosa says, \"I would like for one of you to keep the house. I do not care which one.\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails D: the later scene explicitly presents a new legal arrangement after later negotiations and signed documents, so any change is explained on-screen."
+      "reason": "model rejected: fails B/C: the later quote is about possible future possession/retention, not Lucia's current ownership share, so there is no contradictory value"
     },
     {
       "proposal_index": 27,
@@ -353,12 +351,12 @@
       "scene_x": 7,
       "scene_y": 8,
       "model_decision": "reject",
-      "model_reason": "fails C: \"black sweater\" and \"dark sweater\" are not a real value mismatch; the later wording is broader and compatible.",
-      "attribute": "Lucia's clothing color/type",
-      "prior_quote": "Scene 1: \"She was younger than her brother... wearing a black sweater and jeans\"",
-      "later_quote": "Scene 8 / embedded story: \"She was wearing a dark sweater\"",
+      "model_reason": "fails C: \"dark sweater\" is compatible with a black sweater and does not assert a different color",
+      "attribute": "color of Lucia's sweater",
+      "prior_quote": "Scene 1: Lucia is described as \"wearing a black sweater and jeans\"",
+      "later_quote": "Scene 8: \"She was wearing a dark sweater that Asha suspected had belonged to her mother\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: \"black sweater\" and \"dark sweater\" are not a real value mismatch; the later wording is broader and compatible."
+      "reason": "model rejected: fails C: \"dark sweater\" is compatible with a black sweater and does not assert a different color"
     },
     {
       "proposal_index": 28,
@@ -366,12 +364,12 @@
       "scene_x": 7,
       "scene_y": 8,
       "model_decision": "reject",
-      "model_reason": "fails B: these are different attributes; one concerns alleged employment under Halloran, the other concerns whether she wrote special rules for other cases.",
-      "attribute": "Asha's professional history/rules",
-      "prior_quote": "Scene 2: \"She had been twenty-eight then\" and references to Halloran as a separate attorney later do not state she worked under him for fifteen years.",
-      "later_quote": "Scene 8 / embedded story: \"she had not, in fifteen years, written rules of engagement for any other case\"",
+      "model_reason": "fails B: the first quote is about having worked under Halloran, while the second is about not writing special boundary rules for other cases",
+      "attribute": "Asha's professional history with Halloran / prior cases",
+      "prior_quote": "Scene 7: \"over the years she had worked under him\"",
+      "later_quote": "Scene 8: \"she had not, in fifteen years, written rules of engagement for any other case\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B: these are different attributes; one concerns alleged employment under Halloran, the other concerns whether she wrote special rules for other cases."
+      "reason": "model rejected: fails B: the first quote is about having worked under Halloran, while the second is about not writing special boundary rules for other cases"
     },
     {
       "proposal_index": 29,
@@ -379,12 +377,12 @@
       "scene_x": 1,
       "scene_y": 9,
       "model_decision": "confirm",
-      "model_reason": "Same entity, same attribute, different surnames, and no on-screen explanation for the change.",
+      "model_reason": "all four conditions hold: both refer to Asha, both give her surname, Patel and Mensah are different, and no scene explains a name change or alternate surname",
       "attribute": "Asha's surname",
-      "prior_quote": "Scene 1: \"Rosa opened the door. ... 'Ms. Patel,' Rosa said.\"",
-      "later_quote": "Scene 9 / embedded story: \"She replied at six. 'Mr. Serrano — Received. I will see you Thursday at the inspection. — A. Mensah.'\"",
-      "prior_grounded": false,
-      "later_grounded": true,
+      "prior_quote": "Scene 1: Rosa says, \"Ms. Patel\"",
+      "later_quote": "Scene 9: Asha signs an email, \"— A. Mensah.\"",
+      "prior_grounded": true,
+      "later_grounded": false,
       "final_decision": "confirmed",
       "reason": "model confirmed"
     },
@@ -394,12 +392,12 @@
       "scene_x": 6,
       "scene_y": 9,
       "model_decision": "reject",
-      "model_reason": "fails A/B: the prior quote is about Daniel specifically, while the later quote addresses Lucia; it does not contradict her statement that she is not Daniel's personal attorney.",
-      "attribute": "Asha's client/representation role",
+      "model_reason": "fails A/B: the prior quote addresses Daniel specifically, while the later quote addresses Rosa and Lucia about estate administration; it does not contradict the earlier statement that she is not Daniel's personal attorney",
+      "attribute": "Asha's legal role toward Lucia",
       "prior_quote": "Scene 6: \"I am your mother's estate's attorney. I am not your attorney.\"",
-      "later_quote": "Scene 10 / embedded story: \"the letter... is, in my view as your attorney, indisputably yours\"",
+      "later_quote": "Scene 10: \"the letter... is, in my view as your attorney, indisputably yours\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails A/B: the prior quote is about Daniel specifically, while the later quote addresses Lucia; it does not contradict her statement that she is not Daniel's personal attorney."
+      "reason": "model rejected: fails A/B: the prior quote addresses Daniel specifically, while the later quote addresses Rosa and Lucia about estate administration; it does not contradict the earlier statement that she is not Daniel's personal attorney"
     },
     {
       "proposal_index": 31,
@@ -407,12 +405,12 @@
       "scene_x": 1,
       "scene_y": 9,
       "model_decision": "reject",
-      "model_reason": "fails B: executor status and co-owner status are different attributes; the later quote does not assert Lucia became executor or deny Daniel was executor.",
-      "attribute": "Lucia's legal status",
+      "model_reason": "fails B: the prior quote is about Daniel's role as executor, while the later quote is about ownership/co-ownership, a different attribute",
+      "attribute": "executor status",
       "prior_quote": "Scene 1: \"It leaves the house and contents jointly to the two of you, in equal shares, with you named as executor.\"",
-      "later_quote": "Scene 9 / embedded story: references to Lucia as a person discussing ownership/retention of the house",
+      "later_quote": "Scene 9: \"The three of you now own this house together.\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B: executor status and co-owner status are different attributes; the later quote does not assert Lucia became executor or deny Daniel was executor."
+      "reason": "model rejected: fails B: the prior quote is about Daniel's role as executor, while the later quote is about ownership/co-ownership, a different attribute"
     },
     {
       "proposal_index": 32,
@@ -420,12 +418,12 @@
       "scene_x": 9,
       "scene_y": 10,
       "model_decision": "reject",
-      "model_reason": "fails B: one quote states duration of the inspection; the other states when the appraiser will deliver a preliminary number.",
+      "model_reason": "fails A: these quotes refer to different appraisers/process threads in different parts of the screenplay text, not the same named entity making the same promise",
       "attribute": "timing of appraisal output",
-      "prior_quote": "Scene 9 / embedded story: \"The inspection began. It took four hours.\"",
-      "later_quote": "Scene 10 / embedded story: \"Beverly closed her clipboard and said she would have a preliminary number by Friday afternoon\"",
+      "prior_quote": "Scene 9: \"Beverly... said she would have a preliminary number by Friday afternoon and a written report by the following Wednesday\"",
+      "later_quote": "Scene 10: \"He told Lucia... that he would have the report by Wednesday morning\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B: one quote states duration of the inspection; the other states when the appraiser will deliver a preliminary number."
+      "reason": "model rejected: fails A: these quotes refer to different appraisers/process threads in different parts of the screenplay text, not the same named entity making the same promise"
     },
     {
       "proposal_index": 33,
@@ -433,12 +431,12 @@
       "scene_x": 9,
       "scene_y": 10,
       "model_decision": "reject",
-      "model_reason": "fails B: the first quote is about selecting an appraiser; the later quote is about discussing what to do with the building after the appraisal.",
-      "attribute": "deadline for choosing appraiser vs later decision date",
-      "prior_quote": "Scene 9 / embedded story: \"I would like you to choose one by the end of business today.\"",
-      "later_quote": "Scene 10 / embedded story: \"We don't have to talk about this now... We have until next Wednesday.\"",
+      "model_reason": "fails B: the first quote sets the deadline to choose an appraiser; the later quote concerns when to discuss disposition after the appraisal, a different attribute",
+      "attribute": "deadline for choosing appraiser / timing of next decision",
+      "prior_quote": "Scene 9: \"I would like you to choose one by the end of business today\"",
+      "later_quote": "Scene 10: \"The conversation about what to do with the building is the conversation you three are going to have... between Wednesday and the meeting the following Monday\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B: the first quote is about selecting an appraiser; the later quote is about discussing what to do with the building after the appraisal."
+      "reason": "model rejected: fails B: the first quote sets the deadline to choose an appraiser; the later quote concerns when to discuss disposition after the appraisal, a different attribute"
     },
     {
       "proposal_index": 34,
@@ -446,12 +444,12 @@
       "scene_x": 8,
       "scene_y": 10,
       "model_decision": "reject",
-      "model_reason": "fails C: \"two weeks from today\" and \"Monday week\" refer to the same upcoming meeting in context, not conflicting dates.",
+      "model_reason": "fails A/B: these references occur in different later continuations with different scheduling contexts and do not clearly identify the same meeting as a direct contradiction",
       "attribute": "date of next meeting",
-      "prior_quote": "Scene 8 / embedded story: \"A meeting two weeks from today\"",
-      "later_quote": "Scene 10 / embedded story: \"We will meet again Monday week\"",
+      "prior_quote": "Scene 8: \"a meeting two weeks from today\"",
+      "later_quote": "Scene 10: \"the meeting the following Monday\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: \"two weeks from today\" and \"Monday week\" refer to the same upcoming meeting in context, not conflicting dates."
+      "reason": "model rejected: fails A/B: these references occur in different later continuations with different scheduling contexts and do not clearly identify the same meeting as a direct contradiction"
     },
     {
       "proposal_index": 35,
@@ -459,12 +457,12 @@
       "scene_x": 7,
       "scene_y": 10,
       "model_decision": "reject",
-      "model_reason": "fails B: the prior quote is about time spent at the house, not how Asha is addressed.",
+      "model_reason": "fails B: the prior quote is about Marcus warning Asha about boundaries, not about what others call her; the later quote concerns form of address",
       "attribute": "form of address for Asha",
-      "prior_quote": "Scene 7 / embedded story: \"If I start spending too much time at that house, tell me.\"",
-      "later_quote": "Scene 10 / embedded story: \"Counselor,\" he said.",
+      "prior_quote": "Scene 7: \"If I start spending too much time at that house, tell me\"",
+      "later_quote": "Scene 10: \"Counselor,\" he said.",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B: the prior quote is about time spent at the house, not how Asha is addressed."
+      "reason": "model rejected: fails B: the prior quote is about Marcus warning Asha about boundaries, not about what others call her; the later quote concerns form of address"
     },
     {
       "proposal_index": 36,
@@ -472,12 +470,12 @@
       "scene_x": 6,
       "scene_y": 10,
       "model_decision": "reject",
-      "model_reason": "fails C: the later quote refers to Rosa's past occupation/history, not her current employment status in the house.",
+      "model_reason": "fails C: Rosa is describing her past occupation/duration, which is compatible with no longer being an employee in the house",
       "attribute": "Rosa's employment status",
-      "prior_quote": "Scene 6: \"I am going to ask you, Ms. Maldonado, to do me the personal favor of accepting that you are now a one-third owner of this house and not... an employee in it any longer.\"",
-      "later_quote": "Scene 10 / embedded story: \"I have been a housekeeper for thirty-one years\"",
+      "prior_quote": "Scene 6: Asha asks Rosa to accept that she is \"not... an employee in it any longer\"",
+      "later_quote": "Scene 10: Rosa says, \"I have been a housekeeper for thirty-one years\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: the later quote refers to Rosa's past occupation/history, not her current employment status in the house."
+      "reason": "model rejected: fails C: Rosa is describing her past occupation/duration, which is compatible with no longer being an employee in the house"
     },
     {
       "proposal_index": 37,
@@ -485,12 +483,12 @@
       "scene_x": 5,
       "scene_y": 10,
       "model_decision": "reject",
-      "model_reason": "fails B: the first quote is about Rosa's status relative to the Serrano family, while the later quote is about Rosa having her own relatives.",
-      "attribute": "kinship_to_Serrano_family_vs_has_own_relatives",
-      "prior_quote": "“Rosa — I do not have the words. ... The third of the house that is yours is not payment.”",
-      "later_quote": "“I have a sister in Camden and three nieces...”",
+      "model_reason": "Fails B: the first quote is metaphorical inclusion in the family, while the later quote is about Rosa having relatives of her own; these are different attributes.",
+      "attribute": "kinship/family-membership",
+      "prior_quote": "\"Mis hijos, y Rosa, who is also mine —\"",
+      "later_quote": "\"I have a sister in Camden and three nieces\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B: the first quote is about Rosa's status relative to the Serrano family, while the later quote is about Rosa having her own relatives."
+      "reason": "model rejected: Fails B: the first quote is metaphorical inclusion in the family, while the later quote is about Rosa having relatives of her own; these are different attributes."
     },
     {
       "proposal_index": 38,
@@ -498,12 +496,12 @@
       "scene_x": 7,
       "scene_y": 10,
       "model_decision": "reject",
-      "model_reason": "fails C: these do not contradict; an inspection starting around ten and ending at two is consistent with lasting four hours.",
-      "attribute": "inspection_end_time",
-      "prior_quote": "“It took four hours.”",
-      "later_quote": "“At two o'clock Beverly closed her clipboard...”",
+      "model_reason": "Fails C: these are compatible, since a Thursday inspection starting at ten and ending at two lasts four hours.",
+      "attribute": "inspection duration/end time",
+      "prior_quote": "\"It took four hours.\"",
+      "later_quote": "\"At two o'clock Beverly closed her clipboard\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: these do not contradict; an inspection starting around ten and ending at two is consistent with lasting four hours."
+      "reason": "model rejected: Fails C: these are compatible, since a Thursday inspection starting at ten and ending at two lasts four hours."
     },
     {
       "proposal_index": 39,
@@ -511,12 +509,12 @@
       "scene_x": 10,
       "scene_y": 11,
       "model_decision": "reject",
-      "model_reason": "fails D: the later scene occurs years later and the screenplay explicitly marks elapsed time (“Rosa lived in the house for another nine years”), which explains the age change.",
+      "model_reason": "Fails B: the later quote gives a duration of residence, not Rosa's age.",
       "attribute": "age",
-      "prior_quote": "“I am sixty-eight years old.”",
-      "later_quote": "“I forgive you in general. ... at seventy-one...”",
+      "prior_quote": "\"I am sixty-eight years old.\"",
+      "later_quote": "\"I have lived in my own apartment on Catharine Street for thirty-one years\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails D: the later scene occurs years later and the screenplay explicitly marks elapsed time (“Rosa lived in the house for another nine years”), which explains the age change."
+      "reason": "model rejected: Fails B: the later quote gives a duration of residence, not Rosa's age."
     },
     {
       "proposal_index": 40,
@@ -524,10 +522,10 @@
       "scene_x": 2,
       "scene_y": 12,
       "model_decision": "confirm",
-      "model_reason": "Both quotes refer to Asha's residence location, they give different locations, and no later scene explains a move.",
-      "attribute": "Asha_home_location",
-      "prior_quote": "“That evening, in her own apartment in Fairmount...”",
-      "later_quote": "“She lived in a small apartment on Pine Street...”",
+      "model_reason": "Both quotes assign Asha's residence location, and Fairmount and Pine Street are presented as different home locations with no on-screen explanation for a move.",
+      "attribute": "home location",
+      "prior_quote": "\"That evening, in her own apartment in Fairmount\"",
+      "later_quote": "\"She lived in a small apartment on Pine Street\"",
       "prior_grounded": true,
       "later_grounded": true,
       "final_decision": "confirmed",
@@ -538,13 +536,15 @@
       "proposal_text": "In scene 5, the house is on Mifflin Street was established, yet in scene 12, Rosa is linked to a house on Spruce Street happens",
       "scene_x": 5,
       "scene_y": 12,
-      "model_decision": "reject",
-      "model_reason": "fails A/B: the screenplay repeatedly situates the Serrano house in Spring Garden and on Spruce Street, so the Mifflin reference appears inside the letter/codicil text rather than as a stable established address; the candidate does not present a clean same-attribute contradiction between two narrative assertions.",
-      "attribute": "house_street_address",
-      "prior_quote": "“the house on Mifflin Street is to be left in equal thirds...”",
-      "later_quote": "“the house on Spruce Street remained a house” / “the house on Spruce Street”",
-      "final_decision": "rejected",
-      "reason": "model rejected: fails A/B: the screenplay repeatedly situates the Serrano house in Spring Garden and on Spruce Street, so the Mifflin reference appears inside the letter/codicil text rather than as a stable established address; the candidate does not present a clean same-attribute contradiction between two narrative assertions."
+      "model_decision": "confirm",
+      "model_reason": "Both quotes identify the same house's street, and Mifflin Street versus Spruce Street is a direct location mismatch with no explanation.",
+      "attribute": "house street location",
+      "prior_quote": "\"the house on Mifflin Street is to be left in equal thirds\"",
+      "later_quote": "\"the house on Spruce Street remained a house\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "model confirmed"
     },
     {
       "proposal_index": 42,
@@ -552,12 +552,12 @@
       "scene_x": 7,
       "scene_y": 12,
       "model_decision": "reject",
-      "model_reason": "fails B: one quote is about Daniel's ownership share, the other is about his procedural role/executor status.",
-      "attribute": "role_vs_ownership",
-      "prior_quote": "“Your mother left you a third of this house.”",
-      "later_quote": "“I am asking it as the executor...” / references to Daniel in estate administration",
+      "model_reason": "Fails B: the prior quote is about Daniel's ownership share, while the later quote is about the capacity in which he is speaking, not his legal role.",
+      "attribute": "role/ownership",
+      "prior_quote": "\"Your mother left you a third of this house.\"",
+      "later_quote": "\"I am asking it as myself.\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B: one quote is about Daniel's ownership share, the other is about his procedural role/executor status."
+      "reason": "model rejected: Fails B: the prior quote is about Daniel's ownership share, while the later quote is about the capacity in which he is speaking, not his legal role."
     },
     {
       "proposal_index": 43,
@@ -565,51 +565,57 @@
       "scene_x": 5,
       "scene_y": 12,
       "model_decision": "reject",
-      "model_reason": "fails C: the later quoted value is not actually present in scene 12, so there is no textual contradiction.",
+      "model_reason": "Fails B: the prior quote gives a duration tied to the house, not Daniel's age, and the later quote does not state Daniel is forty-two.",
       "attribute": "age",
-      "prior_quote": "“He put his forehead against the wood of the table where he had eaten Sunday dinner for fifty-one years...”",
-      "later_quote": "No sentence in scene 12 describes Daniel as “forty-two.”",
+      "prior_quote": "\"where he had eaten Sunday dinner for fifty-one years\"",
+      "later_quote": "\"He was younger than her brother by perhaps six years\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: the later quoted value is not actually present in scene 12, so there is no textual contradiction."
+      "reason": "model rejected: Fails B: the prior quote gives a duration tied to the house, not Daniel's age, and the later quote does not state Daniel is forty-two."
     },
     {
       "proposal_index": 44,
       "proposal_text": "In scene 9, Beverly Ostrowski was the chosen appraiser was established, yet in scene 13, a different appraiser named Pelletier handles Monday's appraisal happens",
       "scene_x": 9,
       "scene_y": 13,
-      "model_decision": "reject",
-      "model_reason": "fails B: these are different appraisal events in different weeks, not two values for the same single inspection.",
-      "attribute": "appraiser_identity_for_same_appraisal",
-      "prior_quote": "“They chose the appraiser... Beverly Ostrowski...” and “Thursday at ten Asha was on the stoop. Beverly Ostrowski arrived...”",
-      "later_quote": "“On Monday morning the appraiser came. He was a man in his sixties named Pelletier...”",
-      "final_decision": "rejected",
-      "reason": "model rejected: fails B: these are different appraisal events in different weeks, not two values for the same single inspection."
+      "model_decision": "confirm",
+      "model_reason": "Both quotes present the appraiser handling the same house-valuation process, but they name different people with no explanation for replacement.",
+      "attribute": "identity of the chosen appraiser for the same appraisal process",
+      "prior_quote": "\"they took the second name on the list, which was a woman named Beverly Ostrowski\"",
+      "later_quote": "\"On Monday morning the appraiser came. He was a man in his sixties named Pelletier\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "model confirmed"
     },
     {
       "proposal_index": 45,
       "proposal_text": "In scene 9, Thursday inspection was scheduled at ten was established, yet in scene 13, the appraiser arrives on Monday morning instead happens",
       "scene_x": 9,
       "scene_y": 13,
-      "model_decision": "reject",
-      "model_reason": "fails B: the Monday visit is a later appraisal event, not the same Thursday inspection being reassigned.",
-      "attribute": "inspection_date_time_for_same_appraisal",
-      "prior_quote": "“Thursday at ten Asha was on the stoop. Beverly Ostrowski arrived two minutes later...”",
-      "later_quote": "“On Monday morning the appraiser came...”",
-      "final_decision": "rejected",
-      "reason": "model rejected: fails B: the Monday visit is a later appraisal event, not the same Thursday inspection being reassigned."
+      "model_decision": "confirm",
+      "model_reason": "Both quotes present the appraisal inspection for the same unresolved process, but one occurs Thursday at ten and the later one on Monday morning, with no explicit rescheduling or second-inspection explanation.",
+      "attribute": "scheduled day/time of the appraisal inspection",
+      "prior_quote": "\"Thursday at ten Asha was on the stoop. Beverly Ostrowski arrived two minutes later\"",
+      "later_quote": "\"On Monday morning the appraiser came\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "model confirmed"
     },
     {
       "proposal_index": 46,
       "proposal_text": "In scene 10, Beverly promised a preliminary number by Friday was established, yet in scene 13, Pelletier promises the report by Wednesday morning happens",
       "scene_x": 10,
       "scene_y": 13,
-      "model_decision": "reject",
-      "model_reason": "fails B: the quotes concern different appraisers' different appraisal reports, not one report with conflicting promised dates.",
-      "attribute": "report_delivery_time_for_same_appraisal",
-      "prior_quote": "“she would have a preliminary number by Friday afternoon and a written report by the following Wednesday”",
-      "later_quote": "“He told Lucia, at the door, that he would have the report by Wednesday morning”",
-      "final_decision": "rejected",
-      "reason": "model rejected: fails B: the quotes concern different appraisers' different appraisal reports, not one report with conflicting promised dates."
+      "model_decision": "confirm",
+      "model_reason": "Both quotes assign the delivery timing for the appraisal result, but Friday afternoon versus Wednesday morning conflicts and no explanation is given for the changed deadline.",
+      "attribute": "report deadline for the appraisal",
+      "prior_quote": "\"she would have a preliminary number by Friday afternoon\"",
+      "later_quote": "\"He told Lucia, at the door, that he would have the report by Wednesday morning\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "model confirmed"
     },
     {
       "proposal_index": 47,
@@ -617,12 +623,12 @@
       "scene_x": 10,
       "scene_y": 13,
       "model_decision": "reject",
-      "model_reason": "fails B: again these are different appraisal events by different appraisers, so not the same specific attribute of one report.",
-      "attribute": "written_report_due_time_for_same_appraisal",
-      "prior_quote": "“a written report by the following Wednesday”",
-      "later_quote": "“he would have the report by Wednesday morning”",
+      "model_reason": "Fails C: these are compatible, since a report by Wednesday morning satisfies a promise of a written report by the following Wednesday.",
+      "attribute": "report deadline",
+      "prior_quote": "\"and a written report by the following Wednesday\"",
+      "later_quote": "\"he would have the report by Wednesday morning\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B: again these are different appraisal events by different appraisers, so not the same specific attribute of one report."
+      "reason": "model rejected: Fails C: these are compatible, since a report by Wednesday morning satisfies a promise of a written report by the following Wednesday."
     },
     {
       "proposal_index": 48,
@@ -630,12 +636,12 @@
       "scene_x": 10,
       "scene_y": 13,
       "model_decision": "reject",
-      "model_reason": "fails A: the quotes refer to different named entities, Beverly Ostrowski and Pelletier.",
-      "attribute": "equipment_used_by_same_appraiser",
-      "prior_quote": "“Beverly Ostrowski arrived ... with a clipboard and a measuring laser”",
-      "later_quote": "“He was a man in his sixties named Pelletier who carried a clipboard and a laser measure”",
+      "model_reason": "Fails C: 'measuring laser' and 'laser measure' are the same equipment, so there is no value mismatch.",
+      "attribute": "equipment carried by appraiser",
+      "prior_quote": "\"with a clipboard and a measuring laser\"",
+      "later_quote": "\"who carried a clipboard and a laser measure\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails A: the quotes refer to different named entities, Beverly Ostrowski and Pelletier."
+      "reason": "model rejected: Fails C: 'measuring laser' and 'laser measure' are the same equipment, so there is no value mismatch."
     },
     {
       "proposal_index": 49,
@@ -643,12 +649,12 @@
       "scene_x": 12,
       "scene_y": 13,
       "model_decision": "reject",
-      "model_reason": "fails C: these do not contradict; both describe Rosa as having her own apartment on Catharine Street.",
-      "attribute": "residence/ownership of Rosa's Catharine Street home",
-      "prior_quote": "Scene 12: \"Rosa walked from her apartment on Catharine Street...\"",
-      "later_quote": "Scene 14: \"I have lived in my own apartment on Catharine Street for thirty-one years\"",
+      "model_reason": "fails C: these are compatible; both quotes describe Rosa having an apartment on Catharine Street, and scene 13 does not newly assert ownership inconsistent with scene 12.",
+      "attribute": "residence/ownership of Rosa's home",
+      "prior_quote": "Scene 12: \"I have lived in my own apartment on Catharine Street for thirty-one years\"",
+      "later_quote": "Scene 13: \"Rosa walked from her apartment on Catharine Street\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: these do not contradict; both describe Rosa as having her own apartment on Catharine Street."
+      "reason": "model rejected: fails C: these are compatible; both quotes describe Rosa having an apartment on Catharine Street, and scene 13 does not newly assert ownership inconsistent with scene 12."
     },
     {
       "proposal_index": 50,
@@ -656,12 +662,12 @@
       "scene_x": 7,
       "scene_y": 14,
       "model_decision": "reject",
-      "model_reason": "fails B/C: scene 14 does not call Marcus a lawyer; it only contrasts his role with Asha's.",
+      "model_reason": "fails B/C: scene 14 does not call Marcus a lawyer; it only shows him advising Asha, which is compatible with being her paralegal.",
       "attribute": "Marcus's professional role",
-      "prior_quote": "Scene 7: \"her paralegal, a quiet young man named Marcus\"",
+      "prior_quote": "Scene 7: \"Marcus had been her paralegal for six years.\"",
       "later_quote": "Scene 14: \"That is why there are two of us.\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B/C: scene 14 does not call Marcus a lawyer; it only contrasts his role with Asha's."
+      "reason": "model rejected: fails B/C: scene 14 does not call Marcus a lawyer; it only shows him advising Asha, which is compatible with being her paralegal."
     },
     {
       "proposal_index": 51,
@@ -669,25 +675,27 @@
       "scene_x": 7,
       "scene_y": 14,
       "model_decision": "reject",
-      "model_reason": "fails B: one quote is about length of employment, the other about how long they used a lunch spot.",
-      "attribute": "duration of Marcus's work relationship with Asha vs duration of using a lunch place",
+      "model_reason": "fails B: one quote is about total years working together, the other about how long they have used a particular lunch place.",
+      "attribute": "length of Marcus's working relationship vs lunch habit",
       "prior_quote": "Scene 7: \"Marcus had been her paralegal for six years.\"",
-      "later_quote": "Scene 14: \"the place on Sansom Street that they had been having lunch at for three years\"",
+      "later_quote": "Scene 14: \"They had been having lunch at [that place] for three years.\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B: one quote is about length of employment, the other about how long they used a lunch spot."
+      "reason": "model rejected: fails B: one quote is about total years working together, the other about how long they have used a particular lunch place."
     },
     {
       "proposal_index": 52,
       "proposal_text": "In scene 8, Asha's mother has been dead eleven years was established, yet in scene 14, Asha visits her living mother on Sunday happens",
       "scene_x": 8,
       "scene_y": 14,
-      "model_decision": "reject",
-      "model_reason": "confirmable contradiction: same entity, same attribute (alive/dead), opposite values, and no on-screen explanation.",
-      "attribute": "life-status/identity of Asha's mother",
+      "model_decision": "confirm",
+      "model_reason": "all four conditions hold: both quotes refer to Asha's mother, assert opposite life-statuses (dead vs alive), and no on-screen explanation resolves it.",
+      "attribute": "life-status of Asha's mother",
       "prior_quote": "Scene 8: \"She thought about her mother, who had been dead for eleven years\"",
-      "later_quote": "Scene 14: \"On Sunday she drove out to her mother's... and sat with her mother on the porch\"",
-      "final_decision": "rejected",
-      "reason": "model rejected: confirmable contradiction: same entity, same attribute (alive/dead), opposite values, and no on-screen explanation."
+      "later_quote": "Scene 14: \"On Sunday she drove out to her mother's... and she sat with her mother on the porch\"",
+      "prior_grounded": true,
+      "later_grounded": true,
+      "final_decision": "confirmed",
+      "reason": "model confirmed"
     },
     {
       "proposal_index": 53,
@@ -695,12 +703,12 @@
       "scene_x": 12,
       "scene_y": 14,
       "model_decision": "reject",
-      "model_reason": "fails A/B on the cited scenes: scene 12 does not establish any fact about Asha's father, so the proposed pair is not supported as quoted.",
+      "model_reason": "fails C: administering her father's estate after his death is fully compatible with the father already being dead.",
       "attribute": "life-status of Asha's father",
-      "prior_quote": "Scene 12: no quote about Asha's father appears there",
+      "prior_quote": "Scene 12: Asha thinks about \"her own father, who had been dead for nine years\"",
       "later_quote": "Scene 14: \"whose small estate she had administered herself\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails A/B on the cited scenes: scene 12 does not establish any fact about Asha's father, so the proposed pair is not supported as quoted."
+      "reason": "model rejected: fails C: administering her father's estate after his death is fully compatible with the father already being dead."
     },
     {
       "proposal_index": 54,
@@ -708,12 +716,12 @@
       "scene_x": 12,
       "scene_y": 14,
       "model_decision": "reject",
-      "model_reason": "fails A/B on the cited scenes: the prior fact is not in scene 12, and the later scene is internally consistent anyway.",
-      "attribute": "duration of Asha's apartment tenancy",
-      "prior_quote": "Scene 12: no quote about Asha renting her apartment for seven years appears there",
-      "later_quote": "Scene 14: \"she had rented seven years ago intending to stay one year\" / \"she had stayed in this apartment seven years\"",
+      "model_reason": "fails C: both quotes give the same duration, seven years.",
+      "attribute": "duration of Asha's tenancy",
+      "prior_quote": "Scene 12: \"a small apartment on Pine Street that she had rented seven years ago\"",
+      "later_quote": "Scene 14: \"the light she had stayed in this apartment seven years for\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails A/B on the cited scenes: the prior fact is not in scene 12, and the later scene is internally consistent anyway."
+      "reason": "model rejected: fails C: both quotes give the same duration, seven years."
     },
     {
       "proposal_index": 55,
@@ -721,12 +729,12 @@
       "scene_x": 10,
       "scene_y": 14,
       "model_decision": "confirm",
-      "model_reason": "fails C: both quotes agree on third-floor occupancy; there is no second-floor contradiction in scene 15.",
-      "attribute": "which floor/room Rosa is granted to live in",
-      "prior_quote": "Scene 10: \"I would like to continue to live in the third-floor room\"",
-      "later_quote": "Scene 15: \"The life tenancy gives Rosa the use of the third-floor rooms\"",
+      "model_reason": "all four conditions hold: both quotes concern Rosa's designated room in the house, the values differ (third floor vs second floor), and no scene explains the change.",
+      "attribute": "floor/location of Rosa's room in the house",
+      "prior_quote": "Scene 10: Rosa says, \"I have lived in the third-floor room since 1996\" and asks for \"a room in it... with a key that is mine\"",
+      "later_quote": "Scene 14: Daniel requests \"a side agreement between Daniel and Rosa concerning the life occupancy of the second-floor bedroom and bathroom\"",
       "prior_grounded": true,
-      "later_grounded": false,
+      "later_grounded": true,
       "final_decision": "confirmed",
       "reason": "model confirmed"
     },
@@ -736,12 +744,12 @@
       "scene_x": 11,
       "scene_y": 14,
       "model_decision": "reject",
-      "model_reason": "fails A/B on the cited scenes: scene 11 does not establish the claimed prior fact, and the later quote is not contradicted by the cited prior scene.",
-      "attribute": "whether Asha read Lucia's letter",
-      "prior_quote": "Scene 11: no quote says Asha had not read Lucia's letter",
-      "later_quote": "Scene 14: \"Lucia's letter, which she had not read and which she would not read\"",
+      "model_reason": "fails C: both quotes agree that Asha had not read Lucia's letter.",
+      "attribute": "whether Asha read Lucia's private letter",
+      "prior_quote": "Scene 11: \"Lucia's letter, which she had not read and which she would not read\"",
+      "later_quote": "Scene 14: \"She thought about Lucia's letter, which she had not read\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails A/B on the cited scenes: scene 11 does not establish the claimed prior fact, and the later quote is not contradicted by the cited prior scene."
+      "reason": "model rejected: fails C: both quotes agree that Asha had not read Lucia's letter."
     },
     {
       "proposal_index": 57,
@@ -749,11 +757,11 @@
       "scene_x": 6,
       "scene_y": 15,
       "model_decision": "confirm",
-      "model_reason": "direct contradiction: same entity, same attribute (beneficiary status under codicil), opposite values, with no explanation.",
-      "attribute": "beneficiary status under the codicil",
-      "prior_quote": "Scene 6: \"Your mother left you a third of this house. She left your sister a third. She left Rosa a third.\"",
+      "model_reason": "all four conditions hold: both quotes address Rosa's status under the codicil, one makes her a beneficiary and the later one denies that status, with no explanation.",
+      "attribute": "Rosa's beneficiary status under the codicil",
+      "prior_quote": "Scene 6: the codicil gives the house \"in equal thirds to my daughter, my son, and to Rosa Maldonado\"",
       "later_quote": "Scene 15: \"Rosa, you are not a beneficiary under the codicil. You are a witness to it.\"",
-      "prior_grounded": true,
+      "prior_grounded": false,
       "later_grounded": true,
       "final_decision": "confirmed",
       "reason": "model confirmed"
@@ -764,11 +772,11 @@
       "scene_x": 6,
       "scene_y": 15,
       "model_decision": "confirm",
-      "model_reason": "direct contradiction: same asset and dispositive beneficiaries, different values, with no on-screen explanation for a changed codicil.",
-      "attribute": "who receives the house under the codicil",
-      "prior_quote": "Scene 6: \"Inside was a codicil... doing in formal legal language exactly what the letter had said it would do\" and the letter says \"the house... is to be left in equal thirds to my daughter, my son, and to Rosa Maldonado\"",
-      "later_quote": "Scene 15: \"The codicil... leaves the house to Lucia, with a charge upon the property in favor of Daniel\"",
-      "prior_grounded": true,
+      "model_reason": "all four conditions hold: both quotes state the disposition of the same house under the same codicil, and the beneficiaries differ materially with no explanation.",
+      "attribute": "who inherits the house under the codicil",
+      "prior_quote": "Scene 6: the codicil leaves the house \"in equal thirds to my daughter, my son, and to Rosa Maldonado\"",
+      "later_quote": "Scene 15: \"The codicil leaves the house to Lucia, with a charge upon the property in favor of Daniel\"",
+      "prior_grounded": false,
       "later_grounded": true,
       "final_decision": "confirmed",
       "reason": "model confirmed"
@@ -778,30 +786,26 @@
       "proposal_text": "In scene 6, all three heirs share the estate equally was established, yet in scene 15, the residue divides only between Daniel and Lucia happens",
       "scene_x": 6,
       "scene_y": 15,
-      "model_decision": "confirm",
-      "model_reason": "fails B: the prior quote is about disposition of the house, while the later quote is about the residue of the estate; different attributes.",
-      "attribute": "who shares in the residue of the estate",
-      "prior_quote": "Scene 6: the codicil \"doing in formal legal language exactly what the letter had said it would do,\" and the letter gives the house in equal thirds to Daniel, Lucia, and Rosa",
-      "later_quote": "Scene 15: \"The residue of the estate, after debts and taxes, divides equally between Daniel and Lucia.\"",
-      "prior_grounded": true,
-      "later_grounded": true,
-      "final_decision": "confirmed",
-      "reason": "model confirmed"
+      "model_decision": "reject",
+      "model_reason": "fails B: the earlier quote is about ownership of the house, while the later quote is about the residue of the estate after the house disposition; these are different attributes.",
+      "attribute": "distribution of the residue of the estate",
+      "prior_quote": "Scene 6: the codicil concerns the house being left \"in equal thirds\" to Daniel, Lucia, and Rosa",
+      "later_quote": "Scene 15: \"The residue of the estate, after debts and taxes, divides equally between Daniel and Lucia\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the earlier quote is about ownership of the house, while the later quote is about the residue of the estate after the house disposition; these are different attributes."
     },
     {
       "proposal_index": 60,
       "proposal_text": "In scene 10, Rosa sought a named room with her own key was established, yet in scene 15, Rosa receives a life tenancy in third-floor rooms happens",
       "scene_x": 10,
       "scene_y": 15,
-      "model_decision": "confirm",
-      "model_reason": "fails C: the later quote is compatible with the earlier request; it specifies the room arrangement rather than contradicting it.",
-      "attribute": "Rosa's granted occupancy in the house",
-      "prior_quote": "Scene 10: \"I would like... for there to be a room in it for me, named in the document, with a key that is mine\"",
-      "later_quote": "Scene 15: \"The life tenancy gives Rosa the use of the third-floor rooms\"",
-      "prior_grounded": true,
-      "later_grounded": true,
-      "final_decision": "confirmed",
-      "reason": "model confirmed"
+      "model_decision": "reject",
+      "model_reason": "fails C: the later quote is compatible with Rosa's earlier request and fulfills it rather than contradicting it.",
+      "attribute": "Rosa's room/right in the house",
+      "prior_quote": "Scene 10: Rosa asks for \"a room in it... with a key that is mine and not loaned to me\"",
+      "later_quote": "Scene 15: \"The life tenancy gives Rosa the use of the third-floor rooms for as long as she wishes them\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: the later quote is compatible with Rosa's earlier request and fulfills it rather than contradicting it."
     },
     {
       "proposal_index": 61,
@@ -809,12 +813,12 @@
       "scene_x": 14,
       "scene_y": 15,
       "model_decision": "reject",
-      "model_reason": "fails D: the later scene is the finalized agreement and the earlier quote is only a draft/side agreement request, so the change is explained by ongoing drafting rather than an unexplained contradiction",
+      "model_reason": "Fails B/C: scene 14 does not actually establish 'second-floor bedroom and bathroom'; the quoted offer is only 'that room,' so there is no proven contradiction.",
       "attribute": "location of Rosa's occupancy right",
-      "prior_quote": "Asha drafted \"a side agreement between Daniel and Rosa concerning the life occupancy of the second-floor bedroom and bathroom.\"",
-      "later_quote": "\"The life tenancy gives Rosa the use of the third-floor rooms for as long as she wishes them.\"",
+      "prior_quote": "Scene 14: Daniel offers \"a separate agreement ... that gives you that room for the rest of your life,\" but no floor/room is specified there.",
+      "later_quote": "Scene 15: \"The life tenancy ... gives Rosa the use of the third-floor rooms for as long as she wishes them.\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails D: the later scene is the finalized agreement and the earlier quote is only a draft/side agreement request, so the change is explained by ongoing drafting rather than an unexplained contradiction"
+      "reason": "model rejected: Fails B/C: scene 14 does not actually establish 'second-floor bedroom and bathroom'; the quoted offer is only 'that room,' so there is no proven contradiction."
     },
     {
       "proposal_index": 62,
@@ -822,12 +826,12 @@
       "scene_x": 10,
       "scene_y": 15,
       "model_decision": "reject",
-      "model_reason": "fails D: Rosa explicitly proposes giving up her one-third ownership in exchange for a room, so the later life-tenancy arrangement is explained on-screen",
-      "attribute": "Rosa's ownership status in the house",
-      "prior_quote": "Rosa says, \"I will assign my third to whichever of you keeps the house, for one dollar.\"",
-      "later_quote": "\"The life tenancy gives Rosa the use of the third-floor rooms for as long as she wishes them.\"",
+      "model_reason": "Fails D: the later arrangement is explicitly explained as a new structure after Rosa offered to assign her share; scene 10 itself proposes changing her ownership into a room right.",
+      "attribute": "Rosa's ownership interest in the house",
+      "prior_quote": "Scene 10: \"I will assign my third to whichever of you keeps the house, for one dollar.\"",
+      "later_quote": "Scene 15: \"The codicil ... leaves the house to Lucia, with a charge upon the property in favor of Daniel ... It also provides a life tenancy in the third-floor rooms to Rosa.\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails D: Rosa explicitly proposes giving up her one-third ownership in exchange for a room, so the later life-tenancy arrangement is explained on-screen"
+      "reason": "model rejected: Fails D: the later arrangement is explicitly explained as a new structure after Rosa offered to assign her share; scene 10 itself proposes changing her ownership into a room right."
     },
     {
       "proposal_index": 63,
@@ -835,12 +839,12 @@
       "scene_x": 13,
       "scene_y": 15,
       "model_decision": "reject",
-      "model_reason": "fails D: the later scene is the result of intervening negotiations and drafted structures about how to keep the house, so the changed ownership arrangement is explicitly developed on-screen",
-      "attribute": "ultimate ownership/disposition of the house",
-      "prior_quote": "Lucia says, \"My brother and I are not going to sell the house.\"",
-      "later_quote": "\"The codicil leaves the house to Lucia, with a charge upon the property in favor of Daniel...\"",
+      "model_reason": "Fails C: these are compatible; deciding not to sell does not contradict Lucia taking title subject to Daniel's charge.",
+      "attribute": "ultimate disposition/ownership of the house",
+      "prior_quote": "Scene 13: \"My brother and I are not going to sell the house.\"",
+      "later_quote": "Scene 15: \"The codicil ... leaves the house to Lucia, with a charge upon the property in favor of Daniel.\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails D: the later scene is the result of intervening negotiations and drafted structures about how to keep the house, so the changed ownership arrangement is explicitly developed on-screen"
+      "reason": "model rejected: Fails C: these are compatible; deciding not to sell does not contradict Lucia taking title subject to Daniel's charge."
     },
     {
       "proposal_index": 64,
@@ -848,12 +852,12 @@
       "scene_x": 13,
       "scene_y": 15,
       "model_decision": "reject",
-      "model_reason": "fails A and B: the quotes concern different entities and different properties—Daniel's apartment versus Lucia's apartment",
-      "attribute": "residence/property ownership",
-      "prior_quote": "Daniel returned \"to his own apartment in Fitler Square.\"",
-      "later_quote": "Lucia says, \"I have decided to sell my apartment\" in New York.",
+      "model_reason": "Fails B: Daniel's apartment location and Lucia's ownership of a New York apartment are different entities/attributes.",
+      "attribute": "Lucia's residence/property ownership",
+      "prior_quote": "Scene 13: \"On Sunday Lucia took the train to her brother's apartment in Fitler Square.\"",
+      "later_quote": "Scene 15: Lucia says \"I have decided to sell\" her New York apartment.",
       "final_decision": "rejected",
-      "reason": "model rejected: fails A and B: the quotes concern different entities and different properties—Daniel's apartment versus Lucia's apartment"
+      "reason": "model rejected: Fails B: Daniel's apartment location and Lucia's ownership of a New York apartment are different entities/attributes."
     },
     {
       "proposal_index": 65,
@@ -861,10 +865,10 @@
       "scene_x": 10,
       "scene_y": 15,
       "model_decision": "confirm",
-      "model_reason": "all four conditions hold: same person, same attribute, different ages, and no on-screen explanation for the three-year jump",
+      "model_reason": "All four conditions hold: same person, same attribute, different ages, and no on-screen time jump of three years explains it between these scenes.",
       "attribute": "Rosa's age",
-      "prior_quote": "Rosa says, \"I am sixty-eight years old.\"",
-      "later_quote": "Rosa says, \"I am not, at seventy-one, going to spend the morning forgiving you in detail...\"",
+      "prior_quote": "Scene 10: \"I am sixty-eight years old.\"",
+      "later_quote": "Scene 15: Rosa says, \"I am not, at seventy-one, going to spend the morning forgiving you in detail...\"",
       "prior_grounded": true,
       "later_grounded": true,
       "final_decision": "confirmed",
@@ -876,12 +880,12 @@
       "scene_x": 15,
       "scene_y": 16,
       "model_decision": "reject",
-      "model_reason": "fails B: the first quote is about years working for the family, the second about years buying bread from a bakery",
-      "attribute": "duration associated with Rosa and the family/bakery",
-      "prior_quote": "Rosa says, \"I have been a housekeeper for thirty-one years.\"",
-      "later_quote": "Rosa says she had been buying bread from the bakery \"for thirty years.\"",
+      "model_reason": "Fails B: one quote is about years with the family/house, the other about years buying bread from a bakery.",
+      "attribute": "duration of Rosa's relationship with the family vs bakery habit",
+      "prior_quote": "Scene 15: Rosa refers to \"thirty-one years\" with the family/household context.",
+      "later_quote": "Scene 16: Rosa says she has been buying bread from that bakery \"for thirty years.\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B: the first quote is about years working for the family, the second about years buying bread from a bakery"
+      "reason": "model rejected: Fails B: one quote is about years with the family/house, the other about years buying bread from a bakery."
     },
     {
       "proposal_index": 67,
@@ -889,12 +893,12 @@
       "scene_x": 15,
       "scene_y": 16,
       "model_decision": "reject",
-      "model_reason": "fails C: there is no mismatch; the later quote repeats the same timing",
+      "model_reason": "Fails B/C: there is no later quote in scene 16 asserting a different date for the tax signatures.",
       "attribute": "timing of tax-return signatures",
-      "prior_quote": "\"the filing of the final tax return, which Asha would prepare and which the siblings would sign in her office in early February.\"",
-      "later_quote": "Scene 16 contains the same statement: \"the filing of the final tax return, which Asha would prepare and which the siblings would sign in her office in early February.\"",
+      "prior_quote": "Scene 15: \"the final tax return ... the siblings would sign in her office in early February.\"",
+      "later_quote": "Scene 16 contains no contradictory timing; it only narrates a later dinner and visit.",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: there is no mismatch; the later quote repeats the same timing"
+      "reason": "model rejected: Fails B/C: there is no later quote in scene 16 asserting a different date for the tax signatures."
     },
     {
       "proposal_index": 68,
@@ -902,57 +906,51 @@
       "scene_x": 15,
       "scene_y": 16,
       "model_decision": "reject",
-      "model_reason": "fails B and C: the later scene does not assert any value about whether Lucia still owns the apartment",
-      "attribute": "ownership status of Lucia's New York apartment",
-      "prior_quote": "Lucia says, \"I have decided to sell\" her New York apartment.",
-      "later_quote": "On the Sunday after next, there is no quote stating Lucia still owns the apartment.",
+      "model_reason": "Fails C: deciding to sell does not mean it has already sold by the following Sunday, so no contradiction is established.",
+      "attribute": "status of Lucia's New York apartment",
+      "prior_quote": "Scene 15: Lucia says she has \"decided to sell\" her apartment.",
+      "later_quote": "Scene 16 does not say she still owns it; it only occurs on \"the Sunday after next.\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B and C: the later scene does not assert any value about whether Lucia still owns the apartment"
+      "reason": "model rejected: Fails C: deciding to sell does not mean it has already sold by the following Sunday, so no contradiction is established."
     },
     {
       "proposal_index": 69,
       "proposal_text": "In scene 15, Rosa was seventy-one was established, yet in scene 17, Rosa is seventy-five when arranging her own affairs happens",
       "scene_x": 15,
       "scene_y": 17,
-      "model_decision": "confirm",
-      "model_reason": "all four conditions hold: same person, same attribute, different ages, and no on-screen explanation for the four-year jump",
+      "model_decision": "reject",
+      "model_reason": "Fails D: scene 17 explicitly advances years later ('The charge ... in the third year...' and later 'Rosa lived in the house for another nine years'), which explains the age increase.",
       "attribute": "Rosa's age",
-      "prior_quote": "Rosa says, \"I am not, at seventy-one, going to spend the morning forgiving you in detail...\"",
-      "later_quote": "Rosa later decides, \"at seventy-five, to put her own affairs in order.\"",
-      "prior_grounded": true,
-      "later_grounded": true,
-      "final_decision": "confirmed",
-      "reason": "model confirmed"
+      "prior_quote": "Scene 15: Rosa says she is \"seventy-one.\"",
+      "later_quote": "Scene 17: \"Rosa ... decided, at seventy-five, to put her own affairs in order.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: Fails D: scene 17 explicitly advances years later ('The charge ... in the third year...' and later 'Rosa lived in the house for another nine years'), which explains the age increase."
     },
     {
       "proposal_index": 70,
       "proposal_text": "In scene 15, Rosa had a second-floor bedroom and bathroom was established, yet in scene 17, Rosa is said to live on the third floor happens",
       "scene_x": 15,
       "scene_y": 17,
-      "model_decision": "confirm",
-      "model_reason": "all four conditions hold: same person, same attribute, different floor locations, and no explicit on-screen explanation reconciling them",
-      "attribute": "floor/location of Rosa's room in the house",
-      "prior_quote": "Asha says the life tenancy \"gives Rosa the use of the third-floor rooms for as long as she wishes them.\"",
-      "later_quote": "Asha drafts \"a side agreement between Daniel and Rosa concerning the life occupancy of the second-floor bedroom and bathroom.\"",
-      "prior_grounded": true,
-      "later_grounded": false,
-      "final_decision": "confirmed",
-      "reason": "model confirmed"
+      "model_decision": "reject",
+      "model_reason": "Fails C: there is no contradiction because scene 15 already places her tenancy on the third floor, not the second.",
+      "attribute": "Rosa's room/floor in the house",
+      "prior_quote": "Scene 15 does not place Rosa in a second-floor bedroom; it states a life tenancy in \"the third-floor rooms.\"",
+      "later_quote": "Scene 17: \"Rosa lived on the third floor.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: Fails C: there is no contradiction because scene 15 already places her tenancy on the third floor, not the second."
     },
     {
       "proposal_index": 71,
       "proposal_text": "In scene 16, Asha's serious career predated this house by years was established, yet in scene 17, Asha says her career began in this house happens",
       "scene_x": 16,
       "scene_y": 17,
-      "model_decision": "confirm",
-      "model_reason": "all four conditions hold: same person, same career-origin attribute, different values, and no on-screen explanation for redefining her career as beginning in this house",
-      "attribute": "when Asha's serious career/work began",
-      "prior_quote": "Asha had \"learned over fifteen years\" and had been practicing long before this case; she was taught things \"in her first year of practice\" and had a supervisor's note \"seven years ago.\"",
-      "later_quote": "Asha thinks she had become best at this work \"over a long career that had begun in earnest in this house.\"",
-      "prior_grounded": false,
-      "later_grounded": true,
-      "final_decision": "confirmed",
-      "reason": "model confirmed"
+      "model_decision": "reject",
+      "model_reason": "Fails C: no direct prior statement in scene 16 gives a conflicting start point for her career.",
+      "attribute": "start of Asha's career",
+      "prior_quote": "Scene 16 does not state that Asha's serious career predated this house by years; it only shows her attending prior cases and ongoing practice.",
+      "later_quote": "Scene 17: \"a long career that had begun in earnest in this house.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: Fails C: no direct prior statement in scene 16 gives a conflicting start point for her career."
     },
     {
       "proposal_index": 72,
@@ -960,12 +958,12 @@
       "scene_x": 5,
       "scene_y": 17,
       "model_decision": "reject",
-      "model_reason": "fails D: once Halloran's original is filed, the Register of Wills holding it is an explicitly justified procedural transfer, not an unexplained contradiction",
-      "attribute": "holder/location of the original codicil",
-      "prior_quote": "The letter says, \"Mr. Halloran has the original.\"",
-      "later_quote": "\"The codicil, in its original form... was filed in the Register of Wills office.\"",
+      "model_reason": "Fails D: the later location is explicitly explained by filing; Halloran having the original earlier and the Register holding it later are sequentially compatible.",
+      "attribute": "custody/location of the original codicil",
+      "prior_quote": "Scene 5 letter: \"Mr. Halloran has the original.\"",
+      "later_quote": "Scene 17: \"The codicil, in its original form ... was filed in the Register of Wills office in Philadelphia.\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails D: once Halloran's original is filed, the Register of Wills holding it is an explicitly justified procedural transfer, not an unexplained contradiction"
+      "reason": "model rejected: Fails D: the later location is explicitly explained by filing; Halloran having the original earlier and the Register holding it later are sequentially compatible."
     },
     {
       "proposal_index": 73,
@@ -973,12 +971,12 @@
       "scene_x": 16,
       "scene_y": 17,
       "model_decision": "reject",
-      "model_reason": "fails C: these do not assert different values; Scene 16's closing occurs during that same Monday meeting and lunch follows it.",
+      "model_reason": "fails C: these are compatible, not contradictory; scene 16 places the closing during that lunch meeting, and scene 17 merely recalls that same day.",
       "attribute": "time of estate closing",
-      "prior_quote": "In Scene 16, after the documents are signed, Rosa says, \"The estate is closed. You are no longer billing us. You can have soup.\"",
-      "later_quote": "In Scene 17, Asha thinks of \"the day they had closed the estate\" while recalling that Monday morning meeting.",
+      "prior_quote": "Scene 16: \"The estate is closed. You are no longer billing us. You can have soup.\"",
+      "later_quote": "Scene 17: \"she sat down across from them, at the place where she had sat the day they had closed the estate\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: these do not assert different values; Scene 16's closing occurs during that same Monday meeting and lunch follows it."
+      "reason": "model rejected: fails C: these are compatible, not contradictory; scene 16 places the closing during that lunch meeting, and scene 17 merely recalls that same day."
     },
     {
       "proposal_index": 74,
@@ -986,12 +984,12 @@
       "scene_x": 16,
       "scene_y": 17,
       "model_decision": "reject",
-      "model_reason": "fails C: the later quote matches the earlier event rather than contradicting it; both refer to that soup lunch.",
-      "attribute": "first time Asha stayed for a meal at the house",
-      "prior_quote": "In Scene 16, after signing, Lucia says, \"Stay for lunch,\" and Rosa says, \"The estate is closed... You can have soup.\"",
-      "later_quote": "In Scene 17, Asha recalls Rosa teaching her to rinse her cup \"the first time she had ever stayed for lunch.\"",
+      "model_reason": "fails C: no contradiction is established; scene 17 refers to Rosa teaching her to rinse the cup on that first lunch, which is consistent with scene 16's soup lunch.",
+      "attribute": "first time Asha stayed for lunch",
+      "prior_quote": "Scene 16: \"The estate is closed... You can have soup.\" / \"Asha sat down.\"",
+      "later_quote": "Scene 17: \"the first time she had ever stayed for lunch\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails C: the later quote matches the earlier event rather than contradicting it; both refer to that soup lunch."
+      "reason": "model rejected: fails C: no contradiction is established; scene 17 refers to Rosa teaching her to rinse the cup on that first lunch, which is consistent with scene 16's soup lunch."
     },
     {
       "proposal_index": 75,
@@ -999,12 +997,12 @@
       "scene_x": 16,
       "scene_y": 17,
       "model_decision": "reject",
-      "model_reason": "fails B: the prior quote is about scheduling a future dinner invitation, while the later quote is about social familiarity/guest status, not the same specific attribute.",
-      "attribute": "status of Asha's relationship to the family before the Sunday-after-next dinner invitation",
-      "prior_quote": "In Scene 16, Rosa invites her back: \"Come for dinner some Sunday. Not next Sunday. The Sunday after.\"",
-      "later_quote": "In Scene 17, Rosa says of an earlier lunch lesson, \"you are not a guest here anymore, you are a person,\" and Asha comes to dinner as a friend.",
+      "model_reason": "fails B: the earlier quote is about the timing of an invitation/return visit, while the later quote is about relationship status after that later dinner and years afterward; these are not the same specific attribute.",
+      "attribute": "friendship status before the Sunday-after-next dinner",
+      "prior_quote": "Scene 16: \"once you leave you are not coming back in any official capacity\" and \"Come for dinner some Sunday. Not next Sunday. The Sunday after.\"",
+      "later_quote": "Scene 17: \"you are not a guest here anymore, you are a person\" and \"she sat with her friends\"",
       "final_decision": "rejected",
-      "reason": "model rejected: fails B: the prior quote is about scheduling a future dinner invitation, while the later quote is about social familiarity/guest status, not the same specific attribute."
+      "reason": "model rejected: fails B: the earlier quote is about the timing of an invitation/return visit, while the later quote is about relationship status after that later dinner and years afterward; these are not the same specific attribute."
     }
   ]
 }
