@@ -1,0 +1,2458 @@
+{
+  "1": [
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "A man in the front hall who pushes to sell the Serrano row house quickly and dismisses emotional concerns.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "Daniel meets Asha beside stacked banker boxes and a folder of probate papers",
+        "Daniel: Asha, we can't afford to linger on nostalgia; every day this house sits unsold is just more money down the drain.",
+        "Daniel: Lucia's feelings are irrelevant if we want to resolve this estate matter quickly; we need to be practical and move forward."
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_0_ent_001",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The person Daniel meets in the front hall who urges caution and insists Lucia's feelings and family ties be considered.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "Daniel meets Asha beside stacked banker boxes and a folder of probate papers",
+        "Asha: I understand your urgency, Daniel, but we must honor Lucia's feelings and the potential implications of selling this home before rushing into a decision.",
+        "Asha: But practicality cannot overshadow the emotional ties that bind this family; overlooking Lucia's perspective could lead to deeper rifts and complications we can't afford."
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_0_ent_002",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "A family member whose feelings and possible claim are central to the dispute over selling the home.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "we must honor Lucia's feelings",
+        "Lucia's feelings are irrelevant",
+        "Lucia may have a legitimate claim"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_0_ent_003",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Location",
+      "surface_forms": [
+        "Serrano row house",
+        "front hall",
+        "this house",
+        "this home"
+      ],
+      "canonical_name": "Serrano row house",
+      "description": "The family house being inventoried and discussed for sale.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "The Serrano row house still smells faintly of funeral lilies and furniture polish.",
+        "In the front hall, Daniel meets Asha",
+        "every day this house sits unsold",
+        "selling this home"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_008"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_0_ent_004",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "probate papers",
+        "banker boxes",
+        "folder of probate papers"
+      ],
+      "canonical_name": "probate papers",
+      "description": "The estate documents present in the front hall before the formal inventory begins.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "beside stacked banker boxes and a folder of probate papers before the formal inventory begins"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_001"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_0_ent_005",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Concept",
+      "surface_forms": [
+        "estate sale process",
+        "estate matter",
+        "sale",
+        "formal inventory",
+        "claim"
+      ],
+      "canonical_name": "estate sale process",
+      "description": "The practical probate and sale process driving the conflict in the scene.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "before the formal inventory begins",
+        "resolve this estate matter quickly",
+        "get this house sold",
+        "Lucia may have a legitimate claim"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_0_ent_006",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Concept",
+      "surface_forms": [
+        "emotional conflict",
+        "nostalgia",
+        "practicality",
+        "emotional ties",
+        "family's unity",
+        "family",
+        "conflict"
+      ],
+      "canonical_name": "emotional conflict",
+      "description": "The emotional and familial tension that Daniel wants to suppress and Asha insists must be addressed.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_0",
+      "evidence": [
+        "we can't afford to linger on nostalgia",
+        "we must honor Lucia's feelings",
+        "practicality cannot overshadow the emotional ties that bind this family",
+        "we risk igniting a conflict that could jeopardize not just this sale, but the family's unity as well"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_0_ev_007"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_0_ent_007",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The person urging the house be sold quickly and pushing for decisive action.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "Daniel: We can't let the shadows of what-ifs hold us hostage; we have to act decisively",
+        "Daniel: Asha, I get that you want to cover all bases, but we can't afford to waste time on ghosts; let's focus on what's tangible and get this house sold."
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_010"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_1_ent_001",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The person warning about Lucia's possible claim and advocating investigation of the missing codicil and estate finances.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "Asha: Daniel, I hear your concerns, but we can't ignore the possibility that Lucia may have a legitimate claim",
+        "Asha: Let's start by reviewing the assets and liabilities in detail",
+        "Asha: And while we do that, I think it would be prudent to arrange a brief meeting with the witness regarding the missing codicil"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_1_ent_002",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The person whose possible legitimate claim is central to the dispute over the estate.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "Lucia may have a legitimate claim",
+        "respect both your urgency and Lucia's emotional needs"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_006"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_1_ent_003",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "witness"
+      ],
+      "canonical_name": "witness",
+      "description": "The unnamed person Asha wants to meet regarding the missing codicil.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "arrange a brief meeting with the witness regarding the missing codicil"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_007"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_1_ent_004",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "house"
+      ],
+      "canonical_name": "house",
+      "description": "The property Daniel wants sold quickly to relieve financial pressure.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "get this house sold",
+        "let's focus on what's tangible and get this house sold"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_008"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_1_ent_005",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "missing codicil",
+        "codicil"
+      ],
+      "canonical_name": "missing codicil",
+      "description": "The disputed legal document whose existence or absence could change the estate decisions.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "without clarity on the missing codicil",
+        "arrange a brief meeting with the witness regarding the missing codicil",
+        "If there truly is a codicil out there"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_009",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_010"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_1_ent_006",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Concept",
+      "surface_forms": [
+        "estate",
+        "estate's full financial picture"
+      ],
+      "canonical_name": "estate",
+      "description": "The family estate whose finances, assets, and liabilities are being reviewed.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "assess the estate's full financial picture",
+        "reviewing the assets and liabilities in detail"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_006"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_1_ent_007",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "assets and liabilities"
+      ],
+      "canonical_name": "assets and liabilities",
+      "description": "The financial categories Asha wants to review to determine the estate's position.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "Let's start by reviewing the assets and liabilities in detail"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_006"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_1_ent_008",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Concept",
+      "surface_forms": [
+        "family's legacy"
+      ],
+      "canonical_name": "family's legacy",
+      "description": "The family inheritance and reputation Asha says must be respected before irreversible decisions are made.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "we owe it to your family's legacy to investigate before making any irreversible decisions"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_1_ent_009",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Concept",
+      "surface_forms": [
+        "debts",
+        "my debts"
+      ],
+      "canonical_name": "debts",
+      "description": "Daniel's financial burden that he says is tied to the urgency of selling the house.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_1",
+      "evidence": [
+        "buried under the weight of this house—and my debts—forever"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_1_ev_003"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_1_ent_010",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The person urging Daniel to investigate the codicil and meet the witness.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "Asha: I understand your frustration, but ignoring the possibility of the codicil could lead to complications that may cost you more in the long run; let’s just meet with the witness and see what they have to say.",
+        "Asha: I appreciate your willingness to consider it, Daniel; just remember, clarity now can prevent chaos later, and your mother's legacy deserves that respect."
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_2_ent_001",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The person resisting the rumor but reluctantly agreeing to a brief meeting with the witness.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "Daniel: I can't believe we're even entertaining this idea; chasing down rumors won't pay my bills or clear my name—let's just get this over with.",
+        "Daniel: I suppose a brief meeting with the witness couldn't hurt, but let's be clear—I'm not letting this drag on longer than necessary; we need to keep our eyes on the prize."
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_2_ent_002",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Object",
+      "surface_forms": [
+        "codicil"
+      ],
+      "canonical_name": "codicil",
+      "description": "The rumored legal document whose existence could alter Daniel's plans and his mother's wishes.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "Asha: I understand your frustration, but ignoring the possibility of the codicil could lead to complications that may cost you more in the long run; let’s just meet with the witness and see what they have to say.",
+        "Daniel: If it turns out this codicil is real, then what? We're just going to throw our plans into chaos?"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_2_ent_003",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "witness"
+      ],
+      "canonical_name": "witness",
+      "description": "The unnamed person Daniel and Asha want to meet to learn more about the codicil.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "Asha: ...let’s just meet with the witness and see what they have to say.",
+        "Daniel: I suppose a brief meeting with the witness couldn't hurt..."
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_008"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_2_ent_004",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Concept",
+      "surface_forms": [
+        "mother's legacy",
+        "family's legacy",
+        "your mother's legacy"
+      ],
+      "canonical_name": "mother's legacy",
+      "description": "The family and maternal legacy Daniel is urged to respect while considering the codicil.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "uld change everything; we owe it to your family's legacy to investigate before making any irreversible decisions.",
+        "Asha: I appreciate your willingness to consider it, Daniel; just remember, clarity now can prevent chaos later, and your mother's legacy deserves that respect."
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_2_ent_005",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Concept",
+      "surface_forms": [
+        "the plan",
+        "plans"
+      ],
+      "canonical_name": "the plan",
+      "description": "Daniel's intended course of action that he fears will be thrown into chaos by the codicil.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "Daniel: If it turns out this codicil is real, then what? We're just going to throw our plans into chaos?",
+        "Daniel: ...we need to stick to the plan and sell."
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_006"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_2_ent_006",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Concept",
+      "surface_forms": [
+        "financial stability",
+        "my bills",
+        "my future"
+      ],
+      "canonical_name": "financial stability",
+      "description": "Daniel's financial future and stability, which he says are at stake in the dispute.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "Daniel: I can't believe we're even entertaining this idea; chasing down rumors won't pay my bills or clear my name—let's just get this over with.",
+        "Asha: ...we risk not only your financial stability but also the integrity of your mother's wishes;",
+        "Daniel: ...it's about securing my future too, and I can't afford to lose"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_2_ent_007",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "mother's wishes",
+        "her intentions"
+      ],
+      "canonical_name": "mother's wishes",
+      "description": "The deceased mother's intended wishes that Asha says should be clarified and honored.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_2",
+      "evidence": [
+        "Asha: ...we risk not only your financial stability but also the integrity of your mother's wishes;",
+        "Asha: Let’s approach this meeting with an open mind; it may reveal insights that could honor her intentions and guide us through this process more smoothly.",
+        "Daniel: I get that, but let's not forget—this isn't just about honoring her intentions; it's about securing my future too..."
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_2_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_2_ent_008",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man worried about securing his future and avoiding financial ruin.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "Daniel: I get that, but let's not forget—this isn't just about honoring her intentions; it's about securing my future too",
+        "Daniel: I just want to make sure we don’t get lost in the emotional maze; I can’t let anyone’s nostalgia jeopardize my stability—this is about survival now.",
+        "Daniel: I see your point, Asha, but we have to be pragmatic; every moment we waste is a step closer to financial ruin"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_009",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_010"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_001",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The woman urging Daniel to balance emotional concerns with practical decisions.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "Asha: Absolutely, Daniel; your future is paramount, but honoring your mother's intentions could ultimately pave the way for a resolution that protects both her legacy and your financial security.",
+        "Asha: I understand that survival is your priority, but sometimes navigating the emotional landscape can lead to a more stable outcome; let's work together to find that balance.",
+        "Asha: It's clear that both the house and your mother's memory hold significant weight for you; let's ensure we honor that while also safeguarding your future.",
+        "Asha: I hear you, Daniel, and while time is of the essence, we must also ensure that we’re not overlooking the complexities that could ultimately protect your i"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_009",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_010"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_002",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel's mother",
+        "her",
+        "your mother's"
+      ],
+      "canonical_name": "Daniel's mother",
+      "description": "Daniel's deceased mother whose intentions, legacy, and memory are central to the discussion.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "honoring her intentions",
+        "honoring your mother's intentions",
+        "both her legacy and your financial security.",
+        "your mother's memory hold significant weight for you"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_003",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "the house"
+      ],
+      "canonical_name": "the house",
+      "description": "The house tied to Daniel's family memory and the decisions being discussed.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "both the house and your mother's memory hold significant weight for you"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_006"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_004",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Concept",
+      "surface_forms": [
+        "future",
+        "my future",
+        "your future"
+      ],
+      "canonical_name": "future",
+      "description": "The prospect of Daniel's long-term security that both characters repeatedly discuss.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "securing my future too",
+        "your future is paramount",
+        "safeguarding your future"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_010"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_005",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Concept",
+      "surface_forms": [
+        "Daniel's mother's intentions",
+        "intentions",
+        "her intentions",
+        "your mother's intentions"
+      ],
+      "canonical_name": "Daniel's mother's intentions",
+      "description": "The wishes Daniel's mother left behind, which the characters debate honoring.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "honoring her intentions",
+        "honoring your mother's intentions"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_002"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_006",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Concept",
+      "surface_forms": [
+        "legacy",
+        "her legacy"
+      ],
+      "canonical_name": "legacy",
+      "description": "The mother's legacy that Asha says could be protected by honoring her intentions.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "protects both her legacy and your financial security"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_002"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_007",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "financial security"
+      ],
+      "canonical_name": "financial security",
+      "description": "The economic stability Daniel wants to preserve through the decision.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "protects both her legacy and your financial security"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_002"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_008",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Concept",
+      "surface_forms": [
+        "emotional complexity",
+        "emotional maze",
+        "emotional landscape"
+      ],
+      "canonical_name": "emotional complexity",
+      "description": "The emotional difficulty both characters say must be navigated carefully.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "let's not get lost in the emotional maze",
+        "navigating the emotional landscape"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_009",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Concept",
+      "surface_forms": [
+        "nostalgia"
+      ],
+      "canonical_name": "nostalgia",
+      "description": "The sentimental pull Daniel fears could threaten his stability.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "I can’t let anyone’s nostalgia jeopardize my stability"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_003"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_010",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Concept",
+      "surface_forms": [
+        "stability",
+        "my stability"
+      ],
+      "canonical_name": "stability",
+      "description": "Daniel's desired state of personal and financial steadiness.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "jeopardize my stability",
+        "lead to a more stable outcome"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_011",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "survival"
+      ],
+      "canonical_name": "survival",
+      "description": "Daniel's sense that the situation is a matter of immediate personal survival.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "this is about survival now",
+        "survival is your priority"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_012",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Concept",
+      "surface_forms": [
+        "balance",
+        "that balance"
+      ],
+      "canonical_name": "balance",
+      "description": "The compromise between emotional concerns and practical needs that Asha urges.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "let's work together to find that balance"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_004"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_013",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Concept",
+      "surface_forms": [
+        "pragmatism",
+        "pragmatic"
+      ],
+      "canonical_name": "pragmatism",
+      "description": "The practical approach Daniel insists they must follow to avoid further loss.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "we have to be pragmatic"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_008"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_014",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Concept",
+      "surface_forms": [
+        "financial ruin"
+      ],
+      "canonical_name": "financial ruin",
+      "description": "The catastrophic outcome Daniel fears if they delay too long.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "every moment we waste is a step closer to financial ruin"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_008"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_015",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Concept",
+      "surface_forms": [
+        "time"
+      ],
+      "canonical_name": "time",
+      "description": "The limited time pressure Asha and Daniel acknowledge in the discussion.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "every moment we waste",
+        "while time is of the essence"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_010"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_016",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Concept",
+      "surface_forms": [
+        "complexities"
+      ],
+      "canonical_name": "complexities",
+      "description": "The unresolved complications Asha warns must not be overlooked.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "we must also ensure that we’re not overlooking the complexities"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_010"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_017",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Concept",
+      "surface_forms": [
+        "unspoken fears and hopes"
+      ],
+      "canonical_name": "unspoken fears and hopes",
+      "description": "The tense emotional atmosphere surrounding Daniel and Asha as they stand together.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_3",
+      "evidence": [
+        "The air is thick with unspoken fears and hopes as they stand together."
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_3_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_3_ent_018",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Asha"
+      ],
+      "canonical_name": "Asha",
+      "description": "The person advising Daniel to consider the situation carefully and face his fears.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "Asha: I hear you, Daniel",
+        "Asha: I can sense how heavy that burden is for you"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_003"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_4_ent_001",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The man struggling with the possible loss of the house and what it means for his future and his mother.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "Daniel: I get that",
+        "Daniel: it's everything I've built crumbling around me",
+        "Daniel: the thought of losing this house feels like losing my last connection to her"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_004"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_4_ent_002",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "One of the sisters in the sewing room who resists selling the house because of its connection to their mother.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "Lucia and Rosa speak in low voices",
+        "Lucia: \"How can he think of selling this place so soon?",
+        "Lucia: \"I feel like if I let go of this house, I’m letting go of her"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_4_ent_003",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "One of the sisters who urges honoring their mother's spirit in the house.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "Lucia and Rosa speak in low voices",
+        "Rosa: \"Lucia, this house holds more than just memories; it carries our mother's spirit in every corner."
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_007"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_4_ent_004",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Character",
+      "surface_forms": [
+        "the deceased mother",
+        "the deceased",
+        "the deceased left them"
+      ],
+      "canonical_name": "the deceased mother",
+      "description": "The sisters' deceased mother, whose unfinished sewing work remains in the room and whose legacy shapes the discussion.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "the deceased left them",
+        "a half-finished hem still sit where the deceased left them",
+        "our mother's spirit"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_4_ent_005",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Location",
+      "surface_forms": [
+        "the sewing room",
+        "the back of the house"
+      ],
+      "canonical_name": "the sewing room",
+      "description": "The back room of the house where the mother's unfinished sewing work remains and Lucia and Rosa speak privately.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "At the back of the house, the sewing room remains almost untouched",
+        "=== Act 1 - Sewing room ==="
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_4_ent_006",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "the house",
+        "this house",
+        "place"
+      ],
+      "canonical_name": "the house",
+      "description": "The family home whose possible sale is central to the conflict and symbolizes the mother's legacy.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "the house",
+        "selling this place so soon",
+        "this house holds more than just memories"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_4_ent_007",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Object",
+      "surface_forms": [
+        "unfinished sewing work",
+        "pincushions",
+        "folded fabric",
+        "a half-finished hem"
+      ],
+      "canonical_name": "unfinished sewing work",
+      "description": "The mother's unfinished sewing materials and hem left untouched in the sewing room.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "pincushions, folded fabric, and a half-finished hem still sit where the deceased left them"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_005"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_4_ent_008",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Concept",
+      "surface_forms": [
+        "time",
+        "the longer we linger on this",
+        "the first step"
+      ],
+      "canonical_name": "time",
+      "description": "The pressure of time and delay that shapes the urgency of the discussion.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "while time is of the essence",
+        "the longer we linger on this",
+        "the first step toward finding a way to rebuild"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_003"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_4_ent_009",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Concept",
+      "surface_forms": [
+        "the decision and its emotional/practical stakes",
+        "complexities",
+        "your interests",
+        "the practicalities",
+        "fears",
+        "rebuild",
+        "honor",
+        "humiliation",
+        "the truth"
+      ],
+      "canonical_name": "the decision and its emotional/practical stakes",
+      "description": "The abstract set of concerns about protecting Daniel's interests, facing fears, rebuilding, honoring the mother, and revealing the truth.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_4",
+      "evidence": [
+        "the complexities that could ultimately protect your interests",
+        "the practicalities",
+        "acknowledging those fears",
+        "rebuild and honor both your mother's legacy and your future",
+        "I can't bear the thought of that humiliation",
+        "revealing the truth"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_4_ev_008"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_4_ent_010",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "The woman who fears losing her mother's legacy and worries that revealing the letter will destroy her family.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "Lucia: \"I feel like if I let go of this house, I’m letting go of her—of everything she stood for.",
+        "Lucia: \"But what if revealing the truth only tears us apart?\"",
+        "Lucia: \"I want to believe that, Rosa, but what if Daniel twists her words?",
+        "Lucia: \"I just wish I knew for certain what she wanted… if only I could trust that revealing the letter wouldn’t shatter everything we have left.\"",
+        "Lucia: \"I need to know what she wanted, Rosa; I"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_009",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_010",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_012"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_5_ent_001",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "The supportive woman who urges Lucia to speak the truth and preserve her mother's legacy.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "Rosa: \"You must speak your truth, my dear.",
+        "Rosa: \"Then let’s ensure the truth is heard clearly; together, we’ll stand against his arrogance and protect what your mother built for us.\"",
+        "Rosa: \"Trust in your heart, Lucia; your mother’s wishes are woven into the very fabric of this home—reveal the letter, and we’ll weave a stronger bond from the truth.\"",
+        "Rosa: \"Then let us turn this battleground into a sanctuary, Lucia; with every word of that letter, we can stitch together the love your mother left behind and shield it from those who would tear it apart.\""
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_009",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_011",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_012"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_5_ent_002",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel"
+      ],
+      "canonical_name": "Daniel",
+      "description": "The person Lucia fears may twist her mother's words and whose arrogance Rosa says they must stand against.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "Lucia: \"I want to believe that, Rosa, but what if Daniel twists her words?",
+        "Rosa: \"Then let’s ensure the truth is heard clearly; together, we’ll stand against his arrogance and protect what your mother built for us.\""
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_006"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_5_ent_003",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia's mother",
+        "her mother",
+        "your mother",
+        "mother"
+      ],
+      "canonical_name": "Lucia's mother",
+      "description": "The deceased mother whose legacy, wishes, and letter are central to Lucia and Rosa's discussion.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "Lucia: \"I feel like if I let go of this house, I’m letting go of her—of everything she stood for.",
+        "Rosa: \"The house will always remember her, but it's you who must carry her legacy forward;",
+        "Rosa: \"Then let’s ensure the truth is heard clearly; together, we’ll stand against his arrogance and protect what your mother built for us.\"",
+        "Rosa: \"Trust in your heart, Lucia; your mother’s wishes are woven into the very fabric of this home—reveal the letter, and we’ll weave a stronger bond from the truth.\"",
+        "Lucia: \"I can feel her presence in every thread, Rosa, but I'm terrified that the truth might unravel us instead of bringing us together.\"",
+        "Rosa: \"Then let us turn this battleground into a sanctuary, Lucia; with every word of that letter, we can stitch together the love your mother left behind and shield it from those who would tear it apart.\""
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_009",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_011",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_012"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_5_ent_004",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Location",
+      "surface_forms": [
+        "the house",
+        "house",
+        "home"
+      ],
+      "canonical_name": "the house",
+      "description": "The family home that Lucia fears losing and that Rosa frames as a place that preserves the mother's memory.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "Lucia: \"I feel like if I let go of this house, I’m letting go of her—of everything she stood for.",
+        "Rosa: \"The house will always remember her, but it's you who must carry her legacy forward;",
+        "Rosa: \"Trust in your heart, Lucia; your mother’s wishes are woven into the very fabric of this home—reveal the letter, and we’ll weave a stronger bond from the truth.\"",
+        "Lucia: \"But if I don't speak up now, will we ever truly know her wishes? This house deserves to be a sanctuary, not a battleground.\"",
+        "Rosa: \"Then let us turn this battleground into a sanctuary, Lucia; with every word of that letter, we can stitch together the love your mother left behind and shield it from those who would tear it apart.\""
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_009",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_010",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_011"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_5_ent_005",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "the letter",
+        "letter"
+      ],
+      "canonical_name": "the letter",
+      "description": "The letter containing Lucia's mother's words and wishes, whose revelation is at the center of the conflict.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "Lucia: \"I just wish I knew for certain what she wanted… if only I could trust that revealing the letter wouldn’t shatter everything we have left.\"",
+        "Rosa: \"Trust in your heart, Lucia; your mother’s wishes are woven into the very fabric of this home—reveal the letter, and we’ll weave a stronger bond from the truth.\"",
+        "Lucia: \"But if I don't speak up now, will we ever truly know her wishes?\"",
+        "Rosa: \"Then let us turn this battleground into a sanctuary, Lucia; with every word of that letter, we can stitch together the love your mother left behind and shield it from those who would tear it apart.\""
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_010",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_011",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_012"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_5_ent_006",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Concept",
+      "surface_forms": [
+        "truth"
+      ],
+      "canonical_name": "truth",
+      "description": "The central idea Lucia fears will divide the family and that Rosa insists must be spoken and heard clearly.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "Lucia: \"But what if revealing the truth only tears us apart?\"",
+        "Rosa: \"You must speak your truth, my dear.",
+        "Rosa: \"Then let’s ensure the truth is heard clearly; together, we’ll stand against his arrogance and protect what your mother built for us.\"",
+        "Lucia: \"I just wish I knew for certain what she wanted… if only I could trust that revealing the letter wouldn’t shatter everything we have left.\"",
+        "Lucia: \"I can feel her presence in every thread, Rosa, but I'm terrified that the truth might unravel us instead of bringing us together.\"",
+        "Lucia: \"But if I don't speak up now, will we ever truly know her wishes? This house deserves to be a sanctuary, not a battleground.\"",
+        "Rosa: \"Then let us turn this battleground into a sanctuary, Lucia; with every word of that letter, we can stitch together the love your mother left behind and shield it from those who would tear it apart.\""
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_009",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_010",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_011",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_012"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_5_ent_007",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "legacy"
+      ],
+      "canonical_name": "legacy",
+      "description": "The mother's legacy that Lucia is urged to carry forward and not abandon.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "Rosa: \"The house will always remember her, but it's you who must carry her legacy forward; don’t let fear silence your heart.\"",
+        "Lucia: \"I feel like if I let go of this house, I’m letting go of her—of everything she stood for.\""
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_004"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_5_ent_008",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Concept",
+      "surface_forms": [
+        "sanctuary"
+      ],
+      "canonical_name": "sanctuary",
+      "description": "The peaceful state Lucia wants the house to become instead of a battleground.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "Lucia: \"This house deserves to be a sanctuary, not a battleground.\"",
+        "Rosa: \"Then let us turn this battleground into a sanctuary, Lucia; with every word of that letter, we can stitch together the love your mother left behind and shield it from those who would tear it apart.\""
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_010",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_011"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_5_ent_009",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Concept",
+      "surface_forms": [
+        "bond"
+      ],
+      "canonical_name": "bond",
+      "description": "The strengthened family connection Rosa believes can be built through the truth.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_5",
+      "evidence": [
+        "Rosa: \"Trust in your heart, Lucia; your mother’s wishes are woven into the very fabric of this home—reveal the letter, and we’ll weave a stronger bond from the truth.\""
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_5_ev_011"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_5_ent_010",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "A central family member who wants to uncover her mother's wishes and protect the family's love and home.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "Lucia: \"I need to know what she wanted, Rosa; I can’t let Daniel’s plans erase the heart of our family. We owe it to her to uncover the truth.\"",
+        "Lucia: \"Let’s open it, Rosa; whatever we find, it’s time to honor her wishes and reclaim the love that built this home.\"",
+        "Lucia: \"I’m ready, Rosa; let’s see what secrets she left behind and allow her spirit to guide us as we honor her legacy.\""
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_010",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_011"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_001",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "Lucia's ally who urges them to uncover the truth together and protect their mother's legacy.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "Rosa: \"Then let us uncover it together, Lucia; this box may hold the keys to her heart, and we will guard that truth with every stitch of our resolve.\"",
+        "Rosa: \"Lucia, we owe it to our mother to uncover the truth; this house is her heart, and we must protect it together.\"",
+        "Rosa: \"Exactly, Lucia; her love is our strength, and with each discovery, we’ll ensure her spirit remains woven into this home, guiding us for\""
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_009",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_010",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_011"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_002",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Daniel",
+        "Daniel’s"
+      ],
+      "canonical_name": "Daniel",
+      "description": "A person whose plans Lucia fears will erase the family's heart.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "Lucia: \"I need to know what she wanted, Rosa; I can’t let Daniel’s plans erase the heart of our family.\""
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_002"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_003",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia's mother",
+        "mother",
+        "our mother",
+        "her mother"
+      ],
+      "canonical_name": "Lucia's mother",
+      "description": "The deceased mother whose letter, wishes, love, and legacy guide Lucia and Rosa.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "with every word of that letter, we can stitch together the love your mother left behind",
+        "We owe it to her to uncover the truth.",
+        "Rosa: \"Lucia, we owe it to our mother to uncover the truth; this house is her heart, and we must protect it together.\"",
+        "Together, we’ll weave her memory into our future"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_009",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_010",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_011"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_004",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "Letter",
+        "letter"
+      ],
+      "canonical_name": "Letter",
+      "description": "A letter from Lucia's mother that contains clues to her love and wishes.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "with every word of that letter, we can stitch together the love your mother left behind"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_001"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_005",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "Box",
+        "box",
+        "this box"
+      ],
+      "canonical_name": "Box",
+      "description": "A container whose contents may reveal the mother's heart, wishes, and secrets.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "this box may hold the keys to her heart",
+        "whatever lies within this box is not just paper or fabric",
+        "whatever is in this box could change everything for us"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_006"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_006",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Object",
+      "surface_forms": [
+        "Contents of the box",
+        "paper",
+        "fabric"
+      ],
+      "canonical_name": "Contents of the box",
+      "description": "The physical contents of the box, described as paper or fabric and tied to the mother's love.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "whatever lies within this box is not just paper or fabric"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_005"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_007",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Location",
+      "surface_forms": [
+        "Home",
+        "home",
+        "this home"
+      ],
+      "canonical_name": "Home",
+      "description": "The family home that embodies the mother's love and legacy.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "the love that built this home",
+        "her spirit remains woven into this home"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_011"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_008",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Location",
+      "surface_forms": [
+        "House",
+        "house",
+        "this house"
+      ],
+      "canonical_name": "House",
+      "description": "The family house described as the mother's heart and something to protect together.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "this house is her heart, and we must protect it together"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_009",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Concept",
+      "surface_forms": [
+        "Love",
+        "love",
+        "her love",
+        "the love",
+        "love she left for us"
+      ],
+      "canonical_name": "Love",
+      "description": "The emotional bond and legacy the characters seek to preserve and honor.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "we can stitch together the love your mother left behind",
+        "reclaim the love that built this home",
+        "her love is our strength",
+        "the love she left for us"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_010",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_011"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_010",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Concept",
+      "surface_forms": [
+        "Truth",
+        "truth",
+        "the truth"
+      ],
+      "canonical_name": "Truth",
+      "description": "The hidden reality about the mother's wishes that Lucia and Rosa want to uncover.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "We owe it to her to uncover the truth.",
+        "we will guard that truth with every stitch of our resolve",
+        "we owe it to our mother to uncover the truth"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_011",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "Mother's wishes",
+        "wishes",
+        "her wishes"
+      ],
+      "canonical_name": "Mother's wishes",
+      "description": "The mother's intended desires that Lucia wants to know and honor.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "I need to know what she wanted",
+        "Let’s open it, Rosa; whatever we find, it’s time to honor her wishes",
+        "we’ll unveil her wishes"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_008"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_012",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_013",
+      "type": "Concept",
+      "surface_forms": [
+        "Heart",
+        "heart",
+        "her heart",
+        "the heart of our family",
+        "heart of our family"
+      ],
+      "canonical_name": "Heart",
+      "description": "A metaphorical concept used for the family's emotional center and the mother's essence.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "Daniel’s plans erase the heart of our family",
+        "this box may hold the keys to her heart",
+        "this house is her heart"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_007"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_013",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_014",
+      "type": "Concept",
+      "surface_forms": [
+        "Spirit",
+        "spirit",
+        "her spirit"
+      ],
+      "canonical_name": "Spirit",
+      "description": "The mother's guiding presence that Lucia and Rosa invoke for courage and direction.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "allow her spirit to guide us",
+        "let her spirit light the way through this darkness",
+        "her spirit remains woven into this home"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_009",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_011"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_014",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_015",
+      "type": "Concept",
+      "surface_forms": [
+        "Memory",
+        "memory",
+        "her memory"
+      ],
+      "canonical_name": "Memory",
+      "description": "The remembrance of the mother that Lucia vows to preserve into the future.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "we’ll weave her memory into our future"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_010"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_015",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_016",
+      "type": "Concept",
+      "surface_forms": [
+        "Legacy",
+        "legacy",
+        "her legacy"
+      ],
+      "canonical_name": "Legacy",
+      "description": "The mother's enduring influence that the characters aim to honor.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "honor her legacy"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_008"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_016",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_017",
+      "type": "Concept",
+      "surface_forms": [
+        "Resolve",
+        "resolve",
+        "our resolve"
+      ],
+      "canonical_name": "Resolve",
+      "description": "The shared determination of Lucia and Rosa to protect the truth and the mother's legacy.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "we will guard that truth with every stitch of our resolve"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_003"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_017",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_018",
+      "type": "Concept",
+      "surface_forms": [
+        "Courage",
+        "courage"
+      ],
+      "canonical_name": "Courage",
+      "description": "The bravery Rosa urges Lucia to use when facing the box's contents.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "let's face it together with courage"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_005"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_018",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_019",
+      "type": "Concept",
+      "surface_forms": [
+        "Fear",
+        "fear"
+      ],
+      "canonical_name": "Fear",
+      "description": "Lucia's fear of what the box may reveal and the possibility of being silenced by it.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "whatever is in this box could change everything for us",
+        "I won’t let fear silence the love she left for us"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_010"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_019",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_020",
+      "type": "Concept",
+      "surface_forms": [
+        "Darkness",
+        "darkness"
+      ],
+      "canonical_name": "Darkness",
+      "description": "A metaphor for the uncertainty the characters must move through together.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_6",
+      "evidence": [
+        "through this darkness"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_6_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_6_ent_020",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "A daughter who urges Lucia to open the box and trust their mother's love and truth.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "Rosa: \"Exactly, Lucia; her love is our strength...",
+        "Rosa: \"Let’s open the box now and see what pieces of her heart await us...",
+        "Rosa: \"Lucia, remember, our mother's spirit is woven into every corner of this house...",
+        "Rosa: \"Look closely, Lucia; each item in this box tells a story...",
+        "Rosa: \"Fear is natural, Lucia, but it’s the truth that will ultimately bind us...",
+        "Rosa: \"Lucia, the truth may be difficult, but it’s also a path to healing..."
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_7_ent_001",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "A daughter who fears painful revelations but agrees to uncover the contents of the box.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "Rosa: \"Exactly, Lucia; her love is our strength...",
+        "Lucia: \"I can almost hear her voice in my mind...",
+        "Lucia: I can feel the weight of her love in every letter, but I'm scared of what we might uncover...",
+        "Lucia: \"I want to believe that, Rosa, but what if the truth reveals more pain than love?",
+        "Lucia: \"I wish I could share your certainty, Rosa; the thought of"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_010"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_7_ent_002",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "their mother",
+        "our mother",
+        "mother's",
+        "mother’s",
+        "her"
+      ],
+      "canonical_name": "their mother",
+      "description": "The deceased mother whose love, wishes, heart, and legacy are being discussed through the box's contents.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "the love she left for us",
+        "her love is our strength",
+        "pieces of her heart",
+        "each letter and photograph could be a thread connecting us to her legacy",
+        "our mother's spirit is woven into every corner of this house",
+        "honor her wishes",
+        "understanding her heart and the choices she made for us",
+        "our mother’s love will guide us through the pain"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_7_ent_003",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "the box",
+        "box"
+      ],
+      "canonical_name": "the box",
+      "description": "A box containing letters and photographs that may reveal the mother's legacy and truth.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "Let’s open the box now",
+        "each letter and photograph could be a thread connecting us to her legacy",
+        "each item in this box tells a story"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_7_ent_004",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Object",
+      "surface_forms": [
+        "letters",
+        "every letter",
+        "each letter"
+      ],
+      "canonical_name": "letters",
+      "description": "Letters in the box that carry emotional weight and may reveal the mother's story.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "each letter and photograph could be a thread connecting us to her legacy",
+        "I can feel the weight of her love in every letter",
+        "the thought of"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_006"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_7_ent_005",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_006",
+      "type": "Object",
+      "surface_forms": [
+        "photographs",
+        "photograph"
+      ],
+      "canonical_name": "photographs",
+      "description": "Photographs in the box that are part of the mother's legacy and clues to her past.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "each letter and photograph could be a thread connecting us to her legacy"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_005"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_7_ent_006",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_007",
+      "type": "Location",
+      "surface_forms": [
+        "this home",
+        "house"
+      ],
+      "canonical_name": "this home",
+      "description": "The family home where the mother's spirit is said to remain present.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "her spirit remains woven into this home",
+        "our mother's spirit is woven into every corner of this house"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_004"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_7_ent_007",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_008",
+      "type": "Concept",
+      "surface_forms": [
+        "mother's love",
+        "love",
+        "her love",
+        "our mother's love",
+        "the love she left for us"
+      ],
+      "canonical_name": "mother's love",
+      "description": "The sustaining emotional force the sisters believe will guide and unite them.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "the love she left for us",
+        "her love is our strength",
+        "our mother’s love will guide us through the pain",
+        "I won’t let fear silence the love she left for us"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_7_ent_008",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_009",
+      "type": "Concept",
+      "surface_forms": [
+        "fear"
+      ],
+      "canonical_name": "fear",
+      "description": "The emotional hesitation Lucia expresses about uncovering the truth.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "I won’t let fear silence the love she left for us",
+        "Fear is natural, Lucia",
+        "I'm scared of what we might uncover",
+        "what if the truth reveals more pain than love?"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_010"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_7_ent_009",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_010",
+      "type": "Concept",
+      "surface_forms": [
+        "truth",
+        "the truth"
+      ],
+      "canonical_name": "truth",
+      "description": "The revelation Rosa believes will ultimately unite and heal them.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "it’s the truth that will ultimately bind us",
+        "honor her wishes and uncover the truth together",
+        "the truth may be difficult, but it’s also a path to healing"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_7_ent_010",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_011",
+      "type": "Concept",
+      "surface_forms": [
+        "healing"
+      ],
+      "canonical_name": "healing",
+      "description": "The hoped-for emotional outcome Rosa associates with facing the truth.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "it’s also a path to healing",
+        "even painful truth can lead to healing and understanding"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_7_ent_011",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_012",
+      "type": "Concept",
+      "surface_forms": [
+        "understanding"
+      ],
+      "canonical_name": "understanding",
+      "description": "The state of clarity and mutual comprehension Rosa says may follow the painful truth.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_7",
+      "evidence": [
+        "healing and understanding",
+        "into understanding"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_7_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_7_ent_012",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_001",
+      "type": "Character",
+      "surface_forms": [
+        "Rosa"
+      ],
+      "canonical_name": "Rosa",
+      "description": "Lucia's sister who urges her to confront their mother's intentions and frames the truth as healing and unifying.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "Rosa: \"Then let us take that leap together, Lucia; hand in hand, we will navigate the depths of her intentions and emerge stronger on the other side.\"",
+        "Rosa: \"Absolutely, Lucia; we are bound by our mother’s love, and together we will weave the threads of her truth into a tapestry that honors her spirit and unites us all.\"",
+        "Rosa: \"Lucia, remember that our mother's love was never meant to divide us; it was a bridge to understanding, and together we can cross it.\""
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_008"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_8_ent_001",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_002",
+      "type": "Character",
+      "surface_forms": [
+        "Lucia"
+      ],
+      "canonical_name": "Lucia",
+      "description": "Rosa's sister who fears uncovering their mother's intentions but agrees to face the truth together as a family.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "Lucia: \"I wish I could share your certainty, Rosa; the thought of unraveling her intentions feels like standing on the edge of a cliff, unsure of what lies below.\"",
+        "Lucia: \"I'm willing to take that leap, but I need to promise myself that whatever we find, we face it together, as a family.\"",
+        "Lucia: \"I can feel Mom's presence in this box, and I know she wanted us to uncover her secrets, but what if those secrets tear us apart instead of bringing us closer?\"",
+        "Lucia: \"I know this won't be easy, but if we face it together, maybe we can honor her memory the way she would have wanted.\""
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_007",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_8_ent_002",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_003",
+      "type": "Character",
+      "surface_forms": [
+        "Mom",
+        "mother",
+        "our mother",
+        "mother's"
+      ],
+      "canonical_name": "Mom",
+      "description": "Lucia and Rosa's deceased mother whose love, intentions, and hidden secrets motivate the scene.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "our mother’s love will guide us through the pain and into understanding",
+        "the thought of unraveling her intentions",
+        "we are bound by our mother’s love",
+        "I can feel Mom's presence in this box",
+        "our mother's love was never meant to divide us"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_8_ent_003",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_004",
+      "type": "Object",
+      "surface_forms": [
+        "box with hidden letter",
+        "box",
+        "hidden letter",
+        "letter"
+      ],
+      "canonical_name": "box with hidden letter",
+      "description": "The box containing the hidden letter that Lucia believes holds their mother's secrets.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "I can feel Mom's presence in this box",
+        "As Lucia stands before the box, her heart races, fingers trembling over the hidden letter.",
+        "poised to confront the hidden letter"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_007"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_8_ent_004",
+      "movie_id": "ibsen20_pages__scene_1"
+    },
+    {
+      "temp_id": "ent_005",
+      "type": "Concept",
+      "surface_forms": [
+        "Truth and family unity",
+        "healing",
+        "understanding",
+        "truth",
+        "her truth",
+        "secrets",
+        "memory",
+        "her memory",
+        "family",
+        "family unity",
+        "our mother’s love",
+        "bridge"
+      ],
+      "canonical_name": "Truth and family unity",
+      "description": "The central abstract idea that confronting the mother's secrets will lead to healing, understanding, and either unity or division within the family.",
+      "scene_id": "1",
+      "chunk_id": "doc_0_chunk_0_part_8",
+      "evidence": [
+        "it’s also a path to healing",
+        "into understanding",
+        "unraveling her intentions",
+        "we are bound by our mother’s love",
+        "weave the threads of her truth",
+        "what if those secrets tear us apart",
+        "it was a bridge to understanding",
+        "honor her memory"
+      ],
+      "linked_event_ids": [
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_001",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_002",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_003",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_004",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_005",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_006",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_008",
+        "ev_ibsen20__1_doc_0_chunk_0_part_8_ev_009"
+      ],
+      "id": "ent_ibsen20__1_doc_0_chunk_0_part_8_ent_005",
+      "movie_id": "ibsen20_pages__scene_1"
+    }
+  ]
+}

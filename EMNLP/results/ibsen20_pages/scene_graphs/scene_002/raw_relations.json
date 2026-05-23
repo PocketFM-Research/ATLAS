@@ -1,0 +1,3192 @@
+{
+  "2": [
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_0_ev_001",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "Asha begins the estate inventory",
+        "Let's proceed with the inventory"
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "set up probate inventory",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_001",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_006",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_0_ev_001",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "Asha begins the estate inventory",
+        "the estate inventory"
+      ],
+      "confidence": 0.88,
+      "source_name": "estate inventory",
+      "target_name": "set up probate inventory",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_002",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "addressing the missing codicil is crucial",
+        "ignoring the possibility of the codicil could lead to complications"
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "warn about missing codicil",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_003",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_005",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_0_ev_002",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "addressing the missing codicil is crucial",
+        "the missing codicil"
+      ],
+      "confidence": 0.97,
+      "source_name": "codicil",
+      "target_name": "warn about missing codicil",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_004",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "We can’t afford to get bogged down by what might just be a rumor",
+        "we need to focus on selling the house and moving forward, not chasing shadows"
+      ],
+      "confidence": 0.95,
+      "source_name": "Daniel",
+      "target_name": "dismiss codicil concern",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_005",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_005",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_0_ev_003",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "what might just be a rumor",
+        "the codicil"
+      ],
+      "confidence": 0.72,
+      "source_name": "codicil",
+      "target_name": "dismiss codicil concern",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_006",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "we must uncover the truth before making any final decisions"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "urge uncovering truth",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_007",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_014",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_0_ev_004",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "we must uncover the truth"
+      ],
+      "confidence": 0.98,
+      "source_name": "truth",
+      "target_name": "urge uncovering truth",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_008",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "preserving Mom's legacy and understanding her wishes"
+      ],
+      "confidence": 0.97,
+      "source_name": "Lucia",
+      "target_name": "invoke mother's legacy",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_009",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_013",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_0_ev_005",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "preserving Mom's legacy and understanding her wishes"
+      ],
+      "confidence": 0.96,
+      "source_name": "mother's legacy and wishes",
+      "target_name": "invoke mother's legacy",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_010",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_0_ev_006",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "the truth deserves to be uncovered before we decide anything",
+        "explore this thoroughly"
+      ],
+      "confidence": 0.95,
+      "source_name": "Rosa",
+      "target_name": "support codicil investigation",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_011",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_0_ev_007",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "Let's arrange a meeting with the witness who recalled the codicil"
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "agree to investigate witness",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_013",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_016",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_0_ev_007",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "the witness who recalled the codicil"
+      ],
+      "confidence": 0.94,
+      "source_name": "witness",
+      "target_name": "agree to investigate witness",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_014",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "This is turning into a wild goose chase",
+        "we need to act decisively, not waste time on what-ifs"
+      ],
+      "confidence": 0.98,
+      "source_name": "Daniel",
+      "target_name": "reject investigation as wasteful",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_015",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_015",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_0_ev_008",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "This is turning into a wild goose chase"
+      ],
+      "confidence": 0.96,
+      "source_name": "wild goose chase",
+      "target_name": "reject investigation as wasteful",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_016",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_012",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_015",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "wild goose chase"
+      ],
+      "confidence": 0.55,
+      "source_name": "probate station",
+      "target_name": "wild goose chase",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_023",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_032",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_002",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_003",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "Daniel, this isn't just about selling the house; it's about preserving Mom's legacy",
+        "Lucia: \"Daniel, this isn't just about selling the house"
+      ],
+      "confidence": 0.72,
+      "source_name": "Daniel",
+      "target_name": "Lucia",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_032",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_033",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_003",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_0_ent_004",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_0",
+      "evidence": [
+        "Lucia's right, Daniel"
+      ],
+      "confidence": 0.7,
+      "source_name": "Lucia",
+      "target_name": "Rosa",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_0_rel_033",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_001",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "tial we gather all the facts before moving forward.",
+        "Asha: I understand your frustration, Daniel, but rushing into a decision without addressing the codicil could lead to far greater complications down the line; we owe it to your family to ensure we honor her wishes fully."
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha urges fact-finding before action",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_001",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_002",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Daniel: This is turning into a wild goose chase; we need to act decisively, not waste time on what-ifs that could keep us from selling the house and reclaiming our lives."
+      ],
+      "confidence": 0.99,
+      "source_name": "Daniel",
+      "target_name": "Daniel demands decisive action",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_002",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_003",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Asha: I understand your frustration, Daniel, but rushing into a decision without addressing the codicil could lead to far greater complications down the line; we owe it to your family to ensure we honor her wishes fully."
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha warns against ignoring codicil",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_003",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_009",
+      "source_type": "Location",
+      "relation": "part_of",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_009",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "（A heavy silence falls over the table as each of them grapples with the weight of their decisions.）",
+        "（A heavy silence lingers in the dining room.）"
+      ],
+      "confidence": 0.88,
+      "source_name": "dining room table",
+      "target_name": "dining room table",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_004",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_005",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Asha: Let's take a moment to reflect on what this house truly means for each of you; understanding that connection will guide us as we navigate the complexities ahead."
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha asks them to reflect on the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_006",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_006",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Daniel: We can reflect all we want, but at the end of the day, this house is just a liability; we need to think about our future, not get lost in sentimental attachments."
+      ],
+      "confidence": 0.98,
+      "source_name": "Daniel",
+      "target_name": "Daniel dismisses sentimental attachment",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_007",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_007",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Asha: I hear your concerns, Daniel, but we can't overlook the emotional and legal implications of this house; it's not just about the present—it's about the legacy you're choosing to carry forward."
+      ],
+      "confidence": 0.96,
+      "source_name": "Asha",
+      "target_name": "Asha frames house as legacy issue",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_008",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_008",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Daniel: This isn't about nostalgia or legacy—it's about survival; we can't let memories cloud our judgment when the stakes are this high."
+      ],
+      "confidence": 0.99,
+      "source_name": "Daniel",
+      "target_name": "Daniel frames issue as survival",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_009",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_009",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Lucia: \"Survival without our mother's love and memories feels empty, Daniel; this house is the last piece of her, and I can't just let it go without understanding her true intentions.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia",
+      "target_name": "Lucia defends mother's memory",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_010",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_010",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Rosa: \"Lucia, you’re right; this house holds more"
+      ],
+      "confidence": 0.9,
+      "source_name": "Rosa",
+      "target_name": "Rosa agrees with Lucia",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_011",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_009",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "tial we gather all the facts before moving forward.",
+        "（A heavy silence falls over the table as each of them grapples with the weight of their decisions.）"
+      ],
+      "confidence": 0.62,
+      "source_name": "Asha urges fact-finding before action",
+      "target_name": "dining room table",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_012",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_009",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Daniel: This is turning into a wild goose chase; we need to act decisively, not waste time on what-ifs that could keep us from selling the house and reclaiming our lives.",
+        "（A heavy silence falls over the table as each of them grapples with the weight of their decisions.）"
+      ],
+      "confidence": 0.62,
+      "source_name": "Daniel demands decisive action",
+      "target_name": "dining room table",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_013",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_009",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Asha: I understand your frustration, Daniel, but rushing into a decision without addressing the codicil could lead to far greater complications down the line; we owe it to your family to ensure we honor her wishes fully.",
+        "（A heavy silence falls over the table as each of them grapples with the weight of their decisions.）"
+      ],
+      "confidence": 0.62,
+      "source_name": "Asha warns against ignoring codicil",
+      "target_name": "dining room table",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_014",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_009",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "（A heavy silence falls over the table as each of them grapples with the weight of their decisions.）",
+        "（A heavy silence lingers in the dining room.）"
+      ],
+      "confidence": 0.99,
+      "source_name": "Silence falls over the table",
+      "target_name": "dining room table",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_015",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_009",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Asha: Let's take a moment to reflect on what this house truly means for each of you; understanding that connection will guide us as we navigate the complexities ahead."
+      ],
+      "confidence": 0.7,
+      "source_name": "Asha asks them to reflect on the house",
+      "target_name": "dining room table",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_016",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_009",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Daniel: We can reflect all we want, but at the end of the day, this house is just a liability; we need to think about our future, not get lost in sentimental attachments."
+      ],
+      "confidence": 0.7,
+      "source_name": "Daniel dismisses sentimental attachment",
+      "target_name": "dining room table",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_017",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_009",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Asha: I hear your concerns, Daniel, but we can't overlook the emotional and legal implications of this house; it's not just about the present—it's about the legacy you're choosing to carry forward."
+      ],
+      "confidence": 0.7,
+      "source_name": "Asha frames house as legacy issue",
+      "target_name": "dining room table",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_018",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_009",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Daniel: This isn't about nostalgia or legacy—it's about survival; we can't let memories cloud our judgment when the stakes are this high."
+      ],
+      "confidence": 0.7,
+      "source_name": "Daniel frames issue as survival",
+      "target_name": "dining room table",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_019",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_009",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Lucia: \"Survival without our mother's love and memories feels empty, Daniel; this house is the last piece of her, and I can't just let it go without understanding her true intentions.\""
+      ],
+      "confidence": 0.7,
+      "source_name": "Lucia defends mother's memory",
+      "target_name": "dining room table",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_020",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_1_ev_010",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_009",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Rosa: \"Lucia, you’re right; this house holds more"
+      ],
+      "confidence": 0.7,
+      "source_name": "Rosa agrees with Lucia",
+      "target_name": "dining room table",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_021",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_005",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_007",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Daniel: This is turning into a wild goose chase; we need to act decisively, not waste time on what-ifs that could keep us from selling the house and reclaiming our lives.",
+        "Asha: I hear your concerns, Daniel, but we can't overlook the emotional and legal implications of this house; it's not just about the present—it's about the legacy you're choosing to carry forward."
+      ],
+      "confidence": 0.74,
+      "source_name": "the house",
+      "target_name": "decision-making concerns",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_022",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_006",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_007",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Asha: I understand your frustration, Daniel, but rushing into a decision without addressing the codicil could lead to far greater complications down the line; we owe it to your family to ensure we honor her wishes fully."
+      ],
+      "confidence": 0.72,
+      "source_name": "codicil",
+      "target_name": "decision-making concerns",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_023",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_008",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_008",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Asha: I understand your frustration, Daniel, but rushing into a decision without addressing the codicil could lead to far greater complications down the line; we owe it to your family to ensure we honor her wishes fully.",
+        "Lucia: \"Survival without our mother's love and memories feels empty, Daniel; this house is the last piece of her, and I can't just let it go without understanding her true intentions.\""
+      ],
+      "confidence": 0.5,
+      "source_name": "mother's wishes and memory",
+      "target_name": "mother's wishes and memory",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_024",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_003",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Asha: Let's take a moment to reflect on what this house truly means for each of you; understanding that connection will guide us as we navigate the complexities ahead.",
+        "Lucia: \"Survival without our mother's love and memories feels empty, Daniel; this house is the last piece of her, and I can't just let it go without understanding her true intentions.\""
+      ],
+      "confidence": 0.61,
+      "source_name": "Asha",
+      "target_name": "Lucia",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_025",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_003",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_004",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Lucia: \"Survival without our mother's love and memories feels empty, Daniel; this house is the last piece of her, and I can't just let it go without understanding her true intentions.\"",
+        "Rosa: \"Lucia, you’re right; this house holds more"
+      ],
+      "confidence": 0.93,
+      "source_name": "Lucia",
+      "target_name": "Rosa",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_026",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_002",
+      "source_type": "Character",
+      "relation": "hostility_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_1_ent_001",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_1",
+      "evidence": [
+        "Daniel: This is turning into a wild goose chase; we need to act decisively, not waste time on what-ifs that could keep us from selling the house and reclaiming our lives.",
+        "Asha: I understand your frustration, Daniel, but rushing into a decision without addressing the codicil could lead to far greater complications down the line; we owe it to your family to ensure we honor her wishes fully."
+      ],
+      "confidence": 0.66,
+      "source_name": "Daniel",
+      "target_name": "Asha",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_1_rel_027",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_001",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "\"I can't just let it go without understanding her true intentions.\"",
+        "Lucia: \"This isn't just a burden, Daniel; it's a sanctuary filled with our mother's love—selling it feels like erasing her from our lives, and I refuse to let that happen without knowing her true wishes.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "lucia insists on understanding mother's intentions",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_001",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_002",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "Rosa: \"Lucia, you’re right; this house holds more than just memories—it cradles our mother’s spirit and the love she poured into every corner.\""
+      ],
+      "confidence": 0.97,
+      "source_name": "Rosa",
+      "target_name": "rosa frames house as mother's spirit",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_002",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_003",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "Asha: I appreciate both of your perspectives, and it's clear that this house symbolizes much more than just a financial asset; it embodies the love and memories that shaped your family, and we must acknowledge that as we move forward."
+      ],
+      "confidence": 0.95,
+      "source_name": "Asha",
+      "target_name": "asha validates family perspectives",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_003",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_004",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "Daniel: \"We can acknowledge all the love and memories we want, but in the end, it's still just a house—one that’s draining us financially; we need to focus on what’s practical and stop romanticizing this burden.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Daniel",
+      "target_name": "daniel pushes practical sale",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_004",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_005",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "Lucia: \"This isn't just a burden, Daniel; it's a sanctuary filled with our mother's love—selling it feels like erasing her from our lives, and I refuse to let that happen without knowing her true wishes.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "lucia refuses to erase mother",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_005",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_006",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "Rosa: \"Daniel, I understand your concerns about practicality, but this house is woven into the fabric of our family; it’s where we laughed, cried, and found solace together—those moments can't just be dismissed as burdens.\""
+      ],
+      "confidence": 0.96,
+      "source_name": "Rosa",
+      "target_name": "rosa defends family memories",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_006",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_008",
+      "source_type": "Object",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_007",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "（As the doorbell rings, interrupting their moment.）"
+      ],
+      "confidence": 0.99,
+      "source_name": "doorbell",
+      "target_name": "doorbell interrupts discussion",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_007",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_008",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "Asha: Let's take a moment to breathe and gather ourselves; perhaps this interruption is an opportunity for us to gain further insight"
+      ],
+      "confidence": 0.94,
+      "source_name": "Asha",
+      "target_name": "asha urges the group to pause",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_008",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_007",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "（As they begin to share, the doorbell rings, interrupting their moment.）",
+        "（As the doorbell rings, a moment of hesitation falls over the dining room.）"
+      ],
+      "confidence": 0.72,
+      "source_name": "lucia insists on understanding mother's intentions",
+      "target_name": "dining room",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_009",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_007",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "（As they begin to share, the doorbell rings, interrupting their moment.）",
+        "（As the doorbell rings, a moment of hesitation falls over the dining room.）"
+      ],
+      "confidence": 0.72,
+      "source_name": "rosa frames house as mother's spirit",
+      "target_name": "dining room",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_010",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_007",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "（As they begin to share, the doorbell rings, interrupting their moment.）",
+        "（As the doorbell rings, a moment of hesitation falls over the dining room.）"
+      ],
+      "confidence": 0.72,
+      "source_name": "asha validates family perspectives",
+      "target_name": "dining room",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_011",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_007",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "（As they begin to share, the doorbell rings, interrupting their moment.）",
+        "（As the doorbell rings, a moment of hesitation falls over the dining room.）"
+      ],
+      "confidence": 0.72,
+      "source_name": "daniel pushes practical sale",
+      "target_name": "dining room",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_012",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_007",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "\"This isn't just a burden, Daniel; it's a sanctuary filled with our mother's love—selling it feels like erasing her from our lives\""
+      ],
+      "confidence": 0.7,
+      "source_name": "lucia refuses to erase mother",
+      "target_name": "dining room",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_013",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_007",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "\"this house is woven into the fabric of our family; it’s where we laughed, cried, and found solace together\""
+      ],
+      "confidence": 0.7,
+      "source_name": "rosa defends family memories",
+      "target_name": "dining room",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_014",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_007",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "（As the doorbell rings, a moment of hesitation falls over the dining room.）"
+      ],
+      "confidence": 0.99,
+      "source_name": "doorbell interrupts discussion",
+      "target_name": "dining room",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_015",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_2_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_007",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "Asha: Let's take a moment to breathe and gather ourselves; perhaps this interruption is an opportunity for us to gain further insight"
+      ],
+      "confidence": 0.68,
+      "source_name": "asha urges the group to pause",
+      "target_name": "dining room",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_016",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_005",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_005",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "this house"
+      ],
+      "confidence": 0.5,
+      "source_name": "the house",
+      "target_name": "the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_017",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_008",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_008",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "doorbell"
+      ],
+      "confidence": 0.4,
+      "source_name": "doorbell",
+      "target_name": "doorbell",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_018",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_006",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_006",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "family memory and practicality conflict"
+      ],
+      "confidence": 0.9,
+      "source_name": "family memory and practicality conflict",
+      "target_name": "family memory and practicality conflict",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_019",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_003",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "Rosa: \"Lucia, you’re right;\"",
+        "Rosa: \"Daniel, I understand your concerns about practicality\""
+      ],
+      "confidence": 0.84,
+      "source_name": "Lucia",
+      "target_name": "Rosa",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_020",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_004",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "Asha: I appreciate both of your perspectives"
+      ],
+      "confidence": 0.8,
+      "source_name": "Lucia",
+      "target_name": "Asha",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_021",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_002",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_004",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "Asha: I appreciate both of your perspectives"
+      ],
+      "confidence": 0.8,
+      "source_name": "Daniel",
+      "target_name": "Asha",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_022",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_003",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_004",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "Asha: I appreciate both of your perspectives"
+      ],
+      "confidence": 0.8,
+      "source_name": "Rosa",
+      "target_name": "Asha",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_023",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_005",
+      "source_type": "Object",
+      "relation": "located_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_2_ent_007",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_2",
+      "evidence": [
+        "this house",
+        "dining room"
+      ],
+      "confidence": 0.55,
+      "source_name": "the house",
+      "target_name": "dining room",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_2_rel_024",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_002",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Asha: Let's take a moment to breathe and gather ourselves; perhaps this interruption is an opportunity for us to gain further insight into what your mother truly envisioned for this home."
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha urges reflection",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_001",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_003",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Daniel: \"Insight? We need action, not more stories; every second we waste is another dollar lost—let's just get to the point.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Daniel",
+      "target_name": "Daniel demands immediate action",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_002",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_004",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Lucia: \"Daniel, please—maybe this is exactly what we need; a moment to reflect on Mom's dreams could guide us in honoring her wishes while making the right choice for our future.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Lucia defends reflection",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_003",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_005",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "（Rosa stands up and opens the door to reveal Miguel, an old family friend.）",
+        "（The doorbell rings, and Rosa opens the door to reveal Miguel, an old family friend.）"
+      ],
+      "confidence": 0.99,
+      "source_name": "Rosa",
+      "target_name": "Rosa opens door for Miguel",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_004",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_006",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Rosa: \"Lucia's right, Daniel; sometimes it's in the stories and memories that we find the clarity we need—let's see what our mother's spirit has to say through those who knew her best.\""
+      ],
+      "confidence": 0.9,
+      "source_name": "Rosa",
+      "target_name": "Rosa invokes mother's spirit",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_005",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_005",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_007",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "（The doorbell rings, and Rosa opens the door to reveal Miguel, an old family friend.）",
+        "Miguel: Hello, everyone! I hope I'm not interrupting anything too serious."
+      ],
+      "confidence": 0.96,
+      "source_name": "Miguel",
+      "target_name": "Miguel arrives unexpectedly",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_006",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_008",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Daniel: \"Well, Miguel, your timing couldn't be worse—this isn't exactly a social visit; we're trying to figure out what to do with the house, not reminisce about the past.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Daniel",
+      "target_name": "Daniel rebuffs Miguel",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_007",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_005",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_009",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Miguel: Ah, the house... so many memories. I remember the laughter and gatherings we had here. Your mother loved this place."
+      ],
+      "confidence": 0.98,
+      "source_name": "Miguel",
+      "target_name": "Miguel recalls family memories",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_008",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_010",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Lucia: \"Yes, Miguel, she poured her heart into this home; it was a sanctuary for all of us. I believe she wanted it to remain a place of love and connection, not just another asset to sell.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Lucia frames house as sanctuary",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_009",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_001",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "doorbell rings, a moment of hesitation falls over the dining room"
+      ],
+      "confidence": 0.9,
+      "source_name": "interrupting doorbell halts discussion",
+      "target_name": "the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_010",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_002",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "a moment of hesitation falls over the dining room",
+        "Asha: Let's take a moment to breathe and gather ourselves"
+      ],
+      "confidence": 0.86,
+      "source_name": "Asha urges reflection",
+      "target_name": "the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_011",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_003",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "in the dining room",
+        "Daniel: \"Insight? We need action, not more stories\""
+      ],
+      "confidence": 0.86,
+      "source_name": "Daniel demands immediate action",
+      "target_name": "the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_012",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_004",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Lucia: \"Daniel, please—maybe this is exactly what we need; a moment to reflect\""
+      ],
+      "confidence": 0.84,
+      "source_name": "Lucia defends reflection",
+      "target_name": "the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_013",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_005",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Rosa stands up and opens the door",
+        "the door"
+      ],
+      "confidence": 0.95,
+      "source_name": "Rosa opens door for Miguel",
+      "target_name": "the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_014",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_006",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Rosa: \"...let's see what our mother's spirit has to say\""
+      ],
+      "confidence": 0.72,
+      "source_name": "Rosa invokes mother's spirit",
+      "target_name": "the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_015",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_007",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Rosa opens the door to reveal Miguel",
+        "the dining room"
+      ],
+      "confidence": 0.9,
+      "source_name": "Miguel arrives unexpectedly",
+      "target_name": "the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_016",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_008",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Daniel: \"Well, Miguel, your timing couldn't be worse—this isn't exactly a social visit\""
+      ],
+      "confidence": 0.84,
+      "source_name": "Daniel rebuffs Miguel",
+      "target_name": "the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_017",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_009",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Miguel: Ah, the house... so many memories. I remember the laughter and gatherings we had here."
+      ],
+      "confidence": 0.95,
+      "source_name": "Miguel recalls family memories",
+      "target_name": "the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_018",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_010",
+      "source_type": "Event",
+      "relation": "occurs_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Lucia: \"Yes, Miguel, she poured her heart into this home; it was a sanctuary for all of us.\""
+      ],
+      "confidence": 0.96,
+      "source_name": "Lucia frames house as sanctuary",
+      "target_name": "the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_019",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_005",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_004",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Miguel, an old family friend"
+      ],
+      "confidence": 0.88,
+      "source_name": "Miguel",
+      "target_name": "Rosa",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_020",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_003",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_004",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "Lucia's right, Daniel"
+      ],
+      "confidence": 0.72,
+      "source_name": "Lucia",
+      "target_name": "Rosa",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_021",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_007",
+      "source_type": "Concept",
+      "relation": "located_at",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_006",
+      "target_type": "Location",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "evidence": [
+        "what your mother truly envisioned for this home",
+        "she poured her heart into this home"
+      ],
+      "confidence": 0.84,
+      "source_name": "mother's wishes and family memory",
+      "target_name": "the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_rel_022",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "synth_ev_ibsen20__2_doc_1_chunk_0_part_3_ev_001_ent_ibsen20__2_doc_1_chunk_0_part_3_ent_004",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_3_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_3_ev_001",
+      "target_type": "Event",
+      "evidence": [
+        "oorbell rings, a moment of hesitation falls over the dining room.）"
+      ],
+      "confidence": 0.6,
+      "source_name": "Rosa",
+      "target_name": "interrupting doorbell halts discussion",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_3_synth_ev_ibsen20__2_doc_1_chunk_0_part_3_ev_001_ent_ibsen20__2_doc_1_chunk_0_part_3_ent_004",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_3",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_001",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Lucia: \"Exactly, Miguel! This house isn't just bricks and mortar; it's a living testament to our mother's love.",
+        "I believe she wanted it to remain a place of love and connection, not just another asset to sell.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Lucia argues for preserving the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_001",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_002",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Daniel: \"That's all well and good, Lucia, but love and connection won't pay the bills—this house needs to be sold so we can move on with our lives.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Daniel",
+      "target_name": "Daniel demands the house be sold",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_002",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_003",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Rosa: \"Daniel, I see your point, but think about what our mother truly wanted; this house was her legacy, a testament to the love she nurtured here—it's worth protecting.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "Rosa urges protecting their mother's legacy",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_003",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_004",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Asha: I understand the urgency to act, Daniel, but we must also honor the emotional legacy tied to this house; perhaps Miguel’s presence can help us remember that there is value in both the memories and practical decisions we face."
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha calls for balancing memory and practicality",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_004",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_005",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_005",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Miguel: Your mother dreamed of a home filled with love. Let’s remember that as we discuss what to do."
+      ],
+      "confidence": 0.98,
+      "source_name": "Miguel",
+      "target_name": "Miguel reminds family of mother's dream",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_005",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_006",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Lucia: \"Exactly, Miguel! This house isn't just bricks and mortar; it's a living testament to our mother's love.",
+        "She envisioned it as a refuge for those who truly cherished it, not as a financial burden to be discarded.\""
+      ],
+      "confidence": 0.97,
+      "source_name": "Lucia",
+      "target_name": "Lucia intensifies defense of the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_006",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_007",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Daniel: \"Living testament or not, Lucia, we can't let nostalgia blind us to reality; if we don't act fast, this 'refuge' will become our financial ruin.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Daniel",
+      "target_name": "Daniel warns nostalgia will cause ruin",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_007",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_008",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Lucia: \"Daniel, it's not just about money—it's about honoring Mom's memory and the legacy she left behind; she wanted this house to be a home for those who truly valued it, not just a quick sale to the highest bidder.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Lucia",
+      "target_name": "Lucia rejects quick sale",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_008",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_009",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Rosa: \"Lucia speaks the truth; this house cradles our mother's spirit and all"
+      ],
+      "confidence": 0.95,
+      "source_name": "Rosa",
+      "target_name": "Rosa supports Lucia's view",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_009",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_006",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_001",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "I believe she wanted it to remain a place of love and connection, not just another asset to sell."
+      ],
+      "confidence": 0.9,
+      "source_name": "the house",
+      "target_name": "Lucia argues for preserving the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_010",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_006",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_002",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "this house needs to be sold so we can move on with our lives."
+      ],
+      "confidence": 0.99,
+      "source_name": "the house",
+      "target_name": "Daniel demands the house be sold",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_011",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_006",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_003",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "this house was her legacy, a testament to the love she nurtured here—it's worth protecting."
+      ],
+      "confidence": 0.98,
+      "source_name": "the house",
+      "target_name": "Rosa urges protecting their mother's legacy",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_012",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_007",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_004",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "there is value in both the memories and practical decisions we face."
+      ],
+      "confidence": 0.88,
+      "source_name": "emotional and practical considerations",
+      "target_name": "Asha calls for balancing memory and practicality",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_013",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_008",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_005",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Your mother dreamed of a home filled with love."
+      ],
+      "confidence": 0.9,
+      "source_name": "their mother's legacy",
+      "target_name": "Miguel reminds family of mother's dream",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_014",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_006",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_006",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "This house isn't just bricks and mortar; it's a living testament to our mother's love."
+      ],
+      "confidence": 0.96,
+      "source_name": "the house",
+      "target_name": "Lucia intensifies defense of the house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_015",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_006",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_007",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "if we don't act fast, this 'refuge' will become our financial ruin."
+      ],
+      "confidence": 0.95,
+      "source_name": "the house",
+      "target_name": "Daniel warns nostalgia will cause ruin",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_016",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_006",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_008",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "not just a quick sale to the highest bidder."
+      ],
+      "confidence": 0.97,
+      "source_name": "the house",
+      "target_name": "Lucia rejects quick sale",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_017",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_018",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_008",
+      "source_type": "Concept",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_4_ev_009",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Lucia speaks the truth; this house cradles our mother's spirit"
+      ],
+      "confidence": 0.86,
+      "source_name": "their mother's legacy",
+      "target_name": "Rosa supports Lucia's view",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_018",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_003",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Rosa: \"Lucia speaks the truth; ...\""
+      ],
+      "confidence": 0.84,
+      "source_name": "Lucia",
+      "target_name": "Rosa",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_019",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_005",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Exactly, Miguel!"
+      ],
+      "confidence": 0.8,
+      "source_name": "Lucia",
+      "target_name": "Miguel",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_020",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_001",
+      "source_type": "Character",
+      "relation": "hostility_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_002",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Daniel, it's not just about money—it's about honoring Mom's memory"
+      ],
+      "confidence": 0.78,
+      "source_name": "Lucia",
+      "target_name": "Daniel",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_021",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_003",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_001",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Lucia speaks the truth;"
+      ],
+      "confidence": 0.9,
+      "source_name": "Rosa",
+      "target_name": "Lucia",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_022",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_002",
+      "source_type": "Character",
+      "relation": "hostility_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_001",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Daniel: \"That's all well and good, Lucia, but ... this house needs to be sold\""
+      ],
+      "confidence": 0.86,
+      "source_name": "Daniel",
+      "target_name": "Lucia",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_023",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_003",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_002",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "Daniel, I see your point, but think about what our mother truly wanted"
+      ],
+      "confidence": 0.72,
+      "source_name": "Rosa",
+      "target_name": "Daniel",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_024",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_006",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_4_ent_008",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_4",
+      "evidence": [
+        "this house was her legacy"
+      ],
+      "confidence": 0.83,
+      "source_name": "the house",
+      "target_name": "their mother's legacy",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_4_rel_025",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_001",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_5",
+      "evidence": [
+        "Lucia: \"...not just a quick sale to the highest bidder.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Lucia argues against quick sale",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_5_rel_001",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_5_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_002",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_5",
+      "evidence": [
+        "Rosa: \"Lucia speaks the truth; this house cradles our mother's spirit and all her dreams—it deserves more than to be treated like a mere asset, and we owe it to her to protect that legacy.\"",
+        "Rosa: \"Perhaps it's time we stop viewing this house as a burden and start seeing it as the heart of our family; our mother’s love is woven into these walls, and we must honor that before making any decisions.\""
+      ],
+      "confidence": 0.97,
+      "source_name": "Rosa",
+      "target_name": "Rosa defends family legacy",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_5_rel_002",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_5_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_003",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_5",
+      "evidence": [
+        "Asha: Let's take a moment to reflect on what this house truly represents for each of you; perhaps sharing a cherished memory of your mother in this space can guide us toward honoring her intentions while navigating the practical decisions ahead.",
+        "Asha: I know it’s difficult, Daniel, but acknowledging the emotional weight of this home might help us find a path that respects both your need for resolution and your mother’s wishes."
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha urges reflection on house meaning",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_5_rel_003",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_5_ent_004",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_004",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_5",
+      "evidence": [
+        "Daniel: \"Honoring her love is one thing, but we can't afford to get lost in sentiment; we need to make decisions that won't jeopardize our futures—this house has become a ticking time bomb.\""
+      ],
+      "confidence": 0.96,
+      "source_name": "Daniel",
+      "target_name": "Daniel prioritizes practical resolution",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_5_rel_004",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_5_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_005",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_5",
+      "evidence": [
+        "Lucia: \"Daniel, can’t you see? This house is our history, our mother’s heart—it’s not just a ticking time bomb; it’s the very foundation of who we are, and we owe it to her to uncover her true intentions before we even think about selling.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Lucia",
+      "target_name": "Lucia demands uncovering mother's intentions",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_5_rel_005",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_5_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_006",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_5",
+      "evidence": [
+        "Asha: I understand your urgency, Daniel, but I urge you to consider that uncovering our mother's true intentions co"
+      ],
+      "confidence": 0.93,
+      "source_name": "Asha",
+      "target_name": "Asha begins to caution Daniel",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_5_rel_006",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_5_ent_006",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_5_ent_001",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_5",
+      "evidence": [
+        "our mother's spirit",
+        "our mother’s wishes"
+      ],
+      "confidence": 0.88,
+      "source_name": "mother",
+      "target_name": "Lucia",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_5_rel_008",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_5_ent_006",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_5_ent_002",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_5",
+      "evidence": [
+        "our mother's spirit",
+        "our mother’s wishes"
+      ],
+      "confidence": 0.88,
+      "source_name": "mother",
+      "target_name": "Rosa",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_5_rel_009",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_5_ent_006",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_5_ent_003",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_5",
+      "evidence": [
+        "our mother's spirit",
+        "our mother’s wishes"
+      ],
+      "confidence": 0.88,
+      "source_name": "mother",
+      "target_name": "Asha",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_5_rel_010",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_5_ent_006",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_5_ent_004",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_5",
+      "evidence": [
+        "our mother's spirit",
+        "our mother’s wishes"
+      ],
+      "confidence": 0.88,
+      "source_name": "mother",
+      "target_name": "Daniel",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_5_rel_011",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_001",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_002",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_5",
+      "evidence": [
+        "Lucia: \"...not just a quick sale to the highest bidder.\"",
+        "Rosa: \"Lucia speaks the truth; this house cradles our mother's spirit...\""
+      ],
+      "confidence": 0.62,
+      "source_name": "Lucia argues against quick sale",
+      "target_name": "Rosa defends family legacy",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_5_rel_012",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_002",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_003",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_5",
+      "evidence": [
+        "Rosa: \"Lucia speaks the truth...\"",
+        "Asha: Let's take a moment to reflect..."
+      ],
+      "confidence": 0.61,
+      "source_name": "Rosa defends family legacy",
+      "target_name": "Asha urges reflection on house meaning",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_5_rel_013",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_003",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_004",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_5",
+      "evidence": [
+        "Asha: Let's take a moment to reflect...",
+        "Daniel: \"Honoring her love is one thing, but we can't afford to get lost in sentiment...\""
+      ],
+      "confidence": 0.6,
+      "source_name": "Asha urges reflection on house meaning",
+      "target_name": "Daniel prioritizes practical resolution",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_5_rel_014",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_004",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_005",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_5",
+      "evidence": [
+        "Daniel: \"...we need to make decisions that won't jeopardize our futures...\"",
+        "Lucia: \"...we owe it to her to uncover her true intentions before we even think about selling.\""
+      ],
+      "confidence": 0.59,
+      "source_name": "Daniel prioritizes practical resolution",
+      "target_name": "Lucia demands uncovering mother's intentions",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_5_rel_015",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_016",
+      "source_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_005",
+      "source_type": "Event",
+      "relation": "precedes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_5_ev_006",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_5",
+      "evidence": [
+        "Lucia: \"...we owe it to her to uncover her true intentions...\"",
+        "Asha: I understand your urgency, Daniel, but I urge you to consider that uncovering our mother's true intentions..."
+      ],
+      "confidence": 0.58,
+      "source_name": "Lucia demands uncovering mother's intentions",
+      "target_name": "Asha begins to caution Daniel",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_5_rel_016",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_004",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Daniel: \"Look, I get that this house holds memories, but we can't let nostalgia blind us to the reality—we need to sell it and move on before it drags us down.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Daniel",
+      "target_name": "Daniel pushes to sell house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_001",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_001",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Asha: I understand your urgency, Daniel, but I urge you to consider that uncovering our mother's true intentions could provide clarity and peace of mind for all of you; it’s essential we approach this with both our hearts and our heads."
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "urge uncovering mother's intentions",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_002",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_003",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Rosa: \"I've seen how our mother cherished this home, and I know she had plans for it that extended beyond mere finances; we must dig deeper to honor her wishes, not just rush into a sale.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "Rosa defends honoring mother's wishes",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_003",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_004",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_005",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Asha: \"Let's take a moment to gather those documents, as they may hold the key to understanding your mother's true intentions; it's crucial we honor her legacy while navigating these complexities together.\""
+      ],
+      "confidence": 0.99,
+      "source_name": "Asha",
+      "target_name": "Asha proposes gathering documents",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_004",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_003",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_006",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "（As they prepare to leave the dining room, a fragile unity forms among the siblings, each holding onto hope that the truth will lead to a resolution honoring their mother’s memory.）"
+      ],
+      "confidence": 0.72,
+      "source_name": "Rosa",
+      "target_name": "siblings leave dining room together",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_005",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_008",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Asha: \"Rosa, your insight is invaluable; let's arrange a meeting with the witness who can shed light on that promise, ensuring we fully understand your mother's vision before"
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha plans witness meeting",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_006",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_004",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_001",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Asha: I understand your urgency, Daniel, but I urge you to consider that uncovering our mother's true intentions could provide clarity and peace of mind for all of you"
+      ],
+      "confidence": 0.74,
+      "source_name": "mother",
+      "target_name": "urge uncovering mother's intentions",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_007",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_004",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_003",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Rosa: \"I've seen how our mother cherished this home, and I know she had plans for it that extended beyond mere finances; we must dig deeper to honor her wishes, not just rush into a sale.\""
+      ],
+      "confidence": 0.73,
+      "source_name": "mother",
+      "target_name": "Rosa defends honoring mother's wishes",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_008",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_005",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_004",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Daniel: \"Look, I get that this house holds memories, but we can't let nostalgia blind us to the reality—we need to sell it and move on before it drags us down.\""
+      ],
+      "confidence": 0.95,
+      "source_name": "house",
+      "target_name": "Daniel pushes to sell house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_009",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_006",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_005",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Asha: \"Let's take a moment to gather those documents, as they may hold the key to understanding your mother's true intentions"
+      ],
+      "confidence": 0.99,
+      "source_name": "documents",
+      "target_name": "Asha proposes gathering documents",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_010",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_007",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_008",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Asha: \"Rosa, your insight is invaluable; let's arrange a meeting with the witness who can shed light on that promise"
+      ],
+      "confidence": 0.9,
+      "source_name": "witness",
+      "target_name": "Asha plans witness meeting",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_011",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_002",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Asha: I understand your urgency, Daniel, but I urge you to consider that uncovering our mother's true intentions could provide clarity and peace of mind for all of you; it’s essential we approach this with both our hearts and our heads."
+      ],
+      "confidence": 0.97,
+      "source_name": "Asha",
+      "target_name": "Asha counsels patience and clarity",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_012",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_013",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_003",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_007",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Rosa: \"I remember the way she would sort through those papers, her hands trembling with urgency; it was clear to me then that this house held more than just memories for her—it was a promise, a vision for our family that we must uncover before we decide its fate.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "Rosa recalls mother's papers",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_013",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_014",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_004",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Daniel: \"Look, I get that this house holds memories, but we can't let nostalgia blind us to the reality—we need to sell it and move on before it drags us down.\""
+      ],
+      "confidence": 0.96,
+      "source_name": "Daniel",
+      "target_name": "Daniel pushes to sell house",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_014",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_015",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_004",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_007",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Rosa: \"I remember the way she would sort through those papers, her hands trembling with urgency; it was clear to me then that this house held more than just memories for her—it was a promise, a vision for our family that we must uncover before we decide its fate.\""
+      ],
+      "confidence": 0.95,
+      "source_name": "mother",
+      "target_name": "Rosa recalls mother's papers",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_015",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_017",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_003",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_003",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Rosa: \"I've seen how our mother cherished this home, and I know she had plans for it that extended beyond mere finances; we must dig deeper to honor her wishes, not just rush into a sale.\""
+      ],
+      "confidence": 0.88,
+      "source_name": "Rosa",
+      "target_name": "Rosa defends honoring mother's wishes",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_017",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_019",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_004",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_001",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Asha: I understand your urgency, Daniel, but I urge you to consider that uncovering our mother's true intentions could provide clarity and peace of mind for all of you"
+      ],
+      "confidence": 0.7,
+      "source_name": "mother",
+      "target_name": "urge uncovering mother's intentions",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_019",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_020",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_004",
+      "source_type": "Character",
+      "relation": "experiences",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_6_ev_003",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Rosa: \"I've seen how our mother cherished this home, and I know she had plans for it that extended beyond mere finances; we must dig deeper to honor her wishes, not just rush into a sale.\""
+      ],
+      "confidence": 0.7,
+      "source_name": "mother",
+      "target_name": "Rosa defends honoring mother's wishes",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_020",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_021",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_002",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Asha: I understand your urgency, Daniel, but I urge you to consider..."
+      ],
+      "confidence": 0.62,
+      "source_name": "Daniel",
+      "target_name": "Asha",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_021",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_022",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_003",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Rosa: \"I've seen how our mother cherished this home...\""
+      ],
+      "confidence": 0.62,
+      "source_name": "Daniel",
+      "target_name": "Rosa",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_022",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_023",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_002",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_003",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "Asha: \"Rosa, your insight is invaluable; let's arrange a meeting with the witness...\""
+      ],
+      "confidence": 0.86,
+      "source_name": "Asha",
+      "target_name": "Rosa",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_023",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_024",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_004",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_001",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "\"our mother\"",
+        "Daniel"
+      ],
+      "confidence": 0.99,
+      "source_name": "mother",
+      "target_name": "Daniel",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_024",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_025",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_004",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_002",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "\"our mother\"",
+        "Asha"
+      ],
+      "confidence": 0.99,
+      "source_name": "mother",
+      "target_name": "Asha",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_025",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_026",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_004",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_003",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "\"our mother\"",
+        "Rosa"
+      ],
+      "confidence": 0.99,
+      "source_name": "mother",
+      "target_name": "Rosa",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_026",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_027",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_005",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_011",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "\"this house holds memories\"",
+        "\"honor her legacy\""
+      ],
+      "confidence": 0.55,
+      "source_name": "house",
+      "target_name": "legacy",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_027",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_028",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_006",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_012",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "\"gather those documents\"",
+        "\"understanding your mother's true intentions\""
+      ],
+      "confidence": 0.52,
+      "source_name": "documents",
+      "target_name": "truth",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_028",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_029",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_008",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_013",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "\"we need to sell it and move on\""
+      ],
+      "confidence": 0.5,
+      "source_name": "sale",
+      "target_name": "promise",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_029",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_030",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_009",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_013",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "\"nostalgia blind us\""
+      ],
+      "confidence": 0.5,
+      "source_name": "nostalgia",
+      "target_name": "promise",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_030",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_031",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_010",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_012",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "\"clarity and peace of mind\""
+      ],
+      "confidence": 0.5,
+      "source_name": "clarity and peace of mind",
+      "target_name": "truth",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_031",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_032",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_011",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_013",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "\"honor her legacy\""
+      ],
+      "confidence": 0.5,
+      "source_name": "legacy",
+      "target_name": "promise",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_032",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_033",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_012",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_014",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "\"truth\"",
+        "\"vision\""
+      ],
+      "confidence": 0.5,
+      "source_name": "truth",
+      "target_name": "vision",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_033",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_034",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_013",
+      "source_type": "Concept",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_6_ent_014",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_6",
+      "evidence": [
+        "\"promise, a vision for our family\""
+      ],
+      "confidence": 0.5,
+      "source_name": "promise",
+      "target_name": "vision",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_6_rel_034",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_001",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_7_ev_001",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_7",
+      "evidence": [
+        "Asha: \"Rosa, your insight is invaluable; let's arrange a meeting with the witness who can shed light on that promise, ensuring we fully understand your mother's vision before making any final decisions.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Asha",
+      "target_name": "Asha urges witness meeting",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_7_rel_001",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_002",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_7_ev_001",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_7",
+      "evidence": [
+        "Asha: \"Rosa, your insight is invaluable; let's arrange a meeting with the witness who can shed light on that promise, ensuring we fully understand your mother's vision before making any final decisions.\""
+      ],
+      "confidence": 0.72,
+      "source_name": "Rosa",
+      "target_name": "Asha urges witness meeting",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_7_rel_002",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_003",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_7_ev_002",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_7",
+      "evidence": [
+        "Rosa: \"Yes, we must seek that witness; our mother's intentions deserve to be honored, and I believe she entrusted us with the responsibility to uncover the truth hidden within those documents.\""
+      ],
+      "confidence": 0.98,
+      "source_name": "Rosa",
+      "target_name": "Rosa agrees to seek witness",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_7_rel_003",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_005",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_002",
+      "source_type": "Character",
+      "relation": "performs",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_7_ev_003",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_7",
+      "evidence": [
+        "Rosa: \"Yes, we must seek that witness; our mother's intentions deserve to be honored, and I believe she entrusted us with the responsibility to uncover the truth hidden within those documents.\""
+      ],
+      "confidence": 0.97,
+      "source_name": "Rosa",
+      "target_name": "Rosa frames documents as hidden truth",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_7_rel_005",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_006",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_005",
+      "source_type": "Object",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_7_ev_003",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_7",
+      "evidence": [
+        "Rosa: \"Yes, we must seek that witness; our mother's intentions deserve to be honored, and I believe she entrusted us with the responsibility to uncover the truth hidden within those documents.\""
+      ],
+      "confidence": 0.76,
+      "source_name": "documents",
+      "target_name": "Rosa frames documents as hidden truth",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_7_rel_006",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_007",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_003",
+      "source_type": "Character",
+      "relation": "undergoes",
+      "target_id": "ev_ibsen20__2_doc_1_chunk_0_part_7_ev_001",
+      "target_type": "Event",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_7",
+      "evidence": [
+        "Asha: \"...let's arrange a meeting with the witness who can shed light on that promise...\"",
+        "Rosa: \"Yes, we must seek that witness...\""
+      ],
+      "confidence": 0.67,
+      "source_name": "witness",
+      "target_name": "Asha urges witness meeting",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_7_rel_007",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_008",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_004",
+      "source_type": "Character",
+      "relation": "kinship_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_002",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_7",
+      "evidence": [
+        "Asha: \"...your mother's vision...\"",
+        "Rosa: \"...our mother's intentions...\""
+      ],
+      "confidence": 0.99,
+      "source_name": "mother",
+      "target_name": "Rosa",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_7_rel_008",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_009",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_001",
+      "source_type": "Character",
+      "relation": "affinity_with",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_002",
+      "target_type": "Character",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_7",
+      "evidence": [
+        "Asha: \"Rosa, your insight is invaluable...\"",
+        "Rosa: \"Yes, we must seek that witness...\""
+      ],
+      "confidence": 0.86,
+      "source_name": "Asha",
+      "target_name": "Rosa",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_7_rel_009",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_010",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_006",
+      "source_type": "Concept",
+      "relation": "part_of",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_008",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_7",
+      "evidence": [
+        "Rosa: \"...our mother's intentions deserve to be honored...\""
+      ],
+      "confidence": 0.55,
+      "source_name": "promise",
+      "target_name": "intentions",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_7_rel_010",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_011",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_007",
+      "source_type": "Concept",
+      "relation": "part_of",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_009",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_7",
+      "evidence": [
+        "Asha: \"...your mother's vision before making any final decisions.\""
+      ],
+      "confidence": 0.52,
+      "source_name": "vision",
+      "target_name": "truth",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_7_rel_011",
+      "movie_id": "ibsen20_pages__scene_2"
+    },
+    {
+      "temp_id": "rel_012",
+      "source_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_005",
+      "source_type": "Object",
+      "relation": "is_a",
+      "target_id": "ent_ibsen20__2_doc_1_chunk_0_part_7_ent_009",
+      "target_type": "Concept",
+      "scene_id": "2",
+      "chunk_id": "doc_1_chunk_0_part_7",
+      "evidence": [
+        "Rosa: \"...the truth hidden within those documents.\""
+      ],
+      "confidence": 0.41,
+      "source_name": "documents",
+      "target_name": "truth",
+      "id": "rel_ibsen20__2_doc_1_chunk_0_part_7_rel_012",
+      "movie_id": "ibsen20_pages__scene_2"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Lucia": {
+    "kinship": "daughter of mother",
+    "has_siblings": "Daniel and Rosa",
+    "holds": "letter"
+  },
+  "Daniel": {
+    "kinship": "son of mother",
+    "has_siblings": "Lucia and Rosa"
+  },
+  "Rosa": {
+    "kinship": "daughter of mother",
+    "has_siblings": "Lucia and Daniel"
+  },
+  "Asha": {
+    "role": "mediator"
+  },
+  "our mother": {
+    "life_status": "dead",
+    "kinship": "mother of Lucia Daniel Rosa"
+  },
+  "this house": {
+    "type": "family house"
+  },
+  "letter": {
+    "type": "letter about wishes",
+    "origin_of_object": "found by Lucia"
+  },
+  "codicil": {
+    "type": "missing codicil"
+  },
+  "keys": {
+    "type": "important keys"
+  }
+}

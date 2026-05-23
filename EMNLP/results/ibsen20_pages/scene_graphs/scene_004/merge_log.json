@@ -1,0 +1,646 @@
+[
+  {
+    "type": "exact_merge",
+    "key": "daniel rejects sentimentality",
+    "merged_ids": [
+      "ev_ibsen20__4_doc_3_chunk_0_part_3_ev_007",
+      "ev_ibsen20__4_doc_3_chunk_0_part_4_ev_001"
+    ]
+  },
+  {
+    "cluster": [
+      "ev_ibsen20__4_doc_3_chunk_0_part_0_ev_004",
+      "ev_ibsen20__4_doc_3_chunk_0_part_0_ev_005",
+      "ev_ibsen20__4_doc_3_chunk_0_part_0_ev_006",
+      "ev_ibsen20__4_doc_3_chunk_0_part_0_ev_007",
+      "ev_ibsen20__4_doc_3_chunk_0_part_1_ev_005",
+      "ev_ibsen20__4_doc_3_chunk_0_part_1_ev_006",
+      "ev_ibsen20__4_doc_3_chunk_0_part_2_ev_001",
+      "ev_ibsen20__4_doc_3_chunk_0_part_2_ev_003",
+      "ev_ibsen20__4_doc_3_chunk_0_part_2_ev_005",
+      "ev_ibsen20__4_doc_3_chunk_0_part_2_ev_006",
+      "ev_ibsen20__4_doc_3_chunk_0_part_3_ev_001",
+      "ev_ibsen20__4_doc_3_chunk_0_part_3_ev_002",
+      "ev_ibsen20__4_doc_3_chunk_0_part_3_ev_004",
+      "ev_ibsen20__4_doc_3_chunk_0_part_3_ev_005",
+      "ev_ibsen20__4_doc_3_chunk_0_part_3_ev_006",
+      "ev_ibsen20__4_doc_3_chunk_0_part_3_ev_007",
+      "ev_ibsen20__4_doc_3_chunk_0_part_4_ev_002",
+      "ev_ibsen20__4_doc_3_chunk_0_part_4_ev_004",
+      "ev_ibsen20__4_doc_3_chunk_0_part_4_ev_005",
+      "ev_ibsen20__4_doc_3_chunk_0_part_4_ev_006",
+      "ev_ibsen20__4_doc_3_chunk_0_part_4_ev_007",
+      "ev_ibsen20__4_doc_3_chunk_0_part_5_ev_001",
+      "ev_ibsen20__4_doc_3_chunk_0_part_5_ev_003",
+      "ev_ibsen20__4_doc_3_chunk_0_part_5_ev_004",
+      "ev_ibsen20__4_doc_3_chunk_0_part_5_ev_005",
+      "ev_ibsen20__4_doc_3_chunk_0_part_5_ev_006",
+      "ev_ibsen20__4_doc_3_chunk_0_part_6_ev_003",
+      "ev_ibsen20__4_doc_3_chunk_0_part_6_ev_004",
+      "ev_ibsen20__4_doc_3_chunk_0_part_6_ev_005",
+      "ev_ibsen20__4_doc_3_chunk_0_part_6_ev_007",
+      "ev_ibsen20__4_doc_3_chunk_0_part_7_ev_003",
+      "ev_ibsen20__4_doc_3_chunk_0_part_7_ev_004",
+      "ev_ibsen20__4_doc_3_chunk_0_part_7_ev_005",
+      "ev_ibsen20__4_doc_3_chunk_0_part_7_ev_006",
+      "ev_ibsen20__4_doc_3_chunk_0_part_7_ev_007",
+      "ev_ibsen20__4_doc_3_chunk_0_part_7_ev_008",
+      "ev_ibsen20__4_doc_3_chunk_0_part_8_ev_001",
+      "ev_ibsen20__4_doc_3_chunk_0_part_8_ev_002",
+      "ev_ibsen20__4_doc_3_chunk_0_part_8_ev_003",
+      "ev_ibsen20__4_doc_3_chunk_0_part_8_ev_005",
+      "ev_ibsen20__4_doc_3_chunk_0_part_8_ev_006",
+      "ev_ibsen20__4_doc_3_chunk_0_part_8_ev_007",
+      "ev_ibsen20__4_doc_3_chunk_0_part_9_ev_001",
+      "ev_ibsen20__4_doc_3_chunk_0_part_9_ev_002",
+      "ev_ibsen20__4_doc_3_chunk_0_part_9_ev_003",
+      "ev_ibsen20__4_doc_3_chunk_0_part_9_ev_004",
+      "ev_ibsen20__4_doc_3_chunk_0_part_9_ev_005"
+    ],
+    "max_similarity": 0.6846633417705477,
+    "decision": {
+      "merges": [
+        {
+          "member_indices": [
+            1,
+            4,
+            9,
+            17,
+            20,
+            27,
+            29,
+            32,
+            33,
+            35,
+            37,
+            40,
+            44,
+            45,
+            46
+          ],
+          "canonical_name": "Asha urges careful consideration",
+          "aliases": [
+            "Asha proposes honoring legacy and stability",
+            "Asha proposes meeting the witness",
+            "Asha reframes the inheritance as family legacy",
+            "Asha urges honoring the mother's legacy",
+            "Asha warns against rushing the decision",
+            "Asha insists on reflecting before deciding",
+            "Asha warns rushed choice could damage family legacy",
+            "Asha proposes examining missing codicil",
+            "Asha calls for clear-minded decision",
+            "Asha urges clear-minded decision-making",
+            "Asha urges reflection on their mother's legacy",
+            "pause house sale decision",
+            "search for missing codicil",
+            "affirm family unity"
+          ],
+          "justification": "These are all Asha speaking in scene 4 with the same narrative function: urging the family to slow down, reflect, preserve the mother's legacy, and investigate the codicil/witness before deciding on the house. The wording varies, but the identity and role are consistent."
+        },
+        {
+          "member_indices": [
+            2,
+            5,
+            6,
+            11,
+            15,
+            16,
+            18,
+            22,
+            24,
+            26,
+            30,
+            34,
+            36,
+            39
+          ],
+          "canonical_name": "Daniel rejects letter as irrelevant",
+          "aliases": [
+            "Daniel insists on financial urgency",
+            "Daniel insists on practical urgency",
+            "Daniel agrees reluctantly",
+            "Daniel rejects sentimentality",
+            "Daniel reveals financial desperation",
+            "Daniel presses urgency over sentiment",
+            "Daniel demands practical solution",
+            "Daniel insists on selling house",
+            "Daniel demands selling the house",
+            "Daniel demands immediate action",
+            "Daniel insists on confronting reality",
+            "Daniel expresses regret over his situation",
+            "Daniel prioritizes financial survival over memory"
+          ],
+          "justification": "These mentions all refer to Daniel in scene 4 and depict the same ongoing stance: he is under financial pressure, rejects sentimentality, and pushes for immediate practical action, often specifically selling the house. The variations are rhetorical shifts within the same character's dialogue, not separate entities."
+        },
+        {
+          "member_indices": [
+            3,
+            7,
+            8,
+            12,
+            13,
+            14,
+            19,
+            23,
+            25,
+            28,
+            31,
+            38,
+            41,
+            42,
+            43
+          ],
+          "canonical_name": "Rosa defends mother's legacy",
+          "aliases": [
+            "Rosa proposes uncovering the truth first",
+            "Rosa reinforces preserving the house",
+            "Rosa reinforces family legacy",
+            "Rosa recalls mother's mention of keys",
+            "Rosa stresses mother's urgency",
+            "Rosa proposes working together",
+            "rosa proposes balancing legacy and fear",
+            "rosa urges uncovering mother's intentions",
+            "Rosa pleads for respect for their mother's legacy",
+            "Rosa appeals to family connection",
+            "Rosa reframes the house as a repository of memories",
+            "Rosa reassures Daniel about their mother's love",
+            "urge patience before selling house",
+            "seek mother's true intentions"
+          ],
+          "justification": "These are all Rosa in scene 4, consistently advocating that the family preserve the house, uncover their mother's intentions, and honor the family's legacy and memories while balancing Daniel's concerns. The different phrasings describe the same character and narrative role."
+        },
+        {
+          "member_indices": [
+            0
+          ],
+          "canonical_name": "room falls silent",
+          "aliases": [],
+          "justification": "This is a distinct event beat describing the room's reaction to Lucia's revelation, not the same as any character speech event."
+        }
+      ],
+      "unmerged": []
+    }
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_6_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_6_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_8_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "lucia",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_6_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_9_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_8_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_001"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_6_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_6_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_7_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_8_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_6_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_7_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "asha",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_8_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_9_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_6_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_7_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_003"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_6_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_7_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_6_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_8_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_7_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_6_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "daniel",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_8_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_7_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_001",
+      "ent_ibsen20__4_doc_3_chunk_0_part_6_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_9_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_002"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_6_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_7_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_6_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "rosa",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_7_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_002",
+      "ent_ibsen20__4_doc_3_chunk_0_part_6_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_8_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_003",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "mother",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "mother",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_005",
+      "ent_ibsen20__4_doc_3_chunk_0_part_8_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "mother",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_9_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_005",
+      "ent_ibsen20__4_doc_3_chunk_0_part_8_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "the house",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_8_ent_006",
+      "ent_ibsen20__4_doc_3_chunk_0_part_0_ent_006"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "the house",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_6_ent_005",
+      "ent_ibsen20__4_doc_3_chunk_0_part_1_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "house",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_006",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "house",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_005",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_006",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "house",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_005",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_006",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_005",
+      "ent_ibsen20__4_doc_3_chunk_0_part_7_ent_004"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "house",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_005",
+      "ent_ibsen20__4_doc_3_chunk_0_part_7_ent_004",
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_005",
+      "ent_ibsen20__4_doc_3_chunk_0_part_2_ent_006",
+      "ent_ibsen20__4_doc_3_chunk_0_part_9_ent_005"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "missing codicil",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_9_ent_006",
+      "ent_ibsen20__4_doc_3_chunk_0_part_7_ent_008"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "mother s legacy",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_011",
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "mother s legacy",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_011",
+      "ent_ibsen20__4_doc_3_chunk_0_part_8_ent_015",
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_007"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "family",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_012",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_013"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "family",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_9_ent_007",
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_012",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_013"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "mother s wishes",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_014",
+      "ent_ibsen20__4_doc_3_chunk_0_part_8_ent_009"
+    ]
+  },
+  {
+    "type": "exact_merge",
+    "key": "mother s memory",
+    "merged_ids": [
+      "ent_ibsen20__4_doc_3_chunk_0_part_5_ent_006",
+      "ent_ibsen20__4_doc_3_chunk_0_part_4_ent_015"
+    ]
+  }
+]

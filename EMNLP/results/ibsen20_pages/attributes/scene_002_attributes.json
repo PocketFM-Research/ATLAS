@@ -1,0 +1,32 @@
+{
+  "Asha": {
+    "role": "estate inventory lead",
+    "occupation": "probate professional"
+  },
+  "Daniel": {
+    "kinship": "mother's child",
+    "has_siblings": "Lucia and Rosa"
+  },
+  "Lucia": {
+    "kinship": "mother's child",
+    "has_siblings": "Daniel and Rosa"
+  },
+  "Rosa": {
+    "kinship": "mother's child",
+    "has_siblings": "Daniel and Lucia"
+  },
+  "Miguel": {
+    "role": "old family friend",
+    "affiliated_with": "family"
+  },
+  "house": {
+    "identity_type": "family house",
+    "kinship": "mother's legacy"
+  },
+  "codicil": {
+    "locked_state": "missing"
+  },
+  "witness": {
+    "role": "recalled codicil witness"
+  }
+}

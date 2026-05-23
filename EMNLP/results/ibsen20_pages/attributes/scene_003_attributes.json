@@ -1,0 +1,77 @@
+{
+  "Asha": {
+    "identity_type": "person",
+    "kinship": "Daniel's sibling",
+    "has_siblings": "yes",
+    "kinship_to_mother": "daughter",
+    "holds_position_on_house": "opposes sale without clarity",
+    "concern": "missing codicil",
+    "values": "mother's wishes"
+  },
+  "Daniel": {
+    "identity_type": "person",
+    "kinship": "Asha's sibling",
+    "has_siblings": "yes",
+    "kinship_to_mother": "son",
+    "holds_position_on_house": "wants house sold",
+    "financial_state": "financially strained",
+    "sacrificed_for": "family"
+  },
+  "house": {
+    "identity_type": "place",
+    "type": "family house",
+    "affiliated_with": "mother's legacy"
+  },
+  "codicil": {
+    "identity_type": "object",
+    "type": "missing codicil",
+    "condition": "missing"
+  },
+  "Lucia": {
+    "identity_type": "person",
+    "kinship_to_mother": "daughter",
+    "holds": "letter",
+    "uses": "envelopes",
+    "belief": "mother left clues"
+  },
+  "Rosa": {
+    "identity_type": "person",
+    "kinship_to_mother": "daughter",
+    "belief_about_mother": "hid papers unexpectedly"
+  },
+  "letter": {
+    "identity_type": "object",
+    "type": "mother's letter",
+    "holds_possible": "true wishes"
+  },
+  "envelopes": {
+    "identity_type": "object",
+    "count": "multiple",
+    "origin_of_object": "left by mother"
+  },
+  "mother": {
+    "identity_type": "person",
+    "life_status": "dead",
+    "has_children": "yes",
+    "values": "love and unity",
+    "distinguishing_feature": "strength and resilience",
+    "uses": "sewing supplies to hide papers"
+  },
+  "sewing baskets": {
+    "identity_type": "object",
+    "type": "possible hiding place",
+    "origin_of_object": "mother's sewing supplies"
+  },
+  "study": {
+    "identity_type": "place",
+    "uses": "estate paperwork storage"
+  },
+  "sewing room": {
+    "identity_type": "place",
+    "affiliated_with": "mother's spirit"
+  },
+  "estate file": {
+    "identity_type": "object",
+    "type": "estate file"
+  }
+}

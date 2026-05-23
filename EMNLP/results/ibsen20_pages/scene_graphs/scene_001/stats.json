@@ -1,0 +1,39 @@
+{
+  "movie_id": "ibsen20_pages__scene_1",
+  "title": "",
+  "node_count_total": 156,
+  "node_count_by_type": {
+    "Event": 88,
+    "Character": 8,
+    "Location": 6,
+    "Object": 14,
+    "Concept": 40
+  },
+  "edge_count_total": 218,
+  "edge_count_by_relation": {
+    "performs": 66,
+    "occurs_at": 39,
+    "located_at": 3,
+    "is_a": 30,
+    "precedes": 5,
+    "contrasts_with": 2,
+    "affiliated_with": 4,
+    "references": 9,
+    "experiences": 24,
+    "causes": 3,
+    "part_of": 8,
+    "affinity_with": 2,
+    "hostility_with": 4,
+    "kinship_with": 10,
+    "possesses": 2,
+    "undergoes": 2,
+    "occurs_after": 5
+  },
+  "nodes_with_evidence_pct": 100.0,
+  "edges_with_evidence_pct": 100.0,
+  "schema_violation_count": 0,
+  "avg_degree": 2.79,
+  "disconnected_component_count": 16,
+  "avg_aliases_per_node": 1.81,
+  "avg_edge_confidence": 0.842
+}

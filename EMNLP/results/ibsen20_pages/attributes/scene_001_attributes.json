@@ -1,0 +1,56 @@
+{
+  "Daniel": {
+    "kinship": "Lucia's sibling",
+    "has_siblings": "yes",
+    "kinship_to_Lucia": "sibling",
+    "kinship_to_Rosa": "child",
+    "kinship_to_deceased_mother": "child",
+    "life_status_of_mother": "deceased",
+    "money_amount": "debts",
+    "role": "estate heir"
+  },
+  "Asha": {
+    "role": "estate advisor"
+  },
+  "Lucia": {
+    "kinship": "Daniel's sibling",
+    "has_siblings": "yes",
+    "kinship_to_Daniel": "sibling",
+    "kinship_to_Rosa": "child",
+    "kinship_to_deceased_mother": "child",
+    "holds": "hidden letter"
+  },
+  "Rosa": {
+    "life_status": "deceased",
+    "kinship": "mother of Daniel and Lucia",
+    "has_children": "yes",
+    "occupation": "seamstress"
+  },
+  "Serrano row house": {
+    "type": "family home",
+    "affiliated_with": "Serrano family"
+  },
+  "sewing room": {
+    "type": "room"
+  },
+  "missing codicil": {
+    "type": "codicil",
+    "state": "missing"
+  },
+  "letter": {
+    "type": "letter",
+    "hidden_location": "box"
+  },
+  "box": {
+    "holds": "letter and photographs"
+  },
+  "formal inventory": {
+    "type": "estate inventory"
+  },
+  "Act 1": {
+    "count": "1"
+  },
+  "SCENE 1": {
+    "count": "1"
+  }
+}

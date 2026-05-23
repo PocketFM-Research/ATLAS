@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "decision": "reject",
+      "attribute": "life-status",
+      "prior_quote": "Scene 1 refers to \"Lucia's feelings\" and \"your mother's legacy,\" but never says Rosa is deceased.",
+      "later_quote": "Scene 2: \"Rosa: \\\"Lucia's right, Daniel...\\\"\"",
+      "reason": "fails B: scene 1 does not establish Rosa's life-status at all, so there is no prior value to contradict"
+    },
+    {
+      "index": 2,
+      "decision": "reject",
+      "attribute": "kinship",
+      "prior_quote": "Scene 1: Daniel and Lucia are discussed as children of the deceased mother; Rosa says, \"our mother's spirit\".",
+      "later_quote": "Scene 2 includes Rosa with Daniel and Lucia at the estate table, but does not call her their sibling.",
+      "reason": "fails C: no quote in scene 2 asserts a sibling relationship that contradicts scene 1"
+    },
+    {
+      "index": 3,
+      "decision": "reject",
+      "attribute": "role",
+      "prior_quote": "Scene 1: \"Asha... beside stacked banker boxes and a folder of probate papers before the formal inventory begins.\"",
+      "later_quote": "Scene 2: \"The dining room table has been turned into a temporary probate station... Asha begins the estate inventory\"",
+      "reason": "fails C: \"estate advisor\" and \"probate professional\" are compatible, not contradictory roles"
+    },
+    {
+      "index": 4,
+      "decision": "reject",
+      "attribute": "kinship/role",
+      "prior_quote": "Scene 2: \"Asha begins the estate inventory with Daniel, Lucia, and Rosa all present.\"",
+      "later_quote": "Scene 3: Asha says, \"our mother's legacy\" and \"what she truly wanted for us.\"",
+      "reason": "fails B: the prior quote is about Asha's function in the inventory, while the later quote is read as kinship; they are different attributes"
+    },
+    {
+      "index": 5,
+      "decision": "reject",
+      "attribute": "kinship/role",
+      "prior_quote": "Scene 2 presents Asha running probate matters: \"Let's proceed with the inventory\" and \"Let's arrange a meeting with the witness\".",
+      "later_quote": "Scene 3: Asha says, \"our mother's legacy\" and \"our mother's wishes\".",
+      "reason": "fails C: being a probate professional does not contradict also speaking as a daughter; no direct contradiction is stated"
+    },
+    {
+      "index": 6,
+      "decision": "reject",
+      "attribute": "kinship",
+      "prior_quote": "Scene 2: Asha says to Rosa, \"we owe it to your mother and to each other\".",
+      "later_quote": "Scene 3 contains no line where Lucia and Rosa say \"your mother\" to Asha; Asha herself says \"our mother's legacy.\"",
+      "reason": "fails A/B: the cited later wording is not present, and there is no matching contradictory kinship assertion"
+    },
+    {
+      "index": 7,
+      "decision": "reject",
+      "attribute": "document-count/type",
+      "prior_quote": "Scene 1: Lucia says, \"if only I could trust that revealing the letter wouldn't shatter everything we have left.\"",
+      "later_quote": "Scene 3: Lucia says, \"Let's begin with these envelopes\" and later, \"let's open this first letter\".",
+      "reason": "fails C: a hidden letter earlier is compatible with later handling multiple envelopes and letters"
+    },
+    {
+      "index": 8,
+      "decision": "reject",
+      "attribute": "container-contents",
+      "prior_quote": "Scene 1: Rosa says, \"each letter and photograph could be a thread connecting us to her legacy.\"",
+      "later_quote": "Scene 3: Lucia says, \"Let's begin with these envelopes, Rosa.\"",
+      "reason": "fails C: envelopes are compatible with a box containing letters and photographs; no contradiction is stated"
+    },
+    {
+      "index": 9,
+      "decision": "reject",
+      "attribute": "life-status/kinship",
+      "prior_quote": "Scene 1 never says Rosa is the deceased mother; the deceased is referred to as \"your mother\" and named Lucia by Asha and Daniel.",
+      "later_quote": "Scene 4: Rosa speaks repeatedly, e.g. \"Daniel, those words carry the weight of our mother's love.\"",
+      "reason": "fails A/B: scene 1 does not establish Rosa as the deceased mother, so there is no same-entity same-attribute contradiction"
+    },
+    {
+      "index": 10,
+      "decision": "reject",
+      "attribute": "kinship/role",
+      "prior_quote": "Scene 3: Asha says, \"our mother's legacy\".",
+      "later_quote": "Scene 4 presents Asha as mediator, e.g. \"let's schedule a meeting with the witness\".",
+      "reason": "fails B: the prior quote concerns implied kinship language, while the later quote concerns mediator role; different attributes"
+    },
+    {
+      "index": 11,
+      "decision": "reject",
+      "attribute": "document-identity",
+      "prior_quote": "Scene 3: Lucia says, \"let's open this first letter\" and stage direction says they \"prepare to open the first envelope.\"",
+      "later_quote": "Scene 4: Lucia says, \"I found a letter, and it speaks to her wishes.\"",
+      "reason": "fails C: opening an envelope in scene 3 is compatible with later revealing that she found a letter"
+    },
+    {
+      "index": 12,
+      "decision": "reject",
+      "attribute": "object-focus",
+      "prior_quote": "Scene 1: Rosa says of the box, \"each letter and photograph could be a thread connecting us to her legacy.\"",
+      "later_quote": "Scene 4: Rosa says, \"she would often mention the importance of those keys\".",
+      "reason": "fails B: the prior quote is about where letters/photographs are, while the later quote is about keys; different attributes"
+    }
+  ]
+}

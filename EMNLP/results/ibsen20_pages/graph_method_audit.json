@@ -1,0 +1,418 @@
+{
+  "per_scene_proposal_stats": [
+    {
+      "scene_number": 2,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 5,
+      "proposals_added": 5,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 3,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 6,
+      "proposals_added": 6,
+      "exact_duplicates_dropped": 0
+    },
+    {
+      "scene_number": 4,
+      "candidate_facts_count": 25,
+      "raw_findings_count": 4,
+      "proposals_added": 4,
+      "exact_duplicates_dropped": 0
+    }
+  ],
+  "raw_proposals": [
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Rosa is deceased",
+      "event": "Rosa appears alive and speaks with the family",
+      "text": "In scene 1, Rosa is deceased was established, yet in scene 2, Rosa appears alive and speaks with the family happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Rosa is mother of Daniel and Lucia",
+      "event": "Rosa is treated as Daniel and Lucia's sibling",
+      "text": "In scene 1, Rosa is mother of Daniel and Lucia was established, yet in scene 2, Rosa is treated as Daniel and Lucia's sibling happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Daniel has siblings",
+      "event": "Daniel is said to have Lucia and Rosa as siblings",
+      "text": "In scene 1, Daniel has siblings was established, yet in scene 2, Daniel is said to have Lucia and Rosa as siblings happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Lucia has siblings",
+      "event": "Lucia is said to have Daniel and Rosa as siblings",
+      "text": "In scene 1, Lucia has siblings was established, yet in scene 2, Lucia is said to have Daniel and Rosa as siblings happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "fact": "Asha is the estate advisor",
+      "event": "Asha is described as a probate professional",
+      "text": "In scene 1, Asha is the estate advisor was established, yet in scene 2, Asha is described as a probate professional happens",
+      "proposed_at_scene_y": 2
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "fact": "Asha is the estate inventory lead",
+      "event": "Asha is treated as Daniel's sibling",
+      "text": "In scene 2, Asha is the estate inventory lead was established, yet in scene 3, Asha is treated as Daniel's sibling happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "fact": "Daniel's siblings are Lucia and Rosa",
+      "event": "Daniel is treated as Asha's sibling",
+      "text": "In scene 2, Daniel's siblings are Lucia and Rosa was established, yet in scene 3, Daniel is treated as Asha's sibling happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "fact": "Asha is a probate professional",
+      "event": "Asha is treated as the mother's daughter",
+      "text": "In scene 2, Asha is a probate professional was established, yet in scene 3, Asha is treated as the mother's daughter happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "fact": "the mother is kin to Daniel, Lucia, Rosa, and Asha",
+      "event": "Lucia and Rosa call her your mother",
+      "text": "In scene 2, the mother is kin to Daniel, Lucia, Rosa, and Asha was established, yet in scene 3, Lucia and Rosa call her your mother happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "fact": "Lucia holds a hidden letter",
+      "event": "Lucia handles multiple envelopes and letters",
+      "text": "In scene 1, Lucia holds a hidden letter was established, yet in scene 3, Lucia handles multiple envelopes and letters happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "fact": "the box holds letters and photographs",
+      "event": "Lucia uses envelopes without prior setup",
+      "text": "In scene 1, the box holds letters and photographs was established, yet in scene 3, Lucia uses envelopes without prior setup happens",
+      "proposed_at_scene_y": 3
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "fact": "Rosa is the deceased mother",
+      "event": "Rosa appears as Lucia and Daniel's sister",
+      "text": "In scene 1, Rosa is the deceased mother was established, yet in scene 4, Rosa appears as Lucia and Daniel's sister happens",
+      "proposed_at_scene_y": 4
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "fact": "Asha is Daniel's sibling",
+      "event": "Asha is presented only as a mediator",
+      "text": "In scene 3, Asha is Daniel's sibling was established, yet in scene 4, Asha is presented only as a mediator happens",
+      "proposed_at_scene_y": 4
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "fact": "Lucia opened the first envelope",
+      "event": "Lucia newly reveals finding a letter",
+      "text": "In scene 3, Lucia opened the first envelope was established, yet in scene 4, Lucia newly reveals finding a letter happens",
+      "proposed_at_scene_y": 4
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "fact": "the hidden letter was in a box",
+      "event": "important keys are invoked without prior setup",
+      "text": "In scene 1, the hidden letter was in a box was established, yet in scene 4, important keys are invoked without prior setup happens",
+      "proposed_at_scene_y": 4
+    }
+  ],
+  "dedupe_log": [
+    {
+      "raw_proposal_index": 0,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Rosa is deceased was established, yet in scene 2, Rosa appears alive and speaks with the family happens"
+    },
+    {
+      "raw_proposal_index": 1,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Rosa is mother of Daniel and Lucia was established, yet in scene 2, Rosa is treated as Daniel and Lucia's sibling happens"
+    },
+    {
+      "raw_proposal_index": 2,
+      "decision": "drop",
+      "duplicate_of_raw_index": 1,
+      "reason": "shared entity ['daniel', 'lucia', 'rosa'] + jaccard 0.33",
+      "text": "In scene 1, Daniel has siblings was established, yet in scene 2, Daniel is said to have Lucia and Rosa as siblings happens"
+    },
+    {
+      "raw_proposal_index": 3,
+      "decision": "drop",
+      "duplicate_of_raw_index": 1,
+      "reason": "shared entity ['daniel', 'lucia', 'rosa'] + jaccard 0.33",
+      "text": "In scene 1, Lucia has siblings was established, yet in scene 2, Lucia is said to have Daniel and Rosa as siblings happens"
+    },
+    {
+      "raw_proposal_index": 4,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Asha is the estate advisor was established, yet in scene 2, Asha is described as a probate professional happens"
+    },
+    {
+      "raw_proposal_index": 5,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Asha is the estate inventory lead was established, yet in scene 3, Asha is treated as Daniel's sibling happens"
+    },
+    {
+      "raw_proposal_index": 6,
+      "decision": "drop",
+      "duplicate_of_raw_index": 5,
+      "reason": "shared entity ['asha', 'daniel'] + jaccard 0.45",
+      "text": "In scene 2, Daniel's siblings are Lucia and Rosa was established, yet in scene 3, Daniel is treated as Asha's sibling happens"
+    },
+    {
+      "raw_proposal_index": 7,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, Asha is a probate professional was established, yet in scene 3, Asha is treated as the mother's daughter happens"
+    },
+    {
+      "raw_proposal_index": 8,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 2, the mother is kin to Daniel, Lucia, Rosa, and Asha was established, yet in scene 3, Lucia and Rosa call her your mother happens"
+    },
+    {
+      "raw_proposal_index": 9,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Lucia holds a hidden letter was established, yet in scene 3, Lucia handles multiple envelopes and letters happens"
+    },
+    {
+      "raw_proposal_index": 10,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, the box holds letters and photographs was established, yet in scene 3, Lucia uses envelopes without prior setup happens"
+    },
+    {
+      "raw_proposal_index": 11,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, Rosa is the deceased mother was established, yet in scene 4, Rosa appears as Lucia and Daniel's sister happens"
+    },
+    {
+      "raw_proposal_index": 12,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, Asha is Daniel's sibling was established, yet in scene 4, Asha is presented only as a mediator happens"
+    },
+    {
+      "raw_proposal_index": 13,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 3, Lucia opened the first envelope was established, yet in scene 4, Lucia newly reveals finding a letter happens"
+    },
+    {
+      "raw_proposal_index": 14,
+      "decision": "keep",
+      "duplicate_of_raw_index": null,
+      "reason": "",
+      "text": "In scene 1, the hidden letter was in a box was established, yet in scene 4, important keys are invoked without prior setup happens"
+    }
+  ],
+  "verification_log": [
+    {
+      "proposal_index": 1,
+      "proposal_text": "In scene 1, Rosa is deceased was established, yet in scene 2, Rosa appears alive and speaks with the family happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails B: scene 1 does not establish Rosa's life-status at all, so there is no prior value to contradict",
+      "attribute": "life-status",
+      "prior_quote": "Scene 1 refers to \"Lucia's feelings\" and \"your mother's legacy,\" but never says Rosa is deceased.",
+      "later_quote": "Scene 2: \"Rosa: \\\"Lucia's right, Daniel...\\\"\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: scene 1 does not establish Rosa's life-status at all, so there is no prior value to contradict"
+    },
+    {
+      "proposal_index": 2,
+      "proposal_text": "In scene 1, Rosa is mother of Daniel and Lucia was established, yet in scene 2, Rosa is treated as Daniel and Lucia's sibling happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails C: no quote in scene 2 asserts a sibling relationship that contradicts scene 1",
+      "attribute": "kinship",
+      "prior_quote": "Scene 1: Daniel and Lucia are discussed as children of the deceased mother; Rosa says, \"our mother's spirit\".",
+      "later_quote": "Scene 2 includes Rosa with Daniel and Lucia at the estate table, but does not call her their sibling.",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: no quote in scene 2 asserts a sibling relationship that contradicts scene 1"
+    },
+    {
+      "proposal_index": 3,
+      "proposal_text": "In scene 1, Asha is the estate advisor was established, yet in scene 2, Asha is described as a probate professional happens",
+      "scene_x": 1,
+      "scene_y": 2,
+      "model_decision": "reject",
+      "model_reason": "fails C: \"estate advisor\" and \"probate professional\" are compatible, not contradictory roles",
+      "attribute": "role",
+      "prior_quote": "Scene 1: \"Asha... beside stacked banker boxes and a folder of probate papers before the formal inventory begins.\"",
+      "later_quote": "Scene 2: \"The dining room table has been turned into a temporary probate station... Asha begins the estate inventory\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: \"estate advisor\" and \"probate professional\" are compatible, not contradictory roles"
+    },
+    {
+      "proposal_index": 4,
+      "proposal_text": "In scene 2, Asha is the estate inventory lead was established, yet in scene 3, Asha is treated as Daniel's sibling happens",
+      "scene_x": 2,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails B: the prior quote is about Asha's function in the inventory, while the later quote is read as kinship; they are different attributes",
+      "attribute": "kinship/role",
+      "prior_quote": "Scene 2: \"Asha begins the estate inventory with Daniel, Lucia, and Rosa all present.\"",
+      "later_quote": "Scene 3: Asha says, \"our mother's legacy\" and \"what she truly wanted for us.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the prior quote is about Asha's function in the inventory, while the later quote is read as kinship; they are different attributes"
+    },
+    {
+      "proposal_index": 5,
+      "proposal_text": "In scene 2, Asha is a probate professional was established, yet in scene 3, Asha is treated as the mother's daughter happens",
+      "scene_x": 2,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails C: being a probate professional does not contradict also speaking as a daughter; no direct contradiction is stated",
+      "attribute": "kinship/role",
+      "prior_quote": "Scene 2 presents Asha running probate matters: \"Let's proceed with the inventory\" and \"Let's arrange a meeting with the witness\".",
+      "later_quote": "Scene 3: Asha says, \"our mother's legacy\" and \"our mother's wishes\".",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: being a probate professional does not contradict also speaking as a daughter; no direct contradiction is stated"
+    },
+    {
+      "proposal_index": 6,
+      "proposal_text": "In scene 2, the mother is kin to Daniel, Lucia, Rosa, and Asha was established, yet in scene 3, Lucia and Rosa call her your mother happens",
+      "scene_x": 2,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails A/B: the cited later wording is not present, and there is no matching contradictory kinship assertion",
+      "attribute": "kinship",
+      "prior_quote": "Scene 2: Asha says to Rosa, \"we owe it to your mother and to each other\".",
+      "later_quote": "Scene 3 contains no line where Lucia and Rosa say \"your mother\" to Asha; Asha herself says \"our mother's legacy.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails A/B: the cited later wording is not present, and there is no matching contradictory kinship assertion"
+    },
+    {
+      "proposal_index": 7,
+      "proposal_text": "In scene 1, Lucia holds a hidden letter was established, yet in scene 3, Lucia handles multiple envelopes and letters happens",
+      "scene_x": 1,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails C: a hidden letter earlier is compatible with later handling multiple envelopes and letters",
+      "attribute": "document-count/type",
+      "prior_quote": "Scene 1: Lucia says, \"if only I could trust that revealing the letter wouldn't shatter everything we have left.\"",
+      "later_quote": "Scene 3: Lucia says, \"Let's begin with these envelopes\" and later, \"let's open this first letter\".",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: a hidden letter earlier is compatible with later handling multiple envelopes and letters"
+    },
+    {
+      "proposal_index": 8,
+      "proposal_text": "In scene 1, the box holds letters and photographs was established, yet in scene 3, Lucia uses envelopes without prior setup happens",
+      "scene_x": 1,
+      "scene_y": 3,
+      "model_decision": "reject",
+      "model_reason": "fails C: envelopes are compatible with a box containing letters and photographs; no contradiction is stated",
+      "attribute": "container-contents",
+      "prior_quote": "Scene 1: Rosa says, \"each letter and photograph could be a thread connecting us to her legacy.\"",
+      "later_quote": "Scene 3: Lucia says, \"Let's begin with these envelopes, Rosa.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: envelopes are compatible with a box containing letters and photographs; no contradiction is stated"
+    },
+    {
+      "proposal_index": 9,
+      "proposal_text": "In scene 1, Rosa is the deceased mother was established, yet in scene 4, Rosa appears as Lucia and Daniel's sister happens",
+      "scene_x": 1,
+      "scene_y": 4,
+      "model_decision": "reject",
+      "model_reason": "fails A/B: scene 1 does not establish Rosa as the deceased mother, so there is no same-entity same-attribute contradiction",
+      "attribute": "life-status/kinship",
+      "prior_quote": "Scene 1 never says Rosa is the deceased mother; the deceased is referred to as \"your mother\" and named Lucia by Asha and Daniel.",
+      "later_quote": "Scene 4: Rosa speaks repeatedly, e.g. \"Daniel, those words carry the weight of our mother's love.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails A/B: scene 1 does not establish Rosa as the deceased mother, so there is no same-entity same-attribute contradiction"
+    },
+    {
+      "proposal_index": 10,
+      "proposal_text": "In scene 3, Asha is Daniel's sibling was established, yet in scene 4, Asha is presented only as a mediator happens",
+      "scene_x": 3,
+      "scene_y": 4,
+      "model_decision": "reject",
+      "model_reason": "fails B: the prior quote concerns implied kinship language, while the later quote concerns mediator role; different attributes",
+      "attribute": "kinship/role",
+      "prior_quote": "Scene 3: Asha says, \"our mother's legacy\".",
+      "later_quote": "Scene 4 presents Asha as mediator, e.g. \"let's schedule a meeting with the witness\".",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the prior quote concerns implied kinship language, while the later quote concerns mediator role; different attributes"
+    },
+    {
+      "proposal_index": 11,
+      "proposal_text": "In scene 3, Lucia opened the first envelope was established, yet in scene 4, Lucia newly reveals finding a letter happens",
+      "scene_x": 3,
+      "scene_y": 4,
+      "model_decision": "reject",
+      "model_reason": "fails C: opening an envelope in scene 3 is compatible with later revealing that she found a letter",
+      "attribute": "document-identity",
+      "prior_quote": "Scene 3: Lucia says, \"let's open this first letter\" and stage direction says they \"prepare to open the first envelope.\"",
+      "later_quote": "Scene 4: Lucia says, \"I found a letter, and it speaks to her wishes.\"",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails C: opening an envelope in scene 3 is compatible with later revealing that she found a letter"
+    },
+    {
+      "proposal_index": 12,
+      "proposal_text": "In scene 1, the hidden letter was in a box was established, yet in scene 4, important keys are invoked without prior setup happens",
+      "scene_x": 1,
+      "scene_y": 4,
+      "model_decision": "reject",
+      "model_reason": "fails B: the prior quote is about where letters/photographs are, while the later quote is about keys; different attributes",
+      "attribute": "object-focus",
+      "prior_quote": "Scene 1: Rosa says of the box, \"each letter and photograph could be a thread connecting us to her legacy.\"",
+      "later_quote": "Scene 4: Rosa says, \"she would often mention the importance of those keys\".",
+      "final_decision": "rejected",
+      "reason": "model rejected: fails B: the prior quote is about where letters/photographs are, while the later quote is about keys; different attributes"
+    }
+  ],
+  "summary": {
+    "raw_proposals": 15,
+    "after_dedupe": 12,
+    "confirmed": 0,
+    "final_detections": 0
+  }
+}
