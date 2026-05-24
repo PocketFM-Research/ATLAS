@@ -1,31 +1,4 @@
 #!/usr/bin/env python3
-"""
-End-to-end scene-graph temporal hallucination evaluation.
-
-For each case:
-  1. Load the movie/story.
-  2. Build one knowledge graph per scene.
-  3. Run the graph_verifier over ordered scene graphs.
-  4. Run the LLM judge baseline (same Azure GPT-5.4 mini config).
-  5. Compare both methods to gold annotations.
-  6. Save per-case + aggregate metrics.
-
-Usage — single case:
-    python3 run_scene_graph_hallucination_eval.py \\
-        --movie_dir English/synthetic_hallucination_001 \\
-        --annotations English/synthetic_hallucination_001/annotations.json \\
-        --output_dir movie_results/synthetic_hallucination_001 \\
-        --model azure_openai --model_name gpt-5.4-mini \\
-        --api_key_file openai.txt --base_url_file base_url.txt
-
-Usage — batch via manifest:
-    python3 run_scene_graph_hallucination_eval.py \\
-        --manifest synthetic_hallucination_cases.json \\
-        --output_dir movie_results/synthetic_hallucination_batch \\
-        --model azure_openai --model_name gpt-5.4-mini \\
-        --api_key_file openai.txt --base_url_file base_url.txt
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -40,22 +13,22 @@ from typing import Any, Dict, List, Optional
 # Ensure package is importable when run from project root
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from stage_kg.evaluation.graph_by_graph.attribute_extractor import extract_all_scene_attributes
-from stage_kg.evaluation.graph_by_graph.graph_verifier import (
+from ATLAS.evaluation.attribute_extractor import extract_all_scene_attributes
+from ATLAS.evaluation.graph_verifier import (
     _verify_against_full_text,
     load_scene_graphs,
     verify_scene_graphs,
 )
-from stage_kg.evaluation.graph_by_graph.hallucination_metrics import (
+from ATLAS.evaluation.hallucination_metrics import (
     DEFAULT_THRESHOLD,
     aggregate_metrics,
     compute_metrics,
 )
-from stage_kg.evaluation.graph_by_graph.llm_judge_hallucination import run_llm_judge
-from stage_kg.ingest.loader import load_movie
-from stage_kg.llm import get_llm
-from stage_kg.pipeline import run_pipeline_per_scene
-from stage_kg.utils.logging_utils import setup_logging
+from ATLAS.evaluation.llm_judge_hallucination import run_llm_judge
+from ATLAS.ingest.loader import load_movie
+from ATLAS.llm import get_llm
+from ATLAS.pipeline import run_pipeline_per_scene
+from ATLAS.utils.logging_utils import setup_logging
 
 
 GRAPH_METHOD_NAME = "graph_verifier"
@@ -272,8 +245,6 @@ def process_case(
             llm=llm,
             output_dir=output_dir,
             skip_normalization=args.skip_normalization,
-            api_key=args.api_key
-            or (_read_text_file(args.api_key_file) if args.api_key_file else None),
         )
     elif args.skip_graph_method:
         logger.info("Skipping graph construction (--skip_graph_method).")

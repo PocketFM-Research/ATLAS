@@ -1,13 +1,3 @@
-"""
-Generate interactive HTML visualizations of a STAGE knowledge graph.
-
-Produces one HTML page per scene plus a full-graph page, using D3.js
-force-directed layout. Output directory: output/<movie_id>/viz/
-
-Usage:
-    python visualize_graph.py --graph output/<movie_id>/final_graph.json
-"""
-
 import argparse
 import json
 import html as html_lib

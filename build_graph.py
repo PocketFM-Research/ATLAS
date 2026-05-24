@@ -1,37 +1,4 @@
 #!/usr/bin/env python3
-"""
-STAGE Knowledge Graph Builder — main CLI entry point.
-
-Usage:
-    python build_graph.py --input_dir /path/to/STAGE --output_dir ./output --model anthropic
-
-    # Process a single movie by ID:
-    python build_graph.py --input_dir . --output_dir ./output --model openai \
-        --movie_ids en04052c0f20834cf1bac19927d8f758e0
-
-    # Use a local vLLM endpoint:
-    python build_graph.py --input_dir . --output_dir ./output \
-        --model vllm --model_name mistralai/Mistral-7B-Instruct-v0.2 \
-        --base_url http://localhost:8000/v1
-
-    # Use Azure OpenAI (GPT-5.4 mini):
-    python build_graph.py --input_dir . --output_dir ./output \
-        --model azure_openai --model_name gpt-5.4-mini \
-        --api_key_file openai.txt --base_url_file base_url.txt
-
-    # Skip LLM merge adjudication (faster):
-    python build_graph.py --input_dir . --output_dir ./output --model anthropic \
-        --skip_normalization
-
-    # Process only first N scenes (for quick testing):
-    python build_graph.py --input_dir . --output_dir ./output --model anthropic \
-        --movie_ids en04052c0f20834cf1bac19927d8f758e0 --max_scenes 5
-
-    # Build one graph per scene (per-scene mode):
-    python build_graph.py --input_dir . --output_dir ./output --model azure_openai \
-        --movie_ids my_story --per_scene
-"""
-
 import argparse
 import logging
 import os
@@ -41,10 +8,10 @@ from pathlib import Path
 # Ensure package is importable when run from project root
 sys.path.insert(0, str(Path(__file__).parent))
 
-from stage_kg.ingest.loader import load_movie, load_all_movies
-from stage_kg.llm import get_llm
-from stage_kg.pipeline import run_pipeline, run_pipeline_per_scene
-from stage_kg.utils.logging_utils import setup_logging
+from ATLAS.ingest.loader import load_movie, load_all_movies
+from ATLAS.llm import get_llm
+from ATLAS.pipeline import run_pipeline, run_pipeline_per_scene
+from ATLAS.utils.logging_utils import setup_logging
 
 
 def parse_args() -> argparse.Namespace:
@@ -196,7 +163,7 @@ def main() -> None:
             for lang, lang_dir in [("en", "English"), ("zh", "Chinese")]:
                 movie_dir = args.input_dir / lang_dir / mid
                 if movie_dir.exists():
-                    from stage_kg.ingest.loader import load_movie
+                    from ATLAS.ingest.loader import load_movie
                     import csv
                     csv_map = {"en": "english_movie_info.csv", "zh": "chinese_movie_info.csv"}
                     csv_path = args.input_dir / csv_map[lang]
@@ -240,7 +207,6 @@ def main() -> None:
                     llm=llm,
                     output_dir=args.output_dir,
                     skip_normalization=args.skip_normalization,
-                    api_key=api_key,
                 )
             else:
                 run_pipeline(
@@ -248,7 +214,6 @@ def main() -> None:
                     llm=llm,
                     output_dir=args.output_dir,
                     skip_normalization=args.skip_normalization,
-                    api_key=api_key,
                 )
         except Exception as e:
             logger.error("Pipeline failed for %s: %s", movie.movie_id, e, exc_info=True)
