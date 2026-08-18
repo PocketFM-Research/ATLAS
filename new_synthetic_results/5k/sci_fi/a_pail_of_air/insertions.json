@@ -1,0 +1,100 @@
+{
+  "story_id": "befbd270ccb59942c487104978f95446867b1e94",
+  "total_scenes": 8,
+  "target_insertions": 5,
+  "plan": {
+    "easy": 2,
+    "medium": 2,
+    "hard": 1
+  },
+  "insertions": [
+    {
+      "id": 1,
+      "anchor_entity": "dark star",
+      "anchor_scene": 1,
+      "anchor_quote": "The dark star passed, bringing with it\n                eternal night and turning history into\n                incredible myth in a single generation!",
+      "anchor_context": "The dark star passed, bringing with it\n                eternal night and turning history into\n                incredible myth in a single generation!\n\n\nDad had sent me out to get an extra pail of air. I'd just about scooped\nit full and most of the warmth had leaked from my fingers when I saw\nthe thing.",
+      "violation_scene": 3,
+      "violation_quote_original": "Some of them are on a\nslant, for many of the buildings are pretty badly twisted by the quakes\nand all the rest that happened when the dark star captured the Tellus.",
+      "violation_quote_edited": "Some of them are on a\nslant, for many of the buildings are pretty badly twisted by the quakes\nand all the rest that happened when the bright moon captured the Tellus.",
+      "violation_context": "Some taller buildings push up out of the feathery plain, topped\nby rounded caps of air crystals, like the fur hood Mom wears, only\nwhiter. On those buildings you can see the darker squares of windows,\nunderlined by white dashes of air crystals. Some of them are on a\nslant, for many of the buildings are pretty badly twisted by the quakes\nand all the rest that happened when the dark star captured the Tellus.\n\nHere and there a few icicles hang, water icicles from the first days\nof the cold, other icicles of frozen air that melted on the roofs and\ndripped and froze again. Sometimes one of those icicles will catch the\nlight of a star and send it to you so brightly you think the star has\nswooped into the city.",
+      "char_offset": 11430,
+      "words_changed": 2,
+      "fact": "The catastrophe is caused by a dark star; later it is a bright moon.",
+      "difficulty": "easy",
+      "difficulty_reason": "The cosmic object changes explicitly.",
+      "severity": "major",
+      "severity_reason": "The physical premise breaks.",
+      "scene_distance": 2,
+      "other_mentions": []
+    },
+    {
+      "id": 2,
+      "anchor_entity": "Dad's pail",
+      "anchor_scene": 1,
+      "anchor_quote": "Dad had sent me out to get an extra pail of air.",
+      "anchor_context": "The dark star passed, bringing with it\n                eternal night and turning history into\n                incredible myth in a single generation!\n\n\nDad had sent me out to get an extra pail of air. I'd just about scooped\nit full and most of the warmth had leaked from my fingers when I saw\nthe thing.\n\nYou know, at first I thought it was a young lady.",
+      "violation_scene": 2,
+      "violation_quote_original": "He was sitting just that way now, though he got up quick to take the\npail from me and bawl me out for loitering--he'd spotted my frozen\nhelmet right off.",
+      "violation_quote_edited": "He was sitting just that way now, though he got up quick to take the\nlantern from me and bawl me out for loitering--he'd spotted my frozen\nhelmet right off.",
+      "violation_context": "I always think\nof him that way: a tall man sitting cross-legged, frowning anxiously\nat the fire, his lined face golden in its light, and every so often\ncarefully placing on it a piece of coal from the big heap beside it. Dad\ntells me there used to be guardians of the fire sometimes in the very\nold days--vestal virgins, he calls them--although there was unfrozen\nair all around then and you didn't really need one.\n\nHe was sitting just that way now, though he got up quick to take the\npail from me and bawl me out for loitering--he'd spotted my frozen\nhelmet right off. That roused Mom and she joined in picking on me. She's\nalways trying to get the load off her feelings, Dad explains.",
+      "char_offset": 3908,
+      "words_changed": 1,
+      "fact": "The needed object is a pail of air; later Dad takes a lantern.",
+      "difficulty": "easy",
+      "difficulty_reason": "The object changes directly.",
+      "severity": "moderate",
+      "severity_reason": "The survival routine becomes confused.",
+      "scene_distance": 1,
+      "other_mentions": []
+    },
+    {
+      "id": 3,
+      "anchor_entity": "hammer by hand",
+      "anchor_scene": 6,
+      "anchor_quote": "Dad's voice stopped and his eyes turned to\nthe widening slit and his hand went out until it touched and gripped\nthe handle of the hammer beside him.",
+      "anchor_context": "But then the blanket actually did move and lift. And there was a bright\nlight somewhere behind it. Dad's voice stopped and his eyes turned to\nthe widening slit and his hand went out until it touched and gripped\nthe handle of the hammer beside him.\n\n\nIn through the blanket stepped the beautiful young lady. She stood\nthere looking at us the strangest way, and she carried something\nbright and unwinking in her hand.",
+      "violation_scene": 7,
+      "violation_quote_original": "In through the blanket stepped the beautiful young lady.",
+      "violation_quote_edited": "In through the blanket crawled the beautiful young lady.",
+      "violation_context": "And there was a bright\nlight somewhere behind it. Dad's voice stopped and his eyes turned to\nthe widening slit and his hand went out until it touched and gripped\nthe handle of the hammer beside him.\n\n\nIn through the blanket stepped the beautiful young lady. She stood\nthere looking at us the strangest way, and she carried something\nbright and unwinking in her hand. And two other faces peered over her\nshoulders--men's faces, white and staring.",
+      "char_offset": 23735,
+      "words_changed": 1,
+      "fact": "Dad is prepared with a hammer for an intruder; later the entry action implies a different threat posture.",
+      "difficulty": "medium",
+      "difficulty_reason": "The detector must relate the defensive setup to the actual entry.",
+      "severity": "moderate",
+      "severity_reason": "The confrontation's blocking changes.",
+      "scene_distance": 1,
+      "other_mentions": []
+    },
+    {
+      "id": 4,
+      "anchor_entity": "waiting ten years",
+      "anchor_scene": 8,
+      "anchor_quote": "I'll be twenty in only ten years.",
+      "anchor_context": "I guess he's right. You think the beautiful young lady will wait for me\ntill I grow up? I'll be twenty in only ten years.",
+      "violation_scene": 8,
+      "violation_quote_original": "You think the beautiful young lady will wait for me\ntill I grow up?",
+      "violation_quote_edited": "You think the beautiful young lady will forget for me\ntill I grow up?",
+      "violation_context": "Now it'll be good to have a real huge world again,\nthe way it was in the beginning.\"\n\nI guess he's right. You think the beautiful young lady will wait for me\ntill I grow up? I'll be twenty in only ten years.",
+      "char_offset": 30330,
+      "words_changed": 1,
+      "fact": "The narrator hopes the young lady will wait ten years; later she will forget him.",
+      "difficulty": "hard",
+      "difficulty_reason": "The contradiction is about the narrator's final hope and future expectation.",
+      "severity": "major",
+      "severity_reason": "The ending's emotional premise is reversed.",
+      "scene_distance": 0,
+      "other_mentions": []
+    }
+  ],
+  "dropped": [
+    {
+      "reason": "anchor and violation quote are identical for 4"
+    },
+    {
+      "reason": "produced 4 of target 5; remaining slots left empty because no additional distinct narration-only cascade-safe facts were curated"
+    }
+  ]
+}

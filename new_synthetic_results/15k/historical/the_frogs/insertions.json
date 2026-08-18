@@ -1,0 +1,100 @@
+{
+  "story_id": "6fc88efa5357b958b072332a14efd3e33cf4e4c0",
+  "total_scenes": 14,
+  "target_insertions": 8,
+  "plan": {
+    "easy": 3,
+    "medium": 3,
+    "hard": 2
+  },
+  "insertions": [
+    {
+      "id": 1,
+      "anchor_entity": "Xanthias's burden",
+      "anchor_scene": 1,
+      "anchor_quote": "Aye, what you will, except _I'm getting crushed:_ Fight shy\n  of that: I'm sick of that already.",
+      "anchor_context": "Shall I crack any of those old jokes, master,\n  At which the audience never fail to laugh?\n\n  MENEDEMOS. Aye, what you will, except _I'm getting crushed:_ Fight shy\n  of that: I'm sick of that already.\n\n  SOS. Nothing else smart?",
+      "violation_scene": 2,
+      "violation_quote_original": "now I declare I've got a bump upon my rump.",
+      "violation_quote_edited": "now I declare I've got a crown upon my rump.",
+      "violation_context": "O, dear! O dear! now I declare I've got a bump upon my rump.\n\n  FR. Brekekekon, krax, krax.",
+      "char_offset": 11451,
+      "words_changed": 1,
+      "fact": "The servant complains of physical burden; later the injury becomes a royal crown.",
+      "difficulty": "easy",
+      "difficulty_reason": "The bodily consequence is explicitly changed.",
+      "severity": "minor",
+      "severity_reason": "A comic physical detail changes.",
+      "scene_distance": 1,
+      "other_mentions": []
+    },
+    {
+      "id": 2,
+      "anchor_entity": "route to Avernus",
+      "anchor_scene": 2,
+      "anchor_quote": "And tell me this: of all the roads you\n  know\n  Which is the quickest way to get to Avernus?",
+      "anchor_context": "MEN. O drop that, can't you? And tell me this: of all the roads you\n  know\n  Which is the quickest way to get to Avernus? I want one not too warm, nor\n  yet too cold.\n\n  HER.",
+      "violation_scene": 3,
+      "violation_quote_original": "Lo, the mead is blazing brightly,\n    Age forgets its years and sadness,\n    Aged knees curvet for gladness,\n    Lift thy flashing torches o'er us,\n    Marshal all thy blameless train,\n    Lead, O lead the way before us;\n    lead the lovely youthful Chorus\n    To the marshy flowery plain.",
+      "violation_quote_edited": "Lo, the mead is blazing brightly,\n    Age forgets its years and sadness,\n    Aged knees curvet for gladness,\n    Lift thy flashing torches o'er us,\n    Marshal all thy blameless train,\n    Lead, O lead the way before us;\n    lead the lovely youthful Chorus\n    To the mountain flowery plain.",
+      "violation_context": "O Euanthes!\n    Morning Star that shinest nightly.\n    Lo, the mead is blazing brightly,\n    Age forgets its years and sadness,\n    Aged knees curvet for gladness,\n    Lift thy flashing torches o'er us,\n    Marshal all thy blameless train,\n    Lead, O lead the way before us;\n    lead the lovely youthful Chorus\n    To the marshy flowery plain.\n\n  _(The warning-off of the profane.)_\n\n  All evil thoughts and profane be still: far hence, far hence from our\n       choirs depart,\n  Who knows not well what the Initiates tell, or is not holy and pure of\n       heart;\n  Who ne'er has the noble revelry learned, or danced the dance of the\n       Muses high;\n  Or shared in the Bacchic rites which old bull-eating Cratinus's words\n       supply;\n  Who vulgar coarse buffoonery loves, though all untimely the jests they\n       make;\n  Or lives not easy and kind with all, or kindling faction forbears to\n       slake,\n  But fans the fire, from a base desire some pitiful gain for himself to\n       reap;\n  Or takes, in office, his gifts and bribes, while the city is tossed on\n       the stormy deep;\n  Who fort or fleet to the foe betrays; or, a vile Thorycion, ships away\n  Forbidden stores from Aegina's shores, to Epidaurus across the Bay\n  Transmitting oarpads and sails and tar, that curst collector of five\n       per cents;\n  The knave who tries to procure supplies for the use of the enemy's\n       armaments;\n  The Cyclian singer who dares befoul the Lady Hecate's wayside shrine;\n  The public speaker who once lampooned in our Bacchic feast, would, with\n       heart malign,\n  Keep nibbling away the Comedians' pay;--to these I utter my warning\n       cry,\n  I charge them once, I charge them twice, I charge them thrice, that\n       they draw not nigh\n  To the sacred dance of the Mystic choir.",
+      "char_offset": 17061,
+      "words_changed": 1,
+      "fact": "The choral destination is a marshy plain; later it becomes mountainous.",
+      "difficulty": "easy",
+      "difficulty_reason": "The landscape attribute changes plainly.",
+      "severity": "minor",
+      "severity_reason": "The chorus setting shifts.",
+      "scene_distance": 1,
+      "other_mentions": []
+    },
+    {
+      "id": 3,
+      "anchor_entity": "Orthros threat",
+      "anchor_scene": 1,
+      "anchor_quote": "But tell me truly--'twas for this I came\n  Dressed up to mimic you--what friends received\n  And entertained you when you went below\n  To bring back Orthros, in case I need them.",
+      "anchor_context": "But never a word of me.\n\n  MEN. But tell me truly--'twas for this I came\n  Dressed up to mimic you--what friends received\n  And entertained you when you went below\n  To bring back Orthros, in case I need them.\n  And tell me too the havens, fountains, shops,\n  Roads, resting-places, stews, refreshment rooms,\n  Towns, lodgings, hostesses, with whom were found\n  The fewest bugs.\n\n  SOS.",
+      "violation_scene": 4,
+      "violation_quote_original": "I'll speed a running foot to fetch them hither.",
+      "violation_quote_edited": "I'll speed a running foot to dismiss them hither.",
+      "violation_context": "But now I've got thee fast.\n  So close the Styx's inky-hearted rock,\n  The blood-bedabbled peak of Acheron\n  Shall hem thee in: the hell-hounds of Cocytus\n  Prowl round thee; whilst the hundred-headed Asp\n  Shall rive thy heart-strings: the Tartesian Lamprey,\n  Prey on thy lungs: and those Tithrasian Gorgons\n  Mangle and tear thy kidneys, mauling them,\n  Entrails and all, into one bloody mash.\n  I'll speed a running foot to fetch them hither.\n\n  SOS. Hallo!",
+      "char_offset": 23571,
+      "words_changed": 1,
+      "fact": "A hellish threat is summoned; later the messenger is told to dismiss it.",
+      "difficulty": "medium",
+      "difficulty_reason": "The detector must connect the threat setup to the instruction.",
+      "severity": "moderate",
+      "severity_reason": "The intimidation scene loses its force.",
+      "scene_distance": 3,
+      "other_mentions": []
+    },
+    {
+      "id": 4,
+      "anchor_entity": "journey purpose",
+      "anchor_scene": 2,
+      "anchor_quote": "You are really game to go?",
+      "anchor_context": "But never a word of me.\n\n  HER. You are really game to go?\n\n  MEN. O drop that, can't you?",
+      "violation_scene": 14,
+      "violation_quote_original": "Let Timokles now and his band\n  Battle, if battle they must, far away in their own fatherland.",
+      "violation_quote_edited": "Let Timokles now and his band\n  Battle, if battle they must, far away in their own marketplace.",
+      "violation_context": "First, as the poet triumphant is passing away to the light,\n  Grant him success on his journey, ye powers that are ruling below.\n  Grant that he find for the city good counsels to guide her aright;\n  So we at last shall be freed from the anguish, the fear, and the woe,\n  Freed from the onsets of war. Let Timokles now and his band\n  Battle, if battle they must, far away in their own fatherland.",
+      "char_offset": 82078,
+      "words_changed": 1,
+      "fact": "The journey is to the underworld and political restoration; the final destination becomes a marketplace.",
+      "difficulty": "hard",
+      "difficulty_reason": "The contradiction is thematic and distant from the setup.",
+      "severity": "major",
+      "severity_reason": "The play's civic resolution no longer follows.",
+      "scene_distance": 12,
+      "other_mentions": []
+    }
+  ],
+  "dropped": [
+    {
+      "reason": "spec dropped: Expected at least one hit for 'Euripides does not exist', found 0"
+    },
+    {
+      "reason": "produced 4 of target 8; remaining slots left empty because no additional distinct narration-only cascade-safe facts were curated"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "story_id": "e7598e595c6dd58166b88f92a5723e63f3d93b78",
+  "total_scenes": 9,
+  "target_insertions": 5,
+  "plan": {
+    "easy": 2,
+    "medium": 2,
+    "hard": 1
+  },
+  "insertions": [
+    {
+      "id": 1,
+      "anchor_entity": "temple guest",
+      "anchor_scene": 2,
+      "anchor_quote": "I live in this temple.",
+      "anchor_context": "I am\n     a Rajanya.\n\n\n     Honoured sir, you are my guest.  I live in this temple.  I know\n     not in what way I can show you hospitality.\n\n\n     Fair lady, the very sight of you is indeed the highest\n     hospitality.",
+      "violation_scene": 9,
+      "violation_quote_original": "Perhaps you will remember the\n     day when a woman came to you in the temple of Mahadeva, her body\n     loaded with ornaments and finery.",
+      "violation_quote_edited": "Perhaps you will remember the\n     day when a woman came to you in the market of Mahadeva, her body\n     loaded with ornaments and finery.",
+      "violation_context": "If the flower-service is finished, my master, accept\n     this as your servant for the days to come!\n\n     I am Malini, the king's daughter.  Perhaps you will remember the\n     day when a woman came to you in the temple of Mahadeva, her body\n     loaded with ornaments and finery.  That shameless woman came to\n     court you as though she were a man.  You rejected her; you did\n     well.",
+      "char_offset": 32903,
+      "words_changed": 1,
+      "fact": "The meeting place is a temple; later it becomes a market.",
+      "difficulty": "easy",
+      "difficulty_reason": "The location changes directly.",
+      "severity": "minor",
+      "severity_reason": "The remembered encounter shifts setting.",
+      "scene_distance": 7,
+      "other_mentions": []
+    },
+    {
+      "id": 2,
+      "anchor_entity": "one-year charm",
+      "anchor_scene": 1,
+      "anchor_quote": "Not for the short span of a day, but for one whole year the charm\n     of spring blossoms shall nestle round thy limbs.",
+      "anchor_context": "Give me but one\n     brief day of perfect beauty, and I will answer for the days that\n     follow.\n\n\n     Lady, I grant thy prayer.\n\n\n     Not for the short span of a day, but for one whole year the charm\n     of spring blossoms shall nestle round thy limbs.\n\n\nSCENE II\n\n\n     WAS I dreaming or was what I saw by the lake truly there?",
+      "violation_scene": 5,
+      "violation_quote_original": "Pleasure-winged days\n     fly fast, and the year, almost at its end, swoons in rapturous\n     bliss.",
+      "violation_quote_edited": "Pleasure-winged days\n     fly fast, and the month, almost at its end, swoons in rapturous\n     bliss.",
+      "violation_context": "Things that thou for days buildest up\n     with endless detail thou dost shatter in a moment without regret.\n     But this work of ours is nearly finished.  Pleasure-winged days\n     fly fast, and the year, almost at its end, swoons in rapturous\n     bliss.\n\n\nSCENE VI\n\n\n     I WOKE in the morning and found that my dreams had distilled a\n     gem.",
+      "char_offset": 19999,
+      "words_changed": 1,
+      "fact": "The divine charm lasts one year; later its term is a month.",
+      "difficulty": "medium",
+      "difficulty_reason": "The detector must track elapsed magical duration.",
+      "severity": "moderate",
+      "severity_reason": "The time pressure changes.",
+      "scene_distance": 4,
+      "other_mentions": []
+    }
+  ],
+  "dropped": [
+    {
+      "reason": "duplicate violation_scene: 9"
+    },
+    {
+      "reason": "anchor and violation quote are identical for 4"
+    },
+    {
+      "reason": "duplicate violation_scene: 9"
+    },
+    {
+      "reason": "produced 2 of target 5; remaining slots left empty because no additional distinct narration-only cascade-safe facts were curated"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "story_id": "a21137785e9a0e86d9cefd3fda385199fd9da232",
+  "path": "/Users/muhammadh./Desktop/Personal/MAGNET-ATLAS/ATLAS/new_synthetic_results/5k/fantasy/the_witch_of_atlas",
+  "length_bucket": "5k",
+  "genre": "fantasy",
+  "wiki_title": "The Witch of Atlas",
+  "total_scenes": 8,
+  "computed_target_insertions": 5,
+  "insertions_produced": 4,
+  "valid_insertions": 2,
+  "invalid_insertions": 2,
+  "invalid_by_reason": {
+    "violation_scene_not_after_anchor_scene": 2
+  },
+  "surviving_difficulty_counts": {
+    "easy": 1,
+    "medium": 1,
+    "hard": 0
+  },
+  "surviving_severity_counts": {
+    "minor": 2,
+    "moderate": 0,
+    "major": 0
+  },
+  "has_hard_major": false,
+  "has_easy_minor": true,
+  "hard_distance_only_fraction": 0.0,
+  "hard_distance_only_flag": false,
+  "hard_distance_only_insertion_ids": [],
+  "mean_scene_distance_valid": 2.5,
+  "hallucinated_verification": {
+    "passed": false,
+    "failures": [
+      "hallucinated.txt differs from renamed.txt outside valid edited sentences"
+    ],
+    "renamed_word_count": 5507,
+    "hallucinated_word_count": 5507,
+    "word_count_delta": 0,
+    "path": "/Users/muhammadh./Desktop/Personal/MAGNET-ATLAS/ATLAS/new_synthetic_results/5k/fantasy/the_witch_of_atlas/hallucinated.txt"
+  },
+  "insertions": [
+    {
+      "id": 1,
+      "anchor_entity": "vision's wings",
+      "anchor_scene": 1,
+      "anchor_quote": "To thy fair feet a winged Vision came,\n Whose date should have been longer than a day,\n And o'er thy head did beat its wings for fame,\n And in thy sight its fading plumes display;                   _20\n The watery bow burned in the evening flame.",
+      "anchor_context": "Thou knowest 'tis its doom to die,\n When Day shall hide within her twilight pinions\n The lucent eyes, and the eternal smile,                       _15\n Serene as thine, which lent it life awhile.\n\n 3.\n To thy fair feet a winged Vision came,\n Whose date should have been longer than a day,\n And o'er thy head did beat its wings for fame,\n And in thy sight its fading plumes display;                   _20\n The watery bow burned in the evening flame.\n But the shower fell, the swift Sun went his way--\n And that is dead.--O, let me not believe\n That anything of mine is fit to live!\n\n 4.",
+      "violation_scene": 5,
+      "violation_quote_original": " With folded wings and unawakened eyes;",
+      "violation_quote_edited": " With folded roots and unawakened eyes;",
+      "violation_context": "_360\n\n 40.\n And ever as she went, the Image lay\n With folded wings and unawakened eyes;\n And o'er its gentle countenance did play\n The busy dreams, as thick as summer flies,\n Chasing the rapid smiles that would not stay,                 _365\n And drinking the warm tears, and the sweet sighs\n Inhaling, which, with busy murmur vain,\n They had aroused from that full heart and brain.\n\n 41.\n And ever down the prone vale, like a cloud\n Upon a stream of wind, the pinnace went:                      _370\n Now lingering on the pools, in which abode\n The calm and darkness of the deep content\n In which they paused; now o'er the shallow road\n Of white and dancing waters, all besprent\n With sand and polished pebbles:--mortal boat                  _375\n In such a shallow rapid could not float.",
+      "char_offset": 18059,
+      "words_changed": 1,
+      "fact": "The vision is winged; later it beats roots.",
+      "difficulty": "easy",
+      "difficulty_reason": "The physical attribute changes directly.",
+      "severity": "minor",
+      "severity_reason": "A poetic image becomes inconsistent.",
+      "scene_distance": 4,
+      "other_mentions": [],
+      "actual_words_changed": 1,
+      "normalized_anchor_entity": "vision s wings",
+      "valid": true,
+      "failing_checks": []
+    },
+    {
+      "id": 2,
+      "anchor_entity": "fountain trance",
+      "anchor_scene": 4,
+      "anchor_quote": " This lady never slept, but lay in trance                      _265",
+      "anchor_context": " 28.\n This lady never slept, but lay in trance                      _265\n All night within the fountain--as in sleep.\n Its emerald crags glowed in her beauty's glance;\n Through the green splendour of the water deep\n She saw the constellations reel and dance\n Like fire-flies--and withal did ever keep                     _270\n The tenour of her contemplations calm,\n With open eyes, closed feet, and folded palm.",
+      "violation_scene": 4,
+      "violation_quote_original": " All night within the fountain--as in sleep.",
+      "violation_quote_edited": " All night within the furnace--as in sleep.",
+      "violation_context": "The Enchantress beheld it not, for in her hand\n She held a woof that dimmed the burning brand.\n\n 28.\n This lady never slept, but lay in trance                      _265\n All night within the fountain--as in sleep.\n Its emerald crags glowed in her beauty's glance;\n Through the green splendour of the water deep\n She saw the constellations reel and dance\n Like fire-flies--and withal did ever keep                     _270\n The tenour of her contemplations calm,\n With open eyes, closed feet, and folded palm.\n\n 29.",
+      "char_offset": 13271,
+      "words_changed": 1,
+      "fact": "The lady lies in a fountain; later the place becomes a furnace.",
+      "difficulty": "easy",
+      "difficulty_reason": "The location/object changes explicitly.",
+      "severity": "moderate",
+      "severity_reason": "The image's physical setting becomes impossible.",
+      "scene_distance": 0,
+      "other_mentions": [],
+      "actual_words_changed": 1,
+      "normalized_anchor_entity": "fountain trance",
+      "valid": false,
+      "failing_checks": [
+        "violation_scene_not_after_anchor_scene"
+      ]
+    },
+    {
+      "id": 3,
+      "anchor_entity": "shooting star",
+      "anchor_scene": 5,
+      "anchor_quote": "Or, when the weary moon was in the wane,\n Or in the noon of interlunar night,\n The lady-Enchantress in visions could not chain\n Her spirit; but sailed forth under the light                  _420\n Of shooting stars, and bade extend amain\n Its storm-outspeeding wings, the Hermaphrodite;\n She to the Austral waters took her way,\n Beyond the fabulous Thamondocana,--",
+      "anchor_context": "The water flashed, like sunlight by the prow\n Of a noon-wandering meteor flung to Heaven;                   _410\n The still air seemed as if its waves did flow\n In tempest down the mountains; loosely driven\n The lady's radiant hair streamed to and fro:\n Beneath, the billows having vainly striven\n Indignant and impetuous, roared to feel                       _415\n The swift and steady motion of the keel.\n\n 47.\n Or, when the weary moon was in the wane,\n Or in the noon of interlunar night,\n The lady-Enchantress in visions could not chain\n Her spirit; but sailed forth under the light                  _420\n Of shooting stars, and bade extend amain\n Its storm-outspeeding wings, the Hermaphrodite;\n She to the Austral waters took her way,\n Beyond the fabulous Thamondocana,--\n\n 48.\n Where, like a meadow which no scythe has shaven,              _425\n Which rain could never bend, or whirl-blast shake,\n With the Antarctic constellations paven,\n Canopus and his crew, lay the Austral lake--\n There she would build herself a windless haven\n Out of the clouds whose moving turrets make                   _430\n The bastions of the storm, when through the sky\n The spirits of the tempest thundered by:",
+      "violation_scene": 6,
+      "violation_quote_original": " Circling the image of a shooting star,                        _450",
+      "violation_quote_edited": " Circling the image of a falling stone,                        _450",
+      "violation_context": "And whilst the outer lake beneath the lash\n Of the wind's scourge, foamed like a wounded thing,\n And the incessant hail with stony clash\n Ploughed up the waters, and the flagging wing\n Of the roused cormorant in the lightning flash                _445\n Looked like the wreck of some wind-wandering\n Fragment of inky thunder-smoke--this haven\n Was as a gem to copy Heaven engraven,--\n\n 51.\n On which that lady played her many pranks,\n Circling the image of a shooting star,                        _450\n Even as a tiger on Hydaspes' banks\n Outspeeds the antelopes which speediest are,\n In her light boat; and many quips and cranks\n She played upon the water, till the car\n Of the late moon, like a sick matron wan,                     _455\n To journey from the misty east began.\n\n 52.\n And then she called out of the hollow turrets\n Of those high clouds, white, golden and vermilion,\n The armies of her ministering spirits--\n In mighty legions, million after million,                     _460\n They came, each troop emblazoning its merits\n On meteor flags; and many a proud pavilion\n Of the intertexture of the atmosphere\n They pitched upon the plain of the calm mere.",
+      "char_offset": 22401,
+      "words_changed": 2,
+      "fact": "A shooting-star image is established; later the same figure becomes a falling stone.",
+      "difficulty": "medium",
+      "difficulty_reason": "The detector must connect material imagery across stanzas.",
+      "severity": "minor",
+      "severity_reason": "The symbolic object changes material.",
+      "scene_distance": 1,
+      "other_mentions": [],
+      "actual_words_changed": 2,
+      "normalized_anchor_entity": "shooting star",
+      "valid": true,
+      "failing_checks": []
+    },
+    {
+      "id": 4,
+      "anchor_entity": "final belief",
+      "anchor_scene": 8,
+      "anchor_quote": " Scarcely believe much more than we can see.",
+      "anchor_context": "_660\n Friends who, by practice of some envious skill,\n Were torn apart--a wide wound, mind from mind!--\n She did unite again with visions clear\n Of deep affection and of truth sincere.\n\n 80.\n These were the pranks she played among the cities             _665\n Of mortal men, and what she did to Sprites\n And Gods, entangling them in her sweet ditties\n To do her will, and show their subtle sleights,\n I will declare another time; for it is\n A tale more fit for the weird winter nights                   _670\n Than for these garish summer days, when we\n Scarcely believe much more than we can see.",
+      "violation_scene": 8,
+      "violation_quote_original": " A tale more fit for the weird winter nights                   _670",
+      "violation_quote_edited": " A tale more fit for the weird summer nights                   _670",
+      "violation_context": "_660\n Friends who, by practice of some envious skill,\n Were torn apart--a wide wound, mind from mind!--\n She did unite again with visions clear\n Of deep affection and of truth sincere.\n\n 80.\n These were the pranks she played among the cities             _665\n Of mortal men, and what she did to Sprites\n And Gods, entangling them in her sweet ditties\n To do her will, and show their subtle sleights,\n I will declare another time; for it is\n A tale more fit for the weird winter nights                   _670\n Than for these garish summer days, when we\n Scarcely believe much more than we can see.",
+      "char_offset": 33361,
+      "words_changed": 1,
+      "fact": "The poem contrasts winter nights with garish summer days; later winter is made summer.",
+      "difficulty": "hard",
+      "difficulty_reason": "The contradiction depends on the closing contrast across the poem.",
+      "severity": "major",
+      "severity_reason": "The final seasonal opposition collapses.",
+      "scene_distance": 0,
+      "other_mentions": [],
+      "actual_words_changed": 1,
+      "normalized_anchor_entity": "final belief",
+      "valid": false,
+      "failing_checks": [
+        "violation_scene_not_after_anchor_scene"
+      ]
+    }
+  ]
+}

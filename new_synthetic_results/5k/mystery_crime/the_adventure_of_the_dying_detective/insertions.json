@@ -1,0 +1,100 @@
+{
+  "story_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+  "total_scenes": 8,
+  "target_insertions": 5,
+  "plan": {
+    "easy": 2,
+    "medium": 2,
+    "hard": 1
+  },
+  "insertions": [
+    {
+      "id": 1,
+      "anchor_entity": "contagion by touch",
+      "anchor_scene": 2,
+      "anchor_quote": "\"Contagious by touch, Bennett--that's it, by touch.",
+      "anchor_context": "It is\ninfallibly deadly, and it is horribly contagious.\"\n\nHe spoke now with a feverish energy, the long hands twitching and\njerking as he motioned me away.\n\n\"Contagious by touch, Bennett--that's it, by touch.  Keep your distance\nand all is well.\"\n\n\"Good heavens, Hale!",
+      "violation_scene": 2,
+      "violation_quote_original": "Keep your distance\nand all is well.\"",
+      "violation_quote_edited": "Keep your handshake\nand all is well.\"",
+      "violation_context": "He spoke now with a feverish energy, the long hands twitching and\njerking as he motioned me away.\n\n\"Contagious by touch, Bennett--that's it, by touch.  Keep your distance\nand all is well.\"\n\n\"Good heavens, Hale!  Do you suppose that such a consideration weighs\nwith me of an instant?",
+      "char_offset": 4312,
+      "words_changed": 1,
+      "fact": "The illness is dangerous by touch; later safety depends on a handshake.",
+      "difficulty": "medium",
+      "difficulty_reason": "The detector must infer why distance matters.",
+      "severity": "major",
+      "severity_reason": "The fake medical danger becomes incoherent.",
+      "scene_distance": 0,
+      "other_mentions": []
+    },
+    {
+      "id": 2,
+      "anchor_entity": "Roderick's address",
+      "anchor_scene": 3,
+      "anchor_quote": "Roderick Vane, of 13 Lower Fenwick Street.\"",
+      "anchor_context": "Good!  You can now go and fetch Mr.\nRoderick Vane, of 13 Lower Fenwick Street.\"\n\nTo tell the truth, my desire to fetch a doctor had somewhat weakened,\nfor poor Hale was so obviously delirious that it seemed dangerous to\nleave him.  However, he was as eager now to consult the person named as\nhe had been obstinate in refusing.",
+      "violation_scene": 4,
+      "violation_quote_original": "\"Yes, Mr. Roderick Vane is in.  Dr. Bennett!  Very good, sir, I will",
+      "violation_quote_edited": "\"Yes, Mr. Roderick Harker is in.  Dr. Bennett!  Very good, sir, I will",
+      "violation_context": "\"Yes, Mr. Roderick Vane is in.  Dr. Bennett!  Very good, sir, I will\ntake up your card.\"",
+      "char_offset": 15525,
+      "words_changed": 1,
+      "fact": "Roderick is sent for at Lower Fenwick Street; later the answering servant names a different Roderick.",
+      "difficulty": "easy",
+      "difficulty_reason": "The named resident changes directly.",
+      "severity": "moderate",
+      "severity_reason": "The visit scene cannot proceed normally.",
+      "scene_distance": 1,
+      "other_mentions": []
+    },
+    {
+      "id": 3,
+      "anchor_entity": "Felix Darrow's death",
+      "anchor_scene": 6,
+      "anchor_quote": "\"Well, about Felix Darrow's death.",
+      "anchor_context": "Only cure me, and I'll\nforget it.\"\n\n\"Forget what?\"\n\n\"Well, about Felix Darrow's death.  You as good as admitted just now\nthat you had done it.  I'll forget it.\"",
+      "violation_scene": 7,
+      "violation_quote_original": "\"I arrest you on the charge of the murder of one Felix Darrow,\" he\nconcluded.",
+      "violation_quote_edited": "\"I arrest you on the charge of the wedding of one Felix Darrow,\" he\nconcluded.",
+      "violation_context": "\"All is in order and this is your man,\" said Hale.\n\nThe officer gave the usual cautions.\n\n\"I arrest you on the charge of the murder of one Felix Darrow,\" he\nconcluded.\n\n\"And you might add of the attempted murder of one Edmund Hale,\"\nremarked my friend with a chuckle.  \"To save an invalid trouble,\nInspector, Mr.",
+      "char_offset": 27574,
+      "words_changed": 1,
+      "fact": "Felix's death is a murder; later the charge becomes a wedding.",
+      "difficulty": "medium",
+      "difficulty_reason": "The reader must connect the earlier death allusion with the formal charge.",
+      "severity": "major",
+      "severity_reason": "The case's crime disappears.",
+      "scene_distance": 1,
+      "other_mentions": []
+    },
+    {
+      "id": 4,
+      "anchor_entity": "Hale's deception",
+      "anchor_scene": 8,
+      "anchor_quote": "It was very essential that I should\nimpress Mrs.",
+      "anchor_context": "\"I never needed it more,\" said Hale as he refreshed himself with a\nglass of claret and some biscuits in the intervals of his toilet.\n\"However, as you know, my habits are irregular, and such a feat means\nless to me than to most men.  It was very essential that I should\nimpress Mrs. Barlow with the reality of my condition, since she was to\nconvey it to you, and you in turn to him.  You won't be offended,\nBennett?",
+      "violation_scene": 8,
+      "violation_quote_original": "My dear\nBennett, I owe you a thousand apologies.",
+      "violation_quote_edited": "My dear\nBennett, I owe you a thousand accusations.",
+      "violation_context": "cried Hale.  \"I had totally forgotten him.  My dear\nBennett, I owe you a thousand apologies.  To think that I should have\noverlooked you!  I need not introduce you to Mr.",
+      "char_offset": 28733,
+      "words_changed": 1,
+      "fact": "Hale admits staging the illness to manipulate Bennett; later he treats Bennett as culpable.",
+      "difficulty": "hard",
+      "difficulty_reason": "The contradiction is in intent and interpersonal knowledge.",
+      "severity": "major",
+      "severity_reason": "The reveal no longer explains the deception.",
+      "scene_distance": 0,
+      "other_mentions": []
+    }
+  ],
+  "dropped": [
+    {
+      "reason": "violation in scene 1 for 1"
+    },
+    {
+      "reason": "produced 4 of target 5; remaining slots left empty because no additional distinct narration-only cascade-safe facts were curated"
+    }
+  ]
+}

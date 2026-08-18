@@ -1,0 +1,100 @@
+{
+  "story_id": "571556120960f1940d0aa86b07dab9f9be0ee182",
+  "total_scenes": 8,
+  "target_insertions": 5,
+  "plan": {
+    "easy": 2,
+    "medium": 2,
+    "hard": 1
+  },
+  "insertions": [
+    {
+      "id": 1,
+      "anchor_entity": "drawing-room piano",
+      "anchor_scene": 1,
+      "anchor_quote": "The door is near\nthe corner; and as he appears in the doorway, he has the fireplace on\nthe nearest wall to his right, and the grand piano along the opposite\nwall to his left.",
+      "anchor_context": "The curtains are drawn and the lamps\nlighted in the drawing room of Her flat in Ashburnham Road. Her lover, a\nbeautiful youth of eighteen, in evening dress and cape, with a bunch of\nflowers and an opera hat in his hands, comes in alone. The door is near\nthe corner; and as he appears in the doorway, he has the fireplace on\nthe nearest wall to his right, and the grand piano along the opposite\nwall to his left. Near the fireplace a small ornamental table has on it\na hand mirror, a fan, a pair of long white gloves, and a little white\nwoollen cloud to wrap a woman's head in. On the other side of the room,\nnear the piano, is a broad, square, softly up-holstered stool.",
+      "violation_scene": 3,
+      "violation_quote_original": "[She throws herself discontentedly into\nthe nearest seat, which happens to be the bench at the piano.",
+      "violation_quote_edited": "[She throws herself discontentedly into\nthe nearest seat, which happens to be the bench at the fireplace.",
+      "violation_context": "And I thought you were just\nlike Leonard. [Looking critically at him] Now that I come to look at you,\nyou are rather like him, too. [She throws herself discontentedly into\nthe nearest seat, which happens to be the bench at the piano. He goes to\nher].\n\nHE [very earnestly] Cecilia: if Seraphina had loved Leonard she would have\ngone out into the night with him without a moment's hesitation.",
+      "char_offset": 11673,
+      "words_changed": 1,
+      "fact": "The piano is on the left wall; later the piano bench is treated as the fireplace seat.",
+      "difficulty": "easy",
+      "difficulty_reason": "The room fixture is explicitly identified.",
+      "severity": "minor",
+      "severity_reason": "Only blocking in the drawing room is disturbed.",
+      "scene_distance": 2,
+      "other_mentions": []
+    },
+    {
+      "id": 2,
+      "anchor_entity": "Cecilia's diamonds",
+      "anchor_scene": 1,
+      "anchor_quote": "As she is dressed for the theatre; has spoilt, petted ways;\nand wears many diamonds, she has an air of being a young and beautiful\nwoman; but as a matter of hard fact, she is, dress and pretensions\napart, a very ordinary North Belgravia female of about 37, hopelessly\ninferior in physical and spiritual distinction to the beautiful youth,\nwho hastily puts down the mirror as she enters.",
+      "anchor_context": "He is, be it repeated, a very beautiful youth, moving as in a dream,\nwalking as on air. He puts his flowers down carefully on the table\nbeside the fan; takes off his cape, and, as there is no room on the\ntable for it, takes it to the piano; puts his hat on the cape; crosses\nto the hearth; looks at his watch; puts it up again; notices the things\non the table; lights up as if he saw heaven opening before him; goes to\nthe table and takes the cloud in both hands, nestling his nose into its\nsoftness and kissing it; kisses the gloves one after another; kisses the\nfan: gasps a long shuddering sigh of ecstasy; sits down on the stool and\npresses his hands to his eyes to shut out reality and dream a little;\ntakes his hands down and shakes his head with a little smile of rebuke\nfor his folly; catches sight of a speck of dust on his shoes and hastily\nand carefully brushes it off with his handkerchief; rises and takes\nthe hand mirror from the table to make sure of his tie with the gravest\nanxiety; and is looking at his watch again when She comes in, much\nflustered. As she is dressed for the theatre; has spoilt, petted ways;\nand wears many diamonds, she has an air of being a young and beautiful\nwoman; but as a matter of hard fact, she is, dress and pretensions\napart, a very ordinary North Belgravia female of about 37, hopelessly\ninferior in physical and spiritual distinction to the beautiful youth,\nwho hastily puts down the mirror as she enters.\n\nHE [kissing her hand] At last!\n\nSHE.",
+      "violation_scene": 2,
+      "violation_quote_original": "We shall go to the theatre\nstill; but we shall leave your diamonds here; for we cannot afford\ndiamonds, and do not need them.",
+      "violation_quote_edited": "We shall go to the theatre\nstill; but we shall leave your pearls here; for we cannot afford\ndiamonds, and do not need them.",
+      "violation_context": "We shall not depart by a hair's breadth from the ordinary natural\ncurrent of our lives. We were going to the theatre when the loss of the\npoems compelled us to take action at once. We shall go to the theatre\nstill; but we shall leave your diamonds here; for we cannot afford\ndiamonds, and do not need them.\n\nSHE [fretfully] I have told you already that I hate diamonds; only Percy\ninsists on hanging me all over with them. You need not preach simplicity\nto me.",
+      "char_offset": 9270,
+      "words_changed": 1,
+      "fact": "Cecilia is wearing diamonds; later those same jewels are pearls.",
+      "difficulty": "easy",
+      "difficulty_reason": "The jewelry type is stated plainly.",
+      "severity": "minor",
+      "severity_reason": "A costume detail changes.",
+      "scene_distance": 1,
+      "other_mentions": []
+    },
+    {
+      "id": 3,
+      "anchor_entity": "opera tickets",
+      "anchor_scene": 3,
+      "anchor_quote": "[He takes out two\nLyceum Rooms tickets].",
+      "anchor_context": "HE. I tried; but Tannhauser was sold out for to-night. [He takes out two\nLyceum Rooms tickets].\n\nSHE. Then what did you get?",
+      "violation_scene": 8,
+      "violation_quote_original": "I'm quoting\nthat beast of a play [he takes the Seraphina tickets out of his pocket and\ntears them up viciously].",
+      "violation_quote_edited": "I'm quoting\nthat beast of a play [he takes the Tannhauser tickets out of his pocket and\ntears them up viciously].",
+      "violation_context": "This morning I was eighteen. Now I am--confound it! I'm quoting\nthat beast of a play [he takes the Seraphina tickets out of his pocket and\ntears them up viciously].\n\nHER HUSBAND. What shall we call the volume?",
+      "char_offset": 35729,
+      "words_changed": 1,
+      "fact": "The tickets in play are for Seraphina; later the tickets are for Tannhauser.",
+      "difficulty": "medium",
+      "difficulty_reason": "The reader must track the prop through the argument.",
+      "severity": "moderate",
+      "severity_reason": "The quarrel over the outing loses its object.",
+      "scene_distance": 5,
+      "other_mentions": []
+    },
+    {
+      "id": 4,
+      "anchor_entity": "glove fastening",
+      "anchor_scene": 5,
+      "anchor_quote": "If I button my glove, and you were to hum a tune, don't\nyou think that--",
+      "anchor_context": "Go further away from\nme, quick. [He walks doggedly away from her until the piano prevents his\ngoing farther]. If I button my glove, and you were to hum a tune, don't\nyou think that--\n\nHE. The tableau would be complete in its guiltiness.",
+      "violation_scene": 6,
+      "violation_quote_original": "For Heaven's sake,\nMrs Langford, let that glove alone: you look like a pickpocket.",
+      "violation_quote_edited": "For Heaven's sake,\nMrs Langford, let that hat alone: you look like a pickpocket.",
+      "violation_context": "HE. The tableau would be complete in its guiltiness. For Heaven's sake,\nMrs Langford, let that glove alone: you look like a pickpocket.\n\nHer husband comes in: a robust, thicknecked, well groomed city man,\nwith a strong chin but a blithering eye and credulous mouth. He has a\nmomentous air, but shows no sign of displeasure: rather the contrary.",
+      "char_offset": 23399,
+      "words_changed": 1,
+      "fact": "The object being used for the tableau is a glove; later Percy calls it a hat.",
+      "difficulty": "medium",
+      "difficulty_reason": "The detector must follow the physical ruse across turns.",
+      "severity": "moderate",
+      "severity_reason": "The attempted cover story becomes incoherent.",
+      "scene_distance": 1,
+      "other_mentions": []
+    }
+  ],
+  "dropped": [
+    {
+      "reason": "duplicate violation_scene: 6"
+    },
+    {
+      "reason": "produced 4 of target 5; remaining slots left empty because no additional distinct narration-only cascade-safe facts were curated"
+    }
+  ]
+}

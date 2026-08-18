@@ -1,0 +1,59 @@
+Work in ./new_synthetic_results and do this for each of the 21 stories.
+
+Write and run a Python script that strips all non-narrative
+content. Do NOT rewrite or regenerate any text yourself. The
+script must only delete regions and leave remaining prose
+byte-identical.
+
+REMOVE
+1. Everything before the line matching:
+   *** START OF THE PROJECT GUTENBERG EBOOK ... ***
+   and everything after:
+   *** END OF THE PROJECT GUTENBERG EBOOK ... ***
+   Handle variants: "THIS PROJECT GUTENBERG EBOOK", differing
+   asterisk counts, and older files where the marker is
+   "*END*THE SMALL PRINT!" or similar.
+
+2. Front matter INSIDE those markers:
+   - title page / author / publisher / edition lines
+   - table of contents (a run of short lines, often with page
+     numbers or chapter names, no sentence punctuation)
+   - preface, foreword, introduction, translator's note,
+     dedication, epigraph attributed to a real person
+   - list of illustrations, list of characters
+   Narrative beginning at "CHAPTER I" or equivalent is the start
+   of the story. Keep everything from there.
+
+3. Back matter: transcriber's notes, footnote sections,
+   appendices, advertisements, "Other books by this author".
+
+4. Inline artifacts:
+   - illustration captions, e.g. [Illustration: ...]
+   - standalone page-number lines
+   - footnote markers and their bracketed text
+   - running headers repeated on every page
+
+DO NOT REMOVE
+- chapter headings (splitting depends on them)
+- epigraphs that are part of the fiction
+- any narrative prose, even if oddly formatted
+
+ALSO
+- normalize encoding to UTF-8, fix mojibake
+- collapse 3+ blank lines to 2, strip trailing spaces, keep
+  paragraph breaks
+- pick one line-break policy and apply it to every story
+
+OUTPUT per story folder:
+   cleaned.txt
+   clean_report.json:
+     {"story_id": "...", "raw_word_count": int,
+      "cleaned_word_count": int, "pct_removed": float,
+      "start_marker_found": bool, "end_marker_found": bool,
+      "front_matter_removed": ["table of contents", "preface"],
+      "first_200_chars": "...", "last_200_chars": "..."}
+
+Print a summary table and FLAG for manual review any story where:
+- pct_removed > 25% or < 2%
+- a marker was not found
+- first_200_chars does not look like narrative or a chapter heading

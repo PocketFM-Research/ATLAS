@@ -1,0 +1,60 @@
+{
+  "story_id": "fbbfafdd97567ddaadc565e18ac617703e1fed66",
+  "total_scenes": 9,
+  "target_insertions": 5,
+  "plan": {
+    "easy": 2,
+    "medium": 2,
+    "hard": 1
+  },
+  "insertions": [
+    {
+      "id": 1,
+      "anchor_entity": "square church",
+      "anchor_scene": 1,
+      "anchor_quote": "At right, in background,\na church.",
+      "anchor_context": "SCENE I.\n\nA public place or square in a Sicilian village. At right, in background,\na church. At left, the inn and dwelling of Nanna Grazia.\n\nTime, Easter morning.",
+      "violation_scene": 3,
+      "violation_quote_original": "(All enter the church, except Rosalia and Grazia.)",
+      "violation_quote_edited": "(All enter the inn, except Rosalia and Grazia.)",
+      "violation_context": "Let us sing of the Christ ever glorious;\n                  He is risen, in glory to reign.\n                      Praise the Lord.\n\n   (All enter the church, except Rosalia and Grazia.)\n\n(Il Coro esce, alcuni entrano in chiesa, altri prendone direzioni\ndiverse.)\n\n\nSCENA III.",
+      "char_offset": 10371,
+      "words_changed": 1,
+      "fact": "The square's church is established at the right; later the crowd enters the inn as if it were the church.",
+      "difficulty": "easy",
+      "difficulty_reason": "The same public building is explicitly named in both places.",
+      "severity": "minor",
+      "severity_reason": "The staging geography is wrong but the plot can still continue.",
+      "scene_distance": 2,
+      "other_mentions": []
+    },
+    {
+      "id": 2,
+      "anchor_entity": "Grazia's inn",
+      "anchor_scene": 1,
+      "anchor_quote": "At left, the inn and dwelling of Nanna Grazia.",
+      "anchor_context": "A public place or square in a Sicilian village. At right, in background,\na church. At left, the inn and dwelling of Nanna Grazia.\n\nTime, Easter morning.\n\n(Peasants, countrymen, country-women, and children, cross the stage.)",
+      "violation_scene": 9,
+      "violation_quote_original": "Grazia crosses and enters the inn.)",
+      "violation_quote_edited": "Grazia crosses and enters the church.)",
+      "violation_context": "CHORUS AND BRINDISI.\n\n(The people enter from the church. Grazia crosses and enters the inn.)\n\n _Chorus of men._\n\n                (sotto voce.)",
+      "char_offset": 27794,
+      "words_changed": 1,
+      "fact": "Grazia's dwelling is the inn; later she enters the church instead of that dwelling.",
+      "difficulty": "easy",
+      "difficulty_reason": "The object/place label changes directly.",
+      "severity": "minor",
+      "severity_reason": "A reader notices a staging mismatch.",
+      "scene_distance": 8,
+      "other_mentions": []
+    }
+  ],
+  "dropped": [
+    {
+      "reason": "duplicate violation_scene: 9"
+    },
+    {
+      "reason": "produced 2 of target 5; remaining slots left empty because no additional distinct narration-only cascade-safe facts were curated"
+    }
+  ]
+}

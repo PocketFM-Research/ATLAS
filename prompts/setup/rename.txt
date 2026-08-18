@@ -1,0 +1,50 @@
+Work in ./new_synthetic_results. Each story folder has cleaned.txt
+and scenes.json.
+
+For each story, two stages.
+
+STAGE 1 — build the mapping (read the story yourself)
+Identify every proper noun that could let a model recognize the
+source work:
+  - character names: surnames, titles, nicknames, diminutives,
+    and every form of address used in dialogue
+  - place names: towns, houses, estates, streets, regions
+  - organizations, ships, publications
+  - the work's title if it appears in the text
+
+Each replacement must be:
+  - era- and culture-appropriate to the setting
+  - the same register (a formal name stays formal)
+  - not a real famous name
+  - unique across the mapping
+
+Write entity_map.json:
+{
+  "story_id": "...",
+  "mappings": [
+    {"original": "Elizabeth Bennet",
+     "replacement": "Marianne Thorne",
+     "type": "character",
+     "variants": ["Elizabeth", "Lizzy", "Miss Bennet", "Bennet"],
+     "variant_replacements": ["Marianne", "Anne", "Miss Thorne", "Thorne"]}
+  ]
+}
+
+EVERY variant a character is referred to by must be listed.
+Missing one leaves the original name in the text.
+
+STAGE 2 — apply it (script, not by hand)
+Write and run a Python script applying entity_map.json to
+cleaned.txt:
+  - replace longest strings first ("Miss Bennet" before "Bennet")
+  - word-boundary matching; never replace inside other words
+  - preserve possessives: "Bennet's" -> "Thorne's"
+  - do NOT paraphrase, reflow, or alter any other text
+
+Write renamed.txt, then regenerate scenes.json against it so all
+offsets are correct.
+
+VERIFY
+Scan renamed.txt for any surviving original name or variant and
+report every hit. Report word count before and after — a large
+delta means something broke.

@@ -1,0 +1,48 @@
+Work in ./new_synthetic_results. Write and run a Python script
+that validates every insertions.json against renamed.txt and
+scenes.json.
+
+Mark an insertion INVALID if any of:
+  1. any other_mentions entry has still_conflicts: true
+  2. words_changed > 5, OR the actual word-level diff between
+     violation_quote_original and violation_quote_edited exceeds 5
+     (compute it, do not trust the reported field)
+  3. anchor_quote or violation_quote_original does not appear
+     verbatim in renamed.txt
+  4. two insertions in the same story share a violation_scene
+     (keep the first, invalidate the rest)
+  5. anchor_quote or violation_quote_original is wrapped in
+     quotation marks (dialogue, violating rule 3)
+  6. the quote is not found in the scene it claims
+  7. two insertions in the same story share an anchor_entity,
+     compared case-insensitively and ignoring articles
+     (keep the first, invalidate the rest)
+  8. violation_scene <= anchor_scene (a violation must come after
+     the fact it contradicts)
+  9. violation_scene == 1
+
+Also report, per story, WITHOUT invalidating:
+  - insertions produced vs. the scene-based target
+    (round(total_scenes * 0.6), clamped by length, capped at
+    total_scenes - 1)
+  - whether the surviving set still has at least one hard+major
+    and one easy+minor
+  - the fraction of hard items that qualify ONLY by scene distance
+    rather than by knowledge or motivation; flag the story if
+    that fraction exceeds 0.5
+
+Also verify hallucinated.txt for each story:
+  - every valid insertion's violation_quote_edited appears in it
+    exactly once
+  - no violation_quote_original from a valid insertion still
+    appears
+  - every anchor_quote still appears unchanged
+  - the diff against renamed.txt touches only the edited sentences
+Report any story where these fail.
+
+Write validated.json per story with each insertion tagged
+valid/invalid plus the failing check.
+
+Print a summary: total insertions, valid, invalid by reason, and
+the surviving difficulty/severity distribution per story, plus a
+corpus-wide total of valid items.

@@ -1,0 +1,35 @@
+Work in ./new_synthetic_results. Each story folder contains
+cleaned.txt.
+
+Write and run a Python script that segments every story into scenes.
+
+SEGMENTATION
+- Detect chapter headings by regex. Handle at minimum:
+  "CHAPTER I", "CHAPTER 1", "Chapter One", "CHAPTER I."
+  roman and arabic numerals, spelled-out numbers, optional titles
+  on the same or next line.
+- Fall back to blank-line + centered-asterisk section breaks
+  (***, * * *) if no chapter headings are found.
+- If neither is found, split on paragraph boundaries into chunks
+  of roughly equal size targeting 8-15 scenes. Mark the story
+  "heuristic_split".
+
+For each story write scenes.json:
+{
+  "story_id": "...",
+  "split_method": "chapter_heading|section_break|heuristic",
+  "total_scenes": int,
+  "scenes": [
+    {"scene": 1, "heading": "CHAPTER I" or null,
+     "char_start": int, "char_end": int,
+     "word_count": int, "text": "..."}
+  ]
+}
+
+char_start/char_end are offsets into cleaned.txt.
+
+Print a summary table: story_id, split_method, total_scenes, mean
+scene word count, min, max.
+
+FLAG for review any story with fewer than 5 scenes, more than 40,
+or a scene longer than 3x the median.

@@ -1,0 +1,261 @@
+You are constructing a benchmark for detecting narrative
+inconsistencies in long-form stories.
+
+BACKGROUND: what this benchmark is for
+We are evaluating a system called ATLAS that reads a story and
+flags places where the story contradicts itself. To measure
+whether ATLAS works, we need stories that contain contradictions
+we planted ourselves, so we know the correct answer.
+
+Your job is to plant those contradictions. You are taking
+coherent, human-written stories and deliberately breaking them in
+recorded, controlled ways. Each break you make is a benchmark
+item with a known location and a known correct answer.
+
+WHAT COUNTS AS A CONTRADICTION HERE
+We are inserting exactly one kind of error: a CONTINUITY ERROR.
+
+A continuity error is when the narrator establishes a fact early
+in the story, and later the narrator states or implies something
+incompatible with it, and nothing in the text reconciles the two.
+The world of the story has silently changed. This is the failure
+mode language models exhibit when generating long stories: they
+forget what they established and contradict themselves.
+
+This is NOT the same as any of the following, which occur
+naturally in fiction and must NOT be inserted:
+  - a CHARACTER saying something false (they are lying or
+    mistaken; the story is still consistent)
+  - an unreliable narrator, or a fact that is true only from one
+    character's perspective
+  - a delayed reveal or plot twist where the text later explains
+    why an earlier belief was wrong
+  - a change the text itself accounts for ("she had repainted it
+    since")
+
+If a reader could reconcile the two statements, it is not a
+continuity error and does not belong in this benchmark.
+
+═══════════════════════════════════════════════
+SETUP
+═══════════════════════════════════════════════
+Work in ./new_synthetic_results. Story folders are organized under
+length categories. Each story folder contains the entity-renamed
+text (renamed.txt) and scenes.json.
+
+Process each story ONE AT A TIME. Read the full text with its
+scene numbers, then produce insertions for that story before
+moving on.
+
+═══════════════════════════════════════════════
+HOW MANY INSERTIONS
+═══════════════════════════════════════════════
+Do NOT use a fixed count. Compute it from the story's total_scenes
+in scenes.json, because no two violations may share a scene:
+
+  target = round(total_scenes * 0.6)
+
+Then clamp by story length:
+  ~5k words   -> at most 8
+  ~10k words  -> at most 15
+  ~15k words  -> at most 20
+
+Hard ceiling: never exceed total_scenes - 1. Scene 1 can hold
+anchors but never violations, since every violation needs an
+earlier anchor.
+
+The 0.6 factor deliberately leaves ~40% of scenes untouched so the
+errors do not blanket the text.
+
+If the computed target is below 5, do NOT force insertions in.
+Report that story as "too few scenes" and move on.
+
+═══════════════════════════════════════════════
+HOW TO BUILD ONE INSERTION
+═══════════════════════════════════════════════
+Step 1. Find an ANCHOR: a fact stated by the narrator early in
+        the story. It must be concrete, unambiguous (one clear
+        value), and referenced again later in the text.
+
+Step 2. Find the LATER MENTION of that same fact.
+
+Step 3. Edit the later mention so it contradicts the anchor.
+        Change as few words as possible.
+
+Step 4. Search the ENTIRE story for every other place that fact
+        appears. If any other mention still asserts the original
+        value, your edit has created a second contradiction you
+        did not record, which would corrupt the benchmark. In
+        that case, discard the item and choose a different fact.
+
+Step 5. Rate its difficulty and severity, and record everything.
+
+═══════════════════════════════════════════════
+DIFFICULTY MIX -> required
+═══════════════════════════════════════════════
+Difficulty means: how much reasoning must a detector do to notice
+the contradiction? We need a spread so we can report which tiers
+ATLAS handles and which it misses.
+
+Target ~40% easy, ~40% medium, ~20% hard. Round to whole numbers.
+
+EASY
+  A single explicit attribute stated plainly in both places.
+  The detector sees "X is A" and later "X is B" with no reasoning
+  required.
+  e.g. an object's material or colour, a name, a possession
+
+MEDIUM
+  Requires inference across 2+ scenes. Nothing states A and B
+  side by side, so the detector must combine facts or do arithmetic.
+  e.g. ages, dates, elapsed time, counts of people; a stated
+       relationship that silently changes
+
+HARD
+  Requires tracking character interiority or knowledge across a
+  long span. Must satisfy AT LEAST ONE of:
+    - motivation or characterization contradicts what was
+      established
+    - a character acts on information they were never given
+    - anchor and violation are separated by more than half of
+      total_scenes
+  The contradiction must be IMPLIED, never stated outright.
+
+Do not make every hard item merely "far apart" as distance alone
+is the weakest form of hard. Prefer knowledge and motivation
+contradictions.
+
+═══════════════════════════════════════════════
+SEVERITY WEIGHTING -> required
+═══════════════════════════════════════════════
+Severity means: how much damage does this error do to the story?
+We report results both as raw counts and weighted by severity, so
+that a wrong hair colour is not scored the same as a resurrected
+character.
+
+  minor    (weight 1) cosmetic; a careful reader might not notice
+  moderate (weight 2) a scene stops making sense
+  major    (weight 3) the plot breaks (e.g. a dead character
+                      reappears alive; a destroyed object is used)
+
+Severity is INDEPENDENT of difficulty. An error can be very hard
+to detect but trivial in impact, or obvious but devastating. Do
+not let the two track each other; include at least one hard+major
+and at least one easy+minor per story.
+
+═══════════════════════════════════════════════
+SPREAD -> required
+═══════════════════════════════════════════════
+- Every insertion must use a different anchor fact AND a different
+  ENTITY. Do not break two facts about the same object, character,
+  or location; changing a coat's colour and then its fabric is
+  ONE entity and counts as reuse. Record the entity in the
+  "anchor_entity" field so duplicates can be checked automatically.
+- No two violations in the same scene.
+- Spread violations across the whole story; do not cluster them
+  in one region.
+- Vary scene_distance: some short-range, some long-range.
+
+If you run out of distinct entities before reaching the target
+count, STOP and return fewer. Never reuse an entity to fill quota.
+
+═══════════════════════════════════════════════
+RULES -> violating any of these ruins the item
+═══════════════════════════════════════════════
+1. MINIMAL EDIT. The edited sentence must differ from the original
+   by AT MOST 5 words. Do not rewrite or restyle the sentence.
+   Match the original register, era, and vocabulary exactly; if
+   the edited sentence reads like modern prose inside a 19th
+   century story, a detector can find it by style alone and the
+   item is worthless.
+2. NO EXPLANATION. Add nothing that justifies, softens, or
+   reconciles the change.
+3. NOT IN DIALOGUE. Both the anchor and the violation must be in
+   narration. If a character says it, they are merely mistaken,
+   which is a different category and not what we are testing.
+4. GENUINELY IMPOSSIBLE. If any plausible reading makes both
+   statements true, pick a different fact.
+5. CASCADE CHECK. Report every other mention of the fact in
+   other_mentions with still_conflicts set correctly. Any item
+   with a surviving conflicting mention is invalid.
+6. EXACT QUOTES. anchor_quote and violation_quote_original must be
+   copied verbatim from the story, character for character. These
+   are used to locate the edit in the file; an approximate quote
+   breaks the pipeline.
+7. ONE ENTITY PER INSERTION. anchor_entity must be unique within
+   the story.
+
+═══════════════════════════════════════════════
+OUTPUT: TWO FILES PER STORY
+═══════════════════════════════════════════════
+
+FILE 1: insertions.json (the answer key)
+{
+  "story_id": "...",
+  "total_scenes": int,
+  "target_insertions": int,
+  "plan": {"easy": int, "medium": int, "hard": int},
+  "insertions": [
+    {"id": int,
+     "anchor_entity": "the object, character, or location whose
+                       fact is being broken",
+     "anchor_scene": int,
+     "anchor_quote": "exact unmodified sentence",
+     "anchor_context": "2 sentences before and after",
+     "violation_scene": int,
+     "violation_quote_original": "exact unmodified sentence",
+     "violation_quote_edited": "your edited version",
+     "violation_context": "2 sentences before and after",
+     "char_offset": int,
+     "words_changed": int,
+     "fact": "one line: what was established, what now contradicts it",
+     "difficulty": "easy|medium|hard",
+     "difficulty_reason": "one line: why detecting this requires
+                           that tier's reasoning",
+     "severity": "minor|moderate|major",
+     "severity_reason": "one line: what a reader would notice",
+     "scene_distance": int,
+     "other_mentions": [
+       {"scene": int, "quote": "exact sentence", "still_conflicts": bool}
+     ]}
+  ],
+  "dropped": [{"reason": "..."}]
+}
+
+FILE 2: hallucinated.txt (the story with the errors applied)
+Write this in the SAME story folder, alongside renamed.txt.
+
+Produce it by taking renamed.txt and applying every insertion:
+replace each violation_quote_original with its
+violation_quote_edited. Apply the replacements from the END of the
+file backwards to the start, so that earlier character offsets stay
+valid as you go.
+
+hallucinated.txt must be byte-identical to renamed.txt EXCEPT for
+the edited sentences. Do not reformat, reflow, re-paragraph,
+normalize quotation marks, or alter whitespace anywhere. Do not
+regenerate the text from memory; copy it and patch it.
+
+After writing hallucinated.txt, verify it:
+  - every violation_quote_edited appears in it exactly once
+  - no violation_quote_original still appears
+  - every anchor_quote still appears unchanged
+  - the word count differs from renamed.txt by no more than
+    5 words per insertion
+Report any check that fails.
+
+CRITICAL: Do NOT modify renamed.txt. It is the clean control copy
+and must stay untouched. All edits go only into hallucinated.txt.
+
+═══════════════════════════════════════════════
+FINAL
+═══════════════════════════════════════════════
+Check every insertion against all seven rules before writing; put
+failures in "dropped" with the reason. If you cannot reach the
+target count for a story, return fewer and explain why. A smaller
+set of clean items is far better than padding with ambiguous ones.
+
+After all 21 stories, print a summary table: story_id,
+total_scenes, target, insertions produced, difficulty counts,
+severity counts, mean scene_distance, and whether the
+hallucinated.txt verification passed.
